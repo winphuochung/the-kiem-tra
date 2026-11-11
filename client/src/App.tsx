@@ -1478,7 +1478,7 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
           answered={answeredCount}
           totalStudents={students.length}
           students={students}
-          responses={currentResponses}
+          responses={respMap.get(currentQ.id)}
           onScan={() => setMode("scan")}
           onNext={() => goto(clampedIdx + 1)}
           isLast={clampedIdx >= questions.length - 1}
