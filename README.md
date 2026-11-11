@@ -28,7 +28,19 @@
 
 ---
 
-## 🚀 Hướng Dẫn Khởi Chạy
+## ☁️ Hướng Dẫn Đưa Lên Vercel (100% Tự Động)
+
+Dự án đã được cấu hình sẵn tệp [vercel.json](file:///d:/APP-HOC-TAP/the-kiem-tra/vercel.json) và cơ chế lưu trữ thích ứng (tự động chuyển đổi mượt mà giữa Server API và Local Storage trên trình duyệt của giáo viên):
+
+1. Đăng nhập vào [Vercel](https://vercel.com/) bằng tài khoản GitHub của bạn.
+2. Bấm **"Add New..."** → Chọn **"Project"**.
+3. Chọn kho chứa GitHub: **`winphuochung/the-kiem-tra`** và bấm **"Import"**.
+4. Vercel sẽ tự động phát hiện Framework: **Vite**, thư mục xuất: **`dist`**.
+5. Bấm **"Deploy"** — Chỉ mất khoảng 30 giây là trang web sẽ hoạt động trực tuyến với tên miền miễn phí dạng `https://the-kiem-tra.vercel.app`!
+
+---
+
+## 🚀 Hướng Dẫn Khởi Chạy Cục Bộ (Localhost)
 
 ### 1. Khởi động ứng dụng
 Trong thư mục dự án `d:\APP-HOC-TAP\the-kiem-tra`, mở terminal (PowerShell hoặc CMD) và chạy:
@@ -38,7 +50,7 @@ npm run dev
 ```
 
 Server sẽ tự động khởi động tại:
-👉 **http://localhost:3000**
+👉 **http://localhost:3333**
 
 ### 2. Dữ liệu mẫu nạp sẵn
 Hệ thống đã tự động tạo sẵn:
@@ -50,5 +62,5 @@ Hệ thống đã tự động tạo sẵn:
 
 ## 🛠️ Công Nghệ Phát Triển
 - **Frontend:** React 19, TypeScript, Tailwind CSS, Recharts, @tanstack/react-query.
-- **Backend & Database:** Node.js 24, Express, `node:sqlite` (SQLite cục bộ lưu trữ trong thư mục `data/the-tra-loi.db`).
+- **Backend & Database:** Node.js 24, Express, `node:sqlite` (SQLite cục bộ) + Local Storage Adapter cho môi trường Vercel.
 - **Build tool:** Vite 6.

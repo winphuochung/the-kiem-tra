@@ -1,5 +1,6 @@
 // Typed RPC client for "Thẻ Trả Lời"
-// Giao tiếp qua endpoint /api/actions bằng HTTP POST
+// Tự động kết nối Backend API hoặc chuyển sang Local Storage khi triển khai trên Vercel / Offline
+import { localStoreActions } from "./localStore";
 
 export type Answer = "A" | "B" | "C" | "D";
 
@@ -95,19 +96,50 @@ export type ApiActions = {
 
 export type ApiResponse<T, K extends keyof ApiActions> = Awaited<ReturnType<ApiActions[K]>>;
 
+let isServerOnline: boolean | null = null;
+
 export const api: ApiActions = new Proxy({} as any, {
-  get: (_target, action: string) => {
+  get: (_target, action: keyof ApiActions) => {
     return async (args: any) => {
-      const res = await fetch("/api/actions", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ action, args: args ?? {} }),
-      });
-      if (!res.ok) {
+      // Nếu đã phát hiện môi trường Static / Vercel Serverless không khả dụng: dùng ngay localStore
+      if (isServerOnline === false) {
+        if (localStoreActions[action as keyof typeof localStoreActions]) {
+          return await (localStoreActions as any)[action](args ?? {});
+        }
+      }
+
+      try {
+        const res = await fetch("/api/actions", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ action, args: args ?? {} }),
+        });
+
+        if (res.ok) {
+          isServerOnline = true;
+          return await res.json();
+        }
+
+        // Khi chạy trên Vercel Static hoặc backend chưa khởi động
+        if (res.status === 404 || res.status === 502 || res.status === 500) {
+          console.info(`[Thẻ Trả Lời] Máy chủ phản hồi ${res.status}. Tự động chuyển sang chế độ lưu trữ cục bộ cho Vercel/Offline.`);
+          isServerOnline = false;
+          if (localStoreActions[action as keyof typeof localStoreActions]) {
+            return await (localStoreActions as any)[action](args ?? {});
+          }
+        }
+
         const errorData = await res.json().catch(() => ({}));
         throw new Error(errorData.error || `Lỗi máy chủ (${res.status})`);
+      } catch (err) {
+        // Lỗi kết nối mạng (Vercel static hosting hoặc mất mạng)
+        console.info(`[Thẻ Trả Lời] Chuyển đổi sang bộ nhớ cục bộ an toàn:`, err);
+        isServerOnline = false;
+        if (localStoreActions[action as keyof typeof localStoreActions]) {
+          return await (localStoreActions as any)[action](args ?? {});
+        }
+        throw err;
       }
-      return await res.json();
     };
   },
 });
