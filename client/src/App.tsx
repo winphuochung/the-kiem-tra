@@ -1259,13 +1259,18 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
     setCurrentMut.mutate(n);
   };
 
+  const dataRef = useRef(data);
+  dataRef.current = data;
+  const clampedIdxRef = useRef(clampedIdx);
+  clampedIdxRef.current = clampedIdx;
+
   // Khởi tạo phòng ghép nối khi mở modal
   useEffect(() => {
     let active = true;
     if (showPairModal && !hostConn) {
       createHostSession(
         sessionId,
-        async (msg) => {
+        async (msg, conn) => {
           if (!active) return;
           if (msg.type === "SUBMIT_ANSWER") {
             await api.recordResponses({
@@ -1280,15 +1285,19 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
           } else if (msg.type === "GOTO_QUESTION") {
             goto(msg.index);
           } else if (msg.type === "PING") {
-            if (data) {
-              hostConn?.broadcast({
-                type: "INIT_STATE",
-                session: data.session,
-                questions: data.questions,
-                students: data.students,
-                currentIndex: clampedIdx,
-                responses: data.responses,
-              });
+            if (dataRef.current) {
+              try {
+                conn.send({
+                  type: "INIT_STATE",
+                  session: dataRef.current.session,
+                  questions: dataRef.current.questions,
+                  students: dataRef.current.students,
+                  currentIndex: clampedIdxRef.current,
+                  responses: dataRef.current.responses,
+                });
+              } catch (e) {
+                console.error("Lỗi gửi INIT_STATE:", e);
+              }
             }
           }
         },
@@ -1298,14 +1307,14 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
       ).then((conn) => {
         if (active) {
           setHostConn(conn);
-          if (data) {
+          if (dataRef.current) {
             conn.broadcast({
               type: "INIT_STATE",
-              session: data.session,
-              questions: data.questions,
-              students: data.students,
-              currentIndex: clampedIdx,
-              responses: data.responses,
+              session: dataRef.current.session,
+              questions: dataRef.current.questions,
+              students: dataRef.current.students,
+              currentIndex: clampedIdxRef.current,
+              responses: dataRef.current.responses,
             });
           }
         }
@@ -1317,7 +1326,7 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
     return () => {
       active = false;
     };
-  }, [showPairModal, sessionId, data, clampedIdx]);
+  }, [showPairModal, sessionId]);
 
   // Đồng bộ trạng thái mới sang điện thoại khi câu hỏi hoặc đáp án thay đổi
   useEffect(() => {

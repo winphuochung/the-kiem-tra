@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
+import jsQR from "jsqr";
 import { connectToHostSession, type PeerMessage, type RemoteScannerConnection } from "./peerSync";
-import type { Answer } from "./api";
+import { api, type Answer } from "./api";
 
 const ANSWERS: Answer[] = ["A", "B", "C", "D"];
 const ANSWER_COLORS: Record<Answer, string> = {
@@ -24,10 +25,36 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
   const [camOn, setCamOn] = useState(false);
   const [scanning, setScanning] = useState(false);
   const [justDetectedStudent, setJustDetectedStudent] = useState<string>("");
+  const lastScanTimeRef = useRef<Map<number, number>>(new Map());
 
   const currentQ = questions[currentIdx];
 
-  // Khởi tạo kết nối PeerJS tới máy tính
+  // 1. Tải dữ liệu ban đầu tức thì qua API để không bị kẹt ở "Đang đồng bộ..."
+  useEffect(() => {
+    if (sessionId) {
+      api.getSessionRoom({ id: sessionId })
+        .then((res) => {
+          if (res) {
+            setSessionInfo(res.session);
+            setQuestions(res.questions);
+            setStudents(res.students);
+            const qId = res.questions[0]?.id;
+            const m = new Map<number, Answer>();
+            for (const r of res.responses) {
+              if (r.question_id === qId) {
+                m.set(r.student_id, r.answer);
+              }
+            }
+            setResponsesMap(m);
+          }
+        })
+        .catch((err) => {
+          console.error("Lỗi tải thông tin phòng học:", err);
+        });
+    }
+  }, [sessionId]);
+
+  // 2. Khởi tạo kết nối PeerJS tới máy tính để nhận và gửi realtime
   useEffect(() => {
     let active = true;
 
@@ -51,14 +78,17 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
           setResponsesMap(m);
         } else if (msg.type === "STATE_UPDATE") {
           setCurrentIdx(msg.currentIndex);
-          const qId = questions[msg.currentIndex]?.id;
-          const m = new Map<number, Answer>();
-          for (const r of msg.responses) {
-            if (r.question_id === qId) {
-              m.set(r.student_id, r.answer);
+          setQuestions((prevQuestions) => {
+            const qId = prevQuestions[msg.currentIndex]?.id;
+            const m = new Map<number, Answer>();
+            for (const r of msg.responses) {
+              if (r.question_id === qId) {
+                m.set(r.student_id, r.answer);
+              }
             }
-          }
-          setResponsesMap(m);
+            setResponsesMap(m);
+            return prevQuestions;
+          });
         }
       },
       (newStatus) => {
@@ -79,36 +109,55 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     };
   }, [hostPeerId]);
 
-  // Điều khiển Camera
+  // 3. Điều khiển Camera thật của điện thoại
   const startCamera = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({
-        video: { facingMode: "environment" },
+        video: {
+          facingMode: { ideal: "environment" },
+          width: { ideal: 1280 },
+          height: { ideal: 720 },
+        },
         audio: false,
       });
       streamRef.current = stream;
+      setCamOn(true);
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
+        videoRef.current.setAttribute("playsinline", "true");
+        await videoRef.current.play();
       }
-      setCamOn(true);
     } catch (e) {
-      alert("Không mở được camera điện thoại. Vui lòng cấp quyền truy cập Camera cho trình duyệt.");
+      console.error("Lỗi mở camera:", e);
+      alert("Không mở được camera điện thoại. Vui lòng cấp quyền truy cập Camera cho trình duyệt hoặc thử lại!");
     }
   };
 
   const stopCamera = () => {
     streamRef.current?.getTracks().forEach((t) => t.stop());
     streamRef.current = null;
+    if (videoRef.current) {
+      videoRef.current.srcObject = null;
+    }
     setCamOn(false);
   };
 
-  // Gửi đáp án cho 1 học sinh
+  // Đảm bảo stream được gán chính xác khi video element sẵn sàng
+  useEffect(() => {
+    if (camOn && streamRef.current && videoRef.current) {
+      videoRef.current.srcObject = streamRef.current;
+      videoRef.current.setAttribute("playsinline", "true");
+      videoRef.current.play().catch(console.error);
+    }
+  }, [camOn]);
+
+  // 4. Gửi đáp án cho 1 học sinh lên máy tính
   const submitAnswer = (studentId: number, answer: Answer, studentName: string) => {
     if (!currentQ) return;
     setResponsesMap((prev) => new Map(prev).set(studentId, answer));
     setJustDetectedStudent(`${studentName}: ${answer}`);
     if (typeof navigator !== "undefined" && navigator.vibrate) {
-      navigator.vibrate(35);
+      navigator.vibrate([40]);
     }
 
     connRef.current?.send({
@@ -119,7 +168,83 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     });
   };
 
-  // Quét nhanh mô phỏng
+  // 5. Vòng lặp quét nhận diện MÃ QR THỰC TẾ từ camera
+  useEffect(() => {
+    if (!camOn || !currentQ || students.length === 0) return;
+
+    let animId: number;
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+
+    const scan = () => {
+      const video = videoRef.current;
+      if (video && video.readyState === video.HAVE_ENOUGH_DATA && ctx) {
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const code = jsQR(imageData.data, imageData.width, imageData.height, {
+          inversionAttempts: "dontInvert",
+        });
+
+        if (code && code.data) {
+          const raw = code.data;
+          // Phân tích mã QR: Tìm số thứ tự STT
+          let foundStt: number | null = null;
+          const match1 = raw.match(/student_stt=(\d+)/i);
+          const match2 = raw.match(/STT[=:](\d+)/i);
+          const match3 = raw.match(/TTL[:=](\d+)/i);
+          if (match1) foundStt = parseInt(match1[1], 10);
+          else if (match2) foundStt = parseInt(match2[1], 10);
+          else if (match3) foundStt = parseInt(match3[1], 10);
+          else {
+            const num = parseInt(raw, 10);
+            if (!isNaN(num) && num > 0) foundStt = num;
+          }
+
+          if (foundStt != null) {
+            const student = students.find((s) => s.stt === foundStt);
+            if (student) {
+              // Tính góc xoay của thẻ để nhận diện đáp án A, B, C, D
+              let chosenAnswer: Answer = "A";
+              if (code.location && code.location.topLeftCorner && code.location.topRightCorner) {
+                const dx = code.location.topRightCorner.x - code.location.topLeftCorner.x;
+                const dy = code.location.topRightCorner.y - code.location.topLeftCorner.y;
+                const angleDeg = ((Math.atan2(dy, dx) * 180) / Math.PI + 360) % 360;
+
+                if (angleDeg >= 45 && angleDeg < 135) {
+                  chosenAnswer = "B";
+                } else if (angleDeg >= 135 && angleDeg < 225) {
+                  chosenAnswer = "C";
+                } else if (angleDeg >= 225 && angleDeg < 315) {
+                  chosenAnswer = "D";
+                } else {
+                  chosenAnswer = "A";
+                }
+              }
+
+              // Giới hạn tần suất quét 1.5 giây mỗi em để tránh rung giật
+              const now = Date.now();
+              const lastTime = lastScanTimeRef.current.get(student.id) || 0;
+              const currentRecorded = responsesMap.get(student.id);
+
+              if (now - lastTime > 1500 || currentRecorded !== chosenAnswer) {
+                lastScanTimeRef.current.set(student.id, now);
+                submitAnswer(student.id, chosenAnswer, student.name);
+              }
+            }
+          }
+        }
+      }
+      animId = requestAnimationFrame(scan);
+    };
+
+    animId = requestAnimationFrame(scan);
+    return () => cancelAnimationFrame(animId);
+  }, [camOn, currentQ, students, responsesMap]);
+
+  // Quét nhanh mô phỏng Demo
   const startSimulateScan = () => {
     if (scanning || !currentQ || students.length === 0) return;
     setScanning(true);
@@ -132,7 +257,6 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
         return;
       }
       const choices: Answer[] = ["A", "B", "C", "D"];
-      // Ưu tiên đáp án đúng 75%
       const chosen = Math.random() < 0.75 ? (currentQ.correct as Answer) : choices[Math.floor(Math.random() * 4)]!;
       submitAnswer(s.id, chosen, s.name);
 
@@ -224,15 +348,16 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
       {/* Vùng Camera quét */}
       <div className="p-3">
         <div className="relative overflow-hidden rounded-2xl bg-black border border-slate-800" style={{ minHeight: 240 }}>
-          {camOn ? (
-            <video
-              ref={videoRef}
-              autoPlay
-              playsInline
-              muted
-              className="w-full h-64 object-cover"
-            />
-          ) : (
+          {/* Thẻ video luôn hiện diện trong DOM để nhận stream camera */}
+          <video
+            ref={videoRef}
+            autoPlay
+            playsInline
+            muted
+            className={`w-full h-64 object-cover ${camOn ? "block" : "hidden"}`}
+          />
+
+          {!camOn && (
             <div className="flex flex-col items-center justify-center p-6 text-center h-64">
               <p className="text-4xl mb-2">📷</p>
               <p className="text-xs text-slate-300 max-w-xs leading-relaxed">
@@ -261,7 +386,7 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
             <button
               type="button"
               onClick={stopCamera}
-              className="absolute top-2 right-2 bg-black/60 px-2 py-1 rounded-md text-[11px] font-bold text-white"
+              className="absolute top-2 right-2 bg-black/70 px-2.5 py-1 rounded-md text-xs font-bold text-white shadow"
             >
               Tắt Camera
             </button>
@@ -269,7 +394,7 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
 
           {/* Thông báo em vừa quét được */}
           {justDetectedStudent && (
-            <div className="absolute bottom-2 inset-x-2 bg-emerald-500/90 text-slate-950 text-xs font-black py-1.5 px-3 rounded-lg text-center shadow-lg animate-bounce">
+            <div className="absolute bottom-2 inset-x-2 bg-emerald-500 text-slate-950 text-xs font-black py-2 px-3 rounded-lg text-center shadow-lg animate-bounce">
               ✓ Đã nhận: {justDetectedStudent}
             </div>
           )}
@@ -288,66 +413,64 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
         </div>
       </div>
 
-      {/* Danh sách học sinh & Chấm nhanh trực tiếp trên điện thoại */}
-      <div className="px-3 mt-1">
+      {/* Danh sách học sinh & chấm điểm nhanh thủ công */}
+      <div className="px-3">
         <div className="flex items-center justify-between mb-2">
-          <h3 className="text-xs font-black uppercase text-slate-400">
+          <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
             Danh sách học sinh ({responsesMap.size}/{students.length} đã trả lời)
-          </h3>
-          <span className="text-[11px] text-slate-400">Chạm A/B/C/D để ghi điểm</span>
+          </span>
+          <span className="text-[11px] text-slate-500">Chạm A/B/C/D để ghi điểm</span>
         </div>
 
-        <div className="grid grid-cols-1 gap-2">
-          {students.map((s) => {
-            const currentAns = responsesMap.get(s.id);
-            const isAnswered = currentAns !== undefined;
-            return (
-              <div
-                key={s.id}
-                className={`p-2.5 rounded-xl border flex items-center justify-between transition ${
-                  isAnswered
-                    ? "bg-emerald-950/40 border-emerald-500/60"
-                    : "bg-slate-850 bg-slate-800/60 border-slate-700/60"
-                }`}
-              >
-                <div className="flex items-center gap-2 min-w-0">
-                  <span
-                    className={`h-6 w-6 rounded-full flex items-center justify-center text-xs font-black shrink-0 ${
-                      isAnswered ? "bg-emerald-500 text-slate-950" : "bg-slate-700 text-slate-300"
-                    }`}
-                  >
-                    {s.stt}
-                  </span>
-                  <span className="text-xs font-bold truncate text-slate-100">{s.name}</span>
-                </div>
+        {students.length === 0 ? (
+          <p className="text-center text-xs text-slate-500 py-6">Đang tải danh sách học sinh...</p>
+        ) : (
+          <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
+            {students.map((student) => {
+              const currentAns = responsesMap.get(student.id);
+              return (
+                <div
+                  key={student.id}
+                  className={`flex items-center justify-between p-2 rounded-xl border transition ${
+                    currentAns
+                      ? "bg-slate-800/90 border-emerald-500/40"
+                      : "bg-slate-950/60 border-slate-800"
+                  }`}
+                >
+                  <div className="flex items-center gap-2">
+                    <span className="flex items-center justify-center h-6 w-6 rounded-full bg-slate-800 text-[11px] font-bold text-slate-300">
+                      {student.stt}
+                    </span>
+                    <span className="text-xs font-bold text-slate-200">{student.name}</span>
+                  </div>
 
-                {/* Các nút chọn A B C D */}
-                <div className="flex items-center gap-1 shrink-0">
-                  {ANSWERS.map((ans) => {
-                    const selected = currentAns === ans;
-                    return (
-                      <button
-                        key={ans}
-                        type="button"
-                        onClick={() => submitAnswer(s.id, ans, s.name)}
-                        className={`h-7 w-7 rounded-lg text-xs font-black transition active:scale-90 ${
-                          selected
-                            ? "text-white shadow-md ring-2 ring-white/70"
-                            : "bg-slate-700/80 text-slate-300 hover:bg-slate-600"
-                        }`}
-                        style={{
-                          backgroundColor: selected ? ANSWER_COLORS[ans] : undefined,
-                        }}
-                      >
-                        {ans}
-                      </button>
-                    );
-                  })}
+                  <div className="flex gap-1">
+                    {ANSWERS.map((ans) => {
+                      const isSelected = currentAns === ans;
+                      return (
+                        <button
+                          key={ans}
+                          type="button"
+                          onClick={() => submitAnswer(student.id, ans, student.name)}
+                          className={`h-7 w-7 rounded-lg text-xs font-black transition active:scale-95 ${
+                            isSelected
+                              ? "text-slate-950 shadow-md ring-2 ring-white/30"
+                              : "bg-slate-800/80 text-slate-400 hover:bg-slate-700"
+                          }`}
+                          style={{
+                            background: isSelected ? ANSWER_COLORS[ans] : undefined,
+                          }}
+                        >
+                          {ans}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );
