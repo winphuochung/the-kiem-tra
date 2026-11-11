@@ -76,11 +76,16 @@ body {
   .print-sheet {
     box-shadow: none !important;
     margin: 0 auto !important;
-    page-break-after: always;
-    break-after: page;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    page-break-after: always !important;
+    break-after: page !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
   }
-  .print-sheet:last-child { page-break-after: auto; break-after: auto; }
-  @page { size: A4; margin: 8mm; }
+  .print-sheet:last-child { page-break-after: auto !important; break-after: auto !important; }
+  @page { size: A4 portrait; margin: 8mm; }
 }
 
 @keyframes scanline {

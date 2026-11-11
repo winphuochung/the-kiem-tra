@@ -7,12 +7,12 @@ function markerBit(stt: number, seed: number, i: number): boolean {
   return ((h >>> 16) & 1) === 1;
 }
 
-// Tạo mã quang học dạng bảng HTML cho Word (tương thích 100% mọi phiên bản MS Word / WPS)
-function generateMarkerHtmlTable(stt: number, seed: number, cellSizePt = 15): string {
+// Tạo mã ma trận đen trắng dạng bảng HTML cho Word (sắc nét tuyệt đối trên mọi phiên bản MS Word/WPS)
+function generateMarkerHtmlTable(stt: number, seed: number, cellSizePt: number): string {
   const n = 5;
   let rowsHtml = "";
   for (let r = 0; r < n; r++) {
-    rowsHtml += "<tr>";
+    rowsHtml += `<tr style="height:${cellSizePt}pt; mso-height-rule:exactly;">`;
     for (let c = 0; c < n; c++) {
       const i = r * n + c;
       let black = markerBit(stt, seed, i);
@@ -21,19 +21,21 @@ function generateMarkerHtmlTable(stt: number, seed: number, cellSizePt = 15): st
       if (i === n - 1) black = true;
 
       const bg = black ? "#000000" : "#ffffff";
-      rowsHtml += `<td style="width:${cellSizePt}pt; height:${cellSizePt}pt; background-color:${bg}; border:1px solid ${bg}; padding:0; margin:0;"></td>`;
+      rowsHtml += `<td width="${cellSizePt}" height="${cellSizePt}" style="width:${cellSizePt}pt; height:${cellSizePt}pt; min-width:${cellSizePt}pt; min-height:${cellSizePt}pt; max-width:${cellSizePt}pt; max-height:${cellSizePt}pt; background-color:${bg}; border:0.5pt solid ${bg}; padding:0; margin:0; line-height:0; font-size:0; mso-line-height-rule:exactly;">&nbsp;</td>`;
     }
     rowsHtml += "</tr>";
   }
 
+  const borderSize = Math.max(6, Math.round(cellSizePt * 0.22));
   return `
-    <table cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin:auto; border: 4pt solid #000000; background-color:#ffffff;">
+    <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; margin:auto; border: ${borderSize}pt solid #000000; background-color:#ffffff;">
       ${rowsHtml}
     </table>
   `;
 }
 
-// 1. Xuất bộ thẻ in ra file Microsoft Word (.doc)
+// 1. Xuất bộ thẻ in ra file Microsoft Word (.doc) chuẩn A4
+// Đảm bảo TUYỆT ĐỐI: Đúng 2 thẻ / tờ A4 hoặc 1 thẻ / tờ A4, mã to nhất có thể để quét xa
 export function exportCardsToWord(
   className: string,
   students: { id: number; stt: number; name: string }[],
@@ -45,8 +47,26 @@ export function exportCardsToWord(
     return;
   }
 
-  const cardsPerPage = layout === "1" ? 1 : 2;
-  let pagesHtml = "";
+  const isOneCard = layout === "1";
+  const cardsPerPage = isOneCard ? 1 : 2;
+
+  // Kích thước chuẩn A4 (595pt x 842pt), trừ lề 24pt trên dưới, 28pt trái phải
+  // Layout 2 thẻ/trang: Mỗi thẻ cao 336pt (~11.8cm), rộng 535pt (~18.8cm).
+  //    Mã ô 42pt (tổng mã 210pt + viền 18pt = 228pt ~ 8.0cm khổng lồ!)
+  // Layout 1 thẻ/trang: Mỗi thẻ cao 710pt (~25cm), rộng 535pt (~18.8cm).
+  //    Mã ô 78pt (tổng mã 390pt + viền 32pt = 422pt ~ 14.9cm siêu to, quét từ cuối lớp 15m!)
+  const cardHeightPt = isOneCard ? 710 : 336;
+  const topRowHeightPt = isOneCard ? 100 : 48;
+  const midRowHeightPt = isOneCard ? 510 : 240;
+  const botRowHeightPt = isOneCard ? 100 : 48;
+
+  const cellSizePt = isOneCard ? 78 : 42;
+  const letterFontSize = isOneCard ? 56 : 34;
+  const sttFontSize = isOneCard ? 50 : 30;
+  const infoFontSize = isOneCard ? 18 : 13;
+  const infoSubFontSize = isOneCard ? 14 : 10.5;
+
+  const pagesArray: string[] = [];
 
   for (let i = 0; i < students.length; i += cardsPerPage) {
     const pageStudents = students.slice(i, i + cardsPerPage);
@@ -54,79 +74,111 @@ export function exportCardsToWord(
 
     pageStudents.forEach((student, idx) => {
       const sttFormatted = String(student.stt).padStart(2, "0");
-      const markerHtml = generateMarkerHtmlTable(student.stt, seed, layout === "1" ? 22 : 14);
+      const markerHtml = generateMarkerHtmlTable(student.stt, seed, cellSizePt);
 
       cardsInPageHtml += `
-        <div style="border: 2pt solid #888888; border-radius: 8pt; padding: 10pt; margin-bottom: 12pt; background-color: #ffffff; width: 95%; margin-left: auto; margin-right: auto; position: relative;">
-          <!-- Hàng trên: A ở giữa, STT ở góc phải -->
-          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin-bottom: 4pt;">
-            <tr>
-              <td width="20%"></td>
-              <td width="60%" align="center" style="font-size: 24pt; font-weight: bold; color: #111;">A</td>
-              <td width="20%" align="right" style="font-size: 18pt; font-weight: bold; color: #111;">${sttFormatted}</td>
-            </tr>
-          </table>
+        <!-- Thẻ học sinh #${student.stt} -->
+        <table width="100%" cellpadding="0" cellspacing="0" style="width:100%; height:${cardHeightPt}pt; border: ${isOneCard ? "3.5pt" : "2.5pt"} solid #111111; border-radius: 8pt; table-layout: fixed; background-color: #ffffff; margin-bottom: 2pt;">
+          <!-- Hàng 1: A ở giữa, STT ở góc phải -->
+          <tr style="height: ${topRowHeightPt}pt; mso-height-rule: exactly;">
+            <td width="35%" style="vertical-align: top; padding-top: 6pt; padding-left: 12pt;">
+              <span style="font-size: ${infoSubFontSize}pt; color: #888; font-weight: normal;">Thẻ Trả Lời</span>
+            </td>
+            <td width="30%" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: top; padding-top: 4pt;">
+              A
+            </td>
+            <td width="35%" align="right" style="padding-right: 14pt; font-size: ${sttFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: top; padding-top: 4pt;">
+              ${sttFormatted}
+            </td>
+          </tr>
 
-          <!-- Hàng giữa: D bên trái, Mã thẻ ở giữa, B bên phải -->
-          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin: 4pt 0;">
-            <tr>
-              <td width="15%" align="left" style="font-size: 24pt; font-weight: bold; color: #111; vertical-align: middle;">D</td>
-              <td width="70%" align="center" style="vertical-align: middle;">
-                ${markerHtml}
-              </td>
-              <td width="15%" align="right" style="font-size: 24pt; font-weight: bold; color: #111; vertical-align: middle;">B</td>
-            </tr>
-          </table>
+          <!-- Hàng 2: D bên trái, Mã ma trận siêu to ở giữa, B bên phải -->
+          <tr style="height: ${midRowHeightPt}pt; mso-height-rule: exactly;">
+            <td width="15%" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
+              D
+            </td>
+            <td width="70%" align="center" style="vertical-align: middle; padding: 0;">
+              ${markerHtml}
+            </td>
+            <td width="15%" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
+              B
+            </td>
+          </tr>
 
-          <!-- Hàng dưới: Tên học sinh bên trái, C ở giữa -->
-          <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin-top: 4pt;">
-            <tr>
-              <td width="35%" align="left" style="font-size: 11pt; color: #222; vertical-align: bottom;">
-                <b>${student.name}</b><br/>
-                <span style="color:#666; font-size: 9.5pt;">${className} · Thẻ số ${student.stt}</span>
-              </td>
-              <td width="30%" align="center" style="font-size: 24pt; font-weight: bold; color: #111; vertical-align: bottom;">C</td>
-              <td width="35%" align="right" style="font-size: 8.5pt; color: #999; vertical-align: bottom;">
-                Mã quang học Plickers
-              </td>
-            </tr>
-          </table>
-        </div>
+          <!-- Hàng 3: Tên học sinh bên trái, C ở giữa thẳng hàng A, chú thích bên phải -->
+          <tr style="height: ${botRowHeightPt}pt; mso-height-rule: exactly;">
+            <td width="35%" align="left" style="padding-left: 14pt; padding-bottom: 6pt; vertical-align: bottom;">
+              <span style="font-size: ${infoFontSize}pt; font-weight: bold; color: #111; font-family: Arial, sans-serif;">${student.name}</span><br/>
+              <span style="font-size: ${infoSubFontSize}pt; color: #555; font-family: Arial, sans-serif;">${className} · Thẻ số ${student.stt}</span>
+            </td>
+            <td width="30%" align="center" style="padding-bottom: 4pt; font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: bottom;">
+              C
+            </td>
+            <td width="35%" align="right" style="padding-right: 14pt; padding-bottom: 6pt; vertical-align: bottom; font-size: ${infoSubFontSize}pt; color: #888; font-family: Arial, sans-serif;">
+              Mã quang học Plickers
+            </td>
+          </tr>
+        </table>
       `;
 
-      if (idx === 0 && cardsPerPage === 2 && pageStudents.length > 1) {
-        cardsInPageHtml += `<div style="border-bottom: 1pt dashed #aaaaaa; margin: 8pt 0; text-align: center; color: #999; font-size: 8pt;">- - - - - - - - - - - - - - - - - - - - - Cắt theo đường kẻ này - - - - - - - - - - - - - - - - - - - - -</div>`;
+      // Vạch đứt nét cắt giữa 2 thẻ trên cùng 1 trang A4
+      if (idx === 0 && !isOneCard && pageStudents.length > 1) {
+        cardsInPageHtml += `
+          <div style="height: 16pt; line-height: 16pt; text-align: center; color: #555555; font-size: 8pt; font-family: monospace; margin: 2pt 0;">
+            ✂ - - - - - - - - - - - - - - - CẮT THEO ĐƯỜNG NÀY ĐỂ TÁCH 2 THẺ - - - - - - - - - - - - - - - ✂
+          </div>
+        `;
       }
     });
 
-    const isLastPage = i + cardsPerPage >= students.length;
-    pagesHtml += `
-      <div class="page-container" style="${!isLastPage ? "page-break-after: always; mso-break-type: section-break;" : ""}">
-        <p style="text-align: right; font-size: 8pt; color: #888; margin: 0 0 6pt 0;">Thẻ Trả Lời · Lớp ${className} · Trang ${Math.floor(i / cardsPerPage) + 1}</p>
+    const pageHeader = `
+      <p style="text-align: right; font-size: 8pt; color: #888; margin: 0 0 4pt 0; font-family: Arial, sans-serif;">
+        Thẻ Trả Lời · Lớp ${className} · Trang ${Math.floor(i / cardsPerPage) + 1}/${Math.ceil(students.length / cardsPerPage)} (${isOneCard ? "1 thẻ / tờ A4" : "2 thẻ / tờ A4"})
+      </p>
+    `;
+
+    pagesArray.push(`
+      <div class="page-container" style="width: 100%;">
+        ${pageHeader}
         ${cardsInPageHtml}
       </div>
-    `;
+    `);
   }
+
+  // Nối các trang bằng dấu ngắt trang chuẩn của Microsoft Word (page-break-before: always)
+  const fullDocumentHtml = pagesArray.join(`
+    <br clear="all" style="page-break-before: always; mso-break-type: section-break;" />
+  `);
 
   const wordContent = `
     <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
       <head>
         <meta charset='utf-8'>
         <title>Thẻ Trả Lời - Lớp ${className}</title>
+        <!--[if gte mso 9]>
+        <xml>
+          <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>100</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+          </w:WordDocument>
+        </xml>
+        <![endif]-->
         <style>
           @page Section1 {
-            size: 595.3pt 841.9pt; /* A4 */
-            margin: 25pt 25pt 25pt 25pt;
-            mso-header-margin: 20pt;
-            mso-footer-margin: 20pt;
+            size: 595.3pt 841.9pt; /* Chuẩn A4 Portrait */
+            margin: 24pt 28pt 24pt 28pt;
+            mso-header-margin: 12pt;
+            mso-footer-margin: 12pt;
           }
           div.Section1 { page: Section1; }
-          body { font-family: 'Segoe UI', Arial, sans-serif; }
+          body { font-family: Arial, 'Segoe UI', Tahoma, sans-serif; margin: 0; padding: 0; }
+          table { border-collapse: collapse; }
         </style>
       </head>
       <body>
         <div class="Section1">
-          ${pagesHtml}
+          ${fullDocumentHtml}
         </div>
       </body>
     </html>
@@ -136,14 +188,14 @@ export function exportCardsToWord(
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `The_Tra_Loi_${className.replace(/\s+/g, "_")}.doc`;
+  a.download = `The_Tra_Loi_${className.replace(/\s+/g, "_")}_${isOneCard ? "1the_A4" : "2the_A4"}.doc`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 }
 
-// 2. Xuất file PDF (Kích hoạt chuẩn in A4 không viền)
+// 2. Xuất file PDF (Kích hoạt chuẩn in A4)
 export function exportCardsToPDF() {
   window.print();
 }

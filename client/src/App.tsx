@@ -109,26 +109,26 @@ export function AnswerCard({
     <div
       className="relative bg-white text-black select-none"
       style={{
-        border: "2px solid #d8d8d8",
-        borderRadius: 10,
-        aspectRatio: large ? "1.30" : "1.42",
+        border: large ? "3.5px solid #111" : "2.5px solid #111",
+        borderRadius: 8,
+        aspectRatio: large ? "1.28" : "1.48",
         width: "100%",
         overflow: "hidden",
       }}
     >
-      <span style={{ position: "absolute", top: "4.5%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: large ? 30 : 20 }}>A</span>
-      <span style={{ position: "absolute", bottom: "4%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: large ? 30 : 20 }}>C</span>
-      <span style={{ position: "absolute", left: "4.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: large ? 30 : 20 }}>D</span>
-      <span style={{ position: "absolute", right: "4.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: large ? 30 : 20 }}>B</span>
-      <span style={{ position: "absolute", top: "5%", right: "6%", fontWeight: 800, fontSize: large ? 26 : 17 }}>{sttLabel}</span>
+      <span style={{ position: "absolute", top: "3%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>A</span>
+      <span style={{ position: "absolute", bottom: "2.5%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>C</span>
+      <span style={{ position: "absolute", left: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>D</span>
+      <span style={{ position: "absolute", right: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>B</span>
+      <span style={{ position: "absolute", top: "3.5%", right: "5%", fontWeight: 800, fontSize: large ? 40 : 24, fontFamily: "Arial, sans-serif" }}>{sttLabel}</span>
       <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <MarkerSVG stt={student.stt} seed={seed} size={large ? 190 : 118} />
+        <MarkerSVG stt={student.stt} seed={seed} size={large ? 320 : 195} />
       </div>
-      <div style={{ position: "absolute", left: "6%", bottom: "5.5%", fontSize: large ? 15 : 11.5, lineHeight: 1.35, maxWidth: "62%" }}>
-        <div style={{ fontWeight: 700 }}>{student.name}</div>
-        <div style={{ color: "#555" }}>{className} · Thẻ số {student.stt}</div>
+      <div style={{ position: "absolute", left: "5%", bottom: "3.5%", fontSize: large ? 16 : 12, lineHeight: 1.3, maxWidth: "55%" }}>
+        <div style={{ fontWeight: 700, fontFamily: "Arial, sans-serif" }}>{student.name}</div>
+        <div style={{ color: "#555", fontFamily: "Arial, sans-serif" }}>{className} · Thẻ số {student.stt}</div>
       </div>
-      <div style={{ position: "absolute", right: "6%", bottom: "5%" }}>
+      <div style={{ position: "absolute", right: "5%", bottom: "3.5%" }}>
         <MiniCode stt={student.stt} seed={seed} />
       </div>
     </div>
