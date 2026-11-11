@@ -96,7 +96,7 @@ function MiniCode({ stt, seed }: { stt: number; seed: number }) {
 export function AnswerCard({
   student,
   className,
-  seed,
+  seed: _seed,
   large = false,
 }: {
   student: Student;
@@ -105,6 +105,7 @@ export function AnswerCard({
   large?: boolean;
 }) {
   const sttLabel = String(student.stt).padStart(2, "0");
+  const qrValue = `THETRALOI:STT=${student.stt}`;
   return (
     <div
       className="relative bg-white text-black select-none"
@@ -122,14 +123,19 @@ export function AnswerCard({
       <span style={{ position: "absolute", right: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>B</span>
       <span style={{ position: "absolute", top: "3.5%", right: "5%", fontWeight: 800, fontSize: large ? 40 : 24, fontFamily: "Arial, sans-serif" }}>{sttLabel}</span>
       <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <MarkerSVG stt={student.stt} seed={seed} size={large ? 320 : 195} />
+        <QRCodeSVG
+          value={qrValue}
+          size={large ? 330 : 205}
+          level="M"
+          marginSize={1}
+        />
       </div>
       <div style={{ position: "absolute", left: "5%", bottom: "3.5%", fontSize: large ? 16 : 12, lineHeight: 1.3, maxWidth: "55%" }}>
         <div style={{ fontWeight: 700, fontFamily: "Arial, sans-serif" }}>{student.name}</div>
         <div style={{ color: "#555", fontFamily: "Arial, sans-serif" }}>{className} · Thẻ số {student.stt}</div>
       </div>
-      <div style={{ position: "absolute", right: "5%", bottom: "3.5%" }}>
-        <MiniCode stt={student.stt} seed={seed} />
+      <div style={{ position: "absolute", right: "5%", bottom: "3.5%", textAlign: "right" }}>
+        <span style={{ color: "#888", fontSize: large ? 13 : 10, fontFamily: "Arial, sans-serif" }}>Mã QR Chuẩn</span>
       </div>
     </div>
   );

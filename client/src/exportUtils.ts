@@ -1,45 +1,13 @@
 // Helper tiện ích xuất file Word (.doc) và PDF cho ứng dụng "Thẻ Trả Lời"
+import QRCode from "qrcode";
 import type { Answer, QuestionShape } from "./api";
 
-function markerBit(stt: number, seed: number, i: number): boolean {
-  let h = (stt + 1) * 374761393 + i * 668265263 + seed * 974634 + 1442695041;
-  h = Math.imul(h ^ (h >>> 13), 1274126177);
-  return ((h >>> 16) & 1) === 1;
-}
-
-// Tạo mã ma trận đen trắng dạng bảng HTML cho Word (sắc nét tuyệt đối trên mọi phiên bản MS Word/WPS)
-function generateMarkerHtmlTable(stt: number, seed: number, cellSizePt: number): string {
-  const n = 5;
-  let rowsHtml = "";
-  for (let r = 0; r < n; r++) {
-    rowsHtml += `<tr style="height:${cellSizePt}pt; mso-height-rule:exactly;">`;
-    for (let c = 0; c < n; c++) {
-      const i = r * n + c;
-      let black = markerBit(stt, seed, i);
-      if (i === 0) black = true;
-      if (i === n * n - 1) black = false;
-      if (i === n - 1) black = true;
-
-      const bg = black ? "#000000" : "#ffffff";
-      rowsHtml += `<td width="${cellSizePt}" height="${cellSizePt}" style="width:${cellSizePt}pt; height:${cellSizePt}pt; min-width:${cellSizePt}pt; min-height:${cellSizePt}pt; max-width:${cellSizePt}pt; max-height:${cellSizePt}pt; background-color:${bg}; border:0.5pt solid ${bg}; padding:0; margin:0; line-height:0; font-size:0; mso-line-height-rule:exactly;">&nbsp;</td>`;
-    }
-    rowsHtml += "</tr>";
-  }
-
-  const borderSize = Math.max(6, Math.round(cellSizePt * 0.22));
-  return `
-    <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; margin:auto; border: ${borderSize}pt solid #000000; background-color:#ffffff;">
-      ${rowsHtml}
-    </table>
-  `;
-}
-
-// 1. Xuất bộ thẻ in ra file Microsoft Word (.doc) chuẩn A4
-// Đảm bảo TUYỆT ĐỐI: Đúng 2 thẻ / tờ A4 hoặc 1 thẻ / tờ A4, mã to nhất có thể để quét xa
-export function exportCardsToWord(
+// 1. Xuất bộ thẻ in ra file Microsoft Word (.doc) chuẩn A4 với MÃ QR CHÍNH XÁC 100%
+// Đảm bảo TUYỆT ĐỐI: Đúng 2 thẻ / tờ A4 hoặc 1 thẻ / tờ A4, mã QR chuẩn ISO/IEC sắc nét quét xa
+export async function exportCardsToWord(
   className: string,
   students: { id: number; stt: number; name: string }[],
-  seed = 12,
+  _seed = 12,
   layout: "1" | "2" = "2"
 ) {
   if (students.length === 0) {
@@ -52,19 +20,38 @@ export function exportCardsToWord(
 
   // Kích thước chuẩn A4 (595pt x 842pt), trừ lề 24pt trên dưới, 28pt trái phải
   // Layout 2 thẻ/trang: Mỗi thẻ cao 336pt (~11.8cm), rộng 535pt (~18.8cm).
-  //    Mã ô 42pt (tổng mã 210pt + viền 18pt = 228pt ~ 8.0cm khổng lồ!)
+  //    Mã QR to 215pt (~7.6cm) với 3 ô mắt vuông chuẩn quốc tế!
   // Layout 1 thẻ/trang: Mỗi thẻ cao 710pt (~25cm), rộng 535pt (~18.8cm).
-  //    Mã ô 78pt (tổng mã 390pt + viền 32pt = 422pt ~ 14.9cm siêu to, quét từ cuối lớp 15m!)
+  //    Mã QR to khổng lồ 390pt (~13.8cm) quét từ cuối lớp 15m!
   const cardHeightPt = isOneCard ? 710 : 336;
-  const topRowHeightPt = isOneCard ? 100 : 48;
-  const midRowHeightPt = isOneCard ? 510 : 240;
-  const botRowHeightPt = isOneCard ? 100 : 48;
+  const topRowHeightPt = isOneCard ? 95 : 46;
+  const midRowHeightPt = isOneCard ? 520 : 244;
+  const botRowHeightPt = isOneCard ? 95 : 46;
 
-  const cellSizePt = isOneCard ? 78 : 42;
+  const qrSizePt = isOneCard ? 390 : 215;
+  const qrPixelSize = isOneCard ? 600 : 400;
+
   const letterFontSize = isOneCard ? 56 : 34;
   const sttFontSize = isOneCard ? 50 : 30;
   const infoFontSize = isOneCard ? 18 : 13;
   const infoSubFontSize = isOneCard ? 14 : 10.5;
+
+  // Sinh mã QR hình ảnh PNG (Base64) chuẩn xác cho từng học sinh
+  const qrImagesMap = new Map<number, { dataUrl: string; base64: string }>();
+  for (const student of students) {
+    const qrValue = `THETRALOI:STT=${student.stt}`;
+    const dataUrl = await QRCode.toDataURL(qrValue, {
+      width: qrPixelSize,
+      margin: 1,
+      errorCorrectionLevel: "M",
+      color: {
+        dark: "#000000",
+        light: "#ffffff",
+      },
+    });
+    const base64 = dataUrl.split(",")[1];
+    qrImagesMap.set(student.stt, { dataUrl, base64 });
+  }
 
   const pagesArray: string[] = [];
 
@@ -74,15 +61,15 @@ export function exportCardsToWord(
 
     pageStudents.forEach((student, idx) => {
       const sttFormatted = String(student.stt).padStart(2, "0");
-      const markerHtml = generateMarkerHtmlTable(student.stt, seed, cellSizePt);
+      const qrFileName = `qr_${student.stt}.png`;
 
       cardsInPageHtml += `
         <!-- Thẻ học sinh #${student.stt} -->
         <table width="100%" cellpadding="0" cellspacing="0" style="width:100%; height:${cardHeightPt}pt; border: ${isOneCard ? "3.5pt" : "2.5pt"} solid #111111; border-radius: 8pt; table-layout: fixed; background-color: #ffffff; margin-bottom: 2pt;">
           <!-- Hàng 1: A ở giữa, STT ở góc phải -->
           <tr style="height: ${topRowHeightPt}pt; mso-height-rule: exactly;">
-            <td width="35%" style="vertical-align: top; padding-top: 6pt; padding-left: 12pt;">
-              <span style="font-size: ${infoSubFontSize}pt; color: #888; font-weight: normal;">Thẻ Trả Lời</span>
+            <td width="35%" style="vertical-align: top; padding-top: 6pt; padding-left: 14pt;">
+              <span style="font-size: ${infoSubFontSize}pt; color: #888; font-weight: normal; font-family: Arial, sans-serif;">Thẻ Trả Lời Trắc Nghiệm</span>
             </td>
             <td width="30%" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: top; padding-top: 4pt;">
               A
@@ -92,13 +79,13 @@ export function exportCardsToWord(
             </td>
           </tr>
 
-          <!-- Hàng 2: D bên trái, Mã ma trận siêu to ở giữa, B bên phải -->
+          <!-- Hàng 2: D bên trái, MÃ QR CHUẨN SIÊU TO ở giữa, B bên phải -->
           <tr style="height: ${midRowHeightPt}pt; mso-height-rule: exactly;">
             <td width="15%" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
               D
             </td>
             <td width="70%" align="center" style="vertical-align: middle; padding: 0;">
-              ${markerHtml}
+              <img src="${qrFileName}" width="${qrSizePt}" height="${qrSizePt}" alt="Mã QR Thẻ ${student.stt}" style="width: ${qrSizePt}pt; height: ${qrSizePt}pt; display: block; margin: auto; border: 0;" />
             </td>
             <td width="15%" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
               B
@@ -115,7 +102,7 @@ export function exportCardsToWord(
               C
             </td>
             <td width="35%" align="right" style="padding-right: 14pt; padding-bottom: 6pt; vertical-align: bottom; font-size: ${infoSubFontSize}pt; color: #888; font-family: Arial, sans-serif;">
-              Mã quang học Plickers
+              Mã QR Chuẩn Quốc Tế
             </td>
           </tr>
         </table>
@@ -150,7 +137,25 @@ export function exportCardsToWord(
     <br clear="all" style="page-break-before: always; mso-break-type: section-break;" />
   `);
 
-  const wordContent = `
+  const boundary = "----=_NextPart_DOC_THETRALOI_2026";
+
+  // Tạo phần đính kèm ảnh PNG base64 cho từng mã QR
+  let imageParts = "";
+  students.forEach((student) => {
+    const item = qrImagesMap.get(student.stt);
+    if (!item) return;
+    imageParts += [
+      `--${boundary}`,
+      "Content-Type: image/png",
+      "Content-Transfer-Encoding: base64",
+      `Content-Location: qr_${student.stt}.png`,
+      "",
+      item.base64,
+      "",
+    ].join("\r\n");
+  });
+
+  const wordHtml = `
     <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
       <head>
         <meta charset='utf-8'>
@@ -184,7 +189,23 @@ export function exportCardsToWord(
     </html>
   `;
 
-  const blob = new Blob(["\ufeff", wordContent], { type: "application/msword;charset=utf-8" });
+  // Đóng gói định dạng MHTML chuẩn của Microsoft Word
+  const mhtmlContent = [
+    "MIME-Version: 1.0",
+    `Content-Type: multipart/related; boundary="${boundary}"`,
+    "",
+    `--${boundary}`,
+    "Content-Type: text/html; charset=\"utf-8\"",
+    "Content-Transfer-Encoding: 7bit",
+    "",
+    wordHtml,
+    "",
+    imageParts,
+    `--${boundary}--`,
+    "",
+  ].join("\r\n");
+
+  const blob = new Blob([mhtmlContent], { type: "application/msword;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;

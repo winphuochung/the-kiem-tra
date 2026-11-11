@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.66.0",
+    "@types/qrcode": "^1.5.6",
     "express": "^4.21.2",
     "peerjs": "^1.5.5",
+    "qrcode": "^1.5.4",
     "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
