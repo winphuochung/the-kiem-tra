@@ -221,23 +221,20 @@ export const actionHandlers = {
       VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     `);
 
-    const insertMany = db.transaction((items) => {
-      for (const q of items) {
-        pos += 1;
-        stmt.run(
-          bankId,
-          pos,
-          q.content.trim(),
-          q.option_a.trim(),
-          q.option_b.trim(),
-          q.option_c.trim(),
-          q.option_d.trim(),
-          q.correct
-        );
-      }
-    });
+    for (const q of questions) {
+      pos += 1;
+      stmt.run(
+        bankId,
+        pos,
+        (q.content || "").trim(),
+        (q.option_a || "").trim(),
+        (q.option_b || "").trim(),
+        (q.option_c || "").trim(),
+        (q.option_d || "").trim(),
+        q.correct || "A"
+      );
+    }
 
-    insertMany(questions);
     return { added: questions.length };
   },
 
