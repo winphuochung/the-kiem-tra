@@ -120,8 +120,8 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
       const stream = await navigator.mediaDevices.getUserMedia({
         video: {
           facingMode: { ideal: "environment" },
-          width: { ideal: 1280 },
-          height: { ideal: 720 },
+          width: { ideal: 1920, min: 1280 },
+          height: { ideal: 1080, min: 720 },
         },
         audio: false,
       });
@@ -180,118 +180,243 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     return () => clearTimeout(t);
   }, [justDetected]);
 
-  // 4. Gửi đáp án cho 1 học sinh lên máy tính (qua PeerJS và lưu thẳng vào API)
+  // 4. Gửi đáp án cho 1 hoặc nhiều học sinh lên máy tính (qua PeerJS và lưu thẳng vào API)
   const submitAnswer = async (studentId: number, answer: Answer, studentName: string) => {
-    if (!currentQ) return;
-    const isCorrect = answer === currentQ.correct;
-    setResponsesMap((prev) => new Map(prev).set(studentId, answer));
-    setJustDetected({
-      text: `${studentName} đã chọn ${answer}`,
-      isCorrect,
+    submitBatchAnswers([{ studentId, answer, studentName }]);
+  };
+
+  const submitBatchAnswers = async (
+    items: { studentId: number; answer: Answer; studentName: string }[]
+  ) => {
+    if (!currentQ || items.length === 0) return;
+
+    // 1. Cập nhật state local ngay tức khắc
+    setResponsesMap((prev) => {
+      const next = new Map(prev);
+      for (const it of items) {
+        next.set(it.studentId, it.answer);
+      }
+      return next;
     });
+
+    // 2. Thông báo trực quan trên điện thoại
+    if (items.length === 1) {
+      const isCorrect = items[0].answer === currentQ.correct;
+      setJustDetected({
+        text: `${items[0].studentName} đã chọn ${items[0].answer}`,
+        isCorrect,
+      });
+    } else {
+      const correctCount = items.filter((it) => it.answer === currentQ.correct).length;
+      const sttList = items
+        .map((it) => {
+          const s = students.find((st) => st.id === it.studentId);
+          return `#${s?.stt || it.studentId}:${it.answer}`;
+        })
+        .join(", ");
+      setJustDetected({
+        text: `Đã nhận ${items.length} em cùng lúc: ${sttList}`,
+        isCorrect: correctCount > 0,
+      });
+    }
+
     playBeep();
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate([40]);
     }
 
-    // 1. Gửi qua PeerJS DataChannel tới máy tính PC
+    // 3. Gửi đồng thời qua PeerJS tới máy tính (cả dạng BATCH và dạng từng em để 100% tương thích)
     try {
       connRef.current?.send({
-        type: "SUBMIT_ANSWER",
+        type: "SUBMIT_BATCH",
         question_id: currentQ.id,
-        student_id: studentId,
-        answer,
+        answers: items.map((it) => ({ student_id: it.studentId, answer: it.answer })),
       });
+      for (const it of items) {
+        connRef.current?.send({
+          type: "SUBMIT_ANSWER",
+          question_id: currentQ.id,
+          student_id: it.studentId,
+          answer: it.answer,
+        });
+      }
     } catch (e) {
       console.warn("Lỗi gửi PeerJS:", e);
     }
 
-    // 2. GỌI TRỰC TIẾP API ĐỂ LƯU VÀO DATABASE (Đồng bộ tức thì kể cả khi mạng P2P chậm)
+    // 4. Lưu trực tiếp vào Database qua API
     try {
       await api.recordResponses({
         session_id: sessionId,
         question_id: currentQ.id,
         source: "scan",
-        answers: [{ student_id: studentId, answer }],
+        answers: items.map((it) => ({ student_id: it.studentId, answer: it.answer })),
       });
     } catch (e) {
       console.error("Lỗi lưu đáp án qua API:", e);
     }
   };
 
-  // 5. Vòng lặp quét nhận diện MÃ QR SIÊU TỐC TỪ CAMERA (60 FPS)
+  // 5. VÒNG LẶP QUÉT ĐỒNG THỜI TẤT CẢ HỌC SINH (DUAL ENGINE MULTI-QR SCANNER)
   useEffect(() => {
     if (!camOn || !currentQ || students.length === 0) return;
 
     let animId: number;
+    let isProcessing = false;
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d", { willReadFrequently: true });
 
-    const scan = () => {
+    // Khởi tạo BarcodeDetector nếu trình duyệt hỗ trợ (Chrome Android, iOS 17 Safari, Edge)
+    let barcodeDetector: any = null;
+    if (typeof window !== "undefined" && "BarcodeDetector" in window) {
+      try {
+        barcodeDetector = new (window as any).BarcodeDetector({ formats: ["qr_code"] });
+      } catch (e) {
+        console.warn("Không thể tạo BarcodeDetector:", e);
+      }
+    }
+
+    // Hàm trích xuất thông tin học sinh từ chuỗi mã QR
+    const extractStudent = (raw: string) => {
+      let foundStt: number | null = null;
+      const match1 = raw.match(/student_stt=(\d+)/i);
+      const match2 = raw.match(/STT[=:](\d+)/i);
+      const match3 = raw.match(/TTL[:=](\d+)/i);
+      if (match1) foundStt = parseInt(match1[1], 10);
+      else if (match2) foundStt = parseInt(match2[1], 10);
+      else if (match3) foundStt = parseInt(match3[1], 10);
+      else {
+        const num = parseInt(raw, 10);
+        if (!isNaN(num) && num > 0) foundStt = num;
+      }
+      if (foundStt == null) return null;
+      return students.find((s) => s.stt === foundStt) || null;
+    };
+
+    const scan = async () => {
       const video = videoRef.current;
-      if (video && video.readyState === video.HAVE_ENOUGH_DATA && ctx) {
+      if (!isProcessing && video && video.readyState >= video.HAVE_CURRENT_DATA && ctx) {
         const vw = video.videoWidth;
         const vh = video.videoHeight;
         if (vw > 0 && vh > 0) {
-          // TỐI ƯU HÓA TỐC ĐỘ: Thu nhỏ khung hình về tối đa 600px để quét tức thì chỉ 5-10ms
-          const maxDim = 600;
-          const scale = Math.min(1, maxDim / Math.max(vw, vh));
-          const sw = Math.round(vw * scale);
-          const sh = Math.round(vh * scale);
+          isProcessing = true;
+          const detectedBatch: { studentId: number; answer: Answer; studentName: string }[] = [];
+          const processedIds = new Set<number>();
 
-          if (canvas.width !== sw || canvas.height !== sh) {
-            canvas.width = sw;
-            canvas.height = sh;
-          }
-          ctx.drawImage(video, 0, 0, sw, sh);
-
-          const imageData = ctx.getImageData(0, 0, sw, sh);
-          const code = jsQR(imageData.data, sw, sh, {
-            inversionAttempts: "dontInvert",
-          });
-
-          if (code && code.data) {
-            const raw = code.data;
-            // Phân tích mã QR: Tìm số thứ tự STT
-            let foundStt: number | null = null;
-            const match1 = raw.match(/student_stt=(\d+)/i);
-            const match2 = raw.match(/STT[=:](\d+)/i);
-            const match3 = raw.match(/TTL[:=](\d+)/i);
-            if (match1) foundStt = parseInt(match1[1], 10);
-            else if (match2) foundStt = parseInt(match2[1], 10);
-            else if (match3) foundStt = parseInt(match3[1], 10);
-            else {
-              const num = parseInt(raw, 10);
-              if (!isNaN(num) && num > 0) foundStt = num;
+          // === ĐỘNG CƠ 1: NATIVE BARCODE DETECTOR (Quét cực nhanh tất cả mã QR trong 1 lần gọi) ===
+          if (barcodeDetector) {
+            try {
+              const barcodes = await barcodeDetector.detect(video);
+              if (barcodes && barcodes.length > 0) {
+                for (const bc of barcodes) {
+                  if (bc.rawValue && bc.cornerPoints && bc.cornerPoints.length >= 4) {
+                    const student = extractStudent(bc.rawValue);
+                    if (student && !processedIds.has(student.id)) {
+                      processedIds.add(student.id);
+                      const pts = bc.cornerPoints;
+                      const edgeMidpoints: { name: Answer; y: number }[] = [
+                        { name: "A", y: (pts[0].y + pts[1].y) / 2 },
+                        { name: "B", y: (pts[1].y + pts[2].y) / 2 },
+                        { name: "C", y: (pts[2].y + pts[3].y) / 2 },
+                        { name: "D", y: (pts[3].y + pts[0].y) / 2 },
+                      ];
+                      edgeMidpoints.sort((p, q) => p.y - q.y);
+                      detectedBatch.push({
+                        studentId: student.id,
+                        answer: edgeMidpoints[0].name,
+                        studentName: student.name,
+                      });
+                    }
+                  }
+                }
+              }
+            } catch (err) {
+              // Fallback qua jsQR nếu BarcodeDetector lỗi
             }
+          }
 
-            if (foundStt != null) {
-              const student = students.find((s) => s.stt === foundStt);
-              if (student && code.location) {
+          // === ĐỘNG CƠ 2: MULTI-PASS MASKED JSQR (Quét lặp xóa mặt nạ tìm tất cả học sinh) ===
+          // Chạy khi BarcodeDetector không có hoặc tìm được ít hơn
+          if (detectedBatch.length === 0) {
+            // Quét ở độ phân giải 1000px để bắt nét cả học sinh ngồi xa
+            const maxDim = 1000;
+            const scale = Math.min(1, maxDim / Math.max(vw, vh));
+            const sw = Math.round(vw * scale);
+            const sh = Math.round(vh * scale);
+
+            if (canvas.width !== sw || canvas.height !== sh) {
+              canvas.width = sw;
+              canvas.height = sh;
+            }
+            ctx.drawImage(video, 0, 0, sw, sh);
+
+            // Quét tối đa 20 lượt: Mỗi lượt tìm được 1 mã QR, phủ trắng vùng đó rồi quét tiếp lượt sau!
+            const MAX_PASSES = 20;
+            for (let pass = 0; pass < MAX_PASSES; pass++) {
+              const imageData = ctx.getImageData(0, 0, sw, sh);
+              const code = jsQR(imageData.data, sw, sh, {
+                inversionAttempts: "dontInvert",
+              });
+
+              if (!code || !code.data) break; // Không còn mã QR nào nữa
+
+              const student = extractStudent(code.data);
+              if (student && code.location && !processedIds.has(student.id)) {
+                processedIds.add(student.id);
                 const loc = code.location;
-                // XÁC ĐỊNH ĐÁP ÁN A, B, C, D DỰA TRÊN CẠNH Ở TRÊN CÙNG CỦA MÀN HÌNH (Y NHỎ NHẤT)
                 const edgeMidpoints: { name: Answer; y: number }[] = [
                   { name: "A", y: (loc.topLeftCorner.y + loc.topRightCorner.y) / 2 },
                   { name: "B", y: (loc.topRightCorner.y + loc.bottomRightCorner.y) / 2 },
                   { name: "C", y: (loc.bottomRightCorner.y + loc.bottomLeftCorner.y) / 2 },
                   { name: "D", y: (loc.bottomLeftCorner.y + loc.topLeftCorner.y) / 2 },
                 ];
-
                 edgeMidpoints.sort((p, q) => p.y - q.y);
-                const chosenAnswer: Answer = edgeMidpoints[0]!.name;
+                detectedBatch.push({
+                  studentId: student.id,
+                  answer: edgeMidpoints[0].name,
+                  studentName: student.name,
+                });
+              }
 
-                // GIẢM ĐỘ TRỄ XUỐNG 350ms ĐỂ QUÉT LƯỚT CẢ LỚP SIÊU NHANH
-                const now = Date.now();
-                const lastTime = lastScanTimeRef.current.get(student.id) || 0;
-                const currentRecorded = responsesMap.get(student.id);
-
-                if (now - lastTime > 350 || currentRecorded !== chosenAnswer) {
-                  lastScanTimeRef.current.set(student.id, now);
-                  submitAnswer(student.id, chosenAnswer, student.name);
-                }
+              // PHỦ TRẮNG VÙNG MÃ QR VỪA TÌM ĐƯỢC ĐỂ TÌM TIẾP CÁC HỌC SINH KHÁC TRONG ẢNH
+              if (code.location) {
+                const loc = code.location;
+                const pad = 14;
+                ctx.fillStyle = "#ffffff";
+                ctx.beginPath();
+                ctx.moveTo(loc.topLeftCorner.x - pad, loc.topLeftCorner.y - pad);
+                ctx.lineTo(loc.topRightCorner.x + pad, loc.topRightCorner.y - pad);
+                ctx.lineTo(loc.bottomRightCorner.x + pad, loc.bottomRightCorner.y + pad);
+                ctx.lineTo(loc.bottomLeftCorner.x - pad, loc.bottomLeftCorner.y + pad);
+                ctx.closePath();
+                ctx.fill();
+              } else {
+                break;
               }
             }
           }
+
+          // XỬ LÝ TOÀN BỘ DANH SÁCH HỌC SINH QUÉT ĐƯỢC
+          if (detectedBatch.length > 0) {
+            const now = Date.now();
+            const toSubmit: { studentId: number; answer: Answer; studentName: string }[] = [];
+
+            for (const item of detectedBatch) {
+              const lastTime = lastScanTimeRef.current.get(item.studentId) || 0;
+              const currentRecorded = responsesMap.get(item.studentId);
+              // Cập nhật nếu chưa có hoặc quá 350ms hoặc học sinh vừa đổi đáp án xoay thẻ
+              if (now - lastTime > 350 || currentRecorded !== item.answer) {
+                lastScanTimeRef.current.set(item.studentId, now);
+                toSubmit.push(item);
+              }
+            }
+
+            if (toSubmit.length > 0) {
+              submitBatchAnswers(toSubmit);
+            }
+          }
+
+          isProcessing = false;
         }
       }
       animId = requestAnimationFrame(scan);
@@ -435,11 +560,25 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
             </div>
           )}
 
-          {/* Tia quét laser visual */}
+          {/* Khung ngắm quét toàn diện cả lớp học (Quét đồng thời nhiều em) */}
           {camOn && (
-            <div className="absolute inset-0 pointer-events-none flex flex-col items-center justify-center">
-              <div className="w-56 h-56 border-2 border-emerald-400/70 rounded-2xl relative">
-                <div className="absolute inset-x-0 h-0.5 bg-emerald-400 shadow-[0_0_12px_#34d399] animate-[scanline_2s_ease-in-out_infinite]" />
+            <div className="absolute inset-0 pointer-events-none flex flex-col items-center justify-between p-2.5">
+              <div className="w-full flex items-center justify-between gap-1.5 z-10">
+                <span className="text-[10px] font-black uppercase tracking-wider text-emerald-300 bg-black/75 px-2.5 py-1 rounded-full border border-emerald-500/40 shadow">
+                  📷 Quét toàn bộ lớp học
+                </span>
+                <span className="text-[10px] font-black text-amber-300 bg-black/75 px-2.5 py-1 rounded-full border border-amber-500/40 shadow">
+                  Đã nhận: {responsesMap.size}/{students.length} em
+                </span>
+              </div>
+
+              {/* Tia quét laser chạy ngang toàn bộ khung hình */}
+              <div className="w-full relative h-1 bg-emerald-400 shadow-[0_0_16px_#34d399] animate-[scanline_2.2s_ease-in-out_infinite]" />
+
+              <div className="text-center z-10 mb-1">
+                <span className="text-[10px] font-bold text-white/90 bg-black/75 px-3 py-1 rounded-full border border-white/20 shadow">
+                  ✨ Quét đồng thời tất cả học sinh đang giơ thẻ
+                </span>
               </div>
             </div>
           )}

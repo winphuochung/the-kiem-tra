@@ -1758,6 +1758,54 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
             isCorrect,
             timestamp: Date.now(),
           });
+        } else if (msg.type === "SUBMIT_BATCH") {
+          // Xử lý quét nhiều học sinh cùng lúc từ điện thoại
+          queryClient.setQueryData(["session", sessionId], (old: any) => {
+            if (!old) return old;
+            const responses = [...(old.responses || [])];
+            for (const ansItem of msg.answers) {
+              const existingIdx = responses.findIndex(
+                (r: any) => r.question_id === msg.question_id && r.student_id === ansItem.student_id
+              );
+              if (existingIdx >= 0) {
+                responses[existingIdx] = {
+                  ...responses[existingIdx],
+                  answer: ansItem.answer,
+                  source: "scan",
+                };
+              } else {
+                responses.push({
+                  question_id: msg.question_id,
+                  student_id: ansItem.student_id,
+                  answer: ansItem.answer,
+                  source: "scan",
+                });
+              }
+            }
+            return { ...old, responses };
+          });
+
+          api.recordResponses({
+            session_id: sessionId,
+            question_id: msg.question_id,
+            source: "scan",
+            answers: msg.answers,
+          }).catch(console.error);
+
+          if (msg.answers.length > 0) {
+            const lastAns = msg.answers[msg.answers.length - 1];
+            const student = students.find((s) => s.id === lastAns.student_id);
+            const targetQ = questions.find((item) => item.id === msg.question_id) || currentQ;
+            const isCorrect = targetQ ? lastAns.answer === targetQ.correct : false;
+
+            setRecentScan({
+              studentName: msg.answers.length > 1 ? `Đã nhận ${msg.answers.length} học sinh cùng lúc!` : student?.name || `Học sinh #${lastAns.student_id}`,
+              studentStt: student?.stt || lastAns.student_id,
+              answer: lastAns.answer,
+              isCorrect,
+              timestamp: Date.now(),
+            });
+          }
         } else if (msg.type === "GOTO_QUESTION") {
           goto(msg.index);
         } else if (msg.type === "PING") {
