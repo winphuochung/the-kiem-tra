@@ -2546,6 +2546,1762 @@ export const GRADES_DATA: GradeItem[] = [
             ]
           }
         ]
+      },
+      {
+        "id": "am-nhac-1",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Âm thanh kì diệu",
+            "title": "Bài 1: Khám phá âm thanh quanh em",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 1: Khám phá âm thanh quanh em), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân biệt được âm thanh tự nhiên (tiếng suối, tiếng chim) và âm thanh nhân tạo (tiếng còi xe, tiếng chuông).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Khám phá âm thanh quanh em.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Khám phá âm thanh quanh em\" thuộc \"Chủ đề 1: Âm thanh kì diệu\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắng nghe chăm chú và mô phỏng lại các âm thanh quen thuộc trong đời sống.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Âm thanh kì diệu",
+            "title": "Bài 2: Học hát bài \"Tiếng trống trường em\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 2: Học hát bài \"Tiếng trống trường em\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hát đúng giai điệu rộn ràng, vui tươi báo hiệu giờ học mới bắt đầu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Học hát bài \"Tiếng trống trường em\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Học hát bài \"Tiếng trống trường em\"\" thuộc \"Chủ đề 1: Âm thanh kì diệu\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vỗ tay đều đặn theo nhịp tiếng trống trường 'Tùng! Tùng! Tùng!'.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Âm thanh kì diệu",
+            "title": "Bài 3: Nhạc cụ: Thanh phách và trống nhỏ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 3: Nhạc cụ: Thanh phách và trống nhỏ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhận biết hình dáng thanh phách tre và trống con cầm tay phát ra âm thanh giòn giã.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Nhạc cụ: Thanh phách và trống nhỏ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Nhạc cụ: Thanh phách và trống nhỏ\" thuộc \"Chủ đề 1: Âm thanh kì diệu\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ thanh phách đệm theo từng từ trong câu hát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Ngôi trường thân yêu",
+            "title": "Bài 4: Học hát bài \"Vui đến trường\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 4: Học hát bài \"Vui đến trường\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu vui tươi, trong sáng thể hiện niềm háo hức mỗi sáng mai cắp sách đến lớp.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Học hát bài \"Vui đến trường\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Học hát bài \"Vui đến trường\"\" thuộc \"Chủ đề 2: Ngôi trường thân yêu\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát to, rõ lời và giữ tư thế đứng ngay ngắn, tươi vui.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Ngôi trường thân yêu",
+            "title": "Bài 5: Vận động theo nhạc nhịp nhàng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 5: Vận động theo nhạc nhịp nhàng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vận động cơ thể: nhún chân, vẫy tay theo giai điệu bài hát vui tươi.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Vận động theo nhạc nhịp nhàng.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Vận động theo nhạc nhịp nhàng\" thuộc \"Chủ đề 2: Ngôi trường thân yêu\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phối hợp nhịp nhàng giữa bước chân và tiếng vỗ tay.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Ngôi trường thân yêu",
+            "title": "Bài 6: Đọc nhạc: Đô - Rê - Mi",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 6: Đọc nhạc: Đô - Rê - Mi), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhận biết cao độ 3 nốt nhạc đầu tiên Đô (thấp nhất) - Rê - Mi (cao nhất) qua kí hiệu bàn tay.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Đọc nhạc: Đô - Rê - Mi.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Đô - Rê - Mi\" thuộc \"Chủ đề 2: Ngôi trường thân yêu\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hành đọc đúng cao độ 3 nốt nhạc kết hợp làm kí hiệu bàn tay chuẩn xác.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Bài ca lao động",
+            "title": "Bài 7: Học hát bài \"Lí cây xanh\" (Dân ca Nam Bộ)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 7: Học hát bài \"Lí cây xanh\" (Dân ca Nam Bộ)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Làn điệu dân ca mộc mạc ca ngợi cây xanh chim đậu ríu rít tràn ngập niềm vui.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Học hát bài \"Lí cây xanh\" (Dân ca Nam Bộ).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Học hát bài \"Lí cây xanh\" (Dân ca Nam Bộ)\" thuộc \"Chủ đề 3: Bài ca lao động\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với giọng ca trong trẻo và thể hiện nét luyến láy dân ca nhẹ nhàng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Bài ca lao động",
+            "title": "Bài 8: Nhạc cụ: Vỗ tay và dậm chân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 8: Nhạc cụ: Vỗ tay và dậm chân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tạo âm thanh tiết tấu bằng chính cơ thể thông qua vỗ lòng bàn tay và dậm bước chân.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Nhạc cụ: Vỗ tay và dậm chân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ: Vỗ tay và dậm chân\" thuộc \"Chủ đề 3: Bài ca lao động\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện vỗ tay ở phách mạnh và dậm chân giữ nhịp bài hát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Bài ca lao động",
+            "title": "Bài 9: Thường thức: Âm thanh nhạc cụ dân tộc thanh la",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 9: Thường thức: Âm thanh nhạc cụ dân tộc thanh la), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thanh la bằng đồng gõ bằng dùi con tạo ra âm thanh ngân vang lảnh lót.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Thường thức: Âm thanh nhạc cụ dân tộc thanh la.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Thường thức: Âm thanh nhạc cụ dân tộc thanh la\" thuộc \"Chủ đề 3: Bài ca lao động\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắng nghe âm sắc vang sáng đặc trưng của nhạc cụ thanh la.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Chú bộ đội",
+            "title": "Bài 10: Học hát bài \"Em yêu chú bộ đội\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 10: Học hát bài \"Em yêu chú bộ đội\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Lòng kính yêu và biết ơn các chú bộ đội ngày đêm canh giữ biển trời Tổ quốc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Học hát bài \"Em yêu chú bộ đội\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Học hát bài \"Em yêu chú bộ đội\"\" thuộc \"Chủ đề 4: Chú bộ đội\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với tác phong khoẻ khoắn, nghiêm trang như chú bộ đội tí hon.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Chú bộ đội",
+            "title": "Bài 11: Nhạc cụ gõ tam giác sắt (Triangle)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 11: Nhạc cụ gõ tam giác sắt (Triangle)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhạc cụ Triangle uốn hình tam giác bằng kim loại phát ra âm thanh ngân vang thanh thoát.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Nhạc cụ gõ tam giác sắt (Triangle).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Nhạc cụ gõ tam giác sắt (Triangle)\" thuộc \"Chủ đề 4: Chú bộ đội\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cầm dây treo tam giác sắt và dùng que gõ nhẹ vào cạnh kim loại.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Chú bộ đội",
+            "title": "Bài 12: Đọc nhạc: Rê - Mi - Son",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 12: Đọc nhạc: Rê - Mi - Son), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhận biết khoảng cách cao độ nhảy quãng giữa nốt Mi lên nốt Son.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Đọc nhạc: Rê - Mi - Son.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Rê - Mi - Son\" thuộc \"Chủ đề 4: Chú bộ đội\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc to rõ nốt Son cao hơn nốt Mi kết hợp động tác tay.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Gia đình đầm ấm",
+            "title": "Bài 13: Học hát bài \"Cả nhà thương nhau\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 13: Học hát bài \"Cả nhà thương nhau\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tình cảm gia đình gắn bó yêu thương: 'Ba thương con vì con giống mẹ...'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Học hát bài \"Cả nhà thương nhau\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Học hát bài \"Cả nhà thương nhau\"\" thuộc \"Chủ đề 5: Gia đình đầm ấm\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát tha thiết, ấm áp thể hiện lòng hiếu thảo với cha mẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Gia đình đầm ấm",
+            "title": "Bài 14: Vận động nhịp nhàng theo câu hát",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 14: Vận động nhịp nhàng theo câu hát), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nghiêng đầu sang phải, sang trái và vỗ tay theo từng câu hát êm dịu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Vận động nhịp nhàng theo câu hát.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Vận động nhịp nhàng theo câu hát\" thuộc \"Chủ đề 5: Gia đình đầm ấm\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thể hiện nụ cười và ánh mắt yêu thương khi biểu diễn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Gia đình đầm ấm",
+            "title": "Bài 15: Đọc nhạc: Mi - Son - La",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 15: Đọc nhạc: Mi - Son - La), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cao độ nốt La nằm cao nhất trong chuỗi 4 nốt Mi - Son - La.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Đọc nhạc: Mi - Son - La.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Mi - Son - La\" thuộc \"Chủ đề 5: Gia đình đầm ấm\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc ngân vang nốt La tròn tiếng và giữ hơi thở đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Loài vật quanh em",
+            "title": "Bài 16: Học hát bài \"Đàn gà con\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 16: Học hát bài \"Đàn gà con\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình ảnh những chú gà con lông vàng óng như cục tơ chạy lon ton đáng yêu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Học hát bài \"Đàn gà con\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Học hát bài \"Đàn gà con\"\" thuộc \"Chủ đề 6: Loài vật quanh em\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát nhí nhảnh, ngắt hơi đúng chỗ tạo tiếng gà con 'chíp chíp'.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Loài vật quanh em",
+            "title": "Bài 17: Nhạc cụ gõ xúc xắc (Maracas)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 17: Nhạc cụ gõ xúc xắc (Maracas)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhạc cụ xúc xắc lắc tay tạo tiếng rào rào giòn tan vui tai.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 17: Nhạc cụ gõ xúc xắc (Maracas).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Nhạc cụ gõ xúc xắc (Maracas)\" thuộc \"Chủ đề 6: Loài vật quanh em\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cầm cán lắc đều tay theo nhịp bước chân của bài hát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Loài vật quanh em",
+            "title": "Bài 18: Thường thức: Âm thanh tiếng chim hót",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 18: Thường thức: Âm thanh tiếng chim hót), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tiếng chim sơn ca, chim hót trong trẻo gợi cảm hứng cho các bài hát tuổi thơ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 18: Thường thức: Âm thanh tiếng chim hót.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Thường thức: Âm thanh tiếng chim hót\" thuộc \"Chủ đề 6: Loài vật quanh em\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cảm thụ âm thanh thiên nhiên tươi đẹp và tình yêu thương muôn loài.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Mùa xuân tươi đẹp",
+            "title": "Bài 19: Học hát bài \"Sắp đến Tết rồi\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 19: Học hát bài \"Sắp đến Tết rồi\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Niềm vui sướng hân hoan khi tết đến xuân về được may áo mới và chúc Tết ông bà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 19: Học hát bài \"Sắp đến Tết rồi\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Học hát bài \"Sắp đến Tết rồi\"\" thuộc \"Chủ đề 7: Mùa xuân tươi đẹp\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát rộn ràng kết hợp vỗ tay đón chào mùa xuân.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Mùa xuân tươi đẹp",
+            "title": "Bài 20: Hát múa phụ họa ngày xuân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 20: Hát múa phụ họa ngày xuân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các động tác múa hoa, xòe tay đón mùa xuân nở rộ trên khắp bản làng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 20: Hát múa phụ họa ngày xuân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Hát múa phụ họa ngày xuân\" thuộc \"Chủ đề 7: Mùa xuân tươi đẹp\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Múa đều cùng các bạn trong nhóm đồng diễn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Mùa xuân tươi đẹp",
+            "title": "Bài 21: Đọc nhạc: Đô - Mi - Son",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 21: Đọc nhạc: Đô - Mi - Son), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chuỗi nốt hợp âm Đô - Mi - Son trong sáng, khỏe khoắn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 21: Đọc nhạc: Đô - Mi - Son.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Đô - Mi - Son\" thuộc \"Chủ đề 7: Mùa xuân tươi đẹp\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Luyện đọc cao độ nhảy quãng 3 vững vàng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Vui đón hè",
+            "title": "Bài 22: Học hát bài \"Đi học về\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 22: Học hát bài \"Đi học về\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bài học lễ phép chào cha mẹ, ông bà khi đi học về đến nhà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 22: Học hát bài \"Đi học về\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Học hát bài \"Đi học về\"\" thuộc \"Chủ đề 8: Vui đón hè\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Khoanh tay lễ phép hát với giọng ca ngọt ngào, kính trọng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Vui đón hè",
+            "title": "Bài 23: Trò chơi âm nhạc nhận biết giai điệu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 23: Trò chơi âm nhạc nhận biết giai điệu), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đoán tên bài hát qua tiếng đàn gõ hoặc giai điệu ngân vang.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 23: Trò chơi âm nhạc nhận biết giai điệu.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Trò chơi âm nhạc nhận biết giai điệu\" thuộc \"Chủ đề 8: Vui đón hè\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hăng hái xung phong tham gia trò chơi âm nhạc tập thể.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Vui đón hè",
+            "title": "Bài 24: Đọc nhạc: Ôn tập 5 nốt nhạc Đô - Rê - Mi - Son - La",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 1 (Bài 24: Đọc nhạc: Ôn tập 5 nốt nhạc Đô - Rê - Mi - Son - La), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nắm vững trọn vẹn 5 nốt nhạc đầu đời của âm nhạc tiểu học.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 24: Đọc nhạc: Ôn tập 5 nốt nhạc Đô - Rê - Mi - Son - La.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Ôn tập 5 nốt nhạc Đô - Rê - Mi - Son - La\" thuộc \"Chủ đề 8: Vui đón hè\" (Âm nhạc 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc diễn cảm bài đọc nhạc tổng kết năm học lớp 1.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mi-thuat-1",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Thế giới mĩ thuật",
+            "title": "Bài 1: Sắc màu em yêu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 1: Sắc màu em yêu), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhận biết các màu sắc cơ bản trong tự nhiên: màu đỏ của hoa, màu vàng của nắng, màu lam của bầu trời.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Sắc màu em yêu.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Sắc màu em yêu\" thuộc \"Chủ đề 1: Thế giới mĩ thuật\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Quan sát và phân biệt màu sắc tươi sáng trong tranh vẽ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Thế giới mĩ thuật",
+            "title": "Bài 2: Chấm và nét kì diệu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 2: Chấm và nét kì diệu), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nét thẳng, nét cong, nét gấp khúc, nét lượn sóng và các chấm to nhỏ tạo hình bức tranh sinh động.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Chấm và nét kì diệu.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Chấm và nét kì diệu\" thuộc \"Chủ đề 1: Thế giới mĩ thuật\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ phối hợp nhiều loại nét và chấm màu tạo hình bông hoa.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Ngôi nhà thân quen",
+            "title": "Bài 3: Ngôi nhà từ hình cơ bản",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 3: Ngôi nhà từ hình cơ bản), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Ngôi nhà tạo nên từ hình tam giác (mái nhà), hình chữ nhật (tường, cửa) và hình vuông (cửa sổ).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Ngôi nhà từ hình cơ bản.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Ngôi nhà từ hình cơ bản\" thuộc \"Chủ đề 2: Ngôi nhà thân quen\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ ngôi nhà ấm cúng của em bằng các hình khối cơ bản.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Ngôi nhà thân quen",
+            "title": "Bài 4: Vẽ khu vườn quanh nhà",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 4: Vẽ khu vườn quanh nhà), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cây cối, hoa lá và hàng rào tạo nên không gian khu vườn xanh mát quanh ngôi nhà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Vẽ khu vườn quanh nhà.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Vẽ khu vườn quanh nhà\" thuộc \"Chủ đề 2: Ngôi nhà thân quen\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tô màu xanh lá cây và hoa rực rỡ cho khu vườn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Động vật đáng yêu",
+            "title": "Bài 5: Tạo hình con vật bằng đất nặn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 5: Tạo hình con vật bằng đất nặn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ thuật lăn tròn, ấn dẹt, vuốt nhọn đất nặn để tạo hình chú mèo, chú thỏ ngộ nghĩnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Tạo hình con vật bằng đất nặn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Tạo hình con vật bằng đất nặn\" thuộc \"Chủ đề 3: Động vật đáng yêu\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Ghép nối các bộ phận đầu, thân, tai, đuôi con vật chắc chắn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Động vật đáng yêu",
+            "title": "Bài 6: Tranh vẽ chú cá bơi",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 6: Tranh vẽ chú cá bơi), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình dáng thân cá elip, vây cá, vảy cá lấp lánh và bọt nước bồng bềnh dưới đáy đại dương.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Tranh vẽ chú cá bơi.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Tranh vẽ chú cá bơi\" thuộc \"Chủ đề 3: Động vật đáng yêu\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Dùng nét cong vẽ thân cá và tô màu rực rỡ cho vây cá.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Cây cối thiên nhiên",
+            "title": "Bài 7: Cây xanh bốn mùa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 7: Cây xanh bốn mùa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thân cây màu nâu vững chãi, tán lá sum sê đổi màu theo mùa (xanh xuân hạ, vàng mùa thu).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Cây xanh bốn mùa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Cây xanh bốn mùa\" thuộc \"Chủ đề 4: Cây cối thiên nhiên\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ tán cây hình đám mây xòe bóng mát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Cây cối thiên nhiên",
+            "title": "Bài 8: Lá cây trong tranh vẽ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 8: Lá cây trong tranh vẽ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình dạng phong phú của lá cây: lá tròn, lá dài, lá hình tim và các đường gân lá tự nhiên.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Lá cây trong tranh vẽ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Lá cây trong tranh vẽ\" thuộc \"Chủ đề 4: Cây cối thiên nhiên\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "In dập gân lá cây lên giấy vẽ tạo họa tiết tự nhiên.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Đồ chơi của em",
+            "title": "Bài 9: Chiếc ô tô ngộ nghĩnh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 9: Chiếc ô tô ngộ nghĩnh), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thân xe hình khối chữ nhật, bánh xe hình tròn lăn bánh đưa em đi dạo phố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Chiếc ô tô ngộ nghĩnh.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Chiếc ô tô ngộ nghĩnh\" thuộc \"Chủ đề 5: Đồ chơi của em\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ ô tô nhiều màu sắc ngộ nghĩnh chạy trên đường phố.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Đồ chơi của em",
+            "title": "Bài 10: Đồ chơi từ lá cây và que kem",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 10: Đồ chơi từ lá cây và que kem), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tận dụng lá dừa cuốn kèn, que kem làm hàng rào đồ chơi thủ công sáng tạo.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Đồ chơi từ lá cây và que kem.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Đồ chơi từ lá cây và que kem\" thuộc \"Chủ đề 5: Đồ chơi của em\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Uốn ghép lá cây nhẹ nhàng tạo hình con giống dân gian.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Ngày Tết quê em",
+            "title": "Bài 11: Hoa đào hoa mai ngày Tết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 11: Hoa đào hoa mai ngày Tết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hoa đào miền Bắc cánh hồng phai, hoa mai miền Nam cánh vàng tươi rực rỡ đón xuân sang.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Hoa đào hoa mai ngày Tết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Hoa đào hoa mai ngày Tết\" thuộc \"Chủ đề 6: Ngày Tết quê em\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ cành hoa đào, hoa mai nở rộ đón Tết đoàn viên.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Ngày Tết quê em",
+            "title": "Bài 12: Mâm ngũ quả đón xuân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 12: Mâm ngũ quả đón xuân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Năm loại quả tượng trưng cho mong ước no ấm, may mắn: mãng cầu, sung, dừa, đu đủ, xoài.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Mâm ngũ quả đón xuân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Mâm ngũ quả đón xuân\" thuộc \"Chủ đề 6: Ngày Tết quê em\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ mâm ngũ quả tròn đầy sắc màu tươi tắn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Gia đình yêu thương",
+            "title": "Bài 13: Chân dung người thân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 13: Chân dung người thân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khuôn mặt tròn, đôi mắt hiền từ và nụ cười ấm áp của ông bà, cha mẹ kính yêu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Chân dung người thân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Chân dung người thân\" thuộc \"Chủ đề 7: Gia đình yêu thương\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ chân dung người thân với tình cảm yêu thương chân thành.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Gia đình yêu thương",
+            "title": "Bài 14: Bữa cơm gia đình sum họp",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 14: Bữa cơm gia đình sum họp), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cả nhà quây quần bên mâm cơm ấm cúng chia sẻ những câu chuyện vui sau một ngày học tập.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Bữa cơm gia đình sum họp.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Bữa cơm gia đình sum họp\" thuộc \"Chủ đề 7: Gia đình yêu thương\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ các thành viên trong gia đình ngồi bên bàn ăn đầm ấm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Mùa hè rực rỡ",
+            "title": "Bài 15: Cánh diều tuổi thơ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 15: Cánh diều tuổi thơ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình thoi cánh diều no gió bay lượn trên nền trời xanh biếc mùa hè đồng quê.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Cánh diều tuổi thơ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Cánh diều tuổi thơ\" thuộc \"Chủ đề 8: Mùa hè rực rỡ\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ cánh diều nhiều sắc màu rực rỡ no gió trên bầu trời.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Mùa hè rực rỡ",
+            "title": "Bài 16: Cảnh biển quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 1 (Bài 16: Cảnh biển quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bãi cát vàng, sóng biển dập dềnh và cánh buồm đỏ thắm ngoài khơi xa.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Cảnh biển quê hương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Cảnh biển quê hương\" thuộc \"Chủ đề 8: Mùa hè rực rỡ\" (Mĩ thuật 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tô màu nước biển xanh lam trong vắt và bãi cát mịn màng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hdtn-1",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 1: Làm quen với trường lớp và bạn bè mới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 1: Làm quen với trường lớp và bạn bè mới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự tin giới thiệu bản thân, làm quen với thầy cô, các bạn và nội quy lớp học.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Làm quen với trường lớp và bạn bè mới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Làm quen với trường lớp và bạn bè mới\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chủ động mỉm cười chào hỏi và bắt tay bạn mới trong giờ giải lao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 2: Xây dựng nền nếp học tập và sinh hoạt",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 2: Xây dựng nền nếp học tập và sinh hoạt), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chuẩn bị đồ dùng sách vở chu đáo trước khi đến lớp, đi học đúng giờ và giữ trật tự.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Xây dựng nền nếp học tập và sinh hoạt.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Xây dựng nền nếp học tập và sinh hoạt\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập thời gian biểu học tập và sinh hoạt khoa học mỗi ngày.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Rửa tay bằng xà phòng đúng quy trình 6 bước, đánh răng ngày 2 lần và tắm gội sạch sẽ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác vệ sinh thân thể phòng chống dịch bệnh hiệu quả.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 4: Tự phục vụ trong ăn uống và mặc trang phục",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 4: Tự phục vụ trong ăn uống và mặc trang phục), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự gấp quần áo gọn gàng, tự xúc ăn hết suất cơm và không kén chọn thức ăn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Tự phục vụ trong ăn uống và mặc trang phục.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Tự phục vụ trong ăn uống và mặc trang phục\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác dọn bát đĩa sau khi ăn xong bữa cơm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 5: Kính trọng thầy cô giáo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 5: Kính trọng thầy cô giáo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khoanh tay lễ phép chào thầy cô, chú ý nghe giảng và vâng lời thầy cô chỉ dạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Kính trọng thầy cô giáo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Kính trọng thầy cô giáo\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Viết thiệp hoặc làm hoa giấy bày tỏ lòng biết ơn thầy cô giáo.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 6: Xây dựng tình bạn thân ái, đoàn kết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 6: Xây dựng tình bạn thân ái, đoàn kết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Biết chia sẻ đồ dùng học tập, giúp đỡ bạn gặp khó khăn và không trêu chọc bạn bè.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Xây dựng tình bạn thân ái, đoàn kết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Xây dựng tình bạn thân ái, đoàn kết\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng chơi các trò chơi dân gian đoàn kết với bạn trong giờ ra chơi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 7: Yêu thương và chia sẻ công việc nhà",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 7: Yêu thương và chia sẻ công việc nhà), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giúp cha mẹ quét nhà, nhặt rau, cất đồ chơi gọn gàng sau khi chơi xong.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Yêu thương và chia sẻ công việc nhà.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Yêu thương và chia sẻ công việc nhà\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Làm việc nhà vừa sức để thể hiện sự quan tâm tới cha mẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 8: Lễ phép với ông bà, cha mẹ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 8: Lễ phép với ông bà, cha mẹ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đi thưa về gửi, chào hỏi người lớn tuổi bằng cả hai tay và dạ thưa lễ phép.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Lễ phép với ông bà, cha mẹ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Lễ phép với ông bà, cha mẹ\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Quan tâm hỏi han sức khỏe ông bà khi thời tiết thay đổi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 9: Phong tục đón Tết cổ truyền quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 9: Phong tục đón Tết cổ truyền quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gói bánh chưng xanh, bày mâm ngũ quả, dọn dẹp nhà cửa đón Tết sum vầy ấm cúng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Phong tục đón Tết cổ truyền quê hương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Phong tục đón Tết cổ truyền quê hương\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng gia đình trang trí cành đào, cây mai đón chào năm mới.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 10: Ứng xử văn minh khi đi chúc Tết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 10: Ứng xử văn minh khi đi chúc Tết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nói lời chúc Tết may mắn đến người thân, nhận lì xì bằng hai tay và cảm ơn chân thành.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Ứng xử văn minh khi đi chúc Tết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Ứng xử văn minh khi đi chúc Tết\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Không mở phong bao lì xì trước mặt người tặng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 11: Cảnh đẹp và di tích lịch sử địa phương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 11: Cảnh đẹp và di tích lịch sử địa phương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tìm hiểu các danh lam thắng cảnh, di tích lịch sử và nghề truyền thống quê hương mình.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Cảnh đẹp và di tích lịch sử địa phương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Cảnh đẹp và di tích lịch sử địa phương\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Có ý thức tự hào và giới thiệu vẻ đẹp quê hương với bạn bè.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 12: Giữ gìn an toàn giao thông đường bộ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 12: Giữ gìn an toàn giao thông đường bộ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đội mũ bảo hiểm khi ngồi sau xe máy, đi bộ trên vỉa hè và sang đường đúng vạch kẻ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Giữ gìn an toàn giao thông đường bộ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Giữ gìn an toàn giao thông đường bộ\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhắc nhở người thân tuân thủ đúng đèn tín hiệu giao thông.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 13: Phân loại rác thải tại nguồn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 13: Phân loại rác thải tại nguồn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân biệt rác hữu cơ (thức ăn thừa), rác vô cơ tái chế (chai nhựa, giấy) và rác nguy hại.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Phân loại rác thải tại nguồn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Phân loại rác thải tại nguồn\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bỏ rác đúng thùng quy định tại trường học và khu dân cư.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 14: Chăm sóc cây xanh vườn trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 14: Chăm sóc cây xanh vườn trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tưới nước cho cây hoa, nhổ cỏ dại và không bẻ cành bứt lá cây trong vườn trường.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Chăm sóc cây xanh vườn trường.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Chăm sóc cây xanh vườn trường\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tích cực tham gia phong trào 'Tết trồng cây' đời đời nhớ ơn Bác Hồ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 15: Phòng tránh tai nạn đuối nước mùa hè",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 15: Phòng tránh tai nạn đuối nước mùa hè), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không tự ý tắm sông, hồ, ao suối khi không có người lớn giám sát; luôn mặc áo phao.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Phòng tránh tai nạn đuối nước mùa hè.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Phòng tránh tai nạn đuối nước mùa hè\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Học bơi an toàn và biết hô hoán người lớn ứng cứu khi thấy người bị nạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 1 (Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc sách, rèn luyện thể thao, phụ giúp gia đình và tham gia sinh hoạt hè tại khu phố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập kế hoạch sinh hoạt hè khoa học, tránh xem ti vi và điện thoại quá nhiều.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gdtc-1",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 1: Tư thế đứng nghiêm, đứng nghỉ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 1: Tư thế đứng nghiêm, đứng nghỉ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đứng nghiêm: hai gót chân sát nhau tạo chữ V, mắt nhìn thẳng, ngực nở; Đứng nghỉ: chùng một chân thả lỏng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Tư thế đứng nghiêm, đứng nghỉ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Tư thế đứng nghiêm, đứng nghỉ\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện dứt khoát khẩu lệnh 'Nghiêm!', 'Nghỉ!' theo hiệu lệnh giáo viên.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 2: Tập hợp hàng dọc và dóng hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 2: Tập hợp hàng dọc và dóng hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Người đứng đầu hàng giơ tay phải lên cao, các bạn phía sau dóng hàng thẳng cách nhau một cánh tay.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tập hợp hàng dọc và dóng hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tập hợp hàng dọc và dóng hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tập hợp nhanh chóng, trật tự không xô đẩy bạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Điểm số hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 3: Điểm số hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quay mặt sang trái ra sau hô to số của mình rồi quay mặt về tư thế đứng nghiêm; bạn cuối hàng hô 'Hết!'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Điểm số hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Điểm số hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hô to dõng dạc, rõ ràng số thứ tự của mình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b4",
+            "number": 4,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 4: Động tác quay phải, quay trái",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 4: Động tác quay phải, quay trái), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Lấy gót chân làm trụ kết hợp mũi bàn chân kia để quay 90 độ sang hướng khẩu lệnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Động tác quay phải, quay trái.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Động tác quay phải, quay trái\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng cơ thể khi xoay chuyển hướng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 5: Động tác vươn thở và động tác tay",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 5: Động tác vươn thở và động tác tay), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vươn thở: hai tay giơ cao hình chữ V hít sâu bằng mũi, hạ tay thở ra bằng miệng; Động tác tay: vỗ tay trước ngực.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Động tác vươn thở và động tác tay.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Động tác vươn thở và động tác tay\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hít thở sâu lồng ngực đón không khí trong lành buổi sớm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 6: Động tác chân và động tác lườn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 6: Động tác chân và động tác lườn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Động tác chân: kiễng gót hai tay chống hông rồi khuỵu gối; Động tác lườn: nghiêng người sang phải, trái.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Động tác chân và động tác lườn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Động tác chân và động tác lườn\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Căng dãn nhóm cơ sườn và giữ thẳng lưng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b7",
+            "number": 7,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 7: Động tác bụng và động tác toàn thân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 7: Động tác bụng và động tác toàn thân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gập bụng hai tay chạm mũi chân, phối hợp nhịp nhàng các khớp hông và cột sống.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Động tác bụng và động tác toàn thân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Động tác bụng và động tác toàn thân\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cúi sâu nhưng giữ chân thẳng không khuỵu gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b8",
+            "number": 8,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 8: Động tác nhảy và động tác điều hòa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 8: Động tác nhảy và động tác điều hòa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bật nhảy hai chân sang ngang vỗ tay trên đầu; Điều hòa: thả lỏng tay chân hít thở êm dịu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Động tác nhảy và động tác điều hòa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Động tác nhảy và động tác điều hòa\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện bài tập thể dục buổi sáng liên hoàn 8 động tác đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đặt bàn chân thẳng theo đường vạch, lưng thẳng, mắt nhìn về phía trước cách 2 - 3 mét.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng tốt không bước chệch ra ngoài vạch kẻ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b10",
+            "number": 10,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 10: Đi kiễng gót hai tay dang ngang",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 10: Đi kiễng gót hai tay dang ngang), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nâng cao gót chân, đi bằng nửa trước bàn chân, hai tay dang ngang giữ thăng bằng thân người.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Đi kiễng gót hai tay dang ngang.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Đi kiễng gót hai tay dang ngang\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Rèn luyện sức mạnh cổ chân và sự dẻo dai.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b11",
+            "number": 11,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 11: Động tác chạy cự li ngắn 20m - 30m",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 11: Động tác chạy cự li ngắn 20m - 30m), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đạp sau mạnh mẽ, đánh tay so le nhịp nhàng với bước chân, thở đều khi chạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Động tác chạy cự li ngắn 20m - 30m.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Động tác chạy cự li ngắn 20m - 30m\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chạy hết tốc lực về đích an toàn, không dừng đột ngột.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b12",
+            "number": 12,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 12: Bật nhảy về phía trước bằng hai chân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 12: Bật nhảy về phía trước bằng hai chân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khuỵu gối lấy đà, vung tay ra sau rồi bật mạnh hai chân ra trước, tiếp đất bằng nửa trước bàn chân chùng gối.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Bật nhảy về phía trước bằng hai chân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Bật nhảy về phía trước bằng hai chân\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tiếp đất êm ái giảm chấn động cho khớp gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b13",
+            "number": 13,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 13: Trò chơi \"Mèo đuổi chuột\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 13: Trò chơi \"Mèo đuổi chuột\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các bạn nắm tay thành vòng tròn làm hang rào nâng lên hạ xuống, bạn làm Chuột chạy và bạn làm Mèo đuổi bắt.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Trò chơi \"Mèo đuổi chuột\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Trò chơi \"Mèo đuổi chuột\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhanh nhẹn, khéo léo luồn lách qua các khe hở vòng tròn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b14",
+            "number": 14,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 14: Trò chơi \"Cướp cờ\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 14: Trò chơi \"Cướp cờ\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai đội đứng đối diện theo số thứ tự, khi trọng tài gọi số nào thì bạn số đó nhanh chóng chạy lên giật cờ về vạch.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Trò chơi \"Cướp cờ\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Trò chơi \"Cướp cờ\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phản xạ nhanh nhẹn, tinh thần đồng đội quyết thắng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b15",
+            "number": 15,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai chân đứng gọn trong bao bố, hai tay túm chặt miệng bao bật nhảy nhanh về đích rồi trao bao cho bạn tiếp theo.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bật nhảy kiên trì, không sợ ngã và cổ vũ bạn bè nhiệt tình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b16",
+            "number": 16,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 1 (Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khởi động kĩ các khớp cổ tay, cổ chân, đầu gối trước khi tập và hồi tĩnh thả lỏng sau khi vận động.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 1), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Mang giày bata thể thao vừa chân và trang phục thể dục thoáng mát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4557,6 +6313,1762 @@ export const GRADES_DATA: GradeItem[] = [
             ]
           }
         ]
+      },
+      {
+        "id": "am-nhac-2",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Sắc màu âm thanh",
+            "title": "Bài 1: Hát bài \"Dàn nhạc mùa hè\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 1: Hát bài \"Dàn nhạc mùa hè\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tiếng ve râm ran và tiếng gió rì rào hợp thành dàn nhạc thiên nhiên mùa hè sinh động.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Hát bài \"Dàn nhạc mùa hè\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Hát bài \"Dàn nhạc mùa hè\"\" thuộc \"Chủ đề 1: Sắc màu âm thanh\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát đúng nhịp và mở rộng khẩu hình phát âm tròn tiếng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Sắc màu âm thanh",
+            "title": "Bài 2: Nhạc cụ gõ Tambourine (trống lắc)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 2: Nhạc cụ gõ Tambourine (trống lắc)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ thuật vừa lắc rung vành chuông vừa gõ nhẹ vào mặt da của trống Tambourine.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Nhạc cụ gõ Tambourine (trống lắc).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Nhạc cụ gõ Tambourine (trống lắc)\" thuộc \"Chủ đề 1: Sắc màu âm thanh\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ đệm phách mạnh và rung chuông ở phách nhẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Sắc màu âm thanh",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thực hành đọc giai điệu nốt Đen và nốt Trắng với thang âm Đô - Rê - Mi - Pha - Son.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Đọc nhạc: Bài đọc nhạc số 1.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" thuộc \"Chủ đề 1: Sắc màu âm thanh\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ phách đều đặn: nốt đen 1 phách, nốt trắng 2 phách.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Em yêu làn điệu dân ca",
+            "title": "Bài 4: Hát bài \"Cò lả\" (Dân ca đồng bằng Bắc Bộ)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 4: Hát bài \"Cò lả\" (Dân ca đồng bằng Bắc Bộ)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình ảnh con cò bay lả bay la trên cánh đồng lúa chín bao la thanh bình.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Hát bài \"Cò lả\" (Dân ca đồng bằng Bắc Bộ).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Hát bài \"Cò lả\" (Dân ca đồng bằng Bắc Bộ)\" thuộc \"Chủ đề 2: Em yêu làn điệu dân ca\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thể hiện tiếng luyến dịu dàng của điệu hát dân ca Bắc Bộ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Em yêu làn điệu dân ca",
+            "title": "Bài 5: Thường thức: Dân ca đồng bằng Bắc Bộ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 5: Thường thức: Dân ca đồng bằng Bắc Bộ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các bài dân ca mộc mạc truyền miệng gắn liền với đời sống cấy lúa của người nông dân.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Thường thức: Dân ca đồng bằng Bắc Bộ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Thường thức: Dân ca đồng bằng Bắc Bộ\" thuộc \"Chủ đề 2: Em yêu làn điệu dân ca\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắng nghe và cảm nhận nét đẹp êm ả của làn điệu quê hương.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Em yêu làn điệu dân ca",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc nốt Mi - Son - La liền bậc và nhảy quãng mềm mại.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Đọc nhạc: Bài đọc nhạc số 2.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" thuộc \"Chủ đề 2: Em yêu làn điệu dân ca\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phối hợp nhịp nhàng giữa đọc cao độ và giữ phách đều.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Mái trường mến thương",
+            "title": "Bài 7: Hát bài \"Ngày mùa vui\" (Dân ca Thái)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 7: Hát bài \"Ngày mùa vui\" (Dân ca Thái)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không khí ngày mùa gặt lúa rộn rã tiếng cười vui của bà con bản làng vùng cao.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Hát bài \"Ngày mùa vui\" (Dân ca Thái).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Hát bài \"Ngày mùa vui\" (Dân ca Thái)\" thuộc \"Chủ đề 3: Mái trường mến thương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với nhịp điệu rộn ràng, háo hức và nụ cười rạng rỡ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Mái trường mến thương",
+            "title": "Bài 8: Nhạc cụ gõ song loan",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 8: Nhạc cụ gõ song loan), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhạc cụ song loan gõ bằng bàn đạp ngón chân hoặc tay phát ra tiếng 'cốc' đanh giòn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Nhạc cụ gõ song loan.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ gõ song loan\" thuộc \"Chủ đề 3: Mái trường mến thương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ song loan chuẩn xác vào phách cuối của mỗi câu hát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Mái trường mến thương",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc tiết tấu kết hợp nốt móc đơn nhanh hơn gấp đôi nốt đen.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đọc nhạc: Bài đọc nhạc số 3.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" thuộc \"Chủ đề 3: Mái trường mến thương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chia đều 2 nốt móc đơn trong một phách nhịp.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Ước mơ tuổi thơ",
+            "title": "Bài 10: Hát bài \"Ước mơ thần tiên\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 10: Hát bài \"Ước mơ thần tiên\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Những giấc mơ tươi đẹp về thế giới cổ tích, chim bồ câu trắng và cầu vồng bảy sắc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Hát bài \"Ước mơ thần tiên\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Hát bài \"Ước mơ thần tiên\"\" thuộc \"Chủ đề 4: Ước mơ tuổi thơ\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát ngân vang bay bổng với tâm hồn trong sáng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Ước mơ tuổi thơ",
+            "title": "Bài 11: Vận động theo tiết tấu bài hát",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 11: Vận động theo tiết tấu bài hát), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhún nhảy nhịp nhàng bước chân theo điệu valse nhẹ nhàng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Vận động theo tiết tấu bài hát.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Vận động theo tiết tấu bài hát\" thuộc \"Chủ đề 4: Ước mơ tuổi thơ\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Di chuyển theo đội hình vòng tròn nhịp nhàng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Ước mơ tuổi thơ",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thang âm 5 bậc Đô - Rê - Mi - Son - La trong giai điệu trữ tình tuổi thơ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Đọc nhạc: Bài đọc nhạc số 4.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" thuộc \"Chủ đề 4: Ước mơ tuổi thơ\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ nhịp vững chắc khi đọc các nốt ngân dài.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Mùa xuân quê hương",
+            "title": "Bài 13: Hát bài \"Hoa lá mùa xuân\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 13: Hát bài \"Hoa lá mùa xuân\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cây cối đâm chồi nảy lộc đón mùa xuân rực rỡ và tình bạn thắm thiết.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Hát bài \"Hoa lá mùa xuân\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Hát bài \"Hoa lá mùa xuân\"\" thuộc \"Chủ đề 5: Mùa xuân quê hương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát hoà giọng cùng tập thể lớp thật ăn ý.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Mùa xuân quê hương",
+            "title": "Bài 14: Nhạc cụ gõ chuông con (Handbell)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 14: Nhạc cụ gõ chuông con (Handbell)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chuông con kim loại rung ngân nga âm thanh trong trẻo như giọt sương mai.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Nhạc cụ gõ chuông con (Handbell).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Nhạc cụ gõ chuông con (Handbell)\" thuộc \"Chủ đề 5: Mùa xuân quê hương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắc nhẹ chuông con đệm vào những nốt ngân cao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Mùa xuân quê hương",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc cao độ nốt Pha (F) nằm ở khe thứ nhất trên khuông nhạc khoá Son.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Đọc nhạc: Bài đọc nhạc số 5.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" thuộc \"Chủ đề 5: Mùa xuân quê hương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhận biết vị trí nốt Pha nằm ngay trên nốt Mi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Tình bạn bốn phương",
+            "title": "Bài 16: Hát bài \"Múa sạp\" (Dân ca Tây Bắc)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 16: Hát bài \"Múa sạp\" (Dân ca Tây Bắc)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Điệu múa sạp đoàn kết bên tiếng gõ thanh tre rộn rã vùng núi cao Tây Bắc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Hát bài \"Múa sạp\" (Dân ca Tây Bắc).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Hát bài \"Múa sạp\" (Dân ca Tây Bắc)\" thuộc \"Chủ đề 6: Tình bạn bốn phương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát hào sảng kết hợp động tác tay nhịp nhàng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Tình bạn bốn phương",
+            "title": "Bài 17: Thường thức: Nhạc cụ khèn bè Tây Bắc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 17: Thường thức: Nhạc cụ khèn bè Tây Bắc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cây khèn bè làm từ nhiều ống nứa phát ra âm thanh hòa tấu độc đáo của đồng bào H'Mông.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 17: Thường thức: Nhạc cụ khèn bè Tây Bắc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức: Nhạc cụ khèn bè Tây Bắc\" thuộc \"Chủ đề 6: Tình bạn bốn phương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cảm thụ âm hưởng núi rừng đại ngàn qua tiếng khèn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Tình bạn bốn phương",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu nhịp 2/4 rộn rã với các nốt Đô - Mi - Son - Đố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 18: Đọc nhạc: Bài đọc nhạc số 6.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" thuộc \"Chủ đề 6: Tình bạn bốn phương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Luyện đọc nốt Đố cao vút tròn tiếng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Gia đình yêu thương",
+            "title": "Bài 19: Hát bài \"Mẹ đi vắng\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 19: Hát bài \"Mẹ đi vắng\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Em ở nhà tự giác học bài và vâng lời cha mẹ dặn khi mẹ vắng nhà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 19: Hát bài \"Mẹ đi vắng\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Hát bài \"Mẹ đi vắng\"\" thuộc \"Chủ đề 7: Gia đình yêu thương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với tình cảm chân thật, mộc mạc và đáng yêu.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Gia đình yêu thương",
+            "title": "Bài 20: Hòa tấu nhạc cụ gõ đệm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 20: Hòa tấu nhạc cụ gõ đệm), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phối hợp 3 nhạc cụ: thanh phách, trống con và tambourine cùng đệm cho bài hát.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 20: Hòa tấu nhạc cụ gõ đệm.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Hòa tấu nhạc cụ gõ đệm\" thuộc \"Chủ đề 7: Gia đình yêu thương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắng nghe bạn gõ để phối hợp nhịp nhàng không bị lấn át tiếng nhau.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Gia đình yêu thương",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc giai điệu êm dịu có dấu lặng đen nghỉ đúng 1 phách.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 21: Đọc nhạc: Bài đọc nhạc số 7.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" thuộc \"Chủ đề 7: Gia đình yêu thương\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Dừng tiếng đúng phách khi gặp dấu lặng đen.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Chào hè rực rỡ",
+            "title": "Bài 22: Hát bài \"Khúc ca chào hè\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 22: Hát bài \"Khúc ca chào hè\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chào đón mùa hè bổ ích với tiếng ve râm ran và những chuyến du lịch khám phá.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 22: Hát bài \"Khúc ca chào hè\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Hát bài \"Khúc ca chào hè\"\" thuộc \"Chủ đề 8: Chào hè rực rỡ\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát tươi vui, tràn đầy khí thế kết thúc năm học lớp 2.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Chào hè rực rỡ",
+            "title": "Bài 23: Biểu diễn tập thể bài hát chào hè",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 23: Biểu diễn tập thể bài hát chào hè), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đứng theo đội hình hàng ngang, tay cầm cờ nhỏ vẫy theo nhịp hát.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 23: Biểu diễn tập thể bài hát chào hè.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Biểu diễn tập thể bài hát chào hè\" thuộc \"Chủ đề 8: Chào hè rực rỡ\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự tin biểu diễn trước thầy cô và cha mẹ học sinh.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Chào hè rực rỡ",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 2 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Ôn tập toàn bộ 6 bậc âm Đô - Rê - Mi - Pha - Son - La trong chương trình Âm nhạc Lớp 2.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 24: Đọc nhạc: Bài đọc nhạc số 8.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" thuộc \"Chủ đề 8: Chào hè rực rỡ\" (Âm nhạc 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc chuẩn xác cao độ và tiết tấu bài đọc nhạc số 8.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mi-thuat-2",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Đại dương mênh mông",
+            "title": "Bài 1: Bầu trời và biển xanh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 1: Bầu trời và biển xanh), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đường chân trời phân chia ranh giới giữa bầu trời cao rộng và mặt biển bao la.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Bầu trời và biển xanh.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Bầu trời và biển xanh\" thuộc \"Chủ đề 1: Đại dương mênh mông\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Pha trộn các sắc độ xanh lam, xanh ngọc tạo chiều sâu cho mặt biển.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Đại dương mênh mông",
+            "title": "Bài 2: Các loài sinh vật biển kì thú",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 2: Các loài sinh vật biển kì thú), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chú rùa biển, sao biển năm cánh, cá ngựa và rạn san hô rực rỡ sắc màu dưới đáy đại dương.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Các loài sinh vật biển kì thú.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Các loài sinh vật biển kì thú\" thuộc \"Chủ đề 1: Đại dương mênh mông\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tạo hình chú rùa biển bơi lội giữa rừng san hô bằng đất nặn hoặc màu vẽ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Rừng cây xanh mát",
+            "title": "Bài 3: Cây và những người bạn chim",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 3: Cây và những người bạn chim), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tổ chim xinh xắn trên cành cây, những chú chim non há mỏ chờ mẹ mớm mồi bình yên.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Cây và những người bạn chim.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Cây và những người bạn chim\" thuộc \"Chủ đề 2: Rừng cây xanh mát\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ chú chim lông sặc sỡ đậu trên cành hoa đua nở.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Rừng cây xanh mát",
+            "title": "Bài 4: Khu rừng nhiệt đới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 4: Khu rừng nhiệt đới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tầng cây cao cổ thụ, tầng cây bụi thấp và dây leo chằng chịt tạo nên hệ sinh thái rừng nhiệt đới.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Khu rừng nhiệt đới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Khu rừng nhiệt đới\" thuộc \"Chủ đề 2: Rừng cây xanh mát\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Sử dụng nhiều sắc độ xanh lá cây đậm nhạt phong phú.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Đồ gốm quê hương",
+            "title": "Bài 5: Bình hoa gốm trang trí",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 5: Bình hoa gốm trang trí), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thân bình gốm tròn trĩnh, miệng bình loe và họa tiết hoa lá trang trí men lam cổ truyền.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Bình hoa gốm trang trí.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Bình hoa gốm trang trí\" thuộc \"Chủ đề 3: Đồ gốm quê hương\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cắt dán bình hoa đối xứng và trang trí họa tiết hoa văn lên thân bình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Đồ gốm quê hương",
+            "title": "Bài 6: Nặn đĩa hoa quả gốm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 6: Nặn đĩa hoa quả gốm), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chiếc đĩa gốm tròn đựng các loại quả chuối, cam, nho bằng đất nặn đầy đặn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Nặn đĩa hoa quả gốm.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Nặn đĩa hoa quả gốm\" thuộc \"Chủ đề 3: Đồ gốm quê hương\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tạo hình chiếc đĩa có lòng đĩa sâu và miệng viền uốn lượn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Phương tiện giao thông",
+            "title": "Bài 7: Xe buýt đưa đón học sinh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 7: Xe buýt đưa đón học sinh), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Xe buýt màu vàng thân dài, nhiều ô cửa kính sáng sủa đưa đón học sinh an toàn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Xe buýt đưa đón học sinh.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Xe buýt đưa đón học sinh\" thuộc \"Chủ đề 4: Phương tiện giao thông\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ các bạn nhỏ vẫy tay mỉm cười qua cửa sổ xe buýt.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Phương tiện giao thông",
+            "title": "Bài 8: Thuyền buồm lướt sóng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 8: Thuyền buồm lướt sóng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cánh buồm hình tam giác no gió căng tràn sức sống lướt trên đầu ngọn sóng trắng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Thuyền buồm lướt sóng.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Thuyền buồm lướt sóng\" thuộc \"Chủ đề 4: Phương tiện giao thông\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cắt dán cánh buồm nổi bật trên nền biển xanh.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Mùa xuân ước mơ",
+            "title": "Bài 9: Chợ hoa ngày xuân rực rỡ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 9: Chợ hoa ngày xuân rực rỡ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không khí tấp nập người mua hoa, chậu quất trĩu quả vàng và chậu cúc mâm xôi rực rỡ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Chợ hoa ngày xuân rực rỡ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Chợ hoa ngày xuân rực rỡ\" thuộc \"Chủ đề 5: Mùa xuân ước mơ\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Sắp xếp bố cục chợ hoa đông vui nhộn nhịp ngày giáp Tết.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Mùa xuân ước mơ",
+            "title": "Bài 10: Thiệp chúc mừng năm mới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 10: Thiệp chúc mừng năm mới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tấm thiệp xuân có cành đào, phong bao lì xì đỏ thắm và dòng chữ 'Chúc mừng năm mới'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Thiệp chúc mừng năm mới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Thiệp chúc mừng năm mới\" thuộc \"Chủ đề 5: Mùa xuân ước mơ\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Làm thiệp gấp trang trí hoa nổi 3D gửi tặng ông bà cha mẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Nghệ thuật gấp giấy",
+            "title": "Bài 11: Gấp máy bay và thuyền giấy",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 11: Gấp máy bay và thuyền giấy), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các nếp gấp thẳng, miết mép giấy sắc nét để chiếc máy bay phi thẳng và thuyền giấy nổi trên nước.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Gấp máy bay và thuyền giấy.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Gấp máy bay và thuyền giấy\" thuộc \"Chủ đề 6: Nghệ thuật gấp giấy\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gấp giấy Origami cẩn thận theo từng bước hướng dẫn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Nghệ thuật gấp giấy",
+            "title": "Bài 12: Xé dán tranh phong cảnh quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 12: Xé dán tranh phong cảnh quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ thuật xé giấy bằng tay tạo đường viền bông xốp mềm mại của mây trời và rặng núi xa.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Xé dán tranh phong cảnh quê hương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Xé dán tranh phong cảnh quê hương\" thuộc \"Chủ đề 6: Nghệ thuật gấp giấy\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Dán các mảng giấy xé lớp trước lớp sau tạo chiều sâu không gian.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Em và các bạn",
+            "title": "Bài 13: Giờ ra chơi dưới sân trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 13: Giờ ra chơi dưới sân trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các trò chơi nhảy dây, đá cầu, bắn bi rộn rã dưới bóng mát của cây bàng, cây phượng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Giờ ra chơi dưới sân trường.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Giờ ra chơi dưới sân trường\" thuộc \"Chủ đề 7: Em và các bạn\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ các bạn học sinh với các động tác chạy nhảy sinh động.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Em và các bạn",
+            "title": "Bài 14: Chân dung bạn cùng bàn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 14: Chân dung bạn cùng bàn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chiếc áo đồng phục, khăn quàng đỏ và nụ cười thân thiện của người bạn thân bên cạnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Chân dung bạn cùng bàn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Chân dung bạn cùng bàn\" thuộc \"Chủ đề 7: Em và các bạn\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ chân dung bạn với đôi mắt sáng ngời và mái tóc gọn gàng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Khám phá không gian",
+            "title": "Bài 15: Tàu vũ trụ thám hiểm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 15: Tàu vũ trụ thám hiểm), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tàu không gian hình tên lửa phóng vút vào vũ trụ bao la thám hiểm các vì sao xa xôi.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Tàu vũ trụ thám hiểm.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Tàu vũ trụ thám hiểm\" thuộc \"Chủ đề 8: Khám phá không gian\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ vệt lửa phản lực rực sáng phía sau đuôi tên lửa.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Khám phá không gian",
+            "title": "Bài 16: Hành tinh xanh của chúng ta",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 2 (Bài 16: Hành tinh xanh của chúng ta), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Trái Đất xinh đẹp màu xanh dương nhìn từ vũ trụ với các dải mây trắng bồng bềnh bảo vệ sự sống.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Hành tinh xanh của chúng ta.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Hành tinh xanh của chúng ta\" thuộc \"Chủ đề 8: Khám phá không gian\" (Mĩ thuật 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ tranh cổ động giữ gìn hành tinh xanh không rác thải.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hdtn-2",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 1: Làm quen với trường lớp và bạn bè mới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 1: Làm quen với trường lớp và bạn bè mới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự tin giới thiệu bản thân, làm quen với thầy cô, các bạn và nội quy lớp học.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Làm quen với trường lớp và bạn bè mới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Làm quen với trường lớp và bạn bè mới\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chủ động mỉm cười chào hỏi và bắt tay bạn mới trong giờ giải lao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 2: Xây dựng nền nếp học tập và sinh hoạt",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 2: Xây dựng nền nếp học tập và sinh hoạt), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chuẩn bị đồ dùng sách vở chu đáo trước khi đến lớp, đi học đúng giờ và giữ trật tự.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Xây dựng nền nếp học tập và sinh hoạt.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Xây dựng nền nếp học tập và sinh hoạt\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập thời gian biểu học tập và sinh hoạt khoa học mỗi ngày.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Rửa tay bằng xà phòng đúng quy trình 6 bước, đánh răng ngày 2 lần và tắm gội sạch sẽ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác vệ sinh thân thể phòng chống dịch bệnh hiệu quả.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 4: Tự phục vụ trong ăn uống và mặc trang phục",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 4: Tự phục vụ trong ăn uống và mặc trang phục), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự gấp quần áo gọn gàng, tự xúc ăn hết suất cơm và không kén chọn thức ăn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Tự phục vụ trong ăn uống và mặc trang phục.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Tự phục vụ trong ăn uống và mặc trang phục\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác dọn bát đĩa sau khi ăn xong bữa cơm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 5: Kính trọng thầy cô giáo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 5: Kính trọng thầy cô giáo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khoanh tay lễ phép chào thầy cô, chú ý nghe giảng và vâng lời thầy cô chỉ dạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Kính trọng thầy cô giáo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Kính trọng thầy cô giáo\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Viết thiệp hoặc làm hoa giấy bày tỏ lòng biết ơn thầy cô giáo.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 6: Xây dựng tình bạn thân ái, đoàn kết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 6: Xây dựng tình bạn thân ái, đoàn kết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Biết chia sẻ đồ dùng học tập, giúp đỡ bạn gặp khó khăn và không trêu chọc bạn bè.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Xây dựng tình bạn thân ái, đoàn kết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Xây dựng tình bạn thân ái, đoàn kết\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng chơi các trò chơi dân gian đoàn kết với bạn trong giờ ra chơi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 7: Yêu thương và chia sẻ công việc nhà",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 7: Yêu thương và chia sẻ công việc nhà), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giúp cha mẹ quét nhà, nhặt rau, cất đồ chơi gọn gàng sau khi chơi xong.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Yêu thương và chia sẻ công việc nhà.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Yêu thương và chia sẻ công việc nhà\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Làm việc nhà vừa sức để thể hiện sự quan tâm tới cha mẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 8: Lễ phép với ông bà, cha mẹ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 8: Lễ phép với ông bà, cha mẹ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đi thưa về gửi, chào hỏi người lớn tuổi bằng cả hai tay và dạ thưa lễ phép.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Lễ phép với ông bà, cha mẹ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Lễ phép với ông bà, cha mẹ\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Quan tâm hỏi han sức khỏe ông bà khi thời tiết thay đổi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 9: Phong tục đón Tết cổ truyền quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 9: Phong tục đón Tết cổ truyền quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gói bánh chưng xanh, bày mâm ngũ quả, dọn dẹp nhà cửa đón Tết sum vầy ấm cúng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Phong tục đón Tết cổ truyền quê hương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Phong tục đón Tết cổ truyền quê hương\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng gia đình trang trí cành đào, cây mai đón chào năm mới.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 10: Ứng xử văn minh khi đi chúc Tết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 10: Ứng xử văn minh khi đi chúc Tết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nói lời chúc Tết may mắn đến người thân, nhận lì xì bằng hai tay và cảm ơn chân thành.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Ứng xử văn minh khi đi chúc Tết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Ứng xử văn minh khi đi chúc Tết\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Không mở phong bao lì xì trước mặt người tặng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 11: Cảnh đẹp và di tích lịch sử địa phương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 11: Cảnh đẹp và di tích lịch sử địa phương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tìm hiểu các danh lam thắng cảnh, di tích lịch sử và nghề truyền thống quê hương mình.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Cảnh đẹp và di tích lịch sử địa phương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Cảnh đẹp và di tích lịch sử địa phương\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Có ý thức tự hào và giới thiệu vẻ đẹp quê hương với bạn bè.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 12: Giữ gìn an toàn giao thông đường bộ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 12: Giữ gìn an toàn giao thông đường bộ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đội mũ bảo hiểm khi ngồi sau xe máy, đi bộ trên vỉa hè và sang đường đúng vạch kẻ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Giữ gìn an toàn giao thông đường bộ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Giữ gìn an toàn giao thông đường bộ\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhắc nhở người thân tuân thủ đúng đèn tín hiệu giao thông.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 13: Phân loại rác thải tại nguồn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 13: Phân loại rác thải tại nguồn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân biệt rác hữu cơ (thức ăn thừa), rác vô cơ tái chế (chai nhựa, giấy) và rác nguy hại.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Phân loại rác thải tại nguồn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Phân loại rác thải tại nguồn\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bỏ rác đúng thùng quy định tại trường học và khu dân cư.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 14: Chăm sóc cây xanh vườn trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 14: Chăm sóc cây xanh vườn trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tưới nước cho cây hoa, nhổ cỏ dại và không bẻ cành bứt lá cây trong vườn trường.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Chăm sóc cây xanh vườn trường.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Chăm sóc cây xanh vườn trường\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tích cực tham gia phong trào 'Tết trồng cây' đời đời nhớ ơn Bác Hồ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 15: Phòng tránh tai nạn đuối nước mùa hè",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 15: Phòng tránh tai nạn đuối nước mùa hè), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không tự ý tắm sông, hồ, ao suối khi không có người lớn giám sát; luôn mặc áo phao.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Phòng tránh tai nạn đuối nước mùa hè.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Phòng tránh tai nạn đuối nước mùa hè\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Học bơi an toàn và biết hô hoán người lớn ứng cứu khi thấy người bị nạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 2 (Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc sách, rèn luyện thể thao, phụ giúp gia đình và tham gia sinh hoạt hè tại khu phố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập kế hoạch sinh hoạt hè khoa học, tránh xem ti vi và điện thoại quá nhiều.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gdtc-2",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 1: Tư thế đứng nghiêm, đứng nghỉ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 1: Tư thế đứng nghiêm, đứng nghỉ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đứng nghiêm: hai gót chân sát nhau tạo chữ V, mắt nhìn thẳng, ngực nở; Đứng nghỉ: chùng một chân thả lỏng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Tư thế đứng nghiêm, đứng nghỉ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Tư thế đứng nghiêm, đứng nghỉ\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện dứt khoát khẩu lệnh 'Nghiêm!', 'Nghỉ!' theo hiệu lệnh giáo viên.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 2: Tập hợp hàng dọc và dóng hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 2: Tập hợp hàng dọc và dóng hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Người đứng đầu hàng giơ tay phải lên cao, các bạn phía sau dóng hàng thẳng cách nhau một cánh tay.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tập hợp hàng dọc và dóng hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tập hợp hàng dọc và dóng hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tập hợp nhanh chóng, trật tự không xô đẩy bạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Điểm số hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 3: Điểm số hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quay mặt sang trái ra sau hô to số của mình rồi quay mặt về tư thế đứng nghiêm; bạn cuối hàng hô 'Hết!'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Điểm số hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Điểm số hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hô to dõng dạc, rõ ràng số thứ tự của mình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b4",
+            "number": 4,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 4: Động tác quay phải, quay trái",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 4: Động tác quay phải, quay trái), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Lấy gót chân làm trụ kết hợp mũi bàn chân kia để quay 90 độ sang hướng khẩu lệnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Động tác quay phải, quay trái.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Động tác quay phải, quay trái\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng cơ thể khi xoay chuyển hướng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 5: Động tác vươn thở và động tác tay",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 5: Động tác vươn thở và động tác tay), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vươn thở: hai tay giơ cao hình chữ V hít sâu bằng mũi, hạ tay thở ra bằng miệng; Động tác tay: vỗ tay trước ngực.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Động tác vươn thở và động tác tay.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Động tác vươn thở và động tác tay\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hít thở sâu lồng ngực đón không khí trong lành buổi sớm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 6: Động tác chân và động tác lườn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 6: Động tác chân và động tác lườn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Động tác chân: kiễng gót hai tay chống hông rồi khuỵu gối; Động tác lườn: nghiêng người sang phải, trái.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Động tác chân và động tác lườn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Động tác chân và động tác lườn\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Căng dãn nhóm cơ sườn và giữ thẳng lưng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b7",
+            "number": 7,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 7: Động tác bụng và động tác toàn thân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 7: Động tác bụng và động tác toàn thân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gập bụng hai tay chạm mũi chân, phối hợp nhịp nhàng các khớp hông và cột sống.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Động tác bụng và động tác toàn thân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Động tác bụng và động tác toàn thân\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cúi sâu nhưng giữ chân thẳng không khuỵu gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b8",
+            "number": 8,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 8: Động tác nhảy và động tác điều hòa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 8: Động tác nhảy và động tác điều hòa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bật nhảy hai chân sang ngang vỗ tay trên đầu; Điều hòa: thả lỏng tay chân hít thở êm dịu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Động tác nhảy và động tác điều hòa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Động tác nhảy và động tác điều hòa\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện bài tập thể dục buổi sáng liên hoàn 8 động tác đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đặt bàn chân thẳng theo đường vạch, lưng thẳng, mắt nhìn về phía trước cách 2 - 3 mét.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng tốt không bước chệch ra ngoài vạch kẻ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b10",
+            "number": 10,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 10: Đi kiễng gót hai tay dang ngang",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 10: Đi kiễng gót hai tay dang ngang), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nâng cao gót chân, đi bằng nửa trước bàn chân, hai tay dang ngang giữ thăng bằng thân người.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Đi kiễng gót hai tay dang ngang.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Đi kiễng gót hai tay dang ngang\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Rèn luyện sức mạnh cổ chân và sự dẻo dai.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b11",
+            "number": 11,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 11: Động tác chạy cự li ngắn 20m - 30m",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 11: Động tác chạy cự li ngắn 20m - 30m), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đạp sau mạnh mẽ, đánh tay so le nhịp nhàng với bước chân, thở đều khi chạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Động tác chạy cự li ngắn 20m - 30m.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Động tác chạy cự li ngắn 20m - 30m\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chạy hết tốc lực về đích an toàn, không dừng đột ngột.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b12",
+            "number": 12,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 12: Bật nhảy về phía trước bằng hai chân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 12: Bật nhảy về phía trước bằng hai chân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khuỵu gối lấy đà, vung tay ra sau rồi bật mạnh hai chân ra trước, tiếp đất bằng nửa trước bàn chân chùng gối.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Bật nhảy về phía trước bằng hai chân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Bật nhảy về phía trước bằng hai chân\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tiếp đất êm ái giảm chấn động cho khớp gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b13",
+            "number": 13,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 13: Trò chơi \"Mèo đuổi chuột\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 13: Trò chơi \"Mèo đuổi chuột\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các bạn nắm tay thành vòng tròn làm hang rào nâng lên hạ xuống, bạn làm Chuột chạy và bạn làm Mèo đuổi bắt.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Trò chơi \"Mèo đuổi chuột\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Trò chơi \"Mèo đuổi chuột\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhanh nhẹn, khéo léo luồn lách qua các khe hở vòng tròn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b14",
+            "number": 14,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 14: Trò chơi \"Cướp cờ\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 14: Trò chơi \"Cướp cờ\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai đội đứng đối diện theo số thứ tự, khi trọng tài gọi số nào thì bạn số đó nhanh chóng chạy lên giật cờ về vạch.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Trò chơi \"Cướp cờ\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Trò chơi \"Cướp cờ\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phản xạ nhanh nhẹn, tinh thần đồng đội quyết thắng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b15",
+            "number": 15,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai chân đứng gọn trong bao bố, hai tay túm chặt miệng bao bật nhảy nhanh về đích rồi trao bao cho bạn tiếp theo.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bật nhảy kiên trì, không sợ ngã và cổ vũ bạn bè nhiệt tình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b16",
+            "number": 16,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 2 (Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khởi động kĩ các khớp cổ tay, cổ chân, đầu gối trước khi tập và hồi tĩnh thả lỏng sau khi vận động.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 2), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Mang giày bata thể thao vừa chân và trang phục thể dục thoáng mát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5181,23 +8693,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b1",
             "number": 1,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 1: Chiếc nhãn vở đặc biệt",
+            "chapter": "Chủ điểm 1: Những búp măng non",
+            "title": "Bài 1: Cậu học sinh mới",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 1: Chiếc nhãn vở đặc biệt), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 1: Cậu học sinh mới), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng hiếu học, ý chí rèn luyện và tinh thần vươn lên trong học tập của cậu bé Lu-i Pa-xtơ thuở nhỏ.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 1: Cậu học sinh mới.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 1: Chiếc nhãn vở đặc biệt\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 1: Cậu học sinh mới\" thuộc \"Chủ điểm 1: Những búp măng non\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Đọc trôi chảy, diễn cảm và trả lời đúng các câu hỏi tìm hiểu bài.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5205,23 +8717,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b2",
             "number": 2,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 2: Mùa thu của em",
+            "chapter": "Chủ điểm 1: Những búp măng non",
+            "title": "Bài 2: Phần thưởng",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 2: Mùa thu của em), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 2: Phần thưởng), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng tốt bụng, tinh thần sẵn sàng sẻ chia giúp đỡ bạn bè của bạn Na xứng đáng nhận phần thưởng danh dự.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 2: Phần thưởng.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 2: Mùa thu của em\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 2: Phần thưởng\" thuộc \"Chủ điểm 1: Những búp măng non\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm các từ ngữ chỉ đức tính tốt đẹp của học sinh.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5229,23 +8741,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b3",
             "number": 3,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 3: Cậu học sinh mới",
+            "chapter": "Chủ điểm 2: Mái trường mến yêu",
+            "title": "Bài 3: Cô giáo tí hon",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 3: Cậu học sinh mới), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 3: Cô giáo tí hon), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Trò chơi đóng vai cô giáo hồn nhiên, ngộ nghĩnh của đàn em nhỏ dưới bóng cây râm mát.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 3: Cô giáo tí hon.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 3: Cậu học sinh mới\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 3: Cô giáo tí hon\" thuộc \"Chủ điểm 2: Mái trường mến yêu\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện tập so sánh: tìm hình ảnh so sánh sinh động trong câu thơ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5253,23 +8765,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b4",
             "number": 4,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 4: Gió vườn",
+            "chapter": "Chủ điểm 2: Mái trường mến yêu",
+            "title": "Bài 4: Người mẹ",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 4: Gió vườn), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 4: Người mẹ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình yêu thương con vô bờ bến và sự hi sinh cao cả của người mẹ vượt qua mọi thử thách cứu con.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 4: Người mẹ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 4: Gió vườn\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 4: Người mẹ\" thuộc \"Chủ điểm 2: Mái trường mến yêu\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Phát âm rõ ràng các từ ngữ giàu cảm xúc và phân vai đọc truyện.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5277,23 +8789,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b5",
             "number": 5,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 5: Người thầy thuốc nhân hậu",
+            "chapter": "Chủ điểm 3: Cộng đồng gắn bó",
+            "title": "Bài 5: Trận bóng dưới lòng đường",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 5: Người thầy thuốc nhân hậu), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 5: Trận bóng dưới lòng đường), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Bài học sâu sắc về ý thức chấp hành an toàn giao thông, không chơi bóng dưới lòng đường nguy hiểm.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 5: Trận bóng dưới lòng đường.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 5: Người thầy thuốc nhân hậu\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 5: Trận bóng dưới lòng đường\" thuộc \"Chủ điểm 3: Cộng đồng gắn bó\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Đặt dấu chấm, dấu phẩy ngăn cách các vế câu đúng ngữ pháp.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5301,23 +8813,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b6",
             "number": 6,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 6: Tiếng đàn ba-la-lai-ca trên sông Đà",
+            "chapter": "Chủ điểm 3: Cộng đồng gắn bó",
+            "title": "Bài 6: Bận",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 6: Tiếng đàn ba-la-lai-ca trên sông Đà), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 6: Bận), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Mọi người, mọi vật đều bận rộn làm những công việc có ích góp phần xây dựng cuộc sống tươi đẹp.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 6: Bận.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 6: Tiếng đàn ba-la-lai-ca trên sông Đà\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 6: Bận\" thuộc \"Chủ điểm 3: Cộng đồng gắn bó\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm các từ ngữ chỉ hoạt động, trạng thái trong bài thơ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5325,23 +8837,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b7",
             "number": 7,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 7: Người liên lạc nhỏ tuổi",
+            "chapter": "Chủ điểm 4: Quê hương mến thương",
+            "title": "Bài 7: Tiếng hò trên sông",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 7: Người liên lạc nhỏ tuổi), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 7: Tiếng hò trên sông), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Giai điệu câu hò xứ Nghệ tha thiết, dạt dào tình yêu dòng sông và con người quê hương.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 7: Tiếng hò trên sông.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 7: Người liên lạc nhỏ tuổi\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 7: Tiếng hò trên sông\" thuộc \"Chủ điểm 4: Quê hương mến thương\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Mở rộng vốn từ về quê hương đất nước.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5349,23 +8861,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b8",
             "number": 8,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 8: Đất nước tươi đẹp muôn màu",
+            "chapter": "Chủ điểm 4: Quê hương mến thương",
+            "title": "Bài 8: Nắng phương Nam",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 8: Đất nước tươi đẹp muôn màu), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 8: Nắng phương Nam), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình bạn gắn bó keo sơn giữa thiếu nhi miền Nam và miền Bắc qua món quà cành mai vàng rực rỡ.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 8: Nắng phương Nam.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 8: Đất nước tươi đẹp muôn màu\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 8: Nắng phương Nam\" thuộc \"Chủ điểm 4: Quê hương mến thương\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện tập viết đoạn văn ngắn bày tỏ tình cảm với bạn bè.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5373,23 +8885,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b9",
             "number": 9,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 9: Vàm Cỏ Đông",
+            "chapter": "Chủ điểm 5: Anh em một nhà",
+            "title": "Bài 9: Người liên lạc nhỏ",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 9: Vàm Cỏ Đông), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 9: Người liên lạc nhỏ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng dũng cảm, mưu trí và tinh thần yêu nước quật cường của chú bé Kim Đồng trong kháng chiến.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 9: Người liên lạc nhỏ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 9: Vàm Cỏ Đông\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 9: Người liên lạc nhỏ\" thuộc \"Chủ điểm 5: Anh em một nhà\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Nhận biết câu hỏi: 'Ai là gì?', 'Ai làm gì?', 'Ai thế nào?'.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5397,23 +8909,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b10",
             "number": 10,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 10: Hai Bà Trưng",
+            "chapter": "Chủ điểm 5: Anh em một nhà",
+            "title": "Bài 10: Nhớ Việt Bắc",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 10: Hai Bà Trưng), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 10: Nhớ Việt Bắc), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình nghĩa quân dân gắn bó keo sơn, tấm lòng thủy chung son sắt của đồng bào vùng cao Việt Bắc.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 10: Nhớ Việt Bắc.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 10: Hai Bà Trưng\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 10: Nhớ Việt Bắc\" thuộc \"Chủ điểm 5: Anh em một nhà\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Học thuộc lòng bài thơ và phát biểu cảm nghĩ về tình quân dân.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5421,23 +8933,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b11",
             "number": 11,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 11: Chiếc áo hoa của chim công",
+            "chapter": "Chủ điểm 6: Bắc Trung Nam",
+            "title": "Bài 11: Nhà rông ở Tây Nguyên",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 11: Chiếc áo hoa của chim công), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 11: Nhà rông ở Tây Nguyên), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Nét kiến trúc độc đáo, uy nghi và ý nghĩa thiêng liêng của nhà rông trong đời sống buôn làng Tây Nguyên.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 11: Nhà rông ở Tây Nguyên.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 11: Chiếc áo hoa của chim công\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 11: Nhà rông ở Tây Nguyên\" thuộc \"Chủ điểm 6: Bắc Trung Nam\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Miêu tả đặc điểm hình dáng mái nhà rông vút cao.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -5445,23 +8957,455 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-3-b12",
             "number": 12,
-            "chapter": "Chủ điểm: Khám phá cuộc sống & Yêu thương",
-            "title": "Bài 12: Ôn tập cuối năm",
+            "chapter": "Chủ điểm 6: Bắc Trung Nam",
+            "title": "Bài 12: Đôi bạn",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 12: Ôn tập cuối năm), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 3.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 12: Đôi bạn), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình bạn chân thành, sẵn sàng lao xuống dòng nước cứu bạn của Thành và Mến nơi sơ tán.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 12: Đôi bạn.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 12: Ôn tập cuối năm\" (Chủ điểm: Khám phá cuộc sống & Yêu thương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 12: Đôi bạn\" thuộc \"Chủ điểm 6: Bắc Trung Nam\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện từ và câu: Mở rộng vốn từ về Thành thị và Nông thôn.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b13",
+            "number": 13,
+            "chapter": "Chủ điểm 7: Sáng tạo và phát minh",
+            "title": "Bài 13: Nhà bác học và bà cụ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 13: Nhà bác học và bà cụ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tinh thần lao động miệt mài và thái độ khiêm tốn, lắng nghe nhân dân của nhà phát minh vĩ đại Ê-đi-xơn.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 13: Nhà bác học và bà cụ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 13: Nhà bác học và bà cụ\" thuộc \"Chủ điểm 7: Sáng tạo và phát minh\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích cấu trúc câu kể và lời thoại nhân vật.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b14",
+            "number": 14,
+            "chapter": "Chủ điểm 7: Sáng tạo và phát minh",
+            "title": "Bài 14: Cái cầu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 14: Cái cầu), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình yêu thương cha sâu nặng của bạn nhỏ: từ chiếc cầu cha xây nối đôi bờ đến chiếc cầu ngập tràn yêu thương.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 14: Cái cầu.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 14: Cái cầu\" thuộc \"Chủ điểm 7: Sáng tạo và phát minh\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm những hình ảnh so sánh chiếc cầu độc đáo trong bài thơ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b15",
+            "number": 15,
+            "chapter": "Chủ điểm 8: Nghệ thuật muôn màu",
+            "title": "Bài 15: Người trí thức mẫu mực",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 15: Người trí thức mẫu mực), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tấm gương tận tụy, hi sinh cả cuộc đời vì khoa học y học và đồng bào của bác sĩ Phạm Ngọc Thạch.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 15: Người trí thức mẫu mực.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 15: Người trí thức mẫu mực\" thuộc \"Chủ điểm 8: Nghệ thuật muôn màu\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện từ và câu: Mở rộng vốn từ về Sáng tạo và Trí thức.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b16",
+            "number": 16,
+            "chapter": "Chủ điểm 8: Nghệ thuật muôn màu",
+            "title": "Bài 16: Hội thổi cơm thi ở Đồng Vân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 16: Hội thổi cơm thi ở Đồng Vân), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Nét đẹp văn hóa dân gian độc đáo, sự khéo léo tài tình của người dân trong hội thi thổi cơm truyền thống.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 16: Hội thổi cơm thi ở Đồng Vân.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 16: Hội thổi cơm thi ở Đồng Vân\" thuộc \"Chủ điểm 8: Nghệ thuật muôn màu\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Dùng dấu gạch ngang đánh dấu lời đối thoại nhân vật.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b17",
+            "number": 17,
+            "chapter": "Chủ điểm 9: Lễ hội quê hương",
+            "title": "Bài 17: Hội vật",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 17: Hội vật), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Cảnh đấu vật hào hứng, kịch tính giữa Quắm Đen nhanh nhẹn và ông Cản Ngũ mưu lược, giàu kinh nghiệm.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 17: Hội vật.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 17: Hội vật\" thuộc \"Chủ điểm 9: Lễ hội quê hương\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Dùng các từ ngữ gợi tả hành động, âm thanh náo nhiệt.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b18",
+            "number": 18,
+            "chapter": "Chủ điểm 9: Lễ hội quê hương",
+            "title": "Bài 18: Sự tích lễ hội Chử Đồng Tử",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 18: Sự tích lễ hội Chử Đồng Tử), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng hiếu thảo cảm động trời đất và công đức truyền dạy nghề đánh cá, buôn bán của Chử Đồng Tử.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 18: Sự tích lễ hội Chử Đồng Tử.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 18: Sự tích lễ hội Chử Đồng Tử\" thuộc \"Chủ điểm 9: Lễ hội quê hương\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Kể lại toàn bộ câu chuyện theo lời một nhân vật.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b19",
+            "number": 19,
+            "chapter": "Chủ điểm 10: Thể thao rèn sức",
+            "title": "Bài 19: Cuộc chạy đua trong rừng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 19: Cuộc chạy đua trong rừng), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Bài học đắt giá về sự chủ quan kiêu ngạo của Ngựa Con: chỉ lo làm đẹp bộ móng mà không chăm lo luyện tập.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 19: Cuộc chạy đua trong rừng.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 19: Cuộc chạy đua trong rừng\" thuộc \"Chủ điểm 10: Thể thao rèn sức\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Rút ra bài học đạo đức về sự chuẩn bị chu đáo trước mọi thử thách.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b20",
+            "number": 20,
+            "chapter": "Chủ điểm 10: Thể thao rèn sức",
+            "title": "Bài 20: Cùng vui chơi thể thao",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 20: Cùng vui chơi thể thao), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lợi ích tuyệt vời của việc rèn luyện thể dục thể thao: nâng cao sức khỏe, tinh thần sảng khoái học tập.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 20: Cùng vui chơi thể thao.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 20: Cùng vui chơi thể thao\" thuộc \"Chủ điểm 10: Thể thao rèn sức\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Viết bản tin thể thao ngắn gọn, chuẩn xác.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b21",
+            "number": 21,
+            "chapter": "Chủ điểm 11: Bốn mùa tươi đẹp",
+            "title": "Bài 21: Chuyện bốn mùa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 21: Chuyện bốn mùa), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Mỗi mùa xuân, hạ, thu, đông đều mang một vẻ đẹp riêng kì diệu và đem lại ích lợi cho muôn loài.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 21: Chuyện bốn mùa.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 21: Chuyện bốn mùa\" thuộc \"Chủ điểm 11: Bốn mùa tươi đẹp\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích nét đặc trưng của từng mùa qua lời kể của bốn nàng tiên.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b22",
+            "number": 22,
+            "chapter": "Chủ điểm 11: Bốn mùa tươi đẹp",
+            "title": "Bài 22: Mưa rào mùa hạ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 22: Mưa rào mùa hạ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Cảnh thiên nhiên trước, trong và sau cơn mưa rào mùa hạ tươi mát, cây cối hả hê đâm chồi xanh biếc.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 22: Mưa rào mùa hạ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 22: Mưa rào mùa hạ\" thuộc \"Chủ điểm 11: Bốn mùa tươi đẹp\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Sử dụng các từ láy tượng thanh, tượng hình miêu tả tiếng mưa.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b23",
+            "number": 23,
+            "chapter": "Chủ điểm 12: Bầu trời và mặt đất",
+            "title": "Bài 23: Mặt trời mọc ở đằng Tây",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 23: Mặt trời mọc ở đằng Tây), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Sự hóm hỉnh, thông minh và tài ứng biến xuất khẩu thành thơ của cậu bé Cao Bá Quát.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 23: Mặt trời mọc ở đằng Tây.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 23: Mặt trời mọc ở đằng Tây\" thuộc \"Chủ điểm 12: Bầu trời và mặt đất\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện tập đặt câu có hình ảnh nhân hoá độc đáo.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b24",
+            "number": 24,
+            "chapter": "Chủ điểm 12: Bầu trời và mặt đất",
+            "title": "Bài 24: Con cò bay lả",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 24: Con cò bay lả), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hình ảnh con cò trắng cần mẫn, chịu thương chịu khó bay lả bay la trên cánh đồng lúa quê hương.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 24: Con cò bay lả.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 24: Con cò bay lả\" thuộc \"Chủ điểm 12: Bầu trời và mặt đất\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Cảm thụ nét đẹp ca dao dân ca Việt Nam qua bài đọc.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b25",
+            "number": 25,
+            "chapter": "Chủ điểm 13: Ngôi nhà chung Trái Đất",
+            "title": "Bài 25: Gặp gỡ ở Lúc-xăm-bua",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 25: Gặp gỡ ở Lúc-xăm-bua), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình cảm hữu nghị, mến khách của các bạn nhỏ nước bạn Lúc-xăm-bua dành cho đoàn thiếu nhi Việt Nam.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 25: Gặp gỡ ở Lúc-xăm-bua.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 25: Gặp gỡ ở Lúc-xăm-bua\" thuộc \"Chủ điểm 13: Ngôi nhà chung Trái Đất\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện từ và câu: Mở rộng vốn từ về Hoà bình và Hữu nghị.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b26",
+            "number": 26,
+            "chapter": "Chủ điểm 13: Ngôi nhà chung Trái Đất",
+            "title": "Bài 26: Một mái nhà chung",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 26: Một mái nhà chung), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Mỗi loài có một ngôi nhà riêng dưới nước, trên cây, nhưng tất cả cùng chung sống dưới mái nhà Trái Đất xanh.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 26: Một mái nhà chung.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 26: Một mái nhà chung\" thuộc \"Chủ điểm 13: Ngôi nhà chung Trái Đất\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Nêu thông điệp bảo vệ mái nhà chung không bị ô nhiễm.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b27",
+            "number": 27,
+            "chapter": "Chủ điểm 14: Bác Hồ kính yêu",
+            "title": "Bài 27: Chiếc rễ đa tròn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 27: Chiếc rễ đa tròn), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình yêu thương bao la và sự quan tâm chu đáo của Bác Hồ dành cho các cháu thiếu nhi qua việc uốn rễ đa làm cổng chơi.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 27: Chiếc rễ đa tròn.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 27: Chiếc rễ đa tròn\" thuộc \"Chủ điểm 14: Bác Hồ kính yêu\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Kể lại câu chuyện với lòng kính yêu Bác Hồ sâu sắc.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b28",
+            "number": 28,
+            "chapter": "Chủ điểm 14: Bác Hồ kính yêu",
+            "title": "Bài 28: Cây vú sữa của Bác Hồ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 28: Cây vú sữa của Bác Hồ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tấm lòng sắt son hướng về Bác Hồ của đồng bào miền Nam và tình cảm yêu thương Bác dành cho miền Nam ruột thịt.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 28: Cây vú sữa của Bác Hồ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 28: Cây vú sữa của Bác Hồ\" thuộc \"Chủ điểm 14: Bác Hồ kính yêu\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Viết đoạn văn ngắn bày tỏ tình cảm kính yêu Bác Hồ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b29",
+            "number": 29,
+            "chapter": "Chủ điểm 15: Ôn tập và tổng kết",
+            "title": "Bài 29: Ôn tập tổng hợp Tiếng Việt học kì I",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 29: Ôn tập tổng hợp Tiếng Việt học kì I), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hệ thống hóa các chủ điểm, các kiểu câu 'Ai là gì?', 'Ai làm gì?', 'Ai thế nào?' và phép so sánh.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 29: Ôn tập tổng hợp Tiếng Việt học kì I.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 29: Ôn tập tổng hợp Tiếng Việt học kì I\" thuộc \"Chủ điểm 15: Ôn tập và tổng kết\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Làm bài kiểm tra trắc nghiệm và tự luận đạt điểm cao.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-3-b30",
+            "number": 30,
+            "chapter": "Chủ điểm 15: Ôn tập và tổng kết",
+            "title": "Bài 30: Ôn tập tổng hợp Tiếng Việt học kì II",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 3 (Bài 30: Ôn tập tổng hợp Tiếng Việt học kì II), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hệ thống hóa toàn bộ các biện pháp tu từ so sánh, nhân hoá, mở rộng vốn từ lớp 3.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 30: Ôn tập tổng hợp Tiếng Việt học kì II.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 30: Ôn tập tổng hợp Tiếng Việt học kì II\" thuộc \"Chủ điểm 15: Ôn tập và tổng kết\" (Tiếng Việt 3), kĩ năng cần rèn luyện là:",
+                "option_a": "Tự tin bước vào kì thi đánh giá chất lượng cuối năm lớp 3.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -6678,6 +10622,1762 @@ export const GRADES_DATA: GradeItem[] = [
             ]
           }
         ]
+      },
+      {
+        "id": "am-nhac-3",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Niềm vui ngày khai trường",
+            "title": "Bài 1: Hát \"Bài ca đi học\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 1: Hát \"Bài ca đi học\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu rộn ràng, ánh nắng chan hòa đón bước chân em tới trường học tập tiến bộ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Hát \"Bài ca đi học\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Hát \"Bài ca đi học\"\" thuộc \"Chủ đề 1: Niềm vui ngày khai trường\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với chất giọng khỏe khoắn, tươi sáng và lấy hơi đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Niềm vui ngày khai trường",
+            "title": "Bài 2: Nhạc cụ: Thực hành gõ phách 2/4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 2: Nhạc cụ: Thực hành gõ phách 2/4), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quy luật phách trong nhịp 2/4: phách 1 gõ mạnh, phách 2 gõ nhẹ đều đặn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Nhạc cụ: Thực hành gõ phách 2/4.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Nhạc cụ: Thực hành gõ phách 2/4\" thuộc \"Chủ đề 1: Niềm vui ngày khai trường\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ thanh phách nhấn mạnh vào phách 1 chuẩn xác.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Niềm vui ngày khai trường",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc các nốt nhạc trên khuông nhạc khoá Son: nốt Đô, Mi, Son, Đố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Đọc nhạc: Bài đọc nhạc số 1.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" thuộc \"Chủ đề 1: Niềm vui ngày khai trường\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ phách đệm khi đọc nốt nhạc.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Tình bạn thân thiết",
+            "title": "Bài 4: Hát bài \"Đếm sao\" (Nhạc sĩ Văn Chung)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 4: Hát bài \"Đếm sao\" (Nhạc sĩ Văn Chung)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu trong trẻo đêm rằm đếm từng ngôi sao lấp lánh trên bầu trời tuổi thơ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Hát bài \"Đếm sao\" (Nhạc sĩ Văn Chung).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Hát bài \"Đếm sao\" (Nhạc sĩ Văn Chung)\" thuộc \"Chủ đề 2: Tình bạn thân thiết\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát luyến láy nhịp nhàng theo câu chữ 'Một ông sao sáng, hai ông sáng sao...'.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Tình bạn thân thiết",
+            "title": "Bài 5: Thường thức âm nhạc: Đàn tranh Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 5: Thường thức âm nhạc: Đàn tranh Việt Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đàn tranh cổ truyền 16 dây gảy bằng móng đồi mồi phát ra âm thanh lảnh lót như suối reo.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Thường thức âm nhạc: Đàn tranh Việt Nam.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Thường thức âm nhạc: Đàn tranh Việt Nam\" thuộc \"Chủ đề 2: Tình bạn thân thiết\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tìm hiểu cấu tạo thùng đàn bằng gỗ ngô đồng và con nhạn nâng dây.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Tình bạn thân thiết",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nốt Si (B) nằm trên dòng kẻ thứ 3 của khuông nhạc khoá Son.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Đọc nhạc: Bài đọc nhạc số 2.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" thuộc \"Chủ đề 2: Tình bạn thân thiết\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc tròn vành rõ chữ nốt Si kết hợp kí hiệu bàn tay.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Biết ơn thầy cô",
+            "title": "Bài 7: Hát \"Em yêu trường em\" (Nhạc sĩ Hoàng Vân)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 7: Hát \"Em yêu trường em\" (Nhạc sĩ Hoàng Vân)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Mái trường thân thương có cô giáo hiền, bạn bè thân ái như anh em một nhà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Hát \"Em yêu trường em\" (Nhạc sĩ Hoàng Vân).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Hát \"Em yêu trường em\" (Nhạc sĩ Hoàng Vân)\" thuộc \"Chủ đề 3: Biết ơn thầy cô\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát truyền cảm, chan chứa tình yêu mái trường và thầy cô.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Biết ơn thầy cô",
+            "title": "Bài 8: Nhạc cụ: Sáo Recorder nốt B-A-G",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 8: Nhạc cụ: Sáo Recorder nốt B-A-G), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cách bấm ngón tay bịt lỗ sáo Recorder thổi nốt Si (B), La (A) và Son (G).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Nhạc cụ: Sáo Recorder nốt B-A-G.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ: Sáo Recorder nốt B-A-G\" thuộc \"Chủ đề 3: Biết ơn thầy cô\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thổi luồng hơi êm dịu, không thổi quá mạnh làm chói tai.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Biết ơn thầy cô",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc giai điệu nhịp 2/4 có nốt đen chấm dôi ngân dài 1,5 phách.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đọc nhạc: Bài đọc nhạc số 3.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" thuộc \"Chủ đề 3: Biết ơn thầy cô\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ phách nốt chấm dôi chính xác.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Quê hương gấm vóc",
+            "title": "Bài 10: Hát \"Gà gáy le te\" (Dân ca Cống Khao)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 10: Hát \"Gà gáy le te\" (Dân ca Cống Khao)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tiếng gà gáy rộn rã đánh thức bản làng vùng cao đón ngày mới lao động hăng say.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Hát \"Gà gáy le te\" (Dân ca Cống Khao).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Hát \"Gà gáy le te\" (Dân ca Cống Khao)\" thuộc \"Chủ đề 4: Quê hương gấm vóc\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với chất giọng dân ca vui nhộn, hào hứng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Quê hương gấm vóc",
+            "title": "Bài 11: Nhạc cụ dân tộc sáo trúc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 11: Nhạc cụ dân tộc sáo trúc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cây sáo trúc làm từ thân tre nứa thổi ngang phát ra âm thanh réo rắt thanh bình quê hương.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Nhạc cụ dân tộc sáo trúc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Nhạc cụ dân tộc sáo trúc\" thuộc \"Chủ đề 4: Quê hương gấm vóc\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cảm nhận tiếng sáo vi vút trên lưng trâu đồng quê Việt Nam.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Quê hương gấm vóc",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu mang âm hưởng dân ca Tây Bắc rộn rã.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Đọc nhạc: Bài đọc nhạc số 4.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" thuộc \"Chủ đề 4: Quê hương gấm vóc\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Luyện đọc các nốt luyến dân gian mềm mại.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Đón chào năm mới",
+            "title": "Bài 13: Hát \"Cùng múa hát dưới trăng\" (Hoàng Lân)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 13: Hát \"Cùng múa hát dưới trăng\" (Hoàng Lân)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không khí lễ hội đêm trăng muông thú hân hoan nhảy múa chúc mừng năm mới.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Hát \"Cùng múa hát dưới trăng\" (Hoàng Lân).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Hát \"Cùng múa hát dưới trăng\" (Hoàng Lân)\" thuộc \"Chủ đề 5: Đón chào năm mới\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát kết hợp múa xòe hoa uyển chuyển theo giai điệu.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Đón chào năm mới",
+            "title": "Bài 14: Lí thuyết: Khuông nhạc và khoá Son",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 14: Lí thuyết: Khuông nhạc và khoá Son), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khuông nhạc gồm 5 dòng kẻ song song tạo thành 4 khe; khoá Son bắt đầu từ dòng kẻ thứ 2.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Lí thuyết: Khuông nhạc và khoá Son.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Lí thuyết: Khuông nhạc và khoá Son\" thuộc \"Chủ đề 5: Đón chào năm mới\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ khoá Son uốn lượn đúng quy cách từ dòng 2.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Đón chào năm mới",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc thang âm Đô - Rê - Mi - Pha - Son - La - Si chuẩn xác vị trí trên khuông nhạc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Đọc nhạc: Bài đọc nhạc số 5.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" thuộc \"Chủ đề 5: Đón chào năm mới\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Luyện xướng âm các quãng 2 liền bậc.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Vòng tay bè bạn",
+            "title": "Bài 16: Hát \"Tiếng hát bạn bè mình\" (Lê Hoàng Minh)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 16: Hát \"Tiếng hát bạn bè mình\" (Lê Hoàng Minh)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Ước mơ thế giới hòa bình, trẻ em khắp năm châu nắm tay hát vang khúc ca đoàn kết.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Hát \"Tiếng hát bạn bè mình\" (Lê Hoàng Minh).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Hát \"Tiếng hát bạn bè mình\" (Lê Hoàng Minh)\" thuộc \"Chủ đề 6: Vòng tay bè bạn\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát vang dội, hào hùng với tinh thần quốc tế thân ái.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Vòng tay bè bạn",
+            "title": "Bài 17: Thường thức: Nhạc sĩ Phong Nhã",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 17: Thường thức: Nhạc sĩ Phong Nhã), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "'Người chép sử Đội bằng âm nhạc' với các ca khúc bất hủ: 'Ai yêu Bác Hồ Chí Minh hơn thiếu niên nhi đồng'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 17: Thường thức: Nhạc sĩ Phong Nhã.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức: Nhạc sĩ Phong Nhã\" thuộc \"Chủ đề 6: Vòng tay bè bạn\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cảm thụ âm nhạc thiếu nhi trong sáng của nhạc sĩ Phong Nhã.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Vòng tay bè bạn",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nốt nhạc kết hợp tiết tấu nốt móc đơn nhịp nhàng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 18: Đọc nhạc: Bài đọc nhạc số 6.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" thuộc \"Chủ đề 6: Vòng tay bè bạn\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ nhịp đều khi đọc câu nhạc dài.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Về miền tuổi thơ",
+            "title": "Bài 19: Hát \"Con chim chích chòe\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 19: Hát \"Con chim chích chòe\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bài đồng dao vui nhộn răn dạy các bạn nhỏ không nên ham chơi nghịch nắng trưa hè.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 19: Hát \"Con chim chích chòe\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Hát \"Con chim chích chòe\"\" thuộc \"Chủ đề 7: Về miền tuổi thơ\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát dí dỏm, ngắt nghỉ đúng câu thơ đồng dao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Về miền tuổi thơ",
+            "title": "Bài 20: Nhạc cụ: Thực hành kèn phím Melodica",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 20: Nhạc cụ: Thực hành kèn phím Melodica), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thực hành bấm các nốt Đô - Rê - Mi trên kèn phím kết hợp thổi hơi đều.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 20: Nhạc cụ: Thực hành kèn phím Melodica.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Nhạc cụ: Thực hành kèn phím Melodica\" thuộc \"Chủ đề 7: Về miền tuổi thơ\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhấn phím dứt khoát không giữ đè phím sai nốt.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Về miền tuổi thơ",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu đồng dao rộn rã với các nốt nhảy quãng 4 vững vàng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 21: Đọc nhạc: Bài đọc nhạc số 7.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" thuộc \"Chủ đề 7: Về miền tuổi thơ\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ phách đệm theo điệu đồng dao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Khúc hát mùa hè",
+            "title": "Bài 22: Hát \"Mùa hè ước mơ\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 22: Hát \"Mùa hè ước mơ\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chào đón kì nghỉ hè sôi động, bổ ích với bao ước mơ khám phá thế giới rộng lớn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 22: Hát \"Mùa hè ước mơ\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Hát \"Mùa hè ước mơ\"\" thuộc \"Chủ đề 8: Khúc hát mùa hè\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với niềm hân hoan rạng rỡ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Khúc hát mùa hè",
+            "title": "Bài 23: Biểu diễn âm nhạc lớp học",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 23: Biểu diễn âm nhạc lớp học), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tổ chức biểu diễn nhóm nhỏ hát kết hợp nhạc cụ gõ đệm phụ họa.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 23: Biểu diễn âm nhạc lớp học.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Biểu diễn âm nhạc lớp học\" thuộc \"Chủ đề 8: Khúc hát mùa hè\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự tin bước ra sân khấu biểu diễn trước tập thể.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Khúc hát mùa hè",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 3 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc tổng hợp các kiến thức âm nhạc đã học trong chương trình Lớp 3.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 24: Đọc nhạc: Bài đọc nhạc số 8.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" thuộc \"Chủ đề 8: Khúc hát mùa hè\" (Âm nhạc 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đạt điểm chuẩn về cao độ và trường độ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mi-thuat-3",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Sắc màu thiên nhiên",
+            "title": "Bài 1: Pha màu cơ bản và màu nhị hợp",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 1: Pha màu cơ bản và màu nhị hợp), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Ba màu gốc (Đỏ, Vàng, Lam) pha trộn tạo thành màu nhị hợp: Cam (Đỏ+Vàng), Tím (Đỏ+Lam), Lục (Vàng+Lam).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Pha màu cơ bản và màu nhị hợp.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Pha màu cơ bản và màu nhị hợp\" thuộc \"Chủ đề 1: Sắc màu thiên nhiên\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hành pha màu trên khay và tô vòng màu thuần sắc.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Sắc màu thiên nhiên",
+            "title": "Bài 2: Tranh phong cảnh mùa thu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 2: Tranh phong cảnh mùa thu), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gam màu vàng cam ấm áp của lá rụng, mặt hồ thu trong veo êm đềm phẳng lặng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tranh phong cảnh mùa thu.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tranh phong cảnh mùa thu\" thuộc \"Chủ đề 1: Sắc màu thiên nhiên\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Sử dụng gam màu ấm áp miêu tả vẻ đẹp mùa thu dịu dàng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Vẻ đẹp làng nghề",
+            "title": "Bài 3: Nón lá làng Chuông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 3: Nón lá làng Chuông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chiếc nón lá trắng tinh khôi khâu từ lá lụi, nẹp tre tròn và quai nón nhung duyên dáng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Nón lá làng Chuông.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Nón lá làng Chuông\" thuộc \"Chủ đề 2: Vẻ đẹp làng nghề\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ trang trí hoa sen hoặc phong cảnh quê hương lên mặt nón lá.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Vẻ đẹp làng nghề",
+            "title": "Bài 4: Gốm Bát Tràng truyền thống",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 4: Gốm Bát Tràng truyền thống), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Men rạn cổ, họa tiết rồng phượng men lam và đôi bàn tay tài hoa của nghệ nhân chuốt gốm.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Gốm Bát Tràng truyền thống.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Gốm Bát Tràng truyền thống\" thuộc \"Chủ đề 2: Vẻ đẹp làng nghề\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tạo dáng chiếc lọ hoa gốm vuốt tay trên đất nặn thủ công.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Lễ hội quê em",
+            "title": "Bài 5: Đèn ông sao đêm Trung thu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 5: Đèn ông sao đêm Trung thu), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chiếc đèn ông sao 5 cánh bọc giấy bóng kính màu đỏ tươi, gắn vòng tròn đón ánh trăng rằm.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Đèn ông sao đêm Trung thu.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Đèn ông sao đêm Trung thu\" thuộc \"Chủ đề 3: Lễ hội quê em\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Làm khung đèn ông sao bằng que tre và dán giấy bóng kính sặc sỡ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Lễ hội quê em",
+            "title": "Bài 6: Múa lân rộn rã sân trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 6: Múa lân rộn rã sân trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đầu lân uy nghi rực rỡ, ông Địa bụng phệ cầm quạt mo phe phẩy bên tiếng trống tùng dinh rộn rã.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Múa lân rộn rã sân trường.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Múa lân rộn rã sân trường\" thuộc \"Chủ đề 3: Lễ hội quê em\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ hoạt cảnh đoàn múa lân sôi động trong đêm rằm Trung thu.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Trang phục truyền thống",
+            "title": "Bài 7: Chiếc áo dài Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 7: Chiếc áo dài Việt Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tà áo dài thướt tha, cổ đứng thanh lịch tôn vinh nét đẹp dịu dàng của người phụ nữ Việt Nam.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Chiếc áo dài Việt Nam.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Chiếc áo dài Việt Nam\" thuộc \"Chủ đề 4: Trang phục truyền thống\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ trang trí họa tiết cành đào, hoa sen trên tà áo dài.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Trang phục truyền thống",
+            "title": "Bài 8: Khăn thêu hoa văn thổ cẩm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 8: Khăn thêu hoa văn thổ cẩm), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Họa tiết hình thoi, đường zíc zắc đối xứng dệt thổ cẩm của đồng bào vùng cao Tây Bắc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Khăn thêu hoa văn thổ cẩm.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Khăn thêu hoa văn thổ cẩm\" thuộc \"Chủ đề 4: Trang phục truyền thống\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ các dải hoa văn thổ cẩm trang trí diềm khăn đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Đồ gia dụng thông minh",
+            "title": "Bài 9: Thiết kế chiếc đồng hồ báo thức",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 9: Thiết kế chiếc đồng hồ báo thức), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Mặt đồng hồ tròn có 12 chữ số, kim giờ, kim phút và hai chiếc chuông con báo thức ngộ nghĩnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Thiết kế chiếc đồng hồ báo thức.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Thiết kế chiếc đồng hồ báo thức\" thuộc \"Chủ đề 5: Đồ gia dụng thông minh\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thiết kế đồng hồ hình chú gà trống hoặc chú ếch xanh bắt mắt.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Đồ gia dụng thông minh",
+            "title": "Bài 10: Hộp bút để bàn tiện ích",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 10: Hộp bút để bàn tiện ích), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tận dụng lõi giấy vệ sinh, lon sữa rỗng bọc giấy màu làm ống cắm bút ngăn nắp trên bàn học.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Hộp bút để bàn tiện ích.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Hộp bút để bàn tiện ích\" thuộc \"Chủ đề 5: Đồ gia dụng thông minh\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Trang trí ống cắm bút hình con thú dễ thương.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Động vật trong tự nhiên",
+            "title": "Bài 11: Chú voi Tây Nguyên",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 11: Chú voi Tây Nguyên), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đôi ngà trắng cong vút, chiếc vòi dài khéo léo và đôi tai to như chiếc quạt nan của chú voi hiền lành.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Chú voi Tây Nguyên.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Chú voi Tây Nguyên\" thuộc \"Chủ đề 6: Động vật trong tự nhiên\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nặn tượng chú voi vững chãi bằng đất sét nặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Động vật trong tự nhiên",
+            "title": "Bài 12: Tranh vẽ đàn chim én mùa xuân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 12: Tranh vẽ đàn chim én mùa xuân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đôi cánh chim én nhọn hoắt chao liệng mang mùa xuân ấm áp về trên khắp đồng ruộng quê hương.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Tranh vẽ đàn chim én mùa xuân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Tranh vẽ đàn chim én mùa xuân\" thuộc \"Chủ đề 6: Động vật trong tự nhiên\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ đàn chim én bay lượn trên nền trời mây trắng mùa xuân.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Mái trường mến yêu",
+            "title": "Bài 13: Góc lớp học của em",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 13: Góc lớp học của em), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Góc thư viện xanh, bảng tin thi đua lớp và những chậu hoa nhỏ đặt bên bậu cửa sổ ngập tràn ánh nắng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Góc lớp học của em.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Góc lớp học của em\" thuộc \"Chủ đề 7: Mái trường mến yêu\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ góc lớp học thân thương bằng màu sáp hoặc màu nước.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Mái trường mến yêu",
+            "title": "Bài 14: Tranh cổ động giữ gìn trường lớp xanh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 14: Tranh cổ động giữ gìn trường lớp xanh), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thông điệp bỏ rác đúng nơi quy định, trồng thêm cây xanh vì một ngôi trường hạnh phúc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Tranh cổ động giữ gìn trường lớp xanh.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Tranh cổ động giữ gìn trường lớp xanh\" thuộc \"Chủ đề 7: Mái trường mến yêu\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ hình ảnh các bạn nhỏ quét dọn sân trường sạch đẹp.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Khám phá thế giới",
+            "title": "Bài 15: Kim tự tháp Ai Cập",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 15: Kim tự tháp Ai Cập), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khối kiến trúc đá khổng lồ 4 mặt hình tam giác sừng sững bên tượng Nhân Sư trên sa mạc cát vàng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Kim tự tháp Ai Cập.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Kim tự tháp Ai Cập\" thuộc \"Chủ đề 8: Khám phá thế giới\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ Kim Tự Tháp với các mảng sáng tối dưới ánh nắng sa mạc rực rỡ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Khám phá thế giới",
+            "title": "Bài 16: Cối xay gió Hà Lan",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 3 (Bài 16: Cối xay gió Hà Lan), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bốn cánh quạt cối xay gió khổng lồ quay đều bên dòng kênh xanh và cánh đồng hoa tulip ngút ngàn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Cối xay gió Hà Lan.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Cối xay gió Hà Lan\" thuộc \"Chủ đề 8: Khám phá thế giới\" (Mĩ thuật 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tô màu rực rỡ cho thảm hoa tulip bên chiếc cối xay gió cổ kính.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hdtn-3",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 1: Làm quen với trường lớp và bạn bè mới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 1: Làm quen với trường lớp và bạn bè mới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự tin giới thiệu bản thân, làm quen với thầy cô, các bạn và nội quy lớp học.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Làm quen với trường lớp và bạn bè mới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Làm quen với trường lớp và bạn bè mới\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chủ động mỉm cười chào hỏi và bắt tay bạn mới trong giờ giải lao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 2: Xây dựng nền nếp học tập và sinh hoạt",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 2: Xây dựng nền nếp học tập và sinh hoạt), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chuẩn bị đồ dùng sách vở chu đáo trước khi đến lớp, đi học đúng giờ và giữ trật tự.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Xây dựng nền nếp học tập và sinh hoạt.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Xây dựng nền nếp học tập và sinh hoạt\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập thời gian biểu học tập và sinh hoạt khoa học mỗi ngày.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Rửa tay bằng xà phòng đúng quy trình 6 bước, đánh răng ngày 2 lần và tắm gội sạch sẽ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác vệ sinh thân thể phòng chống dịch bệnh hiệu quả.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 4: Tự phục vụ trong ăn uống và mặc trang phục",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 4: Tự phục vụ trong ăn uống và mặc trang phục), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự gấp quần áo gọn gàng, tự xúc ăn hết suất cơm và không kén chọn thức ăn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Tự phục vụ trong ăn uống và mặc trang phục.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Tự phục vụ trong ăn uống và mặc trang phục\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác dọn bát đĩa sau khi ăn xong bữa cơm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 5: Kính trọng thầy cô giáo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 5: Kính trọng thầy cô giáo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khoanh tay lễ phép chào thầy cô, chú ý nghe giảng và vâng lời thầy cô chỉ dạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Kính trọng thầy cô giáo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Kính trọng thầy cô giáo\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Viết thiệp hoặc làm hoa giấy bày tỏ lòng biết ơn thầy cô giáo.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 6: Xây dựng tình bạn thân ái, đoàn kết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 6: Xây dựng tình bạn thân ái, đoàn kết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Biết chia sẻ đồ dùng học tập, giúp đỡ bạn gặp khó khăn và không trêu chọc bạn bè.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Xây dựng tình bạn thân ái, đoàn kết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Xây dựng tình bạn thân ái, đoàn kết\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng chơi các trò chơi dân gian đoàn kết với bạn trong giờ ra chơi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 7: Yêu thương và chia sẻ công việc nhà",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 7: Yêu thương và chia sẻ công việc nhà), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giúp cha mẹ quét nhà, nhặt rau, cất đồ chơi gọn gàng sau khi chơi xong.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Yêu thương và chia sẻ công việc nhà.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Yêu thương và chia sẻ công việc nhà\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Làm việc nhà vừa sức để thể hiện sự quan tâm tới cha mẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 8: Lễ phép với ông bà, cha mẹ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 8: Lễ phép với ông bà, cha mẹ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đi thưa về gửi, chào hỏi người lớn tuổi bằng cả hai tay và dạ thưa lễ phép.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Lễ phép với ông bà, cha mẹ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Lễ phép với ông bà, cha mẹ\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Quan tâm hỏi han sức khỏe ông bà khi thời tiết thay đổi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 9: Phong tục đón Tết cổ truyền quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 9: Phong tục đón Tết cổ truyền quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gói bánh chưng xanh, bày mâm ngũ quả, dọn dẹp nhà cửa đón Tết sum vầy ấm cúng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Phong tục đón Tết cổ truyền quê hương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Phong tục đón Tết cổ truyền quê hương\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng gia đình trang trí cành đào, cây mai đón chào năm mới.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 10: Ứng xử văn minh khi đi chúc Tết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 10: Ứng xử văn minh khi đi chúc Tết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nói lời chúc Tết may mắn đến người thân, nhận lì xì bằng hai tay và cảm ơn chân thành.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Ứng xử văn minh khi đi chúc Tết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Ứng xử văn minh khi đi chúc Tết\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Không mở phong bao lì xì trước mặt người tặng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 11: Cảnh đẹp và di tích lịch sử địa phương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 11: Cảnh đẹp và di tích lịch sử địa phương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tìm hiểu các danh lam thắng cảnh, di tích lịch sử và nghề truyền thống quê hương mình.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Cảnh đẹp và di tích lịch sử địa phương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Cảnh đẹp và di tích lịch sử địa phương\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Có ý thức tự hào và giới thiệu vẻ đẹp quê hương với bạn bè.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 12: Giữ gìn an toàn giao thông đường bộ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 12: Giữ gìn an toàn giao thông đường bộ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đội mũ bảo hiểm khi ngồi sau xe máy, đi bộ trên vỉa hè và sang đường đúng vạch kẻ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Giữ gìn an toàn giao thông đường bộ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Giữ gìn an toàn giao thông đường bộ\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhắc nhở người thân tuân thủ đúng đèn tín hiệu giao thông.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 13: Phân loại rác thải tại nguồn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 13: Phân loại rác thải tại nguồn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân biệt rác hữu cơ (thức ăn thừa), rác vô cơ tái chế (chai nhựa, giấy) và rác nguy hại.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Phân loại rác thải tại nguồn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Phân loại rác thải tại nguồn\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bỏ rác đúng thùng quy định tại trường học và khu dân cư.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 14: Chăm sóc cây xanh vườn trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 14: Chăm sóc cây xanh vườn trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tưới nước cho cây hoa, nhổ cỏ dại và không bẻ cành bứt lá cây trong vườn trường.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Chăm sóc cây xanh vườn trường.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Chăm sóc cây xanh vườn trường\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tích cực tham gia phong trào 'Tết trồng cây' đời đời nhớ ơn Bác Hồ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 15: Phòng tránh tai nạn đuối nước mùa hè",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 15: Phòng tránh tai nạn đuối nước mùa hè), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không tự ý tắm sông, hồ, ao suối khi không có người lớn giám sát; luôn mặc áo phao.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Phòng tránh tai nạn đuối nước mùa hè.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Phòng tránh tai nạn đuối nước mùa hè\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Học bơi an toàn và biết hô hoán người lớn ứng cứu khi thấy người bị nạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 3 (Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc sách, rèn luyện thể thao, phụ giúp gia đình và tham gia sinh hoạt hè tại khu phố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập kế hoạch sinh hoạt hè khoa học, tránh xem ti vi và điện thoại quá nhiều.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gdtc-3",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 1: Tư thế đứng nghiêm, đứng nghỉ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 1: Tư thế đứng nghiêm, đứng nghỉ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đứng nghiêm: hai gót chân sát nhau tạo chữ V, mắt nhìn thẳng, ngực nở; Đứng nghỉ: chùng một chân thả lỏng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Tư thế đứng nghiêm, đứng nghỉ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Tư thế đứng nghiêm, đứng nghỉ\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện dứt khoát khẩu lệnh 'Nghiêm!', 'Nghỉ!' theo hiệu lệnh giáo viên.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 2: Tập hợp hàng dọc và dóng hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 2: Tập hợp hàng dọc và dóng hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Người đứng đầu hàng giơ tay phải lên cao, các bạn phía sau dóng hàng thẳng cách nhau một cánh tay.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tập hợp hàng dọc và dóng hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tập hợp hàng dọc và dóng hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tập hợp nhanh chóng, trật tự không xô đẩy bạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Điểm số hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 3: Điểm số hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quay mặt sang trái ra sau hô to số của mình rồi quay mặt về tư thế đứng nghiêm; bạn cuối hàng hô 'Hết!'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Điểm số hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Điểm số hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hô to dõng dạc, rõ ràng số thứ tự của mình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b4",
+            "number": 4,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 4: Động tác quay phải, quay trái",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 4: Động tác quay phải, quay trái), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Lấy gót chân làm trụ kết hợp mũi bàn chân kia để quay 90 độ sang hướng khẩu lệnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Động tác quay phải, quay trái.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Động tác quay phải, quay trái\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng cơ thể khi xoay chuyển hướng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 5: Động tác vươn thở và động tác tay",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 5: Động tác vươn thở và động tác tay), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vươn thở: hai tay giơ cao hình chữ V hít sâu bằng mũi, hạ tay thở ra bằng miệng; Động tác tay: vỗ tay trước ngực.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Động tác vươn thở và động tác tay.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Động tác vươn thở và động tác tay\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hít thở sâu lồng ngực đón không khí trong lành buổi sớm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 6: Động tác chân và động tác lườn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 6: Động tác chân và động tác lườn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Động tác chân: kiễng gót hai tay chống hông rồi khuỵu gối; Động tác lườn: nghiêng người sang phải, trái.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Động tác chân và động tác lườn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Động tác chân và động tác lườn\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Căng dãn nhóm cơ sườn và giữ thẳng lưng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b7",
+            "number": 7,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 7: Động tác bụng và động tác toàn thân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 7: Động tác bụng và động tác toàn thân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gập bụng hai tay chạm mũi chân, phối hợp nhịp nhàng các khớp hông và cột sống.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Động tác bụng và động tác toàn thân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Động tác bụng và động tác toàn thân\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cúi sâu nhưng giữ chân thẳng không khuỵu gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b8",
+            "number": 8,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 8: Động tác nhảy và động tác điều hòa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 8: Động tác nhảy và động tác điều hòa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bật nhảy hai chân sang ngang vỗ tay trên đầu; Điều hòa: thả lỏng tay chân hít thở êm dịu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Động tác nhảy và động tác điều hòa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Động tác nhảy và động tác điều hòa\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện bài tập thể dục buổi sáng liên hoàn 8 động tác đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đặt bàn chân thẳng theo đường vạch, lưng thẳng, mắt nhìn về phía trước cách 2 - 3 mét.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng tốt không bước chệch ra ngoài vạch kẻ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b10",
+            "number": 10,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 10: Đi kiễng gót hai tay dang ngang",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 10: Đi kiễng gót hai tay dang ngang), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nâng cao gót chân, đi bằng nửa trước bàn chân, hai tay dang ngang giữ thăng bằng thân người.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Đi kiễng gót hai tay dang ngang.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Đi kiễng gót hai tay dang ngang\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Rèn luyện sức mạnh cổ chân và sự dẻo dai.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b11",
+            "number": 11,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 11: Động tác chạy cự li ngắn 20m - 30m",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 11: Động tác chạy cự li ngắn 20m - 30m), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đạp sau mạnh mẽ, đánh tay so le nhịp nhàng với bước chân, thở đều khi chạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Động tác chạy cự li ngắn 20m - 30m.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Động tác chạy cự li ngắn 20m - 30m\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chạy hết tốc lực về đích an toàn, không dừng đột ngột.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b12",
+            "number": 12,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 12: Bật nhảy về phía trước bằng hai chân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 12: Bật nhảy về phía trước bằng hai chân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khuỵu gối lấy đà, vung tay ra sau rồi bật mạnh hai chân ra trước, tiếp đất bằng nửa trước bàn chân chùng gối.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Bật nhảy về phía trước bằng hai chân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Bật nhảy về phía trước bằng hai chân\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tiếp đất êm ái giảm chấn động cho khớp gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b13",
+            "number": 13,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 13: Trò chơi \"Mèo đuổi chuột\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 13: Trò chơi \"Mèo đuổi chuột\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các bạn nắm tay thành vòng tròn làm hang rào nâng lên hạ xuống, bạn làm Chuột chạy và bạn làm Mèo đuổi bắt.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Trò chơi \"Mèo đuổi chuột\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Trò chơi \"Mèo đuổi chuột\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhanh nhẹn, khéo léo luồn lách qua các khe hở vòng tròn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b14",
+            "number": 14,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 14: Trò chơi \"Cướp cờ\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 14: Trò chơi \"Cướp cờ\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai đội đứng đối diện theo số thứ tự, khi trọng tài gọi số nào thì bạn số đó nhanh chóng chạy lên giật cờ về vạch.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Trò chơi \"Cướp cờ\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Trò chơi \"Cướp cờ\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phản xạ nhanh nhẹn, tinh thần đồng đội quyết thắng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b15",
+            "number": 15,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai chân đứng gọn trong bao bố, hai tay túm chặt miệng bao bật nhảy nhanh về đích rồi trao bao cho bạn tiếp theo.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bật nhảy kiên trì, không sợ ngã và cổ vũ bạn bè nhiệt tình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b16",
+            "number": 16,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 3 (Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khởi động kĩ các khớp cổ tay, cổ chân, đầu gối trước khi tập và hồi tĩnh thả lỏng sau khi vận động.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 3), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Mang giày bata thể thao vừa chân và trang phục thể dục thoáng mát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7302,23 +13002,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b1",
             "number": 1,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
+            "chapter": "Chủ điểm 1: Mỗi người một vẻ",
             "title": "Bài 1: Tuổi Ngựa",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 1: Tuổi Ngựa), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 1: Tuổi Ngựa), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Cậu bé tuổi Ngựa giàu ước mơ, bay nhảy khắp miền đồng cỏ nhưng luôn nhớ đường về với mẹ hiền.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 1: Tuổi Ngựa.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 1: Tuổi Ngựa\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 1: Tuổi Ngựa\" thuộc \"Chủ điểm 1: Mỗi người một vẻ\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Cảm thụ hình ảnh thơ giàu chất tưởng tượng và lòng hiếu thảo.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7326,23 +13026,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b2",
             "number": 2,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 2: Làm bạn với bầu trời",
+            "chapter": "Chủ điểm 1: Mỗi người một vẻ",
+            "title": "Bài 2: Làm bạn với nhật kí",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 2: Làm bạn với bầu trời), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 2: Làm bạn với nhật kí), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tác dụng của việc ghi nhật kí hằng ngày: lưu giữ kỉ niệm, rèn luyện quan sát và thấu hiểu bản thân.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 2: Làm bạn với nhật kí.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 2: Làm bạn với bầu trời\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 2: Làm bạn với nhật kí\" thuộc \"Chủ điểm 1: Mỗi người một vẻ\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện viết một đoạn nhật kí ngắn về một ngày ý nghĩa.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7350,23 +13050,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b3",
             "number": 3,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 3: Người ăn xin",
+            "chapter": "Chủ điểm 2: Trải nghiệm và khám phá",
+            "title": "Bài 3: Chiều thu quê em",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 3: Người ăn xin), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 3: Chiều thu quê em), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Bức tranh đồng quê thanh bình, ráng chiều êm ả và mùi lúa chín ngát hương bay trong gió thu.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 3: Chiều thu quê em.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 3: Người ăn xin\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 3: Chiều thu quê em\" thuộc \"Chủ điểm 2: Trải nghiệm và khám phá\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm các tính từ gợi tả màu sắc, âm thanh trong đoạn văn.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7374,23 +13074,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b4",
             "number": 4,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 4: Đôi cánh của ngựa trắng",
+            "chapter": "Chủ điểm 2: Trải nghiệm và khám phá",
+            "title": "Bài 4: Lên rẫy",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 4: Đôi cánh của ngựa trắng), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 4: Lên rẫy), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Không khí lao động sản xuất vui tươi, bền bỉ của đồng bào vùng cao trong mùa gieo hạt đón mưa rào.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 4: Lên rẫy.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 4: Đôi cánh của ngựa trắng\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 4: Lên rẫy\" thuộc \"Chủ điểm 2: Trải nghiệm và khám phá\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Mở rộng vốn từ về thiên nhiên và lao động sản xuất.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7398,23 +13098,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b5",
             "number": 5,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 5: Vua tàu thủy Bạch Thái Bưởi",
+            "chapter": "Chủ điểm 3: Niềm vui sáng tạo",
+            "title": "Bài 5: Bức tranh của em gái tôi (Tạ Duy Anh)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 5: Vua tàu thủy Bạch Thái Bưởi), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 5: Bức tranh của em gái tôi (Tạ Duy Anh)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tấm lòng trong sáng, nhân hậu của người em gái đã giúp người anh nhận ra thói ghen tị và hoàn thiện nhân cách.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 5: Bức tranh của em gái tôi (Tạ Duy Anh).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 5: Vua tàu thủy Bạch Thái Bưởi\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 5: Bức tranh của em gái tôi (Tạ Duy Anh)\" thuộc \"Chủ điểm 3: Niềm vui sáng tạo\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích diễn biến tâm lí của nhân vật người anh.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7422,23 +13122,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b6",
             "number": 6,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 6: Bầu trời mùa thu",
+            "chapter": "Chủ điểm 3: Niềm vui sáng tạo",
+            "title": "Bài 6: Ở Vương quốc Tương lai",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 6: Bầu trời mùa thu), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 6: Ở Vương quốc Tương lai), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Ước mơ chinh phục khoa học của thiếu nhi: sáng chế trái cây khổng lồ, thuốc trường sinh và máy bay tự động.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 6: Ở Vương quốc Tương lai.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 6: Bầu trời mùa thu\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 6: Ở Vương quốc Tương lai\" thuộc \"Chủ điểm 3: Niềm vui sáng tạo\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Đọc phân vai kịch với giọng điệu hồn nhiên, phấn chấn.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7446,23 +13146,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b7",
             "number": 7,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 7: Lời kêu gọi toàn quốc kháng chiến",
+            "chapter": "Chủ điểm 4: Chắp cánh ước mơ",
+            "title": "Bài 7: Nếu chúng mình có phép lạ",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 7: Lời kêu gọi toàn quốc kháng chiến), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 7: Nếu chúng mình có phép lạ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Ước mơ trẻ thơ cao đẹp: ước không còn chiến tranh, cây cối mau kết trái và mùa đông không lạnh giá.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 7: Nếu chúng mình có phép lạ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 7: Lời kêu gọi toàn quốc kháng chiến\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 7: Nếu chúng mình có phép lạ\" thuộc \"Chủ điểm 4: Chắp cánh ước mơ\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Học thuộc lòng bài thơ và phát biểu cảm nghĩ về ước mơ hòa bình.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7470,23 +13170,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b8",
             "number": 8,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 8: Kì diệu rừng xanh",
+            "chapter": "Chủ điểm 4: Chắp cánh ước mơ",
+            "title": "Bài 8: Người ăn xin (Tuốc-ghê-nhép)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 8: Kì diệu rừng xanh), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 8: Người ăn xin (Tuốc-ghê-nhép)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình yêu thương, sự đồng cảm và tôn trọng nhân phẩm con người giữa cậu bé và người ăn xin già nua.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 8: Người ăn xin (Tuốc-ghê-nhép).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 8: Kì diệu rừng xanh\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 8: Người ăn xin (Tuốc-ghê-nhép)\" thuộc \"Chủ điểm 4: Chắp cánh ước mơ\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Rút ra bài học nhân văn sâu sắc về sự sẻ chia trong cuộc sống.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7494,23 +13194,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b9",
             "number": 9,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 9: Nếu chúng mình có phép lạ",
+            "chapter": "Chủ điểm 5: Hương vị quê hương",
+            "title": "Bài 9: Bè xuôi sông La",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 9: Nếu chúng mình có phép lạ), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 9: Bè xuôi sông La), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Vẻ đẹp thơ mộng của dòng sông La và tinh thần lao động kiên cường của những người đưa bè gỗ về xuôi.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 9: Bè xuôi sông La.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 9: Nếu chúng mình có phép lạ\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 9: Bè xuôi sông La\" thuộc \"Chủ điểm 5: Hương vị quê hương\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm các biện pháp tu từ so sánh và nhân hóa trong bài thơ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7518,23 +13218,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b10",
             "number": 10,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 10: Anh đom đóm",
+            "chapter": "Chủ điểm 5: Hương vị quê hương",
+            "title": "Bài 10: Người tìm đường lên các vì sao",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 10: Anh đom đóm), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 10: Người tìm đường lên các vì sao), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Ý chí phi thường, lòng say mê khoa học vượt qua muôn vàn gian khổ của nhà bác học Xi-ôn-cốp-xki.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 10: Người tìm đường lên các vì sao.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 10: Anh đom đóm\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 10: Người tìm đường lên các vì sao\" thuộc \"Chủ điểm 5: Hương vị quê hương\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện từ và câu: Nhận diện Danh từ, Động từ, Tính từ chuẩn xác.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -7542,23 +13242,479 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-4-b11",
             "number": 11,
-            "chapter": "Chủ điểm: Chân dung của em & Quê hương",
-            "title": "Bài 11: Ôn tập cuối năm",
+            "chapter": "Chủ điểm 6: Sống để yêu thương",
+            "title": "Bài 11: Nỗi dằn vặt của An-đrây-ca",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 11: Ôn tập cuối năm), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 4.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 11: Nỗi dằn vặt của An-đrây-ca), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng thương ông sâu sắc và tinh thần trung thực, dũng cảm nhận lỗi lầm của chú bé An-đrây-ca.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 11: Nỗi dằn vặt của An-đrây-ca.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 11: Ôn tập cuối năm\" (Chủ điểm: Chân dung của em & Quê hương), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 11: Nỗi dằn vặt của An-đrây-ca\" thuộc \"Chủ điểm 6: Sống để yêu thương\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Đặt câu hỏi bày tỏ sự đồng cảm với nhân vật.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b12",
+            "number": 12,
+            "chapter": "Chủ điểm 6: Sống để yêu thương",
+            "title": "Bài 12: Thầy thuốc như mẹ hiền",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 12: Thầy thuốc như mẹ hiền), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tấm lòng nhân ái bao la, y đức cao cả không màng danh lợi của danh y Hải Thượng Lãn Ông Lê Hữu Trác.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 12: Thầy thuốc như mẹ hiền.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 12: Thầy thuốc như mẹ hiền\" thuộc \"Chủ điểm 6: Sống để yêu thương\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Mở rộng vốn từ về Nhân hậu - Từ thiện.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b13",
+            "number": 13,
+            "chapter": "Chủ điểm 7: Uống nước nhớ nguồn",
+            "title": "Bài 13: Vua tàu thủy Bạch Thái Bưởi",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 13: Vua tàu thủy Bạch Thái Bưởi), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tinh thần tự hào dân tộc, ý chí quật cường vươn lên làm chủ kinh tế sông biển của nhà tư sản yêu nước.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 13: Vua tàu thủy Bạch Thái Bưởi.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 13: Vua tàu thủy Bạch Thái Bưởi\" thuộc \"Chủ điểm 7: Uống nước nhớ nguồn\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích bài học vượt khó làm giàu chân chính.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b14",
+            "number": 14,
+            "chapter": "Chủ điểm 7: Uống nước nhớ nguồn",
+            "title": "Bài 14: Đoàn thuyền đánh cá (Huy Cận)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 14: Đoàn thuyền đánh cá (Huy Cận)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Khí thế lao động hào hùng, rạng rỡ của người ngư dân đánh cá đêm trên biển khơi quê hương.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 14: Đoàn thuyền đánh cá (Huy Cận).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 14: Đoàn thuyền đánh cá (Huy Cận)\" thuộc \"Chủ điểm 7: Uống nước nhớ nguồn\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Đọc diễn cảm bài thơ với nhịp điệu khoẻ khoắn, vang dội.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b15",
+            "number": 15,
+            "chapter": "Chủ điểm 8: Quê hương trong tôi",
+            "title": "Bài 15: Chợ Tết vùng cao",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 15: Chợ Tết vùng cao), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Sắc màu rực rỡ, nét sinh hoạt độc đáo, tươi vui của bà con các dân tộc thiểu số trong phiên chợ Tết đầu xuân.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 15: Chợ Tết vùng cao.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 15: Chợ Tết vùng cao\" thuộc \"Chủ điểm 8: Quê hương trong tôi\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm các từ ngữ giàu chất tạo hình trong văn bản miêu tả chợ Tết.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b16",
+            "number": 16,
+            "chapter": "Chủ điểm 8: Quê hương trong tôi",
+            "title": "Bài 16: Dòng sông Mặc Khách",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 16: Dòng sông Mặc Khách), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Vẻ đẹp danh thắng chùa Thầy và truyền thống hiếu học của cha ông qua các áng thơ văn bất hủ.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 16: Dòng sông Mặc Khách.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 16: Dòng sông Mặc Khách\" thuộc \"Chủ điểm 8: Quê hương trong tôi\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện viết đoạn văn mở bài gián tiếp trong bài văn miêu tả cây cối.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b17",
+            "number": 17,
+            "chapter": "Chủ điểm 9: Vì một thế giới bình yên",
+            "title": "Bài 17: Ga-vrốt ngoài chiến lũy",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 17: Ga-vrốt ngoài chiến lũy), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng dũng cảm vô song của chú bé Pa-ri xông pha nhặt đạn cứu nghĩa quân cách mạng Pháp.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 17: Ga-vrốt ngoài chiến lũy.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 17: Ga-vrốt ngoài chiến lũy\" thuộc \"Chủ điểm 9: Vì một thế giới bình yên\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích hình tượng chú bé anh dũng Ga-vrốt.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b18",
+            "number": 18,
+            "chapter": "Chủ điểm 9: Vì một thế giới bình yên",
+            "title": "Bài 18: Tiếng chim trong thành phố",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 18: Tiếng chim trong thành phố), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình yêu thiên nhiên, ý thức bảo tồn các loài chim quý hiếm tạo môi trường đô thị thanh bình, xanh mát.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 18: Tiếng chim trong thành phố.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 18: Tiếng chim trong thành phố\" thuộc \"Chủ điểm 9: Vì một thế giới bình yên\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Viết thư thăm hỏi người thân chia sẻ về việc bảo vệ chim muông.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b19",
+            "number": 19,
+            "chapter": "Chủ điểm 10: Khám phá thế giới",
+            "title": "Bài 19: Ăng-co Vát kì vĩ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 19: Ăng-co Vát kì vĩ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Kiệt tác kiến trúc đền tháp điêu khắc đá độc nhất vô nhị của đất nước Cam-pu-chia láng giềng.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 19: Ăng-co Vát kì vĩ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 19: Ăng-co Vát kì vĩ\" thuộc \"Chủ điểm 10: Khám phá thế giới\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Mở rộng vốn từ về Du lịch và Thám hiểm.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b20",
+            "number": 20,
+            "chapter": "Chủ điểm 10: Khám phá thế giới",
+            "title": "Bài 20: Chú sẻ và bông hoa bằng lăng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 20: Chú sẻ và bông hoa bằng lăng), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình cảm trong sáng, tốt bụng của chú chim sẻ giúp người bạn ốm ngắm nhìn bông hoa bằng lăng cuối mùa.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 20: Chú sẻ và bông hoa bằng lăng.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 20: Chú sẻ và bông hoa bằng lăng\" thuộc \"Chủ điểm 10: Khám phá thế giới\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện từ và câu: Dấu gạch ngang và dấu hai chấm.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b21",
+            "number": 21,
+            "chapter": "Chủ điểm 11: Tình bạn tuổi thơ",
+            "title": "Bài 21: Khúc hát ru những em bé lớn trên lưng mẹ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 21: Khúc hát ru những em bé lớn trên lưng mẹ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình yêu thương con gắn liền với tình yêu bộ đội, tình yêu buôn làng và lòng căm thù giặc của người mẹ Tà-ôi.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 21: Khúc hát ru những em bé lớn trên lưng mẹ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 21: Khúc hát ru những em bé lớn trên lưng mẹ\" thuộc \"Chủ điểm 11: Tình bạn tuổi thơ\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Học thuộc lòng bài thơ và phân tích điệp khúc ru con xúc động.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b22",
+            "number": 22,
+            "chapter": "Chủ điểm 11: Tình bạn tuổi thơ",
+            "title": "Bài 22: Sầu riêng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 22: Sầu riêng), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hương vị thơm lừng, ngào ngạt và giá trị ẩm thực đặc sản Nam Bộ của trái sầu riêng thơm ngon.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 22: Sầu riêng.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 22: Sầu riêng\" thuộc \"Chủ điểm 11: Tình bạn tuổi thơ\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện tập miêu tả mùi hương và hình dáng hoa quả.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b23",
+            "number": 23,
+            "chapter": "Chủ điểm 12: Vẻ đẹp muôn màu",
+            "title": "Bài 23: Chợ nổi miền Tây",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 23: Chợ nổi miền Tây), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Nét văn hóa giao thương độc đáo trên sông nước Cửu Long với những cây bẹo treo lủng lẳng hoa trái.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 23: Chợ nổi miền Tây.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 23: Chợ nổi miền Tây\" thuộc \"Chủ điểm 12: Vẻ đẹp muôn màu\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Miêu tả không khí tấp nập của ghe thuyền chợ nổi.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b24",
+            "number": 24,
+            "chapter": "Chủ điểm 12: Vẻ đẹp muôn màu",
+            "title": "Bài 24: Ga-li-lê và kính thiên văn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 24: Ga-li-lê và kính thiên văn), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Sự kiên định bảo vệ chân lí khoa học 'Dù sao Trái Đất vẫn quay' của nhà bác học vĩ đại Ga-li-lê.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 24: Ga-li-lê và kính thiên văn.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 24: Ga-li-lê và kính thiên văn\" thuộc \"Chủ điểm 12: Vẻ đẹp muôn màu\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Rút ra bài học về lòng trung thực và dũng khí khoa học.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b25",
+            "number": 25,
+            "chapter": "Chủ điểm 13: Vượt qua thử thách",
+            "title": "Bài 25: Cây chuối mẹ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 25: Cây chuối mẹ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình mẫu tử của cây chuối mẹ: sẵn sàng che chắn bão gió gãy dập tàu lá để đàn chuối con lớn khôn.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 25: Cây chuối mẹ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 25: Cây chuối mẹ\" thuộc \"Chủ điểm 13: Vượt qua thử thách\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích biện pháp nhân hóa giàu tình cảm người mẹ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b26",
+            "number": 26,
+            "chapter": "Chủ điểm 13: Vượt qua thử thách",
+            "title": "Bài 26: Đường đi Sa Pa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 26: Đường đi Sa Pa), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Vẻ đẹp huyền ảo mây bồng bềnh, bốn mùa trong một ngày của thị trấn sương mù Sa Pa biên cương.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 26: Đường đi Sa Pa.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 26: Đường đi Sa Pa\" thuộc \"Chủ điểm 13: Vượt qua thử thách\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện tập viết câu văn có trạng ngữ chỉ nơi chốn, thời gian.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b27",
+            "number": 27,
+            "chapter": "Chủ điểm 14: Tự hào non sông",
+            "title": "Bài 27: Dưới chân đèo Ngang (Bà Huyện Thanh Quan)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 27: Dưới chân đèo Ngang (Bà Huyện Thanh Quan)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Cảnh đèo Ngang hùng vĩ lúc hoàng hôn và tâm trạng hoài cổ, nhớ nước thương nhà của nữ sĩ.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 27: Dưới chân đèo Ngang (Bà Huyện Thanh Quan).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 27: Dưới chân đèo Ngang (Bà Huyện Thanh Quan)\" thuộc \"Chủ điểm 14: Tự hào non sông\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Cảm nhận nghệ thuật đối và chơi chữ tài hoa trong thơ cổ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b28",
+            "number": 28,
+            "chapter": "Chủ điểm 14: Tự hào non sông",
+            "title": "Bài 28: Con sẻ dũng cảm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 28: Con sẻ dũng cảm), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình mẫu tử thiêng liêng khiến chú chim sẻ nhỏ bé dám liều mình lao xuống trước mũi con chó săn khổng lồ.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 28: Con sẻ dũng cảm.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 28: Con sẻ dũng cảm\" thuộc \"Chủ điểm 14: Tự hào non sông\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Ca ngợi sức mạnh kì diệu của tình mẫu tử vượt lên nỗi sợ hãi.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b29",
+            "number": 29,
+            "chapter": "Chủ điểm 15: Ôn tập và kiểm tra",
+            "title": "Bài 29: Ôn tập Từ loại và Câu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 29: Ôn tập Từ loại và Câu), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tổng kết Danh từ, Động từ, Tính từ, Câu kể, Câu hỏi, Câu khiến, Câu cảm.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 29: Ôn tập Từ loại và Câu.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 29: Ôn tập Từ loại và Câu\" thuộc \"Chủ điểm 15: Ôn tập và kiểm tra\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Thực hành viết bài văn miêu tả con vật sống động.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-4-b30",
+            "number": 30,
+            "chapter": "Chủ điểm 15: Ôn tập và kiểm tra",
+            "title": "Bài 30: Đánh giá chất lượng cuối năm môn Tiếng Việt Lớp 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 4 (Bài 30: Đánh giá chất lượng cuối năm môn Tiếng Việt Lớp 4), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Đánh giá năng lực đọc hiểu, viết bài văn miêu tả và sử dụng tiếng Việt đúng chuẩn ngữ pháp.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 30: Đánh giá chất lượng cuối năm môn Tiếng Việt Lớp 4.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 30: Đánh giá chất lượng cuối năm môn Tiếng Việt Lớp 4\" thuộc \"Chủ điểm 15: Ôn tập và kiểm tra\" (Tiếng Việt 4), kĩ năng cần rèn luyện là:",
+                "option_a": "Đạt kết quả xuất sắc trong kì thi cuối năm học.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9118,6 +15274,1762 @@ export const GRADES_DATA: GradeItem[] = [
             ]
           }
         ]
+      },
+      {
+        "id": "am-nhac-4",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Âm vang trường lớp",
+            "title": "Bài 1: Hát \"Khúc ca rộn rã\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 1: Hát \"Khúc ca rộn rã\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tiếng trống rộn rã, tiếng cười đùa vang vọng sân trường ngày tựu trường hân hoan.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Hát \"Khúc ca rộn rã\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Hát \"Khúc ca rộn rã\"\" thuộc \"Chủ đề 1: Âm vang trường lớp\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với chất giọng đầy đặn, mở rộng khoang miệng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Âm vang trường lớp",
+            "title": "Bài 2: Nhịp 2/4 và cách vỗ phách nhịp",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 2: Nhịp 2/4 và cách vỗ phách nhịp), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Số chỉ nhịp 2/4: mỗi ô nhịp có 2 phách, mỗi phách bằng một nốt đen (phách 1 mạnh, phách 2 nhẹ).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Nhịp 2/4 và cách vỗ phách nhịp.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Nhịp 2/4 và cách vỗ phách nhịp\" thuộc \"Chủ đề 1: Âm vang trường lớp\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vỗ phách mạnh mở lòng bàn tay, phách nhẹ khép nhẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Âm vang trường lớp",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu ở giọng Đô trưởng trong sáng, khỏe khoắn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Đọc nhạc: Bài đọc nhạc số 1.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" thuộc \"Chủ đề 1: Âm vang trường lớp\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ phách chuẩn xác từng ô nhịp.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Giai điệu quê hương",
+            "title": "Bài 4: Hát \"Em bay trong đêm pháo hoa\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 4: Hát \"Em bay trong đêm pháo hoa\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Niềm tự hào trước thủ đô Hà Nội ngàn năm văn hiến rực rỡ sắc màu pháo hoa đêm lễ hội.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Hát \"Em bay trong đêm pháo hoa\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Hát \"Em bay trong đêm pháo hoa\"\" thuộc \"Chủ đề 2: Giai điệu quê hương\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát vút cao ở nốt cao trào đầy cảm xúc tự hào.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Giai điệu quê hương",
+            "title": "Bài 5: Dân ca ba miền Bắc - Trung - Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 5: Dân ca ba miền Bắc - Trung - Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đặc trưng làn điệu Quan họ Bắc Bộ, Nhã nhạc miền Trung và điệu Lí, Hò miền Nam.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Dân ca ba miền Bắc - Trung - Nam.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Dân ca ba miền Bắc - Trung - Nam\" thuộc \"Chủ đề 2: Giai điệu quê hương\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phân biệt sắc thái âm nhạc dân gian của từng miền đất nước.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Giai điệu quê hương",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc các quãng ngũ cung mang phong vị dân ca ba miền.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Đọc nhạc: Bài đọc nhạc số 2.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" thuộc \"Chủ đề 2: Giai điệu quê hương\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Luyện đọc nốt luyến mềm mại, duyên dáng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Thầy cô kính yêu",
+            "title": "Bài 7: Hát \"Khăn quàng thắm mãi vai em\" (Ngô Ngọc Báu)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 7: Hát \"Khăn quàng thắm mãi vai em\" (Ngô Ngọc Báu)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chiếc khăn quàng đỏ thắm nhắc nhở người đội viên chăm ngoan, học giỏi xứng cháu Bác Hồ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Hát \"Khăn quàng thắm mãi vai em\" (Ngô Ngọc Báu).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Hát \"Khăn quàng thắm mãi vai em\" (Ngô Ngọc Báu)\" thuộc \"Chủ đề 3: Thầy cô kính yêu\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát dứt khoát, hào hùng theo nhịp bước chân Đội.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Thầy cô kính yêu",
+            "title": "Bài 8: Nhạc cụ sáo Recorder nốt C-D",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 8: Nhạc cụ sáo Recorder nốt C-D), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ thuật bấm ngón nốt Đô cao (C) và Rê cao (D) trên sáo Recorder.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Nhạc cụ sáo Recorder nốt C-D.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ sáo Recorder nốt C-D\" thuộc \"Chủ đề 3: Thầy cô kính yêu\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thổi luồng hơi nhẹ nhàng để nốt cao không bị rè.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Thầy cô kính yêu",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc nốt Đô cao trên dòng kẻ phụ thứ nhất phía trên khuông nhạc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đọc nhạc: Bài đọc nhạc số 3.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" thuộc \"Chủ đề 3: Thầy cô kính yêu\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc nốt cao trong trẻo, không bị gằn giọng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Khám phá thế giới",
+            "title": "Bài 10: Hát \"Bàn tay mẹ\" (Bùi Đình Thảo - Tạ Hữu Yên)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 10: Hát \"Bàn tay mẹ\" (Bùi Đình Thảo - Tạ Hữu Yên)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tình yêu thương vô bờ của mẹ: cơm con ăn tay mẹ nấu, nước con uống tay mẹ đun.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Hát \"Bàn tay mẹ\" (Bùi Đình Thảo - Tạ Hữu Yên).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Hát \"Bàn tay mẹ\" (Bùi Đình Thảo - Tạ Hữu Yên)\" thuộc \"Chủ đề 4: Khám phá thế giới\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát tha thiết, nghẹn ngào tình mẫu tử thiêng liêng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Khám phá thế giới",
+            "title": "Bài 11: Thường thức: Dàn nhạc giao hưởng thế giới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 11: Thường thức: Dàn nhạc giao hưởng thế giới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bốn bộ nhạc cụ chính: Bộ Dây (Violon, Cello), Bộ Gỗ (Flute, Oboe), Bộ Đồng (Kèn Trumpet), Bộ Gõ (Trống Timpani).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Thường thức: Dàn nhạc giao hưởng thế giới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Thường thức: Dàn nhạc giao hưởng thế giới\" thuộc \"Chủ đề 4: Khám phá thế giới\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắng nghe âm hưởng vĩ đại của dàn nhạc giao hưởng qua tác phẩm kinh điển.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Khám phá thế giới",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu ở nhịp 3/4 đu đưa dập dềnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Đọc nhạc: Bài đọc nhạc số 4.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" thuộc \"Chủ đề 4: Khám phá thế giới\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhấn phách 1 mạnh, phách 2 và 3 nhẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Chào xuân rực rỡ",
+            "title": "Bài 13: Hát \"Chim sáo\" (Dân ca Khơ-me Nam Bộ)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 13: Hát \"Chim sáo\" (Dân ca Khơ-me Nam Bộ)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình ảnh chú chim sáo vui tươi nhảy nhót trên cành đa mùa quả ngọt chín vàng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Hát \"Chim sáo\" (Dân ca Khơ-me Nam Bộ).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Hát \"Chim sáo\" (Dân ca Khơ-me Nam Bộ)\" thuộc \"Chủ đề 5: Chào xuân rực rỡ\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với tiết tấu nhanh nhảu, ngộ nghĩnh của dân ca Nam Bộ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Chào xuân rực rỡ",
+            "title": "Bài 14: Kí hiệu âm nhạc: Dấu luyến và dấu nối",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 14: Kí hiệu âm nhạc: Dấu luyến và dấu nối), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Dấu nối ngân dài nốt cùng cao độ; Dấu luyến luyến âm nốt khác cao độ trong một tiếng hát.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Kí hiệu âm nhạc: Dấu luyến và dấu nối.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Kí hiệu âm nhạc: Dấu luyến và dấu nối\" thuộc \"Chủ đề 5: Chào xuân rực rỡ\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Xác định đúng tác dụng của dấu nối và dấu luyến trên bản nhạc.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Chào xuân rực rỡ",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc bài hát có dấu luyến 2 nốt nhạc mượt mà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Đọc nhạc: Bài đọc nhạc số 5.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" thuộc \"Chủ đề 5: Chào xuân rực rỡ\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Luyến cao độ không bị vấp tiếng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Ước mơ hòa bình",
+            "title": "Bài 16: Hát \"Ước mơ\" (Nhạc nước ngoài)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 16: Hát \"Ước mơ\" (Nhạc nước ngoài)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Ước mơ cánh chim bồ câu trắng mang tình yêu thương hòa bình đến khắp năm châu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Hát \"Ước mơ\" (Nhạc nước ngoài).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Hát \"Ước mơ\" (Nhạc nước ngoài)\" thuộc \"Chủ đề 6: Ước mơ hòa bình\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với chất giọng truyền cảm, bay bổng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Ước mơ hòa bình",
+            "title": "Bài 17: Thường thức: Nhạc sĩ Mozart thời thơ ấu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 17: Thường thức: Nhạc sĩ Mozart thời thơ ấu), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thần đồng âm nhạc biểu diễn piano và sáng tác bản nhạc đầu tiên khi mới 5 tuổi.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 17: Thường thức: Nhạc sĩ Mozart thời thơ ấu.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức: Nhạc sĩ Mozart thời thơ ấu\" thuộc \"Chủ đề 6: Ước mơ hòa bình\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Noi gương tinh thần chăm chỉ rèn luyện tài năng nghệ thuật.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Ước mơ hòa bình",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thực hành đọc nhạc nhịp 4/4 với đầy đủ các nốt tròn, nốt trắng, nốt đen.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 18: Đọc nhạc: Bài đọc nhạc số 6.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" thuộc \"Chủ đề 6: Ước mơ hòa bình\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đánh nhịp 4/4 đều tay khi xướng âm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Đồng quê êm ả",
+            "title": "Bài 19: Hát \"Chú voi con ở Bản Đôn\" (Phạm Tuyên)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 19: Hát \"Chú voi con ở Bản Đôn\" (Phạm Tuyên)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình ảnh chú voi con ngộ nghĩnh ham ăn chóng lớn để giúp dân làng buôn làng Tây Nguyên kéo gỗ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 19: Hát \"Chú voi con ở Bản Đôn\" (Phạm Tuyên).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Hát \"Chú voi con ở Bản Đôn\" (Phạm Tuyên)\" thuộc \"Chủ đề 7: Đồng quê êm ả\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát nhí nhảnh, vui tươi mô phỏng tiếng voi bước đi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Đồng quê êm ả",
+            "title": "Bài 20: Nhạc cụ: Thực hành kèn phím đệm bài hát",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 20: Nhạc cụ: Thực hành kèn phím đệm bài hát), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bấm hợp âm Đô trưởng (C) và Son 7 (G7) đệm cho bài hát Chú voi con.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 20: Nhạc cụ: Thực hành kèn phím đệm bài hát.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Nhạc cụ: Thực hành kèn phím đệm bài hát\" thuộc \"Chủ đề 7: Đồng quê êm ả\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chuyển ngón tay linh hoạt giữa hai hợp âm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Đồng quê êm ả",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc thang âm La thứ tự nhiên với âm sắc êm dịu, man mác.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 21: Đọc nhạc: Bài đọc nhạc số 7.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" thuộc \"Chủ đề 7: Đồng quê êm ả\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhận biết nốt chủ La kết thúc bài đọc.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Ngày hội non sông",
+            "title": "Bài 22: Hát \"Khúc hát chim sơn ca\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 22: Hát \"Khúc hát chim sơn ca\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tiếng chim sơn ca cất cao khúc hát ca ngợi đất nước đổi mới thanh bình.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 22: Hát \"Khúc hát chim sơn ca\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Hát \"Khúc hát chim sơn ca\"\" thuộc \"Chủ đề 8: Ngày hội non sông\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát hòa giọng tập thể vang dội.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Ngày hội non sông",
+            "title": "Bài 23: Biểu diễn tốp ca và hợp xướng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 23: Biểu diễn tốp ca và hợp xướng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ năng đứng hát đồng ca: tập trung nhìn nhạc trưởng, lấy hơi đồng loạt và phát âm đồng đều.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 23: Biểu diễn tốp ca và hợp xướng.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Biểu diễn tốp ca và hợp xướng\" thuộc \"Chủ đề 8: Ngày hội non sông\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự tin thể hiện bài hợp xướng tổng kết năm học lớp 4.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Ngày hội non sông",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 4 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tổng hợp toàn bộ kiến thức nhạc lí và thang âm của chương trình Lớp 4.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 24: Đọc nhạc: Bài đọc nhạc số 8.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" thuộc \"Chủ đề 8: Ngày hội non sông\" (Âm nhạc 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc nhạc diễn cảm, chính xác nhịp độ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mi-thuat-4",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Thế giới hội họa",
+            "title": "Bài 1: Màu sắc và độ đậm nhạt",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 1: Màu sắc và độ đậm nhạt), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các sắc độ đậm - vừa - nhạt của màu sắc giúp diễn tả khối và chiều sâu không gian của vật thể.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Màu sắc và độ đậm nhạt.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Màu sắc và độ đậm nhạt\" thuộc \"Chủ đề 1: Thế giới hội họa\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ dải sắc độ chuyển tiếp mượt mà từ đậm sang nhạt của một màu.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Thế giới hội họa",
+            "title": "Bài 2: Tranh tĩnh vật hoa và bình gốm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 2: Tranh tĩnh vật hoa và bình gốm), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố cục đặt bình gốm phía sau hoa quả phía trước, ánh sáng chiếu từ một hướng rõ nét.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tranh tĩnh vật hoa và bình gốm.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tranh tĩnh vật hoa và bình gốm\" thuộc \"Chủ đề 1: Thế giới hội họa\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ bóng đổ của bình gốm lên mặt bàn tạo cảm giác vững chãi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Vẻ đẹp con người",
+            "title": "Bài 3: Dáng người đang chuyển động chạy nhảy",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 3: Dáng người đang chuyển động chạy nhảy), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Trục thân uốn cong theo chiều chuyển động, tay đối xứng với chân khi chạy nhanh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Dáng người đang chuyển động chạy nhảy.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Dáng người đang chuyển động chạy nhảy\" thuộc \"Chủ đề 2: Vẻ đẹp con người\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phác nhanh dáng người đang nhảy dây, đá bóng bằng nét que.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Vẻ đẹp con người",
+            "title": "Bài 4: Chân dung biểu cảm vui buồn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 4: Chân dung biểu cảm vui buồn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khóe mắt, nếp nhăn trán và khuôn miệng cười tươi hoặc mím chặt thể hiện cảm xúc nội tâm nhân vật.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Chân dung biểu cảm vui buồn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Chân dung biểu cảm vui buồn\" thuộc \"Chủ đề 2: Vẻ đẹp con người\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ khuôn mặt bạn thân lúc đạt giải thưởng nở nụ cười rạng rỡ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Di sản văn hóa",
+            "title": "Bài 5: Họa tiết rồng thời Lý trên đài sen",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 5: Họa tiết rồng thời Lý trên đài sen), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thân rồng uốn lượn hình sin mềm mại, thanh thoát, ngậm ngọc minh châu thuần khiết đạo Phật.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Họa tiết rồng thời Lý trên đài sen.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Họa tiết rồng thời Lý trên đài sen\" thuộc \"Chủ đề 3: Di sản văn hóa\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Mô phỏng đường cong uốn lượn mềm mại của rồng thời Lý.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Di sản văn hóa",
+            "title": "Bài 6: Cột cờ Hà Nội lịch sử",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 6: Cột cờ Hà Nội lịch sử), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kỳ đài Hà Nội xây bằng gạch kiên cố với lá cờ đỏ sao vàng tung bay phần phật trên nền trời xanh biếc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Cột cờ Hà Nội lịch sử.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Cột cờ Hà Nội lịch sử\" thuộc \"Chủ đề 3: Di sản văn hóa\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ cột cờ uy nghi sừng sững giữa lòng thủ đô ngàn năm văn hiến.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Thiết kế bao bì",
+            "title": "Bài 7: Thiết kế hộp quà sinh nhật",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 7: Thiết kế hộp quà sinh nhật), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hộp quà khối vuông hoặc chữ nhật, nơ ruy băng thắt xinh xắn và hoa văn bắt mắt tạo bất ngờ cho bạn bè.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Thiết kế hộp quà sinh nhật.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Thiết kế hộp quà sinh nhật\" thuộc \"Chủ đề 4: Thiết kế bao bì\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cắt dán hộp quà gấp hình lập phương và thắt nơ lụa trang nhã.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Thiết kế bao bì",
+            "title": "Bài 8: Nhãn vở học sinh sáng tạo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 8: Nhãn vở học sinh sáng tạo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố cục nhãn vở gồm tên trường, lớp, họ tên học sinh, môn học và hình minh họa ngộ nghĩnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Nhãn vở học sinh sáng tạo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhãn vở học sinh sáng tạo\" thuộc \"Chủ đề 4: Thiết kế bao bì\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thiết kế nhãn vở học sinh trang nhã, viền hoa văn sắc sảo.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Môi trường xanh",
+            "title": "Bài 9: Tranh cổ động bảo vệ nguồn nước",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 9: Tranh cổ động bảo vệ nguồn nước), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Dòng sông trong lành không rác thải nhựa, cá tôm bơi lội tung tăng đối lập với ô nhiễm nguồn nước.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Tranh cổ động bảo vệ nguồn nước.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Tranh cổ động bảo vệ nguồn nước\" thuộc \"Chủ đề 5: Môi trường xanh\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Sử dụng khẩu hiệu ngắn gọn 'Hãy tiết kiệm nước sạch vì tương lai'.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Môi trường xanh",
+            "title": "Bài 10: Tái chế chai nhựa thành chậu hoa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 10: Tái chế chai nhựa thành chậu hoa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cắt thân chai nhựa thành hình chú mèo, chú gấu khoét đáy trồng cây cảnh nhỏ xinh trên bậu cửa.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Tái chế chai nhựa thành chậu hoa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Tái chế chai nhựa thành chậu hoa\" thuộc \"Chủ đề 5: Môi trường xanh\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Sơn màu trang trí cho chậu cây tái chế thêm sinh động.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Thời trang học đường",
+            "title": "Bài 11: Mẫu đồng phục học sinh năng động",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 11: Mẫu đồng phục học sinh năng động), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Áo sơ mi trắng thêu phù hiệu trường, quần tây xanh đen lịch sự và giày thể thao khỏe khoắn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Mẫu đồng phục học sinh năng động.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Mẫu đồng phục học sinh năng động\" thuộc \"Chủ đề 6: Thời trang học đường\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ mẫu thiết kế đồng phục mùa hè và mùa đông tiện dụng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Thời trang học đường",
+            "title": "Bài 12: Thiết kế mũ lưỡi trai dạo phố",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 12: Thiết kế mũ lưỡi trai dạo phố), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vành mũ cong che nắng, chóp mũ tròn và họa tiết graphic cá tính phía trước trán mũ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Thiết kế mũ lưỡi trai dạo phố.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Thiết kế mũ lưỡi trai dạo phố\" thuộc \"Chủ đề 6: Thời trang học đường\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ họa tiết chữ cách điệu cá tính lên mặt trước chiếc mũ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Nghệ thuật in tranh",
+            "title": "Bài 13: In tranh từ củ quả và lá cây",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 13: In tranh từ củ quả và lá cây), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Mặt cắt khế 5 cánh sao, cuống cải thìa hình hoa hồng in lên mặt giấy tạo thảm hoa nghệ thuật.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: In tranh từ củ quả và lá cây.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: In tranh từ củ quả và lá cây\" thuộc \"Chủ đề 7: Nghệ thuật in tranh\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chấm mực màu vừa đủ và dập đều tay lên mặt vải hoặc giấy.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Nghệ thuật in tranh",
+            "title": "Bài 14: In hoa văn trang trí khăn trải bàn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 14: In hoa văn trang trí khăn trải bàn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố cục hoa văn góc, hoa văn dải diềm lặp lại đều đặn nhịp nhàng quanh viền khăn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: In hoa văn trang trí khăn trải bàn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: In hoa văn trang trí khăn trải bàn\" thuộc \"Chủ đề 7: Nghệ thuật in tranh\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "In các mô típ hoa lá nối tiếp nhau tạo đường diềm trang trí tinh tế.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Ước mơ tương lai",
+            "title": "Bài 15: Thành phố thông minh trong tương lai",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 15: Thành phố thông minh trong tương lai), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tòa nhà chọc trời dùng năng lượng mặt trời, xe bay lơ lửng và cây xanh phủ kín các tầng mái nhà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Thành phố thông minh trong tương lai.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Thành phố thông minh trong tương lai\" thuộc \"Chủ đề 8: Ước mơ tương lai\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ phối cảnh thành phố tương lai hiện đại và thân thiện môi trường.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Ước mơ tương lai",
+            "title": "Bài 16: Trạm nghiên cứu đáy đại dương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 4 (Bài 16: Trạm nghiên cứu đáy đại dương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Mái vòm kính chịu lực dưới đáy biển sâu nơi các nhà khoa học ngắm cá voi và san hô phát sáng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Trạm nghiên cứu đáy đại dương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Trạm nghiên cứu đáy đại dương\" thuộc \"Chủ đề 8: Ước mơ tương lai\" (Mĩ thuật 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tô màu nước biển sâu bí ẩn với các đốm sáng dạ quang kì ảo.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hdtn-4",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 1: Làm quen với trường lớp và bạn bè mới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 1: Làm quen với trường lớp và bạn bè mới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự tin giới thiệu bản thân, làm quen với thầy cô, các bạn và nội quy lớp học.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Làm quen với trường lớp và bạn bè mới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Làm quen với trường lớp và bạn bè mới\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chủ động mỉm cười chào hỏi và bắt tay bạn mới trong giờ giải lao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 2: Xây dựng nền nếp học tập và sinh hoạt",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 2: Xây dựng nền nếp học tập và sinh hoạt), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chuẩn bị đồ dùng sách vở chu đáo trước khi đến lớp, đi học đúng giờ và giữ trật tự.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Xây dựng nền nếp học tập và sinh hoạt.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Xây dựng nền nếp học tập và sinh hoạt\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập thời gian biểu học tập và sinh hoạt khoa học mỗi ngày.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Rửa tay bằng xà phòng đúng quy trình 6 bước, đánh răng ngày 2 lần và tắm gội sạch sẽ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác vệ sinh thân thể phòng chống dịch bệnh hiệu quả.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 4: Tự phục vụ trong ăn uống và mặc trang phục",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 4: Tự phục vụ trong ăn uống và mặc trang phục), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự gấp quần áo gọn gàng, tự xúc ăn hết suất cơm và không kén chọn thức ăn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Tự phục vụ trong ăn uống và mặc trang phục.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Tự phục vụ trong ăn uống và mặc trang phục\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác dọn bát đĩa sau khi ăn xong bữa cơm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 5: Kính trọng thầy cô giáo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 5: Kính trọng thầy cô giáo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khoanh tay lễ phép chào thầy cô, chú ý nghe giảng và vâng lời thầy cô chỉ dạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Kính trọng thầy cô giáo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Kính trọng thầy cô giáo\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Viết thiệp hoặc làm hoa giấy bày tỏ lòng biết ơn thầy cô giáo.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 6: Xây dựng tình bạn thân ái, đoàn kết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 6: Xây dựng tình bạn thân ái, đoàn kết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Biết chia sẻ đồ dùng học tập, giúp đỡ bạn gặp khó khăn và không trêu chọc bạn bè.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Xây dựng tình bạn thân ái, đoàn kết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Xây dựng tình bạn thân ái, đoàn kết\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng chơi các trò chơi dân gian đoàn kết với bạn trong giờ ra chơi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 7: Yêu thương và chia sẻ công việc nhà",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 7: Yêu thương và chia sẻ công việc nhà), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giúp cha mẹ quét nhà, nhặt rau, cất đồ chơi gọn gàng sau khi chơi xong.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Yêu thương và chia sẻ công việc nhà.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Yêu thương và chia sẻ công việc nhà\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Làm việc nhà vừa sức để thể hiện sự quan tâm tới cha mẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 8: Lễ phép với ông bà, cha mẹ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 8: Lễ phép với ông bà, cha mẹ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đi thưa về gửi, chào hỏi người lớn tuổi bằng cả hai tay và dạ thưa lễ phép.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Lễ phép với ông bà, cha mẹ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Lễ phép với ông bà, cha mẹ\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Quan tâm hỏi han sức khỏe ông bà khi thời tiết thay đổi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 9: Phong tục đón Tết cổ truyền quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 9: Phong tục đón Tết cổ truyền quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gói bánh chưng xanh, bày mâm ngũ quả, dọn dẹp nhà cửa đón Tết sum vầy ấm cúng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Phong tục đón Tết cổ truyền quê hương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Phong tục đón Tết cổ truyền quê hương\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng gia đình trang trí cành đào, cây mai đón chào năm mới.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 10: Ứng xử văn minh khi đi chúc Tết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 10: Ứng xử văn minh khi đi chúc Tết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nói lời chúc Tết may mắn đến người thân, nhận lì xì bằng hai tay và cảm ơn chân thành.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Ứng xử văn minh khi đi chúc Tết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Ứng xử văn minh khi đi chúc Tết\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Không mở phong bao lì xì trước mặt người tặng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 11: Cảnh đẹp và di tích lịch sử địa phương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 11: Cảnh đẹp và di tích lịch sử địa phương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tìm hiểu các danh lam thắng cảnh, di tích lịch sử và nghề truyền thống quê hương mình.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Cảnh đẹp và di tích lịch sử địa phương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Cảnh đẹp và di tích lịch sử địa phương\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Có ý thức tự hào và giới thiệu vẻ đẹp quê hương với bạn bè.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 12: Giữ gìn an toàn giao thông đường bộ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 12: Giữ gìn an toàn giao thông đường bộ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đội mũ bảo hiểm khi ngồi sau xe máy, đi bộ trên vỉa hè và sang đường đúng vạch kẻ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Giữ gìn an toàn giao thông đường bộ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Giữ gìn an toàn giao thông đường bộ\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhắc nhở người thân tuân thủ đúng đèn tín hiệu giao thông.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 13: Phân loại rác thải tại nguồn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 13: Phân loại rác thải tại nguồn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân biệt rác hữu cơ (thức ăn thừa), rác vô cơ tái chế (chai nhựa, giấy) và rác nguy hại.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Phân loại rác thải tại nguồn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Phân loại rác thải tại nguồn\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bỏ rác đúng thùng quy định tại trường học và khu dân cư.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 14: Chăm sóc cây xanh vườn trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 14: Chăm sóc cây xanh vườn trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tưới nước cho cây hoa, nhổ cỏ dại và không bẻ cành bứt lá cây trong vườn trường.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Chăm sóc cây xanh vườn trường.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Chăm sóc cây xanh vườn trường\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tích cực tham gia phong trào 'Tết trồng cây' đời đời nhớ ơn Bác Hồ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 15: Phòng tránh tai nạn đuối nước mùa hè",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 15: Phòng tránh tai nạn đuối nước mùa hè), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không tự ý tắm sông, hồ, ao suối khi không có người lớn giám sát; luôn mặc áo phao.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Phòng tránh tai nạn đuối nước mùa hè.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Phòng tránh tai nạn đuối nước mùa hè\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Học bơi an toàn và biết hô hoán người lớn ứng cứu khi thấy người bị nạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 4 (Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc sách, rèn luyện thể thao, phụ giúp gia đình và tham gia sinh hoạt hè tại khu phố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập kế hoạch sinh hoạt hè khoa học, tránh xem ti vi và điện thoại quá nhiều.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gdtc-4",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 1: Tư thế đứng nghiêm, đứng nghỉ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 1: Tư thế đứng nghiêm, đứng nghỉ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đứng nghiêm: hai gót chân sát nhau tạo chữ V, mắt nhìn thẳng, ngực nở; Đứng nghỉ: chùng một chân thả lỏng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Tư thế đứng nghiêm, đứng nghỉ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Tư thế đứng nghiêm, đứng nghỉ\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện dứt khoát khẩu lệnh 'Nghiêm!', 'Nghỉ!' theo hiệu lệnh giáo viên.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 2: Tập hợp hàng dọc và dóng hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 2: Tập hợp hàng dọc và dóng hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Người đứng đầu hàng giơ tay phải lên cao, các bạn phía sau dóng hàng thẳng cách nhau một cánh tay.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tập hợp hàng dọc và dóng hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tập hợp hàng dọc và dóng hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tập hợp nhanh chóng, trật tự không xô đẩy bạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Điểm số hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 3: Điểm số hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quay mặt sang trái ra sau hô to số của mình rồi quay mặt về tư thế đứng nghiêm; bạn cuối hàng hô 'Hết!'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Điểm số hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Điểm số hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hô to dõng dạc, rõ ràng số thứ tự của mình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b4",
+            "number": 4,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 4: Động tác quay phải, quay trái",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 4: Động tác quay phải, quay trái), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Lấy gót chân làm trụ kết hợp mũi bàn chân kia để quay 90 độ sang hướng khẩu lệnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Động tác quay phải, quay trái.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Động tác quay phải, quay trái\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng cơ thể khi xoay chuyển hướng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 5: Động tác vươn thở và động tác tay",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 5: Động tác vươn thở và động tác tay), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vươn thở: hai tay giơ cao hình chữ V hít sâu bằng mũi, hạ tay thở ra bằng miệng; Động tác tay: vỗ tay trước ngực.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Động tác vươn thở và động tác tay.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Động tác vươn thở và động tác tay\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hít thở sâu lồng ngực đón không khí trong lành buổi sớm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 6: Động tác chân và động tác lườn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 6: Động tác chân và động tác lườn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Động tác chân: kiễng gót hai tay chống hông rồi khuỵu gối; Động tác lườn: nghiêng người sang phải, trái.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Động tác chân và động tác lườn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Động tác chân và động tác lườn\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Căng dãn nhóm cơ sườn và giữ thẳng lưng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b7",
+            "number": 7,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 7: Động tác bụng và động tác toàn thân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 7: Động tác bụng và động tác toàn thân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gập bụng hai tay chạm mũi chân, phối hợp nhịp nhàng các khớp hông và cột sống.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Động tác bụng và động tác toàn thân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Động tác bụng và động tác toàn thân\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cúi sâu nhưng giữ chân thẳng không khuỵu gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b8",
+            "number": 8,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 8: Động tác nhảy và động tác điều hòa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 8: Động tác nhảy và động tác điều hòa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bật nhảy hai chân sang ngang vỗ tay trên đầu; Điều hòa: thả lỏng tay chân hít thở êm dịu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Động tác nhảy và động tác điều hòa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Động tác nhảy và động tác điều hòa\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện bài tập thể dục buổi sáng liên hoàn 8 động tác đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đặt bàn chân thẳng theo đường vạch, lưng thẳng, mắt nhìn về phía trước cách 2 - 3 mét.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng tốt không bước chệch ra ngoài vạch kẻ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b10",
+            "number": 10,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 10: Đi kiễng gót hai tay dang ngang",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 10: Đi kiễng gót hai tay dang ngang), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nâng cao gót chân, đi bằng nửa trước bàn chân, hai tay dang ngang giữ thăng bằng thân người.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Đi kiễng gót hai tay dang ngang.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Đi kiễng gót hai tay dang ngang\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Rèn luyện sức mạnh cổ chân và sự dẻo dai.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b11",
+            "number": 11,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 11: Động tác chạy cự li ngắn 20m - 30m",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 11: Động tác chạy cự li ngắn 20m - 30m), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đạp sau mạnh mẽ, đánh tay so le nhịp nhàng với bước chân, thở đều khi chạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Động tác chạy cự li ngắn 20m - 30m.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Động tác chạy cự li ngắn 20m - 30m\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chạy hết tốc lực về đích an toàn, không dừng đột ngột.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b12",
+            "number": 12,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 12: Bật nhảy về phía trước bằng hai chân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 12: Bật nhảy về phía trước bằng hai chân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khuỵu gối lấy đà, vung tay ra sau rồi bật mạnh hai chân ra trước, tiếp đất bằng nửa trước bàn chân chùng gối.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Bật nhảy về phía trước bằng hai chân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Bật nhảy về phía trước bằng hai chân\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tiếp đất êm ái giảm chấn động cho khớp gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b13",
+            "number": 13,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 13: Trò chơi \"Mèo đuổi chuột\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 13: Trò chơi \"Mèo đuổi chuột\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các bạn nắm tay thành vòng tròn làm hang rào nâng lên hạ xuống, bạn làm Chuột chạy và bạn làm Mèo đuổi bắt.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Trò chơi \"Mèo đuổi chuột\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Trò chơi \"Mèo đuổi chuột\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhanh nhẹn, khéo léo luồn lách qua các khe hở vòng tròn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b14",
+            "number": 14,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 14: Trò chơi \"Cướp cờ\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 14: Trò chơi \"Cướp cờ\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai đội đứng đối diện theo số thứ tự, khi trọng tài gọi số nào thì bạn số đó nhanh chóng chạy lên giật cờ về vạch.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Trò chơi \"Cướp cờ\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Trò chơi \"Cướp cờ\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phản xạ nhanh nhẹn, tinh thần đồng đội quyết thắng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b15",
+            "number": 15,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai chân đứng gọn trong bao bố, hai tay túm chặt miệng bao bật nhảy nhanh về đích rồi trao bao cho bạn tiếp theo.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bật nhảy kiên trì, không sợ ngã và cổ vũ bạn bè nhiệt tình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b16",
+            "number": 16,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 4 (Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khởi động kĩ các khớp cổ tay, cổ chân, đầu gối trước khi tập và hồi tĩnh thả lỏng sau khi vận động.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 4), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Mang giày bata thể thao vừa chân và trang phục thể dục thoáng mát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9742,23 +17654,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b1",
             "number": 1,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 1: Thư gửi các học sinh",
+            "chapter": "Chủ điểm 1: Việt Nam - Tổ quốc em",
+            "title": "Bài 1: Thư gửi các học sinh (Hồ Chí Minh)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 1: Thư gửi các học sinh), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 1: Thư gửi các học sinh (Hồ Chí Minh)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lời căn dặn thiêng liêng của Bác Hồ trong ngày khai trường đầu tiên: non sông Việt Nam có vẻ vang hay không nhờ vào công học tập của các em.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 1: Thư gửi các học sinh (Hồ Chí Minh).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 1: Thư gửi các học sinh\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 1: Thư gửi các học sinh (Hồ Chí Minh)\" thuộc \"Chủ điểm 1: Việt Nam - Tổ quốc em\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Học thuộc lòng đoạn thư bất hủ và khắc ghi lời Bác dạy.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9766,23 +17678,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b2",
             "number": 2,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 2: Quang cảnh làng mạc ngày mùa",
+            "chapter": "Chủ điểm 1: Việt Nam - Tổ quốc em",
+            "title": "Bài 2: Quang cảnh làng mạc ngày mùa (Tô Hoài)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 2: Quang cảnh làng mạc ngày mùa), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 2: Quang cảnh làng mạc ngày mùa (Tô Hoài)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Bức tranh mùa gặt rực rỡ sắc vàng trù phú, no ấm và tình yêu tha thiết mảnh đất quê hương của nhà văn.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 2: Quang cảnh làng mạc ngày mùa (Tô Hoài).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 2: Quang cảnh làng mạc ngày mùa\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 2: Quang cảnh làng mạc ngày mùa (Tô Hoài)\" thuộc \"Chủ điểm 1: Việt Nam - Tổ quốc em\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân biệt các sắc thái phong phú của màu vàng trong miêu tả cảnh vật.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9790,23 +17702,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b3",
             "number": 3,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 3: Sắc màu em yêu",
+            "chapter": "Chủ điểm 2: Cánh chim hòa bình",
+            "title": "Bài 3: Bài ca về trái đất (Định Hải)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 3: Sắc màu em yêu), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 3: Bài ca về trái đất (Định Hải)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lời kêu gọi các bạn nhỏ năm châu nắm tay giữ gìn màu xanh Trái Đất, phản đối chiến tranh hạt nhân.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 3: Bài ca về trái đất (Định Hải).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 3: Sắc màu em yêu\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 3: Bài ca về trái đất (Định Hải)\" thuộc \"Chủ điểm 2: Cánh chim hòa bình\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Đọc diễn cảm bài thơ với giai điệu rộn ràng, tha thiết.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9814,23 +17726,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b4",
             "number": 4,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 4: Lòng dân",
+            "chapter": "Chủ điểm 2: Cánh chim hòa bình",
+            "title": "Bài 4: Những con sếu bằng giấy",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 4: Lòng dân), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 4: Những con sếu bằng giấy), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Câu chuyện cảm động về cô bé Xa-đa-cô người Nhật gấp ngàn con sếu giấy cầu mong hòa bình khỏi nạn bom nguyên tử.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 4: Những con sếu bằng giấy.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 4: Lòng dân\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 4: Những con sếu bằng giấy\" thuộc \"Chủ điểm 2: Cánh chim hòa bình\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Bày tỏ lòng căm ghét chiến tranh và khát vọng hòa bình cho nhân loại.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9838,23 +17750,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b5",
             "number": 5,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 5: Tiếng đàn ba-la-lai-ca trên sông Đà",
+            "chapter": "Chủ điểm 3: Con người với thiên nhiên",
+            "title": "Bài 5: Tiếng đàn Ba-la-lai-ca trên sông Đà (Quang Huy)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 5: Tiếng đàn ba-la-lai-ca trên sông Đà), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 5: Tiếng đàn Ba-la-lai-ca trên sông Đà (Quang Huy)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Đêm trăng thanh bình soi bóng công trình thủy điện sông Đà hòa cùng tiếng đàn Nga hữu nghị ngân vang.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 5: Tiếng đàn Ba-la-lai-ca trên sông Đà (Quang Huy).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 5: Tiếng đàn ba-la-lai-ca trên sông Đà\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 5: Tiếng đàn Ba-la-lai-ca trên sông Đà (Quang Huy)\" thuộc \"Chủ điểm 3: Con người với thiên nhiên\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Cảm nhận hình ảnh thơ lãng mạn kết hợp vẻ đẹp công nghiệp kỳ vĩ.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9862,23 +17774,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b6",
             "number": 6,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 6: Hạt gạo làng ta",
+            "chapter": "Chủ điểm 3: Con người với thiên nhiên",
+            "title": "Bài 6: Kì diệu rừng xanh (Mai Văn Tạo)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 6: Hạt gạo làng ta), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 6: Kì diệu rừng xanh (Mai Văn Tạo)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Vẻ đẹp huyền bí, nấm khổng lồ như lâu đài và thế giới muông thú sinh động trong khu rừng nguyên sinh.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 6: Kì diệu rừng xanh (Mai Văn Tạo).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 6: Hạt gạo làng ta\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 6: Kì diệu rừng xanh (Mai Văn Tạo)\" thuộc \"Chủ điểm 3: Con người với thiên nhiên\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm các từ ngữ miêu tả cảm giác ngỡ ngàng trước vẻ đẹp thiên nhiên.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9886,23 +17798,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b7",
             "number": 7,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 7: Một chuyên gia máy xúc",
+            "chapter": "Chủ điểm 4: Giữ lấy màu xanh",
+            "title": "Bài 7: Mùa thảo quả (Ma Văn Kháng)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 7: Một chuyên gia máy xúc), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 7: Mùa thảo quả (Ma Văn Kháng)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hương thơm ngào ngạt lan tỏa khắp rừng già Hoàng Liên Sơn khi mùa thảo quả chín đỏ rực.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 7: Mùa thảo quả (Ma Văn Kháng).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 7: Một chuyên gia máy xúc\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 7: Mùa thảo quả (Ma Văn Kháng)\" thuộc \"Chủ điểm 4: Giữ lấy màu xanh\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích nghệ thuật miêu tả hương thơm và màu sắc bậc thầy.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9910,23 +17822,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b8",
             "number": 8,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 8: Ê-mi-li, con...",
+            "chapter": "Chủ điểm 4: Giữ lấy màu xanh",
+            "title": "Bài 8: Người gác rừng tí hon",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 8: Ê-mi-li, con...), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 8: Người gác rừng tí hon), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng dũng cảm, mưu trí phối hợp công an bắt quả tang bọn lâm tặc trộm gỗ quý của bạn nhỏ con người gác rừng.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 8: Người gác rừng tí hon.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 8: Ê-mi-li, con...\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 8: Người gác rừng tí hon\" thuộc \"Chủ điểm 4: Giữ lấy màu xanh\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Nâng cao ý thức bảo vệ tài nguyên rừng quốc gia.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9934,23 +17846,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b9",
             "number": 9,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 9: Người gác rừng tí hon",
+            "chapter": "Chủ điểm 5: Vì hạnh phúc con người",
+            "title": "Bài 9: Chuỗi ngọc lam",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 9: Người gác rừng tí hon), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 9: Chuỗi ngọc lam), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tấm lòng nhân hậu, vị tha và sự sẻ chia thầm lặng trong đêm Giáng sinh mang lại hạnh phúc cho người khác.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 9: Chuỗi ngọc lam.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 9: Người gác rừng tí hon\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 9: Chuỗi ngọc lam\" thuộc \"Chủ điểm 5: Vì hạnh phúc con người\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân vai đọc truyện với giọng kể ấm áp, giàu tình cảm.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9958,23 +17870,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b10",
             "number": 10,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 10: Trồng rừng ngập mặn",
+            "chapter": "Chủ điểm 5: Vì hạnh phúc con người",
+            "title": "Bài 10: Hạt gạo làng ta (Trần Đăng Khoa)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 10: Trồng rừng ngập mặn), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 10: Hạt gạo làng ta (Trần Đăng Khoa)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Giá trị thiêng liêng của hạt gạo: có bão tháng bảy, có mưa tháng ba, có giọt mồ hôi mẹ và công lao tuyến sau đánh giặc.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 10: Hạt gạo làng ta (Trần Đăng Khoa).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 10: Trồng rừng ngập mặn\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 10: Hạt gạo làng ta (Trần Đăng Khoa)\" thuộc \"Chủ điểm 5: Vì hạnh phúc con người\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Học thuộc lòng bài thơ và biết ơn người nông dân một nắng hai sương.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -9982,23 +17894,23 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b11",
             "number": 11,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 11: Buôn Chư Lênh đón cô giáo",
+            "chapter": "Chủ điểm 6: Người công dân",
+            "title": "Bài 11: Người công dân số Một (Hà Văn Cầu)",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 11: Buôn Chư Lênh đón cô giáo), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 11: Người công dân số Một (Hà Văn Cầu)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Ý chí cứu nước kiên định và tấm lòng yêu nước thương nòi cháy bỏng của thanh niên Nguyễn Tất Thành tại Sài Gòn.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 11: Người công dân số Một (Hà Văn Cầu).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 11: Buôn Chư Lênh đón cô giáo\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 11: Người công dân số Một (Hà Văn Cầu)\" thuộc \"Chủ điểm 6: Người công dân\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Đọc diễn cảm lời thoại kịch thể hiện khí phách người thanh niên yêu nước.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -10006,23 +17918,455 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "tiengviet-5-b12",
             "number": 12,
-            "chapter": "Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình",
-            "title": "Bài 12: Ôn tập cuối năm",
+            "chapter": "Chủ điểm 6: Người công dân",
+            "title": "Bài 12: Nhà tài trợ đặc biệt của Cách mạng",
             "questions": [
               {
-                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 12: Ôn tập cuối năm), nội dung trọng tâm cần nắm vững là gì?",
-                "option_a": "Nắm vững định nghĩa, quy tắc và bản chất cốt lõi của bài học trong SGK Tiếng Việt 5.",
-                "option_b": "Chỉ học thuộc lòng máy móc mà không cần hiểu bản chất kiến thức.",
-                "option_c": "Bỏ qua các nguyên tắc cơ bản và ví dụ minh họa trong sách giáo khoa.",
-                "option_d": "Nội dung bài học không có mối liên hệ với thực tế đời sống.",
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 12: Nhà tài trợ đặc biệt của Cách mạng), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tấm lòng yêu nước, hiến tặng hơn 5000 lượng vàng cho Chính phủ của nhà tư sản yêu nước Trịnh Văn Bô.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 12: Nhà tài trợ đặc biệt của Cách mạng.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
                 "correct": "A"
               },
               {
-                "content": "Khi vận dụng kiến thức của \"Bài 12: Ôn tập cuối năm\" (Chủ điểm: Việt Nam - Tổ quốc em & Cánh chim hòa bình), phương pháp tiếp cận khoa học nhất là:",
-                "option_a": "Phân tích bản chất, liên hệ với hiện tượng thực tế và luyện tập các dạng bài tập mẫu.",
-                "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
-                "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
-                "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 12: Nhà tài trợ đặc biệt của Cách mạng\" thuộc \"Chủ điểm 6: Người công dân\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Luyện từ và câu: Mở rộng vốn từ về Công dân và Trách nhiệm.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b13",
+            "number": 13,
+            "chapter": "Chủ điểm 7: Vì cuộc sống thanh bình",
+            "title": "Bài 13: Chú đi tuần (Trần Ngọc)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 13: Chú đi tuần (Trần Ngọc)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tình cảm yêu thương sâu sắc, trách nhiệm bảo vệ giấc ngủ bình yên cho các cháu học sinh miền Nam của chiến sĩ công an.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 13: Chú đi tuần (Trần Ngọc).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 13: Chú đi tuần (Trần Ngọc)\" thuộc \"Chủ điểm 7: Vì cuộc sống thanh bình\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Đọc bài thơ với giọng thủ thỉ, ân cần, trìu mến.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b14",
+            "number": 14,
+            "chapter": "Chủ điểm 7: Vì cuộc sống thanh bình",
+            "title": "Bài 14: Hộp thư mật",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 14: Hộp thư mật), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Sự mưu trí, bình tĩnh và hoạt động thầm lặng đầy hiểm nguy của các chiến sĩ tình báo trong lòng địch.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 14: Hộp thư mật.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 14: Hộp thư mật\" thuộc \"Chủ điểm 7: Vì cuộc sống thanh bình\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Hiểu ý nghĩa cao cả của những chiến công thầm lặng bảo vệ Tổ quốc.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b15",
+            "number": 15,
+            "chapter": "Chủ điểm 8: Nhớ nguồn",
+            "title": "Bài 15: Phong cảnh đền Hùng (Đoàn Minh Tuấn)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 15: Phong cảnh đền Hùng (Đoàn Minh Tuấn)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Vẻ đẹp uy nghiêm, linh thiêng của Đền Hùng nơi cội nguồn dân tộc và lời căn dặn của Bác Hồ: 'Các Vua Hùng đã có công dựng nước...'.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 15: Phong cảnh đền Hùng (Đoàn Minh Tuấn).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 15: Phong cảnh đền Hùng (Đoàn Minh Tuấn)\" thuộc \"Chủ điểm 8: Nhớ nguồn\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Khắc ghi truyền thống 'Uống nước nhớ nguồn' của dân tộc Việt Nam.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b16",
+            "number": 16,
+            "chapter": "Chủ điểm 8: Nhớ nguồn",
+            "title": "Bài 16: Cửa sông (Quang Huy)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 16: Cửa sông (Quang Huy)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Tấm lòng thủy chung, son sắt của dòng sông: dù hòa vào biển cả mênh mông vẫn không bao giờ quên cội nguồn nơi núi cao.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 16: Cửa sông (Quang Huy).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 16: Cửa sông (Quang Huy)\" thuộc \"Chủ điểm 8: Nhớ nguồn\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Tìm biện pháp tu từ nhân hóa biểu đạt nghĩa tình sâu nặng.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b17",
+            "number": 17,
+            "chapter": "Chủ điểm 9: Nam và nữ",
+            "title": "Bài 17: Một vụ đắm tàu",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 17: Một vụ đắm tàu), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hành động dũng cảm, đức hi sinh nhường chiếc phao cứu sinh duy nhất cho bạn gái của cậu bé Ma-ri-ô quả cảm.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 17: Một vụ đắm tàu.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 17: Một vụ đắm tàu\" thuộc \"Chủ điểm 9: Nam và nữ\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Ca ngợi đức hi sinh và tinh thần hiệp sĩ cao đẹp.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b18",
+            "number": 18,
+            "chapter": "Chủ điểm 9: Nam và nữ",
+            "title": "Bài 18: Con gái",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 18: Con gái), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Phê phán tư tưởng lạc hậu 'trọng nam khinh nữ', khẳng định tài năng, phẩm chất hiếu thảo của người con gái trong gia đình.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 18: Con gái.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 18: Con gái\" thuộc \"Chủ điểm 9: Nam và nữ\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Nêu quan điểm bình đẳng giới trong xã hội hiện đại.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b19",
+            "number": 19,
+            "chapter": "Chủ điểm 10: Những chủ nhân tương lai",
+            "title": "Bài 19: Lớp học trên đường (Héc-to Ma-lô)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 19: Lớp học trên đường (Héc-to Ma-lô)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Ý chí hiếu học, tinh thần vượt khó vươn lên học chữ trong cảnh nghèo khó phiêu bạt của chú bé Rê-mi.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 19: Lớp học trên đường (Héc-to Ma-lô).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 19: Lớp học trên đường (Héc-to Ma-lô)\" thuộc \"Chủ điểm 10: Những chủ nhân tương lai\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Noi gương tinh thần học hỏi kiên trì dù trong hoàn cảnh ngặt nghèo.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b20",
+            "number": 20,
+            "chapter": "Chủ điểm 10: Những chủ nhân tương lai",
+            "title": "Bài 20: Út Vịnh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 20: Út Vịnh), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hành động dũng cảm cứu hai em nhỏ thoát khỏi lưỡi hái tử thần trên đường ray tàu hỏa của người đội viên gương mẫu.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 20: Út Vịnh.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 20: Út Vịnh\" thuộc \"Chủ điểm 10: Những chủ nhân tương lai\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Học tập tinh thần quên mình vì người khác của bạn Út Vịnh.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b21",
+            "number": 21,
+            "chapter": "Chủ điểm 11: Tự hào lịch sử",
+            "title": "Bài 21: Thái sư Trần Thủ Độ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 21: Thái sư Trần Thủ Độ), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Khí phách cương trực, chí công vô tư, coi trọng phép nước trên tình thân gia tộc của Thái sư Trần Thủ Độ.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 21: Thái sư Trần Thủ Độ.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 21: Thái sư Trần Thủ Độ\" thuộc \"Chủ điểm 11: Tự hào lịch sử\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích những việc làm mẫu mực giữ nghiêm phép nước.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b22",
+            "number": 22,
+            "chapter": "Chủ điểm 11: Tự hào lịch sử",
+            "title": "Bài 22: Tranh làng Hồ (Nguyễn Tuân)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 22: Tranh làng Hồ (Nguyễn Tuân)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lòng biết ơn và sự ngưỡng mộ đối với các nghệ nhân dân gian làng Đông Hồ đã tạo nên những bức tranh thuần khiết dân tộc.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 22: Tranh làng Hồ (Nguyễn Tuân).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 22: Tranh làng Hồ (Nguyễn Tuân)\" thuộc \"Chủ điểm 11: Tự hào lịch sử\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Cảm nhận vẻ đẹp 'màu trắng điệp là một sự sáng tạo rất ngát tình dân tộc'.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b23",
+            "number": 23,
+            "chapter": "Chủ điểm 12: Nghĩa khí anh hùng",
+            "title": "Bài 23: Nghĩa thầy trò",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 23: Nghĩa thầy trò), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Truyền thống 'Tôn sư trọng đạo' tốt đẹp của dân tộc ta qua việc các học trò theo cụ giáo Chu Văn An đến chúc thọ thầy giáo của cụ.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 23: Nghĩa thầy trò.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 23: Nghĩa thầy trò\" thuộc \"Chủ điểm 12: Nghĩa khí anh hùng\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Bày tỏ lòng biết ơn và kính trọng thầy cô giáo suốt đời.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b24",
+            "number": 24,
+            "chapter": "Chủ điểm 12: Nghĩa khí anh hùng",
+            "title": "Bài 24: Hội thổi cơm thi ở Đồng Vân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 24: Hội thổi cơm thi ở Đồng Vân), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Nét văn hóa lễ hội dân gian hào hứng, kĩ năng nấu cơm nhanh thoăn thoắt của tổ tiên ta thời mở cõi.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 24: Hội thổi cơm thi ở Đồng Vân.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 24: Hội thổi cơm thi ở Đồng Vân\" thuộc \"Chủ điểm 12: Nghĩa khí anh hùng\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Miêu tả không khí khẩn trương của hội thi truyền thống.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b25",
+            "number": 25,
+            "chapter": "Chủ điểm 13: Chinh phục thiên nhiên",
+            "title": "Bài 25: Đất Cà Mau (Mai Văn Tạo)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 25: Đất Cà Mau (Mai Văn Tạo)), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Vẻ đẹp thiên nhiên hoang dã, cây đước bám sâu vào bùn đất và khí phách kiên cường mở cõi của con người Cà Mau.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 25: Đất Cà Mau (Mai Văn Tạo).",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 25: Đất Cà Mau (Mai Văn Tạo)\" thuộc \"Chủ điểm 13: Chinh phục thiên nhiên\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân tích đặc điểm tính cách con người phương Nam.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b26",
+            "number": 26,
+            "chapter": "Chủ điểm 13: Chinh phục thiên nhiên",
+            "title": "Bài 26: Thuần phục sư tử",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 26: Thuần phục sư tử), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Sức mạnh kì diệu của lòng kiên trì, dịu dàng và tình yêu thương chân thành có thể thuần phục cả loài thú dữ hung hãn.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 26: Thuần phục sư tử.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 26: Thuần phục sư tử\" thuộc \"Chủ điểm 13: Chinh phục thiên nhiên\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Rút ra bài học ứng xử hòa ái trong cuộc sống gia đình.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b27",
+            "number": 27,
+            "chapter": "Chủ điểm 14: Khám phá thế giới",
+            "title": "Bài 27: Tà áo dài Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 27: Tà áo dài Việt Nam), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Lịch sử phát triển và vẻ đẹp trang nhã, kín đáo mà duyên dáng của chiếc áo dài truyền thống phụ nữ Việt Nam.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 27: Tà áo dài Việt Nam.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 27: Tà áo dài Việt Nam\" thuộc \"Chủ điểm 14: Khám phá thế giới\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Tự hào về trang phục di sản văn hóa dân tộc.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b28",
+            "number": 28,
+            "chapter": "Chủ điểm 14: Khám phá thế giới",
+            "title": "Bài 28: Úc và đại dương kì thú",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 28: Úc và đại dương kì thú), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Khám phá các loài thú có túi độc đáo (Kangaroo, Koala) và rạn san hô Great Barrier Reef vĩ đại.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 28: Úc và đại dương kì thú.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 28: Úc và đại dương kì thú\" thuộc \"Chủ điểm 14: Khám phá thế giới\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Mở rộng hiểu biết về địa lí và sinh thái thế giới.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b29",
+            "number": 29,
+            "chapter": "Chủ điểm 15: Ôn tập và kiểm tra cuối cấp",
+            "title": "Bài 29: Ôn tập Từ đồng nghĩa, Trái nghĩa, Đồng âm, Nhiều nghĩa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 29: Ôn tập Từ đồng nghĩa, Trái nghĩa, Đồng âm, Nhiều nghĩa), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hệ thống hóa toàn bộ kiến thức ngữ âm, từ vựng và các biện pháp tu từ trong chương trình tiểu học.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 29: Ôn tập Từ đồng nghĩa, Trái nghĩa, Đồng âm, Nhiều nghĩa.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 29: Ôn tập Từ đồng nghĩa, Trái nghĩa, Đồng âm, Nhiều nghĩa\" thuộc \"Chủ điểm 15: Ôn tập và kiểm tra cuối cấp\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Phân biệt sắc thái biểu cảm của các từ đồng nghĩa trong văn cảnh cụ thể.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "tiengviet-5-b30",
+            "number": 30,
+            "chapter": "Chủ điểm 15: Ôn tập và kiểm tra cuối cấp",
+            "title": "Bài 30: Đánh giá năng lực Tiếng Việt cuối cấp Tiểu học",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Tiếng Việt Lớp 5 (Bài 30: Đánh giá năng lực Tiếng Việt cuối cấp Tiểu học), nội dung và thông điệp cốt lõi của bài học là gì?",
+                "option_a": "Hoàn thiện kĩ năng viết bài văn miêu tả (cảnh, người) và cảm thụ văn học sâu sắc chuẩn bị vào lớp 6.",
+                "option_b": "Chỉ đọc vẹt văn bản mà không nắm được ý nghĩa nhân văn và từ ngữ trọng tâm của Bài 30: Đánh giá năng lực Tiếng Việt cuối cấp Tiểu học.",
+                "option_c": "Không cần hiểu nghĩa của từ và quy tắc ngữ pháp trong câu.",
+                "option_d": "Bỏ qua các câu hỏi tìm hiểu bài và luyện tập sau bài đọc.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi luyện tập kiến thức tiếng Việt trong \"Bài 30: Đánh giá năng lực Tiếng Việt cuối cấp Tiểu học\" thuộc \"Chủ điểm 15: Ôn tập và kiểm tra cuối cấp\" (Tiếng Việt 5), kĩ năng cần rèn luyện là:",
+                "option_a": "Tự tin đạt kết quả xuất sắc trong kì kiểm tra hoàn thành chương trình Tiểu học.",
+                "option_b": "Viết sai chính tả và dùng dấu câu tuỳ tiện không đúng quy tắc.",
+                "option_c": "Đặt câu què, câu cụt thiếu thành phần chủ ngữ - vị ngữ.",
+                "option_d": "Chép lại bài mẫu của bạn mà không tự mình suy nghĩ sáng tạo.",
                 "correct": "A"
               }
             ]
@@ -11673,6 +20017,1762 @@ export const GRADES_DATA: GradeItem[] = [
                 "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
                 "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
                 "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "am-nhac-5",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Mùa thu tựu trường",
+            "title": "Bài 1: Hát \"Reo vang bình minh\" (Lưu Hữu Phước)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 1: Hát \"Reo vang bình minh\" (Lưu Hữu Phước)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khung cảnh bình minh rực rỡ nắng vàng, chim ca líu lo chào đón một ngày học mới tươi vui.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Hát \"Reo vang bình minh\" (Lưu Hữu Phước).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Hát \"Reo vang bình minh\" (Lưu Hữu Phước)\" thuộc \"Chủ đề 1: Mùa thu tựu trường\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với giọng ca tươi sáng, tràn đầy năng lượng tích cực.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Mùa thu tựu trường",
+            "title": "Bài 2: Nhịp 3/4 và điệu nhảy van-xơ (Waltz)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 2: Nhịp 3/4 và điệu nhảy van-xơ (Waltz)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhịp 3/4 có 3 phách trong ô nhịp, mỗi phách bằng một nốt đen: phách 1 mạnh, phách 2 và 3 nhẹ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Nhịp 3/4 và điệu nhảy van-xơ (Waltz).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Nhịp 3/4 và điệu nhảy van-xơ (Waltz)\" thuộc \"Chủ đề 1: Mùa thu tựu trường\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vận động cơ thể đung đưa theo nhịp 3 phách nhịp nhàng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Mùa thu tựu trường",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nhạc nhịp 3/4 ở giọng Đô trưởng kết hợp đánh nhịp tam giác.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Đọc nhạc: Bài đọc nhạc số 1.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" thuộc \"Chủ đề 1: Mùa thu tựu trường\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhấn rõ phách 1 mạnh khi xướng âm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Tình bạn bốn biển",
+            "title": "Bài 4: Hát \"Hãy giữ cho em bầu trời xanh\" (Huy Trân)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 4: Hát \"Hãy giữ cho em bầu trời xanh\" (Huy Trân)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khát vọng hòa bình thế giới, phản đối chiến tranh, gìn giữ màu xanh tươi đẹp của Trái Đất.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Hát \"Hãy giữ cho em bầu trời xanh\" (Huy Trân).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Hát \"Hãy giữ cho em bầu trời xanh\" (Huy Trân)\" thuộc \"Chủ đề 2: Tình bạn bốn biển\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát tha thiết, xúc động và đầy tính nhân văn cao cả.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Tình bạn bốn biển",
+            "title": "Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cây đại thụ của nền âm nhạc cách mạng Việt Nam, tác giả 'Tiếng gọi thanh niên', 'Hành khúc giải phóng'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước\" thuộc \"Chủ đề 2: Tình bạn bốn biển\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cảm thụ âm hưởng hào sảng thôi thúc lòng yêu nước.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Tình bạn bốn biển",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc các nốt có khoảng cách quãng 5 (Đô - Son, Rê - La) vững vàng cao độ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Đọc nhạc: Bài đọc nhạc số 2.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" thuộc \"Chủ đề 2: Tình bạn bốn biển\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đọc to, ngân vang trọn vẹn nốt nhạc kết.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Nhớ ơn thầy cô",
+            "title": "Bài 7: Hát \"Con đường học trò\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 7: Hát \"Con đường học trò\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kỉ niệm đẹp đẽ của 5 năm tiểu học dưới mái trường thân thương bên thầy cô và bè bạn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Hát \"Con đường học trò\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Hát \"Con đường học trò\"\" thuộc \"Chủ đề 3: Nhớ ơn thầy cô\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với cảm xúc bồi hồi, lắng đọng lòng tri ân.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Nhớ ơn thầy cô",
+            "title": "Bài 8: Nhạc cụ: Hòa tấu sáo Recorder và Melodica",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 8: Nhạc cụ: Hòa tấu sáo Recorder và Melodica), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bè sáo Recorder tấu giai điệu trong vắt, bè kèn phím đệm hợp âm hòa quyện ấm áp.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Nhạc cụ: Hòa tấu sáo Recorder và Melodica.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ: Hòa tấu sáo Recorder và Melodica\" thuộc \"Chủ đề 3: Nhớ ơn thầy cô\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắng nghe bạn cùng tấu để chỉnh tốc độ và âm lượng ăn khớp.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Nhớ ơn thầy cô",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thực hành đọc nhạc có dấu nhắc lại và khung thay đổi 1, 2.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đọc nhạc: Bài đọc nhạc số 3.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" thuộc \"Chủ đề 3: Nhớ ơn thầy cô\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Biểu diễn đoạn nhạc lặp lại chuẩn xác theo quy ước bản nhạc.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Non sông tươi đẹp",
+            "title": "Bài 10: Hát \"Những bông hoa những bài ca\" (Hoàng Long)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 10: Hát \"Những bông hoa những bài ca\" (Hoàng Long)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Dâng tặng thầy cô ngàn hoa tươi thắm kính mừng ngày Nhà giáo Việt Nam 20/11.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Hát \"Những bông hoa những bài ca\" (Hoàng Long).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Hát \"Những bông hoa những bài ca\" (Hoàng Long)\" thuộc \"Chủ đề 4: Non sông tươi đẹp\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát rộn ràng, ánh mắt rạng ngời niềm biết ơn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Non sông tươi đẹp",
+            "title": "Bài 11: Âm nhạc cồng chiêng Tây Nguyên",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 11: Âm nhạc cồng chiêng Tây Nguyên), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không gian văn hóa cồng chiêng Tây Nguyên - Kiệt tác di sản truyền khẩu và phi vật thể của nhân loại.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Âm nhạc cồng chiêng Tây Nguyên.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Âm nhạc cồng chiêng Tây Nguyên\" thuộc \"Chủ đề 4: Non sông tươi đẹp\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cảm nhận âm thanh cồng chiêng hùng tráng vang vọng đại ngàn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Non sông tươi đẹp",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu mang âm hưởng núi rừng Tây Nguyên với nhịp điệu dứt khoát.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Đọc nhạc: Bài đọc nhạc số 4.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" thuộc \"Chủ đề 4: Non sông tươi đẹp\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ đệm phách mô phỏng tiếng cồng chiêng rền vang.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Chào năm mới",
+            "title": "Bài 13: Hát \"Ước mơ mùa xuân\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 13: Hát \"Ước mơ mùa xuân\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Mùa xuân đâm chồi nảy lộc mang niềm tin, ước mơ tươi sáng đến với mọi nhà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Hát \"Ước mơ mùa xuân\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Hát \"Ước mơ mùa xuân\"\" thuộc \"Chủ đề 5: Chào năm mới\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát bay bổng, tràn đầy sắc xuân tươi vui.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Chào năm mới",
+            "title": "Bài 14: Lí thuyết: Dấu chấm dôi và nốt đen chấm dôi",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 14: Lí thuyết: Dấu chấm dôi và nốt đen chấm dôi), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Dấu chấm dôi làm tăng thêm nửa giá trị trường độ; nốt đen chấm dôi có giá trị bằng 1,5 phách.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Lí thuyết: Dấu chấm dôi và nốt đen chấm dôi.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Lí thuyết: Dấu chấm dôi và nốt đen chấm dôi\" thuộc \"Chủ đề 5: Chào năm mới\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Gõ phách nốt đen chấm dôi liền kề nốt móc đơn đúng nhịp.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Chào năm mới",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc bài đọc nhạc có tiết tấu chấm dôi nhuần nhuyễn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Đọc nhạc: Bài đọc nhạc số 5.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" thuộc \"Chủ đề 5: Chào năm mới\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ nhịp đều đặn không bị trễ phách.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Khát vọng tuổi thơ",
+            "title": "Bài 16: Hát \"Em vẫn đi học\" (Nhạc sĩ Phổ Đức Phương)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 16: Hát \"Em vẫn đi học\" (Nhạc sĩ Phổ Đức Phương)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Dù trời mưa gió bão bùng hay đường xa gập ghềnh, các bạn nhỏ vùng cao vẫn chăm chỉ tới trường tìm con chữ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Hát \"Em vẫn đi học\" (Nhạc sĩ Phổ Đức Phương).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Hát \"Em vẫn đi học\" (Nhạc sĩ Phổ Đức Phương)\" thuộc \"Chủ đề 6: Khát vọng tuổi thơ\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát với tình cảm mộc mạc, xúc động và giàu nghị lực vượt khó.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Khát vọng tuổi thơ",
+            "title": "Bài 17: Thường thức: Nhạc sĩ Hoàng Vân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 17: Thường thức: Nhạc sĩ Hoàng Vân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tác giả của những ca khúc thiếu nhi kinh điển: 'Em yêu trường em', 'Con chim vành khuyên'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 17: Thường thức: Nhạc sĩ Hoàng Vân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức: Nhạc sĩ Hoàng Vân\" thuộc \"Chủ đề 6: Khát vọng tuổi thơ\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tìm hiểu phong cách sáng tác giàu hình tượng thiếu nhi của Hoàng Vân.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Khát vọng tuổi thơ",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc giọng La thứ hòa âm có nốt Son thăng (#) nâng cao nửa cung.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 18: Đọc nhạc: Bài đọc nhạc số 6.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" thuộc \"Chủ đề 6: Khát vọng tuổi thơ\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát chuẩn xác cao độ nốt Son thăng hướng về nốt La.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Đất nước ngàn hoa",
+            "title": "Bài 19: Hát \"Màu cờ tôi yêu\" (Phạm Tuyên)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 19: Hát \"Màu cờ tôi yêu\" (Phạm Tuyên)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Màu cờ đỏ thắm sao vàng thiêng liêng nhắc nhở lòng tự hào dân tộc và tình yêu Tổ quốc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 19: Hát \"Màu cờ tôi yêu\" (Phạm Tuyên).",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Hát \"Màu cờ tôi yêu\" (Phạm Tuyên)\" thuộc \"Chủ đề 7: Đất nước ngàn hoa\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát trang nghiêm, hùng tráng và đầy xúc cảm tự hào.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Đất nước ngàn hoa",
+            "title": "Bài 20: Nhạc cụ: Kĩ thuật chạy ngón gam Đô trưởng trên Melodica",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 20: Nhạc cụ: Kĩ thuật chạy ngón gam Đô trưởng trên Melodica), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ thuật lòn ngón cái dưới ngón trỏ để chạy ngón 8 bậc âm từ Đô lên Đố mượt mà.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 20: Nhạc cụ: Kĩ thuật chạy ngón gam Đô trưởng trên Melodica.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Nhạc cụ: Kĩ thuật chạy ngón gam Đô trưởng trên Melodica\" thuộc \"Chủ đề 7: Đất nước ngàn hoa\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hành chạy ngón liền tiếng (legato) đều tay.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Đất nước ngàn hoa",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu hành khúc hào hùng ở giọng Đô trưởng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 21: Đọc nhạc: Bài đọc nhạc số 7.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" thuộc \"Chủ đề 7: Đất nước ngàn hoa\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Đánh nhịp 2/4 dứt khoát, oai phong.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Tạm biệt mái trường tiểu học",
+            "title": "Bài 22: Hát \"Mùa hoa phượng nở nhớ trường xưa\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 22: Hát \"Mùa hoa phượng nở nhớ trường xưa\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giờ phút chia tay 5 năm tiểu học yêu dấu, lưu luyến thầy cô, bạn bè trước khi lên cấp hai THCS.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 22: Hát \"Mùa hoa phượng nở nhớ trường xưa\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Hát \"Mùa hoa phượng nở nhớ trường xưa\"\" thuộc \"Chủ đề 8: Tạm biệt mái trường tiểu học\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hát nghẹn ngào xúc động, đong đầy kỉ niệm đẹp tuổi thơ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Tạm biệt mái trường tiểu học",
+            "title": "Bài 23: Biểu diễn tổng kết cuối cấp tiểu học",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 23: Biểu diễn tổng kết cuối cấp tiểu học), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chương trình văn nghệ tri ân cha mẹ và thầy cô giáo trong lễ bế giảng ra trường.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 23: Biểu diễn tổng kết cuối cấp tiểu học.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Biểu diễn tổng kết cuối cấp tiểu học\" thuộc \"Chủ đề 8: Tạm biệt mái trường tiểu học\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự tin thể hiện tài năng nghệ thuật và tinh thần tập thể đoàn kết.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Tạm biệt mái trường tiểu học",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 5 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc bài đọc nhạc tổng kết toàn bộ chương trình Âm nhạc Tiểu học (Lớp 1 - Lớp 5).",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 24: Đọc nhạc: Bài đọc nhạc số 8.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" thuộc \"Chủ đề 8: Tạm biệt mái trường tiểu học\" (Âm nhạc 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Khẳng định nền tảng cảm thụ âm nhạc vững chắc sẵn sàng lên THCS.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mi-thuat-5",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Hòa sắc mĩ thuật",
+            "title": "Bài 1: Sự tương phản nóng - lạnh của màu sắc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 1: Sự tương phản nóng - lạnh của màu sắc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Màu nóng (đỏ, cam, vàng) tạo cảm giác ấm áp, gần gũi; Màu lạnh (lam, chàm, tím) tạo cảm giác mát mẻ, xa xôi.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Sự tương phản nóng - lạnh của màu sắc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Sự tương phản nóng - lạnh của màu sắc\" thuộc \"Chủ đề 1: Hòa sắc mĩ thuật\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phối hợp hai mảng màu nóng và lạnh đối lập để tạo điểm nhấn nổi bật trong tác phẩm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Hòa sắc mĩ thuật",
+            "title": "Bài 2: Tranh phong cảnh hoàng hôn trên biển",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 2: Tranh phong cảnh hoàng hôn trên biển), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Mặt trời đỏ ối lặn dần phía chân trời, ánh hoàng hôn vàng cam nhuộm đỏ mặt nước biếc.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tranh phong cảnh hoàng hôn trên biển.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tranh phong cảnh hoàng hôn trên biển\" thuộc \"Chủ đề 1: Hòa sắc mĩ thuật\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ vệt nắng lấp loáng trên mặt sóng biển bằng màu cam rực rỡ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Khắc họa cuộc sống",
+            "title": "Bài 3: Kí họa dáng người lao động trên đồng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 3: Kí họa dáng người lao động trên đồng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Dáng người nông dân lom khom cấy lúa, bác thợ xây thoăn thoắt gõ bay đậm chất lao động hăng say.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Kí họa dáng người lao động trên đồng.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Kí họa dáng người lao động trên đồng\" thuộc \"Chủ đề 2: Khắc họa cuộc sống\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nắm bắt thần thái khỏe khoắn và nhịp điệu lao động qua các nét phác nhanh.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Khắc họa cuộc sống",
+            "title": "Bài 4: Tranh sinh hoạt chợ phiên vùng cao",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 4: Tranh sinh hoạt chợ phiên vùng cao), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Váy áo thổ cẩm rực rỡ sắc màu, gùi măng tươi, chõng thắng cố bốc khói nghi ngút giữa núi rừng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Tranh sinh hoạt chợ phiên vùng cao.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Tranh sinh hoạt chợ phiên vùng cao\" thuộc \"Chủ đề 2: Khắc họa cuộc sống\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Sắp xếp bố cục đông đúc náo nhiệt của buổi chợ phiên biên cương.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Nghệ thuật truyền thống",
+            "title": "Bài 5: Điêu khắc gỗ đình làng dân gian",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 5: Điêu khắc gỗ đình làng dân gian), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nét chạm đục mộc mạc, hóm hỉnh miêu tả cảnh đánh cờ, chọi gà, uống rượu của người nông dân thế kỉ XVII.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Điêu khắc gỗ đình làng dân gian.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Điêu khắc gỗ đình làng dân gian\" thuộc \"Chủ đề 3: Nghệ thuật truyền thống\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cảm thụ vẻ đẹp bình dị, tự do, phóng khoáng của mĩ thuật dân gian.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Nghệ thuật truyền thống",
+            "title": "Bài 6: Tranh dân gian Đông Hồ và Hàng Trống",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 6: Tranh dân gian Đông Hồ và Hàng Trống), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giấy điệp óng ánh, màu son, màu than lá tre của Đông Hồ; nét vẽ thanh mảnh, vờn màu tinh tế của Hàng Trống.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Tranh dân gian Đông Hồ và Hàng Trống.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Tranh dân gian Đông Hồ và Hàng Trống\" thuộc \"Chủ đề 3: Nghệ thuật truyền thống\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Mô phỏng lại bức tranh 'Đám cưới chuột' hoặc 'Lợn đàn' Đông Hồ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Thiết kế đồ họa",
+            "title": "Bài 7: Thiết kế logo và biểu trưng trường học",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 7: Thiết kế logo và biểu trưng trường học), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Biểu tượng cô đọng (ngọn đuốc, trang sách, búp măng non), màu sắc tối giản dễ nhớ, dễ nhận biết.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Thiết kế logo và biểu trưng trường học.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Thiết kế logo và biểu trưng trường học\" thuộc \"Chủ đề 4: Thiết kế đồ họa\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thiết kế logo trường tiểu học trong khung hình tròn trang nghiêm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Thiết kế đồ họa",
+            "title": "Bài 8: Thiết kế bìa sách danh nhân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 8: Thiết kế bìa sách danh nhân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tên sách in hoa rõ ràng, chân dung danh nhân lịch sử (Bác Hồ, Đại tướng Võ Nguyên Giáp) trang trọng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Thiết kế bìa sách danh nhân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Thiết kế bìa sách danh nhân\" thuộc \"Chủ đề 4: Thiết kế đồ họa\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bố cục chữ và hình minh họa hài hòa, mạch lạc.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Không gian nội thất",
+            "title": "Bài 9: Góc học tập ngăn nắp khoa học",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 9: Góc học tập ngăn nắp khoa học), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bàn học kê gần cửa sổ lấy ánh sáng tự nhiên, giá sách xếp theo môn học và đèn bàn bảo vệ mắt.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Góc học tập ngăn nắp khoa học.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Góc học tập ngăn nắp khoa học\" thuộc \"Chủ đề 5: Không gian nội thất\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ góc học tập gọn gàng, tạo cảm hứng học tập mỗi ngày.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Không gian nội thất",
+            "title": "Bài 10: Mô hình phòng ngủ mơ ước từ bìa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 10: Mô hình phòng ngủ mơ ước từ bìa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giường ngủ thông minh, tủ quần áo mini và bàn học thu nhỏ bằng bìa carton cứng cáp.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Mô hình phòng ngủ mơ ước từ bìa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Mô hình phòng ngủ mơ ước từ bìa\" thuộc \"Chủ đề 5: Không gian nội thất\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cắt ghép các khối hộp mini dựng mô hình phòng ở 3D sinh động.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Văn hóa thế giới",
+            "title": "Bài 11: Nghệ thuật kiến trúc đền Parthenon Hy Lạp",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 11: Nghệ thuật kiến trúc đền Parthenon Hy Lạp), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hàng cột cẩm thạch trắng Doric uy nghi, mái tam giác cân đối chuẩn mực tỉ lệ vàng cổ điển.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Nghệ thuật kiến trúc đền Parthenon Hy Lạp.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Nghệ thuật kiến trúc đền Parthenon Hy Lạp\" thuộc \"Chủ đề 6: Văn hóa thế giới\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ phối cảnh ngôi đền cổ Hy Lạp sừng sững trên đỉnh đồi Acropolis.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Văn hóa thế giới",
+            "title": "Bài 12: Tượng Vệ Nữ thành Milo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 12: Tượng Vệ Nữ thành Milo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kiệt tác điêu khắc Hy Lạp cổ đại ca ngợi vẻ đẹp hoàn mỹ, thanh cao của cơ thể con người.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Tượng Vệ Nữ thành Milo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Tượng Vệ Nữ thành Milo\" thuộc \"Chủ đề 6: Văn hóa thế giới\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nghiên cứu tỉ lệ cân đối mực thước của pho tượng cẩm thạch huyền thoại.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Nghệ thuật chữ",
+            "title": "Bài 13: Kiểu chữ trang trí bích báo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 13: Kiểu chữ trang trí bích báo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các kiểu chữ nghệ thuật 3D, chữ hoa cách điệu hoa lá trang trí tiêu đề tờ báo tường 20/11.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Kiểu chữ trang trí bích báo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Kiểu chữ trang trí bích báo\" thuộc \"Chủ đề 7: Nghệ thuật chữ\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tạo kiểu chữ đầu đề 'Tri Ân' hoặc 'Nhớ Ơn Thầy Cô' thật ấn tượng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Nghệ thuật chữ",
+            "title": "Bài 14: Poster tuyên truyền An toàn giao thông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 14: Poster tuyên truyền An toàn giao thông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình ảnh đội mũ bảo hiểm khi ngồi trên xe mô tô, chấp hành tín hiệu đèn giao thông đường bộ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Poster tuyên truyền An toàn giao thông.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Poster tuyên truyền An toàn giao thông\" thuộc \"Chủ đề 7: Nghệ thuật chữ\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Sắp xếp chữ khẩu hiệu ngắn gọn, dễ đọc ngay từ khoảng cách xa.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Triển lãm và chia tay mái trường",
+            "title": "Bài 15: Tranh kỉ niệm năm năm tiểu học",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 15: Tranh kỉ niệm năm năm tiểu học), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Những kỉ niệm gắn bó sâu sắc: lễ khai giảng đầu tiên, buổi cắm trại dã ngoại và người thầy dìu dắt.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Tranh kỉ niệm năm năm tiểu học.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Tranh kỉ niệm năm năm tiểu học\" thuộc \"Chủ đề 8: Triển lãm và chia tay mái trường\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Vẽ bức tranh giàu cảm xúc tri ân mái trường tiểu học thân thương.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Triển lãm và chia tay mái trường",
+            "title": "Bài 16: Trưng bày và thuyết trình tác phẩm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 5 (Bài 16: Trưng bày và thuyết trình tác phẩm), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố trí không gian phòng tranh học sinh, gắn thẻ chú thích tên tác giả và tự tin thuyết trình ý tưởng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Trưng bày và thuyết trình tác phẩm.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Trưng bày và thuyết trình tác phẩm\" thuộc \"Chủ đề 8: Triển lãm và chia tay mái trường\" (Mĩ thuật 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lắng nghe và chia sẻ cảm nghĩ nghệ thuật cùng bạn bè, thầy cô.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hdtn-5",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 1: Làm quen với trường lớp và bạn bè mới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 1: Làm quen với trường lớp và bạn bè mới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự tin giới thiệu bản thân, làm quen với thầy cô, các bạn và nội quy lớp học.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Làm quen với trường lớp và bạn bè mới.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Làm quen với trường lớp và bạn bè mới\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chủ động mỉm cười chào hỏi và bắt tay bạn mới trong giờ giải lao.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 2: Xây dựng nền nếp học tập và sinh hoạt",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 2: Xây dựng nền nếp học tập và sinh hoạt), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chuẩn bị đồ dùng sách vở chu đáo trước khi đến lớp, đi học đúng giờ và giữ trật tự.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Xây dựng nền nếp học tập và sinh hoạt.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Xây dựng nền nếp học tập và sinh hoạt\" thuộc \"Chủ đề 1: Chào năm học mới\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập thời gian biểu học tập và sinh hoạt khoa học mỗi ngày.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Rửa tay bằng xà phòng đúng quy trình 6 bước, đánh răng ngày 2 lần và tắm gội sạch sẽ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Giữ gìn vệ sinh cá nhân sạch sẽ\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác vệ sinh thân thể phòng chống dịch bệnh hiệu quả.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Em tự chăm sóc bản thân",
+            "title": "Bài 4: Tự phục vụ trong ăn uống và mặc trang phục",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 4: Tự phục vụ trong ăn uống và mặc trang phục), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự gấp quần áo gọn gàng, tự xúc ăn hết suất cơm và không kén chọn thức ăn.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Tự phục vụ trong ăn uống và mặc trang phục.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Tự phục vụ trong ăn uống và mặc trang phục\" thuộc \"Chủ đề 2: Em tự chăm sóc bản thân\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tự giác dọn bát đĩa sau khi ăn xong bữa cơm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 5: Kính trọng thầy cô giáo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 5: Kính trọng thầy cô giáo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khoanh tay lễ phép chào thầy cô, chú ý nghe giảng và vâng lời thầy cô chỉ dạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Kính trọng thầy cô giáo.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Kính trọng thầy cô giáo\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Viết thiệp hoặc làm hoa giấy bày tỏ lòng biết ơn thầy cô giáo.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Thầy cô và bạn bè",
+            "title": "Bài 6: Xây dựng tình bạn thân ái, đoàn kết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 6: Xây dựng tình bạn thân ái, đoàn kết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Biết chia sẻ đồ dùng học tập, giúp đỡ bạn gặp khó khăn và không trêu chọc bạn bè.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Xây dựng tình bạn thân ái, đoàn kết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Xây dựng tình bạn thân ái, đoàn kết\" thuộc \"Chủ đề 3: Thầy cô và bạn bè\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng chơi các trò chơi dân gian đoàn kết với bạn trong giờ ra chơi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 7: Yêu thương và chia sẻ công việc nhà",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 7: Yêu thương và chia sẻ công việc nhà), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Giúp cha mẹ quét nhà, nhặt rau, cất đồ chơi gọn gàng sau khi chơi xong.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Yêu thương và chia sẻ công việc nhà.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Yêu thương và chia sẻ công việc nhà\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Làm việc nhà vừa sức để thể hiện sự quan tâm tới cha mẹ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Gia đình ấm áp",
+            "title": "Bài 8: Lễ phép với ông bà, cha mẹ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 8: Lễ phép với ông bà, cha mẹ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đi thưa về gửi, chào hỏi người lớn tuổi bằng cả hai tay và dạ thưa lễ phép.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Lễ phép với ông bà, cha mẹ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Lễ phép với ông bà, cha mẹ\" thuộc \"Chủ đề 4: Gia đình ấm áp\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Quan tâm hỏi han sức khỏe ông bà khi thời tiết thay đổi.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 9: Phong tục đón Tết cổ truyền quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 9: Phong tục đón Tết cổ truyền quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gói bánh chưng xanh, bày mâm ngũ quả, dọn dẹp nhà cửa đón Tết sum vầy ấm cúng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Phong tục đón Tết cổ truyền quê hương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Phong tục đón Tết cổ truyền quê hương\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cùng gia đình trang trí cành đào, cây mai đón chào năm mới.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Chào đón Tết và mùa xuân",
+            "title": "Bài 10: Ứng xử văn minh khi đi chúc Tết",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 10: Ứng xử văn minh khi đi chúc Tết), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nói lời chúc Tết may mắn đến người thân, nhận lì xì bằng hai tay và cảm ơn chân thành.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Ứng xử văn minh khi đi chúc Tết.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Ứng xử văn minh khi đi chúc Tết\" thuộc \"Chủ đề 5: Chào đón Tết và mùa xuân\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Không mở phong bao lì xì trước mặt người tặng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 11: Cảnh đẹp và di tích lịch sử địa phương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 11: Cảnh đẹp và di tích lịch sử địa phương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tìm hiểu các danh lam thắng cảnh, di tích lịch sử và nghề truyền thống quê hương mình.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Cảnh đẹp và di tích lịch sử địa phương.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Cảnh đẹp và di tích lịch sử địa phương\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Có ý thức tự hào và giới thiệu vẻ đẹp quê hương với bạn bè.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Quê hương em",
+            "title": "Bài 12: Giữ gìn an toàn giao thông đường bộ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 12: Giữ gìn an toàn giao thông đường bộ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đội mũ bảo hiểm khi ngồi sau xe máy, đi bộ trên vỉa hè và sang đường đúng vạch kẻ.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Giữ gìn an toàn giao thông đường bộ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Giữ gìn an toàn giao thông đường bộ\" thuộc \"Chủ đề 6: Quê hương em\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhắc nhở người thân tuân thủ đúng đèn tín hiệu giao thông.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 13: Phân loại rác thải tại nguồn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 13: Phân loại rác thải tại nguồn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân biệt rác hữu cơ (thức ăn thừa), rác vô cơ tái chế (chai nhựa, giấy) và rác nguy hại.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Phân loại rác thải tại nguồn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Phân loại rác thải tại nguồn\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bỏ rác đúng thùng quy định tại trường học và khu dân cư.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Em bảo vệ môi trường",
+            "title": "Bài 14: Chăm sóc cây xanh vườn trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 14: Chăm sóc cây xanh vườn trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tưới nước cho cây hoa, nhổ cỏ dại và không bẻ cành bứt lá cây trong vườn trường.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Chăm sóc cây xanh vườn trường.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Chăm sóc cây xanh vườn trường\" thuộc \"Chủ đề 7: Em bảo vệ môi trường\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tích cực tham gia phong trào 'Tết trồng cây' đời đời nhớ ơn Bác Hồ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 15: Phòng tránh tai nạn đuối nước mùa hè",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 15: Phòng tránh tai nạn đuối nước mùa hè), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không tự ý tắm sông, hồ, ao suối khi không có người lớn giám sát; luôn mặc áo phao.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Phòng tránh tai nạn đuối nước mùa hè.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Phòng tránh tai nạn đuối nước mùa hè\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Học bơi an toàn và biết hô hoán người lớn ứng cứu khi thấy người bị nạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "hdtn-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Khám phá mùa hè",
+            "title": "Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Hoạt động trải nghiệm Lớp 5 (Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc sách, rèn luyện thể thao, phụ giúp gia đình và tham gia sinh hoạt hè tại khu phố.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kế hoạch kì nghỉ hè an toàn, bổ ích\" thuộc \"Chủ đề 8: Khám phá mùa hè\" (Hoạt động trải nghiệm 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Lập kế hoạch sinh hoạt hè khoa học, tránh xem ti vi và điện thoại quá nhiều.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gdtc-5",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 1: Tư thế đứng nghiêm, đứng nghỉ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 1: Tư thế đứng nghiêm, đứng nghỉ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đứng nghiêm: hai gót chân sát nhau tạo chữ V, mắt nhìn thẳng, ngực nở; Đứng nghỉ: chùng một chân thả lỏng.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 1: Tư thế đứng nghiêm, đứng nghỉ.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Tư thế đứng nghiêm, đứng nghỉ\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện dứt khoát khẩu lệnh 'Nghiêm!', 'Nghỉ!' theo hiệu lệnh giáo viên.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 2: Tập hợp hàng dọc và dóng hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 2: Tập hợp hàng dọc và dóng hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Người đứng đầu hàng giơ tay phải lên cao, các bạn phía sau dóng hàng thẳng cách nhau một cánh tay.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 2: Tập hợp hàng dọc và dóng hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Tập hợp hàng dọc và dóng hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tập hợp nhanh chóng, trật tự không xô đẩy bạn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Điểm số hàng dọc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 3: Điểm số hàng dọc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quay mặt sang trái ra sau hô to số của mình rồi quay mặt về tư thế đứng nghiêm; bạn cuối hàng hô 'Hết!'.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 3: Điểm số hàng dọc.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Điểm số hàng dọc\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hô to dõng dạc, rõ ràng số thứ tự của mình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b4",
+            "number": 4,
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 4: Động tác quay phải, quay trái",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 4: Động tác quay phải, quay trái), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Lấy gót chân làm trụ kết hợp mũi bàn chân kia để quay 90 độ sang hướng khẩu lệnh.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 4: Động tác quay phải, quay trái.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Động tác quay phải, quay trái\" thuộc \"Chủ đề 1: Đội hình đội ngũ\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng cơ thể khi xoay chuyển hướng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 5: Động tác vươn thở và động tác tay",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 5: Động tác vươn thở và động tác tay), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vươn thở: hai tay giơ cao hình chữ V hít sâu bằng mũi, hạ tay thở ra bằng miệng; Động tác tay: vỗ tay trước ngực.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 5: Động tác vươn thở và động tác tay.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Động tác vươn thở và động tác tay\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Hít thở sâu lồng ngực đón không khí trong lành buổi sớm.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 6: Động tác chân và động tác lườn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 6: Động tác chân và động tác lườn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Động tác chân: kiễng gót hai tay chống hông rồi khuỵu gối; Động tác lườn: nghiêng người sang phải, trái.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 6: Động tác chân và động tác lườn.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Động tác chân và động tác lườn\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Căng dãn nhóm cơ sườn và giữ thẳng lưng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b7",
+            "number": 7,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 7: Động tác bụng và động tác toàn thân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 7: Động tác bụng và động tác toàn thân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Gập bụng hai tay chạm mũi chân, phối hợp nhịp nhàng các khớp hông và cột sống.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 7: Động tác bụng và động tác toàn thân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Động tác bụng và động tác toàn thân\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Cúi sâu nhưng giữ chân thẳng không khuỵu gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b8",
+            "number": 8,
+            "chapter": "Chủ đề 2: Bài thể dục phát triển chung",
+            "title": "Bài 8: Động tác nhảy và động tác điều hòa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 8: Động tác nhảy và động tác điều hòa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bật nhảy hai chân sang ngang vỗ tay trên đầu; Điều hòa: thả lỏng tay chân hít thở êm dịu.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 8: Động tác nhảy và động tác điều hòa.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Động tác nhảy và động tác điều hòa\" thuộc \"Chủ đề 2: Bài thể dục phát triển chung\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Thực hiện bài tập thể dục buổi sáng liên hoàn 8 động tác đều đặn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đặt bàn chân thẳng theo đường vạch, lưng thẳng, mắt nhìn về phía trước cách 2 - 3 mét.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đi theo vạch kẻ thẳng hai tay chống hông\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Giữ thăng bằng tốt không bước chệch ra ngoài vạch kẻ.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b10",
+            "number": 10,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 10: Đi kiễng gót hai tay dang ngang",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 10: Đi kiễng gót hai tay dang ngang), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nâng cao gót chân, đi bằng nửa trước bàn chân, hai tay dang ngang giữ thăng bằng thân người.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 10: Đi kiễng gót hai tay dang ngang.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Đi kiễng gót hai tay dang ngang\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Rèn luyện sức mạnh cổ chân và sự dẻo dai.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b11",
+            "number": 11,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 11: Động tác chạy cự li ngắn 20m - 30m",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 11: Động tác chạy cự li ngắn 20m - 30m), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đạp sau mạnh mẽ, đánh tay so le nhịp nhàng với bước chân, thở đều khi chạy.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 11: Động tác chạy cự li ngắn 20m - 30m.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Động tác chạy cự li ngắn 20m - 30m\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Chạy hết tốc lực về đích an toàn, không dừng đột ngột.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b12",
+            "number": 12,
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "title": "Bài 12: Bật nhảy về phía trước bằng hai chân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 12: Bật nhảy về phía trước bằng hai chân), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khuỵu gối lấy đà, vung tay ra sau rồi bật mạnh hai chân ra trước, tiếp đất bằng nửa trước bàn chân chùng gối.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 12: Bật nhảy về phía trước bằng hai chân.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Bật nhảy về phía trước bằng hai chân\" thuộc \"Chủ đề 3: Tư thế và kĩ năng vận động cơ bản\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Tiếp đất êm ái giảm chấn động cho khớp gối.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b13",
+            "number": 13,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 13: Trò chơi \"Mèo đuổi chuột\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 13: Trò chơi \"Mèo đuổi chuột\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các bạn nắm tay thành vòng tròn làm hang rào nâng lên hạ xuống, bạn làm Chuột chạy và bạn làm Mèo đuổi bắt.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 13: Trò chơi \"Mèo đuổi chuột\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Trò chơi \"Mèo đuổi chuột\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Nhanh nhẹn, khéo léo luồn lách qua các khe hở vòng tròn.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b14",
+            "number": 14,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 14: Trò chơi \"Cướp cờ\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 14: Trò chơi \"Cướp cờ\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai đội đứng đối diện theo số thứ tự, khi trọng tài gọi số nào thì bạn số đó nhanh chóng chạy lên giật cờ về vạch.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 14: Trò chơi \"Cướp cờ\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Trò chơi \"Cướp cờ\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Phản xạ nhanh nhẹn, tinh thần đồng đội quyết thắng.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b15",
+            "number": 15,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hai chân đứng gọn trong bao bố, hai tay túm chặt miệng bao bật nhảy nhanh về đích rồi trao bao cho bạn tiếp theo.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\".",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Trò chơi \"Nhảy bao bố tiếp sức\"\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Bật nhảy kiên trì, không sợ ngã và cổ vũ bạn bè nhiệt tình.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "gdtc-b16",
+            "number": 16,
+            "chapter": "Chủ đề 4: Trò chơi vận động dân gian",
+            "title": "Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Giáo dục thể chất Lớp 5 (Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Khởi động kĩ các khớp cổ tay, cổ chân, đầu gối trước khi tập và hồi tĩnh thả lỏng sau khi vận động.",
+                "option_b": "Chỉ ghi nhớ máy móc câu chữ mà không hiểu ý nghĩa và bản chất bài học Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện.",
+                "option_c": "Không cần thực hành, bỏ qua các ví dụ và tranh minh hoạ trong sách giáo khoa.",
+                "option_d": "Nội dung bài học không có ứng dụng gì trong cuộc sống hàng ngày của học sinh.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Kĩ năng phòng tránh chấn thương khi tập luyện\" thuộc \"Chủ đề 4: Trò chơi vận động dân gian\" (Giáo dục thể chất 5), hành động đúng đắn và tích cực nhất là:",
+                "option_a": "Mang giày bata thể thao vừa chân và trang phục thể dục thoáng mát.",
+                "option_b": "Làm theo ý thích tuỳ tiện mà không tuân theo các bước quy định của thầy cô.",
+                "option_c": "Bỏ cuộc khi gặp bài tập hoặc động tác khó.",
+                "option_d": "Không phối hợp cùng các bạn trong các hoạt động nhóm tập thể.",
                 "correct": "A"
               }
             ]
