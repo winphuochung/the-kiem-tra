@@ -342,7 +342,7 @@ export function App() {
     <div className="min-h-screen" style={{ background: "var(--bg)" }}>
       <SafeAreaTopScrim backgroundColor="var(--bg)" />
       <header className="sticky top-0 z-30 pt-safe" style={{ background: "var(--navy)", boxShadow: "0 2px 14px rgba(23,28,72,.35)" }}>
-        <div className="mx-auto flex max-w-6xl items-center gap-2 px-3 py-2.5">
+        <div className="mx-auto flex max-w-[1720px] 2xl:max-w-[1900px] w-full items-center gap-2 px-3 sm:px-6 py-2.5">
           <button
             type="button"
             aria-label="Về trang chủ Thẻ Trả Lời"
@@ -382,7 +382,7 @@ export function App() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-3 pb-16">
+      <main className="mx-auto max-w-[1720px] 2xl:max-w-[1900px] w-full px-3 sm:px-6 pb-16">
         {overview.isPending ? (
           <p className="py-16 text-center text-sm" style={{ color: "var(--dim)" }}>Đang tải dữ liệu…</p>
         ) : overview.error ? (
@@ -1243,6 +1243,21 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
   const [phoneCount, setPhoneCount] = useState<number>(0);
   const [copied, setCopied] = useState(false);
   const [recentScan, setRecentScan] = useState<RemoteScanNotification | null>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  useEffect(() => {
+    const handler = () => setIsFullscreen(!!document.fullscreenElement);
+    document.addEventListener("fullscreenchange", handler);
+    return () => document.removeEventListener("fullscreenchange", handler);
+  }, []);
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(() => {});
+    } else {
+      document.exitFullscreen().catch(() => {});
+    }
+  };
 
   const questions = data?.questions ?? [];
   const students = data?.students ?? [];
@@ -1263,7 +1278,7 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
 
   const prevResponsesCountRef = useRef<number>(0);
 
-  // Tự động kích hoạt banner thông báo khi có phản hồi mới từ DB (đồng bộ kể cả qua mạng API)
+  // Tự động kích hoạt banner thông báo khi có phản hồi mới từ DB
   useEffect(() => {
     const resps = data?.responses ?? [];
     if (resps.length > prevResponsesCountRef.current && currentQ) {
@@ -1309,79 +1324,107 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
   const clampedIdxRef = useRef(clampedIdx);
   clampedIdxRef.current = clampedIdx;
 
-  // Khởi tạo phòng ghép nối khi mở modal
+  // Khởi tạo phòng ghép nối PeerJS chạy SUỐT TOÀN BỘ BUỔI HỌC (Không bao giờ bị ngắt khi đóng modal)
   useEffect(() => {
     let active = true;
-    if (showPairModal && !hostConn) {
-      createHostSession(
-        sessionId,
-        async (msg, conn) => {
-          if (!active) return;
-          if (msg.type === "SUBMIT_ANSWER") {
-            await api.recordResponses({
-              session_id: sessionId,
-              question_id: msg.question_id,
-              source: "scan",
-              answers: [{ student_id: msg.student_id, answer: msg.answer }],
-            });
-            queryClient.invalidateQueries({ queryKey: ["session", sessionId] });
+    let currentConnInstance: HostConnection | null = null;
 
-            const student = students.find((s) => s.id === msg.student_id);
-            const targetQ = questions.find((item) => item.id === msg.question_id) || currentQ;
-            const isCorrect = targetQ ? msg.answer === targetQ.correct : false;
+    createHostSession(
+      sessionId,
+      async (msg, conn) => {
+        if (!active) return;
+        if (msg.type === "SUBMIT_ANSWER") {
+          // 1. CẬP NHẬT TỨC THÌ VÀO REACT QUERY CACHE TRÊN MÁY TÍNH (0ms, hiển thị ngay lập tức)
+          queryClient.setQueryData(["session", sessionId], (old: any) => {
+            if (!old) return old;
+            const responses = [...(old.responses || [])];
+            const existingIdx = responses.findIndex(
+              (r: any) => r.question_id === msg.question_id && r.student_id === msg.student_id
+            );
+            if (existingIdx >= 0) {
+              responses[existingIdx] = {
+                ...responses[existingIdx],
+                answer: msg.answer,
+                source: "scan",
+              };
+            } else {
+              responses.push({
+                question_id: msg.question_id,
+                student_id: msg.student_id,
+                answer: msg.answer,
+                source: "scan",
+              });
+            }
+            return { ...old, responses };
+          });
 
-            setRecentScan({
-              studentName: student?.name || `Học sinh #${msg.student_id}`,
-              studentStt: student?.stt || msg.student_id,
-              answer: msg.answer,
-              isCorrect,
-              timestamp: Date.now(),
-            });
-          } else if (msg.type === "GOTO_QUESTION") {
-            goto(msg.index);
-          } else if (msg.type === "PING") {
-            if (dataRef.current) {
-              try {
-                conn.send({
-                  type: "INIT_STATE",
-                  session: dataRef.current.session,
-                  questions: dataRef.current.questions,
-                  students: dataRef.current.students,
-                  currentIndex: clampedIdxRef.current,
-                  responses: dataRef.current.responses,
-                });
-              } catch (e) {
-                console.error("Lỗi gửi INIT_STATE:", e);
-              }
+          // 2. Ghi song song vào Backend / LocalStorage
+          api.recordResponses({
+            session_id: sessionId,
+            question_id: msg.question_id,
+            source: "scan",
+            answers: [{ student_id: msg.student_id, answer: msg.answer }],
+          }).catch(console.error);
+
+          const student = students.find((s) => s.id === msg.student_id);
+          const targetQ = questions.find((item) => item.id === msg.question_id) || currentQ;
+          const isCorrect = targetQ ? msg.answer === targetQ.correct : false;
+
+          setRecentScan({
+            studentName: student?.name || `Học sinh #${msg.student_id}`,
+            studentStt: student?.stt || msg.student_id,
+            answer: msg.answer,
+            isCorrect,
+            timestamp: Date.now(),
+          });
+        } else if (msg.type === "GOTO_QUESTION") {
+          goto(msg.index);
+        } else if (msg.type === "PING") {
+          if (dataRef.current) {
+            try {
+              conn.send({
+                type: "INIT_STATE",
+                session: dataRef.current.session,
+                questions: dataRef.current.questions,
+                students: dataRef.current.students,
+                currentIndex: clampedIdxRef.current,
+                responses: dataRef.current.responses,
+              });
+            } catch (e) {
+              console.error("Lỗi gửi INIT_STATE:", e);
             }
           }
-        },
-        (_status, count) => {
-          if (active) setPhoneCount(count);
         }
-      ).then((conn) => {
-        if (active) {
-          setHostConn(conn);
-          if (dataRef.current) {
-            conn.broadcast({
-              type: "INIT_STATE",
-              session: dataRef.current.session,
-              questions: dataRef.current.questions,
-              students: dataRef.current.students,
-              currentIndex: clampedIdxRef.current,
-              responses: dataRef.current.responses,
-            });
-          }
+      },
+      (_status, count) => {
+        if (active) setPhoneCount(count);
+      }
+    ).then((conn) => {
+      if (active) {
+        currentConnInstance = conn;
+        setHostConn(conn);
+        if (dataRef.current) {
+          conn.broadcast({
+            type: "INIT_STATE",
+            session: dataRef.current.session,
+            questions: dataRef.current.questions,
+            students: dataRef.current.students,
+            currentIndex: clampedIdxRef.current,
+            responses: dataRef.current.responses,
+          });
         }
-      }).catch((e) => {
-        console.error("Lỗi tạo phòng ghép nối:", e);
-      });
-    }
+      } else {
+        conn.close();
+      }
+    }).catch((e) => {
+      console.error("Lỗi tạo phòng ghép nối:", e);
+    });
 
     return () => {
       active = false;
+      currentConnInstance?.close();
     };
-  }, [showPairModal, sessionId]);
+  }, [sessionId]);
 
   // Đồng bộ trạng thái mới sang điện thoại khi câu hỏi hoặc đáp án thay đổi
   useEffect(() => {
@@ -1422,6 +1465,16 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
           <p className="text-xs" style={{ color: "var(--dim)" }}>Lớp {sess.class_name} · {questions.length} câu · {students.length} học sinh · {sess.status === "finished" ? "Đã kết thúc" : "Đang mở"}</p>
         </div>
         <span className="ml-auto flex items-center gap-2">
+          <button
+            type="button"
+            onClick={toggleFullscreen}
+            className="rounded-full px-3 py-2 text-xs font-black shadow-sm transition active:scale-95 flex items-center gap-1.5 bg-white border border-slate-300 text-slate-800 hover:bg-slate-50"
+            style={{ minHeight: 40 }}
+            title="Bật/Tắt chế độ toàn màn hình trình chiếu"
+          >
+            <span className="text-sm">{isFullscreen ? "🗗" : "⛶"}</span>
+            <span>{isFullscreen ? "Thu nhỏ" : "Toàn màn hình"}</span>
+          </button>
           <button
             type="button"
             onClick={() => setShowPairModal(true)}

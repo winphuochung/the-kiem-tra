@@ -156,6 +156,23 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     }
   }, [camOn]);
 
+  // Âm thanh báo "Tít" khi quét được đáp án
+  const playBeep = () => {
+    try {
+      const audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(880, audioCtx.currentTime);
+      gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.08);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.08);
+    } catch (e) {}
+  };
+
   // Tự động tắt thông báo vừa quét sau 3.5 giây
   useEffect(() => {
     if (!justDetected) return;
@@ -172,17 +189,22 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
       text: `${studentName} đã chọn ${answer}`,
       isCorrect,
     });
+    playBeep();
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate([40]);
     }
 
     // 1. Gửi qua PeerJS DataChannel tới máy tính PC
-    connRef.current?.send({
-      type: "SUBMIT_ANSWER",
-      question_id: currentQ.id,
-      student_id: studentId,
-      answer,
-    });
+    try {
+      connRef.current?.send({
+        type: "SUBMIT_ANSWER",
+        question_id: currentQ.id,
+        student_id: studentId,
+        answer,
+      });
+    } catch (e) {
+      console.warn("Lỗi gửi PeerJS:", e);
+    }
 
     // 2. GỌI TRỰC TIẾP API ĐỂ LƯU VÀO DATABASE (Đồng bộ tức thì kể cả khi mạng P2P chậm)
     try {
@@ -197,7 +219,7 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     }
   };
 
-  // 5. Vòng lặp quét nhận diện MÃ QR THỰC TẾ từ camera
+  // 5. Vòng lặp quét nhận diện MÃ QR SIÊU TỐC TỪ CAMERA (60 FPS)
   useEffect(() => {
     if (!camOn || !currentQ || students.length === 0) return;
 
@@ -208,58 +230,65 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     const scan = () => {
       const video = videoRef.current;
       if (video && video.readyState === video.HAVE_ENOUGH_DATA && ctx) {
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
-        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+        const vw = video.videoWidth;
+        const vh = video.videoHeight;
+        if (vw > 0 && vh > 0) {
+          // TỐI ƯU HÓA TỐC ĐỘ: Thu nhỏ khung hình về tối đa 600px để quét tức thì chỉ 5-10ms
+          const maxDim = 600;
+          const scale = Math.min(1, maxDim / Math.max(vw, vh));
+          const sw = Math.round(vw * scale);
+          const sh = Math.round(vh * scale);
 
-        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-        const code = jsQR(imageData.data, imageData.width, imageData.height, {
-          inversionAttempts: "dontInvert",
-        });
-
-        if (code && code.data) {
-          const raw = code.data;
-          // Phân tích mã QR: Tìm số thứ tự STT
-          let foundStt: number | null = null;
-          const match1 = raw.match(/student_stt=(\d+)/i);
-          const match2 = raw.match(/STT[=:](\d+)/i);
-          const match3 = raw.match(/TTL[:=](\d+)/i);
-          if (match1) foundStt = parseInt(match1[1], 10);
-          else if (match2) foundStt = parseInt(match2[1], 10);
-          else if (match3) foundStt = parseInt(match3[1], 10);
-          else {
-            const num = parseInt(raw, 10);
-            if (!isNaN(num) && num > 0) foundStt = num;
+          if (canvas.width !== sw || canvas.height !== sh) {
+            canvas.width = sw;
+            canvas.height = sh;
           }
+          ctx.drawImage(video, 0, 0, sw, sh);
 
-          if (foundStt != null) {
-            const student = students.find((s) => s.stt === foundStt);
-            if (student && code.location) {
-              const loc = code.location;
-              // XÁC ĐỊNH ĐÁP ÁN A, B, C, D DỰA TRÊN CẠNH Ở TRÊN CÙNG CỦA MÀN HÌNH (Y NHỎ NHẤT)
-              // Cạnh A: nối topLeftCorner và topRightCorner
-              // Cạnh B: nối topRightCorner và bottomRightCorner
-              // Cạnh C: nối bottomRightCorner và bottomLeftCorner
-              // Cạnh D: nối bottomLeftCorner và topLeftCorner
-              const edgeMidpoints: { name: Answer; y: number }[] = [
-                { name: "A", y: (loc.topLeftCorner.y + loc.topRightCorner.y) / 2 },
-                { name: "B", y: (loc.topRightCorner.y + loc.bottomRightCorner.y) / 2 },
-                { name: "C", y: (loc.bottomRightCorner.y + loc.bottomLeftCorner.y) / 2 },
-                { name: "D", y: (loc.bottomLeftCorner.y + loc.topLeftCorner.y) / 2 },
-              ];
+          const imageData = ctx.getImageData(0, 0, sw, sh);
+          const code = jsQR(imageData.data, sw, sh, {
+            inversionAttempts: "dontInvert",
+          });
 
-              // Cạnh nào có tọa độ Y nhỏ nhất (gần đỉnh màn hình nhất) chính là đáp án học sinh chọn!
-              edgeMidpoints.sort((p, q) => p.y - q.y);
-              const chosenAnswer: Answer = edgeMidpoints[0]!.name;
+          if (code && code.data) {
+            const raw = code.data;
+            // Phân tích mã QR: Tìm số thứ tự STT
+            let foundStt: number | null = null;
+            const match1 = raw.match(/student_stt=(\d+)/i);
+            const match2 = raw.match(/STT[=:](\d+)/i);
+            const match3 = raw.match(/TTL[:=](\d+)/i);
+            if (match1) foundStt = parseInt(match1[1], 10);
+            else if (match2) foundStt = parseInt(match2[1], 10);
+            else if (match3) foundStt = parseInt(match3[1], 10);
+            else {
+              const num = parseInt(raw, 10);
+              if (!isNaN(num) && num > 0) foundStt = num;
+            }
 
-              // Giới hạn tần suất quét 1.5 giây mỗi em để tránh rung giật
-              const now = Date.now();
-              const lastTime = lastScanTimeRef.current.get(student.id) || 0;
-              const currentRecorded = responsesMap.get(student.id);
+            if (foundStt != null) {
+              const student = students.find((s) => s.stt === foundStt);
+              if (student && code.location) {
+                const loc = code.location;
+                // XÁC ĐỊNH ĐÁP ÁN A, B, C, D DỰA TRÊN CẠNH Ở TRÊN CÙNG CỦA MÀN HÌNH (Y NHỎ NHẤT)
+                const edgeMidpoints: { name: Answer; y: number }[] = [
+                  { name: "A", y: (loc.topLeftCorner.y + loc.topRightCorner.y) / 2 },
+                  { name: "B", y: (loc.topRightCorner.y + loc.bottomRightCorner.y) / 2 },
+                  { name: "C", y: (loc.bottomRightCorner.y + loc.bottomLeftCorner.y) / 2 },
+                  { name: "D", y: (loc.bottomLeftCorner.y + loc.topLeftCorner.y) / 2 },
+                ];
 
-              if (now - lastTime > 1500 || currentRecorded !== chosenAnswer) {
-                lastScanTimeRef.current.set(student.id, now);
-                submitAnswer(student.id, chosenAnswer, student.name);
+                edgeMidpoints.sort((p, q) => p.y - q.y);
+                const chosenAnswer: Answer = edgeMidpoints[0]!.name;
+
+                // GIẢM ĐỘ TRỄ XUỐNG 350ms ĐỂ QUÉT LƯỚT CẢ LỚP SIÊU NHANH
+                const now = Date.now();
+                const lastTime = lastScanTimeRef.current.get(student.id) || 0;
+                const currentRecorded = responsesMap.get(student.id);
+
+                if (now - lastTime > 350 || currentRecorded !== chosenAnswer) {
+                  lastScanTimeRef.current.set(student.id, now);
+                  submitAnswer(student.id, chosenAnswer, student.name);
+                }
               }
             }
           }
