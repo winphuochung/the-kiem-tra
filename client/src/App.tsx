@@ -264,37 +264,160 @@ export function AnswerCard({
     );
   }
 
-  // 2 THẺ / 1 TỜ A4: Tỉ lệ ngang 1.48
+  // 2 THẺ / 1 TỜ A4: Tỉ lệ ngang chuẩn 1.45, Mã QR bung to cực đại
   return (
     <div
-      className="relative bg-white text-black select-none"
+      className="relative bg-white text-black select-none w-full"
       style={{
-        border: "2.5px solid #111",
+        border: "3px solid #111",
         borderRadius: 8,
-        aspectRatio: "1.48",
+        aspectRatio: "1.45",
         width: "100%",
+        boxSizing: "border-box",
         overflow: "hidden",
       }}
     >
-      <span style={{ position: "absolute", top: "3%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>A</span>
-      <span style={{ position: "absolute", bottom: "2.5%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>C</span>
-      <span style={{ position: "absolute", left: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>D</span>
-      <span style={{ position: "absolute", right: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>B</span>
-      <span style={{ position: "absolute", top: "3.5%", right: "5%", fontWeight: 800, fontSize: 24, fontFamily: "Arial, sans-serif" }}>{sttLabel}</span>
-      <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <QRCodeSVG
-          value={qrValue}
-          size={205}
-          level="M"
-          marginSize={1}
-        />
+      {/* Thông tin học sinh góc trên trái */}
+      <div style={{ position: "absolute", left: "3.5%", top: "2.5%", maxWidth: "36%", zIndex: 10 }}>
+        <div style={{ fontWeight: 800, fontSize: "clamp(13px, 1.8vw, 17px)", fontFamily: "Arial, sans-serif", color: "#000", lineHeight: 1.2 }}>
+          {student.name}
+        </div>
+        <div style={{ fontSize: "clamp(10px, 1.3vw, 13px)", fontWeight: 700, color: "#444", fontFamily: "Arial, sans-serif", marginTop: 1 }}>
+          Lớp {className} · Thẻ #{student.stt}
+        </div>
       </div>
-      <div style={{ position: "absolute", left: "5%", bottom: "3.5%", fontSize: 12, lineHeight: 1.3, maxWidth: "55%" }}>
-        <div style={{ fontWeight: 700, fontFamily: "Arial, sans-serif" }}>{student.name}</div>
-        <div style={{ color: "#555", fontFamily: "Arial, sans-serif" }}>{className} · Thẻ số {student.stt}</div>
+
+      {/* Chữ A ở trên cùng */}
+      <span
+        style={{
+          position: "absolute",
+          top: "1.2%",
+          left: "50%",
+          transform: "translateX(-50%)",
+          fontWeight: 900,
+          fontSize: "clamp(30px, 4.2vw, 42px)",
+          fontFamily: "Arial, sans-serif",
+          lineHeight: 1,
+          zIndex: 10,
+        }}
+      >
+        A
+      </span>
+
+      {/* Số thứ tự STT góc trên phải */}
+      <span
+        style={{
+          position: "absolute",
+          top: "2%",
+          right: "3.5%",
+          fontWeight: 900,
+          fontSize: "clamp(26px, 3.8vw, 38px)",
+          fontFamily: "Arial, sans-serif",
+          lineHeight: 1,
+          zIndex: 10,
+        }}
+      >
+        {sttLabel}
+      </span>
+
+      {/* Chữ D bên trái */}
+      <span
+        style={{
+          position: "absolute",
+          left: "2%",
+          top: "50%",
+          transform: "translateY(-50%)",
+          fontWeight: 900,
+          fontSize: "clamp(30px, 4.2vw, 42px)",
+          fontFamily: "Arial, sans-serif",
+          lineHeight: 1,
+          zIndex: 10,
+        }}
+      >
+        D
+      </span>
+
+      {/* MÃ QR BUNG TO CỰC ĐẠI - CHIẾM GẦN NHƯ TRỌN VẸN CHIỀU CAO THẺ GIỮA A VÀ C */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "5% 0",
+        }}
+      >
+        <div
+          style={{
+            height: "100%",
+            width: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <QRCodeSVG
+            value={qrValue}
+            size={415}
+            level="M"
+            marginSize={1}
+            style={{
+              height: "min(78%, 415px)",
+              width: "auto",
+              aspectRatio: "1 / 1",
+              display: "block",
+            }}
+          />
+        </div>
       </div>
-      <div style={{ position: "absolute", right: "5%", bottom: "3.5%", textAlign: "right" }}>
-        <span style={{ color: "#888", fontSize: 10, fontFamily: "Arial, sans-serif" }}>Mã QR Chuẩn</span>
+
+      {/* Chữ B bên phải */}
+      <span
+        style={{
+          position: "absolute",
+          right: "2%",
+          top: "50%",
+          transform: "translateY(-50%)",
+          fontWeight: 900,
+          fontSize: "clamp(30px, 4.2vw, 42px)",
+          fontFamily: "Arial, sans-serif",
+          lineHeight: 1,
+          zIndex: 10,
+        }}
+      >
+        B
+      </span>
+
+      {/* Hướng dẫn góc dưới trái */}
+      <div style={{ position: "absolute", left: "3.5%", bottom: "2%", zIndex: 10 }}>
+        <span style={{ fontSize: "clamp(9px, 1.2vw, 12px)", fontWeight: 700, color: "#666", fontFamily: "Arial, sans-serif" }}>
+          Mã QR to quét nhanh
+        </span>
+      </div>
+
+      {/* Chữ C ở dưới cùng */}
+      <span
+        style={{
+          position: "absolute",
+          bottom: "1.2%",
+          left: "50%",
+          transform: "translateX(-50%)",
+          fontWeight: 900,
+          fontSize: "clamp(30px, 4.2vw, 42px)",
+          fontFamily: "Arial, sans-serif",
+          lineHeight: 1,
+          zIndex: 10,
+        }}
+      >
+        C
+      </span>
+
+      {/* Ghi chú xoay thẻ góc dưới phải */}
+      <div style={{ position: "absolute", right: "3.5%", bottom: "2%", textAlign: "right", zIndex: 10 }}>
+        <span style={{ fontSize: "clamp(9px, 1.2vw, 12px)", fontWeight: 700, color: "#666", fontFamily: "Arial, sans-serif" }}>
+          Xoay đáp án lên trên ⬆
+        </span>
       </div>
     </div>
   );

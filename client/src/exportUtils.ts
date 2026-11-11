@@ -19,22 +19,22 @@ export async function exportCardsToWord(
   const cardsPerPage = isOneCard ? 1 : 2;
 
   // Kích thước chuẩn A4 (595pt x 842pt), trừ lề 24pt trên dưới, 28pt trái phải
-  // Layout 2 thẻ/trang: Mỗi thẻ cao 336pt (~11.8cm), rộng 535pt (~18.8cm).
-  //    Mã QR to 215pt (~7.6cm) với 3 ô mắt vuông chuẩn quốc tế!
+  // Layout 2 thẻ/trang: Mỗi thẻ cao 352pt (~12.4cm), rộng 535pt (~18.8cm).
+  //    Mã QR bung to cực đại 275pt (~9.7cm, tăng gần gấp đôi) chiếm trọn chiều cao giữa A và C!
   // Layout 1 thẻ/trang: Mỗi thẻ cao 770pt (~27cm), rộng 535pt (~18.8cm).
   //    Mã QR to khổng lồ 480pt (~17cm) chiếm trọn vẹn toàn bộ tờ A4, quét xa từ cuối lớp!
-  const cardHeightPt = isOneCard ? 770 : 336;
-  const topRowHeightPt = isOneCard ? 55 : 46;
-  const midRowHeightPt = isOneCard ? 660 : 244;
-  const botRowHeightPt = isOneCard ? 55 : 46;
+  const cardHeightPt = isOneCard ? 770 : 352;
+  const topRowHeightPt = isOneCard ? 55 : 34;
+  const midRowHeightPt = isOneCard ? 660 : 284;
+  const botRowHeightPt = isOneCard ? 55 : 34;
 
-  const qrSizePt = isOneCard ? 480 : 215;
-  const qrPixelSize = isOneCard ? 1000 : 400;
+  const qrSizePt = isOneCard ? 480 : 275;
+  const qrPixelSize = isOneCard ? 1000 : 700;
 
-  const letterFontSize = isOneCard ? 58 : 34;
-  const sttFontSize = isOneCard ? 52 : 30;
+  const letterFontSize = isOneCard ? 58 : 36;
+  const sttFontSize = isOneCard ? 52 : 32;
   const infoFontSize = isOneCard ? 18 : 13;
-  const infoSubFontSize = isOneCard ? 13 : 10.5;
+  const infoSubFontSize = isOneCard ? 13 : 9.5;
 
   // Sinh mã QR hình ảnh PNG (Base64) chuẩn xác cho từng học sinh
   // Nội dung mã QR là đường link thông minh dẫn trực tiếp đến thông tin thẻ học sinh
@@ -82,13 +82,13 @@ export async function exportCardsToWord(
 
           <!-- Hàng 2: D bên trái, MÃ QR CHUẨN SIÊU TO ở giữa, B bên phải -->
           <tr style="height: ${midRowHeightPt}pt; mso-height-rule: exactly;">
-            <td width="${isOneCard ? "9%" : "15%"}" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
+            <td width="${isOneCard ? "9%" : "12%"}" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
               D
             </td>
-            <td width="${isOneCard ? "82%" : "70%"}" align="center" style="vertical-align: middle; padding: 0;">
+            <td width="${isOneCard ? "82%" : "76%"}" align="center" style="vertical-align: middle; padding: 0;">
               <img src="${qrFileName}" width="${qrSizePt}" height="${qrSizePt}" alt="Mã QR Thẻ ${student.stt}" style="width: ${qrSizePt}pt; height: ${qrSizePt}pt; display: block; margin: auto; border: 0;" />
             </td>
-            <td width="${isOneCard ? "9%" : "15%"}" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
+            <td width="${isOneCard ? "9%" : "12%"}" align="center" style="font-size: ${letterFontSize}pt; font-family: Arial, sans-serif; font-weight: bold; color: #111; vertical-align: middle;">
               B
             </td>
           </tr>
