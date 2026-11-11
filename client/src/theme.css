@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --text-xs: 12px;
+  --text-xs--line-height: 16px;
+  --text-sm: 14px;
+  --text-sm--line-height: 20px;
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-lg: 18px;
+  --text-lg--line-height: 28px;
+  --text-xl: 20px;
+  --text-xl--line-height: 28px;
+  --text-2xl: 24px;
+  --text-2xl--line-height: 32px;
+  --text-3xl: 30px;
+  --text-3xl--line-height: 36px;
+  --text-4xl: 36px;
+  --text-4xl--line-height: 40px;
+  --font-sans: "Be Vietnam Pro", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  --bg: #fff6e5;
+  --surface: #fffdf7;
+  --text: #1f2430;
+  --dim: #6d7285;
+  --border: #eadfc6;
+  --accent: #f97316;
+  --navy: #232a6b;
+  --navy-deep: #171c48;
+  --radius: 14px;
+  --space-surface: var(--surface);
+  --space-surface-alt: var(--surface);
+  --space-muted: var(--dim);
+  --space-border: var(--border);
+  --space-accent: var(--accent);
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@layer base {
+  button, [role="button"], select, summary, input:not([type="checkbox"], [type="radio"]) {
+    min-height: 2.25rem;
+  }
+}
+
+/* ---------- Print: only the card sheets ---------- */
+@media print {
+  body * { visibility: hidden; }
+  .print-area, .print-area * { visibility: visible; }
+  .print-area {
+    position: absolute !important;
+    inset: 0 auto auto 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #fff !important;
+    overflow: visible !important;
+  }
+  .print-sheet {
+    box-shadow: none !important;
+    margin: 0 auto !important;
+    page-break-after: always;
+    break-after: page;
+  }
+  .print-sheet:last-child { page-break-after: auto; break-after: auto; }
+  @page { size: A4; margin: 8mm; }
+}
+
+@keyframes scanline {
+  0% { top: 4%; }
+  50% { top: 92%; }
+  100% { top: 4%; }
+}
+@keyframes popin {
+  from { transform: scale(0.6); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.pop-in { animation: popin 0.25s ease-out both; }
+.scan-line { animation: scanline 2.2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .scan-line, .pop-in { animation: none; }
+}

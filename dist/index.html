@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" type="image/png" href="/assets/logo-CUF2YYyy.png" />
+    <title>Thẻ Trả Lời — Kiểm tra trắc nghiệm không cần điện thoại</title>
+    <script>
+      // Xoá mọi Service Worker hoặc cache cũ từ các ứng dụng khác từng chạy trên cùng port
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (let registration of registrations) {
+            registration.unregister();
+            console.log('Đã huỷ Service Worker cũ:', registration);
+          }
+        });
+      }
+      if ('caches' in window) {
+        caches.keys().then(function(names) {
+          for (let name of names) {
+            caches.delete(name);
+          }
+        });
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-rnhrn3Nr.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C5JFklxE.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
