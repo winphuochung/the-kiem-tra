@@ -1738,6 +1738,61 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
   );
 }
 
+// Âm thanh đếm ngược Web Audio (100% offline, không phụ thuộc file mạng)
+function playTimerBeep(freq = 850, duration = 0.08, type: OscillatorType = "sine") {
+  try {
+    const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
+    if (!AudioCtx) return;
+    const ctx = new AudioCtx();
+    if (ctx.state === "suspended") {
+      ctx.resume().catch(() => {});
+    }
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, ctx.currentTime);
+    gain.gain.setValueAtTime(0.12, ctx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + duration);
+  } catch (e) {
+    // Bỏ qua lỗi audio autoplay của trình duyệt
+  }
+}
+
+function playTimeUpChime() {
+  try {
+    const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
+    if (!AudioCtx) return;
+    const ctx = new AudioCtx();
+    if (ctx.state === "suspended") {
+      ctx.resume().catch(() => {});
+    }
+    const now = ctx.currentTime;
+    const notes = [
+      { freq: 523.25, start: 0, dur: 0.15 }, // Đô 5 (C5)
+      { freq: 659.25, start: 0.12, dur: 0.15 }, // Mi 5 (E5)
+      { freq: 783.99, start: 0.24, dur: 0.35 }, // Sol 5 (G5)
+    ];
+    notes.forEach(({ freq, start, dur }) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(freq, now + start);
+      gain.gain.setValueAtTime(0.18, now + start);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + start + dur);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now + start);
+      osc.stop(now + start + dur);
+    });
+  } catch (e) {
+    // Bỏ qua lỗi audio
+  }
+}
+
 // ---------- Present ----------
 function PresentPanel({
   q,
@@ -1770,6 +1825,55 @@ function PresentPanel({
   const [selectedAnswerFilter, setSelectedAnswerFilter] = useState<Answer | "none" | null>(null);
   const [gridCols, setGridCols] = useState<2 | 3 | 4>(3);
 
+  // Đồng hồ đếm ngược thời gian làm bài (Mặc định 10 giây mỗi câu theo yêu cầu)
+  const [timerDuration, setTimerDuration] = useState<number>(() => {
+    const saved = localStorage.getItem("quiz_timer_sec");
+    return saved !== null ? Number(saved) : 10;
+  });
+  const [timeLeft, setTimeLeft] = useState<number>(() => {
+    const saved = localStorage.getItem("quiz_timer_sec");
+    return saved !== null ? Number(saved) : 10;
+  });
+  const [isTimerRunning, setIsTimerRunning] = useState<boolean>(true);
+  const [soundEnabled, setSoundEnabled] = useState<boolean>(() => {
+    const saved = localStorage.getItem("quiz_timer_sound");
+    return saved !== null ? saved === "true" : true;
+  });
+  const [showTimerSettings, setShowTimerSettings] = useState<boolean>(false);
+
+  // Tự động đặt lại 10 giây và bắt đầu đếm khi chuyển sang câu hỏi mới
+  useEffect(() => {
+    setTimeLeft(timerDuration);
+    setIsTimerRunning(timerDuration > 0);
+  }, [q.id, timerDuration]);
+
+  // Bộ đếm lùi thời gian
+  useEffect(() => {
+    if (!isTimerRunning || timerDuration === 0) return;
+    if (timeLeft <= 0) {
+      setIsTimerRunning(false);
+      return;
+    }
+
+    const interval = setInterval(() => {
+      setTimeLeft((prev) => {
+        const next = prev - 1;
+        if (next <= 0) {
+          if (soundEnabled) {
+            playTimeUpChime();
+          }
+          return 0;
+        }
+        if (soundEnabled && next <= 3) {
+          playTimerBeep(900, 0.06);
+        }
+        return next;
+      });
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [isTimerRunning, timeLeft, timerDuration, soundEnabled]);
+
   // Thống kê phân tích số học sinh chọn A, B, C, D và Chưa giơ
   const counts: Record<Answer, number> = { A: 0, B: 0, C: 0, D: 0 };
   const studentsByAnswer: Record<Answer, Student[]> = { A: [], B: [], C: [], D: [] };
@@ -1790,8 +1894,9 @@ function PresentPanel({
   const unansweredCount = students.length - answered;
   const maxBarCount = Math.max(1, counts.A, counts.B, counts.C, counts.D, unansweredCount);
 
-  // Tự động chuyển sang xem biểu đồ khi giáo viên công bố đáp án
+  // Tự động chuyển sang xem biểu đồ khi giáo viên công bố đáp án và dừng đồng hồ
   const handleReveal = () => {
+    setIsTimerRunning(false);
     onReveal();
     setActiveTab("chart");
   };
@@ -1804,26 +1909,251 @@ function PresentPanel({
         style={{ background: "linear-gradient(150deg,#171c48,#232a6b 60%,#2c3690)", minHeight: 560 }}
       >
         <div>
-          {/* Top Bar câu hỏi kèm Logo cá nhân & Nút chuyển đổi Biểu đồ / 4 Đáp án */}
-          <div className="flex flex-wrap items-center justify-between gap-2">
+          {/* Top Bar câu hỏi kèm Đồng hồ 10 giây, Logo cá nhân */}
+          <div className="flex flex-wrap items-center justify-between gap-2.5">
             <div className="flex items-center gap-2">
-              <span className="rounded-full px-3 py-1 text-xs font-black" style={{ background: "#FFC53D", color: "#232a6b" }}>
+              <span className="rounded-full px-3 py-1.5 text-xs font-black shadow" style={{ background: "#FFC53D", color: "#232a6b" }}>
                 Câu {index + 1} / {total}
               </span>
-              <span className="text-xs font-semibold text-white/70">
+
+              {/* Huy hiệu đồng hồ 10 giây siêu to rõ ngay cạnh Câu X / Total */}
+              <div
+                className={`flex items-center gap-1.5 font-black text-xs sm:text-sm px-3 py-1 rounded-full shadow-lg transition-all duration-300 ${
+                  timerDuration === 0
+                    ? "bg-white/20 text-white"
+                    : timeLeft === 0
+                    ? "bg-rose-600 text-white animate-pulse ring-2 ring-white"
+                    : timeLeft <= 3
+                    ? "bg-rose-500 text-white animate-pulse scale-105"
+                    : timeLeft <= 5
+                    ? "bg-amber-400 text-slate-950 font-black"
+                    : "bg-emerald-400 text-slate-950 font-black"
+                }`}
+              >
+                <span className="text-sm sm:text-base">{timerDuration === 0 ? "⏱️" : timeLeft === 0 ? "⏰" : "⏱️"}</span>
+                <span className="tracking-wider">
+                  {timerDuration === 0 ? "Vô hạn" : timeLeft === 0 ? "HẾT GIỜ (0s)" : `${timeLeft}s`}
+                </span>
+              </div>
+
+              <span className="text-xs font-semibold text-white/70 hidden lg:inline ml-1">
                 Học sinh giơ thẻ: xoay cạnh đáp án lên trên
               </span>
             </div>
 
-            {/* Logo cá nhân trong thẻ câu hỏi */}
+            {/* CÁC NÚT ĐIỀU KHIỂN ĐỒNG HỒ & LOGO */}
             <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 bg-black/40 border border-white/20 px-2 py-1 rounded-2xl backdrop-blur-sm shadow-md">
+                {/* Nút Play / Pause */}
+                {timerDuration > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (timeLeft === 0) {
+                        setTimeLeft(timerDuration);
+                        setIsTimerRunning(true);
+                      } else {
+                        setIsTimerRunning(!isTimerRunning);
+                      }
+                    }}
+                    className="h-7 w-7 rounded-lg bg-white/10 hover:bg-white/20 text-white flex items-center justify-center text-xs transition"
+                    title={isTimerRunning ? "Tạm dừng đồng hồ" : "Tiếp tục đếm ngược"}
+                    aria-label={isTimerRunning ? "Tạm dừng" : "Tiếp tục"}
+                  >
+                    {isTimerRunning ? "⏸" : "▶"}
+                  </button>
+                )}
+
+                {/* Nút Đặt lại 10s */}
+                {timerDuration > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setTimeLeft(timerDuration);
+                      setIsTimerRunning(true);
+                    }}
+                    className="h-7 w-7 rounded-lg bg-white/10 hover:bg-white/20 text-white flex items-center justify-center text-xs transition font-black"
+                    title={`Đặt lại ${timerDuration} giây`}
+                    aria-label="Đặt lại thời gian"
+                  >
+                    ↺
+                  </button>
+                )}
+
+                {/* Nút +5s nhanh */}
+                {timerDuration > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setTimeLeft((t) => t + 5);
+                      setIsTimerRunning(true);
+                    }}
+                    className="px-2 py-1 rounded-lg bg-amber-400 text-slate-950 font-black text-[11px] shadow hover:bg-amber-300 transition"
+                    title="Cộng thêm 5 giây làm bài"
+                  >
+                    +5s
+                  </button>
+                )}
+
+                {/* Bật/Tắt âm thanh chuông */}
+                <button
+                  type="button"
+                  onClick={() => {
+                    const next = !soundEnabled;
+                    setSoundEnabled(next);
+                    localStorage.setItem("quiz_timer_sound", String(next));
+                  }}
+                  className={`h-7 w-7 rounded-lg flex items-center justify-center text-xs transition ${
+                    soundEnabled ? "bg-amber-400/20 text-amber-300 border border-amber-400/40" : "bg-white/5 text-white/40"
+                  }`}
+                  title={soundEnabled ? "Đang bật âm thanh (Nhấp để tắt)" : "Đã tắt âm thanh (Nhấp để bật)"}
+                >
+                  {soundEnabled ? "🔊" : "🔇"}
+                </button>
+
+                {/* Nút cài đặt thời gian */}
+                <button
+                  type="button"
+                  onClick={() => setShowTimerSettings(!showTimerSettings)}
+                  className={`h-7 px-2 rounded-lg text-xs font-bold transition flex items-center gap-1 ${
+                    showTimerSettings ? "bg-amber-400 text-slate-900" : "bg-white/10 hover:bg-white/20 text-white/80"
+                  }`}
+                  title="Tuỳ chỉnh thời gian làm bài"
+                >
+                  <span>⚙️</span>
+                  <span className="text-[10px] hidden sm:inline">{timerDuration > 0 ? `${timerDuration}s` : "Vô hạn"}</span>
+                </button>
+              </div>
+
+              {/* Logo cá nhân trong thẻ câu hỏi */}
               <img
                 src="/logo.png"
                 alt="Logo Cá Nhân"
-                className="h-10 w-10 sm:h-12 sm:w-12 object-contain filter drop-shadow shrink-0"
+                className="h-9 w-9 sm:h-11 sm:w-11 object-contain filter drop-shadow shrink-0 ml-1"
               />
             </div>
           </div>
+
+          {/* Thanh tiến trình đếm ngược thời gian làm bài */}
+          {timerDuration > 0 && (
+            <div className="mt-3 relative w-full">
+              <div className="w-full bg-black/40 rounded-full h-2.5 overflow-hidden border border-white/10 p-[1px]">
+                <div
+                  className={`h-full rounded-full transition-all duration-1000 ease-linear ${
+                    timeLeft === 0
+                      ? "bg-rose-600 animate-pulse w-full"
+                      : timeLeft <= 3
+                      ? "bg-gradient-to-r from-rose-500 to-red-600 animate-pulse"
+                      : timeLeft <= 5
+                      ? "bg-gradient-to-r from-amber-400 to-orange-500"
+                      : "bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400"
+                  }`}
+                  style={{
+                    width: timeLeft === 0 ? "100%" : `${Math.min(100, Math.max(0, (timeLeft / timerDuration) * 100))}%`,
+                  }}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Hộp điều chỉnh nhanh thời gian nếu cần */}
+          {showTimerSettings && (
+            <div className="mt-2.5 p-3 rounded-2xl bg-black/85 border border-white/20 backdrop-blur-md flex flex-wrap items-center justify-between gap-2 shadow-2xl">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-xs font-black text-amber-300">⏱️ Thời gian mỗi câu:</span>
+                <div className="flex flex-wrap gap-1">
+                  {[10, 15, 20, 30, 45, 60].map((sec) => (
+                    <button
+                      key={sec}
+                      type="button"
+                      onClick={() => {
+                        setTimerDuration(sec);
+                        setTimeLeft(sec);
+                        setIsTimerRunning(true);
+                        localStorage.setItem("quiz_timer_sec", String(sec));
+                      }}
+                      className={`px-2.5 py-1 rounded-lg text-xs font-black transition ${
+                        timerDuration === sec
+                          ? "bg-amber-400 text-slate-950 shadow"
+                          : "bg-white/10 text-white hover:bg-white/20"
+                      }`}
+                    >
+                      {sec}s {sec === 10 ? "(Chuẩn)" : ""}
+                    </button>
+                  ))}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setTimerDuration(0);
+                      setTimeLeft(0);
+                      setIsTimerRunning(false);
+                      localStorage.setItem("quiz_timer_sec", "0");
+                    }}
+                    className={`px-2.5 py-1 rounded-lg text-xs font-black transition ${
+                      timerDuration === 0
+                        ? "bg-amber-400 text-slate-950 shadow"
+                        : "bg-white/10 text-white hover:bg-white/20"
+                    }`}
+                  >
+                    Không giới hạn
+                  </button>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowTimerSettings(false)}
+                className="text-xs text-white/60 hover:text-white px-2 py-1"
+              >
+                ✕ Đóng
+              </button>
+            </div>
+          )}
+
+          {/* Thông báo nổi bật khi HẾT GIỜ 10 GIÂY */}
+          {timeLeft === 0 && timerDuration > 0 && !reveal && (
+            <div className="mt-3.5 p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-rose-600/90 via-red-600/95 to-amber-600/90 border-2 border-amber-300 text-white flex flex-wrap items-center justify-between gap-3 shadow-2xl">
+              <div className="flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-white text-xl shadow text-rose-600 font-black">
+                  ⏰
+                </span>
+                <div>
+                  <h4 className="font-black text-sm sm:text-base uppercase tracking-wider text-amber-200">
+                    Hết {timerDuration} giây làm bài!
+                  </h4>
+                  <p className="text-xs font-semibold text-white/90">
+                    Học sinh giữ nguyên thẻ đáp án giơ lên để thầy cô bắt đầu quét.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={onScan}
+                  className="px-3.5 py-2 rounded-xl bg-amber-400 text-slate-950 font-black text-xs hover:bg-amber-300 transition shadow-lg flex items-center gap-1.5 active:scale-95"
+                >
+                  <span>📷</span>
+                  <span>Quét thẻ ngay</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={handleReveal}
+                  className="px-3 py-2 rounded-xl bg-white text-slate-900 font-bold text-xs hover:bg-white/90 transition shadow active:scale-95"
+                >
+                  ✓ Hiện đáp án
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setTimeLeft(timerDuration);
+                    setIsTimerRunning(true);
+                  }}
+                  className="px-3 py-2 rounded-xl bg-black/40 hover:bg-black/60 text-white font-bold text-xs transition border border-white/20 active:scale-95"
+                >
+                  ↺ Thêm {timerDuration}s
+                </button>
+              </div>
+            </div>
+          )}
 
           {/* Thanh chuyển chế độ: Câu hỏi & 4 Đáp án <-> Biểu đồ cột phân tích */}
           <div className="flex items-center gap-2 mt-3 p-1 rounded-2xl bg-black/25 border border-white/10 w-fit">
