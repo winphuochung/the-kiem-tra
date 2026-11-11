@@ -16,6 +16,7 @@ export function AutoExamModal({
   const [selectedGrade, setSelectedGrade] = useState<number>(7);
   const [selectedSubjectId, setSelectedSubjectId] = useState<string>("khtn-7");
   const [selectedLessonIds, setSelectedLessonIds] = useState<string[]>(["khtn7-b1", "khtn7-b2"]);
+  const [lessonSearch, setLessonSearch] = useState<string>("");
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [customTitle, setCustomTitle] = useState<string>("");
   const [isGenerating, setIsGenerating] = useState(false);
@@ -58,6 +59,16 @@ export function AutoExamModal({
   const clearLessons = () => {
     setSelectedLessonIds([]);
   };
+
+  // Lọc bài học theo tìm kiếm
+  const filteredLessons = useMemo(() => {
+    if (!currentSubject) return [];
+    if (!lessonSearch.trim()) return currentSubject.lessons;
+    const q = lessonSearch.toLowerCase().trim();
+    return currentSubject.lessons.filter(
+      (l) => l.title.toLowerCase().includes(q) || l.chapter.toLowerCase().includes(q)
+    );
+  }, [currentSubject, lessonSearch]);
 
   // Sinh trước dữ liệu câu hỏi
   const previewData = useMemo(() => {
@@ -216,7 +227,7 @@ export function AutoExamModal({
                   onClick={selectAllLessons}
                   className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-white text-indigo-700 hover:bg-indigo-50 border border-indigo-200"
                 >
-                  Chọn tất cả
+                  Chọn tất cả ({currentSubject?.lessons.length || 0})
                 </button>
                 <button
                   type="button"
@@ -228,11 +239,38 @@ export function AutoExamModal({
               </div>
             </div>
 
+            {/* Thanh tìm kiếm nhanh bài học */}
+            <div className="mb-3">
+              <div className="relative">
+                <span className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400 text-xs">
+                  🔍
+                </span>
+                <input
+                  type="text"
+                  value={lessonSearch}
+                  onChange={(e) => setLessonSearch(e.target.value)}
+                  placeholder={`Tìm nhanh bài học trong môn ${currentSubject?.name || ""}... (ví dụ: Bài 1, Đạo hàm, Oxi, Thơ...)`}
+                  className="w-full pl-9 pr-4 py-1.5 text-xs rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
+                />
+                {lessonSearch && (
+                  <button
+                    type="button"
+                    onClick={() => setLessonSearch("")}
+                    className="absolute inset-y-0 right-0 pr-3 flex items-center text-xs text-slate-400 hover:text-slate-600"
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+            </div>
+
             {(!currentSubject || currentSubject.lessons.length === 0) ? (
               <p className="text-xs text-slate-500 py-4 text-center">Chưa có bài học cho môn này.</p>
+            ) : filteredLessons.length === 0 ? (
+              <p className="text-xs text-slate-500 py-4 text-center">Không tìm thấy bài học phù hợp với từ khóa "{lessonSearch}".</p>
             ) : (
               <div className="grid gap-2 sm:grid-cols-2 max-h-56 overflow-y-auto pr-1">
-                {currentSubject.lessons.map((lesson) => {
+                {filteredLessons.map((lesson) => {
                   const isChecked = selectedLessonIds.includes(lesson.id);
                   return (
                     <div
