@@ -1,5 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { QRCodeSVG } from "qrcode.react";
+import { createHostSession, type HostConnection } from "./peerSync";
+import { RemoteScannerView } from "./RemoteScannerView";
 // Local SafeAreaTopScrim component
 function SafeAreaTopScrim({ backgroundColor = "var(--bg)" }: { backgroundColor?: string }) {
   return <div style={{ height: "env(safe-area-inset-top, 0px)", backgroundColor }} />;
@@ -238,6 +241,14 @@ export function QuestionForm({
 
 // ---------- App shell ----------
 export function App() {
+  const urlParams = typeof window !== "undefined" ? new URLSearchParams(window.location.search) : null;
+  const remotePeer = urlParams?.get("remoteScan");
+  const remoteSessionId = urlParams?.get("sessionId");
+
+  if (remotePeer && remoteSessionId) {
+    return <RemoteScannerView hostPeerId={remotePeer} sessionId={Number(remoteSessionId)} />;
+  }
+
   const [view, setView] = useState<View>({ kind: "home" });
   const [selectedClassId, setSelectedClassId] = useState<number | null>(null);
   const [selectedBankId, setSelectedBankId] = useState<number | null>(null);
@@ -1118,6 +1129,13 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
   const [reveal, setReveal] = useState(false);
   const [resultQ, setResultQ] = useState<number | null>(null);
 
+  // Ghép nối điện thoại quét thẻ không dây
+  const [showPairModal, setShowPairModal] = useState(false);
+  const [hostConn, setHostConn] = useState<HostConnection | null>(null);
+  const [phoneCount, setPhoneCount] = useState<number>(0);
+  const [copied, setCopied] = useState(false);
+  const [lastRemoteAnswer, setLastRemoteAnswer] = useState<string>("");
+
   const questions = data?.questions ?? [];
   const students = data?.students ?? [];
   const idx = qIndex ?? data?.session.current_index ?? 0;
@@ -1146,6 +1164,77 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
     setCurrentMut.mutate(n);
   };
 
+  // Khởi tạo phòng ghép nối khi mở modal
+  useEffect(() => {
+    let active = true;
+    if (showPairModal && !hostConn) {
+      createHostSession(
+        sessionId,
+        async (msg) => {
+          if (!active) return;
+          if (msg.type === "SUBMIT_ANSWER") {
+            await api.recordResponses({
+              session_id: sessionId,
+              question_id: msg.question_id,
+              source: "scan",
+              answers: [{ student_id: msg.student_id, answer: msg.answer }],
+            });
+            queryClient.invalidateQueries({ queryKey: ["session", sessionId] });
+            setLastRemoteAnswer(`✓ Điện thoại vừa quét: Học sinh #${msg.student_id} chọn ${msg.answer}`);
+            setTimeout(() => setLastRemoteAnswer(""), 3500);
+          } else if (msg.type === "GOTO_QUESTION") {
+            goto(msg.index);
+          } else if (msg.type === "PING") {
+            if (data) {
+              hostConn?.broadcast({
+                type: "INIT_STATE",
+                session: data.session,
+                questions: data.questions,
+                students: data.students,
+                currentIndex: clampedIdx,
+                responses: data.responses,
+              });
+            }
+          }
+        },
+        (_status, count) => {
+          if (active) setPhoneCount(count);
+        }
+      ).then((conn) => {
+        if (active) {
+          setHostConn(conn);
+          if (data) {
+            conn.broadcast({
+              type: "INIT_STATE",
+              session: data.session,
+              questions: data.questions,
+              students: data.students,
+              currentIndex: clampedIdx,
+              responses: data.responses,
+            });
+          }
+        }
+      }).catch((e) => {
+        console.error("Lỗi tạo phòng ghép nối:", e);
+      });
+    }
+
+    return () => {
+      active = false;
+    };
+  }, [showPairModal, sessionId, data, clampedIdx]);
+
+  // Đồng bộ trạng thái mới sang điện thoại khi câu hỏi hoặc đáp án thay đổi
+  useEffect(() => {
+    if (hostConn && data) {
+      hostConn.broadcast({
+        type: "STATE_UPDATE",
+        currentIndex: clampedIdx,
+        responses: data.responses,
+      });
+    }
+  }, [data, clampedIdx, hostConn]);
+
   const finishMut = useMutation({
     mutationFn: async (finished: boolean) => await api.finishSession({ session_id: sessionId, finished }),
     onSuccess: () => { queryClient.invalidateQueries({ queryKey: ["session", sessionId] }); queryClient.invalidateQueries({ queryKey: ["overview"] }); },
@@ -1173,7 +1262,20 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
           <h2 className="truncate text-lg font-black" style={{ color: "#232a6b" }}>{sess.title}</h2>
           <p className="text-xs" style={{ color: "var(--dim)" }}>Lớp {sess.class_name} · {questions.length} câu · {students.length} học sinh · {sess.status === "finished" ? "Đã kết thúc" : "Đang mở"}</p>
         </div>
-        <span className="ml-auto flex gap-2">
+        <span className="ml-auto flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setShowPairModal(true)}
+            className="rounded-full px-3.5 py-2 text-xs font-black shadow-md transition active:scale-95 flex items-center gap-1.5"
+            style={{
+              background: phoneCount > 0 ? "#059669" : "#F97316",
+              color: "#fff",
+              minHeight: 40,
+            }}
+          >
+            <span className="text-base">📱</span>
+            {phoneCount > 0 ? `Điện thoại đã kết nối (${phoneCount})` : "Kết nối điện thoại quét thẻ"}
+          </button>
           {sess.status === "finished" ? (
             <Btn color="#e5e7eb" textColor="#333" onClick={() => finishMut.mutate(false)} ariaLabel="Mở lại buổi học">Mở lại buổi học</Btn>
           ) : (
@@ -1215,6 +1317,88 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
         <ManualPanel key={currentQ.id} sessionId={sessionId} q={currentQ} students={students} existing={respMap.get(currentQ.id)} />
       ) : (
         <ResultsPanel data={data} respMap={respMap} focusQuestionId={resultQ} onFocus={setResultQ} onPresentQuestion={(qid) => { const i = questions.findIndex((q) => q.id === qid); if (i >= 0) { goto(i); setMode("present"); } }} />
+      )}
+
+      {/* Thông báo Real-time khi điện thoại vừa quét */}
+      {lastRemoteAnswer && (
+        <div className="fixed bottom-6 right-6 z-50 rounded-2xl bg-emerald-600 px-4 py-3 text-sm font-black text-white shadow-2xl flex items-center gap-2 animate-bounce">
+          <span>📱</span>
+          <span>{lastRemoteAnswer}</span>
+        </div>
+      )}
+
+      {/* Modal ghép nối QR Điện thoại & Máy tính */}
+      {showPairModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <div className="w-full max-w-sm rounded-3xl bg-white p-6 shadow-2xl relative text-center">
+            <button
+              type="button"
+              onClick={() => setShowPairModal(false)}
+              className="absolute right-4 top-4 h-8 w-8 rounded-full bg-slate-100 text-slate-700 font-black hover:bg-slate-200 transition"
+            >
+              ✕
+            </button>
+
+            <span className="text-3xl">📱</span>
+            <h3 className="mt-2 text-lg font-black" style={{ color: "#232a6b" }}>
+              Ghép nối Điện thoại làm Máy quét
+            </h3>
+            <p className="mt-1 text-xs text-slate-500 leading-relaxed">
+              Không cần cài app! Dùng <b>Camera điện thoại</b> hoặc <b>Zalo</b> quét mã QR dưới đây để mở máy quét cầm tay:
+            </p>
+
+            <div className="my-4 flex flex-col items-center">
+              <div className="p-3 bg-white rounded-2xl shadow-md border-2 border-slate-100">
+                {hostConn ? (
+                  <QRCodeSVG value={hostConn.qrUrl} size={200} level="M" />
+                ) : (
+                  <div className="w-48 h-48 flex items-center justify-center text-xs text-slate-400">
+                    Đang tạo mã QR kết nối...
+                  </div>
+                )}
+              </div>
+
+              <div className="mt-3 flex items-center gap-2">
+                <span
+                  className={`h-2.5 w-2.5 rounded-full ${
+                    phoneCount > 0 ? "bg-emerald-500 animate-pulse" : "bg-amber-400 animate-ping"
+                  }`}
+                />
+                <span className="text-xs font-bold text-slate-700">
+                  {phoneCount > 0
+                    ? `✓ Đã kết nối với ${phoneCount} điện thoại!`
+                    : "Đang chờ điện thoại quét mã..."}
+                </span>
+              </div>
+            </div>
+
+            {hostConn && (
+              <div className="mt-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    navigator.clipboard.writeText(hostConn.qrUrl);
+                    setCopied(true);
+                    setTimeout(() => setCopied(false), 2000);
+                  }}
+                  className="text-xs text-indigo-600 hover:underline font-bold"
+                >
+                  {copied ? "✓ Đã sao chép link!" : "📋 Sao chép link kết nối điện thoại"}
+                </button>
+              </div>
+            )}
+
+            <div className="mt-4 pt-3 border-t border-slate-100">
+              <button
+                type="button"
+                onClick={() => setShowPairModal(false)}
+                className="w-full py-2 bg-slate-900 text-white text-xs font-bold rounded-xl"
+              >
+                Đóng cửa sổ
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
