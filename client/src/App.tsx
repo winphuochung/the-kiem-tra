@@ -348,12 +348,12 @@ export function App() {
             type="button"
             aria-label="Về trang chủ Thẻ Trả Lời"
             onClick={() => setView({ kind: "home" })}
-            className="flex items-center gap-2.5 text-left group"
+            className="flex items-center gap-2.5 sm:gap-3 text-left group"
           >
             <img
               src="/logo.png"
-              alt="Logo Cá Nhân"
-              className="h-10 w-10 sm:h-12 sm:w-12 rounded-2xl object-contain bg-white p-1 shadow-md border border-white/30 transition group-hover:scale-105 shrink-0"
+              alt="Logo Cá Nhân - Giáo Viên Hoá Học Lê Văn Thắng"
+              className="h-12 w-12 sm:h-14 sm:w-14 object-contain filter drop-shadow-md transition group-hover:scale-105 shrink-0"
             />
             <span className="leading-tight">
               <span className="block text-base sm:text-lg font-black text-white tracking-wide">Thẻ Trả Lời</span>
@@ -492,15 +492,15 @@ function HomeView({
         style={{ background: "linear-gradient(135deg,#171c48,#232a6b 55%,#2f3a9e)" }}
       >
         <div className="relative z-10 max-w-xl">
-          <div className="flex items-center gap-3.5 mb-3">
+          <div className="flex items-center gap-4 mb-3.5">
             <img
               src="/logo.png"
-              alt="Logo Cá Nhân"
-              className="h-14 w-14 sm:h-16 sm:w-16 rounded-2xl object-contain bg-white p-1 shadow-xl border-2 border-amber-300 shrink-0"
+              alt="Logo Cá Nhân - Giáo Viên Hoá Học Lê Văn Thắng"
+              className="h-20 w-20 sm:h-24 sm:w-24 object-contain filter drop-shadow-xl transition hover:scale-105 shrink-0"
             />
             <div>
               <p className="text-xs font-black uppercase tracking-widest" style={{ color: "#FFC53D" }}>Dạy học trên lớp · Thẻ trả lời</p>
-              <span className="text-[11px] font-bold text-indigo-200">Hệ thống kiểm tra trắc nghiệm không cần thiết bị thông minh</span>
+              <span className="text-xs font-extrabold text-amber-200">Giáo Viên Hoá Học · Thầy Lê Văn Thắng</span>
             </div>
           </div>
           <h1 className="mt-2 text-3xl font-black leading-tight text-white sm:text-4xl">
@@ -1538,8 +1538,8 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
         <button type="button" onClick={onExit} aria-label="Quay lại danh sách buổi học" className="rounded-full px-3 py-2 text-sm font-bold shadow-sm" style={{ background: "#fff", border: "1px solid var(--border)", minHeight: 40 }}>← Buổi học</button>
         <img
           src="/logo.png"
-          alt="Logo Cá Nhân"
-          className="h-10 w-10 sm:h-11 sm:w-11 rounded-xl object-contain bg-white p-0.5 shadow-sm border border-slate-200 shrink-0"
+          alt="Logo Cá Nhân - Thầy Lê Văn Thắng"
+          className="h-12 w-12 sm:h-14 sm:w-14 object-contain filter drop-shadow-md shrink-0"
         />
         <div className="min-w-0">
           <h2 className="truncate text-lg font-black" style={{ color: "#232a6b" }}>{sess.title}</h2>
@@ -1820,7 +1820,7 @@ function PresentPanel({
               <img
                 src="/logo.png"
                 alt="Logo Cá Nhân"
-                className="h-8 w-8 sm:h-9 sm:w-9 rounded-xl object-contain bg-white p-0.5 shadow border border-white/20 shrink-0"
+                className="h-10 w-10 sm:h-12 sm:w-12 object-contain filter drop-shadow shrink-0"
               />
             </div>
           </div>

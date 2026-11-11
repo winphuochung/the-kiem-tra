@@ -344,8 +344,8 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
           <div className="flex items-center gap-2">
             <img
               src="/logo.png"
-              alt="Logo"
-              className="h-7 w-7 rounded-lg bg-white p-0.5 object-contain shrink-0"
+              alt="Logo Cá Nhân"
+              className="h-9 w-9 object-contain filter drop-shadow shrink-0"
             />
             <span
               className={`h-3 w-3 rounded-full ${
