@@ -37,9 +37,10 @@ export async function exportCardsToWord(
   const infoSubFontSize = isOneCard ? 14 : 10.5;
 
   // Sinh mã QR hình ảnh PNG (Base64) chuẩn xác cho từng học sinh
+  // Nội dung mã QR là đường link thông minh dẫn trực tiếp đến thông tin thẻ học sinh
   const qrImagesMap = new Map<number, { dataUrl: string; base64: string }>();
   for (const student of students) {
-    const qrValue = `THETRALOI:STT=${student.stt}`;
+    const qrValue = `https://the-kiem-tra.vercel.app/?student_stt=${student.stt}&class=${encodeURIComponent(className)}`;
     const dataUrl = await QRCode.toDataURL(qrValue, {
       width: qrPixelSize,
       margin: 1,

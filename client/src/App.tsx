@@ -105,7 +105,7 @@ export function AnswerCard({
   large?: boolean;
 }) {
   const sttLabel = String(student.stt).padStart(2, "0");
-  const qrValue = `THETRALOI:STT=${student.stt}`;
+  const qrValue = `https://the-kiem-tra.vercel.app/?student_stt=${student.stt}&class=${encodeURIComponent(className)}`;
   return (
     <div
       className="relative bg-white text-black select-none"
@@ -246,6 +246,56 @@ export function QuestionForm({
   );
 }
 
+// ---------- Student Card Web View (khi quét bằng camera thường/Zalo) ----------
+function StudentCardPortal({ stt, classNameParam }: { stt: number; classNameParam: string }) {
+  return (
+    <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-4">
+      <div className="w-full max-w-md bg-white text-slate-900 rounded-3xl p-6 shadow-2xl border border-slate-200 text-center">
+        <div className="inline-block px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full text-xs font-bold uppercase tracking-wider mb-3">
+          Thẻ Trả Lời Điện Tử
+        </div>
+        <h1 className="text-3xl font-black text-indigo-950">
+          Thẻ Số {String(stt).padStart(2, "0")}
+        </h1>
+        {classNameParam ? (
+          <p className="text-sm font-bold text-slate-500 mt-1">Lớp: {classNameParam}</p>
+        ) : null}
+
+        <div className="my-6 p-4 bg-slate-50 rounded-2xl border border-slate-200">
+          <p className="text-xs font-bold text-slate-700 mb-2 uppercase tracking-wide">
+            Hướng dẫn xoay thẻ khi trả lời trắc nghiệm:
+          </p>
+          <div className="grid grid-cols-2 gap-2 text-left text-xs font-semibold text-slate-700">
+            <div className="p-2.5 bg-white rounded-xl border border-slate-200 shadow-xs">
+              <span className="text-emerald-600 font-bold">Cạnh A:</span> Xoay lên trên
+            </div>
+            <div className="p-2.5 bg-white rounded-xl border border-slate-200 shadow-xs">
+              <span className="text-indigo-600 font-bold">Cạnh B:</span> Xoay lên trên
+            </div>
+            <div className="p-2.5 bg-white rounded-xl border border-slate-200 shadow-xs">
+              <span className="text-amber-600 font-bold">Cạnh C:</span> Xoay lên trên
+            </div>
+            <div className="p-2.5 bg-white rounded-xl border border-slate-200 shadow-xs">
+              <span className="text-rose-600 font-bold">Cạnh D:</span> Xoay lên trên
+            </div>
+          </div>
+        </div>
+
+        <p className="text-xs text-slate-500 mb-4 leading-relaxed">
+          💡 <b>Ghi chú dành cho thầy cô:</b> Để quét thẻ chấm điểm cả lớp, thầy cô hãy mở <b>Buổi học</b> trên máy tính và bấm <b>"Ghép nối điện thoại"</b>, sau đó quét trực tiếp từ giao diện điều khiển!
+        </p>
+
+        <a
+          href="/"
+          className="inline-block w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition shadow-md active:scale-98 text-sm"
+        >
+          Vào trang chủ Thẻ Trả Lời →
+        </a>
+      </div>
+    </div>
+  );
+}
+
 // ---------- App shell ----------
 export function App() {
   const urlParams = typeof window !== "undefined" ? new URLSearchParams(window.location.search) : null;
@@ -254,6 +304,12 @@ export function App() {
 
   if (remotePeer && remoteSessionId) {
     return <RemoteScannerView hostPeerId={remotePeer} sessionId={Number(remoteSessionId)} />;
+  }
+
+  const studentStt = urlParams?.get("student_stt");
+  const studentClass = urlParams?.get("class");
+  if (studentStt) {
+    return <StudentCardPortal stt={Number(studentStt)} classNameParam={studentClass || ""} />;
   }
 
   const [view, setView] = useState<View>({ kind: "home" });
