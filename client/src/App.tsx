@@ -3,6 +3,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { QRCodeSVG } from "qrcode.react";
 import { createHostSession, type HostConnection } from "./peerSync";
 import { RemoteScannerView } from "./RemoteScannerView";
+import { exportCardsToWord, exportCardsToPDF, exportQuestionsToWord, exportResultsToWord } from "./exportUtils";
 // Local SafeAreaTopScrim component
 function SafeAreaTopScrim({ backgroundColor = "var(--bg)" }: { backgroundColor?: string }) {
   return <div style={{ height: "env(safe-area-inset-top, 0px)", backgroundColor }} />;
@@ -765,9 +766,31 @@ function PrintView({
             </button>
           </div>
         </fieldset>
-        <Btn color="#F97316" onClick={() => window.print()} ariaLabel="In thẻ hoặc lưu thành PDF" className="ml-auto">
-          🖨 Tải / In thẻ ngay
-        </Btn>
+        <div className="ml-auto flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onClick={() => exportCardsToWord(selectedClass?.name || "Lop_Hoc", students, seed, layout)}
+            className="rounded-xl px-4 py-2 text-sm font-black shadow-md transition active:scale-95 flex items-center gap-1.5"
+            style={{ background: "#2563EB", color: "#fff", minHeight: 44 }}
+            title="Tải bộ thẻ ra file Microsoft Word (.doc) để xem và chỉnh sửa"
+          >
+            <span>📝</span>
+            <span>Tải file Word (.doc)</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => exportCardsToPDF()}
+            className="rounded-xl px-4 py-2 text-sm font-black shadow-md transition active:scale-95 flex items-center gap-1.5"
+            style={{ background: "#DC2626", color: "#fff", minHeight: 44 }}
+            title="Lưu hoặc tải bộ thẻ dưới dạng file PDF chuẩn A4"
+          >
+            <span>📄</span>
+            <span>Tải file PDF</span>
+          </button>
+          <Btn color="#F97316" onClick={() => window.print()} ariaLabel="In thẻ ra máy in">
+            🖨 In thẻ ngay
+          </Btn>
+        </div>
       </div>
 
       <p className="mt-3 rounded-2xl p-3 text-sm leading-relaxed" style={{ background: "#FFFBEB", border: "1px solid #FDE68A" }}>
@@ -897,13 +920,23 @@ function BanksView({
       {selectedBank ? (
         <div className="mt-5 grid items-start gap-6 lg:grid-cols-[1fr_380px]">
           <section className="rounded-3xl p-4 sm:p-5" style={{ background: "var(--surface)", border: "1px solid var(--border)" }}>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <h3 className="text-lg font-extrabold" style={{ color: "#232a6b" }}>{selectedBank.title}</h3>
               <span className="text-sm" style={{ color: "var(--dim)" }}>{questions.length} câu</span>
+              <button
+                type="button"
+                onClick={() => exportQuestionsToWord(selectedBank.title, questions)}
+                disabled={questions.length === 0}
+                className="ml-auto rounded-xl px-3 py-1.5 text-xs font-bold text-white flex items-center gap-1 shadow-sm transition active:scale-95 disabled:opacity-40"
+                style={{ background: "#2563EB", minHeight: 36 }}
+                title="Tải bộ đề thi trắc nghiệm ra file Word (.doc)"
+              >
+                <span>📝</span> Tải đề ra Word (.doc)
+              </button>
               {!confirmDeleteBank ? (
-                <Btn color="#fff" textColor="#b91c1c" className="ml-auto" onClick={() => setConfirmDeleteBank(true)} ariaLabel="Xoá đề đang chọn">Xoá đề</Btn>
+                <Btn color="#fff" textColor="#b91c1c" onClick={() => setConfirmDeleteBank(true)} ariaLabel="Xoá đề đang chọn">Xoá đề</Btn>
               ) : (
-                <Btn color="#b91c1c" className="ml-auto" onClick={() => deleteBank.mutate(selectedBank.id)} ariaLabel="Xác nhận xoá đề">Chắc chắn xoá đề?</Btn>
+                <Btn color="#b91c1c" onClick={() => deleteBank.mutate(selectedBank.id)} ariaLabel="Xác nhận xoá đề">Chắc chắn xoá đề?</Btn>
               )}
             </div>
             {questionsQ.isPending ? <p className="py-6 text-sm" style={{ color: "var(--dim)" }}>Đang tải…</p> : questions.length === 0 ? (
@@ -1799,8 +1832,20 @@ function ResultsPanel({
           </div>
         ))}
       </div>
-      <div className="flex flex-wrap gap-2">
-        <Btn color="#232a6b" onClick={exportCsv} ariaLabel="Tải kết quả buổi học dạng CSV">⬇ Tải bảng kết quả (CSV)</Btn>
+      <div className="flex flex-wrap items-center gap-2">
+        <button
+          type="button"
+          onClick={() => exportResultsToWord(data.session.title, data.session.class_name, questions, students, respMap)}
+          className="rounded-xl px-4 py-2 text-sm font-bold text-white flex items-center gap-1.5 shadow transition active:scale-95"
+          style={{ background: "#2563EB", minHeight: 40 }}
+          title="Tải bảng điểm học sinh dạng file Word (.doc)"
+        >
+          <span>📝</span>
+          <span>Tải bảng điểm Word (.doc)</span>
+        </button>
+        <Btn color="#059669" onClick={exportCsv} ariaLabel="Tải kết quả buổi học dạng CSV/Excel">
+          📊 Tải Excel (CSV)
+        </Btn>
         <span className="self-center text-sm" style={{ color: "var(--dim)" }}>Câu nào nhiều em sai, giảng lại ngay chỗ đó — xem chi tiết từng câu bên dưới.</span>
       </div>
 
