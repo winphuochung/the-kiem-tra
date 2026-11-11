@@ -1217,7 +1217,12 @@ function simulatedAnswer(sessionId: number, questionId: number, student: Student
 
 function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void }) {
   const queryClient = useQueryClient();
-  const detailQ = useQuery({ queryKey: ["session", sessionId], queryFn: () => api.getSession({ session_id: sessionId }) });
+  const detailQ = useQuery({
+    queryKey: ["session", sessionId],
+    queryFn: () => api.getSession({ session_id: sessionId }),
+    refetchInterval: 1000,
+    refetchIntervalInBackground: true,
+  });
   const data = detailQ.data;
   const [mode, setMode] = useState<RoomMode>("present");
   const [qIndex, setQIndex] = useState<number | null>(null);

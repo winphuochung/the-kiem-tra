@@ -153,21 +153,34 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     }
   }, [camOn]);
 
-  // 4. Gửi đáp án cho 1 học sinh lên máy tính
-  const submitAnswer = (studentId: number, answer: Answer, studentName: string) => {
+  // 4. Gửi đáp án cho 1 học sinh lên máy tính (qua PeerJS và lưu thẳng vào API)
+  const submitAnswer = async (studentId: number, answer: Answer, studentName: string) => {
     if (!currentQ) return;
     setResponsesMap((prev) => new Map(prev).set(studentId, answer));
-    setJustDetectedStudent(`${studentName}: ${answer}`);
+    setJustDetectedStudent(`${studentName}: Chọn ${answer}`);
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate([40]);
     }
 
+    // 1. Gửi qua PeerJS DataChannel tới máy tính PC
     connRef.current?.send({
       type: "SUBMIT_ANSWER",
       question_id: currentQ.id,
       student_id: studentId,
       answer,
     });
+
+    // 2. GỌI TRỰC TIẾP API ĐỂ LƯU VÀO DATABASE (Đồng bộ tức thì kể cả khi mạng P2P chậm)
+    try {
+      await api.recordResponses({
+        session_id: sessionId,
+        question_id: currentQ.id,
+        source: "scan",
+        answers: [{ student_id: studentId, answer }],
+      });
+    } catch (e) {
+      console.error("Lỗi lưu đáp án qua API:", e);
+    }
   };
 
   // 5. Vòng lặp quét nhận diện MÃ QR THỰC TẾ từ camera
@@ -207,24 +220,23 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
 
           if (foundStt != null) {
             const student = students.find((s) => s.stt === foundStt);
-            if (student) {
-              // Tính góc xoay của thẻ để nhận diện đáp án A, B, C, D
-              let chosenAnswer: Answer = "A";
-              if (code.location && code.location.topLeftCorner && code.location.topRightCorner) {
-                const dx = code.location.topRightCorner.x - code.location.topLeftCorner.x;
-                const dy = code.location.topRightCorner.y - code.location.topLeftCorner.y;
-                const angleDeg = ((Math.atan2(dy, dx) * 180) / Math.PI + 360) % 360;
+            if (student && code.location) {
+              const loc = code.location;
+              // XÁC ĐỊNH ĐÁP ÁN A, B, C, D DỰA TRÊN CẠNH Ở TRÊN CÙNG CỦA MÀN HÌNH (Y NHỎ NHẤT)
+              // Cạnh A: nối topLeftCorner và topRightCorner
+              // Cạnh B: nối topRightCorner và bottomRightCorner
+              // Cạnh C: nối bottomRightCorner và bottomLeftCorner
+              // Cạnh D: nối bottomLeftCorner và topLeftCorner
+              const edgeMidpoints: { name: Answer; y: number }[] = [
+                { name: "A", y: (loc.topLeftCorner.y + loc.topRightCorner.y) / 2 },
+                { name: "B", y: (loc.topRightCorner.y + loc.bottomRightCorner.y) / 2 },
+                { name: "C", y: (loc.bottomRightCorner.y + loc.bottomLeftCorner.y) / 2 },
+                { name: "D", y: (loc.bottomLeftCorner.y + loc.topLeftCorner.y) / 2 },
+              ];
 
-                if (angleDeg >= 45 && angleDeg < 135) {
-                  chosenAnswer = "B";
-                } else if (angleDeg >= 135 && angleDeg < 225) {
-                  chosenAnswer = "C";
-                } else if (angleDeg >= 225 && angleDeg < 315) {
-                  chosenAnswer = "D";
-                } else {
-                  chosenAnswer = "A";
-                }
-              }
+              // Cạnh nào có tọa độ Y nhỏ nhất (gần đỉnh màn hình nhất) chính là đáp án học sinh chọn!
+              edgeMidpoints.sort((p, q) => p.y - q.y);
+              const chosenAnswer: Answer = edgeMidpoints[0]!.name;
 
               // Giới hạn tần suất quét 1.5 giây mỗi em để tránh rung giật
               const now = Date.now();
