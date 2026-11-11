@@ -32,13 +32,15 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
   // 1. Tải dữ liệu ban đầu tức thì qua API để không bị kẹt ở "Đang đồng bộ..."
   useEffect(() => {
     if (sessionId) {
-      api.getSessionRoom({ id: sessionId })
+      api.getSession({ session_id: sessionId })
         .then((res) => {
           if (res) {
             setSessionInfo(res.session);
             setQuestions(res.questions);
             setStudents(res.students);
-            const qId = res.questions[0]?.id;
+            const initIdx = res.session?.current_index || 0;
+            setCurrentIdx(initIdx);
+            const qId = res.questions[initIdx]?.id;
             const m = new Map<number, Answer>();
             for (const r of res.responses) {
               if (r.question_id === qId) {
