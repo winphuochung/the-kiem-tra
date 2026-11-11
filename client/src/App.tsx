@@ -1636,118 +1636,180 @@ function PresentPanel({
   const wrongCount = students.filter(
     (s) => responses?.has(s.id) && responses.get(s.id) !== q.correct
   ).length;
+  const unansweredCount = students.length - answered;
 
   return (
-    <section className="mt-4 overflow-hidden rounded-3xl" style={{ background: "linear-gradient(150deg,#171c48,#232a6b 60%,#2c3690)" }}>
-      <div className="flex items-center gap-2 px-5 pt-4">
-        <span className="rounded-full px-3 py-1 text-xs font-black" style={{ background: "#FFC53D", color: "#232a6b" }}>Câu {index + 1} / {total}</span>
-        <span className="text-xs font-semibold text-white/70">Học sinh giơ thẻ: chọn đáp án nào, xoay cạnh đó lên trên</span>
-        <span className="ml-auto rounded-full bg-white/10 px-3 py-1 text-xs font-bold text-white">Đã trả lời {answered}/{totalStudents}</span>
-      </div>
-      <h3 className="px-5 pt-4 text-2xl font-extrabold leading-snug text-white sm:px-8 sm:text-3xl">{q.content}</h3>
-      <div className="grid gap-3 px-5 py-6 sm:grid-cols-2 sm:px-8">
-        {ANSWERS.map((L) => {
-          const isCorrect = reveal && q.correct === L;
-          const dimmed = reveal && q.correct !== L;
-          return (
-            <div
-              key={L}
-              className="flex items-start gap-3 rounded-2xl p-4 transition"
-              style={{ background: ANSWER_COLORS[L], opacity: dimmed ? 0.45 : 1, outline: isCorrect ? "4px solid #fff" : "none" }}
-            >
-              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-lg font-black" style={{ color: ANSWER_COLORS[L] }}>{L}</span>
-              <span className="pt-1.5 text-base font-bold leading-relaxed text-white sm:text-lg">{q[`option_${L.toLowerCase()}` as "option_a" | "option_b" | "option_c" | "option_d"]}</span>
-              {isCorrect ? <span className="ml-auto shrink-0 rounded-full bg-white px-2.5 py-1 text-xs font-black text-emerald-700">✓ Đáp án đúng</span> : null}
-            </div>
-          );
-        })}
-      </div>
-      <div className="flex flex-wrap gap-2 px-5 pb-6 sm:px-8">
-        {!reveal ? (
-          <Btn color="#FFC53D" textColor="#232a6b" onClick={onReveal} ariaLabel="Hiện đáp án đúng của câu này">Hiện đáp án đúng</Btn>
-        ) : null}
-        <Btn color="#F97316" onClick={onScan} ariaLabel="Đi quét thẻ cho câu này">📷 Quét thẻ câu này</Btn>
-        {!isLast ? <Btn color="rgba(255,255,255,.15)" onClick={onNext} ariaLabel="Sang câu tiếp theo">Câu tiếp theo →</Btn> : null}
-      </div>
-
-      {/* LƯỚI HỌC SINH TRẢ LỜI TRỰC TIẾP TRÊN MÀN HÌNH MÁY TÍNH: XANH = ĐÚNG, ĐỎ = SAI, ĐEN = CHƯA TRẢ LỜI */}
-      <div className="border-t border-white/10 px-5 pt-5 pb-6 sm:px-8 bg-black/15">
-        <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-          <div className="flex flex-wrap items-center gap-2.5">
-            <span className="text-sm font-black text-white uppercase tracking-wider flex items-center gap-1.5">
-              <span>👥 Kết quả học sinh cả lớp:</span>
-              <span className="text-amber-300 font-extrabold">{answered}/{students.length} em đã chọn</span>
+    <section className="mt-4 grid gap-5 lg:grid-cols-2 items-start">
+      {/* CỘT BÊN TRÁI: CÂU HỎI VÀ 4 ĐÁP ÁN A - B - C - D */}
+      <div
+        className="overflow-hidden rounded-3xl p-5 sm:p-7 flex flex-col justify-between shadow-2xl"
+        style={{ background: "linear-gradient(150deg,#171c48,#232a6b 60%,#2c3690)", minHeight: 520 }}
+      >
+        <div>
+          <div className="flex items-center gap-2">
+            <span className="rounded-full px-3 py-1 text-xs font-black" style={{ background: "#FFC53D", color: "#232a6b" }}>
+              Câu {index + 1} / {total}
             </span>
-            <span className="rounded-full bg-emerald-500/25 px-3 py-0.5 text-xs font-black text-emerald-300 border border-emerald-400/40">
-              ✓ Đúng: {correctCount} em
-            </span>
-            <span className="rounded-full bg-rose-500/25 px-3 py-0.5 text-xs font-black text-rose-300 border border-rose-400/40">
-              ✗ Sai: {wrongCount} em
-            </span>
-            <span className="rounded-full bg-black px-3 py-0.5 text-xs font-black text-neutral-300 border border-neutral-700">
-              ● Chưa trả lời: {students.length - answered} em
+            <span className="text-xs font-semibold text-white/70">
+              Học sinh giơ thẻ: xoay cạnh đáp án lên trên
             </span>
           </div>
-          <div className="flex flex-wrap items-center gap-2 text-xs font-bold text-white/80 bg-white/10 px-3 py-1 rounded-full">
-            <span>Qui ước:</span>
-            <span className="px-2 py-0.5 rounded bg-emerald-600 text-white font-black">Màu Xanh = Đúng</span>
-            <span className="px-2 py-0.5 rounded bg-rose-600 text-white font-black">Màu Đỏ = Sai</span>
-            <span className="px-2 py-0.5 rounded bg-black text-white border border-neutral-600 font-black">Màu Đen = Chưa trả lời</span>
-          </div>
-        </div>
 
-        {students.length === 0 ? (
-          <p className="text-sm text-white/60">Lớp chưa có học sinh.</p>
-        ) : (
-          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
-            {students.map((s) => {
-              const ans = responses?.get(s.id);
-              const hasAnswered = ans != null;
-              const isCorrect = hasAnswered && ans === q.correct;
+          <h3 className="mt-4 text-2xl font-extrabold leading-snug text-white sm:text-3xl">
+            {q.content}
+          </h3>
+
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+            {ANSWERS.map((L) => {
+              const isCorrect = reveal && q.correct === L;
+              const dimmed = reveal && q.correct !== L;
               return (
                 <div
-                  key={s.id}
-                  className={`flex items-center justify-between p-2 rounded-xl border transition-all ${
-                    !hasAnswered
-                      ? "bg-black border-2 border-neutral-800 text-neutral-300 shadow-md shadow-black"
-                      : isCorrect
-                      ? "bg-emerald-600 border-emerald-300 text-white shadow-lg shadow-emerald-950/50 scale-[1.02]"
-                      : "bg-rose-600 border-rose-300 text-white shadow-lg shadow-rose-950/50 scale-[1.02]"
-                  }`}
+                  key={L}
+                  className="flex items-start gap-3 rounded-2xl p-4 transition shadow-md"
+                  style={{
+                    background: ANSWER_COLORS[L],
+                    opacity: dimmed ? 0.45 : 1,
+                    outline: isCorrect ? "4px solid #fff" : "none",
+                  }}
                 >
-                  <div className="min-w-0 pr-1.5">
-                    <span
-                      className={`block truncate text-xs font-extrabold leading-tight ${
-                        !hasAnswered ? "text-neutral-200" : "text-white"
-                      }`}
-                    >
-                      #{s.stt} {s.name}
-                    </span>
-                    <span
-                      className={`text-[10px] font-bold ${
-                        !hasAnswered ? "text-neutral-400 font-black" : "opacity-85 font-black"
-                      }`}
-                    >
-                      {!hasAnswered ? "● Chưa trả lời (Đen)" : isCorrect ? "Đúng ✓" : "Sai ✗"}
-                    </span>
-                  </div>
-                  {hasAnswered ? (
-                    <span
-                      className="shrink-0 flex h-7 w-7 items-center justify-center rounded-lg bg-white font-black text-sm shadow"
-                      style={{ color: isCorrect ? "#059669" : "#dc2626" }}
-                    >
-                      {ans}
-                    </span>
-                  ) : (
-                    <span className="shrink-0 flex h-7 w-7 items-center justify-center rounded-lg bg-neutral-900 border border-neutral-800 font-bold text-xs text-neutral-500">
-                      —
+                  <span
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-lg font-black shadow"
+                    style={{ color: ANSWER_COLORS[L] }}
+                  >
+                    {L}
+                  </span>
+                  <span className="pt-1 text-base font-bold leading-relaxed text-white sm:text-lg">
+                    {q[`option_${L.toLowerCase()}` as "option_a" | "option_b" | "option_c" | "option_d"]}
+                  </span>
+                  {isCorrect && (
+                    <span className="ml-auto shrink-0 rounded-full bg-white px-2.5 py-1 text-xs font-black text-emerald-700 shadow">
+                      ✓ Đúng
                     </span>
                   )}
                 </div>
               );
             })}
           </div>
-        )}
+        </div>
+
+        <div className="mt-6 flex flex-wrap gap-2 pt-4 border-t border-white/15">
+          {!reveal ? (
+            <Btn color="#FFC53D" textColor="#232a6b" onClick={onReveal} ariaLabel="Hiện đáp án đúng của câu này">
+              Hiện đáp án đúng
+            </Btn>
+          ) : null}
+          <Btn color="#F97316" onClick={onScan} ariaLabel="Đi quét thẻ cho câu này">
+            📷 Quét thẻ câu này
+          </Btn>
+          {!isLast ? (
+            <Btn color="rgba(255,255,255,.15)" onClick={onNext} ariaLabel="Sang câu tiếp theo">
+              Câu tiếp theo →
+            </Btn>
+          ) : null}
+        </div>
+      </div>
+
+      {/* CỘT BÊN PHẢI: SƠ ĐỒ LỚP / DANH SÁCH HỌC SINH CHỌN ĐÁP ÁN */}
+      <div
+        className="rounded-3xl p-5 sm:p-6 shadow-2xl flex flex-col justify-between"
+        style={{
+          background: "linear-gradient(160deg,#12163b,#1a2055 70%,#1f2766)",
+          border: "1.5px solid rgba(255,255,255,0.12)",
+          minHeight: 520,
+        }}
+      >
+        <div>
+          {/* Header Sơ đồ lớp */}
+          <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-white/10">
+            <div>
+              <h4 className="text-xl font-black text-white flex items-center gap-2">
+                <span>📋 Sơ đồ lớp</span>
+              </h4>
+              <p className="text-xs text-amber-300 font-extrabold mt-0.5">
+                {answered} / {students.length} em đã giơ thẻ
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-1.5 text-xs font-black">
+              <span className="rounded-full bg-emerald-500/20 px-2.5 py-1 text-emerald-300 border border-emerald-500/30">
+                ✓ Đúng: {correctCount}
+              </span>
+              <span className="rounded-full bg-rose-500/20 px-2.5 py-1 text-rose-300 border border-rose-500/30">
+                ✗ Sai: {wrongCount}
+              </span>
+              <span className="rounded-full bg-black px-2.5 py-1 text-amber-300 border border-amber-400/60 shadow">
+                ● Chưa giơ: {unansweredCount}
+              </span>
+            </div>
+          </div>
+
+          {/* Dải quy ước & nhãn nhắc nhở */}
+          <div className="flex flex-wrap items-center justify-between gap-2 py-2.5 border-b border-white/5">
+            <div className="flex items-center gap-1.5">
+              <span className="text-[11px] text-white/60 font-semibold">Qui ước:</span>
+              <span className="px-2 py-0.5 rounded bg-emerald-600 text-white font-black text-[11px]">Xanh: Đúng</span>
+              <span className="px-2 py-0.5 rounded bg-rose-600 text-white font-black text-[11px]">Đỏ: Sai</span>
+              <span className="px-2 py-0.5 rounded bg-black text-amber-300 border border-amber-400 font-black text-[11px]">Đen: Chưa giơ</span>
+            </div>
+            <span className="text-[11px] font-black text-amber-300 bg-amber-500/15 px-2.5 py-0.5 rounded-full border border-amber-500/30">
+              ⚡ Em nào chưa giơ thẻ: nhìn là biết
+            </span>
+          </div>
+
+          {/* Lưới học sinh 4 cột như hình mẫu */}
+          {students.length === 0 ? (
+            <p className="text-sm text-white/60 py-8 text-center">Lớp chưa có học sinh.</p>
+          ) : (
+            <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-2 mt-3 max-h-[520px] overflow-y-auto pr-1">
+              {students.map((s) => {
+                const ans = responses?.get(s.id);
+                const hasAnswered = ans != null;
+                const isCorrect = hasAnswered && ans === q.correct;
+                const sttFormatted = String(s.stt).padStart(2, "0");
+
+                return (
+                  <div
+                    key={s.id}
+                    className={`flex items-center justify-between px-2.5 py-2 rounded-xl transition-all ${
+                      !hasAnswered
+                        ? "bg-black border-2 border-amber-400/90 text-amber-200 shadow-lg shadow-black scale-[0.98]"
+                        : isCorrect
+                        ? "bg-emerald-600 border border-emerald-300 text-white shadow-md shadow-emerald-950/40"
+                        : "bg-rose-600 border border-rose-300 text-white shadow-md shadow-rose-950/40"
+                    }`}
+                    style={{ minHeight: 46 }}
+                  >
+                    <div className="min-w-0 pr-1">
+                      <span className="block truncate text-xs font-black leading-tight text-white">
+                        {sttFormatted} {s.name}
+                      </span>
+                      <span
+                        className={`text-[10px] font-bold ${
+                          !hasAnswered ? "text-amber-300 font-black" : "text-white/80"
+                        }`}
+                      >
+                        {!hasAnswered ? "Chưa giơ thẻ" : isCorrect ? "Đúng ✓" : "Sai ✗"}
+                      </span>
+                    </div>
+
+                    {hasAnswered ? (
+                      <span
+                        className="shrink-0 flex h-6 w-6 items-center justify-center rounded-full bg-white font-black text-xs shadow"
+                        style={{ color: isCorrect ? "#059669" : "#dc2626" }}
+                      >
+                        {ans}
+                      </span>
+                    ) : (
+                      <span className="shrink-0 flex h-6 w-6 items-center justify-center rounded-full bg-neutral-900 border border-amber-400/60 font-black text-[10px] text-amber-400">
+                        —
+                      </span>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
       </div>
     </section>
   );
