@@ -1065,6 +1065,7 @@ function PrintView({
   onGoClasses: () => void;
 }) {
   const [layout, setLayout] = useState<"2" | "1">("2");
+  const [isExportingPDF, setIsExportingPDF] = useState(false);
   const studentsQ = useQuery({
     queryKey: ["students", selectedClass?.id],
     queryFn: () => api.listStudents({ class_id: selectedClass?.id ?? 0 }),
@@ -1135,13 +1136,28 @@ function PrintView({
           </button>
           <button
             type="button"
-            onClick={() => exportCardsToPDF()}
-            className="rounded-xl px-4 py-2 text-sm font-black shadow-md transition active:scale-95 flex items-center gap-1.5"
+            disabled={isExportingPDF}
+            onClick={async () => {
+              if (!students || students.length === 0) {
+                alert("Lớp chưa có học sinh để xuất file PDF.");
+                return;
+              }
+              setIsExportingPDF(true);
+              try {
+                await exportCardsToPDF(selectedClass?.name || "Lop_Hoc", students, layout);
+              } catch (e) {
+                console.error("Lỗi xuất PDF:", e);
+                alert("Có lỗi khi tạo file PDF, vui lòng thử lại.");
+              } finally {
+                setIsExportingPDF(false);
+              }
+            }}
+            className="rounded-xl px-4 py-2 text-sm font-black shadow-md transition active:scale-95 flex items-center gap-1.5 disabled:opacity-60"
             style={{ background: "#DC2626", color: "#fff", minHeight: 44 }}
-            title="Lưu hoặc tải bộ thẻ dưới dạng file PDF chuẩn A4"
+            title="Tải trực tiếp file PDF về máy tính (không cần qua hộp thoại in)"
           >
-            <span>📄</span>
-            <span>Tải file PDF</span>
+            <span>{isExportingPDF ? "⏳" : "📄"}</span>
+            <span>{isExportingPDF ? "Đang tải PDF..." : "Tải file PDF"}</span>
           </button>
           <Btn color="#F97316" onClick={() => window.print()} ariaLabel="In thẻ ra máy in">
             🖨 In thẻ ngay

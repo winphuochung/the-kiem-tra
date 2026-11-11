@@ -1,5 +1,6 @@
 // Helper tiện ích xuất file Word (.doc) và PDF cho ứng dụng "Thẻ Trả Lời"
 import QRCode from "qrcode";
+import { jsPDF } from "jspdf";
 import type { Answer, QuestionShape } from "./api";
 
 // 1. Xuất bộ thẻ in ra file Microsoft Word (.doc) chuẩn A4 với MÃ QR CHÍNH XÁC 100%
@@ -217,9 +218,256 @@ export async function exportCardsToWord(
   URL.revokeObjectURL(url);
 }
 
-// 2. Xuất file PDF (Kích hoạt chuẩn in A4)
-export function exportCardsToPDF() {
-  window.print();
+function drawRoundedRect(
+  ctx: CanvasRenderingContext2D,
+  x: number,
+  y: number,
+  width: number,
+  height: number,
+  radius: number
+) {
+  ctx.beginPath();
+  ctx.moveTo(x + radius, y);
+  ctx.lineTo(x + width - radius, y);
+  ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+  ctx.lineTo(x + width, y + height - radius);
+  ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+  ctx.lineTo(x + radius, y + height);
+  ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+  ctx.lineTo(x, y + radius);
+  ctx.quadraticCurveTo(x, y, x + radius, y);
+  ctx.closePath();
+  ctx.stroke();
+}
+
+// 2. Xuất và TẢI TRỰC TIẾP file PDF (.pdf) chuẩn A4 chất lượng cao
+export async function exportCardsToPDF(
+  className: string,
+  students: { id: number; stt: number; name: string }[],
+  layout: "1" | "2" = "2"
+) {
+  if (!students || students.length === 0) {
+    alert("Chưa có danh sách học sinh để xuất file PDF.");
+    return;
+  }
+
+  const isOneCard = layout === "1";
+  const cardsPerPage = isOneCard ? 1 : 2;
+  const doc = new jsPDF({
+    orientation: "portrait",
+    unit: "mm",
+    format: "a4",
+    compress: true,
+  });
+
+  const canvas = document.createElement("canvas");
+  const ctx = canvas.getContext("2d");
+  if (!ctx) {
+    // Fallback nếu không hỗ trợ canvas
+    window.print();
+    return;
+  }
+
+  // Khổ giấy A4 ở độ phân giải 200 DPI (Sắc nét in ấn chuẩn)
+  const pageWidth = 1654;
+  const pageHeight = 2338;
+  canvas.width = pageWidth;
+  canvas.height = pageHeight;
+
+  let pageIndex = 0;
+
+  for (let i = 0; i < students.length; i += cardsPerPage) {
+    const pageStudents = students.slice(i, i + cardsPerPage);
+    if (pageIndex > 0) {
+      doc.addPage("a4", "portrait");
+    }
+    pageIndex++;
+
+    // Xóa nền trắng
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, pageWidth, pageHeight);
+
+    if (isOneCard) {
+      // 1 THẺ / 1 TỜ A4: MÃ QR BUNG TO KHỔNG LỒ CHIẾM TRỌN TỜ GIẤY A4
+      const student = pageStudents[0];
+      const sttFormatted = String(student.stt).padStart(2, "0");
+      const qrValue = `https://the-kiem-tra.vercel.app/?student_stt=${student.stt}&class=${encodeURIComponent(className)}`;
+
+      const qrDataUrl = await QRCode.toDataURL(qrValue, {
+        width: 1200,
+        margin: 1,
+        errorCorrectionLevel: "M",
+        color: { dark: "#000000", light: "#ffffff" },
+      });
+      const qrImg = await new Promise<HTMLImageElement>((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = qrDataUrl;
+      });
+
+      // Viền thẻ
+      ctx.lineWidth = 9;
+      ctx.strokeStyle = "#000000";
+      drawRoundedRect(ctx, 48, 48, pageWidth - 96, pageHeight - 96, 24);
+
+      // Thông tin học sinh góc trên trái
+      ctx.fillStyle = "#000000";
+      ctx.textAlign = "left";
+      ctx.font = "bold 46px Arial, sans-serif";
+      ctx.fillText(student.name, 92, 125);
+      ctx.fillStyle = "#444444";
+      ctx.font = "bold 32px Arial, sans-serif";
+      ctx.fillText(`Lớp ${className} · Thẻ #${student.stt}`, 92, 175);
+
+      // Chữ A ở trên cùng
+      ctx.fillStyle = "#000000";
+      ctx.textAlign = "center";
+      ctx.font = "bold 130px Arial, sans-serif";
+      ctx.fillText("A", pageWidth / 2, 175);
+
+      // STT ở góc trên phải
+      ctx.textAlign = "right";
+      ctx.font = "bold 105px Arial, sans-serif";
+      ctx.fillText(sttFormatted, pageWidth - 92, 165);
+
+      // Chữ D bên trái
+      ctx.textAlign = "center";
+      ctx.font = "bold 130px Arial, sans-serif";
+      ctx.fillText("D", 120, pageHeight / 2 + 45);
+
+      // MÃ QR KHỔNG LỒ Ở GIỮA
+      const qrSize = 1350;
+      const qrX = (pageWidth - qrSize) / 2;
+      const qrY = (pageHeight - qrSize) / 2;
+      ctx.drawImage(qrImg, qrX, qrY, qrSize, qrSize);
+
+      // Chữ B bên phải
+      ctx.fillText("B", pageWidth - 120, pageHeight / 2 + 45);
+
+      // Ghi chú góc dưới trái
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#666666";
+      ctx.font = "bold 26px Arial, sans-serif";
+      ctx.fillText("Mã to quét xa cả lớp", 92, pageHeight - 85);
+
+      // Chữ C ở dưới cùng
+      ctx.fillStyle = "#000000";
+      ctx.textAlign = "center";
+      ctx.font = "bold 130px Arial, sans-serif";
+      ctx.fillText("C", pageWidth / 2, pageHeight - 80);
+
+      // Ghi chú góc dưới phải
+      ctx.textAlign = "right";
+      ctx.fillStyle = "#666666";
+      ctx.font = "bold 26px Arial, sans-serif";
+      ctx.fillText("Xoay đáp án lên trên ⬆", pageWidth - 92, pageHeight - 85);
+    } else {
+      // 2 THẺ / 1 TỜ A4: MÃ QR BUNG TO CỰC ĐẠI TRÊN CẢ 2 NỬA TRANG
+      const midLineY = pageHeight / 2;
+
+      // Đường cắt ở giữa 2 thẻ
+      ctx.strokeStyle = "#888888";
+      ctx.lineWidth = 3;
+      ctx.setLineDash([12, 12]);
+      ctx.beginPath();
+      ctx.moveTo(40, midLineY);
+      ctx.lineTo(pageWidth - 40, midLineY);
+      ctx.stroke();
+      ctx.setLineDash([]); // Bỏ nét đứt
+
+      ctx.fillStyle = "#666666";
+      ctx.font = "bold 22px Arial, monospace";
+      ctx.textAlign = "center";
+      ctx.fillText("✂ - - - - - - CẮT THEO ĐƯỜNG NÀY ĐỂ TÁCH 2 THẺ - - - - - - ✂", pageWidth / 2, midLineY - 8);
+
+      for (let k = 0; k < pageStudents.length; k++) {
+        const student = pageStudents[k];
+        const cardY = k === 0 ? 44 : midLineY + 28;
+        const cardH = 1085;
+        const sttFormatted = String(student.stt).padStart(2, "0");
+        const qrValue = `https://the-kiem-tra.vercel.app/?student_stt=${student.stt}&class=${encodeURIComponent(className)}`;
+
+        const qrDataUrl = await QRCode.toDataURL(qrValue, {
+          width: 900,
+          margin: 1,
+          errorCorrectionLevel: "M",
+          color: { dark: "#000000", light: "#ffffff" },
+        });
+        const qrImg = await new Promise<HTMLImageElement>((resolve, reject) => {
+          const img = new Image();
+          img.onload = () => resolve(img);
+          img.onerror = reject;
+          img.src = qrDataUrl;
+        });
+
+        // Viền thẻ
+        ctx.lineWidth = 6;
+        ctx.strokeStyle = "#000000";
+        drawRoundedRect(ctx, 44, cardY, pageWidth - 88, cardH, 18);
+
+        // Thông tin học sinh góc trên trái
+        ctx.fillStyle = "#000000";
+        ctx.textAlign = "left";
+        ctx.font = "bold 34px Arial, sans-serif";
+        ctx.fillText(student.name, 80, cardY + 65);
+        ctx.fillStyle = "#444444";
+        ctx.font = "bold 24px Arial, sans-serif";
+        ctx.fillText(`Lớp ${className} · Thẻ #${student.stt}`, 80, cardY + 105);
+
+        // Chữ A ở trên cùng
+        ctx.fillStyle = "#000000";
+        ctx.textAlign = "center";
+        ctx.font = "bold 90px Arial, sans-serif";
+        ctx.fillText("A", pageWidth / 2, cardY + 95);
+
+        // STT góc trên phải
+        ctx.textAlign = "right";
+        ctx.font = "bold 78px Arial, sans-serif";
+        ctx.fillText(sttFormatted, pageWidth - 80, cardY + 85);
+
+        // Chữ D bên trái
+        ctx.textAlign = "center";
+        ctx.font = "bold 90px Arial, sans-serif";
+        ctx.fillText("D", 108, cardY + cardH / 2 + 30);
+
+        // MÃ QR BUNG TO CỰC ĐẠI
+        const qrSize = 855; // 855px out of 1085px height = ~79% chiều cao thẻ!
+        const qrX = (pageWidth - qrSize) / 2;
+        const qrY = cardY + (cardH - qrSize) / 2;
+        ctx.drawImage(qrImg, qrX, qrY, qrSize, qrSize);
+
+        // Chữ B bên phải
+        ctx.fillText("B", pageWidth - 108, cardY + cardH / 2 + 30);
+
+        // Ghi chú góc dưới trái
+        ctx.textAlign = "left";
+        ctx.fillStyle = "#666666";
+        ctx.font = "bold 22px Arial, sans-serif";
+        ctx.fillText("Mã QR to quét nhanh", 80, cardY + cardH - 35);
+
+        // Chữ C ở dưới cùng
+        ctx.fillStyle = "#000000";
+        ctx.textAlign = "center";
+        ctx.font = "bold 90px Arial, sans-serif";
+        ctx.fillText("C", pageWidth / 2, cardY + cardH - 30);
+
+        // Ghi chú góc dưới phải
+        ctx.textAlign = "right";
+        ctx.fillStyle = "#666666";
+        ctx.font = "bold 22px Arial, sans-serif";
+        ctx.fillText("Xoay đáp án lên trên ⬆", pageWidth - 80, cardY + cardH - 35);
+      }
+    }
+
+    // Đưa trang canvas vào PDF
+    const pageJpeg = canvas.toDataURL("image/jpeg", 0.94);
+    doc.addImage(pageJpeg, "JPEG", 0, 0, 210, 297, undefined, "FAST");
+  }
+
+  // TỰ ĐỘNG TẢI FILE PDF XUỐNG MÁY TÍNH CỦA THẦY CÔ
+  const fileName = `The_Tra_Loi_${className.replace(/\s+/g, "_")}_${layout === "1" ? "1the_A4" : "2the_A4"}.pdf`;
+  doc.save(fileName);
 }
 
 // 3. Xuất Đề kiểm tra trắc nghiệm ra file Word (.doc)
