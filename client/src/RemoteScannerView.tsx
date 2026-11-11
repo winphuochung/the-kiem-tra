@@ -461,6 +461,7 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
           <div className="flex items-center gap-1.5 text-[10px] font-bold">
             <span className="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Xanh: Đúng</span>
             <span className="px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-400 border border-rose-500/30">Đỏ: Sai</span>
+            <span className="px-1.5 py-0.5 rounded bg-black text-white border border-neutral-700">Đen: Chưa trả lời</span>
           </div>
         </div>
 
@@ -478,23 +479,21 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
                   key={student.id}
                   className={`flex items-center justify-between p-2 rounded-xl border transition ${
                     !hasAnswered
-                      ? "bg-slate-950/60 border-slate-800"
+                      ? "bg-black border-2 border-neutral-800 text-neutral-300 shadow-md shadow-black"
                       : isCorrect
                       ? "bg-emerald-950/40 border-emerald-500/60 shadow-sm shadow-emerald-950"
                       : "bg-rose-950/40 border-rose-500/60 shadow-sm shadow-rose-950"
                   }`}
                 >
                   <div className="flex items-center gap-2 min-w-0">
-                    <span className="flex items-center justify-center h-6 w-6 rounded-full bg-slate-800 text-[11px] font-bold text-slate-300 shrink-0">
+                    <span className="flex items-center justify-center h-6 w-6 rounded-full bg-neutral-900 text-[11px] font-bold text-slate-300 shrink-0 border border-neutral-800">
                       {student.stt}
                     </span>
                     <div className="min-w-0">
                       <span className="block truncate text-xs font-bold text-slate-200">{student.name}</span>
-                      {hasAnswered && (
-                        <span className="text-[10px] font-black" style={{ color: isCorrect ? "#34d399" : "#fb7185" }}>
-                          {isCorrect ? "Đúng ✓" : "Sai ✗"}
-                        </span>
-                      )}
+                      <span className="text-[10px] font-black" style={{ color: !hasAnswered ? "#a1a1aa" : isCorrect ? "#34d399" : "#fb7185" }}>
+                        {!hasAnswered ? "● Chưa trả lời (Màu đen)" : isCorrect ? "Đúng ✓" : "Sai ✗"}
+                      </span>
                     </div>
                   </div>
 

@@ -1670,7 +1670,7 @@ function PresentPanel({
         {!isLast ? <Btn color="rgba(255,255,255,.15)" onClick={onNext} ariaLabel="Sang câu tiếp theo">Câu tiếp theo →</Btn> : null}
       </div>
 
-      {/* LƯỚI HỌC SINH TRẢ LỜI TRỰC TIẾP TRÊN MÀN HÌNH MÁY TÍNH: XANH = ĐÚNG, ĐỎ = SAI */}
+      {/* LƯỚI HỌC SINH TRẢ LỜI TRỰC TIẾP TRÊN MÀN HÌNH MÁY TÍNH: XANH = ĐÚNG, ĐỎ = SAI, ĐEN = CHƯA TRẢ LỜI */}
       <div className="border-t border-white/10 px-5 pt-5 pb-6 sm:px-8 bg-black/15">
         <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
           <div className="flex flex-wrap items-center gap-2.5">
@@ -1684,11 +1684,15 @@ function PresentPanel({
             <span className="rounded-full bg-rose-500/25 px-3 py-0.5 text-xs font-black text-rose-300 border border-rose-400/40">
               ✗ Sai: {wrongCount} em
             </span>
+            <span className="rounded-full bg-black px-3 py-0.5 text-xs font-black text-neutral-300 border border-neutral-700">
+              ● Chưa trả lời: {students.length - answered} em
+            </span>
           </div>
-          <div className="flex items-center gap-2 text-xs font-bold text-white/80 bg-white/10 px-3 py-1 rounded-full">
+          <div className="flex flex-wrap items-center gap-2 text-xs font-bold text-white/80 bg-white/10 px-3 py-1 rounded-full">
             <span>Qui ước:</span>
-            <span className="px-2 py-0.5 rounded bg-emerald-600 text-white">Màu Xanh = Đúng</span>
-            <span className="px-2 py-0.5 rounded bg-rose-600 text-white">Màu Đỏ = Sai</span>
+            <span className="px-2 py-0.5 rounded bg-emerald-600 text-white font-black">Màu Xanh = Đúng</span>
+            <span className="px-2 py-0.5 rounded bg-rose-600 text-white font-black">Màu Đỏ = Sai</span>
+            <span className="px-2 py-0.5 rounded bg-black text-white border border-neutral-600 font-black">Màu Đen = Chưa trả lời</span>
           </div>
         </div>
 
@@ -1705,18 +1709,26 @@ function PresentPanel({
                   key={s.id}
                   className={`flex items-center justify-between p-2 rounded-xl border transition-all ${
                     !hasAnswered
-                      ? "bg-white/5 border-white/10 text-white/40"
+                      ? "bg-black border-2 border-neutral-800 text-neutral-300 shadow-md shadow-black"
                       : isCorrect
-                      ? "bg-emerald-600 border-emerald-300 text-white shadow-lg shadow-emerald-950/50"
-                      : "bg-rose-600 border-rose-300 text-white shadow-lg shadow-rose-950/50"
+                      ? "bg-emerald-600 border-emerald-300 text-white shadow-lg shadow-emerald-950/50 scale-[1.02]"
+                      : "bg-rose-600 border-rose-300 text-white shadow-lg shadow-rose-950/50 scale-[1.02]"
                   }`}
                 >
                   <div className="min-w-0 pr-1.5">
-                    <span className="block truncate text-xs font-extrabold leading-tight">
+                    <span
+                      className={`block truncate text-xs font-extrabold leading-tight ${
+                        !hasAnswered ? "text-neutral-200" : "text-white"
+                      }`}
+                    >
                       #{s.stt} {s.name}
                     </span>
-                    <span className="text-[10px] font-bold opacity-80">
-                      {!hasAnswered ? "Chưa giơ thẻ" : isCorrect ? "Đúng ✓" : "Sai ✗"}
+                    <span
+                      className={`text-[10px] font-bold ${
+                        !hasAnswered ? "text-neutral-400 font-black" : "opacity-85 font-black"
+                      }`}
+                    >
+                      {!hasAnswered ? "● Chưa trả lời (Đen)" : isCorrect ? "Đúng ✓" : "Sai ✗"}
                     </span>
                   </div>
                   {hasAnswered ? (
@@ -1727,7 +1739,9 @@ function PresentPanel({
                       {ans}
                     </span>
                   ) : (
-                    <span className="shrink-0 text-xs font-bold text-white/20">—</span>
+                    <span className="shrink-0 flex h-7 w-7 items-center justify-center rounded-lg bg-neutral-900 border border-neutral-800 font-bold text-xs text-neutral-500">
+                      —
+                    </span>
                   )}
                 </div>
               );
@@ -1887,6 +1901,7 @@ function ScanPanel({
           <div className="flex items-center gap-1.5 text-[11px] font-bold">
             <span className="px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Xanh: Đúng</span>
             <span className="px-1.5 py-0.5 rounded bg-rose-100 text-rose-800">Đỏ: Sai</span>
+            <span className="px-1.5 py-0.5 rounded bg-black text-white">Đen: Chưa trả lời</span>
           </div>
         </div>
         {students.length === 0 ? (
@@ -1902,16 +1917,17 @@ function ScanPanel({
                   key={s.id}
                   className={seen ? "pop-in" : ""}
                   style={{
-                    border: `2px solid ${!seen ? "#e5e7eb" : isCorrect ? "#059669" : "#dc2626"}`,
-                    background: !seen ? "#fafafa" : isCorrect ? "#ECFDF5" : "#FEF2F2",
+                    border: `2px solid ${!seen ? "#000000" : isCorrect ? "#059669" : "#dc2626"}`,
+                    background: !seen ? "#0a0a0a" : isCorrect ? "#ECFDF5" : "#FEF2F2",
                     borderRadius: 10,
                     padding: "6px 8px",
-                    opacity: seen ? 1 : 0.55,
                   }}
                 >
-                  <span className="block truncate text-xs font-bold">#{s.stt} {s.name}</span>
-                  <span className="text-[11px] font-extrabold" style={{ color: !seen ? "#9ca3af" : isCorrect ? "#059669" : "#dc2626" }}>
-                    {seen && a ? (isCorrect ? `✓ ${a} (Đúng)` : `✗ ${a} (Sai)`) : "Chưa thấy thẻ…"}
+                  <span className="block truncate text-xs font-bold" style={{ color: !seen ? "#ffffff" : "#111827" }}>
+                    #{s.stt} {s.name}
+                  </span>
+                  <span className="text-[11px] font-extrabold" style={{ color: !seen ? "#a1a1aa" : isCorrect ? "#059669" : "#dc2626" }}>
+                    {seen && a ? (isCorrect ? `✓ ${a} (Đúng)` : `✗ ${a} (Sai)`) : "● Chưa trả lời (Màu đen)"}
                   </span>
                 </li>
               );
@@ -2163,19 +2179,22 @@ function ResultsPanel({
               {students.map((s) => {
                 const a = respMap.get(focusQ.id)?.get(s.id) ?? null;
                 const ok = a != null && a === focusQ.correct;
+                const hasAnswered = a != null;
                 return (
                   <li
                     key={s.id}
                     style={{
                       borderRadius: 12,
                       padding: "8px 10px",
-                      border: `2px solid ${a == null ? "#e5e7eb" : ok ? "#22C55E" : "#EF4444"}`,
-                      background: a == null ? "#fafafa" : ok ? "#F0FDF4" : "#FEF2F2",
+                      border: `2px solid ${!hasAnswered ? "#000000" : ok ? "#22C55E" : "#EF4444"}`,
+                      background: !hasAnswered ? "#0a0a0a" : ok ? "#F0FDF4" : "#FEF2F2",
                     }}
                   >
-                    <span className="block truncate text-sm font-bold">#{s.stt} {s.name}</span>
-                    <span className="text-xs font-semibold" style={{ color: a == null ? "#9ca3af" : ok ? "#15803d" : "#b91c1c" }}>
-                      {a == null ? "Chưa trả lời" : ok ? `Chọn ${a} · Đúng ✓` : `Chọn ${a} · Sai ✗`}
+                    <span className="block truncate text-sm font-bold" style={{ color: !hasAnswered ? "#ffffff" : "#111827" }}>
+                      #{s.stt} {s.name}
+                    </span>
+                    <span className="text-xs font-semibold" style={{ color: !hasAnswered ? "#a1a1aa" : ok ? "#15803d" : "#b91c1c" }}>
+                      {!hasAnswered ? "● Chưa trả lời (Màu đen)" : ok ? `Chọn ${a} · Đúng ✓` : `Chọn ${a} · Sai ✗`}
                     </span>
                   </li>
                 );
@@ -2200,7 +2219,7 @@ function ResultsPanel({
                     <span className="block truncate text-sm font-bold">#{ps.s.stt} {ps.s.name}</span>
                     <span className="flex flex-wrap gap-1 pt-0.5" aria-hidden="true">
                       {ps.marks.map((mk) => (
-                        <span key={mk.qid} title={`Câu ${mk.pos}: ${mk.ans ?? "chưa trả lời"}`} className="flex h-5 w-5 items-center justify-center rounded text-[10px] font-black text-white" style={{ background: mk.ans == null ? "#D1D5DB" : mk.ok ? "#22C55E" : "#EF4444" }}>
+                        <span key={mk.qid} title={`Câu ${mk.pos}: ${mk.ans ?? "chưa trả lời"}`} className="flex h-5 w-5 items-center justify-center rounded text-[10px] font-black text-white" style={{ background: mk.ans == null ? "#000000" : mk.ok ? "#22C55E" : "#EF4444" }}>
                           {mk.ans ?? "–"}
                         </span>
                       ))}
