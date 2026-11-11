@@ -1808,6 +1808,10 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
           }
         } else if (msg.type === "GOTO_QUESTION") {
           goto(msg.index);
+        } else if (msg.type === "START_TIMER") {
+          window.dispatchEvent(new CustomEvent("remote_start_timer"));
+        } else if (msg.type === "RESET_TIMER") {
+          window.dispatchEvent(new CustomEvent("remote_reset_timer"));
         } else if (msg.type === "PING") {
           if (dataRef.current) {
             try {
@@ -1969,6 +1973,7 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
           onScan={() => setMode("scan")}
           onNext={() => goto(clampedIdx + 1)}
           isLast={clampedIdx >= questions.length - 1}
+          hostConn={hostConn}
         />
       ) : mode === "scan" ? (
         <ScanPanel key={currentQ.id} sessionId={sessionId} q={currentQ} students={students} existing={respMap.get(currentQ.id)} onDone={() => setMode("results")} onShowQuestionResults={() => { setResultQ(currentQ.id); setMode("results"); }} />
@@ -2160,6 +2165,7 @@ function PresentPanel({
   onScan,
   onNext,
   isLast,
+  hostConn,
 }: {
   q: SQuestion;
   index: number;
@@ -2173,12 +2179,13 @@ function PresentPanel({
   onScan: () => void;
   onNext: () => void;
   isLast: boolean;
+  hostConn?: HostConnection | null;
 }) {
   const [activeTab, setActiveTab] = useState<"question" | "chart">(reveal ? "chart" : "question");
   const [selectedAnswerFilter, setSelectedAnswerFilter] = useState<Answer | "none" | null>(null);
   const [gridCols, setGridCols] = useState<2 | 3 | 4>(3);
 
-  // Đồng hồ đếm ngược thời gian làm bài (Mặc định 10 giây mỗi câu theo yêu cầu)
+  // Đồng hồ đếm ngược thời gian làm bài (Mặc định 10 giây mỗi câu, CHỜ BẤM BẮT ĐẦU)
   const [timerDuration, setTimerDuration] = useState<number>(() => {
     const saved = localStorage.getItem("quiz_timer_sec");
     return saved !== null ? Number(saved) : 10;
@@ -2187,18 +2194,72 @@ function PresentPanel({
     const saved = localStorage.getItem("quiz_timer_sec");
     return saved !== null ? Number(saved) : 10;
   });
-  const [isTimerRunning, setIsTimerRunning] = useState<boolean>(true);
+  // Khởi tạo ở trạng thái CHƯA BẮT ĐẦU (chờ giáo viên bấm Bắt đầu hoặc bấm từ điện thoại)
+  const [hasStarted, setHasStarted] = useState<boolean>(false);
+  const [isTimerRunning, setIsTimerRunning] = useState<boolean>(false);
   const [soundEnabled, setSoundEnabled] = useState<boolean>(() => {
     const saved = localStorage.getItem("quiz_timer_sound");
     return saved !== null ? saved === "true" : true;
   });
   const [showTimerSettings, setShowTimerSettings] = useState<boolean>(false);
 
-  // Tự động đặt lại 10 giây và bắt đầu đếm khi chuyển sang câu hỏi mới
+  // Khi chuyển sang câu hỏi mới, đưa về 10s và ĐỢI GIÁO VIÊN BẤM BẮT ĐẦU (không tự động chạy)
   useEffect(() => {
     setTimeLeft(timerDuration);
-    setIsTimerRunning(timerDuration > 0);
+    setIsTimerRunning(false);
+    setHasStarted(false);
   }, [q.id, timerDuration]);
+
+  const startTimer = () => {
+    if (timerDuration === 0) return;
+    if (timeLeft <= 0) {
+      setTimeLeft(timerDuration);
+    }
+    setHasStarted(true);
+    setIsTimerRunning(true);
+  };
+
+  const pauseTimer = () => {
+    setIsTimerRunning(false);
+  };
+
+  const resetTimer = () => {
+    setTimeLeft(timerDuration);
+    setIsTimerRunning(false);
+    setHasStarted(false);
+  };
+
+  // Lắng nghe lệnh Bắt đầu / Đặt lại đồng hồ từ điện thoại quét mã (PeerJS)
+  useEffect(() => {
+    const handleRemoteStart = () => {
+      startTimer();
+    };
+    const handleRemoteReset = () => {
+      resetTimer();
+    };
+    window.addEventListener("remote_start_timer", handleRemoteStart);
+    window.addEventListener("remote_reset_timer", handleRemoteReset);
+    return () => {
+      window.removeEventListener("remote_start_timer", handleRemoteStart);
+      window.removeEventListener("remote_reset_timer", handleRemoteReset);
+    };
+  }, [timerDuration, timeLeft]);
+
+  // Đồng bộ trạng thái đồng hồ sang điện thoại qua PeerJS để giáo viên theo dõi
+  useEffect(() => {
+    if (hostConn) {
+      try {
+        hostConn.broadcast({
+          type: "TIMER_STATE",
+          isRunning: isTimerRunning,
+          timeLeft,
+          hasStarted,
+        });
+      } catch (err) {
+        // bỏ qua nếu kết nối chưa mở
+      }
+    }
+  }, [hostConn, isTimerRunning, timeLeft, hasStarted]);
 
   // Bộ đếm lùi thời gian
   useEffect(() => {
@@ -2270,24 +2331,41 @@ function PresentPanel({
               </span>
 
               {/* Huy hiệu đồng hồ 10 giây siêu to rõ ngay cạnh Câu X / Total */}
-              <div
-                className={`flex items-center gap-1.5 font-black text-xs sm:text-sm px-3 py-1 rounded-full shadow-lg transition-all duration-300 ${
-                  timerDuration === 0
-                    ? "bg-white/20 text-white"
-                    : timeLeft === 0
-                    ? "bg-rose-600 text-white animate-pulse ring-2 ring-white"
-                    : timeLeft <= 3
-                    ? "bg-rose-500 text-white animate-pulse scale-105"
-                    : timeLeft <= 5
-                    ? "bg-amber-400 text-slate-950 font-black"
-                    : "bg-emerald-400 text-slate-950 font-black"
-                }`}
-              >
-                <span className="text-sm sm:text-base">{timerDuration === 0 ? "⏱️" : timeLeft === 0 ? "⏰" : "⏱️"}</span>
-                <span className="tracking-wider">
-                  {timerDuration === 0 ? "Vô hạn" : timeLeft === 0 ? "HẾT GIỜ (0s)" : `${timeLeft}s`}
-                </span>
-              </div>
+              {timerDuration > 0 ? (
+                !hasStarted ? (
+                  <button
+                    type="button"
+                    onClick={startTimer}
+                    className="flex items-center gap-1.5 font-black text-xs sm:text-sm px-3.5 py-1 rounded-full shadow-lg bg-emerald-500 hover:bg-emerald-400 text-white transition-all duration-300 ring-2 ring-emerald-300 cursor-pointer active:scale-95 animate-pulse"
+                    title="Bấm để bắt đầu tính giờ làm bài"
+                  >
+                    <span className="text-sm">▶</span>
+                    <span className="tracking-wider">BẮT ĐẦU ({timerDuration}s)</span>
+                  </button>
+                ) : (
+                  <div
+                    className={`flex items-center gap-1.5 font-black text-xs sm:text-sm px-3 py-1 rounded-full shadow-lg transition-all duration-300 ${
+                      timeLeft === 0
+                        ? "bg-rose-600 text-white animate-pulse ring-2 ring-white"
+                        : timeLeft <= 3
+                        ? "bg-rose-500 text-white animate-pulse scale-105"
+                        : timeLeft <= 5
+                        ? "bg-amber-400 text-slate-950 font-black"
+                        : "bg-emerald-400 text-slate-950 font-black"
+                    }`}
+                  >
+                    <span className="text-sm sm:text-base">{timeLeft === 0 ? "⏰" : "⏱️"}</span>
+                    <span className="tracking-wider">
+                      {timeLeft === 0 ? "HẾT GIỜ (0s)" : `${timeLeft}s`}
+                    </span>
+                  </div>
+                )
+              ) : (
+                <div className="flex items-center gap-1.5 font-black text-xs sm:text-sm px-3 py-1 rounded-full shadow-lg bg-white/20 text-white">
+                  <span>⏱️</span>
+                  <span>Vô hạn</span>
+                </div>
+              )}
 
               <span className="text-xs font-semibold text-white/70 hidden lg:inline ml-1">
                 Học sinh giơ thẻ: xoay cạnh đáp án lên trên
@@ -2302,18 +2380,25 @@ function PresentPanel({
                   <button
                     type="button"
                     onClick={() => {
-                      if (timeLeft === 0) {
-                        setTimeLeft(timerDuration);
-                        setIsTimerRunning(true);
+                      if (!hasStarted || timeLeft === 0) {
+                        startTimer();
                       } else {
-                        setIsTimerRunning(!isTimerRunning);
+                        if (isTimerRunning) {
+                          pauseTimer();
+                        } else {
+                          startTimer();
+                        }
                       }
                     }}
-                    className="h-7 w-7 rounded-lg bg-white/10 hover:bg-white/20 text-white flex items-center justify-center text-xs transition"
-                    title={isTimerRunning ? "Tạm dừng đồng hồ" : "Tiếp tục đếm ngược"}
-                    aria-label={isTimerRunning ? "Tạm dừng" : "Tiếp tục"}
+                    className={`h-7 px-2.5 rounded-lg flex items-center justify-center text-xs transition font-black ${
+                      !hasStarted
+                        ? "bg-emerald-500 hover:bg-emerald-400 text-white shadow ring-1 ring-emerald-300"
+                        : "bg-white/10 hover:bg-white/20 text-white"
+                    }`}
+                    title={!hasStarted ? "Bắt đầu tính giờ" : isTimerRunning ? "Tạm dừng đồng hồ" : "Tiếp tục đếm ngược"}
+                    aria-label={!hasStarted ? "Bắt đầu" : isTimerRunning ? "Tạm dừng" : "Tiếp tục"}
                   >
-                    {isTimerRunning ? "⏸" : "▶"}
+                    {!hasStarted ? "▶ Bắt đầu" : isTimerRunning ? "⏸" : "▶"}
                   </button>
                 )}
 
@@ -2321,10 +2406,7 @@ function PresentPanel({
                 {timerDuration > 0 && (
                   <button
                     type="button"
-                    onClick={() => {
-                      setTimeLeft(timerDuration);
-                      setIsTimerRunning(true);
-                    }}
+                    onClick={resetTimer}
                     className="h-7 w-7 rounded-lg bg-white/10 hover:bg-white/20 text-white flex items-center justify-center text-xs transition font-black"
                     title={`Đặt lại ${timerDuration} giây`}
                     aria-label="Đặt lại thời gian"
@@ -2339,6 +2421,7 @@ function PresentPanel({
                     type="button"
                     onClick={() => {
                       setTimeLeft((t) => t + 5);
+                      setHasStarted(true);
                       setIsTimerRunning(true);
                     }}
                     className="px-2 py-1 rounded-lg bg-amber-400 text-slate-950 font-black text-[11px] shadow hover:bg-amber-300 transition"
@@ -2422,7 +2505,8 @@ function PresentPanel({
                       onClick={() => {
                         setTimerDuration(sec);
                         setTimeLeft(sec);
-                        setIsTimerRunning(true);
+                        setIsTimerRunning(false);
+                        setHasStarted(false);
                         localStorage.setItem("quiz_timer_sec", String(sec));
                       }}
                       className={`px-2.5 py-1 rounded-lg text-xs font-black transition ${
@@ -2440,6 +2524,7 @@ function PresentPanel({
                       setTimerDuration(0);
                       setTimeLeft(0);
                       setIsTimerRunning(false);
+                      setHasStarted(false);
                       localStorage.setItem("quiz_timer_sec", "0");
                     }}
                     className={`px-2.5 py-1 rounded-lg text-xs font-black transition ${
@@ -2458,6 +2543,33 @@ function PresentPanel({
                 className="text-xs text-white/60 hover:text-white px-2 py-1"
               >
                 ✕ Đóng
+              </button>
+            </div>
+          )}
+
+          {/* Banner BẮT ĐẦU TÍNH GIỜ - Hiện rõ ràng khi chưa bấm bắt đầu */}
+          {!hasStarted && timerDuration > 0 && !reveal && (
+            <div className="mt-3.5 p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-emerald-600/95 via-teal-700/95 to-indigo-800/95 border-2 border-emerald-400 text-white flex flex-wrap items-center justify-between gap-3 shadow-2xl">
+              <div className="flex items-center gap-3">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-emerald-400 text-slate-950 text-2xl shadow font-black">
+                  ⏱️
+                </span>
+                <div>
+                  <h4 className="font-black text-sm sm:text-base uppercase tracking-wider text-emerald-200">
+                    Sẵn sàng làm bài ({timerDuration} giây)
+                  </h4>
+                  <p className="text-xs font-semibold text-white/90">
+                    Thầy cô đọc xong câu hỏi, chuẩn bị điện thoại xong thì bấm <span className="text-amber-300 font-black">"Bắt đầu tính giờ"</span> (ở đây hoặc trên điện thoại) để học sinh bắt đầu giơ thẻ.
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={startTimer}
+                className="px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-sm shadow-xl flex items-center gap-2 transform active:scale-95 transition-all duration-200 ring-2 ring-white cursor-pointer"
+              >
+                <span className="text-base">▶</span>
+                <span>BẮT ĐẦU TÍNH GIỜ ({timerDuration}s)</span>
               </button>
             </div>
           )}
@@ -2498,6 +2610,7 @@ function PresentPanel({
                   type="button"
                   onClick={() => {
                     setTimeLeft(timerDuration);
+                    setHasStarted(true);
                     setIsTimerRunning(true);
                   }}
                   className="px-3 py-2 rounded-xl bg-black/40 hover:bg-black/60 text-white font-bold text-xs transition border border-white/20 active:scale-95"

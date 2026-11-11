@@ -18,6 +18,15 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
   const [students, setStudents] = useState<any[]>([]);
   const [currentIdx, setCurrentIdx] = useState<number>(0);
   const [responsesMap, setResponsesMap] = useState<Map<number, Answer>>(new Map());
+  const [timerState, setTimerState] = useState<{
+    isRunning: boolean;
+    timeLeft: number;
+    hasStarted: boolean;
+  }>({
+    isRunning: false,
+    timeLeft: 10,
+    hasStarted: false,
+  });
 
   const connRef = useRef<RemoteScannerConnection | null>(null);
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -93,6 +102,12 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
             }
             setResponsesMap(m);
             return prevQuestions;
+          });
+        } else if (msg.type === "TIMER_STATE") {
+          setTimerState({
+            isRunning: msg.isRunning,
+            timeLeft: msg.timeLeft,
+            hasStarted: msg.hasStarted,
           });
         }
       },
@@ -455,10 +470,22 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     if (newIdx < 0 || newIdx >= questions.length) return;
     setCurrentIdx(newIdx);
     setResponsesMap(new Map());
+    setTimerState({ isRunning: false, timeLeft: 10, hasStarted: false });
     connRef.current?.send({
       type: "GOTO_QUESTION",
       index: newIdx,
     });
+  };
+
+  // Điều khiển đồng hồ từ xa từ điện thoại
+  const handleRemoteStartTimer = () => {
+    setTimerState((prev) => ({ ...prev, hasStarted: true, isRunning: true, timeLeft: prev.timeLeft <= 0 ? 10 : prev.timeLeft }));
+    connRef.current?.send({ type: "START_TIMER" });
+  };
+
+  const handleRemoteResetTimer = () => {
+    setTimerState({ isRunning: false, timeLeft: 10, hasStarted: false });
+    connRef.current?.send({ type: "RESET_TIMER" });
   };
 
   return (
@@ -529,6 +556,49 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
           >
             Câu tiếp theo ›
           </button>
+        </div>
+
+        {/* Nút điều khiển Đồng hồ tính giờ từ xa */}
+        <div className="mt-2 p-1.5 bg-slate-900 border border-slate-700/60 rounded-xl flex items-center justify-between gap-2 shadow-inner">
+          {!timerState.hasStarted ? (
+            <button
+              type="button"
+              onClick={handleRemoteStartTimer}
+              className="flex-1 py-2 px-3 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-black rounded-lg text-xs shadow flex items-center justify-center gap-1.5 active:scale-95 transition"
+            >
+              <span className="text-sm">▶</span>
+              <span>BẮT ĐẦU TÍNH GIỜ (10s)</span>
+            </button>
+          ) : timerState.timeLeft === 0 ? (
+            <div className="flex-1 flex items-center justify-between gap-2 px-1">
+              <span className="text-xs font-black text-rose-400 flex items-center gap-1 animate-pulse">
+                <span>⏰</span> HẾT GIỜ (0s)
+              </span>
+              <button
+                type="button"
+                onClick={handleRemoteResetTimer}
+                className="py-1 px-3 bg-slate-800 hover:bg-slate-700 text-amber-300 font-bold rounded-lg text-xs border border-amber-400/40 active:scale-95"
+              >
+                ↺ Đặt lại 10s
+              </button>
+            </div>
+          ) : (
+            <div className="flex-1 flex items-center justify-between gap-2 px-1">
+              <div className="flex items-center gap-1.5">
+                <span className="text-sm animate-pulse">⏱️</span>
+                <span className="text-xs font-black text-emerald-400">
+                  Đang làm bài: {timerState.timeLeft}s
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={handleRemoteResetTimer}
+                className="py-1 px-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-lg text-xs active:scale-95"
+              >
+                ↺ Đặt lại
+              </button>
+            </div>
+          )}
         </div>
       </div>
 

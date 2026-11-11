@@ -6,6 +6,9 @@ export type PeerMessage =
   | { type: "SUBMIT_ANSWER"; question_id: number; student_id: number; answer: "A" | "B" | "C" | "D" }
   | { type: "SUBMIT_BATCH"; question_id: number; answers: { student_id: number; answer: "A" | "B" | "C" | "D" }[] }
   | { type: "GOTO_QUESTION"; index: number }
+  | { type: "START_TIMER" }
+  | { type: "RESET_TIMER" }
+  | { type: "TIMER_STATE"; isRunning: boolean; timeLeft: number; hasStarted: boolean }
   | { type: "PING" }
   | { type: "PONG" };
 
