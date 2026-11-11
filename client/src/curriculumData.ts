@@ -16470,6 +16470,1076 @@ export const GRADES_DATA: GradeItem[] = [
             ]
           }
         ]
+      },
+      {
+        "id": "mi-thuat-6",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-6-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Biểu cảm của sắc màu",
+            "title": "Bài 1: Tranh vẽ hoa, quả",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 1: Tranh vẽ hoa, quả), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quan sát mẫu vật, xác định khung hình chung và phối hợp màu sắc nóng - lạnh tạo chiều sâu.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 1: Tranh vẽ hoa, quả\" (Chủ đề 1: Biểu cảm của sắc màu), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Phác nét khái quát, phân chia mảng sáng tối và tô màu chuyển độ mềm mại.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Biểu cảm của sắc màu",
+            "title": "Bài 2: Tranh tĩnh vật hoa và quả",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 2: Tranh tĩnh vật hoa và quả), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nắm vững luật viễn cận, tương quan sáng tối và tương phản giữa các vật mẫu trong tĩnh vật.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 2: Tranh tĩnh vật hoa và quả\" (Chủ đề 1: Biểu cảm của sắc màu), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sắp xếp bố cục hình tam giác hoặc hình bình hành tạo sự vững chãi cho tranh.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Biểu cảm của sắc màu",
+            "title": "Bài 3: Tranh in hoa lá",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 3: Tranh in hoa lá), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tận dụng gân lá, mặt cắt củ quả tự nhiên làm khuôn in tạo hoa văn nhịp điệu phong phú.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 3: Tranh in hoa lá\" (Chủ đề 1: Biểu cảm của sắc màu), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Chấm mực in đều tay lên bề mặt khuôn in và dập nhẹ nhàng lên giấy vẽ.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam",
+            "title": "Bài 4: Khám phá nghệ thuật tiền sử thế giới",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 4: Khám phá nghệ thuật tiền sử thế giới), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nghệ thuật vách đá hang động (hang Lascaux, Altamira) phản ánh tín ngưỡng và cuộc sống săn bắt.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 4: Khám phá nghệ thuật tiền sử thế giới\" (Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sử dụng đất son, than củi kết hợp mỡ động vật tạo màu sắc mộc mạc bền vững.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam",
+            "title": "Bài 5: Hình vẽ người thời tiền sử",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 5: Hình vẽ người thời tiền sử), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đường nét ước lệ, giản lược hoá nhưng giàu sức biểu cảm về tư thế lao động và săn bắt.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 5: Hình vẽ người thời tiền sử\" (Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Khái quát hoá chuyển động của cơ thể qua các nét kỷ hà thanh thoát.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam",
+            "title": "Bài 6: Nghệ thuật tạo hình thời nguyên thủy tại Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 6: Nghệ thuật tạo hình thời nguyên thủy tại Việt Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình khắc mặt người tại hang Đồng Nội (Hòa Bình) - dấu ấn nghệ thuật thời đồ đá mới Việt Nam.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 6: Nghệ thuật tạo hình thời nguyên thủy tại Việt Nam\" (Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tìm hiểu văn hóa Hòa Bình, Bắc Sơn qua các công cụ đá mài và hình khắc vách đá.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Lễ hội quê hương",
+            "title": "Bài 7: Nhân vật với trang phục lễ hội",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 7: Nhân vật với trang phục lễ hội), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Đặc trưng trang phục dân gian truyền thống qua hoa văn, màu sắc tươi vui và nón quai thao.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 7: Nhân vật với trang phục lễ hội\" (Chủ đề 3: Lễ hội quê hương), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Dựng dáng nhân vật múa hát trong trang phục lễ hội truyền thống sống động.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Lễ hội quê hương",
+            "title": "Bài 8: Hoạt cảnh ngày hội quê hương",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 8: Hoạt cảnh ngày hội quê hương), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố cục nhiều nhân vật có nhóm chính - nhóm phụ, diễn tả không khí náo nức ngày xuân.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 8: Hoạt cảnh ngày hội quê hương\" (Chủ đề 3: Lễ hội quê hương), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sử dụng gam màu rực rỡ, ấm cúng và đường nét chuyển động uyển chuyển.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Lễ hội quê hương",
+            "title": "Bài 9: Thiết kế sản phẩm lưu niệm lễ hội",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 9: Thiết kế sản phẩm lưu niệm lễ hội), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tạo hình món quà lưu niệm nhỏ gọn mang biểu tượng đặc trưng văn hoá địa phương.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 9: Thiết kế sản phẩm lưu niệm lễ hội\" (Chủ đề 3: Lễ hội quê hương), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tận dụng vật liệu sẵn có (que tre, nắp chai, đất sét) tạo hình sản phẩm lưu niệm.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam",
+            "title": "Bài 10: Nghệ thuật tạo hình Ai Cập cổ đại",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 10: Nghệ thuật tạo hình Ai Cập cổ đại), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quy tắc tạo hình Ai Cập: mắt và vai chính diện, mặt và chân nhìn nghiêng; công trình Kim Tự Tháp.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 10: Nghệ thuật tạo hình Ai Cập cổ đại\" (Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Nắm bắt tính quy ước nghiêm ngặt và sự vĩnh cửu trong nghệ thuật Ai Cập.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam",
+            "title": "Bài 11: Điêu khắc và kiến trúc Hy Lạp - La Mã cổ đại",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 11: Điêu khắc và kiến trúc Hy Lạp - La Mã cổ đại), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Ba thức cột Doric, Ionic, Corinthian và vẻ đẹp giải phẫu cân đối hoàn mỹ của cơ thể người.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 11: Điêu khắc và kiến trúc Hy Lạp - La Mã cổ đại\" (Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Phân tích nét đẹp hài hoà, mực thước của tượng thần Vệ Nữ và Đấu trường La Mã.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam",
+            "title": "Bài 12: Họa tiết trang trí trên trống đồng Đông Sơn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 12: Họa tiết trang trí trên trống đồng Đông Sơn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Họa tiết ngôi sao nhiều cánh ở tâm, đàn chim Lạc bay và cảnh sinh hoạt giã gạo, chèo thuyền.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 12: Họa tiết trang trí trên trống đồng Đông Sơn\" (Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Mô phỏng lại hoa văn trống đồng Đông Sơn với nét vẽ cân đối, nhịp nhàng.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Tạo hình với vật liệu tái chế",
+            "title": "Bài 13: Tạo hình con vật từ vật liệu đã qua sử dụng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 13: Tạo hình con vật từ vật liệu đã qua sử dụng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tận dụng chai lọ nhựa, nắp chai, lõi giấy tạo hình các con vật ngộ nghĩnh bảo vệ môi trường.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 13: Tạo hình con vật từ vật liệu đã qua sử dụng\" (Chủ đề 5: Tạo hình với vật liệu tái chế), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Gắn kết các khối hình rỗng thành hình dáng con vật sinh động, vững chãi.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Tạo hình với vật liệu tái chế",
+            "title": "Bài 14: Mô hình nhà sàn dân gian từ bìa carton",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 14: Mô hình nhà sàn dân gian từ bìa carton), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cấu trúc nhà sàn truyền thống gồm sàn nâng cao, hệ cột gỗ, mái dốc che mưa và cầu thang.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 14: Mô hình nhà sàn dân gian từ bìa carton\" (Chủ đề 5: Tạo hình với vật liệu tái chế), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Cắt ghép bìa carton theo tỉ lệ mô hình thu nhỏ và trang trí hoa văn nhà sàn.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b15",
+            "number": 15,
+            "chapter": "Chủ đề 6: Nghệ thuật Trung đại Việt Nam",
+            "title": "Bài 15: Nghệ thuật chạm khắc thời Lý - Trần",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 15: Nghệ thuật chạm khắc thời Lý - Trần), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình tượng Rồng thời Lý uốn lượn hình sin mềm mại, thanh thoát không sừng; chùa Một Cột đài sen.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 15: Nghệ thuật chạm khắc thời Lý - Trần\" (Chủ đề 6: Nghệ thuật Trung đại Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Nhận biết nét đẹp tinh tế, thuần khiết thấm nhuần tinh thần Phật giáo Đại Việt.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Nghệ thuật Trung đại Việt Nam",
+            "title": "Bài 16: Điêu khắc gỗ đình làng truyền thống Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 16: Điêu khắc gỗ đình làng truyền thống Việt Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cảnh chạm khắc sinh hoạt dân dã (đánh cờ, chọi gà, chèo thuyền) mộc mạc, hóm hỉnh.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 16: Điêu khắc gỗ đình làng truyền thống Việt Nam\" (Chủ đề 6: Nghệ thuật Trung đại Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Cảm nhận sự tự do, phóng khoáng và tinh thần lạc quan yêu đời của người bình dân.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b17",
+            "number": 17,
+            "chapter": "Chủ đề 7: Gia đình yêu thương",
+            "title": "Bài 17: Tranh chân dung người thân trong gia đình",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 17: Tranh chân dung người thân trong gia đình), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tỉ lệ trục khuôn mặt (mắt ở giữa đầu, mũi giữa mắt và cằm) và biểu cảm yêu thương.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 17: Tranh chân dung người thân trong gia đình\" (Chủ đề 7: Gia đình yêu thương), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Dùng gam màu ấm áp, tươi sáng diễn tả tình cảm gia đình sum vầy.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b18",
+            "number": 18,
+            "chapter": "Chủ đề 7: Gia đình yêu thương",
+            "title": "Bài 18: Tạo hình khung ảnh kỉ niệm sáng tạo",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 18: Tạo hình khung ảnh kỉ niệm sáng tạo), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nguyên tắc trang trí viền khung ảnh hài hoà, tôn vinh hình ảnh kỉ niệm ở trung tâm.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 18: Tạo hình khung ảnh kỉ niệm sáng tạo\" (Chủ đề 7: Gia đình yêu thương), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Đính cúc áo, vỏ sò, dây gai tạo khung ảnh handmade mộc mạc, ý nghĩa.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b19",
+            "number": 19,
+            "chapter": "Chủ đề 8: Thiết kế đồ hoạ",
+            "title": "Bài 19: Thiết kế bìa sách và truyện thiếu nhi",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 19: Thiết kế bìa sách và truyện thiếu nhi), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố cục bìa sách gồm tên sách, tên tác giả, nhà xuất bản và hình minh hoạ đặc sắc.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 19: Thiết kế bìa sách và truyện thiếu nhi\" (Chủ đề 8: Thiết kế đồ hoạ), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Lựa chọn kiểu chữ nghệ thuật phù hợp lứa tuổi thiếu nhi và sắp xếp bố cục cân đối.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-6-b20",
+            "number": 20,
+            "chapter": "Chủ đề 8: Thiết kế đồ hoạ",
+            "title": "Bài 20: Thiết kế thiệp chúc mừng ngày lễ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 6 (Bài 20: Thiết kế thiệp chúc mừng ngày lễ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Ý nghĩa của thông điệp chúc mừng tri ân thầy cô, cha mẹ qua hình tượng hoa tươi và lời chúc.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 20: Thiết kế thiệp chúc mừng ngày lễ\" (Chủ đề 8: Thiết kế đồ hoạ), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tạo thiệp nổi 3D hoặc thiệp gấp hai mặt trang nhã, giàu cảm xúc.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "am-nhac-6",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-6-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Tuổi học trò",
+            "title": "Bài 1: Học hát bài \"Mùa khai trường\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 1: Học hát bài \"Mùa khai trường\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Thể hiện giai điệu rộn ràng, vui tươi, phấn khởi chào đón năm học mới.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Học hát bài \"Mùa khai trường\"\" (Chủ đề 1: Tuổi học trò), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát đúng cao độ, trường độ và phát âm tròn vành rõ chữ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Tuổi học trò",
+            "title": "Bài 2: Nhạc cụ: Gõ đệm tiết tấu và sáo Recorder",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 2: Nhạc cụ: Gõ đệm tiết tấu và sáo Recorder), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tư thế thổi sáo Recorder chuẩn xác (tay trái phía trên bịt lỗ 0, tay phải phía dưới).",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Nhạc cụ: Gõ đệm tiết tấu và sáo Recorder\" (Chủ đề 1: Tuổi học trò), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện gõ đệm thanh phách, tambourine theo tiết tấu nhịp 2/4.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Tuổi học trò",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Thứ tự 7 bậc âm cơ bản Đô - Rê - Mi - Pha - Son - La - Si trên khuông nhạc khoá Son.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" (Chủ đề 1: Tuổi học trò), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Đọc nhạc kết hợp gõ phách đều đặn và đánh dấu nhịp chuẩn xác.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Cuộc sống tươi đẹp",
+            "title": "Bài 4: Học hát bài \"Con đường học trò\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 4: Học hát bài \"Con đường học trò\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Hát liền giọng (legato), tình cảm trong sáng về kỉ niệm bạn bè dưới mái trường.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Học hát bài \"Con đường học trò\"\" (Chủ đề 2: Cuộc sống tươi đẹp), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Lấy hơi đúng chỗ ở cuối mỗi câu hát và mở khẩu hình tròn trịa.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Cuộc sống tươi đẹp",
+            "title": "Bài 5: Lí thuyết âm nhạc: Các thuộc tính cơ bản của âm thanh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 5: Lí thuyết âm nhạc: Các thuộc tính cơ bản của âm thanh), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Bốn thuộc tính cơ bản của âm thanh có tính nhạc: Cao độ, Trường độ, Cường độ và Âm sắc.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Lí thuyết âm nhạc: Các thuộc tính cơ bản của âm thanh\" (Chủ đề 2: Cuộc sống tươi đẹp), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phân biệt âm sắc đặc trưng của các nhạc cụ và giọng hát qua thính giác.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Cuộc sống tươi đẹp",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Thang âm 5 bậc Ngũ cung Đô - Rê - Mi - Son - La mộc mạc đậm chất dân ca.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" (Chủ đề 2: Cuộc sống tươi đẹp), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện cao độ các nốt nhảy quãng 3 và quãng 4 chuẩn xác.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Thầy cô và mái trường",
+            "title": "Bài 7: Học hát bài \"Thầy cô là tất cả\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 7: Học hát bài \"Thầy cô là tất cả\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tình cảm kính trọng, biết ơn sâu sắc của người học trò đối với thầy cô giáo kính yêu.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Học hát bài \"Thầy cô là tất cả\"\" (Chủ đề 3: Thầy cô và mái trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát luyến mượt mà theo dấu luyến trên các ca từ biểu cảm.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Thầy cô và mái trường",
+            "title": "Bài 8: Thường thức âm nhạc: Nhạc sĩ Văn Cao",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 8: Thường thức âm nhạc: Nhạc sĩ Văn Cao), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Cuộc đời và sự nghiệp tác giả bản Quốc ca Việt Nam \"Tiến quân ca\" và các tuyệt phẩm trữ tình.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Thường thức âm nhạc: Nhạc sĩ Văn Cao\" (Chủ đề 3: Thầy cô và mái trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm thụ âm hưởng hào hùng, bất khuất trong ca khúc cách mạng của Văn Cao.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Thầy cô và mái trường",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nốt Trắng có giá trị bằng 2 phách; dấu lặng đen nghỉ 1 phách trong nhịp 2/4.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" (Chủ đề 3: Thầy cô và mái trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Giữ đều nhịp độ (tempo) không bị biến động nhanh chậm bất thường.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Quê hương đất nước",
+            "title": "Bài 10: Học hát bài \"Những nụ cười trở lại\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 10: Học hát bài \"Những nụ cười trở lại\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tình yêu quê hương đất nước, tinh thần lạc quan yêu đời vượt qua thử thách.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Học hát bài \"Những nụ cười trở lại\"\" (Chủ đề 4: Quê hương đất nước), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát to rõ, kết hợp biểu cảm ánh mắt và nụ cười rạng rỡ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Quê hương đất nước",
+            "title": "Bài 11: Nhạc cụ: Kèn phím Melodica",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 11: Nhạc cụ: Kèn phím Melodica), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ thuật bấm ngón tay trên phím đàn kết hợp điều tiết luồng hơi thổi êm dịu, đều đặn.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Nhạc cụ: Kèn phím Melodica\" (Chủ đề 4: Quê hương đất nước), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện chạy ngón 5 nốt liền bậc từ nốt Đô đến nốt Son.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Quê hương đất nước",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Vị trí nốt Đô ở dòng kẻ phụ thứ nhất phía dưới khuông nhạc khoá Son.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" (Chủ đề 4: Quê hương đất nước), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Đọc tiết tấu kết hợp nốt đen, móc đơn và nốt trắng chuẩn xác.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Giai điệu mùa xuân",
+            "title": "Bài 13: Học hát bài \"Mùa xuân tình bạn\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 13: Học hát bài \"Mùa xuân tình bạn\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu tươi vui, ấm áp gắn kết tình bạn thân thiết trong ngày đầu xuân.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Học hát bài \"Mùa xuân tình bạn\"\" (Chủ đề 5: Giai điệu mùa xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Thể hiện cường độ p (nhỏ), f (mạnh) sinh động theo kí hiệu bản nhạc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Giai điệu mùa xuân",
+            "title": "Bài 14: Lí thuyết âm nhạc: Kí hiệu bản nhạc và nhịp 2/4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 14: Lí thuyết âm nhạc: Kí hiệu bản nhạc và nhịp 2/4), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Số chỉ nhịp 2/4: mỗi ô nhịp có 2 phách, mỗi phách bằng một nốt đen (phách 1 mạnh, phách 2 nhẹ).",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Lí thuyết âm nhạc: Kí hiệu bản nhạc và nhịp 2/4\" (Chủ đề 5: Giai điệu mùa xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Nhận biết vạch nhịp, dấu nhắc lại và khung thay đổi 1, 2 trong bản nhạc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Giai điệu mùa xuân",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Dấu chấm dôi làm tăng thêm 1/2 giá trị trường độ của nốt nhạc đứng trước nó.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" (Chủ đề 5: Giai điệu mùa xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện phách nốt đen chấm dôi ngân dài bằng 3 nốt móc đơn.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Tình bạn bốn phương",
+            "title": "Bài 16: Học hát bài \"Hành khúc Đội Thiếu niên Tiền phong\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 16: Học hát bài \"Hành khúc Đội Thiếu niên Tiền phong\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tính chất âm nhạc dứt khoát, khoẻ khoắn, thôi thúc của thể loại hành khúc thiếu nhi.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Học hát bài \"Hành khúc Đội Thiếu niên Tiền phong\"\" (Chủ đề 6: Tình bạn bốn phương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát nhịp nhàng theo bước chân duyệt đội ngũ của Đội Thiếu niên Tiền phong.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Tình bạn bốn phương",
+            "title": "Bài 17: Thường thức âm nhạc: Đàn bầu Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 17: Thường thức âm nhạc: Đàn bầu Việt Nam), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Cây đàn một dây độc nhất vô nhị phát ra bồi âm sâu lắng nhờ cần đàn uốn lượn mềm mại.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức âm nhạc: Đàn bầu Việt Nam\" (Chủ đề 6: Tình bạn bốn phương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Tìm hiểu nghệ thuật gảy que đàn kết hợp chặn bàn tay tạo âm bồi.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Tình bạn bốn phương",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nốt La (khe thứ 2) và nốt Si (dòng kẻ thứ 3) trên khuông nhạc khoá Son.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" (Chủ đề 6: Tình bạn bốn phương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Thực hành đọc nhạc bè hai giọng hòa âm đơn giản.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Gia đình bè bạn",
+            "title": "Bài 19: Học hát bài \"Chỉ có một trên đời\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 19: Học hát bài \"Chỉ có một trên đời\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tình mẫu tử thiêng liêng cao quý, lòng hiếu thảo và biết ơn công lao sinh thành của mẹ.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Học hát bài \"Chỉ có một trên đời\"\" (Chủ đề 7: Gia đình bè bạn), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với cảm xúc lắng đọng, truyền cảm, ngắt câu đúng ý thơ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Gia đình bè bạn",
+            "title": "Bài 20: Nhạc cụ: Thực hành gõ đệm Body Percussion",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 20: Nhạc cụ: Thực hành gõ đệm Body Percussion), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Vận động cơ thể tạo âm thanh gõ đệm: vỗ tay, vỗ đùi, dậm chân theo nhịp điệu bài hát.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Nhạc cụ: Thực hành gõ đệm Body Percussion\" (Chủ đề 7: Gia đình bè bạn), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phối hợp nhịp nhàng giữa vận động thân thể và cảm thụ tiết tấu.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Gia đình bè bạn",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nốt Tròn ngân dài bằng 4 phách (bằng 4 nốt đen) trong nhịp 4/4.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" (Chủ đề 7: Gia đình bè bạn), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Giữ hơi thở đều đặn khi đọc nốt tròn đủ độ dài 4 phách.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Khúc ca mùa hè",
+            "title": "Bài 22: Học hát bài \"Mưa rơi\" (Dân ca Xá)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 22: Học hát bài \"Mưa rơi\" (Dân ca Xá)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Làn điệu dân ca Tây Bắc trong trẻo, ước mong mùa màng tốt tươi ấm no hạnh phúc.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Học hát bài \"Mưa rơi\" (Dân ca Xá)\" (Chủ đề 8: Khúc ca mùa hè), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Thể hiện luyến láy mang phong vị âm nhạc dân gian vùng núi cao.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Khúc ca mùa hè",
+            "title": "Bài 23: Thường thức âm nhạc: Sắc màu dân ca các vùng miền",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 23: Thường thức âm nhạc: Sắc màu dân ca các vùng miền), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Quan họ Bắc Ninh (UNESCO công nhận), Hò và Lí Nam Bộ - di sản âm nhạc quý báu của dân tộc.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Thường thức âm nhạc: Sắc màu dân ca các vùng miền\" (Chủ đề 8: Khúc ca mùa hè), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phân biệt phong cách hát dân ca miền Bắc, miền Trung và miền Nam.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-6-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Khúc ca mùa hè",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 6 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Dấu thăng (#) nâng nốt nhạc lên nửa cung, dấu giáng (b) hạ nốt nhạc xuống nửa cung.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" (Chủ đề 8: Khúc ca mùa hè), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện đọc nốt thăng giáng bất thường với cao độ chuẩn xác.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -20801,6 +21871,980 @@ export const GRADES_DATA: GradeItem[] = [
                 "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
                 "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
                 "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mi-thuat-7",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-7-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Mĩ thuật thế giới thời kì Trung đại",
+            "title": "Bài 1: Khám phá mĩ thuật và kiến trúc Gothic",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 1: Khám phá mĩ thuật và kiến trúc Gothic), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kiến trúc vòm nhọn, tháp cao vút, cửa sổ kính màu hoa hồng lung linh (Nhà thờ Đức Bà Paris).",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 1: Khám phá mĩ thuật và kiến trúc Gothic\" (Chủ đề 1: Mĩ thuật thế giới thời kì Trung đại), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ mô phỏng khung cửa kính màu phong cách Gothic với mảng màu rực rỡ tương phản.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Mĩ thuật thế giới thời kì Trung đại",
+            "title": "Bài 2: Nghệ thuật điêu khắc và tháp Champa ở Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 2: Nghệ thuật điêu khắc và tháp Champa ở Việt Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kiến trúc tháp Chăm xây bằng gạch nung độc đáo và các phù điêu vũ nữ Apsara uyển chuyển.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 2: Nghệ thuật điêu khắc và tháp Champa ở Việt Nam\" (Chủ đề 1: Mĩ thuật thế giới thời kì Trung đại), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Mô phỏng hình tượng điêu khắc Champa với đường nét chạm khắc mềm mại trên đất nặn.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Cuộc sống vui nhộn",
+            "title": "Bài 3: Tạo hình nhân vật trong hoạt cảnh sinh hoạt thiếu nhi",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 3: Tạo hình nhân vật trong hoạt cảnh sinh hoạt thiếu nhi), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Diễn tả động thái chạy, nhảy, đá cầu, chơi đùa của các nhân vật thiếu nhi sinh động.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 3: Tạo hình nhân vật trong hoạt cảnh sinh hoạt thiếu nhi\" (Chủ đề 2: Cuộc sống vui nhộn), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Phối hợp bố cục nhóm nhân vật đa dạng tạo không gian vui tươi rộn rã.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Cuộc sống vui nhộn",
+            "title": "Bài 4: Trang trí quạt giấy truyền thống",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 4: Trang trí quạt giấy truyền thống), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố cục nan quạt hình dẻ quạt đối xứng hoặc tự do với hoa văn hoa sen, phong cảnh quê hương.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 4: Trang trí quạt giấy truyền thống\" (Chủ đề 2: Cuộc sống vui nhộn), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ màu nước tỉ mỉ trên nan giấy quạt nan tre truyền thống.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Di sản mĩ thuật Việt Nam thời kì Trung đại",
+            "title": "Bài 5: Hình tượng con người trong mĩ thuật thời Lê sơ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 5: Hình tượng con người trong mĩ thuật thời Lê sơ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình tượng vua quan, nho sĩ thời Lê sơ trang nghiêm, mực thước gắn với Nho giáo hưng thịnh.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 5: Hình tượng con người trong mĩ thuật thời Lê sơ\" (Chủ đề 3: Di sản mĩ thuật Việt Nam thời kì Trung đại), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Nghiên cứu trang phục áo giao lĩnh, mũ cánh chuồn trên các văn bia và tượng đá thời Lê.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Di sản mĩ thuật Việt Nam thời kì Trung đại",
+            "title": "Bài 6: Chạm khắc gỗ đình làng thế kỉ XVI - XVIII",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 6: Chạm khắc gỗ đình làng thế kỉ XVI - XVIII), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Nghệ thuật chạm lộng, chạm nổi trên các vì kèo, xà nách đình làng miêu tả cuộc sống nông thôn.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 6: Chạm khắc gỗ đình làng thế kỉ XVI - XVIII\" (Chủ đề 3: Di sản mĩ thuật Việt Nam thời kì Trung đại), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Cảm thụ đường nét chạm đục khoẻ khoắn, đậm đà bản sắc thuần khiết dân gian.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Giao thông công cộng",
+            "title": "Bài 7: Vẽ tranh đề tài phương tiện giao thông và an toàn giao thông",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 7: Vẽ tranh đề tài phương tiện giao thông và an toàn giao thông), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tuyên truyền ý thức chấp hành luật giao thông qua hình ảnh xe bus, tàu điện, mũ bảo hiểm.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 7: Vẽ tranh đề tài phương tiện giao thông và an toàn giao thông\" (Chủ đề 4: Giao thông công cộng), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sắp xếp bố cục góc ngã tư đường phố có đèn tín hiệu và người đi bộ trên vạch sang đường.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Giao thông công cộng",
+            "title": "Bài 8: Thiết kế biểu trưng và biển chỉ dẫn giao thông đồ họa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 8: Thiết kế biểu trưng và biển chỉ dẫn giao thông đồ họa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình học tối giản, dễ hiểu, màu sắc tương phản mạnh (đỏ cấm, xanh chỉ dẫn, vàng cảnh báo).",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 8: Thiết kế biểu trưng và biển chỉ dẫn giao thông đồ họa\" (Chủ đề 4: Giao thông công cộng), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Thiết kế biểu tượng đồ họa súc tích, người nhìn nhận biết ngay trong nháy mắt.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Mĩ thuật thế giới thời kì Phục hưng",
+            "title": "Bài 9: Kiệt tác mĩ thuật thời kì Phục hưng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 9: Kiệt tác mĩ thuật thời kì Phục hưng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Thời kì hoàng kim của hội họa với Leonardo da Vinci (Mona Lisa), Michelangelo, Raphael.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 9: Kiệt tác mĩ thuật thời kì Phục hưng\" (Chủ đề 5: Mĩ thuật thế giới thời kì Phục hưng), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Phân tích kĩ thuật vẽ bóng mờ (Sfumato) và luật viễn cận điểm tụ khoa học thời Phục hưng.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Mĩ thuật thế giới thời kì Phục hưng",
+            "title": "Bài 10: Tỉ lệ cơ thể người trong hội hoạ Phục hưng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 10: Tỉ lệ cơ thể người trong hội hoạ Phục hưng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bức vẽ 'Người Vitruvius' của Leonardo da Vinci khẳng định vẻ đẹp hình học hoàn mỹ của con người.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 10: Tỉ lệ cơ thể người trong hội hoạ Phục hưng\" (Chủ đề 5: Mĩ thuật thế giới thời kì Phục hưng), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ phác dáng người đứng thẳng theo tỉ lệ chiều cao bằng 7 đến 7,5 lần chiều dài đầu.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Mĩ thuật hiện đại Việt Nam",
+            "title": "Bài 11: Tranh phong cảnh quê hương bằng màu nước",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 11: Tranh phong cảnh quê hương bằng màu nước), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vẻ đẹp cánh đồng lúa, dòng sông, rặng tre làng quê qua chất liệu màu nước trong trẻo.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 11: Tranh phong cảnh quê hương bằng màu nước\" (Chủ đề 6: Mĩ thuật hiện đại Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Kĩ thuật vẽ ướt trên ướt (wet-on-wet) tạo độ loang tự nhiên của bầu trời và mây nước.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Mĩ thuật hiện đại Việt Nam",
+            "title": "Bài 12: Tranh lụa và tranh sơn mài truyền thống Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 12: Tranh lụa và tranh sơn mài truyền thống Việt Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Chất liệu lụa tơ tằm óng ả (Nguyễn Phan Chánh) và sơn mài mài bóng dát vàng bạc (Nguyễn Gia Trí).",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 12: Tranh lụa và tranh sơn mài truyền thống Việt Nam\" (Chủ đề 6: Mĩ thuật hiện đại Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tìm hiểu quy trình mài ủ sơn then, sơn cánh gián và cẩn vỏ trứng độc đáo.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Thời trang và đời sống",
+            "title": "Bài 13: Thiết kế mẫu trang phục học đường phong cách trẻ trung",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 13: Thiết kế mẫu trang phục học đường phong cách trẻ trung), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kiểu dáng năng động, lịch sự, màu sắc thanh lịch phù hợp lứa tuổi học sinh trung học.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 13: Thiết kế mẫu trang phục học đường phong cách trẻ trung\" (Chủ đề 7: Thời trang và đời sống), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ phác thảo mẫu trang phục trên ma-nơ-canh tỉ lệ chuẩn.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Thời trang và đời sống",
+            "title": "Bài 14: Sáng tạo phụ kiện thời trang từ vật liệu thân thiện môi trường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 14: Sáng tạo phụ kiện thời trang từ vật liệu thân thiện môi trường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tận dụng vải vụn jean, sợi đay, len thừa làm túi xách tote hoặc nơ cài tóc phong cách eco.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 14: Sáng tạo phụ kiện thời trang từ vật liệu thân thiện môi trường\" (Chủ đề 7: Thời trang và đời sống), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Khâu ghép các mảnh vải chắp vá (patchwork) tạo hoa văn hình học độc đáo.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Nghệ thuật chữ trong đời sống",
+            "title": "Bài 15: Sáng tạo các kiểu chữ nghệ thuật trang trí",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 15: Sáng tạo các kiểu chữ nghệ thuật trang trí), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Biến hóa nét chữ hoa văn, chữ 3D đổ bóng, chữ cách điệu nghệ thuật chữ Typography.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 15: Sáng tạo các kiểu chữ nghệ thuật trang trí\" (Chủ đề 8: Nghệ thuật chữ trong đời sống), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Trang trí chữ cái đầu dòng (Drop cap) với hoa lá và đường cong sinh động.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-7-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Nghệ thuật chữ trong đời sống",
+            "title": "Bài 16: Thiết kế áp phích tuyên truyền thông điệp cộng đồng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 7 (Bài 16: Thiết kế áp phích tuyên truyền thông điệp cộng đồng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Áp phích (Poster) cần có câu khẩu hiệu (Slogan) ngắn gọn và hình ảnh đồ họa tác động thị giác mạnh.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 16: Thiết kế áp phích tuyên truyền thông điệp cộng đồng\" (Chủ đề 8: Nghệ thuật chữ trong đời sống), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Bố cục chặt chẽ hướng mắt người xem từ hình ảnh chính đến thông điệp cốt lõi.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "am-nhac-7",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-7-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Khai trường",
+            "title": "Bài 1: Học hát bài \"Khai trường\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 1: Học hát bài \"Khai trường\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Sắc thái vui tươi, rộn ràng, tự tin của ngày hội tựu trường mở đầu năm học mới.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Học hát bài \"Khai trường\"\" (Chủ đề 1: Khai trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát đúng giai điệu tươi sáng và kết hợp gõ đệm phách 1 và 3.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Khai trường",
+            "title": "Bài 2: Lí thuyết âm nhạc: Nhịp 4/4 và cách đánh nhịp 4/4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 2: Lí thuyết âm nhạc: Nhịp 4/4 và cách đánh nhịp 4/4), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhịp 4/4 có 4 phách trong một ô nhịp, mỗi phách bằng một nốt đen: phách 1 mạnh, 2 nhẹ, 3 mạnh vừa, 4 nhẹ.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Lí thuyết âm nhạc: Nhịp 4/4 và cách đánh nhịp 4/4\" (Chủ đề 1: Khai trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Đánh nhịp 4/4 theo sơ đồ: Xuống (1) - Sang trái (2) - Sang phải (3) - Lên (4).",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Khai trường",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc thang âm Đô trưởng với nhịp 4/4 có các nốt trắng và nốt đen tròn phách.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" (Chủ đề 1: Khai trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Giữ đều nhịp độ và ngắt nghỉ đúng các dấu lặng trong bài đọc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Tình bạn",
+            "title": "Bài 4: Học hát bài \"Hát cùng chú ve con\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 4: Học hát bài \"Hát cùng chú ve con\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu rộn ràng, hồn nhiên, vui tươi của tuổi học trò gắn với tiếng ve gọi hè.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Học hát bài \"Hát cùng chú ve con\"\" (Chủ đề 2: Tình bạn), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Lấy hơi nhanh ở các khoảng ngắt giữa câu và mở rộng khoang miệng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Tình bạn",
+            "title": "Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhạc sĩ tài ba với các ca khúc cách mạng, thanh niên xung kích: \"Lên đàng\", \"Hành khúc sinh viên\".",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước\" (Chủ đề 2: Tình bạn), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm nhận hào khí thôi thúc lòng yêu nước và lý tưởng phụng sự non sông.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Tình bạn",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc các nốt nhảy quãng 3 (Đô - Mi, Rê - Pha, Mi - Son) trong giai điệu vui tươi.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" (Chủ đề 2: Tình bạn), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Gõ phách đệm nhẹ nhàng bằng thanh phách hoặc vỗ tay.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Mái trường mến yêu",
+            "title": "Bài 7: Học hát bài \"Khúc ca người thầy\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 7: Học hát bài \"Khúc ca người thầy\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Lòng tri ân sâu sắc trước công lao tận tụy dìu dắt bao thế hệ học sinh của thầy cô giáo.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Học hát bài \"Khúc ca người thầy\"\" (Chủ đề 3: Mái trường mến yêu), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với chất giọng truyền cảm, ấm áp và ngân dài ở các nốt cao cuối câu.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Mái trường mến yêu",
+            "title": "Bài 8: Nhạc cụ: Luyện gõ đệm Tambourine và thanh phách phối bè",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 8: Nhạc cụ: Luyện gõ đệm Tambourine và thanh phách phối bè), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ thuật lắc rung và gõ mặt trống Tambourine phối hợp với tiếng gõ trong của phách tre.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ: Luyện gõ đệm Tambourine và thanh phách phối bè\" (Chủ đề 3: Mái trường mến yêu), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện tập bè đệm nhịp nhàng hòa quyện với giọng hát chính.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Mái trường mến yêu",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Thực hành đọc nhạc nhịp 4/4 kết hợp nốt đen chấm dôi và nốt móc đơn liền kề.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" (Chủ đề 3: Mái trường mến yêu), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Chia nhịp phách chính xác cho trường độ nốt chấm dôi.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "title": "Bài 10: Học hát bài \"Lí kéo chài\" (Dân ca Nam Bộ)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 10: Học hát bài \"Lí kéo chài\" (Dân ca Nam Bộ)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tinh thần lao động hăng say, hào sảng, lạc quan của ngư dân miền sông nước Nam Bộ.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Học hát bài \"Lí kéo chài\" (Dân ca Nam Bộ)\" (Chủ đề 4: Giai điệu quê hương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Thể hiện lối hát đối đáp 'Xướng - Xô' đặc trưng của thể loại Hò và Lí.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "title": "Bài 11: Nhạc cụ dân tộc: Đàn tranh và đàn kìm (đàn nguyệt)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 11: Nhạc cụ dân tộc: Đàn tranh và đàn kìm (đàn nguyệt)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đàn Tranh có 16 dây gảy bằng móng giả; Đàn Kìm có 2 dây thùng đàn tròn như vầng trăng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Nhạc cụ dân tộc: Đàn tranh và đàn kìm (đàn nguyệt)\" (Chủ đề 4: Giai điệu quê hương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phân biệt âm thanh lảnh lót của đàn tranh và tiếng trầm ấm của đàn kìm.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu mang âm hưởng dân ca Nam Bộ với các quãng ngũ cung mượt mà.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" (Chủ đề 4: Giai điệu quê hương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện cao độ nốt luyến dân gian tự nhiên, êm tai.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Chào xuân",
+            "title": "Bài 13: Học hát bài \"Mùa xuân em đến trường\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 13: Học hát bài \"Mùa xuân em đến trường\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Khung cảnh mùa xuân rạng rỡ, chim hót ríu rít trên đường tới lớp học thân quen.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Học hát bài \"Mùa xuân em đến trường\"\" (Chủ đề 5: Chào xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát nẩy (staccato) ở các nốt nhí nhảnh tạo cảm giác bước chân tung tăng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Chào xuân",
+            "title": "Bài 14: Lí thuyết âm nhạc: Dấu nối, dấu luyến và dấu chấm dôi",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 14: Lí thuyết âm nhạc: Dấu nối, dấu luyến và dấu chấm dôi), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Dấu nối liên kết các nốt cùng cao độ; Dấu luyến liên kết nốt khác cao độ hát trong một tiếng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Lí thuyết âm nhạc: Dấu nối, dấu luyến và dấu chấm dôi\" (Chủ đề 5: Chào xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phân biệt sự khác nhau giữa dấu nối trường độ và dấu luyến cao độ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Chào xuân",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu tươi vui mừng mùa xuân với tiết tấu móc đơn chạy liên tục êm đềm.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" (Chủ đề 5: Chào xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Đọc đều tiếng và không bị đuối hơi ở cuối câu nhạc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Âm nhạc thế giới",
+            "title": "Bài 16: Học hát bài \"Santa Lucia\" (Dân ca Ý)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 16: Học hát bài \"Santa Lucia\" (Dân ca Ý)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Vẻ đẹp thơ mộng của vịnh biển Napoli nước Ý qua giai điệu du dương của bài dân ca biển nổi tiếng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Học hát bài \"Santa Lucia\" (Dân ca Ý)\" (Chủ đề 6: Âm nhạc thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát ngân nga mềm mại theo nhịp điệu sóng nước vỗ về mạn thuyền.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Âm nhạc thế giới",
+            "title": "Bài 17: Thường thức âm nhạc: Danh nhân Wolfgang Amadeus Mozart",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 17: Thường thức âm nhạc: Danh nhân Wolfgang Amadeus Mozart), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Thiên tài âm nhạc người Áo, thần đồng sáng tác từ năm 5 tuổi với các bản giao hưởng và opera bất hủ.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức âm nhạc: Danh nhân Wolfgang Amadeus Mozart\" (Chủ đề 6: Âm nhạc thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm thụ âm nhạc trong trẻo, thánh thiện, tràn ngập ánh sáng của Mozart.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Âm nhạc thế giới",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nhạc với kí hiệu sắc thái 'crescendo' (to dần) và 'decrescendo' (nhỏ dần).",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" (Chủ đề 6: Âm nhạc thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Điều tiết âm lượng giọng đọc mềm mại theo đường cong cường độ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Tuổi trẻ và ước mơ",
+            "title": "Bài 19: Học hát bài \"Ước mơ mùa hồng\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 19: Học hát bài \"Ước mơ mùa hồng\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Khát vọng vươn tới tương lai tươi sáng của tuổi trẻ học trò hồn nhiên trong sáng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Học hát bài \"Ước mơ mùa hồng\"\" (Chủ đề 7: Tuổi trẻ và ước mơ), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát bay bổng, truyền cảm hứng và giữ hơi sâu nơi cơ hoành.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Tuổi trẻ và ước mơ",
+            "title": "Bài 20: Hòa tấu nhạc cụ: Sáo Recorder và Melodica",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 20: Hòa tấu nhạc cụ: Sáo Recorder và Melodica), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Sự kết hợp giữa tiếng sáo Recorder trong trẻo và âm thanh dày dặn của kèn phím Melodica.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Hòa tấu nhạc cụ: Sáo Recorder và Melodica\" (Chủ đề 7: Tuổi trẻ và ước mơ), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Lắng nghe bạn diễn để hòa quyện âm lượng hai nhạc cụ ăn khớp.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Tuổi trẻ và ước mơ",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Thực hành đọc nhạc ở giọng La thứ tự nhiên với âm hưởng trữ tình, sâu lắng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" (Chủ đề 7: Tuổi trẻ và ước mơ), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Xác định âm chủ La và các bậc âm ổn định của giọng La thứ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Tiếng ve gọi hè",
+            "title": "Bài 22: Học hát bài \"Hè về trong mắt em\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 22: Học hát bài \"Hè về trong mắt em\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Niềm vui rộn ràng khi bước vào kì nghỉ hè bổ ích sau một năm nỗ lực học tập.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Học hát bài \"Hè về trong mắt em\"\" (Chủ đề 8: Tiếng ve gọi hè), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với nhịp điệu dồn dập, tươi vui và ánh mắt tràn ngập niềm vui.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Tiếng ve gọi hè",
+            "title": "Bài 23: Biểu diễn âm nhạc và tổng kết năm học",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 23: Biểu diễn âm nhạc và tổng kết năm học), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ năng trình diễn sân khấu tự tin: ánh mắt giao lưu, nụ cười và động tác phụ họa phù hợp.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Biểu diễn âm nhạc và tổng kết năm học\" (Chủ đề 8: Tiếng ve gọi hè), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phối hợp ăn ý trong dàn đồng ca và nhóm nhạc cụ biểu diễn báo cáo.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-7-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Tiếng ve gọi hè",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 7 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc tổng hợp các kiến thức trường độ, cao độ và dấu hóa đã học trong chương trình Lớp 7.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" (Chủ đề 8: Tiếng ve gọi hè), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Thể hiện tự tin, diễn cảm toàn bộ bài đọc nhạc tổng kết.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
                 "correct": "A"
               }
             ]
@@ -25286,6 +27330,980 @@ export const GRADES_DATA: GradeItem[] = [
             ]
           }
         ]
+      },
+      {
+        "id": "mi-thuat-8",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-8-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Hình tượng con người trong sáng tạo mĩ thuật",
+            "title": "Bài 1: Vẽ kí hoạ dáng người trong hoạt động thể thao",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 1: Vẽ kí hoạ dáng người trong hoạt động thể thao), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bắt nhịp tư thế chuyển động nhanh (chạy, sút bóng, nhảy cao) qua các đường trục xương sống và tay chân.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 1: Vẽ kí hoạ dáng người trong hoạt động thể thao\" (Chủ đề 1: Hình tượng con người trong sáng tạo mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Phác nhanh bằng nét phóng khoáng, nắm bắt trọng tâm chuyển động trong thời gian ngắn.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Hình tượng con người trong sáng tạo mĩ thuật",
+            "title": "Bài 2: Tạo hình điêu khắc tượng chân dung bạn bè bằng đất nặn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 2: Tạo hình điêu khắc tượng chân dung bạn bè bằng đất nặn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Cấu trúc khối sọ, mặt, mũi, miệng và đặc điểm nhận diện riêng của nhân vật chân dung.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 2: Tạo hình điêu khắc tượng chân dung bạn bè bằng đất nặn\" (Chủ đề 1: Hình tượng con người trong sáng tạo mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Đắp thêm hoặc gọt tỉa khối đất nặn theo các bình diện giải phẫu cơ bản.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống",
+            "title": "Bài 3: Chạm khắc hoa văn trang trí thời Nguyễn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 3: Chạm khắc hoa văn trang trí thời Nguyễn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hoa văn chữ Thọ, hoa lá hóa rồng, bát bửu tinh xảo trên kiến trúc Cố đô Huế và lăng tẩm.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 3: Chạm khắc hoa văn trang trí thời Nguyễn\" (Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Mô phỏng họa tiết cung đình Huế với đường nét trau chuốt, đăng đối nghiêm cẩn.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống",
+            "title": "Bài 4: Gốm mỹ nghệ Bát Tràng và kĩ thuật tạo dáng gốm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 4: Gốm mỹ nghệ Bát Tràng và kĩ thuật tạo dáng gốm), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quy trình tạo hình trên bàn xoay, men lam, men rạn truyền thống và nung lò của gốm Bát Tràng.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 4: Gốm mỹ nghệ Bát Tràng và kĩ thuật tạo dáng gốm\" (Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tạo dáng bình gốm vuốt tay từ đất sét kết hợp trang trí họa tiết men màu.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Mĩ thuật thế giới thời kì Hiện đại",
+            "title": "Bài 5: Trường phái Hội họa Ấn tượng và Hậu ấn tượng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 5: Trường phái Hội họa Ấn tượng và Hậu ấn tượng), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Sự thay đổi ánh sáng thiên nhiên của Claude Monet; bút pháp cuộn xoáy mãnh liệt của Van Gogh.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 5: Trường phái Hội họa Ấn tượng và Hậu ấn tượng\" (Chủ đề 3: Mĩ thuật thế giới thời kì Hiện đại), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Dùng nét cọ rời rạc đắp màu nguyên chất cạnh nhau tạo rung cảm quang học.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Mĩ thuật thế giới thời kì Hiện đại",
+            "title": "Bài 6: Xu hướng Lập thể (Cubism) và Dã thú (Fauvism)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 6: Xu hướng Lập thể (Cubism) và Dã thú (Fauvism)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân rã hình thể thành khối hình học của Picasso; màu sắc bùng nổ giải phóng cảm xúc của Matisse.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 6: Xu hướng Lập thể (Cubism) và Dã thú (Fauvism)\" (Chủ đề 3: Mĩ thuật thế giới thời kì Hiện đại), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sáng tác tranh tĩnh vật phong cách Lập thể nhìn từ nhiều góc độ đồng thời.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Môi trường xanh",
+            "title": "Bài 7: Vẽ tranh cổ động bảo vệ nguồn nước và môi trường sinh thái",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 7: Vẽ tranh cổ động bảo vệ nguồn nước và môi trường sinh thái), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình tượng giọt nước sạch, mầm cây xanh đối lập với ô nhiễm công nghiệp nâng cao ý thức.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 7: Vẽ tranh cổ động bảo vệ nguồn nước và môi trường sinh thái\" (Chủ đề 4: Môi trường xanh), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sử dụng khẩu hiệu sắc sảo kết hợp mảng màu đồ họa phẳng tương phản mạnh mẽ.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Môi trường xanh",
+            "title": "Bài 8: Thiết kế mô hình cây xanh và không gian sinh thái học đường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 8: Thiết kế mô hình cây xanh và không gian sinh thái học đường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quy hoạch tiểu cảnh cây xanh, ghế đá, thùng rác phân loại tạo cảnh quan sư phạm trong lành.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 8: Thiết kế mô hình cây xanh và không gian sinh thái học đường\" (Chủ đề 4: Môi trường xanh), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Dựng sa bàn mô hình không gian xanh bằng xốp, bìa và cành khô tái chế.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Thiết kế công nghiệp",
+            "title": "Bài 9: Thiết kế kiểu dáng đồ gia dụng thông minh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 9: Thiết kế kiểu dáng đồ gia dụng thông minh), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tiêu chí công năng tiện dụng kết hợp thẩm mĩ hiện đại (đèn bàn LED, quạt cầm tay, máy hút bụi).",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 9: Thiết kế kiểu dáng đồ gia dụng thông minh\" (Chủ đề 5: Thiết kế công nghiệp), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ phối cảnh 3 chiều sản phẩm với mặt cắt và chú thích thông số kĩ thuật.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Thiết kế công nghiệp",
+            "title": "Bài 10: Thiết kế mẫu bao bì và nhãn hàng sản phẩm nông sản sạch",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 10: Thiết kế mẫu bao bì và nhãn hàng sản phẩm nông sản sạch), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bao bì bảo quản tốt, thân thiện môi trường, nhãn mác nêu rõ xuất xứ và thương hiệu nông sản.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 10: Thiết kế mẫu bao bì và nhãn hàng sản phẩm nông sản sạch\" (Chủ đề 5: Thiết kế công nghiệp), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Thiết kế bản trải bao bì hộp giấy gấp thông minh có khóa gài không cần keo.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Mĩ thuật Việt Nam giai đoạn 1945 - 1975",
+            "title": "Bài 11: Hình tượng người chiến sĩ cách mạng trong tranh kháng chiến",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 11: Hình tượng người chiến sĩ cách mạng trong tranh kháng chiến), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Vẻ đẹp quả cảm, kiên cường, tình quân dân gắn bó qua tác phẩm của Tô Ngọc Vân, Nguyễn Sáng.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 11: Hình tượng người chiến sĩ cách mạng trong tranh kháng chiến\" (Chủ đề 6: Mĩ thuật Việt Nam giai đoạn 1945 - 1975), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tìm hiểu tác phẩm 'Kết nạp Đảng ở Điện Biên Phủ' và tinh thần chiến đấu anh dũng.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Mĩ thuật Việt Nam giai đoạn 1945 - 1975",
+            "title": "Bài 12: Đề tài lao động sản xuất xây dựng chủ nghĩa xã hội",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 12: Đề tài lao động sản xuất xây dựng chủ nghĩa xã hội), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không khí hăng say cấy lúa, kéo lưới, luyện thép trên công trường miền Bắc sau hòa bình.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 12: Đề tài lao động sản xuất xây dựng chủ nghĩa xã hội\" (Chủ đề 6: Mĩ thuật Việt Nam giai đoạn 1945 - 1975), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Cảm nhận nhịp điệu lạc quan, tràn trề sức sống trong tranh sơn dầu và khắc gỗ.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Thiết kế nội thất",
+            "title": "Bài 13: Vẽ mặt bằng và mô hình không gian phòng học hiện đại",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 13: Vẽ mặt bằng và mô hình không gian phòng học hiện đại), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bố trí bàn ghế, bảng thông minh, ánh sáng tự nhiên và luồng di chuyển thuận tiện.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 13: Vẽ mặt bằng và mô hình không gian phòng học hiện đại\" (Chủ đề 7: Thiết kế nội thất), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ mặt bằng tỉ lệ 1:50 thể hiện vị trí cửa ra vào, cửa sổ và thiết bị lớp học.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Thiết kế nội thất",
+            "title": "Bài 14: Trang trí không gian nội thất sinh hoạt gia đình",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 14: Trang trí không gian nội thất sinh hoạt gia đình), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Sự hài hoà giữa màu sơn tường, rèm cửa, tranh treo tường và đồ gỗ nội thất.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 14: Trang trí không gian nội thất sinh hoạt gia đình\" (Chủ đề 7: Thiết kế nội thất), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Lựa chọn tông màu ấm áp hoặc hiện đại tối giản theo sở thích gia chủ.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Mĩ thuật đương đại thế giới",
+            "title": "Bài 15: Tìm hiểu xu hướng mĩ thuật Pop Art trong đời sống",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 15: Tìm hiểu xu hướng mĩ thuật Pop Art trong đời sống), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Pop Art (Andy Warhol) đưa hình ảnh văn hóa đại chúng, truyện tranh, nhãn hàng thành nghệ thuật.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 15: Tìm hiểu xu hướng mĩ thuật Pop Art trong đời sống\" (Chủ đề 8: Mĩ thuật đương đại thế giới), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sử dụng kĩ thuật in lưới hoặc đồ họa lặp màu rực rỡ phong cách Pop Art.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-8-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Mĩ thuật đương đại thế giới",
+            "title": "Bài 16: Nghệ thuật sắp đặt (Installation Art) và nghệ thuật trình diễn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 8 (Bài 16: Nghệ thuật sắp đặt (Installation Art) và nghệ thuật trình diễn), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tương tác không gian đa chiều, sử dụng âm thanh, ánh sáng và vật thể gợi suy ngẫm nhân sinh.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 16: Nghệ thuật sắp đặt (Installation Art) và nghệ thuật trình diễn\" (Chủ đề 8: Mĩ thuật đương đại thế giới), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Thiết kế ý tưởng sắp đặt một thông điệp xã hội trong không gian lớp học.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "am-nhac-8",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-8-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 1: Học hát bài \"Khúc ca chào ngày mới\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 1: Học hát bài \"Khúc ca chào ngày mới\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu rạng rỡ, tràn đầy năng lượng khởi đầu một năm học nhiều thành tích cao.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Học hát bài \"Khúc ca chào ngày mới\"\" (Chủ đề 1: Chào năm học mới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với hơi thở vững vàng, phát âm nguyên âm mở sáng rõ ràng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 2: Lí thuyết âm nhạc: Gam trưởng, giọng Trưởng và giọng Đô trưởng",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 2: Lí thuyết âm nhạc: Gam trưởng, giọng Trưởng và giọng Đô trưởng), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Gam trưởng gồm 7 bậc âm sắp xếp theo công thức cung và nửa cung: 1 - 1 - 1/2 - 1 - 1 - 1 - 1/2.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Lí thuyết âm nhạc: Gam trưởng, giọng Trưởng và giọng Đô trưởng\" (Chủ đề 1: Chào năm học mới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Xác định nốt chủ Đô và hợp âm chủ Đô - Mi - Son trong giọng Đô trưởng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc chuẩn xác cao độ các bậc âm trong thang âm Đô trưởng kết hợp tiết tấu nhịp 2/4.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" (Chủ đề 1: Chào năm học mới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Gõ phách bằng tay trái kết hợp chỉ nốt nhạc bằng tay phải nhịp nhàng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Âm vang non sông",
+            "title": "Bài 4: Học hát bài \"Hát về tổ quốc hôm nay\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 4: Học hát bài \"Hát về tổ quốc hôm nay\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tự hào về non sông gấm vóc, thành tựu đổi mới và tương lai rạng ngời của đất nước.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Học hát bài \"Hát về tổ quốc hôm nay\"\" (Chủ đề 2: Âm vang non sông), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát giọng ngực đầy đặn, hào sảng và tràn ngập tình yêu Tổ quốc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Âm vang non sông",
+            "title": "Bài 5: Thường thức âm nhạc: Nhạc sĩ Đỗ Nhuận",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 5: Thường thức âm nhạc: Nhạc sĩ Đỗ Nhuận), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tổng thư ký đầu tiên của Hội Nhạc sĩ Việt Nam, tác giả \"Chiến thắng Điện Biên\", \"Du kích sông Thao\".",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Thường thức âm nhạc: Nhạc sĩ Đỗ Nhuận\" (Chủ đề 2: Âm vang non sông), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm thụ âm hưởng hào tráng, lạc quan và tính dân tộc sâu sắc trong tác phẩm Đỗ Nhuận.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Âm vang non sông",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc các nốt có cao độ cao (nốt Đố, Rế) trong giọng Đô trưởng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" (Chủ đề 2: Âm vang non sông), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Mở rộng âm vực giọng đọc tự nhiên không bị gắt tiếng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Tri ân thầy cô",
+            "title": "Bài 7: Học hát bài \"Nhớ ơn thầy cô\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 7: Học hát bài \"Nhớ ơn thầy cô\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu tha thiết, ngọt ngào nhớ về công lao dạy dỗ của thầy cô thuở nào.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Học hát bài \"Nhớ ơn thầy cô\"\" (Chủ đề 3: Tri ân thầy cô), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Xử lí sắc thái nhẹ nhàng ở nốt trầm và ngân vang ở nốt cao xúc động.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Tri ân thầy cô",
+            "title": "Bài 8: Nhạc cụ: Thực hành đệm hát tiết tấu pop ballad trên kèn phím",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 8: Nhạc cụ: Thực hành đệm hát tiết tấu pop ballad trên kèn phím), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Mô hình tiết tấu Pop Ballad êm dịu đệm cho ca khúc tri ân thầy cô.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ: Thực hành đệm hát tiết tấu pop ballad trên kèn phím\" (Chủ đề 3: Tri ân thầy cô), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Bấm hợp âm C - F - G7 mượt mà trên bàn phím kèn Melodica.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Tri ân thầy cô",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nhạc kết hợp chùm 3 nốt móc đơn (Triplets) tạo nhịp điệu sinh động.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" (Chủ đề 3: Tri ân thầy cô), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Chia đều trường độ của 3 nốt trong một phách nhịp.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Sắc màu âm nhạc dân gian",
+            "title": "Bài 10: Học hát bài \"Đi cấy\" (Dân ca Thanh Hóa)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 10: Học hát bài \"Đi cấy\" (Dân ca Thanh Hóa)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Không khí lao động vui vẻ, tươi vui của bà con nông dân trong những ngày mùa cấy lúa.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Học hát bài \"Đi cấy\" (Dân ca Thanh Hóa)\" (Chủ đề 4: Sắc màu âm nhạc dân gian), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với chất giọng dân ca mộc mạc, thể hiện tiếng đệm 'í a' tình cảm.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Sắc màu âm nhạc dân gian",
+            "title": "Bài 11: Thường thức âm nhạc: Dân ca Quan họ Bắc Ninh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 11: Thường thức âm nhạc: Dân ca Quan họ Bắc Ninh), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Lối hát giao duyên truyền thống với các điệu 'La rằng', 'Mười nhớ', trang phục áo tứ thân nón quai thao.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Thường thức âm nhạc: Dân ca Quan họ Bắc Ninh\" (Chủ đề 4: Sắc màu âm nhạc dân gian), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm thụ nét tinh tế, vang, rền, nền, nảy của giọng ca liền anh liền chị.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Sắc màu âm nhạc dân gian",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu mang âm hưởng dân ca đồng bằng Bắc Bộ với các nốt luyến duyên dáng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" (Chủ đề 4: Sắc màu âm nhạc dân gian), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Thực hiện kĩ thuật vuốt nhẹ ngón tay trên sáo Recorder hoặc kèn phím.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Khúc ca xuân",
+            "title": "Bài 13: Học hát bài \"Mùa xuân nho nhỏ\" (Trần Hoàn - Thanh Hải)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 13: Học hát bài \"Mùa xuân nho nhỏ\" (Trần Hoàn - Thanh Hải)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Khát vọng dâng hiến cuộc đời như một mùa xuân nho nhỏ lặng lẽ cho quê hương đất nước.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Học hát bài \"Mùa xuân nho nhỏ\" (Trần Hoàn - Thanh Hải)\" (Chủ đề 5: Khúc ca xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát liền mạch câu thơ trữ tình da diết, nhấn nhá đúng nhịp điệu ca từ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Khúc ca xuân",
+            "title": "Bài 14: Lí thuyết âm nhạc: Giọng La thứ tự nhiên và giọng La thứ hòa âm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 14: Lí thuyết âm nhạc: Giọng La thứ tự nhiên và giọng La thứ hòa âm), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giọng La thứ hòa âm có bậc VII nâng lên nửa cung (nốt Son thăng - G#) tạo sức hút mạnh về nốt chủ La.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Lí thuyết âm nhạc: Giọng La thứ tự nhiên và giọng La thứ hòa âm\" (Chủ đề 5: Khúc ca xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phân biệt màu sắc buồn sâu lắng của giọng La thứ so với vẻ tươi sáng của giọng Đô trưởng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Khúc ca xuân",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Luyện đọc giọng La thứ hòa âm có nốt Son thăng (G#) chuẩn xác cao độ.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" (Chủ đề 5: Khúc ca xuân), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm thụ khoảng cách nửa cung giữa nốt Son thăng và nốt La.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Di sản âm nhạc cổ điển thế giới",
+            "title": "Bài 16: Học hát bài \"Niềm vui thế giới\" (Ode to Joy)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 16: Học hát bài \"Niềm vui thế giới\" (Ode to Joy)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Khúc ca ngợi ca tình huynh đệ muôn người, niềm hạnh phúc và hòa bình nhân loại của Beethoven.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Học hát bài \"Niềm vui thế giới\" (Ode to Joy)\" (Chủ đề 6: Di sản âm nhạc cổ điển thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với tinh thần hào sảng, hùng tráng, phát âm dõng dạc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Di sản âm nhạc cổ điển thế giới",
+            "title": "Bài 17: Thường thức âm nhạc: Danh nhân Ludwig van Beethoven",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 17: Thường thức âm nhạc: Danh nhân Ludwig van Beethoven), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhà soạn nhạc thiên tài người Đức, vượt qua bi kịch mất thính giác để viết nên Giao hưởng số 5 và số 9.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức âm nhạc: Danh nhân Ludwig van Beethoven\" (Chủ đề 6: Di sản âm nhạc cổ điển thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Khâm phục nghị lực phi thường và triết lí nhân văn cao cả trong tác phẩm Beethoven.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Di sản âm nhạc cổ điển thế giới",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc chủ đề giai điệu Giao hưởng số 9 nổi tiếng của Beethoven với nhịp 4/4 đều đặn.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" (Chủ đề 6: Di sản âm nhạc cổ điển thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Giữ vững nhịp phách trang trọng không được giục nhịp.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Tình yêu cuộc sống",
+            "title": "Bài 19: Học hát bài \"Tia nắng hạt mưa\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 19: Học hát bài \"Tia nắng hạt mưa\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Hình tượng ngộ nghĩnh, vui tươi về tình bạn trong sáng tuổi cắp sách đến trường.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Học hát bài \"Tia nắng hạt mưa\"\" (Chủ đề 7: Tình yêu cuộc sống), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát đảo phách (Syncopation) sắc nét, tạo nhịp điệu nhún nhảy thích thú.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Tình yêu cuộc sống",
+            "title": "Bài 20: Nhạc cụ: Kĩ thuật hòa tấu bè sáo Recorder và Melodica",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 20: Nhạc cụ: Kĩ thuật hòa tấu bè sáo Recorder và Melodica), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân chia bè chính đi giai điệu và bè phụ đệm hợp âm rải tạo không gian âm nhạc phong phú.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Nhạc cụ: Kĩ thuật hòa tấu bè sáo Recorder và Melodica\" (Chủ đề 7: Tình yêu cuộc sống), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Lắng nghe bè bạn để điều tiết âm lượng cân bằng giữa hai nhạc cụ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Tình yêu cuộc sống",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Thực hành đọc tiết tấu đảo phách và nghịch phách trong bản nhạc hiện đại.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" (Chủ đề 7: Tình yêu cuộc sống), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Nhấn trọng âm vào nốt đảo phách đúng quy luật âm nhạc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Khúc ca tạm biệt",
+            "title": "Bài 22: Học hát bài \"Mùa hoa phượng nở\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 22: Học hát bài \"Mùa hoa phượng nở\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nỗi niềm xao xuyến khi ve kêu, phượng nở báo hiệu giờ phút chia tay năm học thân thương.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Học hát bài \"Mùa hoa phượng nở\"\" (Chủ đề 8: Khúc ca tạm biệt), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với cảm xúc da diết, nghẹn ngào nhưng vẫn chan chứa niềm tin hẹn ngày gặp lại.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Khúc ca tạm biệt",
+            "title": "Bài 23: Tổng kết hoạt động âm nhạc và biểu diễn nhóm",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 23: Tổng kết hoạt động âm nhạc và biểu diễn nhóm), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tổ chức chương trình văn nghệ tổng kết lớp: phối hợp MC dẫn chương trình, tốp ca, múa phụ hoạ.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Tổng kết hoạt động âm nhạc và biểu diễn nhóm\" (Chủ đề 8: Khúc ca tạm biệt), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Rèn luyện kĩ năng làm việc nhóm và bản lĩnh tự tin trên sân khấu.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-8-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Khúc ca tạm biệt",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 8 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc tổng hợp bài đọc nhạc giọng La thứ kết hợp đánh nhịp 4/4 thành thạo.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" (Chủ đề 8: Khúc ca tạm biệt), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hoàn thành xuất sắc bài đọc nhạc kết thúc năm học lớp 8.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -29497,6 +32515,980 @@ export const GRADES_DATA: GradeItem[] = [
                 "option_b": "Ghi nhớ công thức máy móc không qua kiểm chứng logic.",
                 "option_c": "Làm bài tập ngẫu nhiên không tuân theo các bước quy định.",
                 "option_d": "Bỏ qua các lưu ý quan trọng và điều kiện áp dụng trong SGK.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mi-thuat-9",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mi-thuat-9-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Tỉ lệ vàng trong mĩ thuật",
+            "title": "Bài 1: Khám phá tỉ lệ vàng trong tạo hình và kiến trúc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 1: Khám phá tỉ lệ vàng trong tạo hình và kiến trúc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tỉ lệ vàng phi (xấp xỉ 1:1,618) - quy chuẩn hài hoà thị giác trong kiến trúc Parthenon và cơ thể người.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 1: Khám phá tỉ lệ vàng trong tạo hình và kiến trúc\" (Chủ đề 1: Tỉ lệ vàng trong mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vận dụng quy tắc một phần ba (1/3) đặt điểm nhấn thị giác trong bức tranh.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Tỉ lệ vàng trong mĩ thuật",
+            "title": "Bài 2: Vận dụng bố cục không gian và tỉ lệ vàng trong tranh tĩnh vật",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 2: Vận dụng bố cục không gian và tỉ lệ vàng trong tranh tĩnh vật), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Sắp xếp mẫu tĩnh vật theo đường xoắn ốc Fibonacci dẫn dắt ánh nhìn từ vật phụ tới vật chính.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 2: Vận dụng bố cục không gian và tỉ lệ vàng trong tranh tĩnh vật\" (Chủ đề 1: Tỉ lệ vàng trong mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ phân mảng đậm nhạt tinh tế tạo không gian ba chiều sâu thẳm.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b3",
+            "number": 3,
+            "chapter": "Chủ đề 2: Mĩ thuật đương đại Việt Nam",
+            "title": "Bài 3: Bản sắc văn hoá dân tộc trong tác phẩm tạo hình đương đại",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 3: Bản sắc văn hoá dân tộc trong tác phẩm tạo hình đương đại), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kế thừa chất liệu truyền thống (giấy điệp, lụa, gốm) kết hợp ngôn ngữ tạo hình hiện đại.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 3: Bản sắc văn hoá dân tộc trong tác phẩm tạo hình đương đại\" (Chủ đề 2: Mĩ thuật đương đại Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Khám phá các tác phẩm đương đại giàu bản sắc của các họa sĩ Việt Nam thời kì đổi mới.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Mĩ thuật đương đại Việt Nam",
+            "title": "Bài 4: Tranh chất liệu tổng hợp thể hiện nhịp sống hiện đại",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 4: Tranh chất liệu tổng hợp thể hiện nhịp sống hiện đại), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kết hợp màu acrylic, cát, dây chỉ, giấy báo trên toan tạo bề mặt chất cảm (texture) phong phú.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 4: Tranh chất liệu tổng hợp thể hiện nhịp sống hiện đại\" (Chủ đề 2: Mĩ thuật đương đại Việt Nam), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Thể hiện nhịp sống đô thị sôi động qua các mảng màu đắp nổi ấn tượng.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b5",
+            "number": 5,
+            "chapter": "Chủ đề 3: Thiết kế truyền thông và đa phương tiện",
+            "title": "Bài 5: Thiết kế poster quảng bá di sản văn hoá Việt Nam",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 5: Thiết kế poster quảng bá di sản văn hoá Việt Nam), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quảng bá phố cổ Hội An, Vịnh Hạ Long, Nhã nhạc cung đình Huế bằng ngôn ngữ đồ họa bắt mắt.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 5: Thiết kế poster quảng bá di sản văn hoá Việt Nam\" (Chủ đề 3: Thiết kế truyền thông và đa phương tiện), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Bố cục chữ tiêu đề tương phản nổi bật trên nền hình ảnh di sản giàu tính nghệ thuật.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b6",
+            "number": 6,
+            "chapter": "Chủ đề 3: Thiết kế truyền thông và đa phương tiện",
+            "title": "Bài 6: Thiết kế truyện tranh ngắn và kịch bản phân cảnh (Storyboard)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 6: Thiết kế truyện tranh ngắn và kịch bản phân cảnh (Storyboard)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Phân khung truyện tranh theo nhịp điệu cốt truyện, biểu cảm góc cận, trung, toàn cảnh.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 6: Thiết kế truyện tranh ngắn và kịch bản phân cảnh (Storyboard)\" (Chủ đề 3: Thiết kế truyền thông và đa phương tiện), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Vẽ nhân vật có nét tính cách rõ nét kết hợp bóng thoại lời thoại ngắn gọn.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b7",
+            "number": 7,
+            "chapter": "Chủ đề 4: Kiến trúc và di sản đô thị",
+            "title": "Bài 7: Vẽ kí hoạ góc phố cổ và công trình kiến trúc lịch sử",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 7: Vẽ kí hoạ góc phố cổ và công trình kiến trúc lịch sử), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Bắt trọn mái ngói rêu phong, ban công sắt hoa văn và nhịp sống góc phố Hà Nội, Hội An.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 7: Vẽ kí hoạ góc phố cổ và công trình kiến trúc lịch sử\" (Chủ đề 4: Kiến trúc và di sản đô thị), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Dùng bút sắt, bút kim phác nét ký họa kiến trúc chuẩn xác điểm tụ phối cảnh.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b8",
+            "number": 8,
+            "chapter": "Chủ đề 4: Kiến trúc và di sản đô thị",
+            "title": "Bài 8: Thiết kế mô hình cảnh quan công viên xanh đô thị",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 8: Thiết kế mô hình cảnh quan công viên xanh đô thị), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quy hoạch hài hòa giữa hồ nước, đường dạo bộ, vườn hoa và công trình điêu khắc ngoài trời.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 8: Thiết kế mô hình cảnh quan công viên xanh đô thị\" (Chủ đề 4: Kiến trúc và di sản đô thị), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Dựng mô hình cảnh quan đô thị thu nhỏ tỉ lệ 1:100 bằng vật liệu mô hình kiến trúc.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b9",
+            "number": 9,
+            "chapter": "Chủ đề 5: Hướng nghiệp trong lĩnh vực mĩ thuật",
+            "title": "Bài 9: Khám phá các ngành nghề mĩ thuật ứng dụng và thiết kế đồ họa",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 9: Khám phá các ngành nghề mĩ thuật ứng dụng và thiết kế đồ họa), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Các lĩnh vực nghề nghiệp: Thiết kế đồ họa (Graphic Design), Thiết kế thời trang, Nội thất, Đồ chơi, Hoạt hình.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 9: Khám phá các ngành nghề mĩ thuật ứng dụng và thiết kế đồ họa\" (Chủ đề 5: Hướng nghiệp trong lĩnh vực mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tìm hiểu yêu cầu phẩm chất tư duy sáng tạo và kĩ năng máy tính trong ngành thiết kế.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b10",
+            "number": 10,
+            "chapter": "Chủ đề 5: Hướng nghiệp trong lĩnh vực mĩ thuật",
+            "title": "Bài 10: Xây dựng hồ sơ năng lực mĩ thuật cá nhân (Portfolio)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 10: Xây dựng hồ sơ năng lực mĩ thuật cá nhân (Portfolio)), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tập hợp các tác phẩm xuất sắc nhất, sắp xếp khoa học kèm bản thuyết minh ý tưởng sáng tác.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 10: Xây dựng hồ sơ năng lực mĩ thuật cá nhân (Portfolio)\" (Chủ đề 5: Hướng nghiệp trong lĩnh vực mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Trình bày Portfolio chuyên nghiệp chuẩn bị cho các kì thi năng khiếu hoặc tuyển sinh.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b11",
+            "number": 11,
+            "chapter": "Chủ đề 6: Văn hoá và lễ hội các dân tộc",
+            "title": "Bài 11: Hoa văn và sắc màu trang phục thổ cẩm các dân tộc",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 11: Hoa văn và sắc màu trang phục thổ cẩm các dân tộc), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Họa tiết hình thoi, zíc zắc dệt hoa văn thổ cẩm của đồng bào H'Mông, Dao, Thái, Ba Na.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 11: Hoa văn và sắc màu trang phục thổ cẩm các dân tộc\" (Chủ đề 6: Văn hoá và lễ hội các dân tộc), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sáng tạo họa tiết trang trí ứng dụng hoa văn thổ cẩm trên đồ dùng cá nhân.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b12",
+            "number": 12,
+            "chapter": "Chủ đề 6: Văn hoá và lễ hội các dân tộc",
+            "title": "Bài 12: Hoạt cảnh không gian lễ hội cồng chiêng Tây Nguyên",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 12: Hoạt cảnh không gian lễ hội cồng chiêng Tây Nguyên), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO vinh danh) bên đống lửa nhà rông rực sáng.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 12: Hoạt cảnh không gian lễ hội cồng chiêng Tây Nguyên\" (Chủ đề 6: Văn hoá và lễ hội các dân tộc), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tạo hình bức tranh hoành tráng miêu tả vòng xoang múa uyển chuyển quanh ché rượu cần.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b13",
+            "number": 13,
+            "chapter": "Chủ đề 7: Nhiếp ảnh và tạo hình ánh sáng",
+            "title": "Bài 13: Bố cục một phần ba và góc chụp nghệ thuật trong nhiếp ảnh",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 13: Bố cục một phần ba và góc chụp nghệ thuật trong nhiếp ảnh), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Quy tắc điểm vàng trong khung ngắm máy ảnh, góc chụp từ dưới lên (tôn nghiêm) hoặc từ trên xuống.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 13: Bố cục một phần ba và góc chụp nghệ thuật trong nhiếp ảnh\" (Chủ đề 7: Nhiếp ảnh và tạo hình ánh sáng), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tận dụng ánh sáng tự nhiên ngược sáng (Silhouette) tạo bóng đen nghệ thuật.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b14",
+            "number": 14,
+            "chapter": "Chủ đề 7: Nhiếp ảnh và tạo hình ánh sáng",
+            "title": "Bài 14: Nghệ thuật điêu khắc ánh sáng và bóng đổ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 14: Nghệ thuật điêu khắc ánh sáng và bóng đổ), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Tạo hình vật thể rỗng để khi chiếu đèn sẽ tạo ra hình bóng đổ kì diệu trên vách tường.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 14: Nghệ thuật điêu khắc ánh sáng và bóng đổ\" (Chủ đề 7: Nhiếp ảnh và tạo hình ánh sáng), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Sắp đặt các tấm bìa khoét thủng tạo bóng kể chuyện bóng rối hiện đại.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b15",
+            "number": 15,
+            "chapter": "Chủ đề 8: Triển lãm và đánh giá tác phẩm mĩ thuật",
+            "title": "Bài 15: Tổ chức không gian trưng bày triển lãm mĩ thuật học đường",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 15: Tổ chức không gian trưng bày triển lãm mĩ thuật học đường), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Lắp đặt giá trưng bày tranh, gắn nhãn tên tác giả - tác phẩm, bố trí ánh sáng chiếu rọi tranh trọng tâm.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 15: Tổ chức không gian trưng bày triển lãm mĩ thuật học đường\" (Chủ đề 8: Triển lãm và đánh giá tác phẩm mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Thiết kế thiệp mời và sơ đồ tham quan triển lãm khoa học.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "mi-thuat-9-b16",
+            "number": 16,
+            "chapter": "Chủ đề 8: Triển lãm và đánh giá tác phẩm mĩ thuật",
+            "title": "Bài 16: Thuyết trình cảm thụ và phê bình tác phẩm mĩ thuật",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Mĩ thuật Lớp 9 (Bài 16: Thuyết trình cảm thụ và phê bình tác phẩm mĩ thuật), kiến thức trọng tâm cần nắm vững là gì?",
+                "option_a": "Kĩ năng diễn đạt cảm xúc thẩm mĩ, phân tích màu sắc, đường nét và thông điệp nhân văn của bức tranh.",
+                "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+                "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+                "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành sáng tạo nghệ thuật trong \"Bài 16: Thuyết trình cảm thụ và phê bình tác phẩm mĩ thuật\" (Chủ đề 8: Triển lãm và đánh giá tác phẩm mĩ thuật), kĩ năng cốt lõi cần phát huy là:",
+                "option_a": "Tiếp nhận đóng góp tích cực và hoàn thiện tư duy cảm thụ nghệ thuật.",
+                "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+                "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+                "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+                "correct": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "am-nhac-9",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "am-nhac-9-b1",
+            "number": 1,
+            "chapter": "Chủ đề 1: Vui bước đến trường",
+            "title": "Bài 1: Học hát bài \"Khát vọng tuổi trẻ\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 1: Học hát bài \"Khát vọng tuổi trẻ\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu sục sôi, hào hùng, thôi thúc tinh thần cống hiến: 'Đừng hỏi Tổ quốc đã làm gì cho ta...'.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 1: Học hát bài \"Khát vọng tuổi trẻ\"\" (Chủ đề 1: Vui bước đến trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với chất giọng khỏe khoắn, dứt khoát, kết hợp ánh mắt kiên định.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b2",
+            "number": 2,
+            "chapter": "Chủ đề 1: Vui bước đến trường",
+            "title": "Bài 2: Lí thuyết âm nhạc: Khái niệm về Quãng và Hợp âm ba",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 2: Lí thuyết âm nhạc: Khái niệm về Quãng và Hợp âm ba), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Quãng là khoảng cách cao độ giữa hai âm; Hợp âm ba gồm 3 âm xếp chồng lên nhau theo quãng 3.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 2: Lí thuyết âm nhạc: Khái niệm về Quãng và Hợp âm ba\" (Chủ đề 1: Vui bước đến trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Xác định quãng 2, quãng 3, quãng 4, quãng 5 và cấu tạo hợp âm Đô trưởng (C) = C - E - G.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b3",
+            "number": 3,
+            "chapter": "Chủ đề 1: Vui bước đến trường",
+            "title": "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 3: Đọc nhạc: Bài đọc nhạc số 1), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nhạc với các quãng nhảy quãng 4 và quãng 5 chuẩn xác cao độ.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 3: Đọc nhạc: Bài đọc nhạc số 1\" (Chủ đề 1: Vui bước đến trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện phách đảo phách kết hợp gõ đệm tiết tấu hiện đại.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b4",
+            "number": 4,
+            "chapter": "Chủ đề 2: Tình yêu quê hương",
+            "title": "Bài 4: Học hát bài \"Bài ca đất phương Nam\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 4: Học hát bài \"Bài ca đất phương Nam\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Âm hưởng hào sảng, mênh mang đậm chất đờn ca tài tử của vùng đất phương Nam mở cõi.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 4: Học hát bài \"Bài ca đất phương Nam\"\" (Chủ đề 2: Tình yêu quê hương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyến giọng ngọt ngào ở các nốt luyến dân ca đặc trưng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b5",
+            "number": 5,
+            "chapter": "Chủ đề 2: Tình yêu quê hương",
+            "title": "Bài 5: Thường thức âm nhạc: Đờn ca tài tử Nam Bộ",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 5: Thường thức âm nhạc: Đờn ca tài tử Nam Bộ), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Di sản văn hóa phi vật thể của nhân loại với dàn ngũ tuyệt (tranh, tì, kìm, nhị, bầu) và 'Dạ cổ hoài lang'.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 5: Thường thức âm nhạc: Đờn ca tài tử Nam Bộ\" (Chủ đề 2: Tình yêu quê hương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Tìm hiểu phong cách đờn ca tài tử ngẫu hứng tài hoa giữa lòng người bình dị.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b6",
+            "number": 6,
+            "chapter": "Chủ đề 2: Tình yêu quê hương",
+            "title": "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 6: Đọc nhạc: Bài đọc nhạc số 2), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu mang âm hưởng phương Nam với thang âm ngũ cung oán nồng nàn.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 6: Đọc nhạc: Bài đọc nhạc số 2\" (Chủ đề 2: Tình yêu quê hương), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Rèn luyện kĩ năng rung giọng nhẹ nhàng ở nốt kết.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b7",
+            "number": 7,
+            "chapter": "Chủ đề 3: Nắng ấm sân trường",
+            "title": "Bài 7: Học hát bài \"Bụi phấn\" (Vũ Hoàng - Lê Văn Lộc)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 7: Học hát bài \"Bụi phấn\" (Vũ Hoàng - Lê Văn Lộc)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Tình cảm kính yêu vô bờ bến với thầy giáo tóc bạc phơ vì bụi phấn rơi trên bục giảng.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 7: Học hát bài \"Bụi phấn\" (Vũ Hoàng - Lê Văn Lộc)\" (Chủ đề 3: Nắng ấm sân trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với chất giọng lắng đọng, truyền cảm, lay động lòng người.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b8",
+            "number": 8,
+            "chapter": "Chủ đề 3: Nắng ấm sân trường",
+            "title": "Bài 8: Nhạc cụ: Thực hành đệm hòa thanh ca khúc tri ân",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 8: Nhạc cụ: Thực hành đệm hòa thanh ca khúc tri ân), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Phối hợp các hợp âm C - Am - Dm - G7 tạo vòng hòa âm Pop Ballad đệm hát ngọt ngào.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 8: Nhạc cụ: Thực hành đệm hòa thanh ca khúc tri ân\" (Chủ đề 3: Nắng ấm sân trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Chuyển hợp âm dứt khoát trên phím đàn hoặc dây đàn guitar.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b9",
+            "number": 9,
+            "chapter": "Chủ đề 3: Nắng ấm sân trường",
+            "title": "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 9: Đọc nhạc: Bài đọc nhạc số 3), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nhạc ở giọng Rê thứ tự nhiên với nốt Si giáng (Bb) ở đầu khuông nhạc.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 9: Đọc nhạc: Bài đọc nhạc số 3\" (Chủ đề 3: Nắng ấm sân trường), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm nhận màu sắc trữ tình u buồn sâu lắng của giọng Rê thứ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b10",
+            "number": 10,
+            "chapter": "Chủ đề 4: Giai điệu tự hào",
+            "title": "Bài 10: Học hát bài \"Tiến quân ca\" (Quốc ca Việt Nam)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 10: Học hát bài \"Tiến quân ca\" (Quốc ca Việt Nam)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Phong cách thể hiện trang nghiêm, hào hùng, đĩnh đạc, thể hiện khí phách dân tộc bất khuất.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 10: Học hát bài \"Tiến quân ca\" (Quốc ca Việt Nam)\" (Chủ đề 4: Giai điệu tự hào), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát dõng dạc, đứng nghiêm trang mắt hướng về Quốc kỳ.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b11",
+            "number": 11,
+            "chapter": "Chủ đề 4: Giai điệu tự hào",
+            "title": "Bài 11: Lịch sử ra đời bài hát \"Tiến quân ca\" của nhạc sĩ Văn Cao",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 11: Lịch sử ra đời bài hát \"Tiến quân ca\" của nhạc sĩ Văn Cao), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Ra đời mùa đông năm 1944 tại căn gác nhỏ Hà Nội, đồng hành cùng Cách mạng Tháng Tám 1945.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 11: Lịch sử ra đời bài hát \"Tiến quân ca\" của nhạc sĩ Văn Cao\" (Chủ đề 4: Giai điệu tự hào), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hiểu rõ ý nghĩa lịch sử thiêng liêng của bài Quốc ca trong lòng mỗi người dân Việt Nam.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b12",
+            "number": 12,
+            "chapter": "Chủ đề 4: Giai điệu tự hào",
+            "title": "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 12: Đọc nhạc: Bài đọc nhạc số 4), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc tiết tấu chấm dôi hành khúc khỏe khoắn, dứt khoát trong nhịp 2/4.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 12: Đọc nhạc: Bài đọc nhạc số 4\" (Chủ đề 4: Giai điệu tự hào), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Đánh nhịp 2/4 dứt khoát, cánh tay vuông góc nhịp nhàng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b13",
+            "number": 13,
+            "chapter": "Chủ đề 5: Chào xuân mới",
+            "title": "Bài 13: Học hát bài \"Mùa xuân đầu tiên\" (Nhạc sĩ Văn Cao)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 13: Học hát bài \"Mùa xuân đầu tiên\" (Nhạc sĩ Văn Cao)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu van-xơ (waltz) nhẹ nhàng, êm dịu đón mùa xuân hòa bình thống nhất non sông.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 13: Học hát bài \"Mùa xuân đầu tiên\" (Nhạc sĩ Văn Cao)\" (Chủ đề 5: Chào xuân mới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát theo nhịp 3/4 đu đưa dập dềnh như cánh én chao lượn trên đồng lúa.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b14",
+            "number": 14,
+            "chapter": "Chủ đề 5: Chào xuân mới",
+            "title": "Bài 14: Lí thuyết âm nhạc: Nhịp 3/4 và nhịp 6/8 trong ca khúc trữ tình",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 14: Lí thuyết âm nhạc: Nhịp 3/4 và nhịp 6/8 trong ca khúc trữ tình), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhịp 3/4 có 3 phách nốt đen (mạnh - nhẹ - nhẹ); Nhịp 6/8 có 6 phách nốt móc đơn nhịp nhàng như sóng nước.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 14: Lí thuyết âm nhạc: Nhịp 3/4 và nhịp 6/8 trong ca khúc trữ tình\" (Chủ đề 5: Chào xuân mới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phân biệt cảm giác nhịp 3/4 điệu Valse và nhịp 6/8 điệu Barcarolle.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b15",
+            "number": 15,
+            "chapter": "Chủ đề 5: Chào xuân mới",
+            "title": "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 15: Đọc nhạc: Bài đọc nhạc số 5), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc nhạc theo nhịp 3/4 kết hợp đánh nhịp tam giác: Xuống (1) - Ra ngoài (2) - Lên (3).",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 15: Đọc nhạc: Bài đọc nhạc số 5\" (Chủ đề 5: Chào xuân mới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Nhấn rõ trọng âm vào phách 1 của từng ô nhịp.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b16",
+            "number": 16,
+            "chapter": "Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới",
+            "title": "Bài 16: Học hát bài \"Bài ca hi vọng\" (Nhạc sĩ Văn Ký)",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 16: Học hát bài \"Bài ca hi vọng\" (Nhạc sĩ Văn Ký)), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Giai điệu vút cao tràn đầy niềm tin vào ngày mai tươi sáng của đất nước hòa bình.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 16: Học hát bài \"Bài ca hi vọng\" (Nhạc sĩ Văn Ký)\" (Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Xử lí kĩ thuật hát giọng pha và mở rộng lồng ngực đón các nốt cao thánh thót.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b17",
+            "number": 17,
+            "chapter": "Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới",
+            "title": "Bài 17: Thường thức âm nhạc: Danh nhân Frédéric Chopin",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 17: Thường thức âm nhạc: Danh nhân Frédéric Chopin), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Nhà soạn nhạc Ba Lan - 'Nhà thơ của cây đàn piano' với các bản Nocturne, Polonaise nồng nàn tình quê hương.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 17: Thường thức âm nhạc: Danh nhân Frédéric Chopin\" (Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Cảm nhận tâm hồn lãng mạn, tinh tế và nỗi nhớ quê hương cháy bỏng của Chopin.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b18",
+            "number": 18,
+            "chapter": "Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới",
+            "title": "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 18: Đọc nhạc: Bài đọc nhạc số 6), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu Nocturne du dương, êm đềm với các nốt luyến uyển chuyển.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 18: Đọc nhạc: Bài đọc nhạc số 6\" (Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Luyện giữ trường độ ngân dài cuối câu nhạc lắng đọng.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b19",
+            "number": 19,
+            "chapter": "Chủ đề 7: Nhịp điệu tương lai",
+            "title": "Bài 19: Học hát bài \"Bay vào tương lai\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 19: Học hát bài \"Bay vào tương lai\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Âm hưởng nhạc Pop hiện đại, sôi nổi, cổ vũ thế hệ trẻ bước vào kỉ nguyên số và hội nhập quốc tế.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 19: Học hát bài \"Bay vào tương lai\"\" (Chủ đề 7: Nhịp điệu tương lai), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với nhịp điệu nhanh, tiết tấu điện tử sôi động và thần thái tự tin.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b20",
+            "number": 20,
+            "chapter": "Chủ đề 7: Nhịp điệu tương lai",
+            "title": "Bài 20: Thường thức âm nhạc: Tìm hiểu thể loại Nhạc kịch (Musical) và Opera",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 20: Thường thức âm nhạc: Tìm hiểu thể loại Nhạc kịch (Musical) và Opera), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Opera là kịch hát cổ điển kết hợp thanh nhạc bác học; Musical là nhạc kịch Broadway kết hợp vũ đạo hiện đại.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 20: Thường thức âm nhạc: Tìm hiểu thể loại Nhạc kịch (Musical) và Opera\" (Chủ đề 7: Nhịp điệu tương lai), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Phân biệt lối hát kịch cổ điển Bel Canto và lối hát nhạc kịch hiện đại.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b21",
+            "number": 21,
+            "chapter": "Chủ đề 7: Nhịp điệu tương lai",
+            "title": "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 21: Đọc nhạc: Bài đọc nhạc số 7), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc giai điệu nhạc kịch với tiết tấu biến tấu sinh động và nhiều dấu hóa bất thường.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 21: Đọc nhạc: Bài đọc nhạc số 7\" (Chủ đề 7: Nhịp điệu tương lai), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Chuyển đổi linh hoạt giữa các sắc thái cường độ âm thanh.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b22",
+            "number": 22,
+            "chapter": "Chủ đề 8: Khúc ca trưởng thành",
+            "title": "Bài 22: Học hát bài \"Tạm biệt mái trường\"",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 22: Học hát bài \"Tạm biệt mái trường\"), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Xúc cảm thiêng liêng khi hoàn thành 4 năm trung học cơ sở, chuẩn bị bước vào ngưỡng cửa THPT.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 22: Học hát bài \"Tạm biệt mái trường\"\" (Chủ đề 8: Khúc ca trưởng thành), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Hát với tất cả tình yêu thương, lưu luyến bạn bè thầy cô và mái trường mến yêu.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b23",
+            "number": 23,
+            "chapter": "Chủ đề 8: Khúc ca trưởng thành",
+            "title": "Bài 23: Định hướng nghề nghiệp trong lĩnh vực âm nhạc và nghệ thuật biểu diễn",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 23: Định hướng nghề nghiệp trong lĩnh vực âm nhạc và nghệ thuật biểu diễn), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Các nghề nghiệp nghệ thuật: Ca sĩ, Nhạc công, Nhạc sĩ sáng tác, Nhà sản xuất âm nhạc (Producer), Kĩ sư âm thanh.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 23: Định hướng nghề nghiệp trong lĩnh vực âm nhạc và nghệ thuật biểu diễn\" (Chủ đề 8: Khúc ca trưởng thành), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Lập kế hoạch rèn luyện năng khiếu thẩm mĩ và theo đuổi đam mê nghệ thuật.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+                "correct": "A"
+              }
+            ]
+          },
+          {
+            "id": "am-nhac-9-b24",
+            "number": 24,
+            "chapter": "Chủ đề 8: Khúc ca trưởng thành",
+            "title": "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+            "questions": [
+              {
+                "content": "Theo chương trình chuẩn SGK Âm nhạc Lớp 9 (Bài 24: Đọc nhạc: Bài đọc nhạc số 8), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+                "option_a": "Đọc bài đọc nhạc tổng kết toàn bộ chương trình Âm nhạc THCS với chất lượng cao nhất.",
+                "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+                "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+                "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+                "correct": "A"
+              },
+              {
+                "content": "Khi thực hành bài học \"Bài 24: Đọc nhạc: Bài đọc nhạc số 8\" (Chủ đề 8: Khúc ca trưởng thành), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+                "option_a": "Thể hiện xuất sắc khả năng cảm thụ cao độ, trường độ và phong thái biểu diễn chững chạc.",
+                "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+                "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+                "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
                 "correct": "A"
               }
             ]

@@ -1,0 +1,653 @@
+# -*- coding: utf-8 -*-
+import json
+import re
+
+print("Starting curriculum update script...")
+
+# Load current curriculumData.ts
+with open('client/src/curriculumData.ts', 'r', encoding='utf-8') as f:
+    text = f.read()
+
+# Locate GRADES_DATA
+prefix_marker = 'export const GRADES_DATA: GradeItem[] = '
+start_idx = text.find(prefix_marker)
+if start_idx == -1:
+    raise Exception("Could not find GRADES_DATA start marker")
+
+start_json = start_idx + len(prefix_marker)
+comment_marker = '// Helper sinh câu hỏi thông minh'
+end_idx = text.find(comment_marker)
+if end_idx == -1:
+    raise Exception("Could not find comment marker")
+
+json_part = text[start_json:end_idx].strip()
+if json_part.endswith(';'):
+    json_part = json_part[:-1].strip()
+
+grades_data = json.loads(json_part)
+print(f"Successfully loaded {len(grades_data)} grades.")
+
+# Build questions generator helper
+def make_art_questions(grade_num, lesson_title, chapter, concept_a, concept_method):
+    return [
+        {
+            "content": f"Theo chương trình chuẩn SGK Mĩ thuật Lớp {grade_num} ({lesson_title}), kiến thức trọng tâm cần nắm vững là gì?",
+            "option_a": concept_a,
+            "option_b": "Chỉ quan sát thoáng qua mà không cần nắm phương pháp tạo hình và bố cục mĩ thuật.",
+            "option_c": "Tô màu tuỳ tiện không phân biệt đậm nhạt và không theo nguyên tắc hòa sắc.",
+            "option_d": "Bỏ qua các bước phác hình cơ bản và quy luật giải phẫu tạo hình.",
+            "correct": "A"
+        },
+        {
+            "content": f"Khi thực hành sáng tạo nghệ thuật trong \"{lesson_title}\" ({chapter}), kĩ năng cốt lõi cần phát huy là:",
+            "option_a": concept_method,
+            "option_b": "Bắt chước rập khuôn máy móc tranh mẫu mà không có sự sáng tạo cá nhân.",
+            "option_c": "Không sử dụng dụng cụ hỗ trợ và bỏ qua tỉ lệ cân đối.",
+            "option_d": "Dùng chất liệu độc hại không an toàn cho học sinh.",
+            "correct": "A"
+        }
+    ]
+
+def make_music_questions(grade_num, lesson_title, chapter, concept_a, concept_method):
+    return [
+        {
+            "content": f"Theo chương trình chuẩn SGK Âm nhạc Lớp {grade_num} ({lesson_title}), nội dung chuyên môn trọng tâm cần nắm vững là gì?",
+            "option_a": concept_a,
+            "option_b": "Hát sai cao độ và sai phách nhịp của bài hát quy định.",
+            "option_c": "Không quan tâm đến sắc thái tình cảm và xuất xứ bài hát.",
+            "option_d": "Đọc nhạc không cần gõ phách và bỏ qua các dấu lặng.",
+            "correct": "A"
+        },
+        {
+            "content": f"Khi thực hành bài học \"{lesson_title}\" ({chapter}), phương pháp diễn tấu khoa học và chuẩn xác nhất là:",
+            "option_a": concept_method,
+            "option_b": "Diễn tấu ngẫu hứng sai nhịp điệu và không theo hướng dẫn của giáo viên.",
+            "option_c": "Thổi nhạc cụ hoặc phát âm quá mạnh làm méo mó âm thanh.",
+            "option_d": "Ngắt giọng tuỳ tiện giữa các từ trong câu hát liền giọng.",
+            "correct": "A"
+        }
+    ]
+
+# 1. GRADE 6 DATA
+art_6_lessons = [
+    (1, "Chủ đề 1: Biểu cảm của sắc màu", "Bài 1: Tranh vẽ hoa, quả", 
+     "Quan sát mẫu vật, xác định khung hình chung và phối hợp màu sắc nóng - lạnh tạo chiều sâu.",
+     "Phác nét khái quát, phân chia mảng sáng tối và tô màu chuyển độ mềm mại."),
+    (2, "Chủ đề 1: Biểu cảm của sắc màu", "Bài 2: Tranh tĩnh vật hoa và quả",
+     "Nắm vững luật viễn cận, tương quan sáng tối và tương phản giữa các vật mẫu trong tĩnh vật.",
+     "Sắp xếp bố cục hình tam giác hoặc hình bình hành tạo sự vững chãi cho tranh."),
+    (3, "Chủ đề 1: Biểu cảm của sắc màu", "Bài 3: Tranh in hoa lá",
+     "Tận dụng gân lá, mặt cắt củ quả tự nhiên làm khuôn in tạo hoa văn nhịp điệu phong phú.",
+     "Chấm mực in đều tay lên bề mặt khuôn in và dập nhẹ nhàng lên giấy vẽ."),
+    (4, "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam", "Bài 4: Khám phá nghệ thuật tiền sử thế giới",
+     "Nghệ thuật vách đá hang động (hang Lascaux, Altamira) phản ánh tín ngưỡng và cuộc sống săn bắt.",
+     "Sử dụng đất son, than củi kết hợp mỡ động vật tạo màu sắc mộc mạc bền vững."),
+    (5, "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam", "Bài 5: Hình vẽ người thời tiền sử",
+     "Đường nét ước lệ, giản lược hoá nhưng giàu sức biểu cảm về tư thế lao động và săn bắt.",
+     "Khái quát hoá chuyển động của cơ thể qua các nét kỷ hà thanh thoát."),
+    (6, "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam", "Bài 6: Nghệ thuật tạo hình thời nguyên thủy tại Việt Nam",
+     "Hình khắc mặt người tại hang Đồng Nội (Hòa Bình) - dấu ấn nghệ thuật thời đồ đá mới Việt Nam.",
+     "Tìm hiểu văn hóa Hòa Bình, Bắc Sơn qua các công cụ đá mài và hình khắc vách đá."),
+    (7, "Chủ đề 3: Lễ hội quê hương", "Bài 7: Nhân vật với trang phục lễ hội",
+     "Đặc trưng trang phục dân gian truyền thống qua hoa văn, màu sắc tươi vui và nón quai thao.",
+     "Dựng dáng nhân vật múa hát trong trang phục lễ hội truyền thống sống động."),
+    (8, "Chủ đề 3: Lễ hội quê hương", "Bài 8: Hoạt cảnh ngày hội quê hương",
+     "Bố cục nhiều nhân vật có nhóm chính - nhóm phụ, diễn tả không khí náo nức ngày xuân.",
+     "Sử dụng gam màu rực rỡ, ấm cúng và đường nét chuyển động uyển chuyển."),
+    (9, "Chủ đề 3: Lễ hội quê hương", "Bài 9: Thiết kế sản phẩm lưu niệm lễ hội",
+     "Tạo hình món quà lưu niệm nhỏ gọn mang biểu tượng đặc trưng văn hoá địa phương.",
+     "Tận dụng vật liệu sẵn có (que tre, nắp chai, đất sét) tạo hình sản phẩm lưu niệm."),
+    (10, "Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam", "Bài 10: Nghệ thuật tạo hình Ai Cập cổ đại",
+     "Quy tắc tạo hình Ai Cập: mắt và vai chính diện, mặt và chân nhìn nghiêng; công trình Kim Tự Tháp.",
+     "Nắm bắt tính quy ước nghiêm ngặt và sự vĩnh cửu trong nghệ thuật Ai Cập."),
+    (11, "Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam", "Bài 11: Điêu khắc và kiến trúc Hy Lạp - La Mã cổ đại",
+     "Ba thức cột Doric, Ionic, Corinthian và vẻ đẹp giải phẫu cân đối hoàn mỹ của cơ thể người.",
+     "Phân tích nét đẹp hài hoà, mực thước của tượng thần Vệ Nữ và Đấu trường La Mã."),
+    (12, "Chủ đề 4: Nghệ thuật cổ đại thế giới và Việt Nam", "Bài 12: Họa tiết trang trí trên trống đồng Đông Sơn",
+     "Họa tiết ngôi sao nhiều cánh ở tâm, đàn chim Lạc bay và cảnh sinh hoạt giã gạo, chèo thuyền.",
+     "Mô phỏng lại hoa văn trống đồng Đông Sơn với nét vẽ cân đối, nhịp nhàng."),
+    (13, "Chủ đề 5: Tạo hình với vật liệu tái chế", "Bài 13: Tạo hình con vật từ vật liệu đã qua sử dụng",
+     "Tận dụng chai lọ nhựa, nắp chai, lõi giấy tạo hình các con vật ngộ nghĩnh bảo vệ môi trường.",
+     "Gắn kết các khối hình rỗng thành hình dáng con vật sinh động, vững chãi."),
+    (14, "Chủ đề 5: Tạo hình với vật liệu tái chế", "Bài 14: Mô hình nhà sàn dân gian từ bìa carton",
+     "Cấu trúc nhà sàn truyền thống gồm sàn nâng cao, hệ cột gỗ, mái dốc che mưa và cầu thang.",
+     "Cắt ghép bìa carton theo tỉ lệ mô hình thu nhỏ và trang trí hoa văn nhà sàn."),
+    (15, "Chủ đề 6: Nghệ thuật Trung đại Việt Nam", "Bài 15: Nghệ thuật chạm khắc thời Lý - Trần",
+     "Hình tượng Rồng thời Lý uốn lượn hình sin mềm mại, thanh thoát không sừng; chùa Một Cột đài sen.",
+     "Nhận biết nét đẹp tinh tế, thuần khiết thấm nhuần tinh thần Phật giáo Đại Việt."),
+    (16, "Chủ đề 6: Nghệ thuật Trung đại Việt Nam", "Bài 16: Điêu khắc gỗ đình làng truyền thống Việt Nam",
+     "Cảnh chạm khắc sinh hoạt dân dã (đánh cờ, chọi gà, chèo thuyền) mộc mạc, hóm hỉnh.",
+     "Cảm nhận sự tự do, phóng khoáng và tinh thần lạc quan yêu đời của người bình dân."),
+    (17, "Chủ đề 7: Gia đình yêu thương", "Bài 17: Tranh chân dung người thân trong gia đình",
+     "Tỉ lệ trục khuôn mặt (mắt ở giữa đầu, mũi giữa mắt và cằm) và biểu cảm yêu thương.",
+     "Dùng gam màu ấm áp, tươi sáng diễn tả tình cảm gia đình sum vầy."),
+    (18, "Chủ đề 7: Gia đình yêu thương", "Bài 18: Tạo hình khung ảnh kỉ niệm sáng tạo",
+     "Nguyên tắc trang trí viền khung ảnh hài hoà, tôn vinh hình ảnh kỉ niệm ở trung tâm.",
+     "Đính cúc áo, vỏ sò, dây gai tạo khung ảnh handmade mộc mạc, ý nghĩa."),
+    (19, "Chủ đề 8: Thiết kế đồ hoạ", "Bài 19: Thiết kế bìa sách và truyện thiếu nhi",
+     "Bố cục bìa sách gồm tên sách, tên tác giả, nhà xuất bản và hình minh hoạ đặc sắc.",
+     "Lựa chọn kiểu chữ nghệ thuật phù hợp lứa tuổi thiếu nhi và sắp xếp bố cục cân đối."),
+    (20, "Chủ đề 8: Thiết kế đồ hoạ", "Bài 20: Thiết kế thiệp chúc mừng ngày lễ",
+     "Ý nghĩa của thông điệp chúc mừng tri ân thầy cô, cha mẹ qua hình tượng hoa tươi và lời chúc.",
+     "Tạo thiệp nổi 3D hoặc thiệp gấp hai mặt trang nhã, giàu cảm xúc.")
+]
+
+music_6_lessons = [
+    (1, "Chủ đề 1: Tuổi học trò", "Bài 1: Học hát bài \"Mùa khai trường\"",
+     "Thể hiện giai điệu rộn ràng, vui tươi, phấn khởi chào đón năm học mới.",
+     "Hát đúng cao độ, trường độ và phát âm tròn vành rõ chữ."),
+    (2, "Chủ đề 1: Tuổi học trò", "Bài 2: Nhạc cụ: Gõ đệm tiết tấu và sáo Recorder",
+     "Tư thế thổi sáo Recorder chuẩn xác (tay trái phía trên bịt lỗ 0, tay phải phía dưới).",
+     "Luyện gõ đệm thanh phách, tambourine theo tiết tấu nhịp 2/4."),
+    (3, "Chủ đề 1: Tuổi học trò", "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+     "Thứ tự 7 bậc âm cơ bản Đô - Rê - Mi - Pha - Son - La - Si trên khuông nhạc khoá Son.",
+     "Đọc nhạc kết hợp gõ phách đều đặn và đánh dấu nhịp chuẩn xác."),
+    (4, "Chủ đề 2: Cuộc sống tươi đẹp", "Bài 4: Học hát bài \"Con đường học trò\"",
+     "Hát liền giọng (legato), tình cảm trong sáng về kỉ niệm bạn bè dưới mái trường.",
+     "Lấy hơi đúng chỗ ở cuối mỗi câu hát và mở khẩu hình tròn trịa."),
+    (5, "Chủ đề 2: Cuộc sống tươi đẹp", "Bài 5: Lí thuyết âm nhạc: Các thuộc tính cơ bản của âm thanh",
+     "Bốn thuộc tính cơ bản của âm thanh có tính nhạc: Cao độ, Trường độ, Cường độ và Âm sắc.",
+     "Phân biệt âm sắc đặc trưng của các nhạc cụ và giọng hát qua thính giác."),
+    (6, "Chủ đề 2: Cuộc sống tươi đẹp", "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+     "Thang âm 5 bậc Ngũ cung Đô - Rê - Mi - Son - La mộc mạc đậm chất dân ca.",
+     "Luyện cao độ các nốt nhảy quãng 3 và quãng 4 chuẩn xác."),
+    (7, "Chủ đề 3: Thầy cô và mái trường", "Bài 7: Học hát bài \"Thầy cô là tất cả\"",
+     "Tình cảm kính trọng, biết ơn sâu sắc của người học trò đối với thầy cô giáo kính yêu.",
+     "Hát luyến mượt mà theo dấu luyến trên các ca từ biểu cảm."),
+    (8, "Chủ đề 3: Thầy cô và mái trường", "Bài 8: Thường thức âm nhạc: Nhạc sĩ Văn Cao",
+     "Cuộc đời và sự nghiệp tác giả bản Quốc ca Việt Nam \"Tiến quân ca\" và các tuyệt phẩm trữ tình.",
+     "Cảm thụ âm hưởng hào hùng, bất khuất trong ca khúc cách mạng của Văn Cao."),
+    (9, "Chủ đề 3: Thầy cô và mái trường", "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+     "Nốt Trắng có giá trị bằng 2 phách; dấu lặng đen nghỉ 1 phách trong nhịp 2/4.",
+     "Giữ đều nhịp độ (tempo) không bị biến động nhanh chậm bất thường."),
+    (10, "Chủ đề 4: Quê hương đất nước", "Bài 10: Học hát bài \"Những nụ cười trở lại\"",
+     "Tình yêu quê hương đất nước, tinh thần lạc quan yêu đời vượt qua thử thách.",
+     "Hát to rõ, kết hợp biểu cảm ánh mắt và nụ cười rạng rỡ."),
+    (11, "Chủ đề 4: Quê hương đất nước", "Bài 11: Nhạc cụ: Kèn phím Melodica",
+     "Kĩ thuật bấm ngón tay trên phím đàn kết hợp điều tiết luồng hơi thổi êm dịu, đều đặn.",
+     "Luyện chạy ngón 5 nốt liền bậc từ nốt Đô đến nốt Son."),
+    (12, "Chủ đề 4: Quê hương đất nước", "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+     "Vị trí nốt Đô ở dòng kẻ phụ thứ nhất phía dưới khuông nhạc khoá Son.",
+     "Đọc tiết tấu kết hợp nốt đen, móc đơn và nốt trắng chuẩn xác."),
+    (13, "Chủ đề 5: Giai điệu mùa xuân", "Bài 13: Học hát bài \"Mùa xuân tình bạn\"",
+     "Giai điệu tươi vui, ấm áp gắn kết tình bạn thân thiết trong ngày đầu xuân.",
+     "Thể hiện cường độ p (nhỏ), f (mạnh) sinh động theo kí hiệu bản nhạc."),
+    (14, "Chủ đề 5: Giai điệu mùa xuân", "Bài 14: Lí thuyết âm nhạc: Kí hiệu bản nhạc và nhịp 2/4",
+     "Số chỉ nhịp 2/4: mỗi ô nhịp có 2 phách, mỗi phách bằng một nốt đen (phách 1 mạnh, phách 2 nhẹ).",
+     "Nhận biết vạch nhịp, dấu nhắc lại và khung thay đổi 1, 2 trong bản nhạc."),
+    (15, "Chủ đề 5: Giai điệu mùa xuân", "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+     "Dấu chấm dôi làm tăng thêm 1/2 giá trị trường độ của nốt nhạc đứng trước nó.",
+     "Luyện phách nốt đen chấm dôi ngân dài bằng 3 nốt móc đơn."),
+    (16, "Chủ đề 6: Tình bạn bốn phương", "Bài 16: Học hát bài \"Hành khúc Đội Thiếu niên Tiền phong\"",
+     "Tính chất âm nhạc dứt khoát, khoẻ khoắn, thôi thúc của thể loại hành khúc thiếu nhi.",
+     "Hát nhịp nhàng theo bước chân duyệt đội ngũ của Đội Thiếu niên Tiền phong."),
+    (17, "Chủ đề 6: Tình bạn bốn phương", "Bài 17: Thường thức âm nhạc: Đàn bầu Việt Nam",
+     "Cây đàn một dây độc nhất vô nhị phát ra bồi âm sâu lắng nhờ cần đàn uốn lượn mềm mại.",
+     "Tìm hiểu nghệ thuật gảy que đàn kết hợp chặn bàn tay tạo âm bồi."),
+    (18, "Chủ đề 6: Tình bạn bốn phương", "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+     "Nốt La (khe thứ 2) và nốt Si (dòng kẻ thứ 3) trên khuông nhạc khoá Son.",
+     "Thực hành đọc nhạc bè hai giọng hòa âm đơn giản."),
+    (19, "Chủ đề 7: Gia đình bè bạn", "Bài 19: Học hát bài \"Chỉ có một trên đời\"",
+     "Tình mẫu tử thiêng liêng cao quý, lòng hiếu thảo và biết ơn công lao sinh thành của mẹ.",
+     "Hát với cảm xúc lắng đọng, truyền cảm, ngắt câu đúng ý thơ."),
+    (20, "Chủ đề 7: Gia đình bè bạn", "Bài 20: Nhạc cụ: Thực hành gõ đệm Body Percussion",
+     "Vận động cơ thể tạo âm thanh gõ đệm: vỗ tay, vỗ đùi, dậm chân theo nhịp điệu bài hát.",
+     "Phối hợp nhịp nhàng giữa vận động thân thể và cảm thụ tiết tấu."),
+    (21, "Chủ đề 7: Gia đình bè bạn", "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+     "Nốt Tròn ngân dài bằng 4 phách (bằng 4 nốt đen) trong nhịp 4/4.",
+     "Giữ hơi thở đều đặn khi đọc nốt tròn đủ độ dài 4 phách."),
+    (22, "Chủ đề 8: Khúc ca mùa hè", "Bài 22: Học hát bài \"Mưa rơi\" (Dân ca Xá)",
+     "Làn điệu dân ca Tây Bắc trong trẻo, ước mong mùa màng tốt tươi ấm no hạnh phúc.",
+     "Thể hiện luyến láy mang phong vị âm nhạc dân gian vùng núi cao."),
+    (23, "Chủ đề 8: Khúc ca mùa hè", "Bài 23: Thường thức âm nhạc: Sắc màu dân ca các vùng miền",
+     "Quan họ Bắc Ninh (UNESCO công nhận), Hò và Lí Nam Bộ - di sản âm nhạc quý báu của dân tộc.",
+     "Phân biệt phong cách hát dân ca miền Bắc, miền Trung và miền Nam."),
+    (24, "Chủ đề 8: Khúc ca mùa hè", "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+     "Dấu thăng (#) nâng nốt nhạc lên nửa cung, dấu giáng (b) hạ nốt nhạc xuống nửa cung.",
+     "Luyện đọc nốt thăng giáng bất thường với cao độ chuẩn xác.")
+]
+
+# 2. GRADE 7 DATA
+art_7_lessons = [
+    (1, "Chủ đề 1: Mĩ thuật thế giới thời kì Trung đại", "Bài 1: Khám phá mĩ thuật và kiến trúc Gothic",
+     "Kiến trúc vòm nhọn, tháp cao vút, cửa sổ kính màu hoa hồng lung linh (Nhà thờ Đức Bà Paris).",
+     "Vẽ mô phỏng khung cửa kính màu phong cách Gothic với mảng màu rực rỡ tương phản."),
+    (2, "Chủ đề 1: Mĩ thuật thế giới thời kì Trung đại", "Bài 2: Nghệ thuật điêu khắc và tháp Champa ở Việt Nam",
+     "Kiến trúc tháp Chăm xây bằng gạch nung độc đáo và các phù điêu vũ nữ Apsara uyển chuyển.",
+     "Mô phỏng hình tượng điêu khắc Champa với đường nét chạm khắc mềm mại trên đất nặn."),
+    (3, "Chủ đề 2: Cuộc sống vui nhộn", "Bài 3: Tạo hình nhân vật trong hoạt cảnh sinh hoạt thiếu nhi",
+     "Diễn tả động thái chạy, nhảy, đá cầu, chơi đùa của các nhân vật thiếu nhi sinh động.",
+     "Phối hợp bố cục nhóm nhân vật đa dạng tạo không gian vui tươi rộn rã."),
+    (4, "Chủ đề 2: Cuộc sống vui nhộn", "Bài 4: Trang trí quạt giấy truyền thống",
+     "Bố cục nan quạt hình dẻ quạt đối xứng hoặc tự do với hoa văn hoa sen, phong cảnh quê hương.",
+     "Vẽ màu nước tỉ mỉ trên nan giấy quạt nan tre truyền thống."),
+    (5, "Chủ đề 3: Di sản mĩ thuật Việt Nam thời kì Trung đại", "Bài 5: Hình tượng con người trong mĩ thuật thời Lê sơ",
+     "Hình tượng vua quan, nho sĩ thời Lê sơ trang nghiêm, mực thước gắn với Nho giáo hưng thịnh.",
+     "Nghiên cứu trang phục áo giao lĩnh, mũ cánh chuồn trên các văn bia và tượng đá thời Lê."),
+    (6, "Chủ đề 3: Di sản mĩ thuật Việt Nam thời kì Trung đại", "Bài 6: Chạm khắc gỗ đình làng thế kỉ XVI - XVIII",
+     "Nghệ thuật chạm lộng, chạm nổi trên các vì kèo, xà nách đình làng miêu tả cuộc sống nông thôn.",
+     "Cảm thụ đường nét chạm đục khoẻ khoắn, đậm đà bản sắc thuần khiết dân gian."),
+    (7, "Chủ đề 4: Giao thông công cộng", "Bài 7: Vẽ tranh đề tài phương tiện giao thông và an toàn giao thông",
+     "Tuyên truyền ý thức chấp hành luật giao thông qua hình ảnh xe bus, tàu điện, mũ bảo hiểm.",
+     "Sắp xếp bố cục góc ngã tư đường phố có đèn tín hiệu và người đi bộ trên vạch sang đường."),
+    (8, "Chủ đề 4: Giao thông công cộng", "Bài 8: Thiết kế biểu trưng và biển chỉ dẫn giao thông đồ họa",
+     "Hình học tối giản, dễ hiểu, màu sắc tương phản mạnh (đỏ cấm, xanh chỉ dẫn, vàng cảnh báo).",
+     "Thiết kế biểu tượng đồ họa súc tích, người nhìn nhận biết ngay trong nháy mắt."),
+    (9, "Chủ đề 5: Mĩ thuật thế giới thời kì Phục hưng", "Bài 9: Kiệt tác mĩ thuật thời kì Phục hưng",
+     "Thời kì hoàng kim của hội họa với Leonardo da Vinci (Mona Lisa), Michelangelo, Raphael.",
+     "Phân tích kĩ thuật vẽ bóng mờ (Sfumato) và luật viễn cận điểm tụ khoa học thời Phục hưng."),
+    (10, "Chủ đề 5: Mĩ thuật thế giới thời kì Phục hưng", "Bài 10: Tỉ lệ cơ thể người trong hội hoạ Phục hưng",
+     "Bức vẽ 'Người Vitruvius' của Leonardo da Vinci khẳng định vẻ đẹp hình học hoàn mỹ của con người.",
+     "Vẽ phác dáng người đứng thẳng theo tỉ lệ chiều cao bằng 7 đến 7,5 lần chiều dài đầu."),
+    (11, "Chủ đề 6: Mĩ thuật hiện đại Việt Nam", "Bài 11: Tranh phong cảnh quê hương bằng màu nước",
+     "Vẻ đẹp cánh đồng lúa, dòng sông, rặng tre làng quê qua chất liệu màu nước trong trẻo.",
+     "Kĩ thuật vẽ ướt trên ướt (wet-on-wet) tạo độ loang tự nhiên của bầu trời và mây nước."),
+    (12, "Chủ đề 6: Mĩ thuật hiện đại Việt Nam", "Bài 12: Tranh lụa và tranh sơn mài truyền thống Việt Nam",
+     "Chất liệu lụa tơ tằm óng ả (Nguyễn Phan Chánh) và sơn mài mài bóng dát vàng bạc (Nguyễn Gia Trí).",
+     "Tìm hiểu quy trình mài ủ sơn then, sơn cánh gián và cẩn vỏ trứng độc đáo."),
+    (13, "Chủ đề 7: Thời trang và đời sống", "Bài 13: Thiết kế mẫu trang phục học đường phong cách trẻ trung",
+     "Kiểu dáng năng động, lịch sự, màu sắc thanh lịch phù hợp lứa tuổi học sinh trung học.",
+     "Vẽ phác thảo mẫu trang phục trên ma-nơ-canh tỉ lệ chuẩn."),
+    (14, "Chủ đề 7: Thời trang và đời sống", "Bài 14: Sáng tạo phụ kiện thời trang từ vật liệu thân thiện môi trường",
+     "Tận dụng vải vụn jean, sợi đay, len thừa làm túi xách tote hoặc nơ cài tóc phong cách eco.",
+     "Khâu ghép các mảnh vải chắp vá (patchwork) tạo hoa văn hình học độc đáo."),
+    (15, "Chủ đề 8: Nghệ thuật chữ trong đời sống", "Bài 15: Sáng tạo các kiểu chữ nghệ thuật trang trí",
+     "Biến hóa nét chữ hoa văn, chữ 3D đổ bóng, chữ cách điệu nghệ thuật chữ Typography.",
+     "Trang trí chữ cái đầu dòng (Drop cap) với hoa lá và đường cong sinh động."),
+    (16, "Chủ đề 8: Nghệ thuật chữ trong đời sống", "Bài 16: Thiết kế áp phích tuyên truyền thông điệp cộng đồng",
+     "Áp phích (Poster) cần có câu khẩu hiệu (Slogan) ngắn gọn và hình ảnh đồ họa tác động thị giác mạnh.",
+     "Bố cục chặt chẽ hướng mắt người xem từ hình ảnh chính đến thông điệp cốt lõi.")
+]
+
+music_7_lessons = [
+    (1, "Chủ đề 1: Khai trường", "Bài 1: Học hát bài \"Khai trường\"",
+     "Sắc thái vui tươi, rộn ràng, tự tin của ngày hội tựu trường mở đầu năm học mới.",
+     "Hát đúng giai điệu tươi sáng và kết hợp gõ đệm phách 1 và 3."),
+    (2, "Chủ đề 1: Khai trường", "Bài 2: Lí thuyết âm nhạc: Nhịp 4/4 và cách đánh nhịp 4/4",
+     "Nhịp 4/4 có 4 phách trong một ô nhịp, mỗi phách bằng một nốt đen: phách 1 mạnh, 2 nhẹ, 3 mạnh vừa, 4 nhẹ.",
+     "Đánh nhịp 4/4 theo sơ đồ: Xuống (1) - Sang trái (2) - Sang phải (3) - Lên (4)."),
+    (3, "Chủ đề 1: Khai trường", "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+     "Luyện đọc thang âm Đô trưởng với nhịp 4/4 có các nốt trắng và nốt đen tròn phách.",
+     "Giữ đều nhịp độ và ngắt nghỉ đúng các dấu lặng trong bài đọc."),
+    (4, "Chủ đề 2: Tình bạn", "Bài 4: Học hát bài \"Hát cùng chú ve con\"",
+     "Giai điệu rộn ràng, hồn nhiên, vui tươi của tuổi học trò gắn với tiếng ve gọi hè.",
+     "Lấy hơi nhanh ở các khoảng ngắt giữa câu và mở rộng khoang miệng."),
+    (5, "Chủ đề 2: Tình bạn", "Bài 5: Thường thức âm nhạc: Nhạc sĩ Lưu Hữu Phước",
+     "Nhạc sĩ tài ba với các ca khúc cách mạng, thanh niên xung kích: \"Lên đàng\", \"Hành khúc sinh viên\".",
+     "Cảm nhận hào khí thôi thúc lòng yêu nước và lý tưởng phụng sự non sông."),
+    (6, "Chủ đề 2: Tình bạn", "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+     "Luyện đọc các nốt nhảy quãng 3 (Đô - Mi, Rê - Pha, Mi - Son) trong giai điệu vui tươi.",
+     "Gõ phách đệm nhẹ nhàng bằng thanh phách hoặc vỗ tay."),
+    (7, "Chủ đề 3: Mái trường mến yêu", "Bài 7: Học hát bài \"Khúc ca người thầy\"",
+     "Lòng tri ân sâu sắc trước công lao tận tụy dìu dắt bao thế hệ học sinh của thầy cô giáo.",
+     "Hát với chất giọng truyền cảm, ấm áp và ngân dài ở các nốt cao cuối câu."),
+    (8, "Chủ đề 3: Mái trường mến yêu", "Bài 8: Nhạc cụ: Luyện gõ đệm Tambourine và thanh phách phối bè",
+     "Kĩ thuật lắc rung và gõ mặt trống Tambourine phối hợp với tiếng gõ trong của phách tre.",
+     "Luyện tập bè đệm nhịp nhàng hòa quyện với giọng hát chính."),
+    (9, "Chủ đề 3: Mái trường mến yêu", "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+     "Thực hành đọc nhạc nhịp 4/4 kết hợp nốt đen chấm dôi và nốt móc đơn liền kề.",
+     "Chia nhịp phách chính xác cho trường độ nốt chấm dôi."),
+    (10, "Chủ đề 4: Giai điệu quê hương", "Bài 10: Học hát bài \"Lí kéo chài\" (Dân ca Nam Bộ)",
+     "Tinh thần lao động hăng say, hào sảng, lạc quan của ngư dân miền sông nước Nam Bộ.",
+     "Thể hiện lối hát đối đáp 'Xướng - Xô' đặc trưng của thể loại Hò và Lí."),
+    (11, "Chủ đề 4: Giai điệu quê hương", "Bài 11: Nhạc cụ dân tộc: Đàn tranh và đàn kìm (đàn nguyệt)",
+     "Đàn Tranh có 16 dây gảy bằng móng giả; Đàn Kìm có 2 dây thùng đàn tròn như vầng trăng.",
+     "Phân biệt âm thanh lảnh lót của đàn tranh và tiếng trầm ấm của đàn kìm."),
+    (12, "Chủ đề 4: Giai điệu quê hương", "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+     "Đọc giai điệu mang âm hưởng dân ca Nam Bộ với các quãng ngũ cung mượt mà.",
+     "Luyện cao độ nốt luyến dân gian tự nhiên, êm tai."),
+    (13, "Chủ đề 5: Chào xuân", "Bài 13: Học hát bài \"Mùa xuân em đến trường\"",
+     "Khung cảnh mùa xuân rạng rỡ, chim hót ríu rít trên đường tới lớp học thân quen.",
+     "Hát nẩy (staccato) ở các nốt nhí nhảnh tạo cảm giác bước chân tung tăng."),
+    (14, "Chủ đề 5: Chào xuân", "Bài 14: Lí thuyết âm nhạc: Dấu nối, dấu luyến và dấu chấm dôi",
+     "Dấu nối liên kết các nốt cùng cao độ; Dấu luyến liên kết nốt khác cao độ hát trong một tiếng.",
+     "Phân biệt sự khác nhau giữa dấu nối trường độ và dấu luyến cao độ."),
+    (15, "Chủ đề 5: Chào xuân", "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+     "Giai điệu tươi vui mừng mùa xuân với tiết tấu móc đơn chạy liên tục êm đềm.",
+     "Đọc đều tiếng và không bị đuối hơi ở cuối câu nhạc."),
+    (16, "Chủ đề 6: Âm nhạc thế giới", "Bài 16: Học hát bài \"Santa Lucia\" (Dân ca Ý)",
+     "Vẻ đẹp thơ mộng của vịnh biển Napoli nước Ý qua giai điệu du dương của bài dân ca biển nổi tiếng.",
+     "Hát ngân nga mềm mại theo nhịp điệu sóng nước vỗ về mạn thuyền."),
+    (17, "Chủ đề 6: Âm nhạc thế giới", "Bài 17: Thường thức âm nhạc: Danh nhân Wolfgang Amadeus Mozart",
+     "Thiên tài âm nhạc người Áo, thần đồng sáng tác từ năm 5 tuổi với các bản giao hưởng và opera bất hủ.",
+     "Cảm thụ âm nhạc trong trẻo, thánh thiện, tràn ngập ánh sáng của Mozart."),
+    (18, "Chủ đề 6: Âm nhạc thế giới", "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+     "Đọc nhạc với kí hiệu sắc thái 'crescendo' (to dần) và 'decrescendo' (nhỏ dần).",
+     "Điều tiết âm lượng giọng đọc mềm mại theo đường cong cường độ."),
+    (19, "Chủ đề 7: Tuổi trẻ và ước mơ", "Bài 19: Học hát bài \"Ước mơ mùa hồng\"",
+     "Khát vọng vươn tới tương lai tươi sáng của tuổi trẻ học trò hồn nhiên trong sáng.",
+     "Hát bay bổng, truyền cảm hứng và giữ hơi sâu nơi cơ hoành."),
+    (20, "Chủ đề 7: Tuổi trẻ và ước mơ", "Bài 20: Hòa tấu nhạc cụ: Sáo Recorder và Melodica",
+     "Sự kết hợp giữa tiếng sáo Recorder trong trẻo và âm thanh dày dặn của kèn phím Melodica.",
+     "Lắng nghe bạn diễn để hòa quyện âm lượng hai nhạc cụ ăn khớp."),
+    (21, "Chủ đề 7: Tuổi trẻ và ước mơ", "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+     "Thực hành đọc nhạc ở giọng La thứ tự nhiên với âm hưởng trữ tình, sâu lắng.",
+     "Xác định âm chủ La và các bậc âm ổn định của giọng La thứ."),
+    (22, "Chủ đề 8: Tiếng ve gọi hè", "Bài 22: Học hát bài \"Hè về trong mắt em\"",
+     "Niềm vui rộn ràng khi bước vào kì nghỉ hè bổ ích sau một năm nỗ lực học tập.",
+     "Hát với nhịp điệu dồn dập, tươi vui và ánh mắt tràn ngập niềm vui."),
+    (23, "Chủ đề 8: Tiếng ve gọi hè", "Bài 23: Biểu diễn âm nhạc và tổng kết năm học",
+     "Kĩ năng trình diễn sân khấu tự tin: ánh mắt giao lưu, nụ cười và động tác phụ họa phù hợp.",
+     "Phối hợp ăn ý trong dàn đồng ca và nhóm nhạc cụ biểu diễn báo cáo."),
+    (24, "Chủ đề 8: Tiếng ve gọi hè", "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+     "Đọc tổng hợp các kiến thức trường độ, cao độ và dấu hóa đã học trong chương trình Lớp 7.",
+     "Thể hiện tự tin, diễn cảm toàn bộ bài đọc nhạc tổng kết.")
+]
+
+# 3. GRADE 8 DATA
+art_8_lessons = [
+    (1, "Chủ đề 1: Hình tượng con người trong sáng tạo mĩ thuật", "Bài 1: Vẽ kí hoạ dáng người trong hoạt động thể thao",
+     "Bắt nhịp tư thế chuyển động nhanh (chạy, sút bóng, nhảy cao) qua các đường trục xương sống và tay chân.",
+     "Phác nhanh bằng nét phóng khoáng, nắm bắt trọng tâm chuyển động trong thời gian ngắn."),
+    (2, "Chủ đề 1: Hình tượng con người trong sáng tạo mĩ thuật", "Bài 2: Tạo hình điêu khắc tượng chân dung bạn bè bằng đất nặn",
+     "Cấu trúc khối sọ, mặt, mũi, miệng và đặc điểm nhận diện riêng của nhân vật chân dung.",
+     "Đắp thêm hoặc gọt tỉa khối đất nặn theo các bình diện giải phẫu cơ bản."),
+    (3, "Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống", "Bài 3: Chạm khắc hoa văn trang trí thời Nguyễn",
+     "Hoa văn chữ Thọ, hoa lá hóa rồng, bát bửu tinh xảo trên kiến trúc Cố đô Huế và lăng tẩm.",
+     "Mô phỏng họa tiết cung đình Huế với đường nét trau chuốt, đăng đối nghiêm cẩn."),
+    (4, "Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống", "Bài 4: Gốm mỹ nghệ Bát Tràng và kĩ thuật tạo dáng gốm",
+     "Quy trình tạo hình trên bàn xoay, men lam, men rạn truyền thống và nung lò của gốm Bát Tràng.",
+     "Tạo dáng bình gốm vuốt tay từ đất sét kết hợp trang trí họa tiết men màu."),
+    (5, "Chủ đề 3: Mĩ thuật thế giới thời kì Hiện đại", "Bài 5: Trường phái Hội họa Ấn tượng và Hậu ấn tượng",
+     "Sự thay đổi ánh sáng thiên nhiên của Claude Monet; bút pháp cuộn xoáy mãnh liệt của Van Gogh.",
+     "Dùng nét cọ rời rạc đắp màu nguyên chất cạnh nhau tạo rung cảm quang học."),
+    (6, "Chủ đề 3: Mĩ thuật thế giới thời kì Hiện đại", "Bài 6: Xu hướng Lập thể (Cubism) và Dã thú (Fauvism)",
+     "Phân rã hình thể thành khối hình học của Picasso; màu sắc bùng nổ giải phóng cảm xúc của Matisse.",
+     "Sáng tác tranh tĩnh vật phong cách Lập thể nhìn từ nhiều góc độ đồng thời."),
+    (7, "Chủ đề 4: Môi trường xanh", "Bài 7: Vẽ tranh cổ động bảo vệ nguồn nước và môi trường sinh thái",
+     "Hình tượng giọt nước sạch, mầm cây xanh đối lập với ô nhiễm công nghiệp nâng cao ý thức.",
+     "Sử dụng khẩu hiệu sắc sảo kết hợp mảng màu đồ họa phẳng tương phản mạnh mẽ."),
+    (8, "Chủ đề 4: Môi trường xanh", "Bài 8: Thiết kế mô hình cây xanh và không gian sinh thái học đường",
+     "Quy hoạch tiểu cảnh cây xanh, ghế đá, thùng rác phân loại tạo cảnh quan sư phạm trong lành.",
+     "Dựng sa bàn mô hình không gian xanh bằng xốp, bìa và cành khô tái chế."),
+    (9, "Chủ đề 5: Thiết kế công nghiệp", "Bài 9: Thiết kế kiểu dáng đồ gia dụng thông minh",
+     "Tiêu chí công năng tiện dụng kết hợp thẩm mĩ hiện đại (đèn bàn LED, quạt cầm tay, máy hút bụi).",
+     "Vẽ phối cảnh 3 chiều sản phẩm với mặt cắt và chú thích thông số kĩ thuật."),
+    (10, "Chủ đề 5: Thiết kế công nghiệp", "Bài 10: Thiết kế mẫu bao bì và nhãn hàng sản phẩm nông sản sạch",
+     "Bao bì bảo quản tốt, thân thiện môi trường, nhãn mác nêu rõ xuất xứ và thương hiệu nông sản.",
+     "Thiết kế bản trải bao bì hộp giấy gấp thông minh có khóa gài không cần keo."),
+    (11, "Chủ đề 6: Mĩ thuật Việt Nam giai đoạn 1945 - 1975", "Bài 11: Hình tượng người chiến sĩ cách mạng trong tranh kháng chiến",
+     "Vẻ đẹp quả cảm, kiên cường, tình quân dân gắn bó qua tác phẩm của Tô Ngọc Vân, Nguyễn Sáng.",
+     "Tìm hiểu tác phẩm 'Kết nạp Đảng ở Điện Biên Phủ' và tinh thần chiến đấu anh dũng."),
+    (12, "Chủ đề 6: Mĩ thuật Việt Nam giai đoạn 1945 - 1975", "Bài 12: Đề tài lao động sản xuất xây dựng chủ nghĩa xã hội",
+     "Không khí hăng say cấy lúa, kéo lưới, luyện thép trên công trường miền Bắc sau hòa bình.",
+     "Cảm nhận nhịp điệu lạc quan, tràn trề sức sống trong tranh sơn dầu và khắc gỗ."),
+    (13, "Chủ đề 7: Thiết kế nội thất", "Bài 13: Vẽ mặt bằng và mô hình không gian phòng học hiện đại",
+     "Bố trí bàn ghế, bảng thông minh, ánh sáng tự nhiên và luồng di chuyển thuận tiện.",
+     "Vẽ mặt bằng tỉ lệ 1:50 thể hiện vị trí cửa ra vào, cửa sổ và thiết bị lớp học."),
+    (14, "Chủ đề 7: Thiết kế nội thất", "Bài 14: Trang trí không gian nội thất sinh hoạt gia đình",
+     "Sự hài hoà giữa màu sơn tường, rèm cửa, tranh treo tường và đồ gỗ nội thất.",
+     "Lựa chọn tông màu ấm áp hoặc hiện đại tối giản theo sở thích gia chủ."),
+    (15, "Chủ đề 8: Mĩ thuật đương đại thế giới", "Bài 15: Tìm hiểu xu hướng mĩ thuật Pop Art trong đời sống",
+     "Pop Art (Andy Warhol) đưa hình ảnh văn hóa đại chúng, truyện tranh, nhãn hàng thành nghệ thuật.",
+     "Sử dụng kĩ thuật in lưới hoặc đồ họa lặp màu rực rỡ phong cách Pop Art."),
+    (16, "Chủ đề 8: Mĩ thuật đương đại thế giới", "Bài 16: Nghệ thuật sắp đặt (Installation Art) và nghệ thuật trình diễn",
+     "Tương tác không gian đa chiều, sử dụng âm thanh, ánh sáng và vật thể gợi suy ngẫm nhân sinh.",
+     "Thiết kế ý tưởng sắp đặt một thông điệp xã hội trong không gian lớp học.")
+]
+
+music_8_lessons = [
+    (1, "Chủ đề 1: Chào năm học mới", "Bài 1: Học hát bài \"Khúc ca chào ngày mới\"",
+     "Giai điệu rạng rỡ, tràn đầy năng lượng khởi đầu một năm học nhiều thành tích cao.",
+     "Hát với hơi thở vững vàng, phát âm nguyên âm mở sáng rõ ràng."),
+    (2, "Chủ đề 1: Chào năm học mới", "Bài 2: Lí thuyết âm nhạc: Gam trưởng, giọng Trưởng và giọng Đô trưởng",
+     "Gam trưởng gồm 7 bậc âm sắp xếp theo công thức cung và nửa cung: 1 - 1 - 1/2 - 1 - 1 - 1 - 1/2.",
+     "Xác định nốt chủ Đô và hợp âm chủ Đô - Mi - Son trong giọng Đô trưởng."),
+    (3, "Chủ đề 1: Chào năm học mới", "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+     "Đọc chuẩn xác cao độ các bậc âm trong thang âm Đô trưởng kết hợp tiết tấu nhịp 2/4.",
+     "Gõ phách bằng tay trái kết hợp chỉ nốt nhạc bằng tay phải nhịp nhàng."),
+    (4, "Chủ đề 2: Âm vang non sông", "Bài 4: Học hát bài \"Hát về tổ quốc hôm nay\"",
+     "Tự hào về non sông gấm vóc, thành tựu đổi mới và tương lai rạng ngời của đất nước.",
+     "Hát giọng ngực đầy đặn, hào sảng và tràn ngập tình yêu Tổ quốc."),
+    (5, "Chủ đề 2: Âm vang non sông", "Bài 5: Thường thức âm nhạc: Nhạc sĩ Đỗ Nhuận",
+     "Tổng thư ký đầu tiên của Hội Nhạc sĩ Việt Nam, tác giả \"Chiến thắng Điện Biên\", \"Du kích sông Thao\".",
+     "Cảm thụ âm hưởng hào tráng, lạc quan và tính dân tộc sâu sắc trong tác phẩm Đỗ Nhuận."),
+    (6, "Chủ đề 2: Âm vang non sông", "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+     "Luyện đọc các nốt có cao độ cao (nốt Đố, Rế) trong giọng Đô trưởng.",
+     "Mở rộng âm vực giọng đọc tự nhiên không bị gắt tiếng."),
+    (7, "Chủ đề 3: Tri ân thầy cô", "Bài 7: Học hát bài \"Nhớ ơn thầy cô\"",
+     "Giai điệu tha thiết, ngọt ngào nhớ về công lao dạy dỗ của thầy cô thuở nào.",
+     "Xử lí sắc thái nhẹ nhàng ở nốt trầm và ngân vang ở nốt cao xúc động."),
+    (8, "Chủ đề 3: Tri ân thầy cô", "Bài 8: Nhạc cụ: Thực hành đệm hát tiết tấu pop ballad trên kèn phím",
+     "Mô hình tiết tấu Pop Ballad êm dịu đệm cho ca khúc tri ân thầy cô.",
+     "Bấm hợp âm C - F - G7 mượt mà trên bàn phím kèn Melodica."),
+    (9, "Chủ đề 3: Tri ân thầy cô", "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+     "Đọc nhạc kết hợp chùm 3 nốt móc đơn (Triplets) tạo nhịp điệu sinh động.",
+     "Chia đều trường độ của 3 nốt trong một phách nhịp."),
+    (10, "Chủ đề 4: Sắc màu âm nhạc dân gian", "Bài 10: Học hát bài \"Đi cấy\" (Dân ca Thanh Hóa)",
+     "Không khí lao động vui vẻ, tươi vui của bà con nông dân trong những ngày mùa cấy lúa.",
+     "Hát với chất giọng dân ca mộc mạc, thể hiện tiếng đệm 'í a' tình cảm."),
+    (11, "Chủ đề 4: Sắc màu âm nhạc dân gian", "Bài 11: Thường thức âm nhạc: Dân ca Quan họ Bắc Ninh",
+     "Lối hát giao duyên truyền thống với các điệu 'La rằng', 'Mười nhớ', trang phục áo tứ thân nón quai thao.",
+     "Cảm thụ nét tinh tế, vang, rền, nền, nảy của giọng ca liền anh liền chị."),
+    (12, "Chủ đề 4: Sắc màu âm nhạc dân gian", "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+     "Đọc giai điệu mang âm hưởng dân ca đồng bằng Bắc Bộ với các nốt luyến duyên dáng.",
+     "Thực hiện kĩ thuật vuốt nhẹ ngón tay trên sáo Recorder hoặc kèn phím."),
+    (13, "Chủ đề 5: Khúc ca xuân", "Bài 13: Học hát bài \"Mùa xuân nho nhỏ\" (Trần Hoàn - Thanh Hải)",
+     "Khát vọng dâng hiến cuộc đời như một mùa xuân nho nhỏ lặng lẽ cho quê hương đất nước.",
+     "Hát liền mạch câu thơ trữ tình da diết, nhấn nhá đúng nhịp điệu ca từ."),
+    (14, "Chủ đề 5: Khúc ca xuân", "Bài 14: Lí thuyết âm nhạc: Giọng La thứ tự nhiên và giọng La thứ hòa âm",
+     "Giọng La thứ hòa âm có bậc VII nâng lên nửa cung (nốt Son thăng - G#) tạo sức hút mạnh về nốt chủ La.",
+     "Phân biệt màu sắc buồn sâu lắng của giọng La thứ so với vẻ tươi sáng của giọng Đô trưởng."),
+    (15, "Chủ đề 5: Khúc ca xuân", "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+     "Luyện đọc giọng La thứ hòa âm có nốt Son thăng (G#) chuẩn xác cao độ.",
+     "Cảm thụ khoảng cách nửa cung giữa nốt Son thăng và nốt La."),
+    (16, "Chủ đề 6: Di sản âm nhạc cổ điển thế giới", "Bài 16: Học hát bài \"Niềm vui thế giới\" (Ode to Joy)",
+     "Khúc ca ngợi ca tình huynh đệ muôn người, niềm hạnh phúc và hòa bình nhân loại của Beethoven.",
+     "Hát với tinh thần hào sảng, hùng tráng, phát âm dõng dạc."),
+    (17, "Chủ đề 6: Di sản âm nhạc cổ điển thế giới", "Bài 17: Thường thức âm nhạc: Danh nhân Ludwig van Beethoven",
+     "Nhà soạn nhạc thiên tài người Đức, vượt qua bi kịch mất thính giác để viết nên Giao hưởng số 5 và số 9.",
+     "Khâm phục nghị lực phi thường và triết lí nhân văn cao cả trong tác phẩm Beethoven."),
+    (18, "Chủ đề 6: Di sản âm nhạc cổ điển thế giới", "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+     "Đọc chủ đề giai điệu Giao hưởng số 9 nổi tiếng của Beethoven với nhịp 4/4 đều đặn.",
+     "Giữ vững nhịp phách trang trọng không được giục nhịp."),
+    (19, "Chủ đề 7: Tình yêu cuộc sống", "Bài 19: Học hát bài \"Tia nắng hạt mưa\"",
+     "Hình tượng ngộ nghĩnh, vui tươi về tình bạn trong sáng tuổi cắp sách đến trường.",
+     "Hát đảo phách (Syncopation) sắc nét, tạo nhịp điệu nhún nhảy thích thú."),
+    (20, "Chủ đề 7: Tình yêu cuộc sống", "Bài 20: Nhạc cụ: Kĩ thuật hòa tấu bè sáo Recorder và Melodica",
+     "Phân chia bè chính đi giai điệu và bè phụ đệm hợp âm rải tạo không gian âm nhạc phong phú.",
+     "Lắng nghe bè bạn để điều tiết âm lượng cân bằng giữa hai nhạc cụ."),
+    (21, "Chủ đề 7: Tình yêu cuộc sống", "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+     "Thực hành đọc tiết tấu đảo phách và nghịch phách trong bản nhạc hiện đại.",
+     "Nhấn trọng âm vào nốt đảo phách đúng quy luật âm nhạc."),
+    (22, "Chủ đề 8: Khúc ca tạm biệt", "Bài 22: Học hát bài \"Mùa hoa phượng nở\"",
+     "Nỗi niềm xao xuyến khi ve kêu, phượng nở báo hiệu giờ phút chia tay năm học thân thương.",
+     "Hát với cảm xúc da diết, nghẹn ngào nhưng vẫn chan chứa niềm tin hẹn ngày gặp lại."),
+    (23, "Chủ đề 8: Khúc ca tạm biệt", "Bài 23: Tổng kết hoạt động âm nhạc và biểu diễn nhóm",
+     "Tổ chức chương trình văn nghệ tổng kết lớp: phối hợp MC dẫn chương trình, tốp ca, múa phụ hoạ.",
+     "Rèn luyện kĩ năng làm việc nhóm và bản lĩnh tự tin trên sân khấu."),
+    (24, "Chủ đề 8: Khúc ca tạm biệt", "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+     "Đọc tổng hợp bài đọc nhạc giọng La thứ kết hợp đánh nhịp 4/4 thành thạo.",
+     "Hoàn thành xuất sắc bài đọc nhạc kết thúc năm học lớp 8.")
+]
+
+# 4. GRADE 9 DATA
+art_9_lessons = [
+    (1, "Chủ đề 1: Tỉ lệ vàng trong mĩ thuật", "Bài 1: Khám phá tỉ lệ vàng trong tạo hình và kiến trúc",
+     "Tỉ lệ vàng phi (xấp xỉ 1:1,618) - quy chuẩn hài hoà thị giác trong kiến trúc Parthenon và cơ thể người.",
+     "Vận dụng quy tắc một phần ba (1/3) đặt điểm nhấn thị giác trong bức tranh."),
+    (2, "Chủ đề 1: Tỉ lệ vàng trong mĩ thuật", "Bài 2: Vận dụng bố cục không gian và tỉ lệ vàng trong tranh tĩnh vật",
+     "Sắp xếp mẫu tĩnh vật theo đường xoắn ốc Fibonacci dẫn dắt ánh nhìn từ vật phụ tới vật chính.",
+     "Vẽ phân mảng đậm nhạt tinh tế tạo không gian ba chiều sâu thẳm."),
+    (3, "Chủ đề 2: Mĩ thuật đương đại Việt Nam", "Bài 3: Bản sắc văn hoá dân tộc trong tác phẩm tạo hình đương đại",
+     "Kế thừa chất liệu truyền thống (giấy điệp, lụa, gốm) kết hợp ngôn ngữ tạo hình hiện đại.",
+     "Khám phá các tác phẩm đương đại giàu bản sắc của các họa sĩ Việt Nam thời kì đổi mới."),
+    (4, "Chủ đề 2: Mĩ thuật đương đại Việt Nam", "Bài 4: Tranh chất liệu tổng hợp thể hiện nhịp sống hiện đại",
+     "Kết hợp màu acrylic, cát, dây chỉ, giấy báo trên toan tạo bề mặt chất cảm (texture) phong phú.",
+     "Thể hiện nhịp sống đô thị sôi động qua các mảng màu đắp nổi ấn tượng."),
+    (5, "Chủ đề 3: Thiết kế truyền thông và đa phương tiện", "Bài 5: Thiết kế poster quảng bá di sản văn hoá Việt Nam",
+     "Quảng bá phố cổ Hội An, Vịnh Hạ Long, Nhã nhạc cung đình Huế bằng ngôn ngữ đồ họa bắt mắt.",
+     "Bố cục chữ tiêu đề tương phản nổi bật trên nền hình ảnh di sản giàu tính nghệ thuật."),
+    (6, "Chủ đề 3: Thiết kế truyền thông và đa phương tiện", "Bài 6: Thiết kế truyện tranh ngắn và kịch bản phân cảnh (Storyboard)",
+     "Phân khung truyện tranh theo nhịp điệu cốt truyện, biểu cảm góc cận, trung, toàn cảnh.",
+     "Vẽ nhân vật có nét tính cách rõ nét kết hợp bóng thoại lời thoại ngắn gọn."),
+    (7, "Chủ đề 4: Kiến trúc và di sản đô thị", "Bài 7: Vẽ kí hoạ góc phố cổ và công trình kiến trúc lịch sử",
+     "Bắt trọn mái ngói rêu phong, ban công sắt hoa văn và nhịp sống góc phố Hà Nội, Hội An.",
+     "Dùng bút sắt, bút kim phác nét ký họa kiến trúc chuẩn xác điểm tụ phối cảnh."),
+    (8, "Chủ đề 4: Kiến trúc và di sản đô thị", "Bài 8: Thiết kế mô hình cảnh quan công viên xanh đô thị",
+     "Quy hoạch hài hòa giữa hồ nước, đường dạo bộ, vườn hoa và công trình điêu khắc ngoài trời.",
+     "Dựng mô hình cảnh quan đô thị thu nhỏ tỉ lệ 1:100 bằng vật liệu mô hình kiến trúc."),
+    (9, "Chủ đề 5: Hướng nghiệp trong lĩnh vực mĩ thuật", "Bài 9: Khám phá các ngành nghề mĩ thuật ứng dụng và thiết kế đồ họa",
+     "Các lĩnh vực nghề nghiệp: Thiết kế đồ họa (Graphic Design), Thiết kế thời trang, Nội thất, Đồ chơi, Hoạt hình.",
+     "Tìm hiểu yêu cầu phẩm chất tư duy sáng tạo và kĩ năng máy tính trong ngành thiết kế."),
+    (10, "Chủ đề 5: Hướng nghiệp trong lĩnh vực mĩ thuật", "Bài 10: Xây dựng hồ sơ năng lực mĩ thuật cá nhân (Portfolio)",
+     "Tập hợp các tác phẩm xuất sắc nhất, sắp xếp khoa học kèm bản thuyết minh ý tưởng sáng tác.",
+     "Trình bày Portfolio chuyên nghiệp chuẩn bị cho các kì thi năng khiếu hoặc tuyển sinh."),
+    (11, "Chủ đề 6: Văn hoá và lễ hội các dân tộc", "Bài 11: Hoa văn và sắc màu trang phục thổ cẩm các dân tộc",
+     "Họa tiết hình thoi, zíc zắc dệt hoa văn thổ cẩm của đồng bào H'Mông, Dao, Thái, Ba Na.",
+     "Sáng tạo họa tiết trang trí ứng dụng hoa văn thổ cẩm trên đồ dùng cá nhân."),
+    (12, "Chủ đề 6: Văn hoá và lễ hội các dân tộc", "Bài 12: Hoạt cảnh không gian lễ hội cồng chiêng Tây Nguyên",
+     "Không gian văn hóa Cồng chiêng Tây Nguyên (UNESCO vinh danh) bên đống lửa nhà rông rực sáng.",
+     "Tạo hình bức tranh hoành tráng miêu tả vòng xoang múa uyển chuyển quanh ché rượu cần."),
+    (13, "Chủ đề 7: Nhiếp ảnh và tạo hình ánh sáng", "Bài 13: Bố cục một phần ba và góc chụp nghệ thuật trong nhiếp ảnh",
+     "Quy tắc điểm vàng trong khung ngắm máy ảnh, góc chụp từ dưới lên (tôn nghiêm) hoặc từ trên xuống.",
+     "Tận dụng ánh sáng tự nhiên ngược sáng (Silhouette) tạo bóng đen nghệ thuật."),
+    (14, "Chủ đề 7: Nhiếp ảnh và tạo hình ánh sáng", "Bài 14: Nghệ thuật điêu khắc ánh sáng và bóng đổ",
+     "Tạo hình vật thể rỗng để khi chiếu đèn sẽ tạo ra hình bóng đổ kì diệu trên vách tường.",
+     "Sắp đặt các tấm bìa khoét thủng tạo bóng kể chuyện bóng rối hiện đại."),
+    (15, "Chủ đề 8: Triển lãm và đánh giá tác phẩm mĩ thuật", "Bài 15: Tổ chức không gian trưng bày triển lãm mĩ thuật học đường",
+     "Lắp đặt giá trưng bày tranh, gắn nhãn tên tác giả - tác phẩm, bố trí ánh sáng chiếu rọi tranh trọng tâm.",
+     "Thiết kế thiệp mời và sơ đồ tham quan triển lãm khoa học."),
+    (16, "Chủ đề 8: Triển lãm và đánh giá tác phẩm mĩ thuật", "Bài 16: Thuyết trình cảm thụ và phê bình tác phẩm mĩ thuật",
+     "Kĩ năng diễn đạt cảm xúc thẩm mĩ, phân tích màu sắc, đường nét và thông điệp nhân văn của bức tranh.",
+     "Tiếp nhận đóng góp tích cực và hoàn thiện tư duy cảm thụ nghệ thuật.")
+]
+
+music_9_lessons = [
+    (1, "Chủ đề 1: Vui bước đến trường", "Bài 1: Học hát bài \"Khát vọng tuổi trẻ\"",
+     "Giai điệu sục sôi, hào hùng, thôi thúc tinh thần cống hiến: 'Đừng hỏi Tổ quốc đã làm gì cho ta...'.",
+     "Hát với chất giọng khỏe khoắn, dứt khoát, kết hợp ánh mắt kiên định."),
+    (2, "Chủ đề 1: Vui bước đến trường", "Bài 2: Lí thuyết âm nhạc: Khái niệm về Quãng và Hợp âm ba",
+     "Quãng là khoảng cách cao độ giữa hai âm; Hợp âm ba gồm 3 âm xếp chồng lên nhau theo quãng 3.",
+     "Xác định quãng 2, quãng 3, quãng 4, quãng 5 và cấu tạo hợp âm Đô trưởng (C) = C - E - G."),
+    (3, "Chủ đề 1: Vui bước đến trường", "Bài 3: Đọc nhạc: Bài đọc nhạc số 1",
+     "Đọc nhạc với các quãng nhảy quãng 4 và quãng 5 chuẩn xác cao độ.",
+     "Luyện phách đảo phách kết hợp gõ đệm tiết tấu hiện đại."),
+    (4, "Chủ đề 2: Tình yêu quê hương", "Bài 4: Học hát bài \"Bài ca đất phương Nam\"",
+     "Âm hưởng hào sảng, mênh mang đậm chất đờn ca tài tử của vùng đất phương Nam mở cõi.",
+     "Luyến giọng ngọt ngào ở các nốt luyến dân ca đặc trưng."),
+    (5, "Chủ đề 2: Tình yêu quê hương", "Bài 5: Thường thức âm nhạc: Đờn ca tài tử Nam Bộ",
+     "Di sản văn hóa phi vật thể của nhân loại với dàn ngũ tuyệt (tranh, tì, kìm, nhị, bầu) và 'Dạ cổ hoài lang'.",
+     "Tìm hiểu phong cách đờn ca tài tử ngẫu hứng tài hoa giữa lòng người bình dị."),
+    (6, "Chủ đề 2: Tình yêu quê hương", "Bài 6: Đọc nhạc: Bài đọc nhạc số 2",
+     "Đọc giai điệu mang âm hưởng phương Nam với thang âm ngũ cung oán nồng nàn.",
+     "Rèn luyện kĩ năng rung giọng nhẹ nhàng ở nốt kết."),
+    (7, "Chủ đề 3: Nắng ấm sân trường", "Bài 7: Học hát bài \"Bụi phấn\" (Vũ Hoàng - Lê Văn Lộc)",
+     "Tình cảm kính yêu vô bờ bến với thầy giáo tóc bạc phơ vì bụi phấn rơi trên bục giảng.",
+     "Hát với chất giọng lắng đọng, truyền cảm, lay động lòng người."),
+    (8, "Chủ đề 3: Nắng ấm sân trường", "Bài 8: Nhạc cụ: Thực hành đệm hòa thanh ca khúc tri ân",
+     "Phối hợp các hợp âm C - Am - Dm - G7 tạo vòng hòa âm Pop Ballad đệm hát ngọt ngào.",
+     "Chuyển hợp âm dứt khoát trên phím đàn hoặc dây đàn guitar."),
+    (9, "Chủ đề 3: Nắng ấm sân trường", "Bài 9: Đọc nhạc: Bài đọc nhạc số 3",
+     "Đọc nhạc ở giọng Rê thứ tự nhiên với nốt Si giáng (Bb) ở đầu khuông nhạc.",
+     "Cảm nhận màu sắc trữ tình u buồn sâu lắng của giọng Rê thứ."),
+    (10, "Chủ đề 4: Giai điệu tự hào", "Bài 10: Học hát bài \"Tiến quân ca\" (Quốc ca Việt Nam)",
+     "Phong cách thể hiện trang nghiêm, hào hùng, đĩnh đạc, thể hiện khí phách dân tộc bất khuất.",
+     "Hát dõng dạc, đứng nghiêm trang mắt hướng về Quốc kỳ."),
+    (11, "Chủ đề 4: Giai điệu tự hào", "Bài 11: Lịch sử ra đời bài hát \"Tiến quân ca\" của nhạc sĩ Văn Cao",
+     "Ra đời mùa đông năm 1944 tại căn gác nhỏ Hà Nội, đồng hành cùng Cách mạng Tháng Tám 1945.",
+     "Hiểu rõ ý nghĩa lịch sử thiêng liêng của bài Quốc ca trong lòng mỗi người dân Việt Nam."),
+    (12, "Chủ đề 4: Giai điệu tự hào", "Bài 12: Đọc nhạc: Bài đọc nhạc số 4",
+     "Đọc tiết tấu chấm dôi hành khúc khỏe khoắn, dứt khoát trong nhịp 2/4.",
+     "Đánh nhịp 2/4 dứt khoát, cánh tay vuông góc nhịp nhàng."),
+    (13, "Chủ đề 5: Chào xuân mới", "Bài 13: Học hát bài \"Mùa xuân đầu tiên\" (Nhạc sĩ Văn Cao)",
+     "Giai điệu van-xơ (waltz) nhẹ nhàng, êm dịu đón mùa xuân hòa bình thống nhất non sông.",
+     "Hát theo nhịp 3/4 đu đưa dập dềnh như cánh én chao lượn trên đồng lúa."),
+    (14, "Chủ đề 5: Chào xuân mới", "Bài 14: Lí thuyết âm nhạc: Nhịp 3/4 và nhịp 6/8 trong ca khúc trữ tình",
+     "Nhịp 3/4 có 3 phách nốt đen (mạnh - nhẹ - nhẹ); Nhịp 6/8 có 6 phách nốt móc đơn nhịp nhàng như sóng nước.",
+     "Phân biệt cảm giác nhịp 3/4 điệu Valse và nhịp 6/8 điệu Barcarolle."),
+    (15, "Chủ đề 5: Chào xuân mới", "Bài 15: Đọc nhạc: Bài đọc nhạc số 5",
+     "Đọc nhạc theo nhịp 3/4 kết hợp đánh nhịp tam giác: Xuống (1) - Ra ngoài (2) - Lên (3).",
+     "Nhấn rõ trọng âm vào phách 1 của từng ô nhịp."),
+    (16, "Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới", "Bài 16: Học hát bài \"Bài ca hi vọng\" (Nhạc sĩ Văn Ký)",
+     "Giai điệu vút cao tràn đầy niềm tin vào ngày mai tươi sáng của đất nước hòa bình.",
+     "Xử lí kĩ thuật hát giọng pha và mở rộng lồng ngực đón các nốt cao thánh thót."),
+    (17, "Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới", "Bài 17: Thường thức âm nhạc: Danh nhân Frédéric Chopin",
+     "Nhà soạn nhạc Ba Lan - 'Nhà thơ của cây đàn piano' với các bản Nocturne, Polonaise nồng nàn tình quê hương.",
+     "Cảm nhận tâm hồn lãng mạn, tinh tế và nỗi nhớ quê hương cháy bỏng của Chopin."),
+    (18, "Chủ đề 6: Âm nhạc cổ điển và lãng mạn thế giới", "Bài 18: Đọc nhạc: Bài đọc nhạc số 6",
+     "Đọc giai điệu Nocturne du dương, êm đềm với các nốt luyến uyển chuyển.",
+     "Luyện giữ trường độ ngân dài cuối câu nhạc lắng đọng."),
+    (19, "Chủ đề 7: Nhịp điệu tương lai", "Bài 19: Học hát bài \"Bay vào tương lai\"",
+     "Âm hưởng nhạc Pop hiện đại, sôi nổi, cổ vũ thế hệ trẻ bước vào kỉ nguyên số và hội nhập quốc tế.",
+     "Hát với nhịp điệu nhanh, tiết tấu điện tử sôi động và thần thái tự tin."),
+    (20, "Chủ đề 7: Nhịp điệu tương lai", "Bài 20: Thường thức âm nhạc: Tìm hiểu thể loại Nhạc kịch (Musical) và Opera",
+     "Opera là kịch hát cổ điển kết hợp thanh nhạc bác học; Musical là nhạc kịch Broadway kết hợp vũ đạo hiện đại.",
+     "Phân biệt lối hát kịch cổ điển Bel Canto và lối hát nhạc kịch hiện đại."),
+    (21, "Chủ đề 7: Nhịp điệu tương lai", "Bài 21: Đọc nhạc: Bài đọc nhạc số 7",
+     "Đọc giai điệu nhạc kịch với tiết tấu biến tấu sinh động và nhiều dấu hóa bất thường.",
+     "Chuyển đổi linh hoạt giữa các sắc thái cường độ âm thanh."),
+    (22, "Chủ đề 8: Khúc ca trưởng thành", "Bài 22: Học hát bài \"Tạm biệt mái trường\"",
+     "Xúc cảm thiêng liêng khi hoàn thành 4 năm trung học cơ sở, chuẩn bị bước vào ngưỡng cửa THPT.",
+     "Hát với tất cả tình yêu thương, lưu luyến bạn bè thầy cô và mái trường mến yêu."),
+    (23, "Chủ đề 8: Khúc ca trưởng thành", "Bài 23: Định hướng nghề nghiệp trong lĩnh vực âm nhạc và nghệ thuật biểu diễn",
+     "Các nghề nghiệp nghệ thuật: Ca sĩ, Nhạc công, Nhạc sĩ sáng tác, Nhà sản xuất âm nhạc (Producer), Kĩ sư âm thanh.",
+     "Lập kế hoạch rèn luyện năng khiếu thẩm mĩ và theo đuổi đam mê nghệ thuật."),
+    (24, "Chủ đề 8: Khúc ca trưởng thành", "Bài 24: Đọc nhạc: Bài đọc nhạc số 8",
+     "Đọc bài đọc nhạc tổng kết toàn bộ chương trình Âm nhạc THCS với chất lượng cao nhất.",
+     "Thể hiện xuất sắc khả năng cảm thụ cao độ, trường độ và phong thái biểu diễn chững chạc.")
+]
+
+# Build subject objects
+def build_art_subject(grade_num, lessons_spec):
+    lessons = []
+    for num, chap, title, a, method in lessons_spec:
+        lessons.append({
+            "id": f"mi-thuat-{grade_num}-b{num}",
+            "number": num,
+            "chapter": chap,
+            "title": title,
+            "questions": make_art_questions(grade_num, title, chap, a, method)
+        })
+    return {
+        "id": f"mi-thuat-{grade_num}",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": lessons
+    }
+
+def build_music_subject(grade_num, lessons_spec):
+    lessons = []
+    for num, chap, title, a, method in lessons_spec:
+        lessons.append({
+            "id": f"am-nhac-{grade_num}-b{num}",
+            "number": num,
+            "chapter": chap,
+            "title": title,
+            "questions": make_music_questions(grade_num, title, chap, a, method)
+        })
+    return {
+        "id": f"am-nhac-{grade_num}",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": lessons
+    }
+
+grade_data_map = {
+    6: (build_art_subject(6, art_6_lessons), build_music_subject(6, music_6_lessons)),
+    7: (build_art_subject(7, art_7_lessons), build_music_subject(7, music_7_lessons)),
+    8: (build_art_subject(8, art_8_lessons), build_music_subject(8, music_8_lessons)),
+    9: (build_art_subject(9, art_9_lessons), build_music_subject(9, music_9_lessons)),
+}
+
+for grade_obj in grades_data:
+    g = grade_obj["grade"]
+    if g in grade_data_map:
+        art_sub, music_sub = grade_data_map[g]
+        # Remove existing if any
+        grade_obj["subjects"] = [s for s in grade_obj["subjects"] if s["name"] not in ["Mĩ thuật", "Âm nhạc"]]
+        # Add new subjects
+        grade_obj["subjects"].append(art_sub)
+        grade_obj["subjects"].append(music_sub)
+        print(f"Updated Grade {g}: Added Mĩ thuật ({len(art_sub['lessons'])} bài) and Âm nhạc ({len(music_sub['lessons'])} bài). Total subjects now: {len(grade_obj['subjects'])}")
+
+# Convert back to JSON and format
+new_json_str = json.dumps(grades_data, ensure_ascii=False, indent=2)
+
+# Reconstruct curriculumData.ts content
+new_content = text[:start_json] + new_json_str + ";\n\n" + text[end_idx:]
+
+with open('client/src/curriculumData.ts', 'w', encoding='utf-8') as f:
+    f.write(new_content)
+
+print("Successfully wrote updated client/src/curriculumData.ts!")
