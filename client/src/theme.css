@@ -84,8 +84,27 @@ body {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
   }
+  .print-sheet.sheet-1-card {
+    height: 284mm !important;
+    max-height: 284mm !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+  }
+  .print-sheet.sheet-1-card .card-wrapper {
+    height: 100% !important;
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .print-sheet.sheet-1-card .answer-card-large {
+    height: 100% !important;
+    flex: 1 !important;
+    width: 100% !important;
+    max-height: 280mm !important;
+  }
   .print-sheet:last-child { page-break-after: auto !important; break-after: auto !important; }
-  @page { size: A4 portrait; margin: 8mm; }
+  @page { size: A4 portrait; margin: 6mm; }
 }
 
 @keyframes scanline {

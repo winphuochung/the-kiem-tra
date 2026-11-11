@@ -107,36 +107,194 @@ export function AnswerCard({
 }) {
   const sttLabel = String(student.stt).padStart(2, "0");
   const qrValue = `https://the-kiem-tra.vercel.app/?student_stt=${student.stt}&class=${encodeURIComponent(className)}`;
+
+  if (large) {
+    // 1 THẺ / 1 TỜ A4: Mã QR siêu to khổng lồ chiếm trọn vẹn toàn bộ tờ A4, quét xa từ cuối lớp
+    return (
+      <div
+        className="answer-card-large relative bg-white text-black select-none w-full flex flex-col justify-between"
+        style={{
+          border: "4px solid #000",
+          borderRadius: 12,
+          aspectRatio: "210 / 285", // Tỉ lệ đứng chuẩn của toàn bộ tờ giấy A4
+          width: "100%",
+          boxSizing: "border-box",
+          overflow: "hidden",
+        }}
+      >
+        {/* Hàng trên: Thông tin học sinh (trái) - Chữ A (giữa) - Số thẻ STT (phải) */}
+        <div style={{ position: "absolute", left: "4%", top: "2.5%", maxWidth: "38%", zIndex: 10 }}>
+          <div style={{ fontWeight: 800, fontSize: "clamp(16px, 2.4vw, 22px)", fontFamily: "Arial, sans-serif", color: "#000", lineHeight: 1.2 }}>
+            {student.name}
+          </div>
+          <div style={{ fontSize: "clamp(12px, 1.6vw, 15px)", fontWeight: 700, color: "#444", fontFamily: "Arial, sans-serif", marginTop: 2 }}>
+            Lớp {className} · Thẻ #{student.stt}
+          </div>
+        </div>
+
+        <span
+          style={{
+            position: "absolute",
+            top: "1.2%",
+            left: "50%",
+            transform: "translateX(-50%)",
+            fontWeight: 900,
+            fontSize: "clamp(46px, 6.5vw, 68px)",
+            fontFamily: "Arial, sans-serif",
+            lineHeight: 1,
+            zIndex: 10,
+          }}
+        >
+          A
+        </span>
+
+        <span
+          style={{
+            position: "absolute",
+            top: "2%",
+            right: "4%",
+            fontWeight: 900,
+            fontSize: "clamp(38px, 5.5vw, 56px)",
+            fontFamily: "Arial, sans-serif",
+            lineHeight: 1,
+            zIndex: 10,
+          }}
+        >
+          {sttLabel}
+        </span>
+
+        {/* Chữ D bên trái */}
+        <span
+          style={{
+            position: "absolute",
+            left: "2%",
+            top: "50%",
+            transform: "translateY(-50%)",
+            fontWeight: 900,
+            fontSize: "clamp(46px, 6.5vw, 68px)",
+            fontFamily: "Arial, sans-serif",
+            lineHeight: 1,
+            zIndex: 10,
+          }}
+        >
+          D
+        </span>
+
+        {/* MÃ QR SIÊU TO KHỔNG LỒ Ở CHÍNH GIỮA - CHIẾM TRỌN CHIỀU RỘNG TỜ A4 */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "8% 6%",
+          }}
+        >
+          <div
+            style={{
+              width: "100%",
+              height: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <QRCodeSVG
+              value={qrValue}
+              size={650}
+              level="M"
+              marginSize={1}
+              style={{
+                width: "min(90%, 650px)",
+                height: "auto",
+                aspectRatio: "1 / 1",
+                display: "block",
+              }}
+            />
+          </div>
+        </div>
+
+        {/* Chữ B bên phải */}
+        <span
+          style={{
+            position: "absolute",
+            right: "2%",
+            top: "50%",
+            transform: "translateY(-50%)",
+            fontWeight: 900,
+            fontSize: "clamp(46px, 6.5vw, 68px)",
+            fontFamily: "Arial, sans-serif",
+            lineHeight: 1,
+            zIndex: 10,
+          }}
+        >
+          B
+        </span>
+
+        {/* Hàng dưới: Hướng dẫn (trái) - Chữ C (giữa) - Ghi chú xoay thẻ (phải) */}
+        <div style={{ position: "absolute", left: "4%", bottom: "2%", zIndex: 10 }}>
+          <span style={{ fontSize: "clamp(11px, 1.4vw, 14px)", fontWeight: 700, color: "#555", fontFamily: "Arial, sans-serif" }}>
+            Mã to quét xa cả lớp
+          </span>
+        </div>
+
+        <span
+          style={{
+            position: "absolute",
+            bottom: "1.2%",
+            left: "50%",
+            transform: "translateX(-50%)",
+            fontWeight: 900,
+            fontSize: "clamp(46px, 6.5vw, 68px)",
+            fontFamily: "Arial, sans-serif",
+            lineHeight: 1,
+            zIndex: 10,
+          }}
+        >
+          C
+        </span>
+
+        <div style={{ position: "absolute", right: "4%", bottom: "2%", textAlign: "right", zIndex: 10 }}>
+          <span style={{ fontSize: "clamp(11px, 1.4vw, 14px)", fontWeight: 700, color: "#555", fontFamily: "Arial, sans-serif" }}>
+            Xoay đáp án lên trên ⬆
+          </span>
+        </div>
+      </div>
+    );
+  }
+
+  // 2 THẺ / 1 TỜ A4: Tỉ lệ ngang 1.48
   return (
     <div
       className="relative bg-white text-black select-none"
       style={{
-        border: large ? "3.5px solid #111" : "2.5px solid #111",
+        border: "2.5px solid #111",
         borderRadius: 8,
-        aspectRatio: large ? "1.28" : "1.48",
+        aspectRatio: "1.48",
         width: "100%",
         overflow: "hidden",
       }}
     >
-      <span style={{ position: "absolute", top: "3%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>A</span>
-      <span style={{ position: "absolute", bottom: "2.5%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>C</span>
-      <span style={{ position: "absolute", left: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>D</span>
-      <span style={{ position: "absolute", right: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: large ? 46 : 28, fontFamily: "Arial, sans-serif" }}>B</span>
-      <span style={{ position: "absolute", top: "3.5%", right: "5%", fontWeight: 800, fontSize: large ? 40 : 24, fontFamily: "Arial, sans-serif" }}>{sttLabel}</span>
+      <span style={{ position: "absolute", top: "3%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>A</span>
+      <span style={{ position: "absolute", bottom: "2.5%", left: "50%", transform: "translateX(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>C</span>
+      <span style={{ position: "absolute", left: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>D</span>
+      <span style={{ position: "absolute", right: "3.5%", top: "50%", transform: "translateY(-50%)", fontWeight: 800, fontSize: 28, fontFamily: "Arial, sans-serif" }}>B</span>
+      <span style={{ position: "absolute", top: "3.5%", right: "5%", fontWeight: 800, fontSize: 24, fontFamily: "Arial, sans-serif" }}>{sttLabel}</span>
       <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
         <QRCodeSVG
           value={qrValue}
-          size={large ? 330 : 205}
+          size={205}
           level="M"
           marginSize={1}
         />
       </div>
-      <div style={{ position: "absolute", left: "5%", bottom: "3.5%", fontSize: large ? 16 : 12, lineHeight: 1.3, maxWidth: "55%" }}>
+      <div style={{ position: "absolute", left: "5%", bottom: "3.5%", fontSize: 12, lineHeight: 1.3, maxWidth: "55%" }}>
         <div style={{ fontWeight: 700, fontFamily: "Arial, sans-serif" }}>{student.name}</div>
         <div style={{ color: "#555", fontFamily: "Arial, sans-serif" }}>{className} · Thẻ số {student.stt}</div>
       </div>
       <div style={{ position: "absolute", right: "5%", bottom: "3.5%", textAlign: "right" }}>
-        <span style={{ color: "#888", fontSize: large ? 13 : 10, fontFamily: "Arial, sans-serif" }}>Mã QR Chuẩn</span>
+        <span style={{ color: "#888", fontSize: 10, fontFamily: "Arial, sans-serif" }}>Mã QR Chuẩn</span>
       </div>
     </div>
   );
@@ -895,12 +1053,20 @@ function PrintView({
             {sheets.map((sheetStudents, si) => (
               <div
                 key={si}
-                className="print-sheet mx-auto bg-white p-4 sm:p-6"
-                style={{ maxWidth: 820, boxShadow: "0 4px 24px rgba(31,36,48,.12)", borderRadius: 6 }}
+                className={`print-sheet mx-auto bg-white ${layout === "1" ? "sheet-1-card p-3 sm:p-5" : "p-4 sm:p-6"}`}
+                style={{
+                  maxWidth: layout === "1" ? 780 : 820,
+                  aspectRatio: layout === "1" ? "210 / 297" : undefined,
+                  boxShadow: "0 4px 24px rgba(31,36,48,.12)",
+                  borderRadius: 6,
+                  display: layout === "1" ? "flex" : undefined,
+                  flexDirection: layout === "1" ? "column" : undefined,
+                  justifyContent: layout === "1" ? "space-between" : undefined,
+                }}
               >
-                <div className={layout === "2" ? "grid gap-5" : "grid"}>
+                <div className={layout === "2" ? "grid gap-5" : "card-wrapper w-full flex-1 flex flex-col justify-center"}>
                   {sheetStudents.map((s) => (
-                    <div key={s.id}>
+                    <div key={s.id} className={layout === "1" ? "w-full flex-1 flex flex-col" : undefined}>
                       <AnswerCard student={s} className={selectedClass.name} seed={seed} large={layout === "1"} />
                       {layout === "2" ? (
                         <div aria-hidden="true" style={{ borderTop: "1px dashed #bbb", marginTop: 10 }} />
@@ -908,8 +1074,8 @@ function PrintView({
                     </div>
                   ))}
                 </div>
-                <p className="mt-3 text-center text-[11px]" style={{ color: "#888" }}>
-                  Thẻ trả lời · Lớp {selectedClass.name} · Tờ {si + 1}/{sheets.length} — cắt theo đường đứt nét, phát đúng số thẻ cho từng em
+                <p className="mt-2 text-center text-[11px]" style={{ color: "#888" }}>
+                  Thẻ trả lời · Lớp {selectedClass.name} · Tờ {si + 1}/{sheets.length} — {layout === "1" ? "Khổ A4 lớn quét từ cuối lớp" : "cắt theo đường đứt nét, phát đúng số thẻ cho từng em"}
                 </p>
               </div>
             ))}
