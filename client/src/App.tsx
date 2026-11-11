@@ -4,6 +4,7 @@ import { QRCodeSVG } from "qrcode.react";
 import { createHostSession, type HostConnection } from "./peerSync";
 import { RemoteScannerView } from "./RemoteScannerView";
 import { exportCardsToWord, exportCardsToPDF, exportQuestionsToWord, exportResultsToWord } from "./exportUtils";
+import { AutoExamModal } from "./AutoExamModal";
 // Local SafeAreaTopScrim component
 function SafeAreaTopScrim({ backgroundColor = "var(--bg)" }: { backgroundColor?: string }) {
   return <div style={{ height: "env(safe-area-inset-top, 0px)", backgroundColor }} />;
@@ -923,6 +924,7 @@ function BanksView({
   const [editing, setEditing] = useState<BankQuestion | null>(null);
   const [editDraft, setEditDraft] = useState<QDraft>(emptyQ());
   const [confirmDeleteBank, setConfirmDeleteBank] = useState(false);
+  const [showAutoModal, setShowAutoModal] = useState(false);
 
   const questionsQ = useQuery({
     queryKey: ["bankQuestions", selectedBankId],
@@ -960,7 +962,7 @@ function BanksView({
       <SectionTitle sub="Soạn sẵn các bộ câu hỏi trắc nghiệm 4 phương án. Khi mở buổi học, thầy cô lấy câu từ đề có sẵn ở đây — hoặc gõ nhanh vài câu ngay trong buổi học.">
         Ngân hàng câu hỏi
       </SectionTitle>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap items-center gap-2">
         {banks.map((b) => (
           <button
             key={b.id}
@@ -973,9 +975,19 @@ function BanksView({
             {b.title} · {b.question_count} câu
           </button>
         ))}
-        <span className="flex gap-2">
-          <input aria-label="Tên đề mới" placeholder="Tên đề mới, vd: Kiểm tra học kì II — Sinh học 12" value={newTitle} onChange={(e) => setNewTitle(e.target.value)} className={inputCls} style={{ ...inputStyle, width: 300, maxWidth: "62vw" }} />
+        <span className="flex flex-wrap items-center gap-2">
+          <input aria-label="Tên đề mới" placeholder="Tên đề mới, vd: Kiểm tra KHTN 7" value={newTitle} onChange={(e) => setNewTitle(e.target.value)} className={inputCls} style={{ ...inputStyle, width: 260, maxWidth: "60vw" }} />
           <Btn color="#F97316" disabled={!newTitle.trim()} onClick={() => createBank.mutate(newTitle.trim())} ariaLabel="Tạo đề mới">+ Tạo đề</Btn>
+          <button
+            type="button"
+            onClick={() => setShowAutoModal(true)}
+            className="rounded-full px-4 py-2 text-sm font-black text-white shadow-md transition active:scale-95 flex items-center gap-1.5"
+            style={{ background: "linear-gradient(135deg,#7C3AED,#4F46E5)", minHeight: 40 }}
+            title="Tự động tạo câu hỏi trắc nghiệm theo bài học SGK từ lớp 1 đến lớp 12"
+          >
+            <span>✨</span>
+            <span>Tạo đề tự động (SGK Lớp 1 - 12)</span>
+          </button>
         </span>
       </div>
 
@@ -1001,8 +1013,41 @@ function BanksView({
                 <Btn color="#b91c1c" onClick={() => deleteBank.mutate(selectedBank.id)} ariaLabel="Xác nhận xoá đề">Chắc chắn xoá đề?</Btn>
               )}
             </div>
-            {questionsQ.isPending ? <p className="py-6 text-sm" style={{ color: "var(--dim)" }}>Đang tải…</p> : questions.length === 0 ? (
-              <p className="py-6 text-sm" style={{ color: "var(--dim)" }}>Đề chưa có câu hỏi nào. Soạn câu đầu tiên ở khung bên cạnh.</p>
+            {questionsQ.isPending ? (
+              <p className="py-6 text-sm" style={{ color: "var(--dim)" }}>Đang tải…</p>
+            ) : questions.length === 0 ? (
+              <div className="py-6">
+                <p className="text-sm" style={{ color: "var(--dim)" }}>
+                  Đề chưa có câu hỏi nào. Soạn câu đầu tiên ở khung bên cạnh hoặc bấm nút dưới để tạo tự động theo SGK.
+                </p>
+                <div className="mt-4 p-4 rounded-2xl bg-indigo-50 border border-indigo-200 flex flex-wrap items-center justify-between gap-3">
+                  <div>
+                    <p className="font-extrabold text-sm text-indigo-950 flex items-center gap-1.5">
+                      <span>⚡ Tạo câu hỏi nhanh theo Sách giáo khoa</span>
+                      <a
+                        href="https://taphuan.nxbgd.vn/tap-huan?grade="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[11px] text-indigo-600 underline font-normal"
+                      >
+                        (taphuan.nxbgd.vn)
+                      </a>
+                    </p>
+                    <p className="text-xs text-indigo-700 mt-0.5">
+                      Tự động chọn 1 bài hoặc nhiều bài từ Lớp 1 đến Lớp 12 theo chuẩn NXB Giáo dục Việt Nam.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setShowAutoModal(true)}
+                    className="px-4 py-2 rounded-xl text-xs font-black text-white shadow transition active:scale-95 flex items-center gap-1.5"
+                    style={{ background: "linear-gradient(135deg,#7C3AED,#4F46E5)" }}
+                  >
+                    <span>✨</span>
+                    <span>Tạo đề tự động ngay</span>
+                  </button>
+                </div>
+              </div>
             ) : (
               <ol className="mt-3 space-y-3">
                 {questions.map((q, i) => (
@@ -1049,8 +1094,27 @@ function BanksView({
           </aside>
         </div>
       ) : (
-        <p className="mt-4 text-sm" style={{ color: "var(--dim)" }}>Hãy tạo đề đầu tiên bằng ô “Tên đề mới” ở trên.</p>
+        <div className="mt-4 p-8 rounded-3xl bg-white border border-slate-200 text-center">
+          <p className="text-base font-bold text-slate-800">Chưa chọn đề nào hoặc chưa có đề kiểm tra.</p>
+          <p className="text-xs text-slate-500 mt-1">Thầy cô có thể tạo đề mới thủ công bằng ô nhập ở trên hoặc bấm nút dưới để tạo tự động theo SGK Lớp 1 - 12.</p>
+          <button
+            type="button"
+            onClick={() => setShowAutoModal(true)}
+            className="mt-4 px-6 py-3 rounded-2xl text-sm font-black text-white shadow-lg transition active:scale-95 inline-flex items-center gap-2"
+            style={{ background: "linear-gradient(135deg,#7C3AED,#4F46E5)" }}
+          >
+            <span>✨</span>
+            <span>Tạo đề tự động từ Sách Giáo Khoa (Lớp 1 - 12)</span>
+          </button>
+        </div>
       )}
+
+      {/* Modal Tạo đề tự động chuẩn Sách giáo khoa */}
+      <AutoExamModal
+        isOpen={showAutoModal}
+        onClose={() => setShowAutoModal(false)}
+        onCreated={(id) => onSelect(id)}
+      />
     </div>
   );
 }

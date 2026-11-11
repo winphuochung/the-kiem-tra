@@ -316,6 +316,33 @@ export const localStoreActions = {
     return { id: nextId };
   },
 
+  addBankQuestionsBulk: async (args: { bank_id: number; questions: QuestionInput[] }) => {
+    const db = loadDb();
+    const bankId = Number(args.bank_id);
+    let nextId = db.bankQuestions.reduce((m, q) => Math.max(m, q.id), 0);
+    let maxPos = db.bankQuestions
+      .filter((q) => q.bankId === bankId)
+      .reduce((m, q) => Math.max(m, q.position), 0);
+
+    for (const q of args.questions) {
+      nextId += 1;
+      maxPos += 1;
+      db.bankQuestions.push({
+        id: nextId,
+        bankId,
+        position: maxPos,
+        content: q.content.trim(),
+        option_a: q.option_a.trim(),
+        option_b: q.option_b.trim(),
+        option_c: q.option_c.trim(),
+        option_d: q.option_d.trim(),
+        correct: q.correct,
+      });
+    }
+    saveDb(db);
+    return { added: args.questions.length };
+  },
+
   updateBankQuestion: async (args: { question_id: number; question: QuestionInput }) => {
     const db = loadDb();
     const target = db.bankQuestions.find((q) => q.id === Number(args.question_id));

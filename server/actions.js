@@ -207,6 +207,40 @@ export const actionHandlers = {
     return { id: Number(result.lastInsertRowid) };
   },
 
+  // 11b. addBankQuestionsBulk
+  addBankQuestionsBulk: async (args) => {
+    const bankId = Number(args.bank_id);
+    const questions = args.questions || [];
+    const maxRow = db
+      .prepare("SELECT COALESCE(MAX(position), 0) as max_pos FROM bank_questions WHERE bank_id = ?")
+      .get(bankId);
+    let pos = Number(maxRow.max_pos);
+
+    const stmt = db.prepare(`
+      INSERT INTO bank_questions (bank_id, position, content, option_a, option_b, option_c, option_d, correct)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+
+    const insertMany = db.transaction((items) => {
+      for (const q of items) {
+        pos += 1;
+        stmt.run(
+          bankId,
+          pos,
+          q.content.trim(),
+          q.option_a.trim(),
+          q.option_b.trim(),
+          q.option_c.trim(),
+          q.option_d.trim(),
+          q.correct
+        );
+      }
+    });
+
+    insertMany(questions);
+    return { added: questions.length };
+  },
+
   // 12. updateBankQuestion
   updateBankQuestion: async (args) => {
     const qId = Number(args.question_id);

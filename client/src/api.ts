@@ -52,6 +52,7 @@ export type ApiActions = {
   deleteBank: (args: { bank_id: number }) => Promise<{ ok: true }>;
   listBankQuestions: (args: { bank_id: number }) => Promise<{ questions: QuestionShape[] }>;
   addBankQuestion: (args: { bank_id: number; question: QuestionInput }) => Promise<{ id: number }>;
+  addBankQuestionsBulk: (args: { bank_id: number; questions: QuestionInput[] }) => Promise<{ added: number }>;
   updateBankQuestion: (args: { question_id: number; question: QuestionInput }) => Promise<{ ok: true }>;
   deleteBankQuestion: (args: { question_id: number }) => Promise<{ ok: true }>;
 
