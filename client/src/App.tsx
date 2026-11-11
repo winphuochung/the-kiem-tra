@@ -348,14 +348,16 @@ export function App() {
             type="button"
             aria-label="Về trang chủ Thẻ Trả Lời"
             onClick={() => setView({ kind: "home" })}
-            className="flex items-center gap-2 text-left"
+            className="flex items-center gap-2.5 text-left group"
           >
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-white">
-              <MarkerSVG stt={7} seed={3} size={24} />
-            </span>
+            <img
+              src="/logo.png"
+              alt="Logo Cá Nhân"
+              className="h-10 w-10 sm:h-12 sm:w-12 rounded-2xl object-contain bg-white p-1 shadow-md border border-white/30 transition group-hover:scale-105 shrink-0"
+            />
             <span className="leading-tight">
-              <span className="block text-base font-black text-white">Thẻ Trả Lời</span>
-              <span className="block text-[11px] font-medium" style={{ color: "#FFC53D" }}>Không cần điện thoại · Không cần máy bấm</span>
+              <span className="block text-base sm:text-lg font-black text-white tracking-wide">Thẻ Trả Lời</span>
+              <span className="block text-[11px] font-bold" style={{ color: "#FFC53D" }}>Không cần điện thoại · Không cần máy bấm</span>
             </span>
           </button>
           <nav aria-label="Điều hướng chính" className="ml-auto flex gap-1 overflow-x-auto">
@@ -490,7 +492,17 @@ function HomeView({
         style={{ background: "linear-gradient(135deg,#171c48,#232a6b 55%,#2f3a9e)" }}
       >
         <div className="relative z-10 max-w-xl">
-          <p className="text-xs font-black uppercase tracking-widest" style={{ color: "#FFC53D" }}>Dạy học trên lớp · Thẻ trả lời</p>
+          <div className="flex items-center gap-3.5 mb-3">
+            <img
+              src="/logo.png"
+              alt="Logo Cá Nhân"
+              className="h-14 w-14 sm:h-16 sm:w-16 rounded-2xl object-contain bg-white p-1 shadow-xl border-2 border-amber-300 shrink-0"
+            />
+            <div>
+              <p className="text-xs font-black uppercase tracking-widest" style={{ color: "#FFC53D" }}>Dạy học trên lớp · Thẻ trả lời</p>
+              <span className="text-[11px] font-bold text-indigo-200">Hệ thống kiểm tra trắc nghiệm không cần thiết bị thông minh</span>
+            </div>
+          </div>
           <h1 className="mt-2 text-3xl font-black leading-tight text-white sm:text-4xl">
             Cả lớp trả lời cùng lúc,<br />chỉ bằng một tấm thẻ giấy
           </h1>
@@ -1522,8 +1534,13 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
 
   return (
     <div className="pt-4">
-      <div className="flex flex-wrap items-center gap-2">
-        <button type="button" onClick={onExit} aria-label="Quay lại danh sách buổi học" className="rounded-full px-3 py-2 text-sm font-bold" style={{ background: "#fff", border: "1px solid var(--border)", minHeight: 40 }}>← Buổi học</button>
+      <div className="flex flex-wrap items-center gap-2.5">
+        <button type="button" onClick={onExit} aria-label="Quay lại danh sách buổi học" className="rounded-full px-3 py-2 text-sm font-bold shadow-sm" style={{ background: "#fff", border: "1px solid var(--border)", minHeight: 40 }}>← Buổi học</button>
+        <img
+          src="/logo.png"
+          alt="Logo Cá Nhân"
+          className="h-10 w-10 sm:h-11 sm:w-11 rounded-xl object-contain bg-white p-0.5 shadow-sm border border-slate-200 shrink-0"
+        />
         <div className="min-w-0">
           <h2 className="truncate text-lg font-black" style={{ color: "#232a6b" }}>{sess.title}</h2>
           <p className="text-xs" style={{ color: "var(--dim)" }}>Lớp {sess.class_name} · {questions.length} câu · {students.length} học sinh · {sess.status === "finished" ? "Đã kết thúc" : "Đang mở"}</p>
@@ -1749,76 +1766,341 @@ function PresentPanel({
   onNext: () => void;
   isLast: boolean;
 }) {
-  const correctCount = students.filter((s) => responses?.get(s.id) === q.correct).length;
-  const wrongCount = students.filter(
-    (s) => responses?.has(s.id) && responses.get(s.id) !== q.correct
-  ).length;
+  const [activeTab, setActiveTab] = useState<"question" | "chart">(reveal ? "chart" : "question");
+  const [selectedAnswerFilter, setSelectedAnswerFilter] = useState<Answer | "none" | null>(null);
+  const [gridCols, setGridCols] = useState<2 | 3 | 4>(3);
+
+  // Thống kê phân tích số học sinh chọn A, B, C, D và Chưa giơ
+  const counts: Record<Answer, number> = { A: 0, B: 0, C: 0, D: 0 };
+  const studentsByAnswer: Record<Answer, Student[]> = { A: [], B: [], C: [], D: [] };
+  const unansweredStudents: Student[] = [];
+
+  students.forEach((s) => {
+    const ans = responses?.get(s.id);
+    if (ans && ["A", "B", "C", "D"].includes(ans)) {
+      counts[ans]++;
+      studentsByAnswer[ans].push(s);
+    } else {
+      unansweredStudents.push(s);
+    }
+  });
+
+  const correctCount = counts[q.correct] || 0;
+  const wrongCount = answered - correctCount;
   const unansweredCount = students.length - answered;
+  const maxBarCount = Math.max(1, counts.A, counts.B, counts.C, counts.D, unansweredCount);
+
+  // Tự động chuyển sang xem biểu đồ khi giáo viên công bố đáp án
+  const handleReveal = () => {
+    onReveal();
+    setActiveTab("chart");
+  };
 
   return (
     <section className="mt-4 grid gap-5 lg:grid-cols-2 items-start">
-      {/* CỘT BÊN TRÁI: CÂU HỎI VÀ 4 ĐÁP ÁN A - B - C - D */}
+      {/* CỘT BÊN TRÁI: CÂU HỎI VÀ BIỂU ĐỒ CỘT PHÂN TÍCH A - B - C - D */}
       <div
         className="overflow-hidden rounded-3xl p-5 sm:p-7 flex flex-col justify-between shadow-2xl"
-        style={{ background: "linear-gradient(150deg,#171c48,#232a6b 60%,#2c3690)", minHeight: 520 }}
+        style={{ background: "linear-gradient(150deg,#171c48,#232a6b 60%,#2c3690)", minHeight: 560 }}
       >
         <div>
-          <div className="flex items-center gap-2">
-            <span className="rounded-full px-3 py-1 text-xs font-black" style={{ background: "#FFC53D", color: "#232a6b" }}>
-              Câu {index + 1} / {total}
-            </span>
-            <span className="text-xs font-semibold text-white/70">
-              Học sinh giơ thẻ: xoay cạnh đáp án lên trên
-            </span>
+          {/* Top Bar câu hỏi kèm Logo cá nhân & Nút chuyển đổi Biểu đồ / 4 Đáp án */}
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <span className="rounded-full px-3 py-1 text-xs font-black" style={{ background: "#FFC53D", color: "#232a6b" }}>
+                Câu {index + 1} / {total}
+              </span>
+              <span className="text-xs font-semibold text-white/70">
+                Học sinh giơ thẻ: xoay cạnh đáp án lên trên
+              </span>
+            </div>
+
+            {/* Logo cá nhân trong thẻ câu hỏi */}
+            <div className="flex items-center gap-2">
+              <img
+                src="/logo.png"
+                alt="Logo Cá Nhân"
+                className="h-8 w-8 sm:h-9 sm:w-9 rounded-xl object-contain bg-white p-0.5 shadow border border-white/20 shrink-0"
+              />
+            </div>
           </div>
 
-          <h3 className="mt-4 text-2xl font-extrabold leading-snug text-white sm:text-3xl">
+          {/* Thanh chuyển chế độ: Câu hỏi & 4 Đáp án <-> Biểu đồ cột phân tích */}
+          <div className="flex items-center gap-2 mt-3 p-1 rounded-2xl bg-black/25 border border-white/10 w-fit">
+            <button
+              type="button"
+              onClick={() => setActiveTab("question")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-black transition flex items-center gap-1.5 ${
+                activeTab === "question"
+                  ? "bg-amber-400 text-slate-950 shadow-md"
+                  : "text-white/70 hover:text-white hover:bg-white/10"
+              }`}
+            >
+              <span>❓ 4 Ô Đáp Án</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveTab("chart")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-black transition flex items-center gap-1.5 ${
+                activeTab === "chart"
+                  ? "bg-amber-400 text-slate-950 shadow-md"
+                  : "text-white/70 hover:text-white hover:bg-white/10"
+              }`}
+            >
+              <span>📊 Biểu Đồ Cột ABCD</span>
+              {answered > 0 && (
+                <span className="px-1.5 py-0.2 rounded-full text-[10px] bg-black text-amber-300">
+                  {answered} em
+                </span>
+              )}
+            </button>
+          </div>
+
+          <h3 className="mt-4 text-xl sm:text-2xl font-extrabold leading-snug text-white">
             {q.content}
           </h3>
 
-          <div className="mt-6 grid gap-3 sm:grid-cols-2">
-            {ANSWERS.map((L) => {
-              const isCorrect = reveal && q.correct === L;
-              const dimmed = reveal && q.correct !== L;
-              return (
-                <div
-                  key={L}
-                  className="flex items-start gap-3 rounded-2xl p-4 transition shadow-md"
-                  style={{
-                    background: ANSWER_COLORS[L],
-                    opacity: dimmed ? 0.45 : 1,
-                    outline: isCorrect ? "4px solid #fff" : "none",
-                  }}
-                >
-                  <span
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-lg font-black shadow"
-                    style={{ color: ANSWER_COLORS[L] }}
+          {/* CHẾ ĐỘ 1: HIỂN THỊ 4 Ô ĐÁP ÁN A, B, C, D */}
+          {activeTab === "question" ? (
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              {ANSWERS.map((L) => {
+                const isCorrect = reveal && q.correct === L;
+                const dimmed = reveal && q.correct !== L;
+                const countThis = counts[L];
+                return (
+                  <div
+                    key={L}
+                    className="flex items-start gap-3 rounded-2xl p-4 transition shadow-md relative overflow-hidden"
+                    style={{
+                      background: ANSWER_COLORS[L],
+                      opacity: dimmed ? 0.45 : 1,
+                      outline: isCorrect ? "4px solid #fff" : "none",
+                    }}
                   >
-                    {L}
-                  </span>
-                  <span className="pt-1 text-base font-bold leading-relaxed text-white sm:text-lg">
-                    {q[`option_${L.toLowerCase()}` as "option_a" | "option_b" | "option_c" | "option_d"]}
-                  </span>
-                  {isCorrect && (
-                    <span className="ml-auto shrink-0 rounded-full bg-white px-2.5 py-1 text-xs font-black text-emerald-700 shadow">
-                      ✓ Đúng
+                    <span
+                      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-lg font-black shadow"
+                      style={{ color: ANSWER_COLORS[L] }}
+                    >
+                      {L}
                     </span>
+                    <div className="pt-0.5 flex-1 min-w-0">
+                      <p className="text-base font-bold leading-relaxed text-white">
+                        {q[`option_${L.toLowerCase()}` as "option_a" | "option_b" | "option_c" | "option_d"]}
+                      </p>
+                      {answered > 0 && (
+                        <p className="text-[11px] font-extrabold text-white/90 mt-1">
+                          Đã có: {countThis} em chọn ({students.length > 0 ? Math.round((countThis / students.length) * 100) : 0}%)
+                        </p>
+                      )}
+                    </div>
+                    {isCorrect && (
+                      <span className="shrink-0 rounded-full bg-white px-2.5 py-1 text-xs font-black text-emerald-700 shadow self-start">
+                        ✓ Đúng
+                      </span>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          ) : (
+            /* CHẾ ĐỘ 2: BIỂU ĐỒ CỘT PHÂN TÍCH TRẢ LỜI CỦA HỌC SINH (A, B, C, D) */
+            <div className="mt-5 rounded-2xl p-4 sm:p-5 bg-black/35 border border-white/15 backdrop-blur-sm">
+              <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-white/10">
+                <div>
+                  <h4 className="text-base font-black text-amber-300 flex items-center gap-1.5">
+                    <span>📊 Biểu Đồ Phân Tích Lựa Chọn (A · B · C · D)</span>
+                  </h4>
+                  <p className="text-xs text-white/70 mt-0.5">
+                    Đã nhận: <span className="text-white font-extrabold">{answered}/{students.length} em</span> ({students.length > 0 ? Math.round((answered / students.length) * 100) : 0}%)
+                    {reveal && (
+                      <span className="ml-2 px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-black border border-emerald-500/40">
+                        Đáp án đúng: {q.correct}
+                      </span>
+                    )}
+                  </p>
+                </div>
+                <div className="text-xs font-bold text-white/60">
+                  Nhấp vào cột để xem danh sách học sinh
+                </div>
+              </div>
+
+              {/* 4 CỘT CHÍNH (A, B, C, D) + CỘT CHƯA GIƠ */}
+              <div className="grid grid-cols-5 gap-2 sm:gap-3 items-end pt-6 pb-2 min-h-[220px]">
+                {ANSWERS.map((L) => {
+                  const cnt = counts[L];
+                  const pct = students.length > 0 ? Math.round((cnt / students.length) * 100) : 0;
+                  const isCorrect = reveal && q.correct === L;
+                  const heightPct = Math.max(12, Math.round((cnt / maxBarCount) * 100));
+                  const isSelected = selectedAnswerFilter === L;
+
+                  return (
+                    <div
+                      key={L}
+                      onClick={() => setSelectedAnswerFilter(isSelected ? null : L)}
+                      className="flex flex-col items-center h-full justify-end cursor-pointer group"
+                    >
+                      {/* Số lượng & % trên đầu cột */}
+                      <div className="text-center mb-1.5 transition group-hover:scale-110">
+                        <span className="block text-xs sm:text-sm font-black text-white leading-none">
+                          {cnt}
+                        </span>
+                        <span className="block text-[10px] text-white/70 font-bold">
+                          {pct}%
+                        </span>
+                      </div>
+
+                      {/* Thanh cột đứng */}
+                      <div className="w-full max-w-[56px] h-36 bg-white/10 rounded-2xl p-1 flex flex-col justify-end relative overflow-hidden border border-white/10">
+                        <div
+                          className="w-full rounded-xl transition-all duration-500 relative flex items-center justify-center shadow-lg"
+                          style={{
+                            height: `${heightPct}%`,
+                            background: ANSWER_COLORS[L],
+                            boxShadow: isCorrect ? "0 0 16px rgba(16,185,129,0.7)" : undefined,
+                            border: isCorrect ? "2px solid #ffffff" : isSelected ? "2px solid #FDE047" : "none",
+                          }}
+                        >
+                          {isCorrect && (
+                            <span className="absolute -top-3 px-1.5 py-0.5 rounded-full bg-emerald-400 text-slate-950 font-black text-[9px] shadow uppercase tracking-wider whitespace-nowrap">
+                              ✓ ĐÚNG
+                            </span>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Nhãn chữ cái bên dưới cột */}
+                      <div className="mt-2 text-center">
+                        <span
+                          className={`flex h-8 w-8 items-center justify-center rounded-full font-black text-sm transition mx-auto shadow ${
+                            isSelected ? "ring-2 ring-yellow-400 scale-110" : ""
+                          }`}
+                          style={{
+                            background: ANSWER_COLORS[L],
+                            color: "#ffffff",
+                          }}
+                        >
+                          {L}
+                        </span>
+                        <span className="block text-[10px] font-bold text-white/70 mt-1 truncate max-w-[64px]" title={q[`option_${L.toLowerCase()}` as "option_a" | "option_b" | "option_c" | "option_d"]}>
+                          {q[`option_${L.toLowerCase()}` as "option_a" | "option_b" | "option_c" | "option_d"]}
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
+
+                {/* Cột thứ 5: Chưa giơ thẻ */}
+                <div
+                  onClick={() => setSelectedAnswerFilter(selectedAnswerFilter === "none" ? null : "none")}
+                  className="flex flex-col items-center h-full justify-end cursor-pointer group"
+                >
+                  <div className="text-center mb-1.5 transition group-hover:scale-110">
+                    <span className="block text-xs sm:text-sm font-black text-amber-300 leading-none">
+                      {unansweredCount}
+                    </span>
+                    <span className="block text-[10px] text-amber-200/70 font-bold">
+                      {students.length > 0 ? Math.round((unansweredCount / students.length) * 100) : 0}%
+                    </span>
+                  </div>
+
+                  <div className="w-full max-w-[56px] h-36 bg-white/10 rounded-2xl p-1 flex flex-col justify-end relative overflow-hidden border border-white/10">
+                    <div
+                      className="w-full rounded-xl transition-all duration-500 bg-neutral-900 border-2 border-amber-400/80 shadow-md"
+                      style={{
+                        height: `${Math.max(12, Math.round((unansweredCount / maxBarCount) * 100))}%`,
+                      }}
+                    />
+                  </div>
+
+                  <div className="mt-2 text-center">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-neutral-900 border border-amber-400/80 font-black text-xs text-amber-400 mx-auto shadow">
+                      —
+                    </span>
+                    <span className="block text-[10px] font-bold text-amber-300 mt-1 truncate max-w-[64px]">
+                      Chưa giơ
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Danh sách học sinh theo đáp án đã chọn (Interactive Breakdown) */}
+              <div className="mt-4 pt-3 border-t border-white/10">
+                <div className="flex flex-wrap items-center justify-between gap-1 mb-2">
+                  <span className="text-xs font-black text-white">
+                    {selectedAnswerFilter === "none"
+                      ? `Danh sách chưa giơ thẻ (${unansweredCount} em):`
+                      : selectedAnswerFilter
+                      ? `Danh sách học sinh chọn đáp án ${selectedAnswerFilter} (${counts[selectedAnswerFilter]} em):`
+                      : "Chi tiết học sinh theo từng đáp án (bấm cột ở trên để lọc):"}
+                  </span>
+                  {selectedAnswerFilter && (
+                    <button
+                      type="button"
+                      onClick={() => setSelectedAnswerFilter(null)}
+                      className="text-[11px] text-amber-300 hover:underline font-bold"
+                    >
+                      Xem tất cả
+                    </button>
                   )}
                 </div>
-              );
-            })}
-          </div>
+
+                <div className="flex flex-wrap gap-1.5 max-h-28 overflow-y-auto pr-1">
+                  {(selectedAnswerFilter === "none"
+                    ? unansweredStudents
+                    : selectedAnswerFilter
+                    ? studentsByAnswer[selectedAnswerFilter]
+                    : students
+                  ).map((s) => {
+                    const ans = responses?.get(s.id);
+                    const stt = String(s.stt).padStart(2, "0");
+                    const ok = ans === q.correct;
+                    return (
+                      <span
+                        key={s.id}
+                        className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-black shadow-sm ${
+                          !ans
+                            ? "bg-black text-amber-300 border border-amber-400"
+                            : ok
+                            ? "bg-emerald-600 text-white border border-emerald-400"
+                            : "bg-rose-600 text-white border border-rose-400"
+                        }`}
+                      >
+                        <span className="opacity-80 font-mono text-[10px]">#{stt}</span>
+                        <span>{s.name}</span>
+                        {ans && <span className="px-1 rounded bg-black/25 text-[11px] font-black">{ans}</span>}
+                      </span>
+                    );
+                  })}
+                  {((selectedAnswerFilter === "none" && unansweredStudents.length === 0) ||
+                    (selectedAnswerFilter && selectedAnswerFilter !== "none" && studentsByAnswer[selectedAnswerFilter].length === 0)) && (
+                    <span className="text-xs text-white/50 italic py-1">Không có học sinh nào.</span>
+                  )}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
+        {/* Action Buttons phía dưới */}
         <div className="mt-6 flex flex-wrap gap-2 pt-4 border-t border-white/15">
           {!reveal ? (
-            <Btn color="#FFC53D" textColor="#232a6b" onClick={onReveal} ariaLabel="Hiện đáp án đúng của câu này">
-              Hiện đáp án đúng
+            <Btn color="#FFC53D" textColor="#232a6b" onClick={handleReveal} ariaLabel="Hiện đáp án đúng của câu này">
+              ✓ Hiện đáp án đúng & Biểu đồ
             </Btn>
-          ) : null}
+          ) : (
+            <Btn
+              color="#3B82F6"
+              onClick={() => setActiveTab(activeTab === "chart" ? "question" : "chart")}
+              ariaLabel="Bật tắt biểu đồ"
+            >
+              {activeTab === "chart" ? "❓ Xem lại 4 phương án" : "📊 Xem biểu đồ cột ABCD"}
+            </Btn>
+          )}
+
           <Btn color="#F97316" onClick={onScan} ariaLabel="Đi quét thẻ cho câu này">
             📷 Quét thẻ câu này
           </Btn>
+
           {!isLast ? (
             <Btn color="rgba(255,255,255,.15)" onClick={onNext} ariaLabel="Sang câu tiếp theo">
               Câu tiếp theo →
@@ -1827,17 +2109,17 @@ function PresentPanel({
         </div>
       </div>
 
-      {/* CỘT BÊN PHẢI: SƠ ĐỒ LỚP / DANH SÁCH HỌC SINH CHỌN ĐÁP ÁN */}
+      {/* CỘT BÊN PHẢI: SƠ ĐỒ LỚP / DANH SÁCH HỌC SINH THẤY RÕ HỌ VÀ TÊN 100% */}
       <div
         className="rounded-3xl p-5 sm:p-6 shadow-2xl flex flex-col justify-between"
         style={{
           background: "linear-gradient(160deg,#12163b,#1a2055 70%,#1f2766)",
           border: "1.5px solid rgba(255,255,255,0.12)",
-          minHeight: 520,
+          minHeight: 560,
         }}
       >
         <div>
-          {/* Header Sơ đồ lớp */}
+          {/* Header Sơ đồ lớp kèm bộ chuyển số cột (2 cột / 3 cột / 4 cột) để tên rõ ràng */}
           <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-white/10">
             <div>
               <h4 className="text-xl font-black text-white flex items-center gap-2">
@@ -1847,37 +2129,68 @@ function PresentPanel({
                 {answered} / {students.length} em đã giơ thẻ
               </p>
             </div>
-            <div className="flex flex-wrap items-center gap-1.5 text-xs font-black">
-              <span className="rounded-full bg-emerald-500/20 px-2.5 py-1 text-emerald-300 border border-emerald-500/30">
-                ✓ Đúng: {correctCount}
-              </span>
-              <span className="rounded-full bg-rose-500/20 px-2.5 py-1 text-rose-300 border border-rose-500/30">
-                ✗ Sai: {wrongCount}
-              </span>
-              <span className="rounded-full bg-black px-2.5 py-1 text-amber-300 border border-amber-400/60 shadow">
-                ● Chưa giơ: {unansweredCount}
-              </span>
+
+            {/* Điều khiển bố cục số cột để thấy rõ họ và tên */}
+            <div className="flex items-center gap-1.5">
+              <span className="text-[11px] font-bold text-white/70">Hiển thị:</span>
+              <div className="flex rounded-xl bg-black/40 p-0.5 border border-white/10">
+                {([2, 3, 4] as const).map((cols) => (
+                  <button
+                    key={cols}
+                    type="button"
+                    onClick={() => setGridCols(cols)}
+                    className={`px-2.5 py-1 rounded-lg text-xs font-black transition ${
+                      gridCols === cols
+                        ? "bg-amber-400 text-slate-950 shadow"
+                        : "text-white/70 hover:text-white"
+                    }`}
+                  >
+                    {cols} Cột
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
 
-          {/* Dải quy ước & nhãn nhắc nhở */}
-          <div className="flex flex-wrap items-center justify-between gap-2 py-2.5 border-b border-white/5">
-            <div className="flex items-center gap-1.5">
-              <span className="text-[11px] text-white/60 font-semibold">Qui ước:</span>
-              <span className="px-2 py-0.5 rounded bg-emerald-600 text-white font-black text-[11px]">Xanh: Đúng</span>
-              <span className="px-2 py-0.5 rounded bg-rose-600 text-white font-black text-[11px]">Đỏ: Sai</span>
-              <span className="px-2 py-0.5 rounded bg-black text-amber-300 border border-amber-400 font-black text-[11px]">Đen: Chưa giơ</span>
-            </div>
-            <span className="text-[11px] font-black text-amber-300 bg-amber-500/15 px-2.5 py-0.5 rounded-full border border-amber-500/30">
-              ⚡ Em nào chưa giơ thẻ: nhìn là biết
+          {/* Dải thống kê số em Đúng / Sai / Chưa giơ */}
+          <div className="flex flex-wrap items-center gap-1.5 py-2.5 border-b border-white/5 text-xs font-black">
+            <span className="rounded-full bg-emerald-500/20 px-3 py-1 text-emerald-300 border border-emerald-500/30">
+              ✓ Đúng: {correctCount} em
+            </span>
+            <span className="rounded-full bg-rose-500/20 px-3 py-1 text-rose-300 border border-rose-500/30">
+              ✗ Sai: {wrongCount} em
+            </span>
+            <span className="rounded-full bg-black px-3 py-1 text-amber-300 border border-amber-400 shadow">
+              ● Chưa giơ: {unansweredCount} em
             </span>
           </div>
 
-          {/* Lưới học sinh 4 cột như hình mẫu */}
+          {/* Dải quy ước màu sắc */}
+          <div className="flex flex-wrap items-center justify-between gap-2 py-2 border-b border-white/5">
+            <div className="flex items-center gap-1.5 text-[11px]">
+              <span className="text-white/60 font-semibold">Qui ước:</span>
+              <span className="px-2 py-0.5 rounded bg-emerald-600 text-white font-black">Xanh: Đúng</span>
+              <span className="px-2 py-0.5 rounded bg-rose-600 text-white font-black">Đỏ: Sai</span>
+              <span className="px-2 py-0.5 rounded bg-black text-amber-300 border border-amber-400 font-black">Đen: Chưa giơ</span>
+            </div>
+            <span className="text-[10px] font-black text-amber-300 bg-amber-500/15 px-2 py-0.5 rounded-full border border-amber-500/30">
+              ⚡ Tên học sinh hiển thị đầy đủ họ và tên
+            </span>
+          </div>
+
+          {/* Lưới học sinh: KHÔNG CẮT BỚT TÊN - HIỂN THỊ ĐẦY ĐỦ HỌ VÀ TÊN RÕ RÀNG */}
           {students.length === 0 ? (
             <p className="text-sm text-white/60 py-8 text-center">Lớp chưa có học sinh.</p>
           ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-2 mt-3 max-h-[520px] overflow-y-auto pr-1">
+            <div
+              className={`grid gap-2.5 mt-3 max-h-[520px] overflow-y-auto pr-1 ${
+                gridCols === 2
+                  ? "grid-cols-1 sm:grid-cols-2"
+                  : gridCols === 3
+                  ? "grid-cols-1 sm:grid-cols-2 xl:grid-cols-3"
+                  : "grid-cols-2 sm:grid-cols-3 xl:grid-cols-4"
+              }`}
+            >
               {students.map((s) => {
                 const ans = responses?.get(s.id);
                 const hasAnswered = ans != null;
@@ -1887,37 +2200,53 @@ function PresentPanel({
                 return (
                   <div
                     key={s.id}
-                    className={`flex items-center justify-between px-2.5 py-2 rounded-xl transition-all ${
-                      !hasAnswered
-                        ? "bg-black border-2 border-amber-400/90 text-amber-200 shadow-lg shadow-black scale-[0.98]"
-                        : isCorrect
-                        ? "bg-emerald-600 border border-emerald-300 text-white shadow-md shadow-emerald-950/40"
-                        : "bg-rose-600 border border-rose-300 text-white shadow-md shadow-rose-950/40"
+                    title={`STT ${sttFormatted}: ${s.name} ${
+                      !hasAnswered ? "(Chưa giơ thẻ)" : isCorrect ? `(Chọn ${ans} - ĐÚNG)` : `(Chọn ${ans} - SAI)`
                     }`}
-                    style={{ minHeight: 46 }}
+                    className={`flex items-center justify-between p-2.5 rounded-2xl transition-all shadow-md ${
+                      !hasAnswered
+                        ? "bg-black border-2 border-amber-400 text-amber-200"
+                        : isCorrect
+                        ? "bg-emerald-600 border-2 border-emerald-300 text-white shadow-emerald-950/40"
+                        : "bg-rose-600 border-2 border-rose-300 text-white shadow-rose-950/40"
+                    }`}
+                    style={{ minHeight: 52 }}
                   >
-                    <div className="min-w-0 pr-1">
-                      <span className="block truncate text-xs font-black leading-tight text-white">
-                        {sttFormatted} {s.name}
-                      </span>
+                    {/* Phần Tên: Hiển thị ĐẦY ĐỦ Họ và Tên rõ ràng, không dùng truncate */}
+                    <div className="flex items-center gap-2 min-w-0 flex-1 pr-1.5">
                       <span
-                        className={`text-[10px] font-bold ${
-                          !hasAnswered ? "text-amber-300 font-black" : "text-white/80"
-                        }`}
+                        className="shrink-0 flex h-6 w-6 items-center justify-center rounded-lg text-[11px] font-black shadow-inner"
+                        style={{
+                          background: !hasAnswered ? "rgba(251,191,36,0.25)" : "rgba(255,255,255,0.22)",
+                          color: !hasAnswered ? "#FBBF24" : "#ffffff",
+                        }}
                       >
-                        {!hasAnswered ? "Chưa giơ thẻ" : isCorrect ? "Đúng ✓" : "Sai ✗"}
+                        {sttFormatted}
                       </span>
+                      <div className="min-w-0 flex-1">
+                        <span className="block text-xs sm:text-[13px] font-black leading-snug text-white break-words">
+                          {s.name}
+                        </span>
+                        <span
+                          className={`block text-[10px] font-bold mt-0.5 ${
+                            !hasAnswered ? "text-amber-300 font-black" : "text-white/85"
+                          }`}
+                        >
+                          {!hasAnswered ? "● Chưa giơ" : isCorrect ? "✓ Đúng" : "✗ Sai"}
+                        </span>
+                      </div>
                     </div>
 
+                    {/* Badge đáp án giơ thẻ */}
                     {hasAnswered ? (
                       <span
-                        className="shrink-0 flex h-6 w-6 items-center justify-center rounded-full bg-white font-black text-xs shadow"
+                        className="shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-white font-black text-sm shadow-md"
                         style={{ color: isCorrect ? "#059669" : "#dc2626" }}
                       >
                         {ans}
                       </span>
                     ) : (
-                      <span className="shrink-0 flex h-6 w-6 items-center justify-center rounded-full bg-neutral-900 border border-amber-400/60 font-black text-[10px] text-amber-400">
+                      <span className="shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-neutral-900 border border-amber-400 font-black text-xs text-amber-400">
                         —
                       </span>
                     )}

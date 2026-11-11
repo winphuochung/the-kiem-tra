@@ -342,6 +342,11 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
       <div className="sticky top-0 z-30 bg-slate-950/90 backdrop-blur border-b border-slate-800 p-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
+            <img
+              src="/logo.png"
+              alt="Logo"
+              className="h-7 w-7 rounded-lg bg-white p-0.5 object-contain shrink-0"
+            />
             <span
               className={`h-3 w-3 rounded-full ${
                 status === "connected"
