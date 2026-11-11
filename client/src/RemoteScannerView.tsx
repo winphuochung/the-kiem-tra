@@ -11,6 +11,8 @@ const ANSWER_COLORS: Record<Answer, string> = {
   D: "#06D6A0",
 };
 
+let sharedAudioCtx: AudioContext | null = null;
+
 export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: string; sessionId: number }) {
   const [status, setStatus] = useState<"connecting" | "connected" | "disconnected" | "error">("connecting");
   const [sessionInfo, setSessionInfo] = useState<any>(null);
@@ -40,6 +42,13 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
   const lastScanTimeRef = useRef<Map<number, number>>(new Map());
 
   const currentQ = questions[currentIdx];
+
+  const responsesMapRef = useRef(responsesMap);
+  responsesMapRef.current = responsesMap;
+  const studentsRef = useRef(students);
+  studentsRef.current = students;
+  const currentQRef = useRef(currentQ);
+  currentQRef.current = currentQ;
 
   // 1. Tải dữ liệu ban đầu tức thì qua API để không bị kẹt ở "Đang đồng bộ..."
   useEffect(() => {
@@ -129,7 +138,7 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     };
   }, [hostPeerId]);
 
-  // 3. Điều khiển Camera thật của điện thoại
+  // 3. Điều khiển Camera thật của điện thoại (Tối ưu 60fps & lấy nét liên tục)
   const startCamera = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({
@@ -137,6 +146,7 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
           facingMode: { ideal: "environment" },
           width: { ideal: 1920, min: 1280 },
           height: { ideal: 1080, min: 720 },
+          frameRate: { ideal: 60, min: 30 },
         },
         audio: false,
       });
@@ -147,6 +157,16 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
         videoRef.current.setAttribute("playsinline", "true");
         await videoRef.current.play();
       }
+
+      // Kích hoạt lấy nét liên tục (Continuous Autofocus) nếu phần cứng hỗ trợ
+      try {
+        const track = stream.getVideoTracks()[0];
+        if (track && (track as any).applyConstraints) {
+          (track as any).applyConstraints({
+            advanced: [{ focusMode: "continuous" }],
+          }).catch(() => {});
+        }
+      } catch (e) {}
     } catch (e) {
       console.error("Lỗi mở camera:", e);
       alert("Không mở được camera điện thoại. Vui lòng cấp quyền truy cập Camera cho trình duyệt hoặc thử lại!");
@@ -171,27 +191,32 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     }
   }, [camOn]);
 
-  // Âm thanh báo "Tít" khi quét được đáp án
+  // Âm thanh báo "Tít" khi quét được đáp án (Dùng chung AudioContext chống đầy bộ nhớ âm thanh)
   const playBeep = () => {
     try {
-      const audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
-      const osc = audioCtx.createOscillator();
-      const gain = audioCtx.createGain();
+      if (!sharedAudioCtx) {
+        sharedAudioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
+      }
+      if (sharedAudioCtx.state === "suspended") {
+        sharedAudioCtx.resume();
+      }
+      const osc = sharedAudioCtx.createOscillator();
+      const gain = sharedAudioCtx.createGain();
       osc.connect(gain);
-      gain.connect(audioCtx.destination);
+      gain.connect(sharedAudioCtx.destination);
       osc.type = "sine";
-      osc.frequency.setValueAtTime(880, audioCtx.currentTime);
-      gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
-      gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.08);
+      osc.frequency.setValueAtTime(880, sharedAudioCtx.currentTime);
+      gain.gain.setValueAtTime(0.2, sharedAudioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, sharedAudioCtx.currentTime + 0.08);
       osc.start();
-      osc.stop(audioCtx.currentTime + 0.08);
+      osc.stop(sharedAudioCtx.currentTime + 0.08);
     } catch (e) {}
   };
 
-  // Tự động tắt thông báo vừa quét sau 3.5 giây
+  // Tự động tắt thông báo vừa quét sau 3 giây
   useEffect(() => {
     if (!justDetected) return;
-    const t = setTimeout(() => setJustDetected(null), 3500);
+    const t = setTimeout(() => setJustDetected(null), 3000);
     return () => clearTimeout(t);
   }, [justDetected]);
 
@@ -203,7 +228,8 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
   const submitBatchAnswers = async (
     items: { studentId: number; answer: Answer; studentName: string }[]
   ) => {
-    if (!currentQ || items.length === 0) return;
+    const curQ = currentQRef.current;
+    if (!curQ || items.length === 0) return;
 
     // 1. Cập nhật state local ngay tức khắc
     setResponsesMap((prev) => {
@@ -216,21 +242,21 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
 
     // 2. Thông báo trực quan trên điện thoại
     if (items.length === 1) {
-      const isCorrect = items[0].answer === currentQ.correct;
+      const isCorrect = items[0].answer === curQ.correct;
       setJustDetected({
         text: `${items[0].studentName} đã chọn ${items[0].answer}`,
         isCorrect,
       });
     } else {
-      const correctCount = items.filter((it) => it.answer === currentQ.correct).length;
+      const correctCount = items.filter((it) => it.answer === curQ.correct).length;
       const sttList = items
         .map((it) => {
-          const s = students.find((st) => st.id === it.studentId);
+          const s = (studentsRef.current || []).find((st) => st.id === it.studentId);
           return `#${s?.stt || it.studentId}:${it.answer}`;
         })
         .join(", ");
       setJustDetected({
-        text: `Đã nhận ${items.length} em cùng lúc: ${sttList}`,
+        text: `Đã nhận ${items.length} em: ${sttList}`,
         isCorrect: correctCount > 0,
       });
     }
@@ -240,21 +266,13 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
       navigator.vibrate([40]);
     }
 
-    // 3. Gửi đồng thời qua PeerJS tới máy tính (cả dạng BATCH và dạng từng em để 100% tương thích)
+    // 3. Gửi đồng thời qua PeerJS tới máy tính dưới dạng BATCH (siêu nhanh, 0ms trễ)
     try {
       connRef.current?.send({
         type: "SUBMIT_BATCH",
-        question_id: currentQ.id,
+        question_id: curQ.id,
         answers: items.map((it) => ({ student_id: it.studentId, answer: it.answer })),
       });
-      for (const it of items) {
-        connRef.current?.send({
-          type: "SUBMIT_ANSWER",
-          question_id: currentQ.id,
-          student_id: it.studentId,
-          answer: it.answer,
-        });
-      }
     } catch (e) {
       console.warn("Lỗi gửi PeerJS:", e);
     }
@@ -263,7 +281,7 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     try {
       await api.recordResponses({
         session_id: sessionId,
-        question_id: currentQ.id,
+        question_id: curQ.id,
         source: "scan",
         answers: items.map((it) => ({ student_id: it.studentId, answer: it.answer })),
       });
@@ -272,12 +290,16 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     }
   };
 
-  // 5. VÒNG LẶP QUÉT ĐỒNG THỜI TẤT CẢ HỌC SINH (DUAL ENGINE MULTI-QR SCANNER)
+  // 5. VÒNG LẶP QUÉT TỐC ĐỘ CAO (ULTRA-FAST DUAL ENGINE MULTI-QR SCANNER)
   useEffect(() => {
-    if (!camOn || !currentQ || students.length === 0) return;
+    if (!camOn) return;
 
+    let active = true;
     let animId: number;
+    let videoCallbackId: number | null = null;
     let isProcessing = false;
+    let lastScanTime = 0;
+
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d", { willReadFrequently: true });
 
@@ -293,153 +315,245 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
 
     // Hàm trích xuất thông tin học sinh từ chuỗi mã QR
     const extractStudent = (raw: string) => {
-      let foundStt: number | null = null;
+      if (!raw) return null;
+      let foundNum: number | null = null;
       const match1 = raw.match(/student_stt=(\d+)/i);
       const match2 = raw.match(/STT[=:](\d+)/i);
       const match3 = raw.match(/TTL[:=](\d+)/i);
-      if (match1) foundStt = parseInt(match1[1], 10);
-      else if (match2) foundStt = parseInt(match2[1], 10);
-      else if (match3) foundStt = parseInt(match3[1], 10);
+      const match4 = raw.match(/[?&]stt=(\d+)/i);
+      const match5 = raw.match(/student_id=(\d+)/i);
+      if (match1) foundNum = parseInt(match1[1], 10);
+      else if (match2) foundNum = parseInt(match2[1], 10);
+      else if (match3) foundNum = parseInt(match3[1], 10);
+      else if (match4) foundNum = parseInt(match4[1], 10);
+      else if (match5) foundNum = parseInt(match5[1], 10);
       else {
-        const num = parseInt(raw, 10);
-        if (!isNaN(num) && num > 0) foundStt = num;
+        const num = parseInt(raw.trim(), 10);
+        if (!isNaN(num) && num > 0) foundNum = num;
       }
-      if (foundStt == null) return null;
-      return students.find((s) => s.stt === foundStt) || null;
+      if (foundNum == null) return null;
+      const list = studentsRef.current || [];
+      return list.find((s) => s.stt === foundNum) || list.find((s) => s.id === foundNum) || null;
     };
 
-    const scan = async () => {
+    const scanFrame = async () => {
+      if (!active) return;
       const video = videoRef.current;
       if (!isProcessing && video && video.readyState >= video.HAVE_CURRENT_DATA && ctx) {
-        const vw = video.videoWidth;
-        const vh = video.videoHeight;
-        if (vw > 0 && vh > 0) {
+        const now = performance.now();
+        // Nhịp quét tối ưu ~30 FPS (khoảng 30ms giữa các frame, không gây nóng máy)
+        if (now - lastScanTime >= 30) {
+          lastScanTime = now;
           isProcessing = true;
-          const detectedBatch: { studentId: number; answer: Answer; studentName: string }[] = [];
-          const processedIds = new Set<number>();
 
-          // === ĐỘNG CƠ 1: NATIVE BARCODE DETECTOR (Quét cực nhanh tất cả mã QR trong 1 lần gọi) ===
-          if (barcodeDetector) {
-            try {
-              const barcodes = await barcodeDetector.detect(video);
-              if (barcodes && barcodes.length > 0) {
-                for (const bc of barcodes) {
-                  if (bc.rawValue && bc.cornerPoints && bc.cornerPoints.length >= 4) {
-                    const student = extractStudent(bc.rawValue);
-                    if (student && !processedIds.has(student.id)) {
-                      processedIds.add(student.id);
-                      const pts = bc.cornerPoints;
-                      const edgeMidpoints: { name: Answer; y: number }[] = [
-                        { name: "A", y: (pts[0].y + pts[1].y) / 2 },
-                        { name: "B", y: (pts[1].y + pts[2].y) / 2 },
-                        { name: "C", y: (pts[2].y + pts[3].y) / 2 },
-                        { name: "D", y: (pts[3].y + pts[0].y) / 2 },
-                      ];
-                      edgeMidpoints.sort((p, q) => p.y - q.y);
-                      detectedBatch.push({
-                        studentId: student.id,
-                        answer: edgeMidpoints[0].name,
-                        studentName: student.name,
-                      });
+          try {
+            const vw = video.videoWidth;
+            const vh = video.videoHeight;
+            if (vw > 0 && vh > 0) {
+              const detectedBatch: { studentId: number; answer: Answer; studentName: string }[] = [];
+              const processedIds = new Set<number>();
+              const maskedBoxes: { minX: number; maxX: number; minY: number; maxY: number }[] = [];
+
+              // =========================================================================
+              // ĐỘNG CƠ 1: NATIVE BARCODE DETECTOR (Tốc độ phần cứng C++/GPU)
+              // Quét trực tiếp trên video gốc để bắt tất cả các thẻ ở khoảng cách xa
+              // =========================================================================
+              if (barcodeDetector) {
+                try {
+                  const barcodes = await barcodeDetector.detect(video);
+                  if (barcodes && barcodes.length > 0) {
+                    for (const bc of barcodes) {
+                      if (bc.rawValue && bc.cornerPoints && bc.cornerPoints.length >= 4) {
+                        const student = extractStudent(bc.rawValue);
+                        if (student && !processedIds.has(student.id)) {
+                          processedIds.add(student.id);
+                          const pts = bc.cornerPoints;
+                          const edgeMidpoints: { name: Answer; y: number }[] = [
+                            { name: "A", y: (pts[0].y + pts[1].y) / 2 },
+                            { name: "B", y: (pts[1].y + pts[2].y) / 2 },
+                            { name: "C", y: (pts[2].y + pts[3].y) / 2 },
+                            { name: "D", y: (pts[3].y + pts[0].y) / 2 },
+                          ];
+                          edgeMidpoints.sort((p, q) => p.y - q.y);
+                          detectedBatch.push({
+                            studentId: student.id,
+                            answer: edgeMidpoints[0].name,
+                            studentName: student.name,
+                          });
+
+                          const xs = pts.map((p: any) => p.x);
+                          const ys = pts.map((p: any) => p.y);
+                          maskedBoxes.push({
+                            minX: Math.min(...xs),
+                            maxX: Math.max(...xs),
+                            minY: Math.min(...ys),
+                            maxY: Math.max(...ys),
+                          });
+                        }
+                      }
+                    }
+                  }
+                } catch (err) {
+                  // Fallback tự động qua jsQR
+                }
+              }
+
+              // =========================================================================
+              // ĐỘNG CƠ 2: ULTRA-FAST IN-MEMORY MASKED JSQR
+              // Quét ở độ phân giải 850px và MASK TRỰC TIẾP TRÊN RAM (0ms trễ)
+              // Bắt trọn vẹn tất cả học sinh bị nghiêng hoặc BarcodeDetector bỏ sót!
+              // =========================================================================
+              const curStudents = studentsRef.current || [];
+              if (processedIds.size < curStudents.length) {
+                const maxDim = 850;
+                const scale = Math.min(1, maxDim / Math.max(vw, vh));
+                const sw = Math.round(vw * scale);
+                const sh = Math.round(vh * scale);
+
+                if (canvas.width !== sw || canvas.height !== sh) {
+                  canvas.width = sw;
+                  canvas.height = sh;
+                }
+                ctx.drawImage(video, 0, 0, sw, sh);
+
+                // Đọc ImageData một lần duy nhất vào RAM
+                const imgData = ctx.getImageData(0, 0, sw, sh);
+                const rawData = imgData.data;
+
+                // Xóa các mã QR đã được BarcodeDetector tìm thấy
+                for (const mb of maskedBoxes) {
+                  const bMinX = Math.max(0, Math.floor(mb.minX * scale - 10));
+                  const bMaxX = Math.min(sw - 1, Math.ceil(mb.maxX * scale + 10));
+                  const bMinY = Math.max(0, Math.floor(mb.minY * scale - 10));
+                  const bMaxY = Math.min(sh - 1, Math.ceil(mb.maxY * scale + 10));
+                  for (let y = bMinY; y <= bMaxY; y++) {
+                    const row = y * sw * 4;
+                    for (let x = bMinX; x <= bMaxX; x++) {
+                      const idx = row + (x << 2);
+                      rawData[idx] = 255;
+                      rawData[idx + 1] = 255;
+                      rawData[idx + 2] = 255;
+                      rawData[idx + 3] = 255;
                     }
                   }
                 }
+
+                // Vòng lặp quét tìm tất cả các học sinh còn lại trong khung hình
+                const MAX_JSQR_PASSES = 25;
+                for (let pass = 0; pass < MAX_JSQR_PASSES; pass++) {
+                  const code = jsQR(rawData, sw, sh, {
+                    inversionAttempts: "dontInvert",
+                  });
+                  if (!code || !code.data) break; // Không còn mã QR nào nữa
+
+                  const student = extractStudent(code.data);
+                  if (student && code.location && !processedIds.has(student.id)) {
+                    processedIds.add(student.id);
+                    const loc = code.location;
+                    const edgeMidpoints: { name: Answer; y: number }[] = [
+                      { name: "A", y: (loc.topLeftCorner.y + loc.topRightCorner.y) / 2 },
+                      { name: "B", y: (loc.topRightCorner.y + loc.bottomRightCorner.y) / 2 },
+                      { name: "C", y: (loc.bottomRightCorner.y + loc.bottomLeftCorner.y) / 2 },
+                      { name: "D", y: (loc.bottomLeftCorner.y + loc.topLeftCorner.y) / 2 },
+                    ];
+                    edgeMidpoints.sort((p, q) => p.y - q.y);
+                    detectedBatch.push({
+                      studentId: student.id,
+                      answer: edgeMidpoints[0].name,
+                      studentName: student.name,
+                    });
+                  }
+
+                  // PHỦ TRẮNG VÙNG MÃ QR TRỰC TIẾP TRÊN RAM (0ms trễ) ĐỂ JSQR TÌM TIẾP HỌC SINH KHÁC
+                  if (code.location) {
+                    const loc = code.location;
+                    const pMinX = Math.max(
+                      0,
+                      Math.floor(Math.min(loc.topLeftCorner.x, loc.topRightCorner.x, loc.bottomRightCorner.x, loc.bottomLeftCorner.x) - 12)
+                    );
+                    const pMaxX = Math.min(
+                      sw - 1,
+                      Math.ceil(Math.max(loc.topLeftCorner.x, loc.topRightCorner.x, loc.bottomRightCorner.x, loc.bottomLeftCorner.x) + 12)
+                    );
+                    const pMinY = Math.max(
+                      0,
+                      Math.floor(Math.min(loc.topLeftCorner.y, loc.topRightCorner.y, loc.bottomRightCorner.y, loc.bottomLeftCorner.y) - 12)
+                    );
+                    const pMaxY = Math.min(
+                      sh - 1,
+                      Math.ceil(Math.max(loc.topLeftCorner.y, loc.topRightCorner.y, loc.bottomRightCorner.y, loc.bottomLeftCorner.y) + 12)
+                    );
+
+                    for (let y = pMinY; y <= pMaxY; y++) {
+                      const row = y * sw * 4;
+                      for (let x = pMinX; x <= pMaxX; x++) {
+                        const idx = row + (x << 2);
+                        rawData[idx] = 255;
+                        rawData[idx + 1] = 255;
+                        rawData[idx + 2] = 255;
+                        rawData[idx + 3] = 255;
+                      }
+                    }
+                  } else {
+                    break;
+                  }
+                }
               }
-            } catch (err) {
-              // Fallback qua jsQR nếu BarcodeDetector lỗi
+
+              // =========================================================================
+              // XỬ LÝ GỬI KẾT QUẢ ĐÃ QUÉT
+              // Chỉ gửi các em CHƯA TRẢ LỜI hoặc VỪA XOAY THẺ ĐỔI ĐÁP ÁN (tránh gửi lặp vô ích)
+              // =========================================================================
+              if (detectedBatch.length > 0) {
+                const sendTime = Date.now();
+                const toSubmit: { studentId: number; answer: Answer; studentName: string }[] = [];
+                const currentResp = responsesMapRef.current;
+
+                for (const item of detectedBatch) {
+                  const currentRecorded = currentResp.get(item.studentId);
+                  // Chỉ gửi nếu học sinh này chưa có đáp án HOẶC vừa đổi sang đáp án mới
+                  if (!currentRecorded || currentRecorded !== item.answer) {
+                    lastScanTimeRef.current.set(item.studentId, sendTime);
+                    toSubmit.push(item);
+                  }
+                }
+
+                if (toSubmit.length > 0) {
+                  submitBatchAnswers(toSubmit);
+                }
+              }
             }
+          } catch (scanErr) {
+            console.warn("Lỗi trong vòng lặp quét:", scanErr);
+          } finally {
+            isProcessing = false;
           }
-
-          // === ĐỘNG CƠ 2: MULTI-PASS MASKED JSQR (Quét lặp xóa mặt nạ tìm tất cả học sinh) ===
-          // Chạy khi BarcodeDetector không có hoặc tìm được ít hơn
-          if (detectedBatch.length === 0) {
-            // Quét ở độ phân giải 1000px để bắt nét cả học sinh ngồi xa
-            const maxDim = 1000;
-            const scale = Math.min(1, maxDim / Math.max(vw, vh));
-            const sw = Math.round(vw * scale);
-            const sh = Math.round(vh * scale);
-
-            if (canvas.width !== sw || canvas.height !== sh) {
-              canvas.width = sw;
-              canvas.height = sh;
-            }
-            ctx.drawImage(video, 0, 0, sw, sh);
-
-            // Quét tối đa 20 lượt: Mỗi lượt tìm được 1 mã QR, phủ trắng vùng đó rồi quét tiếp lượt sau!
-            const MAX_PASSES = 20;
-            for (let pass = 0; pass < MAX_PASSES; pass++) {
-              const imageData = ctx.getImageData(0, 0, sw, sh);
-              const code = jsQR(imageData.data, sw, sh, {
-                inversionAttempts: "dontInvert",
-              });
-
-              if (!code || !code.data) break; // Không còn mã QR nào nữa
-
-              const student = extractStudent(code.data);
-              if (student && code.location && !processedIds.has(student.id)) {
-                processedIds.add(student.id);
-                const loc = code.location;
-                const edgeMidpoints: { name: Answer; y: number }[] = [
-                  { name: "A", y: (loc.topLeftCorner.y + loc.topRightCorner.y) / 2 },
-                  { name: "B", y: (loc.topRightCorner.y + loc.bottomRightCorner.y) / 2 },
-                  { name: "C", y: (loc.bottomRightCorner.y + loc.bottomLeftCorner.y) / 2 },
-                  { name: "D", y: (loc.bottomLeftCorner.y + loc.topLeftCorner.y) / 2 },
-                ];
-                edgeMidpoints.sort((p, q) => p.y - q.y);
-                detectedBatch.push({
-                  studentId: student.id,
-                  answer: edgeMidpoints[0].name,
-                  studentName: student.name,
-                });
-              }
-
-              // PHỦ TRẮNG VÙNG MÃ QR VỪA TÌM ĐƯỢC ĐỂ TÌM TIẾP CÁC HỌC SINH KHÁC TRONG ẢNH
-              if (code.location) {
-                const loc = code.location;
-                const pad = 14;
-                ctx.fillStyle = "#ffffff";
-                ctx.beginPath();
-                ctx.moveTo(loc.topLeftCorner.x - pad, loc.topLeftCorner.y - pad);
-                ctx.lineTo(loc.topRightCorner.x + pad, loc.topRightCorner.y - pad);
-                ctx.lineTo(loc.bottomRightCorner.x + pad, loc.bottomRightCorner.y + pad);
-                ctx.lineTo(loc.bottomLeftCorner.x - pad, loc.bottomLeftCorner.y + pad);
-                ctx.closePath();
-                ctx.fill();
-              } else {
-                break;
-              }
-            }
-          }
-
-          // XỬ LÝ TOÀN BỘ DANH SÁCH HỌC SINH QUÉT ĐƯỢC
-          if (detectedBatch.length > 0) {
-            const now = Date.now();
-            const toSubmit: { studentId: number; answer: Answer; studentName: string }[] = [];
-
-            for (const item of detectedBatch) {
-              const lastTime = lastScanTimeRef.current.get(item.studentId) || 0;
-              const currentRecorded = responsesMap.get(item.studentId);
-              // Cập nhật nếu chưa có hoặc quá 350ms hoặc học sinh vừa đổi đáp án xoay thẻ
-              if (now - lastTime > 350 || currentRecorded !== item.answer) {
-                lastScanTimeRef.current.set(item.studentId, now);
-                toSubmit.push(item);
-              }
-            }
-
-            if (toSubmit.length > 0) {
-              submitBatchAnswers(toSubmit);
-            }
-          }
-
-          isProcessing = false;
         }
       }
-      animId = requestAnimationFrame(scan);
+
+      if (active) {
+        if ("requestVideoFrameCallback" in HTMLVideoElement.prototype && videoRef.current) {
+          videoCallbackId = (videoRef.current as any).requestVideoFrameCallback(scanFrame);
+        } else {
+          animId = requestAnimationFrame(scanFrame);
+        }
+      }
     };
 
-    animId = requestAnimationFrame(scan);
-    return () => cancelAnimationFrame(animId);
-  }, [camOn, currentQ, students, responsesMap]);
+    if ("requestVideoFrameCallback" in HTMLVideoElement.prototype && videoRef.current) {
+      videoCallbackId = (videoRef.current as any).requestVideoFrameCallback(scanFrame);
+    } else {
+      animId = requestAnimationFrame(scanFrame);
+    }
+
+    return () => {
+      active = false;
+      if (animId) cancelAnimationFrame(animId);
+      if (videoCallbackId != null && videoRef.current && (videoRef.current as any).cancelVideoFrameCallback) {
+        (videoRef.current as any).cancelVideoFrameCallback(videoCallbackId);
+      }
+    };
+  }, [camOn, currentIdx]);
 
   // Quét nhanh mô phỏng Demo
   const startSimulateScan = () => {
