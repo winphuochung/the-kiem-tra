@@ -24,7 +24,10 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
   const streamRef = useRef<MediaStream | null>(null);
   const [camOn, setCamOn] = useState(false);
   const [scanning, setScanning] = useState(false);
-  const [justDetectedStudent, setJustDetectedStudent] = useState<string>("");
+  const [justDetected, setJustDetected] = useState<{
+    text: string;
+    isCorrect: boolean;
+  } | null>(null);
   const lastScanTimeRef = useRef<Map<number, number>>(new Map());
 
   const currentQ = questions[currentIdx];
@@ -153,11 +156,22 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
     }
   }, [camOn]);
 
+  // Tự động tắt thông báo vừa quét sau 3.5 giây
+  useEffect(() => {
+    if (!justDetected) return;
+    const t = setTimeout(() => setJustDetected(null), 3500);
+    return () => clearTimeout(t);
+  }, [justDetected]);
+
   // 4. Gửi đáp án cho 1 học sinh lên máy tính (qua PeerJS và lưu thẳng vào API)
   const submitAnswer = async (studentId: number, answer: Answer, studentName: string) => {
     if (!currentQ) return;
+    const isCorrect = answer === currentQ.correct;
     setResponsesMap((prev) => new Map(prev).set(studentId, answer));
-    setJustDetectedStudent(`${studentName}: Chọn ${answer}`);
+    setJustDetected({
+      text: `${studentName} đã chọn ${answer}`,
+      isCorrect,
+    });
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate([40]);
     }
@@ -406,10 +420,21 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
             </button>
           )}
 
-          {/* Thông báo em vừa quét được */}
-          {justDetectedStudent && (
-            <div className="absolute bottom-2 inset-x-2 bg-emerald-500 text-slate-950 text-xs font-black py-2 px-3 rounded-lg text-center shadow-lg animate-bounce">
-              ✓ Đã nhận: {justDetectedStudent}
+          {/* Thông báo em vừa quét được: XANH = ĐÚNG, ĐỎ = SAI */}
+          {justDetected && (
+            <div
+              className={`absolute bottom-2 inset-x-2 text-xs font-black py-2.5 px-3 rounded-xl text-center shadow-2xl border flex items-center justify-center gap-2 animate-bounce ${
+                justDetected.isCorrect
+                  ? "bg-emerald-600 border-emerald-300 text-white shadow-emerald-950/80"
+                  : "bg-rose-600 border-rose-300 text-white shadow-rose-950/80"
+              }`}
+            >
+              <span className="flex h-5 w-5 items-center justify-center rounded-full bg-white text-xs font-black" style={{ color: justDetected.isCorrect ? "#059669" : "#dc2626" }}>
+                {justDetected.isCorrect ? "✓" : "✗"}
+              </span>
+              <span>
+                {justDetected.isCorrect ? "ĐÁP ÁN ĐÚNG" : "ĐÁP ÁN SAI"}: {justDetected.text}
+              </span>
             </div>
           )}
         </div>
@@ -433,7 +458,10 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
           <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
             Danh sách học sinh ({responsesMap.size}/{students.length} đã trả lời)
           </span>
-          <span className="text-[11px] text-slate-500">Chạm A/B/C/D để ghi điểm</span>
+          <div className="flex items-center gap-1.5 text-[10px] font-bold">
+            <span className="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Xanh: Đúng</span>
+            <span className="px-1.5 py-0.5 rounded bg-rose-500/20 text-rose-400 border border-rose-500/30">Đỏ: Sai</span>
+          </div>
         </div>
 
         {students.length === 0 ? (
@@ -442,25 +470,38 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
           <div className="space-y-1.5 max-h-[380px] overflow-y-auto pr-1">
             {students.map((student) => {
               const currentAns = responsesMap.get(student.id);
+              const hasAnswered = currentAns != null;
+              const isCorrect = hasAnswered && currentQ ? currentAns === currentQ.correct : false;
+
               return (
                 <div
                   key={student.id}
                   className={`flex items-center justify-between p-2 rounded-xl border transition ${
-                    currentAns
-                      ? "bg-slate-800/90 border-emerald-500/40"
-                      : "bg-slate-950/60 border-slate-800"
+                    !hasAnswered
+                      ? "bg-slate-950/60 border-slate-800"
+                      : isCorrect
+                      ? "bg-emerald-950/40 border-emerald-500/60 shadow-sm shadow-emerald-950"
+                      : "bg-rose-950/40 border-rose-500/60 shadow-sm shadow-rose-950"
                   }`}
                 >
-                  <div className="flex items-center gap-2">
-                    <span className="flex items-center justify-center h-6 w-6 rounded-full bg-slate-800 text-[11px] font-bold text-slate-300">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <span className="flex items-center justify-center h-6 w-6 rounded-full bg-slate-800 text-[11px] font-bold text-slate-300 shrink-0">
                       {student.stt}
                     </span>
-                    <span className="text-xs font-bold text-slate-200">{student.name}</span>
+                    <div className="min-w-0">
+                      <span className="block truncate text-xs font-bold text-slate-200">{student.name}</span>
+                      {hasAnswered && (
+                        <span className="text-[10px] font-black" style={{ color: isCorrect ? "#34d399" : "#fb7185" }}>
+                          {isCorrect ? "Đúng ✓" : "Sai ✗"}
+                        </span>
+                      )}
+                    </div>
                   </div>
 
                   <div className="flex gap-1">
                     {ANSWERS.map((ans) => {
                       const isSelected = currentAns === ans;
+                      const isBtnCorrect = ans === currentQ?.correct;
                       return (
                         <button
                           key={ans}
@@ -468,11 +509,15 @@ export function RemoteScannerView({ hostPeerId, sessionId }: { hostPeerId: strin
                           onClick={() => submitAnswer(student.id, ans, student.name)}
                           className={`h-7 w-7 rounded-lg text-xs font-black transition active:scale-95 ${
                             isSelected
-                              ? "text-slate-950 shadow-md ring-2 ring-white/30"
+                              ? "text-white shadow-md ring-2 ring-white/60"
                               : "bg-slate-800/80 text-slate-400 hover:bg-slate-700"
                           }`}
                           style={{
-                            background: isSelected ? ANSWER_COLORS[ans] : undefined,
+                            background: isSelected
+                              ? isBtnCorrect
+                                ? "#059669"
+                                : "#dc2626"
+                              : undefined,
                           }}
                         >
                           {ans}

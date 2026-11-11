@@ -1215,6 +1215,14 @@ function simulatedAnswer(sessionId: number, questionId: number, student: Student
   return wrong[Math.abs(h) % wrong.length] ?? correct;
 }
 
+interface RemoteScanNotification {
+  studentName: string;
+  studentStt: number;
+  answer: Answer;
+  isCorrect: boolean;
+  timestamp: number;
+}
+
 function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void }) {
   const queryClient = useQueryClient();
   const detailQ = useQuery({
@@ -1234,7 +1242,7 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
   const [hostConn, setHostConn] = useState<HostConnection | null>(null);
   const [phoneCount, setPhoneCount] = useState<number>(0);
   const [copied, setCopied] = useState(false);
-  const [lastRemoteAnswer, setLastRemoteAnswer] = useState<string>("");
+  const [recentScan, setRecentScan] = useState<RemoteScanNotification | null>(null);
 
   const questions = data?.questions ?? [];
   const students = data?.students ?? [];
@@ -1252,6 +1260,38 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
     }
     return m;
   }, [data]);
+
+  const prevResponsesCountRef = useRef<number>(0);
+
+  // Tự động kích hoạt banner thông báo khi có phản hồi mới từ DB (đồng bộ kể cả qua mạng API)
+  useEffect(() => {
+    const resps = data?.responses ?? [];
+    if (resps.length > prevResponsesCountRef.current && currentQ) {
+      const currentQResps = resps.filter((r) => r.question_id === currentQ.id);
+      if (currentQResps.length > 0) {
+        const latest = currentQResps[currentQResps.length - 1];
+        const student = students.find((s) => s.id === latest.student_id);
+        const isCorrect = latest.answer === currentQ.correct;
+        setRecentScan({
+          studentName: student?.name || `Học sinh #${latest.student_id}`,
+          studentStt: student?.stt || latest.student_id,
+          answer: latest.answer as Answer,
+          isCorrect,
+          timestamp: Date.now(),
+        });
+      }
+    }
+    prevResponsesCountRef.current = resps.length;
+  }, [data?.responses, currentQ, students]);
+
+  // Tự động ẩn banner sau 4 giây
+  useEffect(() => {
+    if (!recentScan) return;
+    const timer = setTimeout(() => {
+      setRecentScan(null);
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, [recentScan]);
 
   const setCurrentMut = useMutation({
     mutationFn: async (i: number) => await api.setCurrentQuestion({ session_id: sessionId, index: i }),
@@ -1285,8 +1325,18 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
               answers: [{ student_id: msg.student_id, answer: msg.answer }],
             });
             queryClient.invalidateQueries({ queryKey: ["session", sessionId] });
-            setLastRemoteAnswer(`✓ Điện thoại vừa quét: Học sinh #${msg.student_id} chọn ${msg.answer}`);
-            setTimeout(() => setLastRemoteAnswer(""), 3500);
+
+            const student = students.find((s) => s.id === msg.student_id);
+            const targetQ = questions.find((item) => item.id === msg.question_id) || currentQ;
+            const isCorrect = targetQ ? msg.answer === targetQ.correct : false;
+
+            setRecentScan({
+              studentName: student?.name || `Học sinh #${msg.student_id}`,
+              studentStt: student?.stt || msg.student_id,
+              answer: msg.answer,
+              isCorrect,
+              timestamp: Date.now(),
+            });
           } else if (msg.type === "GOTO_QUESTION") {
             goto(msg.index);
           } else if (msg.type === "PING") {
@@ -1419,7 +1469,20 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
       </div>
 
       {mode === "present" ? (
-        <PresentPanel q={currentQ} index={clampedIdx} total={questions.length} reveal={reveal} onReveal={() => setReveal(true)} answered={answeredCount} totalStudents={students.length} onScan={() => setMode("scan")} onNext={() => goto(clampedIdx + 1)} isLast={clampedIdx >= questions.length - 1} />
+        <PresentPanel
+          q={currentQ}
+          index={clampedIdx}
+          total={questions.length}
+          reveal={reveal}
+          onReveal={() => setReveal(true)}
+          answered={answeredCount}
+          totalStudents={students.length}
+          students={students}
+          responses={currentResponses}
+          onScan={() => setMode("scan")}
+          onNext={() => goto(clampedIdx + 1)}
+          isLast={clampedIdx >= questions.length - 1}
+        />
       ) : mode === "scan" ? (
         <ScanPanel key={currentQ.id} sessionId={sessionId} q={currentQ} students={students} existing={respMap.get(currentQ.id)} onDone={() => setMode("results")} onShowQuestionResults={() => { setResultQ(currentQ.id); setMode("results"); }} />
       ) : mode === "manual" ? (
@@ -1428,11 +1491,39 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
         <ResultsPanel data={data} respMap={respMap} focusQuestionId={resultQ} onFocus={setResultQ} onPresentQuestion={(qid) => { const i = questions.findIndex((q) => q.id === qid); if (i >= 0) { goto(i); setMode("present"); } }} />
       )}
 
-      {/* Thông báo Real-time khi điện thoại vừa quét */}
-      {lastRemoteAnswer && (
-        <div className="fixed bottom-6 right-6 z-50 rounded-2xl bg-emerald-600 px-4 py-3 text-sm font-black text-white shadow-2xl flex items-center gap-2 animate-bounce">
-          <span>📱</span>
-          <span>{lastRemoteAnswer}</span>
+      {/* Thông báo Real-time khi điện thoại vừa quét: XANH = ĐÚNG, ĐỎ = SAI */}
+      {recentScan && (
+        <div className="fixed top-20 inset-x-0 z-50 flex justify-center pointer-events-none px-4">
+          <div
+            className={`flex items-center gap-3.5 px-6 py-4 rounded-3xl shadow-2xl border-2 text-white animate-bounce transition-all ${
+              recentScan.isCorrect
+                ? "bg-emerald-600 border-emerald-300 shadow-emerald-950/60"
+                : "bg-rose-600 border-rose-300 shadow-rose-950/60"
+            }`}
+            style={{ maxWidth: 650 }}
+          >
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white text-2xl font-black shadow">
+              {recentScan.isCorrect ? (
+                <span className="text-emerald-600">✓</span>
+              ) : (
+                <span className="text-rose-600">✗</span>
+              )}
+            </div>
+            <div className="min-w-0">
+              <div className="flex items-center gap-2">
+                <span className="text-xs uppercase font-black tracking-wider px-2 py-0.5 rounded-full bg-white/20">
+                  {recentScan.isCorrect ? "ĐÁP ÁN ĐÚNG" : "ĐÁP ÁN CHƯA ĐÚNG"}
+                </span>
+                <span className="text-xs text-white/80 font-bold">Thẻ số {recentScan.studentStt}</span>
+              </div>
+              <p className="mt-0.5 text-lg font-black truncate leading-tight">
+                Em <span className="underline decoration-white/40">{recentScan.studentName}</span> đã chọn:{" "}
+                <span className="inline-block px-2.5 py-0.5 rounded-lg bg-black/25 text-xl font-black">
+                  {recentScan.answer}
+                </span>
+              </p>
+            </div>
+          </div>
         </div>
       )}
 
@@ -1515,11 +1606,37 @@ function RoomView({ sessionId, onExit }: { sessionId: number; onExit: () => void
 
 // ---------- Present ----------
 function PresentPanel({
-  q, index, total, reveal, onReveal, answered, totalStudents, onScan, onNext, isLast,
+  q,
+  index,
+  total,
+  reveal,
+  onReveal,
+  answered,
+  totalStudents,
+  students,
+  responses,
+  onScan,
+  onNext,
+  isLast,
 }: {
-  q: SQuestion; index: number; total: number; reveal: boolean; onReveal: () => void;
-  answered: number; totalStudents: number; onScan: () => void; onNext: () => void; isLast: boolean;
+  q: SQuestion;
+  index: number;
+  total: number;
+  reveal: boolean;
+  onReveal: () => void;
+  answered: number;
+  totalStudents: number;
+  students: Student[];
+  responses: Map<number, Answer> | undefined;
+  onScan: () => void;
+  onNext: () => void;
+  isLast: boolean;
 }) {
+  const correctCount = students.filter((s) => responses?.get(s.id) === q.correct).length;
+  const wrongCount = students.filter(
+    (s) => responses?.has(s.id) && responses.get(s.id) !== q.correct
+  ).length;
+
   return (
     <section className="mt-4 overflow-hidden rounded-3xl" style={{ background: "linear-gradient(150deg,#171c48,#232a6b 60%,#2c3690)" }}>
       <div className="flex items-center gap-2 px-5 pt-4">
@@ -1551,6 +1668,72 @@ function PresentPanel({
         ) : null}
         <Btn color="#F97316" onClick={onScan} ariaLabel="Đi quét thẻ cho câu này">📷 Quét thẻ câu này</Btn>
         {!isLast ? <Btn color="rgba(255,255,255,.15)" onClick={onNext} ariaLabel="Sang câu tiếp theo">Câu tiếp theo →</Btn> : null}
+      </div>
+
+      {/* LƯỚI HỌC SINH TRẢ LỜI TRỰC TIẾP TRÊN MÀN HÌNH MÁY TÍNH: XANH = ĐÚNG, ĐỎ = SAI */}
+      <div className="border-t border-white/10 px-5 pt-5 pb-6 sm:px-8 bg-black/15">
+        <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+          <div className="flex flex-wrap items-center gap-2.5">
+            <span className="text-sm font-black text-white uppercase tracking-wider flex items-center gap-1.5">
+              <span>👥 Kết quả học sinh cả lớp:</span>
+              <span className="text-amber-300 font-extrabold">{answered}/{students.length} em đã chọn</span>
+            </span>
+            <span className="rounded-full bg-emerald-500/25 px-3 py-0.5 text-xs font-black text-emerald-300 border border-emerald-400/40">
+              ✓ Đúng: {correctCount} em
+            </span>
+            <span className="rounded-full bg-rose-500/25 px-3 py-0.5 text-xs font-black text-rose-300 border border-rose-400/40">
+              ✗ Sai: {wrongCount} em
+            </span>
+          </div>
+          <div className="flex items-center gap-2 text-xs font-bold text-white/80 bg-white/10 px-3 py-1 rounded-full">
+            <span>Qui ước:</span>
+            <span className="px-2 py-0.5 rounded bg-emerald-600 text-white">Màu Xanh = Đúng</span>
+            <span className="px-2 py-0.5 rounded bg-rose-600 text-white">Màu Đỏ = Sai</span>
+          </div>
+        </div>
+
+        {students.length === 0 ? (
+          <p className="text-sm text-white/60">Lớp chưa có học sinh.</p>
+        ) : (
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
+            {students.map((s) => {
+              const ans = responses?.get(s.id);
+              const hasAnswered = ans != null;
+              const isCorrect = hasAnswered && ans === q.correct;
+              return (
+                <div
+                  key={s.id}
+                  className={`flex items-center justify-between p-2 rounded-xl border transition-all ${
+                    !hasAnswered
+                      ? "bg-white/5 border-white/10 text-white/40"
+                      : isCorrect
+                      ? "bg-emerald-600 border-emerald-300 text-white shadow-lg shadow-emerald-950/50"
+                      : "bg-rose-600 border-rose-300 text-white shadow-lg shadow-rose-950/50"
+                  }`}
+                >
+                  <div className="min-w-0 pr-1.5">
+                    <span className="block truncate text-xs font-extrabold leading-tight">
+                      #{s.stt} {s.name}
+                    </span>
+                    <span className="text-[10px] font-bold opacity-80">
+                      {!hasAnswered ? "Chưa giơ thẻ" : isCorrect ? "Đúng ✓" : "Sai ✗"}
+                    </span>
+                  </div>
+                  {hasAnswered ? (
+                    <span
+                      className="shrink-0 flex h-7 w-7 items-center justify-center rounded-lg bg-white font-black text-sm shadow"
+                      style={{ color: isCorrect ? "#059669" : "#dc2626" }}
+                    >
+                      {ans}
+                    </span>
+                  ) : (
+                    <span className="shrink-0 text-xs font-bold text-white/20">—</span>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </section>
   );
@@ -1699,7 +1882,13 @@ function ScanPanel({
       </div>
 
       <div className="rounded-3xl p-4" style={{ background: "var(--surface)", border: "1px solid var(--border)" }}>
-        <h3 className="text-sm font-extrabold" style={{ color: "#232a6b" }}>Thẻ đã nhận diện — khung xanh = đã ghi nhận</h3>
+        <div className="flex items-center justify-between">
+          <h3 className="text-sm font-extrabold" style={{ color: "#232a6b" }}>Thẻ đã nhận diện</h3>
+          <div className="flex items-center gap-1.5 text-[11px] font-bold">
+            <span className="px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Xanh: Đúng</span>
+            <span className="px-1.5 py-0.5 rounded bg-rose-100 text-rose-800">Đỏ: Sai</span>
+          </div>
+        </div>
         {students.length === 0 ? (
           <p className="mt-2 text-sm" style={{ color: "var(--dim)" }}>Lớp chưa có học sinh nào.</p>
         ) : (
@@ -1707,21 +1896,22 @@ function ScanPanel({
             {students.map((s) => {
               const a = detected.get(s.id) ?? existing?.get(s.id);
               const seen = detected.size > 0 ? detected.has(s.id) : (existing?.has(s.id) ?? false);
+              const isCorrect = seen && a ? a === q.correct : false;
               return (
                 <li
                   key={s.id}
                   className={seen ? "pop-in" : ""}
                   style={{
-                    border: `2px solid ${seen ? "#06D6A0" : "#e5e7eb"}`,
-                    background: seen ? "#ECFDF5" : "#fafafa",
+                    border: `2px solid ${!seen ? "#e5e7eb" : isCorrect ? "#059669" : "#dc2626"}`,
+                    background: !seen ? "#fafafa" : isCorrect ? "#ECFDF5" : "#FEF2F2",
                     borderRadius: 10,
                     padding: "6px 8px",
                     opacity: seen ? 1 : 0.55,
                   }}
                 >
                   <span className="block truncate text-xs font-bold">#{s.stt} {s.name}</span>
-                  <span className="text-[11px] font-semibold" style={{ color: seen ? "#047857" : "#9ca3af" }}>
-                    {seen && a ? `Đáp án ${a}` : "Chưa thấy thẻ…"}
+                  <span className="text-[11px] font-extrabold" style={{ color: !seen ? "#9ca3af" : isCorrect ? "#059669" : "#dc2626" }}>
+                    {seen && a ? (isCorrect ? `✓ ${a} (Đúng)` : `✗ ${a} (Sai)`) : "Chưa thấy thẻ…"}
                   </span>
                 </li>
               );
