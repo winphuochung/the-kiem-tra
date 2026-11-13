@@ -416,102 +416,262 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "tiengviet-1",
         "name": "Tiếng Việt",
-        "icon": "📖",
+        "icon": "📚",
         "lessons": [
           {
             "id": "tiengviet-1-b1",
             "number": 1,
-            "title": "Chủ đề: Làm quen với âm, chữ và dấu thanh (a, b, c, e, ê, o, ô, ơ, i, u, ư...)",
-            "chapter": "Tập 1: Làm quen với chữ cái và thanh điệu",
-            "summary": "Nhận biết, đọc, viết các âm chữ cái đầu tiên và 6 thanh điệu tiếng Việt.",
+            "title": "Tuần 1: Làm quen chữ a, b, c, d, đ, e, ê và dấu thanh",
+            "chapter": "Tập 1 - Âm và chữ cái",
+            "summary": "Nhận biết âm chữ a, b, c, d, đ, e, ê và các thanh sắc, huyền, hỏi, ngã, nặng.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b2",
             "number": 2,
-            "title": "Chủ đề: Các phụ âm đầu và âm ghép (ch, gh, kh, ng, ngh, nh, ph, qu, th, tr)",
-            "chapter": "Tập 1: Học vần cơ bản",
-            "summary": "Đọc, viết, ghép tiếng với phụ âm đơn và phụ âm ghép.",
+            "title": "Tuần 2: Âm g, h, i, k, l, m, n",
+            "chapter": "Tập 1 - Âm và chữ cái",
+            "summary": "Đánh vần, đọc trơn tiếng chứa âm g, h, i, k, l, m, n.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b3",
             "number": 3,
-            "title": "Chủ đề: Các vần có âm cuối là n, m, ng, nh, t, c, p, ch",
-            "chapter": "Tập 1: Học vần cơ bản",
-            "summary": "Đánh vần, đọc trơn từ ngữ và câu ứng dụng chứa vần thông dụng.",
+            "title": "Tuần 3: Âm o, ô, ơ, p, q, r, s, t",
+            "chapter": "Tập 1 - Âm và chữ cái",
+            "summary": "Ghép vần và viết đúng các chữ o, ô, ơ, p, q, r, s, t.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b4",
             "number": 4,
-            "title": "Chủ đề: Các vần có âm đệm (oa, oe, uê, uy, oai, uya...)",
-            "chapter": "Tập 1: Học vần mở rộng",
-            "summary": "Đọc đúng các tiếng có âm đệm và luyện viết chính tả.",
+            "title": "Tuần 4: Âm u, ư, v, x, y và phụ âm ghép ch, gh, gi, kh",
+            "chapter": "Tập 1 - Âm và chữ cái",
+            "summary": "Nhận biết quy tắc chính tả gh, ngh và đọc từ ứng dụng.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b5",
             "number": 5,
-            "title": "Bài 1: Tôi là học sinh lớp 1 & Những người bạn",
-            "chapter": "Tập 2 - Chủ đề 1: Tôi và các bạn",
-            "summary": "Đọc hiểu đoạn văn ngắn về ngày đầu đi học và tình bạn.",
+            "title": "Tuần 5: Phụ âm ghép ng, ngh, nh, ph, qu, th, tr",
+            "chapter": "Tập 1 - Âm và chữ cái",
+            "summary": "Đọc câu ngắn chứa phụ âm ghép.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b6",
             "number": 6,
-            "title": "Bài 2: Quà của bố & Khi mẹ vắng nhà",
-            "chapter": "Tập 2 - Chủ đề 2: Mái ấm gia đình",
-            "summary": "Tình cảm gia đình, lòng biết ơn cha mẹ.",
+            "title": "Tuần 6: Vần có âm cuối m, n (am, ăm, âm, an, ăn, ân, em, êm, en, ên)",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đánh vần và viết vần kết thúc bằng m, n.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b7",
             "number": 7,
-            "title": "Bài 3: Đi học & Ngôi trường mới",
-            "chapter": "Tập 2 - Chủ đề 3: Mái trường mến yêu",
-            "summary": "Tình yêu thầy cô, bạn bè và mái trường.",
+            "title": "Tuần 7: Vần in, un, ôm, ơm, ôn, ơn, um, ươm, uôn",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đọc bài ứng dụng ngắn với vần có âm cuối m, n.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b8",
             "number": 8,
-            "title": "Bài 4: Rửa tay trước khi ăn & Đèn giao thông",
-            "chapter": "Tập 2 - Chủ đề 4: Điều em cần biết",
-            "summary": "Kĩ năng giữ vệ sinh cá nhân và an toàn giao thông.",
+            "title": "Tuần 8: Vần có âm cuối p, t (ap, ăp, âp, at, ăt, ât, ep, êp, et, êt)",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Phân biệt thanh sắc và thanh nặng trong vần có âm cuối p, t.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b9",
             "number": 9,
-            "title": "Bài 5: Chia quà & Câu chuyện của thước kẻ",
-            "chapter": "Tập 2 - Chủ đề 5: Yêu thương và chia sẻ",
-            "summary": "Lòng nhân ái, biết sẻ chia và đoàn kết.",
+            "title": "Tuần 9: Ôn tập giữa học kì 1",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Ôn tập toàn bộ âm chữ cái và vần đã học.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b10",
             "number": 10,
-            "title": "Bài 6: Hoa sen & Mùa xuân đến",
-            "chapter": "Tập 2 - Chủ đề 6: Thiên nhiên tươi đẹp",
-            "summary": "Miêu tả vẻ đẹp cây cỏ, hoa lá và các mùa.",
+            "title": "Tuần 10: Vần có âm cuối c, ch, ng, nh (ac, ăc, âc, ach, ang, ăng, âng, anh)",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đọc và viết đúng vần có âm cuối c, ch, ng, nh.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b11",
             "number": 11,
-            "title": "Bài 7: Chú gà trống & Chim sơn ca",
-            "chapter": "Tập 2 - Chủ đề 7: Thế giới loài vật",
-            "summary": "Nhận biết đặc điểm các loài vật quen thuộc.",
+            "title": "Tuần 11: Vần oc, ôc, uc, ưc, ung, ưng, ich, ênh, inh",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Phân biệt vần kết thúc bằng nh/ch và n/t.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b12",
             "number": 12,
-            "title": "Bài 8: Quê hương & Bác Hồ của em",
-            "chapter": "Tập 2 - Chủ đề 8: Đất nước và con người",
-            "summary": "Tình yêu quê hương đất nước Việt Nam và kính yêu Bác Hồ.",
+            "title": "Tuần 12: Vần có âm cuối i, y (ai, ay, ây, oi, ôi, ơi, ui, ưi)",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đọc trơn đoạn văn ngắn chứa vần ai, ay, ây, oi, ôi, ơi.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b13",
+            "number": 13,
+            "title": "Tuần 13: Vần có âm cuối o, u (ao, eo, au, âu, êu, iu, ưu)",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đọc hiểu câu chuyện ngắn về thiên nhiên, loài vật.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b14",
+            "number": 14,
+            "title": "Tuần 14: Vần có nguyên âm đôi ia, iê, yê, ua, uô, ưa, ươ",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Quy tắc viết iê/yê và uô/ưa/ươ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b15",
+            "number": 15,
+            "title": "Tuần 15: Vần iêm, iên, iêp, iêt, iêu, uôm, uôn, uôt, ươm, ươn, ươp, ươt",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đọc đoạn văn ngắn và trả lời câu hỏi.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b16",
+            "number": 16,
+            "title": "Tuần 16: Vần có âm đệm o, u (oa, oe, uê, uy, oai, oay, uya)",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đánh vần vần tròn môi oa, oe, uê, uy.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b17",
+            "number": 17,
+            "title": "Tuần 17: Vần oan, oăn, oat, oăt, oang, oăng, uân, uât, uyên, uyêt",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Đọc và viết các vần phức hợp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b18",
+            "number": 18,
+            "title": "Tuần 18: Ôn tập cuối học kì 1",
+            "chapter": "Tập 1 - Vần",
+            "summary": "Tổng kết kĩ năng đọc, viết chữ và vần Tiếng Việt 1 Tập 1.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b19",
+            "number": 19,
+            "title": "Bài 1: Tôi là học sinh lớp 1. Đọc: Ngôi nhà, Bạn của em",
+            "chapter": "Tập 2 - Chủ điểm: Tôi và các bạn",
+            "summary": "Đọc hiểu văn bản ngắn về bạn bè, trường lớp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b20",
+            "number": 20,
+            "title": "Bài 2: Đôi tai xấu xí. Đọc: Chuyện của mây",
+            "chapter": "Tập 2 - Chủ điểm: Tôi và các bạn",
+            "summary": "Đọc hiểu và rút ra bài học về tự tin, yêu thương bạn bè.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b21",
+            "number": 21,
+            "title": "Bài 3: Giải thưởng. Đọc: Đôi bạn",
+            "chapter": "Tập 2 - Chủ điểm: Tôi và các bạn",
+            "summary": "Luyện đọc trơn, trả lời câu hỏi về tình bạn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b22",
+            "number": 22,
+            "title": "Bài 4: Mẹ của em. Đọc: Bàn tay mẹ, Quà của bố",
+            "chapter": "Tập 2 - Chủ điểm: Mái ấm gia đình",
+            "summary": "Cảm nhận tình cảm yêu thương trong gia đình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b23",
+            "number": 23,
+            "title": "Bài 5: Nụ hôn trên bàn tay. Đọc: Làm anh",
+            "chapter": "Tập 2 - Chủ điểm: Mái ấm gia đình",
+            "summary": "Kể chuyện gia đình và tập viết câu ngắn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b24",
+            "number": 24,
+            "title": "Bài 6: Ngôi nhà của ông bà. Đọc: Cây bàng và lớp học",
+            "chapter": "Tập 2 - Chủ điểm: Mái ấm gia đình",
+            "summary": "Luyện đọc, chính tả phân biệt c/k, g/gh, ng/ngh.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b25",
+            "number": 25,
+            "title": "Bài 7: Trường em. Đọc: Giờ ra chơi",
+            "chapter": "Tập 2 - Chủ điểm: Mái trường mến yêu",
+            "summary": "Đọc hiểu về hoạt động ở trường tiểu học.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b26",
+            "number": 26,
+            "title": "Bài 8: Thầy giáo của em. Đọc: Lớp học trên đường",
+            "chapter": "Tập 2 - Chủ điểm: Mái trường mến yêu",
+            "summary": "Luyện đọc diễn cảm thơ và văn xuôi ngắn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b27",
+            "number": 27,
+            "title": "Bài 9: Mùa xuân đến. Đọc: Hoa đào, hoa mai",
+            "chapter": "Tập 2 - Chủ điểm: Thiên nhiên tươi đẹp",
+            "summary": "Nhận biết dấu hiệu mùa xuân và từ ngữ miêu tả.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b28",
+            "number": 28,
+            "title": "Bài 10: Bầu trời và mặt đất. Đọc: Mưa, Cầu vồng",
+            "chapter": "Tập 2 - Chủ điểm: Thiên nhiên tươi đẹp",
+            "summary": "Tìm hiểu hiện tượng thiên nhiên qua bài đọc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b29",
+            "number": 29,
+            "title": "Bài 11: Thế giới loài vật. Đọc: Chú chim sâu, Voi con",
+            "chapter": "Tập 2 - Chủ điểm: Thiên nhiên tươi đẹp",
+            "summary": "Đọc hiểu đặc điểm các loài vật quen thuộc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b30",
+            "number": 30,
+            "title": "Bài 12: Quê hương em. Đọc: Cánh đồng lúa, Biển quê hương",
+            "chapter": "Tập 2 - Chủ điểm: Đất nước và con người",
+            "summary": "Tình yêu quê hương đất nước.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b31",
+            "number": 31,
+            "title": "Bài 13: Bác Hồ kính yêu. Đọc: Đêm nay Bác không ngủ (lược)",
+            "chapter": "Tập 2 - Chủ điểm: Đất nước và con người",
+            "summary": "Kính yêu Bác Hồ và thiếu nhi.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b32",
+            "number": 32,
+            "title": "Bài 14: Ôn tập và đánh giá cuối năm học lớp 1",
+            "chapter": "Tập 2 - Ôn tập cuối năm",
+            "summary": "Đọc thành tiếng, đọc hiểu và viết chính tả tổng hợp.",
             "questions": []
           }
         ]
@@ -1847,110 +2007,502 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "tiengviet-2",
         "name": "Tiếng Việt",
-        "icon": "📖",
+        "icon": "📚",
         "lessons": [
           {
             "id": "tiengviet-2-b1",
             "number": 1,
             "title": "Bài 1: Tôi là học sinh lớp 2",
-            "chapter": "Chủ điểm 1: Em lớn lên từng ngày",
-            "summary": "Niềm vui ngày tựu trường lên lớp 2.",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Tâm trạng háo hức, tự hào ngày đầu lên lớp 2.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b2",
             "number": 2,
             "title": "Bài 2: Ngày hôm qua đâu rồi?",
-            "chapter": "Chủ điểm 1: Em lớn lên từng ngày",
-            "summary": "Quý trọng thời gian, chăm chỉ học tập.",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Quý trọng thời gian qua những việc làm có ích mỗi ngày.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b3",
             "number": 3,
             "title": "Bài 3: Niềm vui của Bi và Bống",
-            "chapter": "Chủ điểm 1: Em lớn lên từng ngày",
-            "summary": "Tình anh em yêu thương, nhường nhịn.",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Tình cảm anh em chia sẻ niềm vui tuổi thơ.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b4",
             "number": 4,
             "title": "Bài 4: Làm việc thật là vui",
-            "chapter": "Chủ điểm 1: Em lớn lên từng ngày",
-            "summary": "Ý nghĩa của lao động mang lại niềm vui.",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Mọi người, mọi vật xung quanh đều làm việc chăm chỉ mang lại niềm vui.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b5",
             "number": 5,
             "title": "Bài 5: Em có xinh không?",
-            "chapter": "Chủ điểm 2: Đi học vui sao",
-            "summary": "Vẻ đẹp tâm hồn và sự tự tin.",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Vẻ đẹp tâm hồn quan trọng hơn vẻ bề ngoài.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b6",
             "number": 6,
             "title": "Bài 6: Một giờ học",
-            "chapter": "Chủ điểm 2: Đi học vui sao",
-            "summary": "Tự tin phát biểu và giúp đỡ bạn trong lớp.",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Sự tự tin và khích lệ của thầy cô giúp học sinh tiến bộ.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b7",
             "number": 7,
-            "title": "Bài 7: Cây xấu hổ & Cầu thủ dự bị",
-            "chapter": "Chủ điểm 2: Đi học vui sao",
-            "summary": "Luyện đọc hiểu và mở rộng vốn từ trường học.",
+            "title": "Bài 7: Cây xấu hổ",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Quan sát thiên nhiên và cảm xúc của cây xấu hổ.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b8",
             "number": 8,
-            "title": "Bài 8: Rồng rắn lên mây & Nhím nâu kết bạn",
-            "chapter": "Chủ điểm 3: Niềm vui tuổi thơ",
-            "summary": "Trò chơi dân gian và tình bạn chân thành.",
+            "title": "Bài 8: Cầu thủ dự bị",
+            "chapter": "Tập 1 - Em lớn lên từng ngày",
+            "summary": "Tinh thần cố gắng luyện tập và đoàn kết đồng đội.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b9",
             "number": 9,
-            "title": "Bài 9: Cô chủ nhà tí hon & Bàn tay dịu dàng",
-            "chapter": "Chủ điểm 4: Mái ấm gia đình",
-            "summary": "Tình cảm ấm áp với ông bà, thầy cô.",
+            "title": "Bài 9: Cô giáo lớp em",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Tình cảm yêu thương, tận tụy của cô giáo.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b10",
             "number": 10,
-            "title": "Bài 10: Chuyện bốn mùa & Mùa lúa chín",
-            "chapter": "Chủ điểm 5: Vẻ đẹp quanh em",
-            "summary": "Vẻ đẹp thiên nhiên bốn mùa.",
+            "title": "Bài 10: Thời khóa biểu",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Cách đọc thời khóa biểu và sắp xếp giờ học.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b11",
             "number": 11,
-            "title": "Bài 11: Giọt nước và biển lớn & Rừng ngập mặn",
-            "chapter": "Chủ điểm 6: Hành tinh xanh của em",
-            "summary": "Bảo vệ tài nguyên nước và môi trường.",
+            "title": "Bài 11: Cái trống trường em",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Sự gắn bó của cái trống trường với học sinh.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b12",
             "number": 12,
-            "title": "Bài 12: Thư trung thu & Bưu điện",
-            "chapter": "Chủ điểm 7: Giao tiếp và kết nối",
-            "summary": "Các phương tiện liên lạc, viết bưu thiếp.",
+            "title": "Bài 12: Danh sách học sinh",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Tìm hiểu cách lập và đọc danh sách tổ/lớp.",
             "questions": []
           },
           {
             "id": "tiengviet-2-b13",
             "number": 13,
-            "title": "Bài 13: Quê hương & Đất nước",
-            "chapter": "Chủ điểm 8: Con người Việt Nam",
-            "summary": "Tự hào quê hương, đất nước và con người Việt Nam.",
+            "title": "Bài 13: Yêu lắm trường ơi!",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Vẻ đẹp bình dị của ngôi trường thân yêu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b14",
+            "number": 14,
+            "title": "Bài 14: Em học vẽ",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Niềm vui sáng tạo qua nét vẽ tuổi thơ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b15",
+            "number": 15,
+            "title": "Bài 15: Cuốn sách của em",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Cấu tạo cuốn sách (bìa, mục lục, trang sách) và giữ gìn sách.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b16",
+            "number": 16,
+            "title": "Bài 16: Khi trang sách mở ra",
+            "chapter": "Tập 1 - Đi học vui sao",
+            "summary": "Lợi ích của việc đọc sách mở mang tri thức.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b17",
+            "number": 17,
+            "title": "Bài 17: Gọi bạn",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Tình bạn gắn bó, thủy chung của Dê Trắng và Bê Vàng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b18",
+            "number": 18,
+            "title": "Bài 18: Tớ nhớ cậu",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Tình bạn đẹp dù ở xa nhau vẫn nhớ về nhau.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b19",
+            "number": 19,
+            "title": "Bài 19: Chữ A và những người bạn",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Sự đoàn kết tạo nên ý nghĩa của tập thể.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b20",
+            "number": 20,
+            "title": "Bài 20: Nhím nâu kết bạn",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Mạnh dạn mở lòng sẽ tìm được bạn tốt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b21",
+            "number": 21,
+            "title": "Bài 21: Thả diều",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Trò chơi dân gian thả diều trên cánh đồng quê hương.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b22",
+            "number": 22,
+            "title": "Bài 22: Tớ là lê-gô",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Đồ chơi xếp hình phát triển trí tưởng tượng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b23",
+            "number": 23,
+            "title": "Bài 23: Rồng rắn lên mây",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Trò chơi dân gian rèn luyện sự nhanh nhẹn, đoàn kết.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b24",
+            "number": 24,
+            "title": "Bài 24: Nặn đồ chơi",
+            "chapter": "Tập 1 - Niềm vui tuổi thơ",
+            "summary": "Khéo tay sáng tạo đồ chơi từ đất nặn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b25",
+            "number": 25,
+            "title": "Bài 25: Sự tích hoa tỉ muội",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Tình cảm chị em gắn bó, nhường nhịn nhau.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b26",
+            "number": 26,
+            "title": "Bài 26: Em mang về yêu thương",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Niềm vui đón em nhỏ chào đời trong gia đình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b27",
+            "number": 27,
+            "title": "Bài 27: Mẹ",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Sự hi sinh thầm lặng và tình yêu của mẹ dành cho con.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b28",
+            "number": 28,
+            "title": "Bài 28: Trò chơi của bố",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Kỉ niệm ấm áp bên bố qua trò chơi tuổi thơ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b29",
+            "number": 29,
+            "title": "Bài 29: Cánh cửa nhớ bà",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Tình cảm kính yêu, nhớ thương bà.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b30",
+            "number": 30,
+            "title": "Bài 30: Thương ông",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Lòng hiếu thảo, quan tâm chăm sóc ông.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b31",
+            "number": 31,
+            "title": "Bài 31: Ánh sáng của yêu thương",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Sáng kiến thông minh và tình yêu thương mẹ của Ê-đi-xơn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b32",
+            "number": 32,
+            "title": "Bài 32: Chơi chong chóng",
+            "chapter": "Tập 1 - Mái ấm gia đình",
+            "summary": "Niềm vui gia đình cùng làm và chơi chong chóng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b33",
+            "number": 33,
+            "title": "Bài 1 (T2): Chuyện bốn mùa",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Đặc trưng bốn mùa Xuân, Hạ, Thu, Đông.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b34",
+            "number": 34,
+            "title": "Bài 2 (T2): Mùa nước nổi",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Vẻ đẹp thiên nhiên và sinh hoạt miền Tây mùa nước nổi.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b35",
+            "number": 35,
+            "title": "Bài 3 (T2): Họa mi hót",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Tiếng hót trong trẻo của chim họa mi báo hiệu mùa xuân.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b36",
+            "number": 36,
+            "title": "Bài 4 (T2): Tết đến rồi",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Phong tục đón Tết cổ truyền ở các vùng miền Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b37",
+            "number": 37,
+            "title": "Bài 5 (T2): Giọt nước và biển lớn",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Ý nghĩa của sự đoàn kết và không tự cao.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b38",
+            "number": 38,
+            "title": "Bài 6 (T2): Mùa vàng",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Cảnh đồng lúa chín vàng trĩu hạt ngày mùa.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b39",
+            "number": 39,
+            "title": "Bài 7 (T2): Hạt thóc",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Quá trình làm ra hạt gạo và lòng biết ơn người nông dân.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b40",
+            "number": 40,
+            "title": "Bài 8 (T2): Lũy tre",
+            "chapter": "Tập 2 - Vẻ đẹp quanh em",
+            "summary": "Hình ảnh lũy tre gắn bó với làng quê Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b41",
+            "number": 41,
+            "title": "Bài 9 (T2): Vè chim",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Đặc điểm các loài chim qua bài vè dân gian.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b42",
+            "number": 42,
+            "title": "Bài 10 (T2): Khủng long",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Tìm hiểu loài động vật tiền sử khủng long.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b43",
+            "number": 43,
+            "title": "Bài 11 (T2): Sự tích cây thì là",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Truyện giải thích tên gọi cây thì là.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b44",
+            "number": 44,
+            "title": "Bài 12 (T2): Bờ tre đón khách",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Sự sống nhộn nhịp của các loài chim, cò bên bờ tre.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b45",
+            "number": 45,
+            "title": "Bài 13 (T2): Tiếng chổi tre",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Biết ơn cô lao công giữ gìn đường phố sạch đẹp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b46",
+            "number": 46,
+            "title": "Bài 14 (T2): Cỏ non cười rồi",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Bảo vệ thảm cỏ, cây xanh nơi công cộng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b47",
+            "number": 47,
+            "title": "Bài 15 (T2): Những con sao biển",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Hành động nhỏ bé góp phần cứu sống sinh vật biển.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b48",
+            "number": 48,
+            "title": "Bài 16 (T2): Tạm biệt cánh cam",
+            "chapter": "Tập 2 - Hành tinh xanh của em",
+            "summary": "Tình yêu thiên nhiên và các loài côn trùng có ích.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b49",
+            "number": 49,
+            "title": "Bài 17 (T2): Những cách chào độc đáo",
+            "chapter": "Tập 2 - Giao tiếp và kết nối",
+            "summary": "Văn hóa chào hỏi của các nước trên thế giới.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b50",
+            "number": 50,
+            "title": "Bài 18 (T2): Thư viện biết đi",
+            "chapter": "Tập 2 - Giao tiếp và kết nối",
+            "summary": "Mô hình thư viện lưu động mang sách đến vùng xa.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b51",
+            "number": 51,
+            "title": "Bài 19 (T2): Cảm ơn anh hà mã",
+            "chapter": "Tập 2 - Giao tiếp và kết nối",
+            "summary": "Lòng biết ơn và lời cảm ơn chân thành.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b52",
+            "number": 52,
+            "title": "Bài 20 (T2): Từ chú bồ câu đến in-tơ-nét",
+            "chapter": "Tập 2 - Giao tiếp và kết nối",
+            "summary": "Lịch sử phát triển phương tiện liên lạc của con người.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b53",
+            "number": 53,
+            "title": "Bài 21 (T2): Mai An Tiêm",
+            "chapter": "Tập 2 - Con người Việt Nam",
+            "summary": "Tinh thần tự lực, vượt khó của Mai An Tiêm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b54",
+            "number": 54,
+            "title": "Bài 22 (T2): Thư gửi bố ngoài đảo",
+            "chapter": "Tập 2 - Con người Việt Nam",
+            "summary": "Tình cảm gia đình hướng về người lính biển đảo.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b55",
+            "number": 55,
+            "title": "Bài 23 (T2): Bóp nát quả cam",
+            "chapter": "Tập 2 - Con người Việt Nam",
+            "summary": "Lòng yêu nước, căm thù giặc của Trần Quốc Toản.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b56",
+            "number": 56,
+            "title": "Bài 24 (T2): Chiếc rễ đa tròn",
+            "chapter": "Tập 2 - Con người Việt Nam",
+            "summary": "Tình yêu thiên nhiên và tấm lòng nhân hậu của Bác Hồ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b57",
+            "number": 57,
+            "title": "Bài 25 (T2): Đất nước chúng mình",
+            "chapter": "Tập 2 - Việt Nam quê hương em",
+            "summary": "Vẻ đẹp non sông gấm vóc Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b58",
+            "number": 58,
+            "title": "Bài 26 (T2): Trên các miền đất nước",
+            "chapter": "Tập 2 - Việt Nam quê hương em",
+            "summary": "Đặc sản, danh lam thắng cảnh ba miền Bắc - Trung - Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b59",
+            "number": 59,
+            "title": "Bài 27 (T2): Chuyện quả bầu",
+            "chapter": "Tập 2 - Việt Nam quê hương em",
+            "summary": "Truyền thuyết nguồn gốc chung của các dân tộc Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b60",
+            "number": 60,
+            "title": "Bài 28 (T2): Khám phá đáy biển ở Trường Sa",
+            "chapter": "Tập 2 - Việt Nam quê hương em",
+            "summary": "Vẻ đẹp rạn san hô và sinh vật biển Trường Sa.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b61",
+            "number": 61,
+            "title": "Bài 29 (T2): Hồ Gươm",
+            "chapter": "Tập 2 - Việt Nam quê hương em",
+            "summary": "Vẻ đẹp cổ kính, thơ mộng của Hồ Gươm, Hà Nội.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-2-b62",
+            "number": 62,
+            "title": "Bài 30 (T2): Cánh đồng quê em",
+            "chapter": "Tập 2 - Việt Nam quê hương em",
+            "summary": "Vẻ đẹp bình yên của cánh đồng quê hương.",
             "questions": []
           }
         ]
@@ -3366,78 +3918,502 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "tiengviet-3",
         "name": "Tiếng Việt",
-        "icon": "📖",
+        "icon": "📚",
         "lessons": [
           {
             "id": "tiengviet-3-b1",
             "number": 1,
-            "title": "Bài 1: Ngày gặp lại & Về quê",
-            "chapter": "Chủ điểm 1: Những trải nghiệm thú vị",
-            "summary": "Kể lại trải nghiệm đáng nhớ sau kì nghỉ hè.",
+            "title": "Bài 1: Ngày gặp lại",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Niềm vui ngày tựu trường và chia sẻ kỉ niệm hè.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b2",
             "number": 2,
-            "title": "Bài 2: Cánh đồng hoa & Nhật kí tập bơi",
-            "chapter": "Chủ điểm 1: Những trải nghiệm thú vị",
-            "summary": "Câu kể và sử dụng dấu chấm, dấu phẩy.",
+            "title": "Bài 2: Về thăm quê",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Tình cảm gắn bó với quê hương và người thân.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b3",
             "number": 3,
-            "title": "Bài 3: Mùa thu của em & Lời giải toán đặc biệt",
-            "chapter": "Chủ điểm 2: Cổng trường rộng mở",
-            "summary": "Kỉ niệm ngày khai trường và thầy cô.",
+            "title": "Bài 3: Cánh rừng trong nắng",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Vẻ đẹp yên bình của khu rừng buổi sáng.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b4",
             "number": 4,
-            "title": "Bài 4: Chiếc nhãn vở đặc biệt & Người làm đồ chơi",
-            "chapter": "Chủ điểm 3: Mái nhà yêu thương",
-            "summary": "Tình cảm gia đình và nghề thủ công truyền thống.",
+            "title": "Bài 4: Lần đầu ra biển",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Cảm xúc ngỡ ngàng, thích thú trước vẻ đẹp của biển.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b5",
             "number": 5,
-            "title": "Bài 5: Đôi bàn tay & Thư viện biết đi",
-            "chapter": "Chủ điểm 4: Cộng đồng gắn bó",
-            "summary": "Tinh thần cộng đồng, sẻ chia tri thức.",
+            "title": "Bài 5: Nhật kí tập bơi",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Kiên trì luyện tập vượt qua nỗi sợ để biết bơi.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b6",
             "number": 6,
-            "title": "Bài 6: Bầu trời trong quả trứng & Tiếng nước chảy",
-            "chapter": "Chủ điểm 5: Những sắc màu thiên nhiên",
-            "summary": "Khám phá thiên nhiên kì thú qua thơ và văn xuôi.",
+            "title": "Bài 6: Tập nấu ăn",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Học cách phụ giúp gia đình và tự lập.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b7",
             "number": 7,
-            "title": "Bài 7: Chú sẻ và bông hoa bằng lăng & Cuộc chạy đua trong rừng",
-            "chapter": "Chủ điểm 6: Bài học từ cuộc sống",
-            "summary": "Đức tính khiêm tốn, kiên trì và lòng nhân hậu.",
+            "title": "Bài 7: Mùa hè lấp lánh",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Những hoạt động bổ ích, rực rỡ sắc màu mùa hè.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b8",
             "number": 8,
-            "title": "Bài 8: Hai Bà Trưng & Sự tích Hồ Gươm",
-            "chapter": "Chủ điểm 7: Đất nước ngàn năm",
-            "summary": "Truyền thống lịch sử dựng nước và giữ nước.",
+            "title": "Bài 8: Tạm biệt mùa hè",
+            "chapter": "Tập 1 - Những trải nghiệm thú vị",
+            "summary": "Chuẩn bị tâm thế bước vào năm học mới.",
             "questions": []
           },
           {
             "id": "tiengviet-3-b9",
             "number": 9,
-            "title": "Bài 9: Trái Đất này là của chúng mình & Cây gạo",
-            "chapter": "Chủ điểm 8: Trái Đất của chúng mình",
-            "summary": "Tình hữu nghị quốc tế và bảo vệ hành tinh.",
+            "title": "Bài 9: Đi học vui sao",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Niềm vui đến trường và gặp gỡ bạn bè.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b10",
+            "number": 10,
+            "title": "Bài 10: Con đường đến trường",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Cảnh sắc thân quen trên đường đi học.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b11",
+            "number": 11,
+            "title": "Bài 11: Lời giải toán đặc biệt",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Sự sáng tạo trong học tập của nhà toán học trẻ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b12",
+            "number": 12,
+            "title": "Bài 12: Bài tập làm văn",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Tính trung thực khi viết văn từ thực tế cuộc sống.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b13",
+            "number": 13,
+            "title": "Bài 13: Bàn tay cô giáo",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Sự khéo léo, tận tâm của cô giáo với học trò.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b14",
+            "number": 14,
+            "title": "Bài 14: Cuộc họp của chữ viết",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Tầm quan trọng của dấu chấm và quy tắc viết câu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b15",
+            "number": 15,
+            "title": "Bài 15: Thư viện",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Nội quy thư viện và thói quen đọc sách.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b16",
+            "number": 16,
+            "title": "Bài 16: Ngày em vào Đội",
+            "chapter": "Tập 1 - Cổng trường rộng mở",
+            "summary": "Niềm vinh dự khi được đeo khăn quàng đỏ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b17",
+            "number": 17,
+            "title": "Bài 17: Ngưỡng cửa",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Hình ảnh ngưỡng cửa gắn liền với bước trưởng thành.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b18",
+            "number": 18,
+            "title": "Bài 18: Món quà đặc biệt",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Giá trị tinh thần của món quà tự tay làm tặng mẹ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b19",
+            "number": 19,
+            "title": "Bài 19: Khi cả nhà bé tí",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Kỉ niệm ấm áp thời thơ ấu của bố mẹ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b20",
+            "number": 20,
+            "title": "Bài 20: Trò chuyện cùng mẹ",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Sự sẻ chia, thấu hiểu giữa mẹ và con.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b21",
+            "number": 21,
+            "title": "Bài 21: Tia nắng bé nhỏ",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Tình yêu thương bà và sự hiếu thảo của cháu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b22",
+            "number": 22,
+            "title": "Bài 22: Để cháu nắm tay ông",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Chăm sóc, yêu thương ông khi tuổi cao.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b23",
+            "number": 23,
+            "title": "Bài 23: Tôi yêu em tôi",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Tình cảm anh chị em ruột thịt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b24",
+            "number": 24,
+            "title": "Bài 24: Bạn nhỏ trong nhà",
+            "chapter": "Tập 1 - Mái nhà yêu thương",
+            "summary": "Chăm sóc vật nuôi thân thiết trong gia đình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b25",
+            "number": 25,
+            "title": "Bài 25: Những bậc đá chạm mây",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Tinh thần vượt khó mở đường của người dân vùng cao.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b26",
+            "number": 26,
+            "title": "Bài 26: Đi tìm mặt trời",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Truyện cổ tích về sự đoàn kết tìm ánh sáng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b27",
+            "number": 27,
+            "title": "Bài 27: Những chiếc áo ấm",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Lòng nhân ái, sẻ chia với người gặp khó khăn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b28",
+            "number": 28,
+            "title": "Bài 28: Con đường của bé",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Ước mơ và đóng góp của mọi nghề nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b29",
+            "number": 29,
+            "title": "Bài 29: Ngôi nhà trong cỏ",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Tình cảm xóm giềng và thiên nhiên quanh ta.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b30",
+            "number": 30,
+            "title": "Bài 30: Những ngọn hải đăng",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Vai trò của ngọn hải đăng và người gác đèn biển.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b31",
+            "number": 31,
+            "title": "Bài 31: Người làm đồ chơi",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Giữ gìn nghề nặn tò he truyền thống.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b32",
+            "number": 32,
+            "title": "Bài 32: Cây bút thần",
+            "chapter": "Tập 1 - Cộng đồng gắn bó",
+            "summary": "Chuyện cổ tích Mã Lương dùng tài năng giúp dân nghèo.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b33",
+            "number": 33,
+            "title": "Bài 1 (T2): Bầu trời",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Vẻ đẹp biến đổi kì diệu của bầu trời.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b34",
+            "number": 34,
+            "title": "Bài 2 (T2): Mưa",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Âm thanh, hình ảnh cơn mưa mang lại sự sống.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b35",
+            "number": 35,
+            "title": "Bài 3 (T2): Cóc kiện Trời",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Truyện cổ tích giải thích tiếng cóc nghiến răng gọi mưa.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b36",
+            "number": 36,
+            "title": "Bài 4 (T2): Những cái tên đáng yêu",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Sự phong phú của thế giới thực vật, động vật.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b37",
+            "number": 37,
+            "title": "Bài 5 (T2): Ngày hội rừng xanh",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Bức tranh sinh động của muông thú trong rừng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b38",
+            "number": 38,
+            "title": "Bài 6 (T2): Cây gạo",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Vẻ đẹp cây gạo qua các mùa ở làng quê.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b39",
+            "number": 39,
+            "title": "Bài 7 (T2): Mặt trời xanh của tôi",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Hình ảnh lá cọ như mặt trời xanh vùng trung du.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b40",
+            "number": 40,
+            "title": "Bài 8 (T2): Bầy voi rừng Trường Sơn",
+            "chapter": "Tập 2 - Những sắc màu thiên nhiên",
+            "summary": "Đặc điểm và bảo vệ loài voi rừng quý hiếm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b41",
+            "number": 41,
+            "title": "Bài 9 (T2): Lời kêu gọi toàn dân tập thể dục",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Ý nghĩa rèn luyện sức khỏe theo lời Bác Hồ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b42",
+            "number": 42,
+            "title": "Bài 10 (T2): Quả hồng của thỏ con",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Bài học về lòng tốt và sự sẻ chia.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b43",
+            "number": 43,
+            "title": "Bài 11 (T2): Chuyện bên cửa sổ",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Quan sát và suy ngẫm từ cuộc sống quanh ta.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b44",
+            "number": 44,
+            "title": "Bài 12 (T2): Tay trái và tay phải",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Mỗi bộ phận, mỗi thành viên đều có vai trò quan trọng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b45",
+            "number": 45,
+            "title": "Bài 13 (T2): Mèo đi câu cá",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Bài học về sự tập trung làm việc đến nơi đến chốn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b46",
+            "number": 46,
+            "title": "Bài 14 (T2): Học nghề",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Sự kiên trì rèn luyện để thành thạo nghề nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b47",
+            "number": 47,
+            "title": "Bài 15 (T2): Ngày như thế nào là đẹp?",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Ngày đẹp là ngày con người làm được việc có ích.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b48",
+            "number": 48,
+            "title": "Bài 16 (T2): A lô, tớ đây",
+            "chapter": "Tập 2 - Bài học từ cuộc sống",
+            "summary": "Kĩ năng giao tiếp lịch sự qua điện thoại.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b49",
+            "number": 49,
+            "title": "Bài 17 (T2): Đất nước là gì?",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Cảm nhận giản dị, sâu sắc về đất nước.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b50",
+            "number": 50,
+            "title": "Bài 18 (T2): Núi quê tôi",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Vẻ đẹp hùng vĩ của núi non quê hương.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b51",
+            "number": 51,
+            "title": "Bài 19 (T2): Sông Hương",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Vẻ đẹp thơ mộng, đổi sắc theo thời gian của sông Hương.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b52",
+            "number": 52,
+            "title": "Bài 20 (T2): Tiếng nước mình",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Tự hào và giữ gìn sự giàu đẹp của tiếng Việt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b53",
+            "number": 53,
+            "title": "Bài 21 (T2): Nhà rông",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Nét kiến trúc và sinh hoạt văn hóa Tây Nguyên.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b54",
+            "number": 54,
+            "title": "Bài 22 (T2): Sự tích ông Đùng, bà Đùng",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Truyền thuyết ca ngợi sức mạnh khai phá thiên nhiên.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b55",
+            "number": 55,
+            "title": "Bài 23 (T2): Hai Bà Trưng",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Truyền thống yêu nước chống giặc ngoại xâm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b56",
+            "number": 56,
+            "title": "Bài 24 (T2): Cùng Bác qua suối",
+            "chapter": "Tập 2 - Đất nước ngàn năm",
+            "summary": "Tình cảm quan tâm giản dị của Bác Hồ với chiến sĩ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b57",
+            "number": 57,
+            "title": "Bài 25 (T2): Ngọn lửa Ô-lim-pích",
+            "chapter": "Tập 2 - Trái đất của chúng mình",
+            "summary": "Tinh thần thể thao hòa bình, cao thượng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b58",
+            "number": 58,
+            "title": "Bài 26 (T2): Rô-bốt ở quanh ta",
+            "chapter": "Tập 2 - Trái đất của chúng mình",
+            "summary": "Ứng dụng của robot trong đời sống hiện đại.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b59",
+            "number": 59,
+            "title": "Bài 27 (T2): Thư của ông Trái Đất gửi các bạn nhỏ",
+            "chapter": "Tập 2 - Trái đất của chúng mình",
+            "summary": "Thông điệp bảo vệ hành tinh xanh.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b60",
+            "number": 60,
+            "title": "Bài 28 (T2): Những điều nhỏ tớ làm cho Trái Đất",
+            "chapter": "Tập 2 - Trái đất của chúng mình",
+            "summary": "Hành động thiết thực bảo vệ môi trường.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b61",
+            "number": 61,
+            "title": "Bài 29 (T2): Bác sĩ Y-éc-xanh",
+            "chapter": "Tập 2 - Trái đất của chúng mình",
+            "summary": "Tấm lòng nhân hậu và cống hiến y học của bác sĩ Yersin.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-3-b62",
+            "number": 62,
+            "title": "Bài 30 (T2): Một mái nhà chung",
+            "chapter": "Tập 2 - Trái đất của chúng mình",
+            "summary": "Tình đoàn kết giữa con người và thiên nhiên.",
             "questions": []
           }
         ]
@@ -5443,70 +6419,502 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "tiengviet-4",
         "name": "Tiếng Việt",
-        "icon": "📖",
+        "icon": "📚",
         "lessons": [
           {
             "id": "tiengviet-4-b1",
             "number": 1,
-            "title": "Bài 1-4: Điều kì diệu, Thi nhạc, Bầu trời trong quả trứng, Tập làm văn",
-            "chapter": "Chủ điểm 1: Mỗi người một vẻ",
-            "summary": "Danh từ, động từ; viết đoạn văn nêu ý kiến.",
+            "title": "Bài 1: Điều kì diệu",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Mỗi người đều có nét riêng đáng quý tạo nên sự đa dạng.",
             "questions": []
           },
           {
             "id": "tiengviet-4-b2",
             "number": 2,
-            "title": "Bài 5-8: Về thăm bà, Tiếng nói của cỏ cây, Những bậc đá chạm mây",
-            "chapter": "Chủ điểm 2: Trải nghiệm và khám phá",
-            "summary": "Tính từ; viết bài văn thuật lại sự việc.",
+            "title": "Bài 2: Thi nhạc",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Phát huy năng khiếu riêng của từng bạn nhỏ.",
             "questions": []
           },
           {
             "id": "tiengviet-4-b3",
             "number": 3,
-            "title": "Bài 9-12: Vẽ màu, Nhà phát minh 6 tuổi, Con đường của bé",
-            "chapter": "Chủ điểm 3: Niềm vui sáng tạo",
-            "summary": "Biện pháp nhân hóa; viết bài văn miêu tả con vật.",
+            "title": "Bài 3: Anh em sinh đôi",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Khám phá nét riêng dù ngoại hình giống nhau.",
             "questions": []
           },
           {
             "id": "tiengviet-4-b4",
             "number": 4,
-            "title": "Bài 13-16: Ở vương quốc tương lai, Đôi cánh của ngựa trắng, Ước mơ của An",
-            "chapter": "Chủ điểm 4: Chắp cánh ước mơ",
-            "summary": "Chủ ngữ, vị ngữ trong câu kể; viết thư.",
+            "title": "Bài 4: Công chúa và người dẫn chuyện",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Sự tự tin tỏa sáng trên sân khấu theo cách riêng.",
             "questions": []
           },
           {
             "id": "tiengviet-4-b5",
             "number": 5,
-            "title": "Bài 17-20: Hải thượng Lãn Ông, Tờ báo tường của tôi, Sự tích hoa cúc trắng",
-            "chapter": "Chủ điểm 5: Sống để yêu thương",
-            "summary": "Trạng ngữ chỉ thời gian, nơi chốn; viết bài văn miêu tả cây cối.",
+            "title": "Bài 5: Thằn lằn xanh và tắc kè",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Tôn trọng đặc điểm và lối sống khác biệt của bạn.",
             "questions": []
           },
           {
             "id": "tiengviet-4-b6",
             "number": 6,
-            "title": "Bài 21-24: Đền Hùng, Bốn anh tài, Khuất phục tên cướp biển",
-            "chapter": "Chủ điểm 6: Uống nước nhớ nguồn",
-            "summary": "Dấu gạch ngang, dấu ngoặc kép; kể lại câu chuyện.",
+            "title": "Bài 6: Nghệ sĩ trống",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Đam mê và quyết tâm theo đuổi nghệ thuật.",
             "questions": []
           },
           {
             "id": "tiengviet-4-b7",
             "number": 7,
-            "title": "Bài 25-28: Đường đi Sa Pa, Chợ Tết, Về ngôi nhà đang xây",
-            "chapter": "Chủ điểm 7: Quê hương trong tôi",
-            "summary": "Mở rộng vốn từ quê hương, đất nước.",
+            "title": "Bài 7: Những bức chân dung",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Nhìn nhận điểm đáng yêu của bạn bè qua hội họa.",
             "questions": []
           },
           {
             "id": "tiengviet-4-b8",
             "number": 8,
-            "title": "Bài 29-32: Đoàn thuyền đánh cá, Ngọn lửa Ô-lim-pích, Trái Đất",
-            "chapter": "Chủ điểm 8: Vì một thế giới bình yên",
-            "summary": "Tổng ôn đọc hiểu và viết văn lớp 4.",
+            "title": "Bài 8: Đò ngang",
+            "chapter": "Tập 1 - Mỗi người một vẻ",
+            "summary": "Bài học về tinh thần hợp tác và khiêm tốn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b9",
+            "number": 9,
+            "title": "Bài 9: Bầu trời trong quả trứng",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Sự tò mò khám phá thế giới rộng lớn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b10",
+            "number": 10,
+            "title": "Bài 10: Tiếng nói của cỏ cây",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Lắng nghe và yêu quý thiên nhiên.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b11",
+            "number": 11,
+            "title": "Bài 11: Tập làm văn",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Trải nghiệm thực tế giúp bài văn chân thật, sinh động.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b12",
+            "number": 12,
+            "title": "Bài 12: Nhà phát minh 6 tuổi",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Óc quan sát và tư duy sáng tạo khoa học.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b13",
+            "number": 13,
+            "title": "Bài 13: Con vẹt xanh",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Tìm hiểu đặc điểm loài chim thông minh.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b14",
+            "number": 14,
+            "title": "Bài 14: Chân trời cuối phố",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Khát vọng khám phá thế giới bên ngoài.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b15",
+            "number": 15,
+            "title": "Bài 15: Gặt chữ trên non",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Nghị lực vượt khó đến trường của học sinh vùng cao.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b16",
+            "number": 16,
+            "title": "Bài 16: Trước ngày xa quê",
+            "chapter": "Tập 1 - Trải nghiệm và khám phá",
+            "summary": "Tình cảm lưu luyến với quê hương thân thuộc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b17",
+            "number": 17,
+            "title": "Bài 17: Vẽ màu",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Trí tưởng tượng phong phú qua thế giới sắc màu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b18",
+            "number": 18,
+            "title": "Bài 18: Đồng cỏ nở hoa",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Tài năng hội họa và tình yêu thiên nhiên.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b19",
+            "number": 19,
+            "title": "Bài 19: Thanh âm của núi",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Âm thanh trong trẻo của tiếng sáo vùng cao.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b20",
+            "number": 20,
+            "title": "Bài 20: Bầu trời mùa thu",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Quan sát và cảm nhận vẻ đẹp mùa thu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b21",
+            "number": 21,
+            "title": "Bài 21: Làm thỏ con bằng giấy",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Đọc hiểu văn bản hướng dẫn làm đồ thủ công.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b22",
+            "number": 22,
+            "title": "Bài 22: Bức tường có nhiều phép lạ",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Sức sáng tạo biến điều bình thường thành kì diệu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b23",
+            "number": 23,
+            "title": "Bài 23: Bét-tô-ven và bản xô-nát Ánh trăng",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Câu chuyện cảm động về thiên tài âm nhạc Beethoven.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b24",
+            "number": 24,
+            "title": "Bài 24: Người tìm đường lên các vì sao",
+            "chapter": "Tập 1 - Niềm vui sáng tạo",
+            "summary": "Ước mơ chinh phục vũ trụ của nhà khoa học Xi-ôn-cốp-xki.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b25",
+            "number": 25,
+            "title": "Bài 25: Bay cùng ước mơ",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Khát vọng vươn cao, chinh phục tương lai.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b26",
+            "number": 26,
+            "title": "Bài 26: Con trai người làm vườn",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Nối nghiệp và sáng tạo trong nghề làm vườn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b27",
+            "number": 27,
+            "title": "Bài 27: Nếu em có một khu vườn",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Ước mơ tạo không gian xanh tươi đẹp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b28",
+            "number": 28,
+            "title": "Bài 28: Bốn mùa mơ ước",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Mơ ước giản dị gắn với thiên nhiên bốn mùa.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b29",
+            "number": 29,
+            "title": "Bài 29: Ở Vương quốc Tương Lai",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Trích đoạn kịch về phát minh tương lai của trẻ thơ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b30",
+            "number": 30,
+            "title": "Bài 30: Cánh chim nhỏ",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Nghị lực vươn lên theo đuổi ước mơ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b31",
+            "number": 31,
+            "title": "Bài 31: Nếu chúng mình có phép lạ",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Ước mơ thế giới hòa bình, không thiên tai.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b32",
+            "number": 32,
+            "title": "Bài 32: Anh Ba",
+            "chapter": "Tập 1 - Chắp cánh ước mơ",
+            "summary": "Ý chí ra đi tìm đường cứu nước của người thanh niên Nguyễn Tất Thành.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b33",
+            "number": 33,
+            "title": "Bài 1 (T2): Hải Thượng Lãn Ông",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Y đức cao đẹp của danh y Lê Hữu Trác.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b34",
+            "number": 34,
+            "title": "Bài 2 (T2): Vệt phấn trên mặt bàn",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Sự bao dung và tình bạn đẹp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b35",
+            "number": 35,
+            "title": "Bài 3 (T2): Ông Bụt đã đến",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Lòng tốt thầm lặng giúp đỡ người khác.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b36",
+            "number": 36,
+            "title": "Bài 4 (T2): Quả ngọt cuối mùa",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Tình yêu thương, chăm chút của bà dành cho con cháu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b37",
+            "number": 37,
+            "title": "Bài 5 (T2): Tờ báo tường của tôi",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Kỉ niệm làm báo tường gắn kết tập thể lớp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b38",
+            "number": 38,
+            "title": "Bài 6 (T2): Tiếng ru",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Ý nghĩa của sự sẻ chia, sống vì mọi người.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b39",
+            "number": 39,
+            "title": "Bài 7 (T2): Con muốn làm một cái cây",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Kỉ niệm gia đình và tình yêu cây xanh.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b40",
+            "number": 40,
+            "title": "Bài 8 (T2): Trên khóm tre đầu ngõ",
+            "chapter": "Tập 2 - Sống để yêu thương",
+            "summary": "Tình cảm gắn bó với thiên nhiên làng quê.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b41",
+            "number": 41,
+            "title": "Bài 9 (T2): Sự tích con Rồng cháu Tiên",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Cội nguồn thiêng liêng và tinh thần đoàn kết dân tộc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b42",
+            "number": 42,
+            "title": "Bài 10 (T2): Cảm xúc Trường Sa",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Tình yêu biển đảo và người lính Trường Sa.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b43",
+            "number": 43,
+            "title": "Bài 11 (T2): Sáng tháng Năm",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Tình cảm kính yêu Bác Hồ của nhân dân Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b44",
+            "number": 44,
+            "title": "Bài 12 (T2): Chàng trai làng Phù Ủng",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Tấm gương anh hùng Phạm Ngũ Lão thời Trần.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b45",
+            "number": 45,
+            "title": "Bài 13 (T2): Vườn của ông tôi",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Giữ gìn kỉ vật và công lao của thế hệ đi trước.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b46",
+            "number": 46,
+            "title": "Bài 14 (T2): Trong lời mẹ hát",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Âm vang lời ru nuôi dưỡng tâm hồn tuổi thơ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b47",
+            "number": 47,
+            "title": "Bài 15 (T2): Người thầy đầu tiên của bố tôi",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Truyền thống tôn sư trọng đạo.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b48",
+            "number": 48,
+            "title": "Bài 16 (T2): Ngựa biên phòng",
+            "chapter": "Tập 2 - Uống nước nhớ nguồn",
+            "summary": "Hình ảnh người chiến sĩ biên phòng bảo vệ biên cương.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b49",
+            "number": 49,
+            "title": "Bài 17 (T2): Cây đa quê hương",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Vẻ đẹp cổ thụ thân thương của làng quê Việt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b50",
+            "number": 50,
+            "title": "Bài 18 (T2): Bước mùa xuân",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Khung cảnh rộn ràng sắc xuân trên quê hương.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b51",
+            "number": 51,
+            "title": "Bài 19 (T2): Đi hội chùa Hương",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Nét đẹp lễ hội truyền thống mùa xuân.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b52",
+            "number": 52,
+            "title": "Bài 20 (T2): Chiều ngoại ô",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Cảnh sắc bình yên vùng ngoại ô buổi chiều.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b53",
+            "number": 53,
+            "title": "Bài 21 (T2): Những cánh buồm",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Ước mơ khám phá chân trời mới của cha và con.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b54",
+            "number": 54,
+            "title": "Bài 22 (T2): Cái cầu",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Niềm tự hào về công trình của người cha kĩ sư.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b55",
+            "number": 55,
+            "title": "Bài 23 (T2): Đường đi Sa Pa",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Vẻ đẹp kì vĩ, nên thơ của núi rừng Tây Bắc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b56",
+            "number": 56,
+            "title": "Bài 24 (T2): Quê ngoại",
+            "chapter": "Tập 2 - Quê hương trong tôi",
+            "summary": "Kỉ niệm êm đềm về miền quê ngoại.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b57",
+            "number": 57,
+            "title": "Bài 25 (T2): Khu bảo tồn động vật hoang dã Ngô-rông-gô-rô",
+            "chapter": "Tập 2 - Vì một thế giới bình yên",
+            "summary": "Bảo vệ động vật hoang dã trên thế giới.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b58",
+            "number": 58,
+            "title": "Bài 26 (T2): Ngôi nhà của yêu thương",
+            "chapter": "Tập 2 - Vì một thế giới bình yên",
+            "summary": "Tình nhân ái vượt qua ranh giới địa lí.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b59",
+            "number": 59,
+            "title": "Bài 27 (T2): Băng tan",
+            "chapter": "Tập 2 - Vì một thế giới bình yên",
+            "summary": "Cảnh báo biến đổi khí hậu và bảo vệ Trái Đất.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b60",
+            "number": 60,
+            "title": "Bài 28 (T2): Chuyến du lịch thú vị",
+            "chapter": "Tập 2 - Vì một thế giới bình yên",
+            "summary": "Khám phá văn hóa các quốc gia.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b61",
+            "number": 61,
+            "title": "Bài 29 (T2): Lễ hội ở Nhật Bản",
+            "chapter": "Tập 2 - Vì một thế giới bình yên",
+            "summary": "Tìm hiểu nét đẹp văn hóa lễ hội thế giới.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-4-b62",
+            "number": 62,
+            "title": "Bài 30 (T2): Ngày hội",
+            "chapter": "Tập 2 - Vì một thế giới bình yên",
+            "summary": "Tinh thần giao lưu, hữu nghị quốc tế.",
             "questions": []
           }
         ]
@@ -7327,70 +8735,502 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "tiengviet-5",
         "name": "Tiếng Việt",
-        "icon": "📖",
+        "icon": "📚",
         "lessons": [
           {
             "id": "tiengviet-5-b1",
             "number": 1,
-            "title": "Bài 1-4: Thanh âm của gió, Cánh đồng hoa, Tuổi ngựa, Bến sông tuổi thơ",
-            "chapter": "Chủ điểm 1: Thế giới tuổi thơ",
-            "summary": "Từ đồng nghĩa, từ đa nghĩa; viết bài văn kể chuyện sáng tạo.",
+            "title": "Bài 1: Thanh âm của gió",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Cảm nhận vẻ đẹp âm thanh thiên nhiên tuổi thơ.",
             "questions": []
           },
           {
             "id": "tiengviet-5-b2",
             "number": 2,
-            "title": "Bài 5-8: Kì diệu rừng xanh, Trước cổng trời, Hang Sơn Đoòng",
-            "chapter": "Chủ điểm 2: Thiên nhiên kì thú",
-            "summary": "Đại từ, kết từ; viết bài văn tả phong cảnh.",
+            "title": "Bài 2: Cánh đồng hoa",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Tình bạn và nỗ lực biến vùng đất khô cằn thành vườn hoa.",
             "questions": []
           },
           {
             "id": "tiengviet-5-b3",
             "number": 3,
-            "title": "Bài 9-12: Trạng nguyên nhỏ tuổi, Thư gửi các học sinh, Thầy thuốc như mẹ hiền",
-            "chapter": "Chủ điểm 3: Trên con đường học tập",
-            "summary": "Câu đơn và câu ghép; viết báo cáo công việc.",
+            "title": "Bài 3: Tuổi Ngựa",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Khát vọng bay nhảy, khám phá miền đất mới.",
             "questions": []
           },
           {
             "id": "tiengviet-5-b4",
             "number": 4,
-            "title": "Bài 13-16: Tiếng đàn ba-la-lai-ca trên sông Đà, Hạt gạo làng ta",
-            "chapter": "Chủ điểm 4: Nghệ thuật muôn màu",
-            "summary": "Liên kết câu bằng lặp từ ngữ, thay thế từ ngữ.",
+            "title": "Bài 4: Bến sông tuổi thơ",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Kỉ niệm êm đềm bên dòng sông quê hương.",
             "questions": []
           },
           {
             "id": "tiengviet-5-b5",
             "number": 5,
-            "title": "Bài 17-20: Người công dân số Một, Thái sư Trần Thủ Độ",
-            "chapter": "Chủ điểm 5: Vẻ đẹp cuộc sống",
-            "summary": "Dấu gạch ngang, dấu ngoặc đơn; viết đoạn văn thể hiện tình cảm, cảm xúc.",
+            "title": "Bài 5: Tiếng hạt nảy mầm",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Cô giáo dạy trẻ khiếm thính bằng tình yêu thương.",
             "questions": []
           },
           {
             "id": "tiengviet-5-b6",
             "number": 6,
-            "title": "Bài 21-24: Đất Cà Mau, Phong cảnh đền Hùng, Hội thổi cơm thi ở Đồng Vân",
-            "chapter": "Chủ điểm 6: Hương sắc trăm miền",
-            "summary": "Mở rộng vốn từ văn hóa dân tộc.",
+            "title": "Bài 6: Ngôi sao sân cỏ",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Tinh thần đồng đội và niềm đam mê bóng đá.",
             "questions": []
           },
           {
             "id": "tiengviet-5-b7",
             "number": 7,
-            "title": "Bài 25-28: Hộp thư mật, Luật Bảo vệ môi trường, Nghìn năm văn hiến",
-            "chapter": "Chủ điểm 7: Tiếp bước cha ông",
-            "summary": "Tổng ôn ngữ pháp và tập làm văn.",
+            "title": "Bài 7: Bộ sưu tập độc đáo",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Sáng tạo và trân trọng giá trị tri thức.",
             "questions": []
           },
           {
             "id": "tiengviet-5-b8",
             "number": 8,
-            "title": "Bài 29-32: Tranh làng Hồ, Bài ca về Trái Đất, Bức thư của thủ lĩnh da đỏ",
-            "chapter": "Chủ điểm 8: Thế giới của chúng ta",
-            "summary": "Ôn tập cuối năm Tiếng Việt 5.",
+            "title": "Bài 8: Hành tinh kì lạ",
+            "chapter": "Tập 1 - Thế giới tuổi thơ",
+            "summary": "Trí tưởng tượng phong phú về vũ trụ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b9",
+            "number": 9,
+            "title": "Bài 9: Trước cổng trời",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Vẻ đẹp hùng vĩ, thơ mộng của vùng núi cao.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b10",
+            "number": 10,
+            "title": "Bài 10: Kì diệu rừng xanh",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Sự đa dạng, kì thú của hệ sinh thái rừng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b11",
+            "number": 11,
+            "title": "Bài 11: Hang Sơn Đoòng – những điều kì thú",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Kì quan hang động lớn nhất thế giới tại Quảng Bình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b12",
+            "number": 12,
+            "title": "Bài 12: Những hòn đảo trên vịnh Hạ Long",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Di sản thiên nhiên thế giới vịnh Hạ Long.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b13",
+            "number": 13,
+            "title": "Bài 13: Mầm non",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Sự trỗi dậy kì diệu của mầm non đón mùa xuân.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b14",
+            "number": 14,
+            "title": "Bài 14: Những ngọn núi nóng rẫy",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Tìm hiểu hiện tượng núi lửa trên Trái Đất.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b15",
+            "number": 15,
+            "title": "Bài 15: Bài ca về mặt trời",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Vai trò nguồn sáng, năng lượng Mặt Trời với sự sống.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b16",
+            "number": 16,
+            "title": "Bài 16: Xin chào, Xa-ha-ra",
+            "chapter": "Tập 1 - Thiên nhiên kì thú",
+            "summary": "Khám phá thiên nhiên khắc nghiệt ở hoang mạc Sahara.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b17",
+            "number": 17,
+            "title": "Bài 17: Thư gửi các học sinh",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Lời căn dặn sâu sắc của Bác Hồ nhân ngày khai trường đầu tiên 1945.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b18",
+            "number": 18,
+            "title": "Bài 18: Tấm gương tự học",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Tinh thần tự học bền bỉ làm nên thành công.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b19",
+            "number": 19,
+            "title": "Bài 19: Trải nghiệm để sáng tạo",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Thực hành giúp hiểu sâu kiến thức.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b20",
+            "number": 20,
+            "title": "Bài 20: Khổ luyện thành tài",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Nghị lực rèn luyện vượt qua khiếm khuyết, khó khăn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b21",
+            "number": 21,
+            "title": "Bài 21: Thế giới trong trang sách",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Đọc sách mở ra chân trời tri thức mới.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b22",
+            "number": 22,
+            "title": "Bài 22: Từ những câu chuyện ấu thơ",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Ảnh hưởng của truyện đọc tuổi thơ đến tâm hồn.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b23",
+            "number": 23,
+            "title": "Bài 23: Giới thiệu sách Dế Mèn phiêu lưu kí",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Tác phẩm văn học thiếu nhi kinh điển của Tô Hoài.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b24",
+            "number": 24,
+            "title": "Bài 24: Tinh thần học tập của nhà Phi-lít",
+            "chapter": "Tập 1 - Trên con đường học tập",
+            "summary": "Tấm gương hiếu học vươn lên trong cuộc sống.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b25",
+            "number": 25,
+            "title": "Bài 25: Tiếng đàn ba-la-lai-ca trên sông Đà",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Vẻ đẹp lãng mạn của công trình thủy điện Hòa Bình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b26",
+            "number": 26,
+            "title": "Bài 26: Trí tưởng tượng phong phú",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Cội nguồn của sáng tạo nghệ thuật.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b27",
+            "number": 27,
+            "title": "Bài 27: Tranh làng Hồ",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Tôn vinh nghệ thuật tranh dân gian Đông Hồ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b28",
+            "number": 28,
+            "title": "Bài 28: Tập hát quan họ",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Di sản dân ca Quan họ Bắc Ninh.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b29",
+            "number": 29,
+            "title": "Bài 29: Phim hoạt hình Chú ốc sên bay",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Tìm hiểu nghệ thuật làm phim hoạt hình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b30",
+            "number": 30,
+            "title": "Bài 30: Nghệ thuật múa ba lê",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Vẻ đẹp tinh tế của nghệ thuật múa ba lê.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b31",
+            "number": 31,
+            "title": "Bài 31: Một ngôi chùa độc đáo",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Kiến trúc độc đáo của chùa Một Cột.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b32",
+            "number": 32,
+            "title": "Bài 32: Sự tích chú Tễu",
+            "chapter": "Tập 1 - Nghệ thuật muôn màu",
+            "summary": "Nghệ thuật múa rối nước truyền thống Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b33",
+            "number": 33,
+            "title": "Bài 1 (T2): Tiếng hát của người đá",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Tình yêu lao động và nghệ thuật dân gian.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b34",
+            "number": 34,
+            "title": "Bài 2 (T2): Khúc hát ru những em bé lớn trên lưng mẹ",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Tình yêu con gắn liền tình yêu đất nước của người mẹ Tà Ôi.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b35",
+            "number": 35,
+            "title": "Bài 3 (T2): Hạt gạo làng ta",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Giá trị lao động kết tinh trong từng hạt gạo.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b36",
+            "number": 36,
+            "title": "Bài 4 (T2): Hộp quà màu thiên thanh",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Sẻ chia niềm vui và lòng tốt trong cuộc sống.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b37",
+            "number": 37,
+            "title": "Bài 5 (T2): Giỏ hoa tháng Năm",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Tấm lòng tri ân, yêu thương thầy cô, bạn bè.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b38",
+            "number": 38,
+            "title": "Bài 6 (T2): Thư của bố",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Tình cảm gia đình ấm áp qua những bức thư.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b39",
+            "number": 39,
+            "title": "Bài 7 (T2): Đoàn thuyền đánh cá",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Khí thế hăng say lao động làm giàu từ biển cả.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b40",
+            "number": 40,
+            "title": "Bài 8 (T2): Khu rừng của Mát",
+            "chapter": "Tập 2 - Vẻ đẹp cuộc sống",
+            "summary": "Trách nhiệm giữ gìn và bảo vệ rừng xanh.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b41",
+            "number": 41,
+            "title": "Bài 9 (T2): Hội thổi cơm thi ở Đồng Văn",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Nét sinh hoạt văn hóa dân gian độc đáo.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b42",
+            "number": 42,
+            "title": "Bài 10 (T2): Những búp chè trên cây cổ thụ",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Vùng chè cổ thụ Suối Giàng vùng Tây Bắc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b43",
+            "number": 43,
+            "title": "Bài 11 (T2): Hương cốm mùa thu",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Đặc sản cốm làng Vòng mang hương sắc thu Hà Nội.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b44",
+            "number": 44,
+            "title": "Bài 12 (T2): Vũ điệu trên nền thổ cẩm",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Sắc màu văn hóa các dân tộc thiểu số.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b45",
+            "number": 45,
+            "title": "Bài 13 (T2): Đàn t'rưng – tiếng ca đại ngàn",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Nhạc cụ truyền thống độc đáo của Tây Nguyên.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b46",
+            "number": 46,
+            "title": "Bài 14 (T2): Đường quê Đồng Tháp Mười",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Vẻ đẹp trù phú của vùng Đồng Tháp Mười.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b47",
+            "number": 47,
+            "title": "Bài 15 (T2): Xuồng ba lá quê tôi",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Phương tiện gắn bó với đời sống sông nước Nam Bộ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b48",
+            "number": 48,
+            "title": "Bài 16 (T2): Về thăm Đất Mũi",
+            "chapter": "Tập 2 - Hương sắc trăm miền",
+            "summary": "Vẻ đẹp cực Nam thiêng liêng của Tổ quốc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b49",
+            "number": 49,
+            "title": "Bài 17 (T2): Nghìn năm văn hiến",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Truyền thống hiếu học ngàn năm qua Văn Miếu - Quốc Tử Giám.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b50",
+            "number": 50,
+            "title": "Bài 18 (T2): Người thầy của muôn đời",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Tấm gương đạo đức, trí tuệ của thầy giáo Chu Văn An.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b51",
+            "number": 51,
+            "title": "Bài 19 (T2): Danh y Tuệ Tĩnh",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Người đặt nền móng cho nền y học cổ truyền dân tộc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b52",
+            "number": 52,
+            "title": "Bài 20 (T2): Cụ Đồ Chiểu",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Tấm gương yêu nước, bất khuất của nhà thơ Nguyễn Đình Chiểu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b53",
+            "number": 53,
+            "title": "Bài 21 (T2): Anh hùng Lao động Trần Đại Nghĩa",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Nhà khoa học cống hiến xuất sắc cho kháng chiến và đất nước.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b54",
+            "number": 54,
+            "title": "Bài 22 (T2): Bộ đội về làng",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Tình quân dân thắm thiết trong kháng chiến.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b55",
+            "number": 55,
+            "title": "Bài 23 (T2): Về ngôi nhà đang xây",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Công cuộc kiến thiết, đổi mới đất nước.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b56",
+            "number": 56,
+            "title": "Bài 24 (T2): Việt Nam quê hương ta",
+            "chapter": "Tập 2 - Tiếp bước cha ông",
+            "summary": "Ca ngợi vẻ đẹp con người và đất nước Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b57",
+            "number": 57,
+            "title": "Bài 25 (T2): Bài ca trái đất",
+            "chapter": "Tập 2 - Thế giới của chúng ta",
+            "summary": "Khát vọng hòa bình, đoàn kết của trẻ em toàn thế giới.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b58",
+            "number": 58,
+            "title": "Bài 26 (T2): Những con hạc giấy",
+            "chapter": "Tập 2 - Thế giới của chúng ta",
+            "summary": "Câu chuyện Xa-da-cô và ước nguyện hòa bình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b59",
+            "number": 59,
+            "title": "Bài 27 (T2): Một người hùng thầm lặng",
+            "chapter": "Tập 2 - Thế giới của chúng ta",
+            "summary": "Ca ngợi lòng dũng cảm cứu người.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b60",
+            "number": 60,
+            "title": "Bài 28 (T2): Giờ Trái Đất",
+            "chapter": "Tập 2 - Thế giới của chúng ta",
+            "summary": "Chiến dịch tiết kiệm năng lượng bảo vệ Trái Đất.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b61",
+            "number": 61,
+            "title": "Bài 29 (T2): Điện thoại di động",
+            "chapter": "Tập 2 - Thế giới của chúng ta",
+            "summary": "Lợi ích và cách sử dụng điện thoại thông minh hợp lí.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-5-b62",
+            "number": 62,
+            "title": "Bài 30 (T2): Thành phố thông minh Mát-xđa",
+            "chapter": "Tập 2 - Thế giới của chúng ta",
+            "summary": "Mô hình đô thị xanh sử dụng năng lượng sạch.",
             "questions": []
           }
         ]
@@ -7476,47 +9316,143 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Em có thể làm gì với máy tính?",
             "chapter": "Chủ đề 1: Máy tính và em",
-            "summary": "Ứng dụng máy tính trong học tập, giải trí, liên lạc.",
+            "summary": "Ứng dụng máy tính trong học tập, giải trí, tìm kiếm và liên lạc.",
             "questions": []
           },
           {
             "id": "tinhoc-5-b2",
             "number": 2,
-            "title": "Bài 2: Tìm kiếm thông tin trong giải quyết vấn đề",
+            "title": "Bài 2: Tìm kiếm thông tin trên website",
             "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "Đánh giá thông tin tin cậy trên Internet.",
+            "summary": "Sử dụng từ khóa và công cụ tìm kiếm tìm thông tin an toàn.",
             "questions": []
           },
           {
             "id": "tinhoc-5-b3",
             "number": 3,
-            "title": "Bài 3: Tổ chức cây thư mục lưu trữ thông tin",
-            "chapter": "Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
-            "summary": "Sắp xếp tệp khoa học theo chủ đề.",
+            "title": "Bài 3: Tìm kiếm thông tin trong giải quyết vấn đề",
+            "chapter": "Chủ đề 3: Tổ chức lưu trữ và trao đổi thông tin",
+            "summary": "Chọn lọc và sử dụng thông tin tìm được.",
             "questions": []
           },
           {
             "id": "tinhoc-5-b4",
             "number": 4,
-            "title": "Bài 4: Bản quyền nội dung thông tin",
-            "chapter": "Chủ đề 4: Đạo đức, pháp luật và văn hóa trong môi trường số",
-            "summary": "Tôn trọng quyền tác giả khi sử dụng ảnh, văn bản.",
+            "title": "Bài 4: Cây thư mục",
+            "chapter": "Chủ đề 3: Tổ chức lưu trữ và trao đổi thông tin",
+            "summary": "Cấu trúc cây thư mục và tổ chức lưu trữ tệp khoa học.",
             "questions": []
           },
           {
             "id": "tinhoc-5-b5",
             "number": 5,
-            "title": "Bài 5-8: Soạn thảo văn bản và thiết kế thiệp, áp phích",
-            "chapter": "Chủ đề 5: Ứng dụng tin học",
-            "summary": "Chèn bảng, hình ảnh, tạo bố cục trang đẹp.",
+            "title": "Bài 5: Bản quyền nội dung thông tin",
+            "chapter": "Chủ đề 4: Đạo đức, pháp luật và văn hóa số",
+            "summary": "Tôn trọng bản quyền tác giả khi sử dụng văn bản, hình ảnh.",
             "questions": []
           },
           {
             "id": "tinhoc-5-b6",
             "number": 6,
-            "title": "Bài 9-14: Lập trình trực quan Scratch nâng cao",
-            "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
-            "summary": "Cấu trúc lặp, rẽ nhánh (nếu... thì...), biến nhớ trong Scratch.",
+            "title": "Bài 6: Định dạng kí tự và bố trí hình ảnh trong văn bản",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Đổi phông chữ, cỡ chữ, màu chữ và chèn, căn chỉnh ảnh.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b7",
+            "number": 7,
+            "title": "Bài 7: Thực hành soạn thảo văn bản",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Tạo bài viết hoàn chỉnh có tiêu đề và hình ảnh minh họa.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b8",
+            "number": 8,
+            "title": "Bài 8A: Làm quen với phần mềm đồ họa",
+            "chapter": "Chủ đề 5: Ứng dụng tin học (Lựa chọn A)",
+            "summary": "Công cụ vẽ hình cơ bản trong phần mềm đồ họa Paint/Inkscape.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b9",
+            "number": 9,
+            "title": "Bài 9A: Sử dụng phần mềm đồ họa tạo sản phẩm số",
+            "chapter": "Chủ đề 5: Ứng dụng tin học (Lựa chọn A)",
+            "summary": "Thiết kế thiệp chúc mừng hoặc áp phích.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b10",
+            "number": 10,
+            "title": "Bài 8B: Làm sản phẩm thủ công theo video hướng dẫn",
+            "chapter": "Chủ đề 5: Ứng dụng tin học (Lựa chọn B)",
+            "summary": "Xem, tua, tạm dừng video học làm sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b11",
+            "number": 11,
+            "title": "Bài 9B: Thực hành tạo đồ dùng gia đình theo video hướng dẫn",
+            "chapter": "Chủ đề 5: Ứng dụng tin học (Lựa chọn B)",
+            "summary": "Thực hành làm đồ dùng theo hướng dẫn số.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b12",
+            "number": 12,
+            "title": "Bài 10: Cấu trúc tuần tự",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với Scratch",
+            "summary": "Các lệnh thực hiện nối tiếp theo thứ tự trong Scratch.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b13",
+            "number": 13,
+            "title": "Bài 11: Cấu trúc lặp",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với Scratch",
+            "summary": "Khối lệnh lặp với số lần biết trước (repeat) và lặp liên tục (forever).",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b14",
+            "number": 14,
+            "title": "Bài 12: Thực hành sử dụng lệnh lặp",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với Scratch",
+            "summary": "Vẽ hình đa giác đều hoặc tạo chuyển động lặp trong Scratch.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b15",
+            "number": 15,
+            "title": "Bài 13: Cấu trúc rẽ nhánh",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với Scratch",
+            "summary": "Khối lệnh điều kiện nếu... thì... (if... then... / if... then... else).",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b16",
+            "number": 16,
+            "title": "Bài 14: Sử dụng biến trong chương trình",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với Scratch",
+            "summary": "Tạo biến (Variable), gán giá trị và thay đổi giá trị biến.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b17",
+            "number": 17,
+            "title": "Bài 15: Sử dụng biểu thức trong chương trình",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với Scratch",
+            "summary": "Biểu thức số học, so sánh và logic trong Scratch.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-5-b18",
+            "number": 18,
+            "title": "Bài 16: Từ kịch bản đến chương trình",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với Scratch",
+            "summary": "Xây dựng chương trình trò chơi/hoạt hình hoàn chỉnh từ kịch bản.",
             "questions": []
           }
         ]
@@ -12452,65 +14388,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-8-b1",
             "number": 1,
-            "title": "Lá cờ thêu sáu chữ vàng (Nguyễn Huy Tưởng)",
-            "chapter": "Bài 1: Câu chuyện của lịch sử",
-            "summary": "Lòng yêu nước và chí khí Trần Quốc Toản.",
+            "title": "Bài 1: Câu chuyện của lịch sử (Lá cờ thêu sáu chữ vàng, Quang Trung đại phá quân Thanh)",
+            "chapter": "Tập 1 - Bài 1: Câu chuyện của lịch sử",
+            "summary": "Đặc trưng truyện lịch sử và thực hành từ Hán Việt.",
             "questions": []
           },
           {
             "id": "nguvan-8-b2",
             "number": 2,
-            "title": "Thu điếu (Nguyễn Khuyến) & Thiên Trường vãn vọng",
-            "chapter": "Bài 2: Vẻ đẹp cổ điển",
-            "summary": "Thơ Đường luật tả cảnh thiên nhiên.",
+            "title": "Bài 2: Vẻ đẹp cổ điển (Thu điếu, Thiên Trường vãn vọng, Ca Huế trên sông Hương)",
+            "chapter": "Tập 1 - Bài 2: Vẻ đẹp cổ điển",
+            "summary": "Thơ thất ngôn bát cú và thất ngôn tứ tuyệt Đường luật.",
             "questions": []
           },
           {
             "id": "nguvan-8-b3",
             "number": 3,
-            "title": "Hịch tướng sĩ (Trần Quốc Tuấn)",
-            "chapter": "Bài 3: Lời sông núi",
-            "summary": "Nghị luận trung đại khích lệ tinh thần yêu nước.",
+            "title": "Bài 3: Lời sông núi (Hịch tướng sĩ, Tinh thần yêu nước của nhân dân ta, Nam quốc sơn hà)",
+            "chapter": "Tập 1 - Bài 3: Lời sông núi",
+            "summary": "Nghệ thuật lập luận chặt chẽ, hào hùng trong văn nghị luận trung đại và hiện đại.",
             "questions": []
           },
           {
             "id": "nguvan-8-b4",
             "number": 4,
-            "title": "Lễ xướng danh khoa Đinh Dậu (Tú Xương)",
-            "chapter": "Bài 4: Tiếng cười trào phúng trong thơ",
-            "summary": "Nghệ thuật trào phúng phê phán xã hội.",
+            "title": "Bài 4: Tiếng cười trào phúng trong thơ (Lễ xướng danh khoa Đinh Dậu, Lai Tân)",
+            "chapter": "Tập 1 - Bài 4: Tiếng cười trào phúng trong thơ",
+            "summary": "Thủ pháp trào phúng của Tú Xương, Hồ Chí Minh và thực hành tiếng Việt.",
             "questions": []
           },
           {
             "id": "nguvan-8-b5",
             "number": 5,
-            "title": "Mắt sói & Lặng lẽ Sa Pa (Nguyễn Thành Long)",
-            "chapter": "Bài 6: Chân dung cuộc sống",
-            "summary": "Vẻ đẹp thầm lặng của con người lao động.",
+            "title": "Bài 5: Những câu chuyện hài (Trưởng giả học làm sang, Chùm truyện cười dân gian)",
+            "chapter": "Tập 1 - Bài 5: Những câu chuyện hài",
+            "summary": "Xung đột hài kịch Mô-li-e và nghệ thuật gây cười dân gian.",
             "questions": []
           },
           {
             "id": "nguvan-8-b6",
             "number": 6,
-            "title": "Đồng chí (Chính Hữu) & Lá đỏ",
-            "chapter": "Bài 7: Tin yêu và ước vọng",
-            "summary": "Tình đồng chí của người lính.",
+            "title": "Bài 6: Chân dung cuộc sống (Mắt sói, Lặng lẽ Sa Pa, Bếp lửa)",
+            "chapter": "Tập 2 - Bài 6: Chân dung cuộc sống",
+            "summary": "Vẻ đẹp tâm hồn con người lao động và tình cảm gia đình.",
             "questions": []
           },
           {
             "id": "nguvan-8-b7",
             "number": 7,
-            "title": "Nhà thơ của quê hương làng cảnh Việt Nam",
-            "chapter": "Bài 8: Nhà văn và trang viết",
-            "summary": "Nghị luận văn học.",
+            "title": "Bài 7: Tin yêu và ước vọng (Đồng dao mùa xuân, Gió lạnh đầu mùa, Con đường tôi đi)",
+            "chapter": "Tập 2 - Bài 7: Tin yêu và ước vọng",
+            "summary": "Thơ tự do và truyện ngắn Thạch Lam.",
             "questions": []
           },
           {
             "id": "nguvan-8-b8",
             "number": 8,
-            "title": "Miền châu thổ sông Cửu Long cần chuyển đổi từ sống chung sang chào đón lũ",
-            "chapter": "Bài 9: Hôm nay và ngày mai",
-            "summary": "Văn bản thông tin về môi trường.",
+            "title": "Bài 8: Nhà văn và trang viết (Nhà thơ của quê hương làng cảnh Việt Nam, Đọc văn - cuộc chơi tìm ý nghĩa)",
+            "chapter": "Tập 2 - Bài 8: Nhà văn và trang viết",
+            "summary": "Nghị luận văn học phân tích cái hay, cái đẹp của tác phẩm.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b9",
+            "number": 9,
+            "title": "Bài 9: Hôm nay và ngày mai (Miền châu thổ sông Cửu Long cần chuyển đổi từ sống chung sang thích ứng, Choáng ngợp và đau đớn những cảnh báo từ loạt phim Hành tinh của chúng ta)",
+            "chapter": "Tập 2 - Bài 9: Hôm nay và ngày mai",
+            "summary": "Văn bản thông tin giải thích hiện tượng tự nhiên và bảo vệ môi trường.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b10",
+            "number": 10,
+            "title": "Bài 10: Sách – người bạn đồng hành (Thách thức đọc sách, Giới thiệu cuốn sách yêu thích)",
+            "chapter": "Tập 2 - Bài 10: Sách – người bạn đồng hành",
+            "summary": "Phương pháp đọc sách hiệu quả và viết bài giới thiệu sách.",
             "questions": []
           }
         ]
@@ -14160,65 +16112,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-9-b1",
             "number": 1,
-            "title": "Chuyện người con gái Nam Xương (Nguyễn Dữ)",
-            "chapter": "Bài 1: Thế giới kì ảo",
-            "summary": "Bi kịch người phụ nữ phong kiến.",
+            "title": "Bài 1: Thế giới kì ảo (Chuyện người con gái Nam Xương, Dế chọi)",
+            "chapter": "Tập 1 - Bài 1: Thế giới kì ảo",
+            "summary": "Đặc trưng truyện truyền kì trung đại và yếu tố kì ảo.",
             "questions": []
           },
           {
             "id": "nguvan-9-b2",
             "number": 2,
-            "title": "Nỗi niềm chinh phụ & Tiếng đàn mưa",
-            "chapter": "Bài 2: Những cung bậc tâm trạng",
-            "summary": "Song thất lục bát.",
+            "title": "Bài 2: Những cung bậc tâm trạng (Nỗi niềm chinh phụ, Tiếng đàn mưa, Một thể thơ độc đáo của người Việt)",
+            "chapter": "Tập 1 - Bài 2: Những cung bậc tâm trạng",
+            "summary": "Thể thơ song thất lục bát và biểu cảm trong thơ.",
             "questions": []
           },
           {
             "id": "nguvan-9-b3",
             "number": 3,
-            "title": "Truyện Kiều (Nguyễn Du)",
-            "chapter": "Bài 3: Hồn nước nằm trong tiếng mẹ cha",
-            "summary": "Chị em Thúy Kiều, Kiều ở lầu Ngưng Bích.",
+            "title": "Bài 3: Hồn nước nằm trong tiếng mẹ cha (Kim - Kiều gặp gỡ, Lục Vân Tiên đánh cướp cứu Kiều Nguyệt Nga)",
+            "chapter": "Tập 1 - Bài 3: Hồn nước nằm trong tiếng mẹ cha",
+            "summary": "Truyện thơ Nôm bác học (Truyện Kiều) và bình dân (Lục Vân Tiên).",
             "questions": []
           },
           {
             "id": "nguvan-9-b4",
             "number": 4,
-            "title": "Người con gái Nam Xương - một bi kịch của con người",
-            "chapter": "Bài 4: Khám phá vẻ đẹp văn chương",
-            "summary": "Nghị luận văn học.",
+            "title": "Bài 4: Khám phá vẻ đẹp văn chương (Người con gái Nam Xương - một bi kịch của con người, Từ thằng quỷ nhỏ đến cậu bé thông minh)",
+            "chapter": "Tập 1 - Bài 4: Khám phá vẻ đẹp văn chương",
+            "summary": "Nghị luận văn học phân tích tác phẩm truyện và thơ.",
             "questions": []
           },
           {
             "id": "nguvan-9-b5",
             "number": 5,
-            "title": "Dế chọi & Vụ án chiếc nhẫn",
-            "chapter": "Bài 6: Giải mã những bí mật",
-            "summary": "Truyện trinh thám.",
+            "title": "Bài 5: Đối diện với nỗi đau (Rô-mê-ô và Giu-li-ét, Lơ Xít, Bí ẩn của làn nước)",
+            "chapter": "Tập 1 - Bài 5: Đối diện với nỗi đau",
+            "summary": "Bi kịch cổ điển và nỗi đau trong chiến tranh, đời sống.",
             "questions": []
           },
           {
             "id": "nguvan-9-b6",
             "number": 6,
-            "title": "Viếng lăng Bác (Viễn Phương) & Sang thu (Hữu Thỉnh)",
-            "chapter": "Bài 7: Hồn thơ muôn điệu",
-            "summary": "Thơ hiện đại sau 1975.",
+            "title": "Bài 6: Giải mã những bí mật (Ba chàng sinh viên, Bài hát đồng sáu xu, Phạm Xuân Ẩn)",
+            "chapter": "Tập 2 - Bài 6: Giải mã những bí mật",
+            "summary": "Đặc trưng truyện trinh thám (Arthur Conan Doyle, Agatha Christie).",
             "questions": []
           },
           {
             "id": "nguvan-9-b7",
             "number": 7,
-            "title": "Đấu tranh cho một thế giới hòa bình (G. Mác-két)",
-            "chapter": "Bài 8: Tiếng nói của lương tri",
-            "summary": "Nghị luận xã hội.",
+            "title": "Bài 7: Hồn thơ muôn điệu (Tiếng Việt, Mưa xuân)",
+            "chapter": "Tập 2 - Bài 7: Hồn thơ muôn điệu",
+            "summary": "Thơ tám chữ hiện đại (Lưu Quang Vũ, Nguyễn Bính).",
             "questions": []
           },
           {
             "id": "nguvan-9-b8",
             "number": 8,
-            "title": "Bến quê (Nguyễn Minh Châu) & Rô-bin-xơn ngoài đảo hoang",
-            "chapter": "Bài 9: Đi và suy ngẫm",
-            "summary": "Chiêm nghiệm giá trị cuộc sống.",
+            "title": "Bài 8: Tiếng nói của lương tri (Đấu tranh cho một thế giới hòa bình, Biến đổi khí hậu)",
+            "chapter": "Tập 2 - Bài 8: Tiếng nói của lương tri",
+            "summary": "Nghị luận xã hội về hòa bình và bảo vệ sự sống Trái Đất.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b9",
+            "number": 9,
+            "title": "Bài 9: Đi và suy ngẫm (Yên Tử, núi thiêng; Văn hóa hoa - cây cảnh)",
+            "chapter": "Tập 2 - Bài 9: Đi và suy ngẫm",
+            "summary": "Văn bản thông tin giới thiệu danh lam thắng cảnh và di tích lịch sử.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b10",
+            "number": 10,
+            "title": "Bài 10: Văn học – lịch sử tâm hồn (Đọc để trưởng thành, Quảng bá giá trị của sách)",
+            "chapter": "Tập 2 - Bài 10: Văn học – lịch sử tâm hồn",
+            "summary": "Tổng kết văn học Việt Nam và văn hóa đọc.",
             "questions": []
           }
         ]
@@ -16457,120 +18425,320 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "diali-10-b1",
             "number": 1,
             "title": "Bài 1: Môn Địa lí với định hướng nghề nghiệp",
-            "chapter": "Chương 1: Sử dụng bản đồ",
-            "summary": "Vai trò Địa lí.",
+            "chapter": "Phần một: Một số vấn đề chung",
+            "summary": "Vai trò của Địa lí và các ngành nghề liên quan đến Địa lí.",
             "questions": []
           },
           {
             "id": "diali-10-b2",
             "number": 2,
-            "title": "Bài 2: Phương pháp biểu hiện các đối tượng địa lí trên bản đồ",
+            "title": "Bài 2: Một số phương pháp biểu hiện các đối tượng địa lí trên bản đồ",
             "chapter": "Chương 1: Sử dụng bản đồ",
-            "summary": "Kí hiệu, đường chuyển động, chấm điểm, khoanh vùng, bản đồ - biểu đồ.",
+            "summary": "Phương pháp kí hiệu, kí hiệu đường chuyển động, chấm điểm, khoanh vùng, bản đồ-biểu đồ.",
             "questions": []
           },
           {
             "id": "diali-10-b3",
             "number": 3,
-            "title": "Bài 4: Trái Đất, thuyết kiến tạo mảng",
-            "chapter": "Chương 2: Trái Đất",
-            "summary": "7 mảng kiến tạo lớn.",
+            "title": "Bài 3: Sử dụng bản đồ trong học tập và đời sống; GPS và bản đồ số",
+            "chapter": "Chương 1: Sử dụng bản đồ",
+            "summary": "Ứng dụng GPS và bản đồ số (GIS, Google Maps) trong đời sống.",
             "questions": []
           },
           {
             "id": "diali-10-b4",
             "number": 4,
-            "title": "Bài 5: Hệ quả địa lí các chuyển động của Trái Đất",
+            "title": "Bài 4: Sự hình thành Trái Đất, vỏ Trái Đất và vật liệu cấu tạo vỏ Trái Đất",
             "chapter": "Chương 2: Trái Đất",
-            "summary": "Ngày đêm, giờ khu vực, các mùa.",
+            "summary": "Các loại đá magma, trầm tích, biến chất.",
             "questions": []
           },
           {
             "id": "diali-10-b5",
             "number": 5,
-            "title": "Bài 6: Thạch quyển, nội lực",
-            "chapter": "Chương 3: Thạch quyển",
-            "summary": "Vận động kiến tạo.",
+            "title": "Bài 5: Hệ quả địa lí các chuyển động của Trái Đất",
+            "chapter": "Chương 2: Trái Đất",
+            "summary": "Hệ quả tự quay quanh trục và quay quanh Mặt Trời.",
             "questions": []
           },
           {
             "id": "diali-10-b6",
             "number": 6,
-            "title": "Bài 7: Ngoại lực",
+            "title": "Bài 6: Thạch quyển, thuyết kiến tạo mảng",
             "chapter": "Chương 3: Thạch quyển",
-            "summary": "Phong hóa, bóc mòn, vận chuyển, bồi tụ.",
+            "summary": "Các mảng kiến tạo lớn và sự dịch chuyển tạo núi, động đất, núi lửa.",
             "questions": []
           },
           {
             "id": "diali-10-b7",
             "number": 7,
-            "title": "Bài 8: Khí quyển, sự phân bố nhiệt độ không khí trên Trái Đất",
-            "chapter": "Chương 4: Khí quyển",
-            "summary": "Nhiệt độ theo vĩ độ, lục địa - đại dương, địa hình.",
+            "title": "Bài 7: Nội lực và ngoại lực",
+            "chapter": "Chương 3: Thạch quyển",
+            "summary": "Tác động tạo địa hình của nội lực và phong hóa, bóc mòn, vận chuyển, bồi tụ.",
             "questions": []
           },
           {
             "id": "diali-10-b8",
             "number": 8,
-            "title": "Bài 9: Khí áp và gió",
-            "chapter": "Chương 4: Khí quyển",
-            "summary": "Gió Mậu dịch, Tây ôn đới, gió mùa.",
+            "title": "Bài 8: Thực hành: Sự phân bố các vành đai động đất, núi lửa",
+            "chapter": "Chương 3: Thạch quyển",
+            "summary": "Phân tích vành đai lửa Thái Bình Dương và Địa Trung Hải.",
             "questions": []
           },
           {
             "id": "diali-10-b9",
             "number": 9,
-            "title": "Bài 10: Mưa",
+            "title": "Bài 9: Khí quyển, các yếu tố khí hậu",
             "chapter": "Chương 4: Khí quyển",
-            "summary": "Các nhân tố ảnh hưởng lượng mưa.",
+            "summary": "Nhiệt độ không khí, khí áp, gió và mưa trên Trái Đất.",
             "questions": []
           },
           {
             "id": "diali-10-b10",
             "number": 10,
-            "title": "Bài 11: Thủy quyển, nước trên lục địa",
-            "chapter": "Chương 5: Thủy quyển",
-            "summary": "Sông, hồ, nước ngầm, băng hà.",
+            "title": "Bài 10: Thực hành: Đọc bản đồ các đới khí hậu và phân tích biểu đồ khí hậu",
+            "chapter": "Chương 4: Khí quyển",
+            "summary": "Phân tích biểu đồ nhiệt độ, lượng mưa các kiểu khí hậu.",
             "questions": []
           },
           {
             "id": "diali-10-b11",
             "number": 11,
-            "title": "Bài 12: Nước biển và đại dương",
+            "title": "Bài 11: Thủy quyển, nước trên lục địa",
             "chapter": "Chương 5: Thủy quyển",
-            "summary": "Sóng biển, thủy triều, dòng biển.",
+            "summary": "Các nhân tố ảnh hưởng chế độ nước sông, hồ và nước băng tuyết, nước ngầm.",
             "questions": []
           },
           {
             "id": "diali-10-b12",
             "number": 12,
-            "title": "Bài 16: Dân số và gia tăng dân số",
-            "chapter": "Chương 7: Địa lí dân cư",
-            "summary": "Gia tăng tự nhiên và cơ học.",
+            "title": "Bài 12: Nước biển và đại dương",
+            "chapter": "Chương 5: Thủy quyển",
+            "summary": "Tính chất nước biển (nhiệt độ, độ muối) và sóng, thủy triều, dòng biển.",
             "questions": []
           },
           {
             "id": "diali-10-b13",
             "number": 13,
-            "title": "Bài 17: Cơ cấu dân số",
-            "chapter": "Chương 7: Địa lí dân cư",
-            "summary": "Cơ cấu sinh học và xã hội.",
+            "title": "Bài 13: Thực hành: Phân tích chế độ nước của sông Hồng",
+            "chapter": "Chương 5: Thủy quyển",
+            "summary": "Nhận xét lưu lượng nước mùa lũ và mùa cạn sông Hồng.",
             "questions": []
           },
           {
             "id": "diali-10-b14",
             "number": 14,
-            "title": "Bài 18: Phân bố dân cư và đô thị hóa",
-            "chapter": "Chương 7: Địa lí dân cư",
-            "summary": "Mật độ dân số và đô thị hóa.",
+            "title": "Bài 14: Đất trên Trái Đất",
+            "chapter": "Chương 6: Sinh quyển",
+            "summary": "Quá trình hình thành đất và các nhân tố hình thành đất.",
             "questions": []
           },
           {
             "id": "diali-10-b15",
             "number": 15,
-            "title": "Bài 19-34: Cơ cấu kinh tế, Nông - Lâm - Thủy sản, Công nghiệp, Dịch vụ và Phát triển bền vững",
-            "chapter": "Chương 8-11: Địa lí kinh tế",
-            "summary": "Các ngành kinh tế và tăng trưởng xanh.",
+            "title": "Bài 15: Sinh quyển",
+            "chapter": "Chương 6: Sinh quyển",
+            "summary": "Các nhân tố ảnh hưởng tới sự phát triển và phân bố sinh vật.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành: Tìm hiểu sự phân bố đất và sinh vật trên Trái Đất",
+            "chapter": "Chương 6: Sinh quyển",
+            "summary": "Mối quan hệ giữa khí hậu, đất và thảm thực vật.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b17",
+            "number": 17,
+            "title": "Bài 17: Vỏ địa lí, quy luật thống nhất và hoàn chỉnh của vỏ địa lí",
+            "chapter": "Chương 7: Một số quy luật của vỏ địa lí",
+            "summary": "Biểu hiện và ý nghĩa thực tiễn của quy luật thống nhất và hoàn chỉnh.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b18",
+            "number": 18,
+            "title": "Bài 18: Quy luật địa đới và quy luật phi địa đới",
+            "chapter": "Chương 7: Một số quy luật của vỏ địa lí",
+            "summary": "Nguyên nhân và biểu hiện quy luật địa đới, địa ô và đai cao.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b19",
+            "number": 19,
+            "title": "Bài 19: Quy mô dân số, gia tăng dân số và cơ cấu dân số thế giới",
+            "chapter": "Chương 8: Địa lí dân cư",
+            "summary": "Gia tăng tự nhiên, gia tăng cơ học và tháp dân số.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b20",
+            "number": 20,
+            "title": "Bài 20: Phân bố dân cư và đô thị hóa trên thế giới",
+            "chapter": "Chương 8: Địa lí dân cư",
+            "summary": "Các nhân tố ảnh hưởng phân bố dân cư và đô thị hóa.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b21",
+            "number": 21,
+            "title": "Bài 21: Các nguồn lực phát triển kinh tế",
+            "chapter": "Chương 9: Các nguồn lực và tiêu chí đánh giá kinh tế",
+            "summary": "Nguồn lực vị trí địa lí, tự nhiên và kinh tế-xã hội.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b22",
+            "number": 22,
+            "title": "Bài 22: Cơ cấu kinh tế, GDP và GNI",
+            "chapter": "Chương 9: Các nguồn lực và tiêu chí đánh giá kinh tế",
+            "summary": "Cơ cấu ngành, thành phần, lãnh thổ và chỉ tiêu GDP, GNI.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b23",
+            "number": 23,
+            "title": "Bài 23: Vai trò, đặc điểm, nhân tố ảnh hưởng nông, lâm, thủy sản",
+            "chapter": "Chương 10: Địa lí ngành nông, lâm, thủy sản",
+            "summary": "Tính mùa vụ, phụ thuộc tự nhiên và tiến bộ khoa học kĩ thuật.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b24",
+            "number": 24,
+            "title": "Bài 24: Địa lí ngành nông nghiệp",
+            "chapter": "Chương 10: Địa lí ngành nông, lâm, thủy sản",
+            "summary": "Phân bố cây lương thực, cây công nghiệp và chăn nuôi thế giới.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b25",
+            "number": 25,
+            "title": "Bài 25: Địa lí ngành lâm nghiệp và ngành thủy sản",
+            "chapter": "Chương 10: Địa lí ngành nông, lâm, thủy sản",
+            "summary": "Khai thác, trồng rừng và nuôi trồng, đánh bắt thủy sản.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b26",
+            "number": 26,
+            "title": "Bài 26: Tổ chức lãnh thổ nông nghiệp và nông nghiệp hiện đại",
+            "chapter": "Chương 10: Địa lí ngành nông, lâm, thủy sản",
+            "summary": "Trang trại, vùng nông nghiệp và nông nghiệp xanh, hữu cơ.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b27",
+            "number": 27,
+            "title": "Bài 27: Thực hành: Vẽ và nhận xét biểu đồ sản lượng lương thực thế giới",
+            "chapter": "Chương 10: Địa lí ngành nông, lâm, thủy sản",
+            "summary": "Vẽ biểu đồ cột/đường và nhận xét.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b28",
+            "number": 28,
+            "title": "Bài 28: Vai trò, đặc điểm, cơ cấu và nhân tố ảnh hưởng công nghiệp",
+            "chapter": "Chương 11: Địa lí ngành công nghiệp",
+            "summary": "Công nghiệp khai khoáng, chế biến chế tạo và sản xuất điện.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b29",
+            "number": 29,
+            "title": "Bài 29: Địa lí một số ngành công nghiệp",
+            "chapter": "Chương 11: Địa lí ngành công nghiệp",
+            "summary": "Công nghiệp năng lượng, điện tử-tin học và sản xuất hàng tiêu dùng.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b30",
+            "number": 30,
+            "title": "Bài 30: Tổ chức lãnh thổ công nghiệp",
+            "chapter": "Chương 11: Địa lí ngành công nghiệp",
+            "summary": "Điểm công nghiệp, khu công nghiệp, trung tâm và vùng công nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b31",
+            "number": 31,
+            "title": "Bài 31: Tác động công nghiệp tới môi trường và năng lượng tái tạo",
+            "chapter": "Chương 11: Địa lí ngành công nghiệp",
+            "summary": "Năng lượng mặt trời, gió và phát triển công nghiệp xanh.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b32",
+            "number": 32,
+            "title": "Bài 32: Thực hành: Viết báo cáo tìm hiểu một vấn đề công nghiệp",
+            "chapter": "Chương 11: Địa lí ngành công nghiệp",
+            "summary": "Tìm hiểu công nghiệp tại địa phương hoặc thế giới.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b33",
+            "number": 33,
+            "title": "Bài 33: Cơ cấu, vai trò, đặc điểm và nhân tố ảnh hưởng dịch vụ",
+            "chapter": "Chương 12: Địa lí ngành dịch vụ",
+            "summary": "Dịch vụ kinh doanh, tiêu dùng và công.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b34",
+            "number": 34,
+            "title": "Bài 34: Địa lí ngành giao thông vận tải",
+            "chapter": "Chương 12: Địa lí ngành dịch vụ",
+            "summary": "Đường bộ, sắt, sông, biển, hàng không.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b35",
+            "number": 35,
+            "title": "Bài 35: Địa lí ngành bưu chính viễn thông",
+            "chapter": "Chương 12: Địa lí ngành dịch vụ",
+            "summary": "Mạng viễn thông toàn cầu và kinh tế số.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b36",
+            "number": 36,
+            "title": "Bài 36: Địa lí ngành du lịch",
+            "chapter": "Chương 12: Địa lí ngành dịch vụ",
+            "summary": "Tài nguyên du lịch và xu hướng du lịch bền vững.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b37",
+            "number": 37,
+            "title": "Bài 37: Địa lí ngành thương mại và tài chính ngân hàng",
+            "chapter": "Chương 12: Địa lí ngành dịch vụ",
+            "summary": "Nội thương, ngoại thương và trung tâm tài chính quốc tế.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b38",
+            "number": 38,
+            "title": "Bài 38: Thực hành: Viết báo cáo tìm hiểu một ngành dịch vụ",
+            "chapter": "Chương 12: Địa lí ngành dịch vụ",
+            "summary": "Phân tích số liệu ngành giao thông hoặc du lịch.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b39",
+            "number": 39,
+            "title": "Bài 39: Môi trường và tài nguyên thiên nhiên",
+            "chapter": "Chương 13: Phát triển bền vững và tăng trưởng xanh",
+            "summary": "Phân loại tài nguyên tái tạo, không tái tạo và chức năng môi trường.",
+            "questions": []
+          },
+          {
+            "id": "diali-10-b40",
+            "number": 40,
+            "title": "Bài 40: Phát triển bền vững và tăng trưởng xanh",
+            "chapter": "Chương 13: Phát triển bền vững và tăng trưởng xanh",
+            "summary": "3 trụ cột phát triển bền vững (kinh tế, xã hội, môi trường) và kinh tế xanh.",
             "questions": []
           }
         ]
@@ -17032,14 +19200,14 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "congnghe-10",
         "name": "Công nghệ (Thiết kế và công nghệ)",
-        "icon": "🛠️",
+        "icon": "⚙️",
         "lessons": [
           {
             "id": "congnghe-10-b1",
             "number": 1,
             "title": "Bài 1: Công nghệ và đời sống",
             "chapter": "Chương I: Đại cương về công nghệ",
-            "summary": "Khoa học, kĩ thuật, công nghệ.",
+            "summary": "Khái niệm khoa học, kĩ thuật, công nghệ và tác động hai mặt.",
             "questions": []
           },
           {
@@ -17047,7 +19215,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Hệ thống kĩ thuật",
             "chapter": "Chương I: Đại cương về công nghệ",
-            "summary": "Đầu vào, bộ phận xử lí, đầu ra.",
+            "summary": "Cấu trúc đầu vào - bộ phận xử lí - đầu ra của hệ thống kĩ thuật.",
             "questions": []
           },
           {
@@ -17055,7 +19223,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Công nghệ phổ biến",
             "chapter": "Chương I: Đại cương về công nghệ",
-            "summary": "Cơ khí, điện, điện tử, hóa học, sinh học.",
+            "summary": "Công nghệ luyện kim, cơ khí, điện-điện tử, hóa chất, sinh học.",
             "questions": []
           },
           {
@@ -17063,7 +19231,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Một số công nghệ mới",
             "chapter": "Chương I: Đại cương về công nghệ",
-            "summary": "Công nghệ nano, in 3D, AI, năng lượng tái tạo.",
+            "summary": "Công nghệ nano, vật liệu mới, AI, IoT, robot, in 3D, năng lượng tái tạo.",
             "questions": []
           },
           {
@@ -17071,7 +19239,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Đánh giá công nghệ",
             "chapter": "Chương I: Đại cương về công nghệ",
-            "summary": "Tiêu chí đánh giá hiệu quả công nghệ.",
+            "summary": "Tiêu chí đánh giá sản phẩm công nghệ (hiệu quả, tin cậy, kinh tế, môi trường).",
             "questions": []
           },
           {
@@ -17079,7 +19247,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Cách mạng công nghiệp",
             "chapter": "Chương I: Đại cương về công nghệ",
-            "summary": "Các cuộc CMCN.",
+            "summary": "Đặc trưng các cuộc CMCN 1.0, 2.0, 3.0 và 4.0.",
             "questions": []
           },
           {
@@ -17087,15 +19255,15 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Ngành nghề kĩ thuật, công nghệ",
             "chapter": "Chương I: Đại cương về công nghệ",
-            "summary": "Định hướng nghề nghiệp.",
+            "summary": "Yêu cầu năng lực và cơ hội nghề nghiệp lĩnh vực kĩ thuật công nghệ.",
             "questions": []
           },
           {
             "id": "congnghe-10-b8",
             "number": 8,
-            "title": "Bài 8: Bản vẽ kĩ thuật và tiêu chuẩn trình bày bản vẽ kĩ thuật",
+            "title": "Bài 8: Bản vẽ kĩ thuật và tiêu chuẩn trình bày bản vẽ",
             "chapter": "Chương II: Vẽ kĩ thuật",
-            "summary": "TCVN trình bày bản vẽ.",
+            "summary": "Khổ giấy, tỉ lệ, nét vẽ và ghi kích thước theo TCVN.",
             "questions": []
           },
           {
@@ -17103,7 +19271,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Hình chiếu vuông góc",
             "chapter": "Chương II: Vẽ kĩ thuật",
-            "summary": "3 hình chiếu vuông góc.",
+            "summary": "Phương pháp chiếu góc thứ nhất (hình chiếu đứng, bằng, cạnh).",
             "questions": []
           },
           {
@@ -17111,7 +19279,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Hình cắt và mặt cắt",
             "chapter": "Chương II: Vẽ kĩ thuật",
-            "summary": "Biểu diễn cấu tạo bên trong vật thể.",
+            "summary": "Biểu diễn cấu tạo bên trong của vật thể bằng hình cắt, mặt cắt.",
             "questions": []
           },
           {
@@ -17127,7 +19295,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Hình chiếu phối cảnh",
             "chapter": "Chương II: Vẽ kĩ thuật",
-            "summary": "Hình chiếu phối cảnh 1 điểm tụ, 2 điểm tụ.",
+            "summary": "Hình chiếu phối cảnh 1 điểm tụ và 2 điểm tụ.",
             "questions": []
           },
           {
@@ -17135,7 +19303,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Biểu diễn quy ước ren",
             "chapter": "Chương II: Vẽ kĩ thuật",
-            "summary": "Ren trục và ren lỗ.",
+            "summary": "Quy ước vẽ ren ngoài (ren trục) và ren trong (ren lỗ).",
             "questions": []
           },
           {
@@ -17151,15 +19319,55 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Bản vẽ xây dựng",
             "chapter": "Chương II: Vẽ kĩ thuật",
-            "summary": "Bản vẽ mặt bằng tổng thể, mặt bằng, mặt đứng, mặt cắt.",
+            "summary": "Mặt bằng tổng thể, mặt bằng, mặt đứng và mặt cắt ngôi nhà.",
             "questions": []
           },
           {
             "id": "congnghe-10-b16",
             "number": 16,
-            "title": "Bài 17-21: Khái quát, quy trình, nguyên tắc và phương pháp thiết kế kĩ thuật",
+            "title": "Bài 16: Vẽ kĩ thuật với sự trợ giúp của máy tính",
+            "chapter": "Chương II: Vẽ kĩ thuật",
+            "summary": "Giới thiệu phần mềm CAD (AutoCAD/FreeCAD) vẽ 2D, 3D.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-10-b17",
+            "number": 17,
+            "title": "Bài 17: Khái quát về thiết kế kĩ thuật",
             "chapter": "Chương III: Thiết kế kĩ thuật",
-            "summary": "Quy trình thiết kế sản phẩm kĩ thuật.",
+            "summary": "Vai trò, ý nghĩa và nghề thiết kế kĩ thuật.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-10-b18",
+            "number": 18,
+            "title": "Bài 18: Quy trình thiết kế kĩ thuật",
+            "chapter": "Chương III: Thiết kế kĩ thuật",
+            "summary": "5 bước quy trình thiết kế: xác định vấn đề, đề xuất giải pháp, thiết kế, chế tạo mẫu, thử nghiệm.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-10-b19",
+            "number": 19,
+            "title": "Bài 19: Những yếu tố ảnh hưởng đến thiết kế kĩ thuật",
+            "chapter": "Chương III: Thiết kế kĩ thuật",
+            "summary": "Yếu tố sản phẩm (thẩm mĩ, nhân trắc, an toàn) và nguồn lực (tài chính, công nghệ).",
+            "questions": []
+          },
+          {
+            "id": "congnghe-10-b20",
+            "number": 20,
+            "title": "Bài 20: Nguyên tắc thiết kế kĩ thuật",
+            "chapter": "Chương III: Thiết kế kĩ thuật",
+            "summary": "Nguyên tắc tối ưu hóa (đơn giản, an toàn, tiết kiệm) và phát triển bền vững.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-10-b21",
+            "number": 21,
+            "title": "Bài 21: Phương pháp, phương tiện hỗ trợ thiết kế kĩ thuật",
+            "chapter": "Chương III: Thiết kế kĩ thuật",
+            "summary": "Phương pháp tư duy thiết kế (Design Thinking), động não và phần mềm mô phỏng.",
             "questions": []
           }
         ]
@@ -18842,136 +21050,240 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "diali-11-b1",
             "number": 1,
             "title": "Bài 1: Sự khác biệt về trình độ phát triển kinh tế - xã hội của các nhóm nước",
-            "chapter": "Phần Một: Một số vấn đề kinh tế - xã hội thế giới",
-            "summary": "Nước phát triển và đang phát triển (GDP/người, HDI).",
+            "chapter": "Phần một: Một số vấn đề về kinh tế - xã hội thế giới",
+            "summary": "Nhóm nước phát triển và đang phát triển theo GNI/người, cơ cấu kinh tế, HDI.",
             "questions": []
           },
           {
             "id": "diali-11-b2",
             "number": 2,
             "title": "Bài 2: Toàn cầu hóa và khu vực hóa kinh tế",
-            "chapter": "Phần Một: Một số vấn đề kinh tế - xã hội thế giới",
+            "chapter": "Phần một: Một số vấn đề về kinh tế - xã hội thế giới",
             "summary": "Biểu hiện, hệ quả của toàn cầu hóa và khu vực hóa.",
             "questions": []
           },
           {
             "id": "diali-11-b3",
             "number": 3,
-            "title": "Bài 4: Một số tổ chức quốc tế và khu vực, an ninh toàn cầu",
-            "chapter": "Phần Một: Một số vấn đề kinh tế - xã hội thế giới",
-            "summary": "LHQ, WTO, IMF, APEC và an ninh lương thực, năng lượng, mạng.",
+            "title": "Bài 3: Thực hành: Tìm hiểu cơ hội và thách thức của toàn cầu hóa, khu vực hóa",
+            "chapter": "Phần một: Một số vấn đề về kinh tế - xã hội thế giới",
+            "summary": "Cơ hội và thách thức đối với các nước đang phát triển.",
             "questions": []
           },
           {
             "id": "diali-11-b4",
             "number": 4,
-            "title": "Bài 6: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội khu vực Mỹ La-tinh",
-            "chapter": "Phần Hai: Khu vực Mỹ La-tinh",
-            "summary": "Kênh đào Pa-na-ma, rừng A-ma-dôn, đô thị hóa.",
+            "title": "Bài 4: Một số tổ chức quốc tế và khu vực, an ninh toàn cầu",
+            "chapter": "Phần một: Một số vấn đề về kinh tế - xã hội thế giới",
+            "summary": "LHQ, WTO, IMF, APEC và an ninh lương thực, năng lượng, nguồn nước, mạng.",
             "questions": []
           },
           {
             "id": "diali-11-b5",
             "number": 5,
-            "title": "Bài 7: Kinh tế khu vực Mỹ La-tinh",
-            "chapter": "Phần Hai: Khu vực Mỹ La-tinh",
-            "summary": "Cơ cấu kinh tế và xuất khẩu nông sản, khoáng sản.",
+            "title": "Bài 5: Thực hành: Viết báo cáo về đặc điểm và biểu hiện của nền kinh tế tri thức",
+            "chapter": "Phần một: Một số vấn đề về kinh tế - xã hội thế giới",
+            "summary": "Vai trò công nghệ cao, R&D và nhân lực chất lượng cao.",
             "questions": []
           },
           {
             "id": "diali-11-b6",
             "number": 6,
-            "title": "Bài 9: Liên minh Châu Âu (EU) - Một liên kết kinh tế khu vực lớn",
-            "chapter": "Phần Hai: Liên minh Châu Âu (EU)",
-            "summary": "4 mặt tự do lưu thông và đồng tiền chung Euro.",
+            "title": "Bài 6: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội khu vực Mỹ La-tinh",
+            "chapter": "Phần hai: Mỹ La-tinh",
+            "summary": "Địa hình An-đét, đồng bằng A-ma-dôn và cơ cấu dân cư đa dạng.",
             "questions": []
           },
           {
             "id": "diali-11-b7",
             "number": 7,
-            "title": "Bài 11: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Đông Nam Á",
-            "chapter": "Phần Hai: Khu vực Đông Nam Á",
-            "summary": "Cầu nối giữa hai đại dương, khí hậu nhiệt đới ẩm gió mùa.",
+            "title": "Bài 7: Kinh tế khu vực Mỹ La-tinh",
+            "chapter": "Phần hai: Mỹ La-tinh",
+            "summary": "Đặc điểm công nghiệp, nông nghiệp, dịch vụ và vấn đề nợ nước ngoài.",
             "questions": []
           },
           {
             "id": "diali-11-b8",
             "number": 8,
-            "title": "Bài 12: Kinh tế khu vực Đông Nam Á",
-            "chapter": "Phần Hai: Khu vực Đông Nam Á",
-            "summary": "Chuyển dịch cơ cấu kinh tế công nghiệp hóa.",
+            "title": "Bài 8: Thực hành: Viết báo cáo về kinh tế - xã hội Cộng hòa liên bang Bra-xin",
+            "chapter": "Phần hai: Mỹ La-tinh",
+            "summary": "Phân tích số liệu kinh tế Bra-xin.",
             "questions": []
           },
           {
             "id": "diali-11-b9",
             "number": 9,
-            "title": "Bài 13: Hiệp hội các quốc gia Đông Nam Á (ASEAN)",
-            "chapter": "Phần Hai: Khu vực Đông Nam Á",
-            "summary": "Mục tiêu, thành tựu và vai trò Việt Nam.",
+            "title": "Bài 9: Liên minh châu Âu – Một liên kết kinh tế khu vực lớn",
+            "chapter": "Phần hai: Liên minh châu Âu (EU)",
+            "summary": "4 mặt tự do lưu thông và vai trò của EU trong kinh tế thế giới.",
             "questions": []
           },
           {
             "id": "diali-11-b10",
             "number": 10,
-            "title": "Bài 15: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Tây Nam Á",
-            "chapter": "Phần Hai: Khu vực Tây Nam Á",
-            "summary": "Trữ lượng dầu mỏ lớn nhất thế giới.",
+            "title": "Bài 10: Thực hành: Viết báo cáo về công nghiệp Cộng hòa liên bang Đức",
+            "chapter": "Phần hai: Liên minh châu Âu (EU)",
+            "summary": "Thế mạnh công nghiệp chế tạo, hóa chất, năng lượng xanh của Đức.",
             "questions": []
           },
           {
             "id": "diali-11-b11",
             "number": 11,
-            "title": "Bài 16: Kinh tế khu vực Tây Nam Á",
-            "chapter": "Phần Hai: Khu vực Tây Nam Á",
-            "summary": "Khai thác dầu khí và đa dạng hóa kinh tế.",
+            "title": "Bài 11: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Đông Nam Á",
+            "chapter": "Phần hai: Đông Nam Á",
+            "summary": "Đông Nam Á lục địa và biển đảo; dân số trẻ, đa văn hóa.",
             "questions": []
           },
           {
             "id": "diali-11-b12",
             "number": 12,
-            "title": "Bài 18: Vị trí địa lí, điều kiện tự nhiên và dân cư Hoa Kỳ",
-            "chapter": "Phần Hai: Hợp chúng quốc Hoa Kỳ",
-            "summary": "Tài nguyên phong phú, dân nhập cư.",
+            "title": "Bài 12: Kinh tế khu vực Đông Nam Á",
+            "chapter": "Phần hai: Đông Nam Á",
+            "summary": "Chuyển dịch cơ cấu kinh tế từ nông nghiệp sang công nghiệp, dịch vụ.",
             "questions": []
           },
           {
             "id": "diali-11-b13",
             "number": 13,
-            "title": "Bài 19: Kinh tế Hoa Kỳ",
-            "chapter": "Phần Hai: Hợp chúng quốc Hoa Kỳ",
-            "summary": "Nền kinh tế hàng đầu thế giới, công nghệ cao.",
+            "title": "Bài 13: Hiệp hội các quốc gia Đông Nam Á (ASEAN)",
+            "chapter": "Phần hai: Đông Nam Á",
+            "summary": "Mục tiêu, cơ chế hợp tác và thành tựu của ASEAN.",
             "questions": []
           },
           {
             "id": "diali-11-b14",
             "number": 14,
-            "title": "Bài 21: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Liên bang Nga",
-            "chapter": "Phần Hai: Liên bang Nga",
-            "summary": "Quốc gia có diện tích lớn nhất thế giới.",
+            "title": "Bài 14: Thực hành: Tìm hiểu hoạt động kinh tế đối ngoại Đông Nam Á",
+            "chapter": "Phần hai: Đông Nam Á",
+            "summary": "Xuất nhập khẩu và thu hút FDI ở Đông Nam Á.",
             "questions": []
           },
           {
             "id": "diali-11-b15",
             "number": 15,
-            "title": "Bài 22: Kinh tế Liên bang Nga",
-            "chapter": "Phần Hai: Liên bang Nga",
-            "summary": "Công nghiệp năng lượng, vũ trụ, quốc phòng.",
+            "title": "Bài 15: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Tây Nam Á",
+            "chapter": "Phần hai: Tây Nam Á",
+            "summary": "Vị trí ngã ba 3 châu lục, khí hậu khô hạn và tài nguyên dầu mỏ.",
             "questions": []
           },
           {
             "id": "diali-11-b16",
             "number": 16,
-            "title": "Bài 24: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Nhật Bản",
-            "chapter": "Phần Hai: Nhật Bản",
-            "summary": "Động đất, núi lửa, dân số già.",
+            "title": "Bài 16: Kinh tế khu vực Tây Nam Á",
+            "chapter": "Phần hai: Tây Nam Á",
+            "summary": "Công nghiệp khai thác dầu khí và phát triển du lịch, dịch vụ.",
             "questions": []
           },
           {
             "id": "diali-11-b17",
             "number": 17,
-            "title": "Bài 25: Kinh tế Nhật Bản",
-            "chapter": "Phần Hai: Nhật Bản",
-            "summary": "Kinh tế phát triển cao, công nghiệp chế tạo, robot.",
+            "title": "Bài 17: Thực hành: Viết báo cáo về vấn đề dầu mỏ của Tây Nam Á",
+            "chapter": "Phần hai: Tây Nam Á",
+            "summary": "Trữ lượng, sản lượng và tác động của dầu mỏ Tây Nam Á.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b18",
+            "number": 18,
+            "title": "Bài 18: Vị trí địa lí, điều kiện tự nhiên và dân cư Hoa Kỳ",
+            "chapter": "Phần hai: Hoa Kỳ",
+            "summary": "3 vùng tự nhiên (phía Tây, Trung tâm, phía Đông) và dân cư nhập cư.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b19",
+            "number": 19,
+            "title": "Bài 19: Kinh tế Hoa Kỳ",
+            "chapter": "Phần hai: Hoa Kỳ",
+            "summary": "Nền kinh tế hàng đầu thế giới về dịch vụ, công nghiệp công nghệ cao và nông nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b20",
+            "number": 20,
+            "title": "Bài 20: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Liên bang Nga",
+            "chapter": "Phần hai: Liên bang Nga",
+            "summary": "Diện tích lớn nhất thế giới, sông I-ê-nit-xây chia 2 miền địa hình.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b21",
+            "number": 21,
+            "title": "Bài 21: Kinh tế Liên bang Nga",
+            "chapter": "Phần hai: Liên bang Nga",
+            "summary": "Công nghiệp khai khoáng, năng lượng, hàng không vũ trụ và nông nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b22",
+            "number": 22,
+            "title": "Bài 22: Thực hành: Tìm hiểu về công nghiệp khai thác của Liên bang Nga",
+            "chapter": "Phần hai: Liên bang Nga",
+            "summary": "Khai thác dầu khí, than, kim loại của Nga.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b23",
+            "number": 23,
+            "title": "Bài 23: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Nhật Bản",
+            "chapter": "Phần hai: Nhật Bản",
+            "summary": "Quần đảo núi lửa, động đất, nghèo khoáng sản và dân số già.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b24",
+            "number": 24,
+            "title": "Bài 24: Kinh tế Nhật Bản",
+            "chapter": "Phần hai: Nhật Bản",
+            "summary": "Công nghiệp chế tạo, điện tử, robot và nông nghiệp thâm canh.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b25",
+            "number": 25,
+            "title": "Bài 25: Thực hành: Viết báo cáo về hoạt động kinh tế đối ngoại của Nhật Bản",
+            "chapter": "Phần hai: Nhật Bản",
+            "summary": "Xuất khẩu hàng công nghệ cao và đầu tư FDI.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b26",
+            "number": 26,
+            "title": "Bài 26: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Trung Quốc",
+            "chapter": "Phần hai: Trung Quốc",
+            "summary": "Sự khác biệt tự nhiên miền Đông và miền Tây; dân số đông.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b27",
+            "number": 27,
+            "title": "Bài 27: Kinh tế Trung Quốc",
+            "chapter": "Phần hai: Trung Quốc",
+            "summary": "Tăng trưởng GDP nhanh, công xưởng thế giới và chuyển đổi công nghệ cao.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b28",
+            "number": 28,
+            "title": "Bài 28: Thực hành: Viết báo cáo về kinh tế vùng duyên hải Trung Quốc",
+            "chapter": "Phần hai: Trung Quốc",
+            "summary": "Các đặc khu kinh tế và trung tâm công nghiệp ven biển.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b29",
+            "number": 29,
+            "title": "Bài 29: Thực hành: Tìm hiểu về kinh tế của Ô-xtrây-li-a",
+            "chapter": "Phần hai: Ô-xtrây-li-a",
+            "summary": "Xuất khẩu khoáng sản, nông sản (len, thịt bò, lúa mì) và dịch vụ.",
+            "questions": []
+          },
+          {
+            "id": "diali-11-b30",
+            "number": 30,
+            "title": "Bài 30: Vị trí địa lí, điều kiện tự nhiên, dân cư và xã hội Cộng hòa Nam Phi",
+            "chapter": "Phần hai: Cộng hòa Nam Phi",
+            "summary": "Nền kinh tế phát triển nhất châu Phi, giàu vàng, kim cương, than.",
             "questions": []
           }
         ]
@@ -20990,14 +23302,14 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "lichsu-12",
         "name": "Lịch sử",
-        "icon": "📜",
+        "icon": "🏛️",
         "lessons": [
           {
             "id": "lichsu-12-b1",
             "number": 1,
             "title": "Bài 1: Liên hợp quốc",
             "chapter": "Chủ đề 1: Thế giới trong và sau Chiến tranh lạnh",
-            "summary": "Sự thành lập, mục tiêu, nguyên tắc và vai trò của LHQ.",
+            "summary": "Bối cảnh thành lập (1945), mục tiêu, nguyên tắc hoạt động và vai trò của LHQ.",
             "questions": []
           },
           {
@@ -21005,7 +23317,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Trật tự thế giới trong Chiến tranh lạnh",
             "chapter": "Chủ đề 1: Thế giới trong và sau Chiến tranh lạnh",
-            "summary": "Trật tự hai cực I-an-ta (1945 - 1991).",
+            "summary": "Trật tự hai cực I-an-ta (Mỹ - Liên Xô) và sự sụp đổ năm 1991.",
             "questions": []
           },
           {
@@ -21013,7 +23325,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Trật tự thế giới sau Chiến tranh lạnh",
             "chapter": "Chủ đề 1: Thế giới trong và sau Chiến tranh lạnh",
-            "summary": "Xu thế đa cực.",
+            "summary": "Xu thế đa cực, hòa bình hợp tác và sự vươn lên của các trung tâm quyền lực.",
             "questions": []
           },
           {
@@ -21021,7 +23333,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Sự ra đời và phát triển của Hiệp hội các quốc gia Đông Nam Á (ASEAN)",
             "chapter": "Chủ đề 2: ASEAN: Những chặng đường lịch sử",
-            "summary": "Thành lập 1967, Việt Nam gia nhập 1995.",
+            "summary": "Từ Tuyên bố Băng Cốc 1967 đến ASEAN 10 thành viên.",
             "questions": []
           },
           {
@@ -21029,39 +23341,39 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Cộng đồng ASEAN: Từ ý tưởng đến hiện thực",
             "chapter": "Chủ đề 2: ASEAN: Những chặng đường lịch sử",
-            "summary": "3 trụ cột Cộng đồng ASEAN 2015.",
+            "summary": "3 trụ cột Cộng đồng ASEAN (Chính trị-An ninh, Kinh tế, Văn hóa-Xã hội).",
             "questions": []
           },
           {
             "id": "lichsu-12-b6",
             "number": 6,
             "title": "Bài 6: Cách mạng tháng Tám năm 1945",
-            "chapter": "Chủ đề 3: Cách mạng tháng Tám 1945, chiến tranh giải phóng dân tộc và bảo vệ Tổ quốc",
-            "summary": "Bối cảnh, diễn biến, ý nghĩa lịch sử.",
+            "chapter": "Chủ đề 3: Cách mạng tháng Tám và chiến tranh giải phóng dân tộc (1945–nay)",
+            "summary": "Thời cơ lịch sử, diễn biến Tổng khởi nghĩa và nước VNDCCH ra đời.",
             "questions": []
           },
           {
             "id": "lichsu-12-b7",
             "number": 7,
-            "title": "Bài 7: Cuộc kháng chiến chống thực dân Pháp (1945 - 1954)",
-            "chapter": "Chủ đề 3: Cách mạng tháng Tám 1945, chiến tranh giải phóng dân tộc và bảo vệ Tổ quốc",
-            "summary": "Chiến dịch Việt Bắc, Biên giới, Điện Biên Phủ 1954.",
+            "title": "Bài 7: Cuộc kháng chiến chống thực dân Pháp (1945 – 1954)",
+            "chapter": "Chủ đề 3: Cách mạng tháng Tám và chiến tranh giải phóng dân tộc (1945–nay)",
+            "summary": "Chiến dịch Việt Bắc 1947, Biên giới 1950 và Điện Biên Phủ 1954.",
             "questions": []
           },
           {
             "id": "lichsu-12-b8",
             "number": 8,
-            "title": "Bài 8: Cuộc kháng chiến chống Mỹ, cứu nước (1954 - 1975)",
-            "chapter": "Chủ đề 3: Cách mạng tháng Tám 1945, chiến tranh giải phóng dân tộc và bảo vệ Tổ quốc",
-            "summary": "Đồng khởi, Mậu Thân 1968, Điện Biên Phủ trên không 1972, Chiến dịch Hồ Chí Minh 1975.",
+            "title": "Bài 8: Cuộc kháng chiến chống Mỹ, cứu nước (1954 – 1975)",
+            "chapter": "Chủ đề 3: Cách mạng tháng Tám và chiến tranh giải phóng dân tộc (1945–nay)",
+            "summary": "Đồng khởi, Tết Mậu Thân 1968, Điện Biên Phủ trên không 1972, Chiến dịch Hồ Chí Minh 1975.",
             "questions": []
           },
           {
             "id": "lichsu-12-b9",
             "number": 9,
-            "title": "Bài 9: Cuộc đấu tranh bảo vệ Tổ quốc từ sau tháng 4 năm 1975 đến nay",
-            "chapter": "Chủ đề 3: Cách mạng tháng Tám 1945, chiến tranh giải phóng dân tộc và bảo vệ Tổ quốc",
-            "summary": "Bảo vệ biên giới Tây Nam, phía Bắc và chủ quyền biển đảo.",
+            "title": "Bài 9: Cuộc đấu tranh bảo vệ Tổ quốc từ sau tháng 4/1975 đến nay",
+            "chapter": "Chủ đề 3: Cách mạng tháng Tám và chiến tranh giải phóng dân tộc (1945–nay)",
+            "summary": "Bảo vệ biên giới Tây Nam, biên giới phía Bắc và chủ quyền biển đảo.",
             "questions": []
           },
           {
@@ -21069,31 +23381,31 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Khái quát về công cuộc Đổi mới từ năm 1986 đến nay",
             "chapter": "Chủ đề 4: Công cuộc Đổi mới ở Việt Nam từ năm 1986 đến nay",
-            "summary": "Đường lối Đổi mới từ Đại hội VI (1986).",
+            "summary": "Đại hội VI (1986) và các giai đoạn đường lối Đổi mới toàn diện.",
             "questions": []
           },
           {
             "id": "lichsu-12-b11",
             "number": 11,
-            "title": "Bài 11: Thành tựu cơ bản và bài học của công cuộc Đổi mới ở Việt Nam",
+            "title": "Bài 11: Thành tựu cơ bản và bài học của công cuộc Đổi mới",
             "chapter": "Chủ đề 4: Công cuộc Đổi mới ở Việt Nam từ năm 1986 đến nay",
-            "summary": "Thành tựu kinh tế, chính trị, xã hội, hội nhập.",
+            "summary": "Thành tựu kinh tế, xã hội, chính trị, đối ngoại và bài học kinh nghiệm.",
             "questions": []
           },
           {
             "id": "lichsu-12-b12",
             "number": 12,
-            "title": "Bài 12: Hoạt động đối ngoại của Việt Nam trong đấu tranh giành độc lập dân tộc (đầu thế kỉ XX đến CMT8 1945)",
+            "title": "Bài 12: Hoạt động đối ngoại của Việt Nam từ đầu thế kỉ XX đến 1945",
             "chapter": "Chủ đề 5: Lịch sử đối ngoại của Việt Nam thời cận - hiện đại",
-            "summary": "Hoạt động đối ngoại của Phan Bội Châu, Nguyễn Ái Quốc.",
+            "summary": "Hoạt động đối ngoại của Phan Bội Châu, Phan Châu Trinh, Nguyễn Ái Quốc.",
             "questions": []
           },
           {
             "id": "lichsu-12-b13",
             "number": 13,
-            "title": "Bài 13: Hoạt động đối ngoại của Việt Nam trong kháng chiến chống Pháp (1945 - 1954) và chống Mỹ (1954 - 1975)",
+            "title": "Bài 13: Hoạt động đối ngoại trong kháng chiến chống Pháp và chống Mỹ",
             "chapter": "Chủ đề 5: Lịch sử đối ngoại của Việt Nam thời cận - hiện đại",
-            "summary": "Hiệp định Sơ bộ 1946, Giơ-ne-vơ 1954, Pa-ri 1973.",
+            "summary": "Hiệp định Sơ bộ 1946, Giơ-ne-vơ 1954 và Hiệp định Pa-ri 1973.",
             "questions": []
           },
           {
@@ -21101,7 +23413,31 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Hoạt động đối ngoại của Việt Nam từ năm 1975 đến nay",
             "chapter": "Chủ đề 5: Lịch sử đối ngoại của Việt Nam thời cận - hiện đại",
-            "summary": "Đa phương hóa, đa dạng hóa quan hệ quốc tế.",
+            "summary": "Gia nhập LHQ (1977), ASEAN (1995), WTO (2007) và đối ngoại đa phương.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-12-b15",
+            "number": 15,
+            "title": "Bài 15: Khái quát cuộc đời và sự nghiệp của Hồ Chí Minh",
+            "chapter": "Chủ đề 6: Hồ Chí Minh trong lịch sử Việt Nam",
+            "summary": "Quê hương, gia đình và hành trình tìm đường cứu nước (1911–1941).",
+            "questions": []
+          },
+          {
+            "id": "lichsu-12-b16",
+            "number": 16,
+            "title": "Bài 16: Hồ Chí Minh – Anh hùng giải phóng dân tộc",
+            "chapter": "Chủ đề 6: Hồ Chí Minh trong lịch sử Việt Nam",
+            "summary": "Vai trò sáng lập Đảng, lãnh đạo Cách mạng tháng Tám và hai cuộc kháng chiến.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-12-b17",
+            "number": 17,
+            "title": "Bài 17: Dấu ấn Hồ Chí Minh trong lòng nhân dân thế giới và Việt Nam",
+            "chapter": "Chủ đề 6: Hồ Chí Minh trong lịch sử Việt Nam",
+            "summary": "Danh nhân văn hóa thế giới và tư tưởng, đạo đức, phong cách Hồ Chí Minh.",
             "questions": []
           }
         ]
@@ -21116,7 +23452,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Vị trí địa lí và phạm vi lãnh thổ",
             "chapter": "Phần 1: Địa lí tự nhiên",
-            "summary": "Ý nghĩa tự nhiên, kinh tế, quốc phòng.",
+            "summary": "Hệ tọa độ địa lí, vùng đất, vùng biển, vùng trời và ý nghĩa chiến lược.",
             "questions": []
           },
           {
@@ -21124,7 +23460,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thiên nhiên nhiệt đới ẩm gió mùa",
             "chapter": "Phần 1: Địa lí tự nhiên",
-            "summary": "Khí hậu, địa hình, sông ngòi, đất, sinh vật.",
+            "summary": "Tính chất nhiệt đới, ẩm, gió mùa Đông Bắc/Tây Nam và ảnh hưởng.",
             "questions": []
           },
           {
@@ -21132,143 +23468,223 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Sự phân hóa đa dạng của thiên nhiên",
             "chapter": "Phần 1: Địa lí tự nhiên",
-            "summary": "Phân hóa Bắc - Nam, Đông - Tây, theo đai cao.",
+            "summary": "Phân hóa Bắc-Nam, Đông-Tây, theo độ cao và các miền tự nhiên.",
             "questions": []
           },
           {
             "id": "diali-12-b4",
             "number": 4,
-            "title": "Bài 5: Vấn đề sử dụng hợp lí tài nguyên thiên nhiên và bảo vệ môi trường",
+            "title": "Bài 4: Thực hành: Viết báo cáo về sự phân hóa tự nhiên Việt Nam",
             "chapter": "Phần 1: Địa lí tự nhiên",
-            "summary": "Bảo vệ đa dạng sinh học và môi trường.",
+            "summary": "So sánh thiên nhiên miền Bắc và miền Nam.",
             "questions": []
           },
           {
             "id": "diali-12-b5",
             "number": 5,
-            "title": "Bài 6: Dân số Việt Nam",
-            "chapter": "Phần 2: Địa lí dân cư",
-            "summary": "Quy mô, cơ cấu dân số vàng và phân bố.",
+            "title": "Bài 5: Vấn đề sử dụng hợp lí tài nguyên thiên nhiên và bảo vệ môi trường",
+            "chapter": "Phần 1: Địa lí tự nhiên",
+            "summary": "Suy giảm tài nguyên rừng, đa dạng sinh học, đất và ô nhiễm môi trường.",
             "questions": []
           },
           {
             "id": "diali-12-b6",
             "number": 6,
-            "title": "Bài 7: Lao động và việc làm",
+            "title": "Bài 6: Dân số",
             "chapter": "Phần 2: Địa lí dân cư",
-            "summary": "Nguồn lao động dồi dào, cơ cấu lao động.",
+            "summary": "Quy mô dân số đông, cơ cấu dân số đang già hóa và phân bố dân cư.",
             "questions": []
           },
           {
             "id": "diali-12-b7",
             "number": 7,
-            "title": "Bài 8: Đô thị hóa",
+            "title": "Bài 7: Lao động và việc làm",
             "chapter": "Phần 2: Địa lí dân cư",
-            "summary": "Quá trình đô thị hóa và mạng lưới đô thị.",
+            "summary": "Nguồn lao động dồi dào, chuyển dịch cơ cấu lao động và giải quyết việc làm.",
             "questions": []
           },
           {
             "id": "diali-12-b8",
             "number": 8,
-            "title": "Bài 9: Chuyển dịch cơ cấu kinh tế",
-            "chapter": "Phần 3: Địa lí các ngành kinh tế",
-            "summary": "Chuyển dịch theo ngành, thành phần, lãnh thổ.",
+            "title": "Bài 8: Đô thị hóa",
+            "chapter": "Phần 2: Địa lí dân cư",
+            "summary": "Tỉ lệ dân thành thị tăng, mạng lưới đô thị và tác động đô thị hóa.",
             "questions": []
           },
           {
             "id": "diali-12-b9",
             "number": 9,
-            "title": "Bài 10: Vấn đề phát triển nông nghiệp, lâm nghiệp và thủy sản",
-            "chapter": "Phần 3: Địa lí các ngành kinh tế",
-            "summary": "Nông nghiệp xanh, bền vững.",
+            "title": "Bài 9: Thực hành: Vẽ biểu đồ, phân tích số liệu dân cư và lao động",
+            "chapter": "Phần 2: Địa lí dân cư",
+            "summary": "Xử lí bảng số liệu dân số, lao động.",
             "questions": []
           },
           {
             "id": "diali-12-b10",
             "number": 10,
-            "title": "Bài 13: Vấn đề phát triển công nghiệp",
+            "title": "Bài 10: Chuyển dịch cơ cấu kinh tế",
             "chapter": "Phần 3: Địa lí các ngành kinh tế",
-            "summary": "Cơ cấu công nghiệp và công nghiệp trọng điểm.",
+            "summary": "Chuyển dịch theo ngành, theo thành phần kinh tế và theo lãnh thổ.",
             "questions": []
           },
           {
             "id": "diali-12-b11",
             "number": 11,
-            "title": "Bài 16: Giao thông vận tải và bưu chính viễn thông",
+            "title": "Bài 11: Vấn đề phát triển nông nghiệp",
             "chapter": "Phần 3: Địa lí các ngành kinh tế",
-            "summary": "Mạng lưới giao thông và viễn thông.",
+            "summary": "Thế mạnh nông nghiệp nhiệt đới, trồng trọt, chăn nuôi hiện đại.",
             "questions": []
           },
           {
             "id": "diali-12-b12",
             "number": 12,
-            "title": "Bài 17: Thương mại và du lịch",
+            "title": "Bài 12: Vấn đề phát triển thủy sản và lâm nghiệp",
             "chapter": "Phần 3: Địa lí các ngành kinh tế",
-            "summary": "Nội thương, ngoại thương và du lịch.",
+            "summary": "Nuôi trồng, đánh bắt thủy sản và bảo vệ, phát triển vốn rừng.",
             "questions": []
           },
           {
             "id": "diali-12-b13",
             "number": 13,
-            "title": "Bài 21: Khai thác thế mạnh ở Trung du và miền núi Bắc Bộ",
-            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Thủy điện, khoáng sản, cây công nghiệp.",
+            "title": "Bài 13: Tổ chức lãnh thổ nông nghiệp",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Trang trại, vùng chuyên canh nông nghiệp và nông nghiệp công nghệ cao.",
             "questions": []
           },
           {
             "id": "diali-12-b14",
             "number": 14,
-            "title": "Bài 22: Phát triển kinh tế - xã hội ở Đồng bằng sông Hồng",
-            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Vùng kinh tế trọng điểm Bắc Bộ.",
+            "title": "Bài 14: Vấn đề phát triển ngành công nghiệp",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Công nghiệp khai khoáng, năng lượng, điện tử-tin học và chế biến thực phẩm.",
             "questions": []
           },
           {
             "id": "diali-12-b15",
             "number": 15,
-            "title": "Bài 23: Phát triển nông nghiệp, lâm nghiệp và thủy sản ở Bắc Trung Bộ",
-            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Cơ cấu nông-lâm-ngư nghiệp.",
+            "title": "Bài 15: Vấn đề tổ chức lãnh thổ công nghiệp",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Khu công nghiệp, khu chế xuất, khu công nghệ cao và trung tâm công nghiệp.",
             "questions": []
           },
           {
             "id": "diali-12-b16",
             "number": 16,
-            "title": "Bài 24: Phát triển kinh tế biển ở Duyên hải Nam Trung Bộ",
-            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Đánh bắt hải sản, cảng biển, du lịch.",
+            "title": "Bài 16: Thực hành: Vẽ biểu đồ, nhận xét và giải thích về công nghiệp",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Phân tích cơ cấu và tốc độ tăng trưởng công nghiệp.",
             "questions": []
           },
           {
             "id": "diali-12-b17",
             "number": 17,
-            "title": "Bài 25: Khai thác thế mạnh để phát triển kinh tế ở Tây Nguyên",
-            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Cây công nghiệp lâu năm, thủy điện.",
+            "title": "Bài 17: Vấn đề phát triển ngành giao thông vận tải và bưu chính viễn thông",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Các tuyến giao thông huyết mạch và hạ tầng số viễn thông.",
             "questions": []
           },
           {
             "id": "diali-12-b18",
             "number": 18,
-            "title": "Bài 26: Phát triển kinh tế - xã hội ở Đông Nam Bộ",
-            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Đầu tàu kinh tế cả nước.",
+            "title": "Bài 18: Vấn đề phát triển ngành thương mại",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Nội thương và ngoại thương (xuất khẩu, nhập khẩu).",
             "questions": []
           },
           {
             "id": "diali-12-b19",
             "number": 19,
-            "title": "Bài 27: Sử dụng hợp lí tự nhiên để phát triển kinh tế ở Đồng bằng sông Cửu Long",
-            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Thích ứng biến đổi khí hậu và xâm nhập mặn.",
+            "title": "Bài 19: Vấn đề phát triển du lịch",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Tài nguyên du lịch và các trung tâm du lịch lớn.",
             "questions": []
           },
           {
             "id": "diali-12-b20",
             "number": 20,
-            "title": "Bài 29: Phát triển các vùng kinh tế trọng điểm & Phát triển kinh tế gắn với bảo vệ chủ quyền biển đảo",
+            "title": "Bài 20: Thực hành: Viết báo cáo về một vấn đề kinh tế - xã hội",
+            "chapter": "Phần 3: Địa lí các ngành kinh tế",
+            "summary": "Tìm hiểu ngành dịch vụ hoặc kinh tế biển.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b21",
+            "number": 21,
+            "title": "Bài 21: Vấn đề khai thác thế mạnh ở Trung du và miền núi Bắc Bộ",
             "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
-            "summary": "Chiến lược biển Việt Nam.",
+            "summary": "Thủy điện, khoáng sản, cây công nghiệp cận nhiệt và chăn nuôi đại gia súc.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b22",
+            "number": 22,
+            "title": "Bài 22: Vấn đề phát triển kinh tế - xã hội ở Đồng bằng sông Hồng",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Chuyển dịch cơ cấu kinh tế, công nghiệp, dịch vụ và nông nghiệp hàng hóa.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b23",
+            "number": 23,
+            "title": "Bài 23: Vấn đề phát triển kinh tế - xã hội ở Bắc Trung Bộ",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Kinh tế biển, lâm-nông-ngư nghiệp và hành lang kinh tế Đông-Tây.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b24",
+            "number": 24,
+            "title": "Bài 24: Vấn đề phát triển kinh tế - xã hội ở Duyên hải Nam Trung Bộ",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Nghề cá, cảng biển nước sâu, du lịch biển và năng lượng tái tạo.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b25",
+            "number": 25,
+            "title": "Bài 25: Vấn đề phát triển kinh tế - xã hội ở Tây Nguyên",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Cây công nghiệp lâu năm (cà phê, cao su, hồ tiêu), thủy điện và lâm nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b26",
+            "number": 26,
+            "title": "Bài 26: Vấn đề phát triển kinh tế - xã hội ở Đông Nam Bộ",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Công nghiệp, dịch vụ phát triển nhất cả nước và vùng kinh tế trọng điểm phía Nam.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b27",
+            "number": 27,
+            "title": "Bài 27: Vấn đề sử dụng hợp lí tự nhiên để phát triển kinh tế ở Đồng bằng sông Cửu Long",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Thích ứng biến đổi khí hậu, xâm nhập mặn và phát triển lúa gạo, thủy sản, cây ăn quả.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b28",
+            "number": 28,
+            "title": "Bài 28: Phát triển kinh tế biển và bảo vệ chủ quyền biển đảo",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Kinh tế biển tổng hợp và bảo vệ chủ quyền Hoàng Sa, Trường Sa.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b29",
+            "number": 29,
+            "title": "Bài 29: Thực hành: Tìm hiểu về vùng kinh tế hoặc kinh tế biển",
+            "chapter": "Phần 4: Địa lí các vùng kinh tế - xã hội",
+            "summary": "Phân tích thế mạnh vùng kinh tế trọng điểm.",
+            "questions": []
+          },
+          {
+            "id": "diali-12-b30",
+            "number": 30,
+            "title": "Bài 30: Thực hành: Tìm hiểu về địa lí địa phương",
+            "chapter": "Phần 5: Địa lí địa phương",
+            "summary": "Khảo sát tự nhiên, dân cư và kinh tế tỉnh/thành phố.",
             "questions": []
           }
         ]
