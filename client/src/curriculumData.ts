@@ -1619,7 +1619,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Đọc nhạc & Nhạc cụ – Âm thanh kì diệu",
             "chapter": "Chủ đề 1: Âm thanh kì diệu",
-            "summary": "hát bài Tiếng trống trường em; đọc nhạc mi-son..",
+            "summary": "hát bài Tiếng trống trường em.",
             "questions": []
           },
           {
@@ -1746,7 +1746,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khám phá & Quan sát – Mĩ thuật trong nhà trường",
             "chapter": "Chủ đề 1: Mĩ thuật trong nhà trường",
-            "summary": "Làm quen dụng cụ vẽ, đất nặn, giấy màu; nhận biết tranh vẽ trong trường học. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Làm quen dụng cụ vẽ, đất nặn, giấy màu; nhận biết tranh vẽ trong trường học..",
             "questions": []
           },
           {
@@ -1754,7 +1754,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sáng tạo – Mĩ thuật trong nhà trường",
             "chapter": "Chủ đề 1: Mĩ thuật trong nhà trường",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mĩ thuật trong nhà trường, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Mĩ thuật trong nhà trường, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1762,7 +1762,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Khám phá & Quan sát – Sáng tạo từ những chấm màu",
             "chapter": "Chủ đề 2: Sáng tạo từ những chấm màu",
-            "summary": "Sử dụng chấm màu tạo hình bông hoa, con vật, bức tranh đơn giản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Sử dụng chấm màu tạo hình bông hoa, con vật, bức tranh đơn giản..",
             "questions": []
           },
           {
@@ -1770,7 +1770,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Thực hành sáng tạo – Sáng tạo từ những chấm màu",
             "chapter": "Chủ đề 2: Sáng tạo từ những chấm màu",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những chấm màu, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những chấm màu, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1778,7 +1778,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Khám phá & Quan sát – Nét vẽ của em",
             "chapter": "Chủ đề 3: Nét vẽ của em",
-            "summary": "Nhận biết nét thẳng, nét cong, nét gấp khúc, nét xoắn ốc trong tạo hình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Nhận biết nét thẳng, nét cong, nét gấp khúc, nét xoắn ốc trong tạo hình..",
             "questions": []
           },
           {
@@ -1786,7 +1786,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Thực hành sáng tạo – Nét vẽ của em",
             "chapter": "Chủ đề 3: Nét vẽ của em",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nét vẽ của em, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nét vẽ của em, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1794,7 +1794,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Khám phá & Quan sát – Sáng tạo từ những hình cơ bản",
             "chapter": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
-            "summary": "Ghép hình tròn, vuông, tam giác, chữ nhật tạo ngôi nhà, đồ vật. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Ghép hình tròn, vuông, tam giác, chữ nhật tạo ngôi nhà, đồ vật..",
             "questions": []
           },
           {
@@ -1802,7 +1802,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Thực hành sáng tạo – Sáng tạo từ những hình cơ bản",
             "chapter": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những hình cơ bản, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những hình cơ bản, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1810,7 +1810,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Khám phá & Quan sát – Màu cơ bản trong mĩ thuật",
             "chapter": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
-            "summary": "Nhận biết 3 màu cơ bản: đỏ, vàng, lam và cách phối màu đơn giản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Nhận biết 3 màu cơ bản: đỏ, vàng, lam và cách phối màu đơn giản..",
             "questions": []
           },
           {
@@ -1818,7 +1818,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Thực hành sáng tạo – Màu cơ bản trong mĩ thuật",
             "chapter": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Màu cơ bản trong mĩ thuật, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Màu cơ bản trong mĩ thuật, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1826,7 +1826,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Khám phá & Quan sát – Sáng tạo từ những khối cơ bản",
             "chapter": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
-            "summary": "Nặn và tạo hình từ khối cầu, khối trụ, khối lập phương. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Nặn và tạo hình từ khối cầu, khối trụ, khối lập phương..",
             "questions": []
           },
           {
@@ -1834,7 +1834,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Thực hành sáng tạo – Sáng tạo từ những khối cơ bản",
             "chapter": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những khối cơ bản, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những khối cơ bản, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1842,7 +1842,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Khám phá & Quan sát – Hoa, quả",
             "chapter": "Chủ đề 7: Hoa, quả",
-            "summary": "Quan sát, vẽ và nặn một số loại hoa, quả quen thuộc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Quan sát, vẽ và nặn một số loại hoa, quả quen thuộc..",
             "questions": []
           },
           {
@@ -1850,7 +1850,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Thực hành sáng tạo – Hoa, quả",
             "chapter": "Chủ đề 7: Hoa, quả",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hoa, quả, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Hoa, quả, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1858,7 +1858,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Khám phá & Quan sát – Người thân của em",
             "chapter": "Chủ đề 8: Người thân của em",
-            "summary": "Vẽ chân dung hoặc hoạt động của người thân trong gia đình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ chân dung hoặc hoạt động của người thân trong gia đình..",
             "questions": []
           },
           {
@@ -1866,7 +1866,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Thực hành sáng tạo – Người thân của em",
             "chapter": "Chủ đề 8: Người thân của em",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Người thân của em, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Người thân của em, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -1874,7 +1874,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 17,
             "title": "Bài 17: Khám phá & Quan sát – Em là học sinh lớp 1",
             "chapter": "Chủ đề 9: Em là học sinh lớp 1",
-            "summary": "Sáng tạo sản phẩm mĩ thuật về hoạt động học tập, vui chơi lớp 1. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Sáng tạo sản phẩm mĩ thuật về hoạt động học tập, vui chơi lớp 1..",
             "questions": []
           },
           {
@@ -1882,7 +1882,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 18,
             "title": "Bài 18: Thực hành sáng tạo – Em là học sinh lớp 1",
             "chapter": "Chủ đề 9: Em là học sinh lớp 1",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Em là học sinh lớp 1, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Em là học sinh lớp 1, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -1904,80 +1904,88 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "gdtc-1-b2",
             "number": 2,
             "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
-            "summary": "Thực hành Tư thế đứng nghiêm, đứng nghỉ, tập hợp hàng dọc.",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 2",
+            "summary": "Thực hành Tư thế đứng nghiêm, đứng nghỉ.",
             "questions": []
           },
           {
             "id": "gdtc-1-b3",
             "number": 3,
             "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
-            "summary": "Luyện tập hàng ngang, quay các hướng. và trò chơi vận động.",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
+            "summary": "Luyện tập hàng ngang.",
             "questions": []
           },
           {
             "id": "gdtc-1-b4",
             "number": 4,
             "title": "Bài 4: Kĩ thuật cơ bản – Bài tập thể dục",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Thực hành Động tác vươn thở, tay, chân, vặn mình.",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Thực hành Động tác vươn thở, tay.",
             "questions": []
           },
           {
             "id": "gdtc-1-b5",
             "number": 5,
             "title": "Bài 5: Phối hợp vận dụng – Bài tập thể dục",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Luyện tập bụng, phối hợp, điều hòa. và trò chơi vận động.",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Luyện tập bụng, phối hợp.",
             "questions": []
           },
           {
             "id": "gdtc-1-b6",
             "number": 6,
             "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Thực hành Vận động đầu, cổ, tay.",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 6",
+            "summary": "Thực hành Vận động đầu, cổ.",
             "questions": []
           },
           {
             "id": "gdtc-1-b7",
             "number": 7,
             "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Luyện tập chân, đi thường, chạy nhẹ nhàng. và trò chơi vận động.",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Luyện tập chân, đi thường.",
             "questions": []
           },
           {
             "id": "gdtc-1-b8",
             "number": 8,
             "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ (Làm quen)",
-            "chapter": "Chủ đề 1: Môn Bóng rổ (Làm quen)",
-            "summary": "Thực hành Làm quen bóng, di chuyển không bóng.",
+            "chapter": "Chủ đề 1: Môn Bóng rổ (Làm quen) – Bài 8",
+            "summary": "Thực hành Làm quen bóng.",
             "questions": []
           },
           {
             "id": "gdtc-1-b9",
             "number": 9,
             "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ (Làm quen)",
-            "chapter": "Chủ đề 1: Môn Bóng rổ (Làm quen)",
-            "summary": "Luyện tập dẫn bóng, ném rổ hai tay trước ngực. và trò chơi vận động.",
+            "chapter": "Chủ đề 1: Môn Bóng rổ (Làm quen) – Bài 9",
+            "summary": "Luyện tập dẫn bóng.",
             "questions": []
           },
           {
             "id": "gdtc-1-b10",
             "number": 10,
             "title": "Bài 10: Kĩ thuật cơ bản – Môn Bơi (Làm quen nước)",
-            "chapter": "Chủ đề 2: Môn Bơi (Làm quen nước)",
-            "summary": "Thực hành Làm quen với nước, nín thở.",
+            "chapter": "Chủ đề 2: Môn Bơi (Làm quen nước) – Bài 10",
+            "summary": "Thực hành Làm quen với nước.",
             "questions": []
           },
           {
             "id": "gdtc-1-b11",
             "number": 11,
-            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi (Làm quen nước)",
-            "chapter": "Chủ đề 2: Môn Bơi (Làm quen nước)",
+            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi (Làm quen nước) (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi (Làm quen nước) – Bài 11",
             "summary": "Luyện tập tập thở trong nước và giữ thăng bằng. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b12",
+            "number": 12,
+            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi (Làm quen nước) (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi (Làm quen nước) – Bài 11",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 11: Phối hợp vận dụng – Môn Bơi (Làm quen nước).",
             "questions": []
           }
         ]
@@ -2040,7 +2048,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Nhận diện & Khám phá – Tự chăm sóc bản thân",
             "chapter": "Chủ đề 4: Tự chăm sóc bản thân",
-            "summary": "Thực hành vệ sinh răng miệng, rửa tay, mặc trang phục phù hợp thời tiết.",
+            "summary": "vệ sinh răng miệng, rửa tay, mặc trang phục phù hợp thời tiết.",
             "questions": []
           },
           {
@@ -3722,7 +3730,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Đọc nhạc & Nhạc cụ – Sắc màu âm thanh",
             "chapter": "Chủ đề 1: Sắc màu âm thanh",
-            "summary": "hát Ngày mùa vui; thực hành nhạc cụ gõ..",
+            "summary": "hát Ngày mùa vui.",
             "questions": []
           },
           {
@@ -3849,7 +3857,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khám phá & Quan sát – Thế giới mĩ thuật qua những chấm",
             "chapter": "Chủ đề 1: Thế giới mĩ thuật qua những chấm",
-            "summary": "Tạo bức tranh phong cảnh hoặc sinh hoạt bằng chấm màu. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tạo bức tranh phong cảnh hoặc sinh hoạt bằng chấm màu..",
             "questions": []
           },
           {
@@ -3857,7 +3865,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sáng tạo – Thế giới mĩ thuật qua những chấm",
             "chapter": "Chủ đề 1: Thế giới mĩ thuật qua những chấm",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thế giới mĩ thuật qua những chấm, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Thế giới mĩ thuật qua những chấm, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3865,7 +3873,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Khám phá & Quan sát – Những sắc màu âm thanh",
             "chapter": "Chủ đề 2: Những sắc màu âm thanh",
-            "summary": "Thể hiện cảm xúc âm nhạc qua đường nét và màu sắc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Thể hiện cảm xúc âm nhạc qua đường nét và màu sắc..",
             "questions": []
           },
           {
@@ -3873,7 +3881,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Thực hành sáng tạo – Những sắc màu âm thanh",
             "chapter": "Chủ đề 2: Những sắc màu âm thanh",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những sắc màu âm thanh, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Những sắc màu âm thanh, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3881,7 +3889,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Khám phá & Quan sát – Vẻ đẹp của thiên nhiên",
             "chapter": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
-            "summary": "Vẽ, cắt dán cảnh thiên nhiên, cây cối, bầu trời. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ, cắt dán cảnh thiên nhiên, cây cối, bầu trời..",
             "questions": []
           },
           {
@@ -3889,7 +3897,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Thực hành sáng tạo – Vẻ đẹp của thiên nhiên",
             "chapter": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp của thiên nhiên, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp của thiên nhiên, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3897,7 +3905,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Khám phá & Quan sát – Mái trường thân thiện",
             "chapter": "Chủ đề 4: Mái trường thân thiện",
-            "summary": "Vẽ và tạo hình hoạt động vui chơi ở sân trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ và tạo hình hoạt động vui chơi ở sân trường..",
             "questions": []
           },
           {
@@ -3905,7 +3913,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Thực hành sáng tạo – Mái trường thân thiện",
             "chapter": "Chủ đề 4: Mái trường thân thiện",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mái trường thân thiện, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Mái trường thân thiện, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3913,7 +3921,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Khám phá & Quan sát – Ngôi nhà của em",
             "chapter": "Chủ đề 5: Ngôi nhà của em",
-            "summary": "Tạo hình ngôi nhà từ vật liệu tái chế hoặc giấy bìa. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tạo hình ngôi nhà từ vật liệu tái chế hoặc giấy bìa..",
             "questions": []
           },
           {
@@ -3921,7 +3929,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Thực hành sáng tạo – Ngôi nhà của em",
             "chapter": "Chủ đề 5: Ngôi nhà của em",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà của em, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà của em, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3929,7 +3937,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Khám phá & Quan sát – Con vật quen thuộc",
             "chapter": "Chủ đề 6: Con vật quen thuộc",
-            "summary": "Nặn và vẽ các con vật nuôi trong gia đình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Nặn và vẽ các con vật nuôi trong gia đình..",
             "questions": []
           },
           {
@@ -3937,7 +3945,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Thực hành sáng tạo – Con vật quen thuộc",
             "chapter": "Chủ đề 6: Con vật quen thuộc",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Con vật quen thuộc, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Con vật quen thuộc, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3945,7 +3953,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Khám phá & Quan sát – Khu vườn kỳ diệu",
             "chapter": "Chủ đề 7: Khu vườn kỳ diệu",
-            "summary": "Phối hợp nhiều chất liệu tạo mô hình khu vườn nhiều màu sắc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Phối hợp nhiều chất liệu tạo mô hình khu vườn nhiều màu sắc..",
             "questions": []
           },
           {
@@ -3953,7 +3961,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Thực hành sáng tạo – Khu vườn kỳ diệu",
             "chapter": "Chủ đề 7: Khu vườn kỳ diệu",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Khu vườn kỳ diệu, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Khu vườn kỳ diệu, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3961,7 +3969,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Khám phá & Quan sát – Quà tặng ý nghĩa",
             "chapter": "Chủ đề 8: Quà tặng ý nghĩa",
-            "summary": "Làm bưu thiếp, đồ thủ công tặng người thân, thầy cô. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Làm bưu thiếp, đồ thủ công tặng người thân, thầy cô..",
             "questions": []
           },
           {
@@ -3969,7 +3977,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Thực hành sáng tạo – Quà tặng ý nghĩa",
             "chapter": "Chủ đề 8: Quà tặng ý nghĩa",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Quà tặng ý nghĩa, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Quà tặng ý nghĩa, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3977,7 +3985,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 17,
             "title": "Bài 17: Khám phá & Quan sát – Bữa tiệc vui",
             "chapter": "Chủ đề 9: Bữa tiệc vui",
-            "summary": "Tạo hình bánh, hoa quả, mâm cỗ bằng đất nặn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tạo hình bánh, hoa quả, mâm cỗ bằng đất nặn..",
             "questions": []
           },
           {
@@ -3985,7 +3993,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 18,
             "title": "Bài 18: Thực hành sáng tạo – Bữa tiệc vui",
             "chapter": "Chủ đề 9: Bữa tiệc vui",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Bữa tiệc vui, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Bữa tiệc vui, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -3993,7 +4001,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 19,
             "title": "Bài 19: Khám phá & Quan sát – An toàn giao thông",
             "chapter": "Chủ đề 10: An toàn giao thông",
-            "summary": "Vẽ tranh tuyên truyền đi bộ, sang đường an toàn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh tuyên truyền đi bộ, sang đường an toàn..",
             "questions": []
           },
           {
@@ -4001,7 +4009,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 20,
             "title": "Bài 20: Thực hành sáng tạo – An toàn giao thông",
             "chapter": "Chủ đề 10: An toàn giao thông",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề An toàn giao thông, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề An toàn giao thông, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -4023,80 +4031,104 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "gdtc-2-b2",
             "number": 2,
             "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
-            "summary": "Thực hành Chuyển đổi hàng dọc, hàng ngang thành vòng tròn.",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 2",
+            "summary": "Thực hành Chuyển đổi hàng dọc.",
             "questions": []
           },
           {
             "id": "gdtc-2-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 1)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
             "summary": "Luyện tập giậm chân tại chỗ. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-2-b4",
             "number": 4,
-            "title": "Bài 4: Kĩ thuật cơ bản – Bài tập thể dục",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Thực hành Bài thể dục phát triển chung 8 động tác: vươn thở, tay, chân, lườn.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 2)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Đội hình đội ngũ.",
             "questions": []
           },
           {
             "id": "gdtc-2-b5",
             "number": 5,
-            "title": "Bài 5: Phối hợp vận dụng – Bài tập thể dục",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Luyện tập bụng, phối hợp, nhảy, điều hòa. và trò chơi vận động.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Bài tập thể dục",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Thực hành Bài thể dục phát triển chung 8 động tác: vươn thở, tay.",
             "questions": []
           },
           {
             "id": "gdtc-2-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Thực hành Đi theo vạch kẻ, vòng trái/phải, động tác quỳ.",
+            "title": "Bài 5: Phối hợp vận dụng – Bài tập thể dục",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Luyện tập bụng, phối hợp.",
             "questions": []
           },
           {
             "id": "gdtc-2-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Luyện tập ngồi, bật nhảy cơ bản. và trò chơi vận động.",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 6",
+            "summary": "Thực hành Đi theo vạch kẻ, vòng trái/phải.",
             "questions": []
           },
           {
             "id": "gdtc-2-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ",
-            "chapter": "Chủ đề 1: Môn Bóng rổ",
-            "summary": "Thực hành Di chuyển, dẫn bóng tại chỗ và di chuyển.",
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Luyện tập ngồi.",
             "questions": []
           },
           {
             "id": "gdtc-2-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ",
-            "chapter": "Chủ đề 1: Môn Bóng rổ",
-            "summary": "Luyện tập tung bắt bóng hai tay. và trò chơi vận động.",
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ",
+            "chapter": "Chủ đề 1: Môn Bóng rổ – Bài 8",
+            "summary": "Thực hành Di chuyển.",
             "questions": []
           },
           {
             "id": "gdtc-2-b10",
             "number": 10,
-            "title": "Bài 10: Kĩ thuật cơ bản – Môn Bơi",
-            "chapter": "Chủ đề 2: Môn Bơi",
-            "summary": "Thực hành Ôm gối nổi người, duỗi thẳng chân tay.",
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ – Bài 9",
+            "summary": "Luyện tập tung bắt bóng hai tay. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-2-b11",
             "number": 11,
-            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi",
-            "chapter": "Chủ đề 2: Môn Bơi",
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Môn Bóng rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b12",
+            "number": 12,
+            "title": "Bài 10: Kĩ thuật cơ bản – Môn Bơi",
+            "chapter": "Chủ đề 2: Môn Bơi – Bài 10",
+            "summary": "Thực hành Ôm gối nổi người.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b13",
+            "number": 13,
+            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi – Bài 11",
             "summary": "Luyện tập đạp thành bể lướt nước. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b14",
+            "number": 14,
+            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi – Bài 11",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 11: Phối hợp vận dụng – Môn Bơi.",
             "questions": []
           }
         ]
@@ -6222,7 +6254,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khám phá & Quan sát – Thế giới chấm và nét",
             "chapter": "Chủ đề 1: Thế giới chấm và nét",
-            "summary": "Kết hợp chấm và nét tạo nhịp điệu trong tranh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Kết hợp chấm và nét tạo nhịp điệu trong tranh..",
             "questions": []
           },
           {
@@ -6230,7 +6262,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sáng tạo – Thế giới chấm và nét",
             "chapter": "Chủ đề 1: Thế giới chấm và nét",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thế giới chấm và nét, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Thế giới chấm và nét, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -6238,7 +6270,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Khám phá & Quan sát – Sắc màu thiên nhiên",
             "chapter": "Chủ đề 2: Sắc màu thiên nhiên",
-            "summary": "Phân biệt màu nóng, màu lạnh và ứng dụng vẽ thiên nhiên. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Phân biệt màu nóng, màu lạnh và ứng dụng vẽ thiên nhiên..",
             "questions": []
           },
           {
@@ -6246,7 +6278,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Thực hành sáng tạo – Sắc màu thiên nhiên",
             "chapter": "Chủ đề 2: Sắc màu thiên nhiên",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sắc màu thiên nhiên, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Sắc màu thiên nhiên, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -6254,7 +6286,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Khám phá & Quan sát – Hình khối trong đời sống",
             "chapter": "Chủ đề 3: Hình khối trong đời sống",
-            "summary": "Quan sát và tạo hình đồ vật từ hình khối cơ bản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Quan sát và tạo hình đồ vật từ hình khối cơ bản..",
             "questions": []
           },
           {
@@ -6262,7 +6294,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Thực hành sáng tạo – Hình khối trong đời sống",
             "chapter": "Chủ đề 3: Hình khối trong đời sống",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hình khối trong đời sống, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Hình khối trong đời sống, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -6270,7 +6302,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Khám phá & Quan sát – Cổng trường rộn ràng",
             "chapter": "Chủ đề 4: Cổng trường rộn ràng",
-            "summary": "Vẽ tranh đề tài ngày khai trường, giờ ra chơi. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh đề tài ngày khai trường, giờ ra chơi..",
             "questions": []
           },
           {
@@ -6278,7 +6310,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Thực hành sáng tạo – Cổng trường rộn ràng",
             "chapter": "Chủ đề 4: Cổng trường rộn ràng",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Cổng trường rộn ràng, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Cổng trường rộn ràng, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -6286,7 +6318,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Khám phá & Quan sát – Ngôi nhà yêu thương",
             "chapter": "Chủ đề 5: Ngôi nhà yêu thương",
-            "summary": "Tạo hình kiến trúc ngôi nhà và cảnh quan xung quanh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tạo hình kiến trúc ngôi nhà và cảnh quan xung quanh..",
             "questions": []
           },
           {
@@ -6294,7 +6326,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Thực hành sáng tạo – Ngôi nhà yêu thương",
             "chapter": "Chủ đề 5: Ngôi nhà yêu thương",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà yêu thương, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà yêu thương, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -6302,7 +6334,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Khám phá & Quan sát – Thiên nhiên và cuộc sống",
             "chapter": "Chủ đề 6: Thiên nhiên và cuộc sống",
-            "summary": "Vẽ tranh bảo vệ thiên nhiên, trồng cây xanh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh bảo vệ thiên nhiên, trồng cây xanh..",
             "questions": []
           },
           {
@@ -6310,7 +6342,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Thực hành sáng tạo – Thiên nhiên và cuộc sống",
             "chapter": "Chủ đề 6: Thiên nhiên và cuộc sống",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiên nhiên và cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Thiên nhiên và cuộc sống, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -6318,7 +6350,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Khám phá & Quan sát – Nét đẹp truyền thống",
             "chapter": "Chủ đề 7: Nét đẹp truyền thống",
-            "summary": "Tìm hiểu họa tiết dân gian và trang trí đồ vật. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tìm hiểu họa tiết dân gian và trang trí đồ vật..",
             "questions": []
           },
           {
@@ -6326,7 +6358,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Thực hành sáng tạo – Nét đẹp truyền thống",
             "chapter": "Chủ đề 7: Nét đẹp truyền thống",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nét đẹp truyền thống, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nét đẹp truyền thống, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -6334,7 +6366,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Khám phá & Quan sát – Vui hội làng",
             "chapter": "Chủ đề 8: Vui hội làng",
-            "summary": "Vẽ hoặc xé dán tranh về lễ hội truyền thống quê hương. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ hoặc xé dán tranh về lễ hội truyền thống quê hương..",
             "questions": []
           },
           {
@@ -6342,7 +6374,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Thực hành sáng tạo – Vui hội làng",
             "chapter": "Chủ đề 8: Vui hội làng",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vui hội làng, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Vui hội làng, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -6364,80 +6396,144 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "gdtc-3-b2",
             "number": 2,
             "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
-            "summary": "Thực hành Biến đổi đội hình 1 hàng thành 2-3 hàng, dóng hàng.",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 2",
+            "summary": "Thực hành Biến đổi đội hình 1 hàng thành 2-3 hàng.",
             "questions": []
           },
           {
             "id": "gdtc-3-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 1)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
             "summary": "Luyện tập điểm số. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-3-b4",
             "number": 4,
-            "title": "Bài 4: Bài tập thể dục (Phần 1)",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Bài thể dục phát triển chung với cờ hoặc không dụng cụ.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 2)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Đội hình đội ngũ.",
             "questions": []
           },
           {
             "id": "gdtc-3-b5",
             "number": 5,
-            "title": "Bài 5: Bài tập thể dục (Phần 2)",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Bài thể dục phát triển chung với cờ hoặc không dụng cụ.",
             "questions": []
           },
           {
             "id": "gdtc-3-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Thực hành Đi nhanh chuyển sang chạy, bật xa tại chỗ.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 4: Bài tập thể dục (Phần 1).",
             "questions": []
           },
           {
             "id": "gdtc-3-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Luyện tập tung và bắt bóng. và trò chơi vận động.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
             "questions": []
           },
           {
             "id": "gdtc-3-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ / Cầu lông",
-            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông",
-            "summary": "Thực hành Dẫn bóng đổi hướng.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Bài tập thể dục (Phần 2).",
             "questions": []
           },
           {
             "id": "gdtc-3-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ / Cầu lông",
-            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông",
-            "summary": "Luyện tập truyền bóng hoặc làm quen vợt cầu lông. và trò chơi vận động.",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 6",
+            "summary": "Thực hành Đi nhanh chuyển sang chạy.",
             "questions": []
           },
           {
             "id": "gdtc-3-b10",
             "number": 10,
-            "title": "Bài 10: Môn Bơi / Đá cầu (Phần 1)",
-            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu",
-            "summary": "Kĩ thuật đạp chân ếch hoặc tâng cầu bằng mu bàn chân.",
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản (Phần 1)",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Luyện tập tung và bắt bóng. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-3-b11",
             "number": 11,
-            "title": "Bài 11: Môn Bơi / Đá cầu (Phần 2)",
-            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu",
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản (Phần 2)",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b12",
+            "number": 12,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông – Bài 8",
+            "summary": "Thực hành Dẫn bóng đổi hướng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b13",
+            "number": 13,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ / Cầu lông.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b14",
+            "number": 14,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông – Bài 9",
+            "summary": "Luyện tập truyền bóng hoặc làm quen vợt cầu lông. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b15",
+            "number": 15,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Môn Bóng rổ / Cầu lông.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b16",
+            "number": 16,
+            "title": "Bài 10: Môn Bơi / Đá cầu (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu – Bài 10",
+            "summary": "Kĩ thuật đạp chân ếch hoặc tâng cầu bằng mu bàn chân.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b17",
+            "number": 17,
+            "title": "Bài 10: Môn Bơi / Đá cầu (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu – Bài 10",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 10: Môn Bơi / Đá cầu (Phần 1).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b18",
+            "number": 18,
+            "title": "Bài 11: Môn Bơi / Đá cầu (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu – Bài 11",
             "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bơi / Đá cầu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b19",
+            "number": 19,
+            "title": "Bài 11: Môn Bơi / Đá cầu (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu – Bài 11",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 11: Môn Bơi / Đá cầu (Phần 2).",
             "questions": []
           }
         ]
@@ -6516,7 +6612,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Nhận diện & Khám phá – Gia đình yêu thương",
             "chapter": "Chủ đề 5: Gia đình yêu thương",
-            "summary": "Thực hành tiết kiệm chi tiêu trong gia đình và chăm sóc người thân.",
+            "summary": "tiết kiệm chi tiêu trong gia đình và chăm sóc người thân.",
             "questions": []
           },
           {
@@ -8828,7 +8924,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khám phá & Quan sát – Vẻ đẹp trong điêu khắc đình làng Việt Nam",
             "chapter": "Chủ đề 1: Điêu khắc đình làng",
-            "summary": "Tìm hiểu chạm khắc đình làng và tạo hình phù điêu đơn giản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tìm hiểu chạm khắc đình làng và tạo hình phù điêu đơn giản..",
             "questions": []
           },
           {
@@ -8836,7 +8932,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sáng tạo – Vẻ đẹp trong điêu khắc đình làng Việt Nam",
             "chapter": "Chủ đề 1: Điêu khắc đình làng",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp trong điêu khắc đình làng Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp trong điêu khắc đình làng Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -8844,7 +8940,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Khám phá & Quan sát – Một số dạng không gian trong tranh dân gian Việt Nam",
             "chapter": "Chủ đề 2: Tranh dân gian Việt Nam",
-            "summary": "Nhận biết bố cục tranh Đông Hồ, Hàng Trống. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Nhận biết bố cục tranh Đông Hồ, Hàng Trống..",
             "questions": []
           },
           {
@@ -8852,7 +8948,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Thực hành sáng tạo – Một số dạng không gian trong tranh dân gian Việt Nam",
             "chapter": "Chủ đề 2: Tranh dân gian Việt Nam",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Một số dạng không gian trong tranh dân gian Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Một số dạng không gian trong tranh dân gian Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -8860,7 +8956,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Khám phá & Quan sát – Cảnh đẹp quê hương",
             "chapter": "Chủ đề 3: Cảnh đẹp quê hương",
-            "summary": "Vẽ tranh phong cảnh thể hiện không gian xa - gần. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh phong cảnh thể hiện không gian xa - gần..",
             "questions": []
           },
           {
@@ -8868,7 +8964,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Thực hành sáng tạo – Cảnh đẹp quê hương",
             "chapter": "Chủ đề 3: Cảnh đẹp quê hương",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Cảnh đẹp quê hương, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Cảnh đẹp quê hương, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -8876,7 +8972,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Khám phá & Quan sát – Vẻ đẹp trong cuộc sống",
             "chapter": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
-            "summary": "Vẽ tĩnh vật lọ hoa và quả bằng màu sáp/màu nước. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tĩnh vật lọ hoa và quả bằng màu sáp/màu nước..",
             "questions": []
           },
           {
@@ -8884,7 +8980,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Thực hành sáng tạo – Vẻ đẹp trong cuộc sống",
             "chapter": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp trong cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp trong cuộc sống, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -8892,7 +8988,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Khám phá & Quan sát – Những kỉ niệm đẹp",
             "chapter": "Chủ đề 5: Những kỉ niệm đẹp",
-            "summary": "Vẽ tranh sinh hoạt gia đình, bạn bè. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh sinh hoạt gia đình, bạn bè..",
             "questions": []
           },
           {
@@ -8900,7 +8996,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Thực hành sáng tạo – Những kỉ niệm đẹp",
             "chapter": "Chủ đề 5: Những kỉ niệm đẹp",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những kỉ niệm đẹp, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Những kỉ niệm đẹp, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -8908,7 +9004,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Khám phá & Quan sát – Mái trường yêu dấu",
             "chapter": "Chủ đề 6: Mái trường yêu dấu",
-            "summary": "Tạo mô hình hoặc vẽ tranh hoạt động tập thể ở trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tạo mô hình hoặc vẽ tranh hoạt động tập thể ở trường..",
             "questions": []
           },
           {
@@ -8916,7 +9012,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Thực hành sáng tạo – Mái trường yêu dấu",
             "chapter": "Chủ đề 6: Mái trường yêu dấu",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mái trường yêu dấu, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Mái trường yêu dấu, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -8924,7 +9020,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Khám phá & Quan sát – Môi trường xanh – sạch – đẹp",
             "chapter": "Chủ đề 7: Môi trường xanh - sạch - đẹp",
-            "summary": "Thiết kế áp phích tuyên truyền bảo vệ môi trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Thiết kế áp phích tuyên truyền bảo vệ môi trường..",
             "questions": []
           },
           {
@@ -8932,7 +9028,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Thực hành sáng tạo – Môi trường xanh – sạch – đẹp",
             "chapter": "Chủ đề 7: Môi trường xanh - sạch - đẹp",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Môi trường xanh – sạch – đẹp, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Môi trường xanh – sạch – đẹp, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -8940,7 +9036,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Khám phá & Quan sát – Quê hương thanh bình",
             "chapter": "Chủ đề 8: Quê hương thanh bình",
-            "summary": "Tổng hợp kĩ năng tạo hình sản phẩm trưng bày cuối năm. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tổng hợp kĩ năng tạo hình sản phẩm trưng bày cuối năm..",
             "questions": []
           },
           {
@@ -8948,7 +9044,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Thực hành sáng tạo – Quê hương thanh bình",
             "chapter": "Chủ đề 8: Quê hương thanh bình",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Quê hương thanh bình, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Quê hương thanh bình, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -8970,80 +9066,144 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "gdtc-4-b2",
             "number": 2,
             "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
-            "summary": "Thực hành Đội hình vòng tròn, đi đều.",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 2",
+            "summary": "Thực hành Đội hình vòng tròn.",
             "questions": []
           },
           {
             "id": "gdtc-4-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 1)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
             "summary": "Luyện tập đổi chân khi đi sai nhịp. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-4-b4",
             "number": 4,
-            "title": "Bài 4: Bài tập thể dục (Phần 1)",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Bài thể dục phát triển chung lớp 4 kết hợp nhịp điệu.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 2)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Đội hình đội ngũ.",
             "questions": []
           },
           {
             "id": "gdtc-4-b5",
             "number": 5,
-            "title": "Bài 5: Bài tập thể dục (Phần 2)",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Bài thể dục phát triển chung lớp 4 kết hợp nhịp điệu.",
             "questions": []
           },
           {
             "id": "gdtc-4-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Thực hành Chạy cự li ngắn, bật cao.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 4: Bài tập thể dục (Phần 1).",
             "questions": []
           },
           {
             "id": "gdtc-4-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Luyện tập ném bóng trúng đích. và trò chơi vận động.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
             "questions": []
           },
           {
             "id": "gdtc-4-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng đá / Bóng rổ",
-            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
-            "summary": "Thực hành Đá bóng bằng lòng bàn chân hoặc dẫn bóng.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Bài tập thể dục (Phần 2).",
             "questions": []
           },
           {
             "id": "gdtc-4-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng đá / Bóng rổ",
-            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
-            "summary": "Luyện tập chuyền bóng. và trò chơi vận động.",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 6",
+            "summary": "Thực hành Chạy cự li ngắn.",
             "questions": []
           },
           {
             "id": "gdtc-4-b10",
             "number": 10,
-            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1)",
-            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
-            "summary": "Kĩ thuật bơi ếch cơ bản hoặc di chuyển đánh cầu thuận tay.",
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản (Phần 1)",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Luyện tập ném bóng trúng đích. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-4-b11",
             "number": 11,
-            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2)",
-            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản (Phần 2)",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b12",
+            "number": 12,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng đá / Bóng rổ (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 8",
+            "summary": "Thực hành Đá bóng bằng lòng bàn chân hoặc dẫn bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b13",
+            "number": 13,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng đá / Bóng rổ (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Kĩ thuật cơ bản – Môn Bóng đá / Bóng rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b14",
+            "number": 14,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng đá / Bóng rổ (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 9",
+            "summary": "Luyện tập chuyền bóng. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b15",
+            "number": 15,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng đá / Bóng rổ (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Môn Bóng đá / Bóng rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b16",
+            "number": 16,
+            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 10",
+            "summary": "Kĩ thuật bơi ếch cơ bản hoặc di chuyển đánh cầu thuận tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b17",
+            "number": 17,
+            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 10",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 10: Môn Bơi / Cầu lông (Phần 1).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b18",
+            "number": 18,
+            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 11",
             "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bơi / Cầu lông.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b19",
+            "number": 19,
+            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 11",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 11: Môn Bơi / Cầu lông (Phần 2).",
             "questions": []
           }
         ]
@@ -11289,7 +11449,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Hát & Nghe nhạc – Âm nhạc vang lên",
             "chapter": "Chủ đề 2: Âm nhạc vang lên",
-            "summary": "Thực hành hát bè đơn giản và đệm bằng nhạc cụ gõ..",
+            "summary": "hát bè đơn giản và đệm bằng nhạc cụ gõ..",
             "questions": []
           },
           {
@@ -11408,7 +11568,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khám phá & Quan sát – Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề",
             "chapter": "Chủ đề 1: Yếu tố tạo hình",
-            "summary": "Vận dụng đường nét, hình khối, màu sắc, đậm nhạt trong sáng tạo. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vận dụng đường nét, hình khối, màu sắc, đậm nhạt trong sáng tạo..",
             "questions": []
           },
           {
@@ -11416,7 +11576,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sáng tạo – Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề",
             "chapter": "Chủ đề 1: Yếu tố tạo hình",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -11424,7 +11584,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Khám phá & Quan sát – Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam",
             "chapter": "Chủ đề 2: Hình tượng anh hùng dân tộc",
-            "summary": "Tìm hiểu tượng đài, tranh lịch sử về các anh hùng dân tộc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tìm hiểu tượng đài, tranh lịch sử về các anh hùng dân tộc..",
             "questions": []
           },
           {
@@ -11432,7 +11592,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Thực hành sáng tạo – Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam",
             "chapter": "Chủ đề 2: Hình tượng anh hùng dân tộc",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -11440,7 +11600,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Khám phá & Quan sát – Gia đình",
             "chapter": "Chủ đề 3: Gia đình",
-            "summary": "Vẽ và tạo hình chủ đề sum họp, yêu thương gia đình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ và tạo hình chủ đề sum họp, yêu thương gia đình..",
             "questions": []
           },
           {
@@ -11448,7 +11608,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Thực hành sáng tạo – Gia đình",
             "chapter": "Chủ đề 3: Gia đình",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Gia đình, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Gia đình, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -11456,7 +11616,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Khám phá & Quan sát – Những hoạt động yêu thích ở trường em",
             "chapter": "Chủ đề 4: Hoạt động yêu thích ở trường",
-            "summary": "Sáng tạo tranh cổ động, tranh sinh hoạt học đường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Sáng tạo tranh cổ động, tranh sinh hoạt học đường..",
             "questions": []
           },
           {
@@ -11464,7 +11624,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Thực hành sáng tạo – Những hoạt động yêu thích ở trường em",
             "chapter": "Chủ đề 4: Hoạt động yêu thích ở trường",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những hoạt động yêu thích ở trường em, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Những hoạt động yêu thích ở trường em, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -11472,7 +11632,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Khám phá & Quan sát – Những việc làm bình dị mà cao quý trong cuộc sống",
             "chapter": "Chủ đề 5: Việc làm cao quý",
-            "summary": "Vẽ tranh về gương người tốt việc tốt, nghề nghiệp phục vụ cộng đồng. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh về gương người tốt việc tốt, nghề nghiệp phục vụ cộng đồng..",
             "questions": []
           },
           {
@@ -11480,7 +11640,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Thực hành sáng tạo – Những việc làm bình dị mà cao quý trong cuộc sống",
             "chapter": "Chủ đề 5: Việc làm cao quý",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những việc làm bình dị mà cao quý trong cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Những việc làm bình dị mà cao quý trong cuộc sống, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -11488,7 +11648,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Khám phá & Quan sát – Cảnh sắc quê hương",
             "chapter": "Chủ đề 6: Cảnh sắc quê hương",
-            "summary": "Vẽ phong cảnh quê hương bằng chất liệu tự chọn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ phong cảnh quê hương bằng chất liệu tự chọn..",
             "questions": []
           },
           {
@@ -11496,7 +11656,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Thực hành sáng tạo – Cảnh sắc quê hương",
             "chapter": "Chủ đề 6: Cảnh sắc quê hương",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Cảnh sắc quê hương, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Cảnh sắc quê hương, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -11504,7 +11664,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Khám phá & Quan sát – Việt Nam đất nước, con người",
             "chapter": "Chủ đề 7: Việt Nam đất nước, con người",
-            "summary": "Giới thiệu bản sắc văn hóa các vùng miền qua mĩ thuật. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Giới thiệu bản sắc văn hóa các vùng miền qua mĩ thuật..",
             "questions": []
           },
           {
@@ -11512,7 +11672,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Thực hành sáng tạo – Việt Nam đất nước, con người",
             "chapter": "Chủ đề 7: Việt Nam đất nước, con người",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Việt Nam đất nước, con người, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Việt Nam đất nước, con người, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -11520,7 +11680,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Khám phá & Quan sát – Vì một thế giới hoà bình",
             "chapter": "Chủ đề 8: Vì một thế giới hòa bình",
-            "summary": "Vẽ tranh chủ đề hòa bình, tình hữu nghị quốc tế. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh chủ đề hòa bình, tình hữu nghị quốc tế..",
             "questions": []
           },
           {
@@ -11528,7 +11688,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Thực hành sáng tạo – Vì một thế giới hoà bình",
             "chapter": "Chủ đề 8: Vì một thế giới hòa bình",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vì một thế giới hoà bình, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Vì một thế giới hoà bình, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -11549,81 +11709,153 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-5-b2",
             "number": 2,
-            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ (Phần 1)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 2",
             "summary": "Thực hành Đi đều vòng trái/phải.",
             "questions": []
           },
           {
             "id": "gdtc-5-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
-            "chapter": "Chủ đề 1: Đội hình đội ngũ",
-            "summary": "Luyện tập giậm chân tại chỗ chuyển sang đi đều. và trò chơi vận động.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ (Phần 2)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ.",
             "questions": []
           },
           {
             "id": "gdtc-5-b4",
             "number": 4,
-            "title": "Bài 4: Bài tập thể dục (Phần 1)",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Bài thể dục phát triển chung lớp 5 nhịp nhàng theo nhạc.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 1)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
+            "summary": "Luyện tập giậm chân tại chỗ chuyển sang đi đều. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-5-b5",
             "number": 5,
-            "title": "Bài 5: Bài tập thể dục (Phần 2)",
-            "chapter": "Chủ đề 2: Bài tập thể dục",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ (Phần 2)",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Đội hình đội ngũ.",
             "questions": []
           },
           {
             "id": "gdtc-5-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Thực hành Chạy bền trên địa hình tự nhiên, nhảy dây bền.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Bài thể dục phát triển chung lớp 5 nhịp nhàng theo nhạc.",
             "questions": []
           },
           {
             "id": "gdtc-5-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "summary": "Luyện tập bật xa. và trò chơi vận động.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 4",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 4: Bài tập thể dục (Phần 1).",
             "questions": []
           },
           {
             "id": "gdtc-5-b8",
             "number": 8,
-            "title": "Bài 8: Môn Bóng đá / Bóng rổ (Phần 1)",
-            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
-            "summary": "Dẫn bóng vượt chướng ngại vật và phối hợp chuyền bóng.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
             "questions": []
           },
           {
             "id": "gdtc-5-b9",
             "number": 9,
-            "title": "Bài 9: Môn Bóng đá / Bóng rổ (Phần 2)",
-            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bóng đá / Bóng rổ.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Bài tập thể dục (Phần 2).",
             "questions": []
           },
           {
             "id": "gdtc-5-b10",
             "number": 10,
-            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1)",
-            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
-            "summary": "Hoàn thiện kĩ thuật bơi ếch hoặc phát cầu thấp tay.",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 6",
+            "summary": "Thực hành Chạy bền trên địa hình tự nhiên.",
             "questions": []
           },
           {
             "id": "gdtc-5-b11",
             "number": 11,
-            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2)",
-            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản (Phần 1)",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Luyện tập bật xa. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b12",
+            "number": 12,
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản (Phần 2)",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b13",
+            "number": 13,
+            "title": "Bài 8: Môn Bóng đá / Bóng rổ (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 8",
+            "summary": "Dẫn bóng vượt chướng ngại vật và phối hợp chuyền bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b14",
+            "number": 14,
+            "title": "Bài 8: Môn Bóng đá / Bóng rổ (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Môn Bóng đá / Bóng rổ (Phần 1).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b15",
+            "number": 15,
+            "title": "Bài 9: Môn Bóng đá / Bóng rổ (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bóng đá / Bóng rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b16",
+            "number": 16,
+            "title": "Bài 9: Môn Bóng đá / Bóng rổ (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Môn Bóng đá / Bóng rổ (Phần 2).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b17",
+            "number": 17,
+            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 10",
+            "summary": "Hoàn thiện kĩ thuật bơi ếch hoặc phát cầu thấp tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b18",
+            "number": 18,
+            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 10",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 10: Môn Bơi / Cầu lông (Phần 1).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b19",
+            "number": 19,
+            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 11",
             "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bơi / Cầu lông.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b20",
+            "number": 20,
+            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông – Bài 11",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 11: Môn Bơi / Cầu lông (Phần 2).",
             "questions": []
           }
         ]
@@ -13776,7 +14008,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Đọc nhạc & Nhạc cụ – Khởi đầu năm học",
             "chapter": "Chủ đề 1: Khởi đầu năm học",
-            "summary": "đọc nhạc bài số 1; tìm hiểu kí hiệu ghi nhạc..",
+            "summary": "đọc nhạc bài số 1.",
             "questions": []
           },
           {
@@ -13792,7 +14024,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Đọc nhạc & Nhạc cụ – Vẻ đẹp của âm nhạc",
             "chapter": "Chủ đề 2: Vẻ đẹp của âm nhạc",
-            "summary": "nghe nhạc Beethoven; đọc nhạc nhịp 2/4..",
+            "summary": "nghe nhạc Beethoven.",
             "questions": []
           },
           {
@@ -13903,7 +14135,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khám phá & Quan sát – Những sắc màu của tự nhiên",
             "chapter": "Chủ đề 1: Những sắc màu của tự nhiên",
-            "summary": "Hòa sắc từ tự nhiên, pha màu cơ bản và màu thứ cấp. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Hòa sắc từ tự nhiên, pha màu cơ bản và màu thứ cấp..",
             "questions": []
           },
           {
@@ -13911,7 +14143,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sáng tạo – Những sắc màu của tự nhiên",
             "chapter": "Chủ đề 1: Những sắc màu của tự nhiên",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những sắc màu của tự nhiên, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Những sắc màu của tự nhiên, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -13919,7 +14151,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Khám phá & Quan sát – Nghệ thuật tiền sử thế giới và Việt Nam",
             "chapter": "Chủ đề 2: Nghệ thuật tiền sử",
-            "summary": "Tìm hiểu hình vẽ hang động tiền sử và mô phỏng tạo hình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tìm hiểu hình vẽ hang động tiền sử và mô phỏng tạo hình..",
             "questions": []
           },
           {
@@ -13927,7 +14159,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Thực hành sáng tạo – Nghệ thuật tiền sử thế giới và Việt Nam",
             "chapter": "Chủ đề 2: Nghệ thuật tiền sử",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật tiền sử thế giới và Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật tiền sử thế giới và Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -13935,7 +14167,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Khám phá & Quan sát – Sáng tạo với những vật liệu thông dụng",
             "chapter": "Chủ đề 3: Vật liệu thông dụng",
-            "summary": "Thiết kế sản phẩm từ bìa, dây, vật liệu tái chế. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Thiết kế sản phẩm từ bìa, dây, vật liệu tái chế..",
             "questions": []
           },
           {
@@ -13943,7 +14175,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Thực hành sáng tạo – Sáng tạo với những vật liệu thông dụng",
             "chapter": "Chủ đề 3: Vật liệu thông dụng",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo với những vật liệu thông dụng, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo với những vật liệu thông dụng, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -13951,7 +14183,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Khám phá & Quan sát – Nghệ thuật Ai Cập cổ đại",
             "chapter": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
-            "summary": "Tìm hiểu kim tự tháp, tượng nhân sư và nghệ thuật phù điêu Ai Cập. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tìm hiểu kim tự tháp, tượng nhân sư và nghệ thuật phù điêu Ai Cập..",
             "questions": []
           },
           {
@@ -13959,7 +14191,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Thực hành sáng tạo – Nghệ thuật Ai Cập cổ đại",
             "chapter": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật Ai Cập cổ đại, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật Ai Cập cổ đại, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -13967,7 +14199,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Khám phá & Quan sát – Ngôi nhà của em",
             "chapter": "Chủ đề 5: Ngôi nhà của em",
-            "summary": "Thiết kế mô hình nhà ở kết hợp trang trí nội thất. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Thiết kế mô hình nhà ở kết hợp trang trí nội thất..",
             "questions": []
           },
           {
@@ -13975,7 +14207,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Thực hành sáng tạo – Ngôi nhà của em",
             "chapter": "Chủ đề 5: Ngôi nhà của em",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà của em, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà của em, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -13983,7 +14215,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Khám phá & Quan sát – Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật",
             "chapter": "Chủ đề 6: Vẻ đẹp thiên nhiên",
-            "summary": "Vẽ tranh phong cảnh bằng chất liệu màu nước/sáp dầu. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh phong cảnh bằng chất liệu màu nước/sáp dầu..",
             "questions": []
           },
           {
@@ -13991,7 +14223,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Thực hành sáng tạo – Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật",
             "chapter": "Chủ đề 6: Vẻ đẹp thiên nhiên",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -13999,7 +14231,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Khám phá & Quan sát – Hòa sắc của mùa xuân",
             "chapter": "Chủ đề 7: Hòa sắc mùa xuân",
-            "summary": "Ứng dụng gam màu tương đồng, tương phản trong tranh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Ứng dụng gam màu tương đồng, tương phản trong tranh..",
             "questions": []
           },
           {
@@ -14007,7 +14239,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Thực hành sáng tạo – Hòa sắc của mùa xuân",
             "chapter": "Chủ đề 7: Hòa sắc mùa xuân",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hòa sắc của mùa xuân, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Hòa sắc của mùa xuân, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -14015,7 +14247,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Khám phá & Quan sát – Nghệ thuật Hy Lạp cổ đại",
             "chapter": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
-            "summary": "Tìm hiểu kiến trúc đền Parthenon, gốm Hy Lạp và tỉ lệ cơ thể. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tìm hiểu kiến trúc đền Parthenon, gốm Hy Lạp và tỉ lệ cơ thể..",
             "questions": []
           },
           {
@@ -14023,7 +14255,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Thực hành sáng tạo – Nghệ thuật Hy Lạp cổ đại",
             "chapter": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật Hy Lạp cổ đại, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật Hy Lạp cổ đại, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -14031,7 +14263,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 17,
             "title": "Bài 17: Khám phá & Quan sát – Thiết kế thời trang và cuộc sống",
             "chapter": "Chủ đề 9: Thiết kế thời trang",
-            "summary": "Thiết kế trang phục từ giấy, vải vụn theo chủ đề. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Thiết kế trang phục từ giấy, vải vụn theo chủ đề..",
             "questions": []
           },
           {
@@ -14039,7 +14271,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 18,
             "title": "Bài 18: Thực hành sáng tạo – Thiết kế thời trang và cuộc sống",
             "chapter": "Chủ đề 9: Thiết kế thời trang",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế thời trang và cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế thời trang và cuộc sống, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -14047,7 +14279,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 19,
             "title": "Bài 19: Khám phá & Quan sát – Nghệ thuật đại chúng",
             "chapter": "Chủ đề 10: Nghệ thuật đại chúng",
-            "summary": "Làm quen nghệ thuật Pop Art và sáng tạo sản phẩm. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Làm quen nghệ thuật Pop Art và sáng tạo sản phẩm..",
             "questions": []
           },
           {
@@ -14055,7 +14287,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 20,
             "title": "Bài 20: Thực hành sáng tạo – Nghệ thuật đại chúng",
             "chapter": "Chủ đề 10: Nghệ thuật đại chúng",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật đại chúng, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật đại chúng, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -14076,65 +14308,113 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-6-b2",
             "number": 2,
-            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 2",
             "summary": "Thực hành Động tác bổ trợ.",
             "questions": []
           },
           {
             "id": "gdtc-6-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
-            "summary": "Luyện tập xuất phát cao và chạy lao sau xuất phát. và trò chơi vận động.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m).",
             "questions": []
           },
           {
             "id": "gdtc-6-b4",
             "number": 4,
-            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy xa kiểu ngồi",
-            "chapter": "Chủ đề 2: Nhảy xa kiểu ngồi",
-            "summary": "Thực hành Chạy đà, giậm nhảy.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 3",
+            "summary": "Luyện tập xuất phát cao và chạy lao sau xuất phát. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-6-b5",
             "number": 5,
-            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa kiểu ngồi",
-            "chapter": "Chủ đề 2: Nhảy xa kiểu ngồi",
-            "summary": "Luyện tập bước bộ trên không và rơi xuống cát. và trò chơi vận động.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m).",
             "questions": []
           },
           {
             "id": "gdtc-6-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Bài thể dục nhịp điệu",
-            "chapter": "Chủ đề 3: Bài thể dục nhịp điệu",
-            "summary": "Thực hành Các động tác tay, chân.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy xa kiểu ngồi",
+            "chapter": "Chủ đề 2: Nhảy xa kiểu ngồi – Bài 4",
+            "summary": "Thực hành Chạy đà.",
             "questions": []
           },
           {
             "id": "gdtc-6-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục nhịp điệu",
-            "chapter": "Chủ đề 3: Bài thể dục nhịp điệu",
-            "summary": "Luyện tập bật nhảy kết hợp nhịp điệu. và trò chơi vận động.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa kiểu ngồi (Phần 1)",
+            "chapter": "Chủ đề 2: Nhảy xa kiểu ngồi – Bài 5",
+            "summary": "Luyện tập bước bộ trên không và rơi xuống cát. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-6-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông",
-            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
-            "summary": "Thực hành Kĩ thuật cơ bản: dẫn bóng.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa kiểu ngồi (Phần 2)",
+            "chapter": "Chủ đề 2: Nhảy xa kiểu ngồi – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Phối hợp vận dụng – Nhảy xa kiểu ngồi.",
             "questions": []
           },
           {
             "id": "gdtc-6-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông",
-            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "title": "Bài 6: Kĩ thuật cơ bản – Bài thể dục nhịp điệu",
+            "chapter": "Chủ đề 3: Bài thể dục nhịp điệu – Bài 6",
+            "summary": "Thực hành Các động tác tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b10",
+            "number": 10,
+            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục nhịp điệu (Phần 1)",
+            "chapter": "Chủ đề 3: Bài thể dục nhịp điệu – Bài 7",
+            "summary": "Luyện tập bật nhảy kết hợp nhịp điệu. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b11",
+            "number": 11,
+            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục nhịp điệu (Phần 2)",
+            "chapter": "Chủ đề 3: Bài thể dục nhịp điệu – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Bài thể dục nhịp điệu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b12",
+            "number": 12,
+            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 8",
+            "summary": "Thực hành Kĩ thuật cơ bản: dẫn bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b13",
+            "number": 13,
+            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b14",
+            "number": 14,
+            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 9",
             "summary": "Luyện tập chuyền bóng hoặc đánh cầu cao tay. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b15",
+            "number": 15,
+            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông.",
             "questions": []
           }
         ]
@@ -15995,7 +16275,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khám phá & Quan sát – Sự biểu cảm của sắc màu",
             "chapter": "Chủ đề 1: Sự biểu cảm của sắc màu",
-            "summary": "Khai thác hòa sắc trong thể hiện cảm xúc bức tranh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Khai thác hòa sắc trong thể hiện cảm xúc bức tranh..",
             "questions": []
           },
           {
@@ -16003,7 +16283,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sáng tạo – Sự biểu cảm của sắc màu",
             "chapter": "Chủ đề 1: Sự biểu cảm của sắc màu",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sự biểu cảm của sắc màu, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Sự biểu cảm của sắc màu, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -16011,7 +16291,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Khám phá & Quan sát – Nghệ thuật trung đại thế giới và Việt Nam",
             "chapter": "Chủ đề 2: Nghệ thuật trung đại",
-            "summary": "Tìm hiểu kiến trúc, điêu khắc thời Lý - Trần và Phục hưng sơ kì. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Tìm hiểu kiến trúc, điêu khắc thời Lý - Trần và Phục hưng sơ kì..",
             "questions": []
           },
           {
@@ -16019,7 +16299,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Thực hành sáng tạo – Nghệ thuật trung đại thế giới và Việt Nam",
             "chapter": "Chủ đề 2: Nghệ thuật trung đại",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật trung đại thế giới và Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật trung đại thế giới và Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -16027,7 +16307,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Khám phá & Quan sát – Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế",
             "chapter": "Chủ đề 3: Vật liệu tái chế",
-            "summary": "Thiết kế đồ dùng trang trí từ nhựa, giấy, kim loại phế liệu. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Thiết kế đồ dùng trang trí từ nhựa, giấy, kim loại phế liệu..",
             "questions": []
           },
           {
@@ -16035,7 +16315,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Thực hành sáng tạo – Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế",
             "chapter": "Chủ đề 3: Vật liệu tái chế",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -16043,7 +16323,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Khám phá & Quan sát – Âm nhạc và mĩ thuật",
             "chapter": "Chủ đề 4: Âm nhạc và mĩ thuật",
-            "summary": "Chuyển hóa nhịp điệu, giai điệu âm nhạc thành bố cục tạo hình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Chuyển hóa nhịp điệu, giai điệu âm nhạc thành bố cục tạo hình..",
             "questions": []
           },
           {
@@ -16051,7 +16331,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Thực hành sáng tạo – Âm nhạc và mĩ thuật",
             "chapter": "Chủ đề 4: Âm nhạc và mĩ thuật",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Âm nhạc và mĩ thuật, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Âm nhạc và mĩ thuật, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -16059,7 +16339,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Khám phá & Quan sát – Nghệ thuật và thế giới tuổi teen",
             "chapter": "Chủ đề 5: Nghệ thuật vị thành niên",
-            "summary": "Vẽ tranh, thiết kế nhân vật, truyện tranh ngắn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Vẽ tranh, thiết kế nhân vật, truyện tranh ngắn..",
             "questions": []
           },
           {
@@ -16067,7 +16347,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Thực hành sáng tạo – Nghệ thuật và thế giới tuổi teen",
             "chapter": "Chủ đề 5: Nghệ thuật vị thành niên",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật và thế giới tuổi teen, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật và thế giới tuổi teen, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -16075,7 +16355,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Khám phá & Quan sát – Nghệ thuật đồ họa (Tranh in)",
             "chapter": "Chủ đề 6: Nghệ thuật đồ họa",
-            "summary": "Thực hành kĩ thuật tranh in độc bản, in khắc xốp. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "kĩ thuật tranh in độc bản, in khắc xốp..",
             "questions": []
           },
           {
@@ -16083,7 +16363,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Thực hành sáng tạo – Nghệ thuật đồ họa (Tranh in)",
             "chapter": "Chủ đề 6: Nghệ thuật đồ họa",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật đồ họa (Tranh in), trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật đồ họa (Tranh in), trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -16091,7 +16371,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Khám phá & Quan sát – Thiết kế đồ họa (Biểu trưng, poster)",
             "chapter": "Chủ đề 7: Thiết kế đồ họa",
-            "summary": "Thiết kế logo, poster tuyên truyền sự kiện trường học. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Thiết kế logo, poster tuyên truyền sự kiện trường học..",
             "questions": []
           },
           {
@@ -16099,7 +16379,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Thực hành sáng tạo – Thiết kế đồ họa (Biểu trưng, poster)",
             "chapter": "Chủ đề 7: Thiết kế đồ họa",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế đồ họa (Biểu trưng, poster), trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế đồ họa (Biểu trưng, poster), trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
@@ -16107,7 +16387,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Khám phá & Quan sát – Nghệ thuật truyền thống Việt Nam",
             "chapter": "Chủ đề 8: Nghệ thuật truyền thống Việt Nam",
-            "summary": "Nghiên cứu và ứng dụng họa tiết gốm, tranh dân gian. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "summary": "Nghiên cứu và ứng dụng họa tiết gốm, tranh dân gian..",
             "questions": []
           },
           {
@@ -16115,7 +16395,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Thực hành sáng tạo – Nghệ thuật truyền thống Việt Nam",
             "chapter": "Chủ đề 8: Nghệ thuật truyền thống Việt Nam",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật truyền thống Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "summary": "tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật truyền thống Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -16136,65 +16416,113 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-7-b2",
             "number": 2,
-            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 2",
             "summary": "Thực hành Xuất phát cao.",
             "questions": []
           },
           {
             "id": "gdtc-7-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
-            "summary": "Luyện tập chạy lao và chạy giữa quãng. và trò chơi vận động.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m).",
             "questions": []
           },
           {
             "id": "gdtc-7-b4",
             "number": 4,
-            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy xa / Nhảy cao",
-            "chapter": "Chủ đề 2: Nhảy xa / Nhảy cao",
-            "summary": "Thực hành Kĩ thuật chạy đà, giậm nhảy.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 3",
+            "summary": "Luyện tập chạy lao và chạy giữa quãng. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-7-b5",
             "number": 5,
-            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa / Nhảy cao",
-            "chapter": "Chủ đề 2: Nhảy xa / Nhảy cao",
-            "summary": "Luyện tập trên không và tiếp đất an toàn. và trò chơi vận động.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m) – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m).",
             "questions": []
           },
           {
             "id": "gdtc-7-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Bài thể dục liên hoàn",
-            "chapter": "Chủ đề 3: Bài thể dục liên hoàn",
-            "summary": "Thực hành Hoàn thiện bài thể dục nhịp điệu phối hợp tay, chân.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy xa / Nhảy cao",
+            "chapter": "Chủ đề 2: Nhảy xa / Nhảy cao – Bài 4",
+            "summary": "Thực hành Kĩ thuật chạy đà.",
             "questions": []
           },
           {
             "id": "gdtc-7-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục liên hoàn",
-            "chapter": "Chủ đề 3: Bài thể dục liên hoàn",
-            "summary": "Luyện tập thân mình. và trò chơi vận động.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa / Nhảy cao (Phần 1)",
+            "chapter": "Chủ đề 2: Nhảy xa / Nhảy cao – Bài 5",
+            "summary": "Luyện tập trên không và tiếp đất an toàn. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-7-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông",
-            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
-            "summary": "Thực hành Nâng cao kĩ thuật chuyền bóng.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa / Nhảy cao (Phần 2)",
+            "chapter": "Chủ đề 2: Nhảy xa / Nhảy cao – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Phối hợp vận dụng – Nhảy xa / Nhảy cao.",
             "questions": []
           },
           {
             "id": "gdtc-7-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông",
-            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "title": "Bài 6: Kĩ thuật cơ bản – Bài thể dục liên hoàn",
+            "chapter": "Chủ đề 3: Bài thể dục liên hoàn – Bài 6",
+            "summary": "Thực hành Hoàn thiện bài thể dục nhịp điệu phối hợp tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b10",
+            "number": 10,
+            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục liên hoàn (Phần 1)",
+            "chapter": "Chủ đề 3: Bài thể dục liên hoàn – Bài 7",
+            "summary": "Luyện tập thân mình. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b11",
+            "number": 11,
+            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục liên hoàn (Phần 2)",
+            "chapter": "Chủ đề 3: Bài thể dục liên hoàn – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Bài thể dục liên hoàn.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b12",
+            "number": 12,
+            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 8",
+            "summary": "Thực hành Nâng cao kĩ thuật chuyền bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b13",
+            "number": 13,
+            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b14",
+            "number": 14,
+            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 9",
             "summary": "Luyện tập dẫn bóng hoặc đánh cầu trái tay. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b15",
+            "number": 15,
+            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông.",
             "questions": []
           }
         ]
@@ -18128,7 +18456,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Hát & Nghe nhạc – Âm nhạc và những sắc màu",
             "chapter": "Chủ đề 5: Âm nhạc và những sắc màu",
-            "summary": "Thực hành hòa tấu nhạc cụ gõ và giai điệu..",
+            "summary": "hòa tấu nhạc cụ gõ và giai điệu..",
             "questions": []
           },
           {
@@ -18197,129 +18525,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-8-b1",
             "number": 1,
-            "title": "Bài 1: Khám phá & Quan sát – Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX",
-            "chapter": "Chủ đề 1: Nghệ thuật Phục hưng",
-            "summary": "Tìm hiểu Leonardo da Vinci, Michelangelo, Van Gogh và luật phối cảnh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 1: Hình tượng con người trong sáng tạo mĩ thuật",
+            "chapter": "Chủ đề 1: Hình tượng con người trong mĩ thuật",
+            "summary": "Tìm hiểu cách thể hiện hình tượng con người và tỉ lệ cơ thể người trong sáng tạo mĩ thuật.",
             "questions": []
           },
           {
             "id": "mithuat-8-b2",
             "number": 2,
-            "title": "Bài 2: Thực hành sáng tạo – Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX",
-            "chapter": "Chủ đề 1: Nghệ thuật Phục hưng",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 2: Một số dạng bố cục trong tranh sinh hoạt",
+            "chapter": "Chủ đề 1: Hình tượng con người trong mĩ thuật",
+            "summary": "Nhận biết và vận dụng một số dạng bố cục cơ bản để vẽ tranh sinh hoạt.",
             "questions": []
           },
           {
             "id": "mithuat-8-b3",
             "number": 3,
-            "title": "Bài 3: Khám phá & Quan sát – Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954",
-            "chapter": "Chủ đề 2: Mĩ thuật Việt Nam hiện đại",
-            "summary": "Tìm hiểu Trường Cao đẳng Mĩ thuật Đông Dương và các danh họa. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 3: Nghệ thuật truyền thống",
+            "chapter": "Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống",
+            "summary": "Tìm hiểu giá trị tạo hình và vẻ đẹp của nghệ thuật truyền thống Việt Nam.",
             "questions": []
           },
           {
             "id": "mithuat-8-b4",
             "number": 4,
-            "title": "Bài 4: Thực hành sáng tạo – Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954",
-            "chapter": "Chủ đề 2: Mĩ thuật Việt Nam hiện đại",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 4: Thiết kế trang phục với hoa văn dân tộc thiểu số",
+            "chapter": "Chủ đề 2: Vẻ đẹp trong nghệ thuật truyền thống",
+            "summary": "Khai thác họa tiết, hoa văn dân tộc thiểu số vào thiết kế, trang trí trang phục.",
             "questions": []
           },
           {
             "id": "mithuat-8-b5",
             "number": 5,
-            "title": "Bài 5: Khám phá & Quan sát – Thiết kế đồ họa và tạo dáng sản phẩm",
-            "chapter": "Chủ đề 3: Thiết kế sản phẩm",
-            "summary": "Thiết kế bao bì sản phẩm hoặc đồ dùng học tập thân thiện môi trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 5: Tác phẩm hội hoạ chủ đề Niềm vui, hạnh phúc",
+            "chapter": "Chủ đề 3: Niềm vui, hạnh phúc",
+            "summary": "Sáng tác tác phẩm hội họa thể hiện niềm vui, hạnh phúc trong cuộc sống.",
             "questions": []
           },
           {
             "id": "mithuat-8-b6",
             "number": 6,
-            "title": "Bài 6: Thực hành sáng tạo – Thiết kế đồ họa và tạo dáng sản phẩm",
-            "chapter": "Chủ đề 3: Thiết kế sản phẩm",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế đồ họa và tạo dáng sản phẩm, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 6: Thiết kế quà sinh nhật từ vật liệu sẵn có",
+            "chapter": "Chủ đề 3: Niềm vui, hạnh phúc",
+            "summary": "Tận dụng vật liệu sẵn có để thiết kế, tạo hình món quà sinh nhật thẩm mĩ và ý nghĩa.",
             "questions": []
           },
           {
             "id": "mithuat-8-b7",
             "number": 7,
-            "title": "Bài 7: Khám phá & Quan sát – Không gian đa chiều trong hội họa",
-            "chapter": "Chủ đề 4: Không gian đa chiều",
-            "summary": "Vận dụng luật xa gần 1 điểm tụ, 2 điểm tụ vào tranh vẽ. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 7: Một số trường phái mĩ thuật phương Tây thời kì hiện đại",
+            "chapter": "Chủ đề 4: Mĩ thuật thế giới thời kì hiện đại",
+            "summary": "Tìm hiểu đặc điểm của một số trường phái mĩ thuật phương Tây thời kì hiện đại (Ấn tượng, Dã thú, Lập thể...).",
             "questions": []
           },
           {
             "id": "mithuat-8-b8",
             "number": 8,
-            "title": "Bài 8: Thực hành sáng tạo – Không gian đa chiều trong hội họa",
-            "chapter": "Chủ đề 4: Không gian đa chiều",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Không gian đa chiều trong hội họa, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 8: Nghệ thuật trang trí đồ gia dụng",
+            "chapter": "Chủ đề 4: Mĩ thuật thế giới thời kì hiện đại",
+            "summary": "Vận dụng kiến thức tạo hình, màu sắc để trang trí sản phẩm đồ gia dụng.",
             "questions": []
           },
           {
             "id": "mithuat-8-b9",
             "number": 9,
-            "title": "Bài 9: Khám phá & Quan sát – Nghệ thuật sắp đặt và trình diễn",
-            "chapter": "Chủ đề 5: Nghệ thuật sắp đặt",
-            "summary": "Sáng tạo tác phẩm sắp đặt không gian từ vật liệu sẵn có. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 9: Vẻ đẹp người lao động trong sáng tạo mĩ thuật",
+            "chapter": "Chủ đề 5: Vẻ đẹp trong lao động",
+            "summary": "Quan sát và thể hiện vẻ đẹp hình thể, tinh thần của người lao động trong tác phẩm mĩ thuật.",
             "questions": []
           },
           {
             "id": "mithuat-8-b10",
             "number": 10,
-            "title": "Bài 10: Thực hành sáng tạo – Nghệ thuật sắp đặt và trình diễn",
-            "chapter": "Chủ đề 5: Nghệ thuật sắp đặt",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật sắp đặt và trình diễn, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 10: Nghệ thuật trổ giấy trong trang trí",
+            "chapter": "Chủ đề 5: Vẻ đẹp trong lao động",
+            "summary": "Tìm hiểu kĩ thuật cắt, trổ giấy tạo hình và ứng dụng vào trang trí sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-8-b11",
             "number": 11,
-            "title": "Bài 11: Khám phá & Quan sát – Đồ vật với không gian sống",
-            "chapter": "Chủ đề 6: Đồ vật và không gian sống",
-            "summary": "Thiết kế không gian phòng học, góc sinh hoạt hài hòa. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 11: Phương tiện giao thông công cộng trong sáng tạo mĩ thuật",
+            "chapter": "Chủ đề 6: Giao thông công cộng trong sáng tạo mĩ thuật",
+            "summary": "Tìm hiểu hình dáng, màu sắc phương tiện giao thông công cộng và thể hiện trong sáng tạo mĩ thuật.",
             "questions": []
           },
           {
             "id": "mithuat-8-b12",
             "number": 12,
-            "title": "Bài 12: Thực hành sáng tạo – Đồ vật với không gian sống",
-            "chapter": "Chủ đề 6: Đồ vật và không gian sống",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Đồ vật với không gian sống, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 12: Thiết kế, trang trí áo phông",
+            "chapter": "Chủ đề 6: Giao thông công cộng trong sáng tạo mĩ thuật",
+            "summary": "Thiết kế họa tiết, bố cục và màu sắc để trang trí áo phông theo chủ đề.",
             "questions": []
           },
           {
             "id": "mithuat-8-b13",
             "number": 13,
-            "title": "Bài 13: Khám phá & Quan sát – Nghệ thuật truyền thống Việt Nam",
-            "chapter": "Chủ đề 7: Điêu khắc, kiến trúc truyền thống",
-            "summary": "Tìm hiểu điêu khắc Chăm-pa và kiến trúc cổ Việt Nam. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 13: Một số tác giả, tác phẩm mĩ thuật Việt Nam thời kì hiện đại",
+            "chapter": "Chủ đề 7: Mĩ thuật Việt Nam thời kì hiện đại",
+            "summary": "Tìm hiểu một số họa sĩ, nhà điêu khắc và tác phẩm tiêu biểu của mĩ thuật Việt Nam thời kì hiện đại.",
             "questions": []
           },
           {
             "id": "mithuat-8-b14",
             "number": 14,
-            "title": "Bài 14: Thực hành sáng tạo – Nghệ thuật truyền thống Việt Nam",
-            "chapter": "Chủ đề 7: Điêu khắc, kiến trúc truyền thống",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật truyền thống Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 14: Nghệ thuật thiết kế Việt Nam thời kì hiện đại",
+            "chapter": "Chủ đề 7: Mĩ thuật Việt Nam thời kì hiện đại",
+            "summary": "Tìm hiểu đặc điểm và thành tựu của nghệ thuật thiết kế Việt Nam thời kì hiện đại.",
             "questions": []
           },
           {
             "id": "mithuat-8-b15",
             "number": 15,
-            "title": "Bài 15: Khám phá & Quan sát – Hướng nghiệp mĩ thuật",
-            "chapter": "Chủ đề 8: Hướng nghiệp mĩ thuật",
-            "summary": "Tìm hiểu các ngành nghề liên quan đến mĩ thuật ứng dụng. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "title": "Bài 15: Ngành, nghề liên quan đến mĩ thuật tạo hình",
+            "chapter": "Chủ đề 8: Hướng nghiệp",
+            "summary": "Tìm hiểu các ngành, nghề thuộc lĩnh vực mĩ thuật tạo hình trong đời sống xã hội.",
             "questions": []
           },
           {
             "id": "mithuat-8-b16",
             "number": 16,
-            "title": "Bài 16: Thực hành sáng tạo – Hướng nghiệp mĩ thuật",
-            "chapter": "Chủ đề 8: Hướng nghiệp mĩ thuật",
-            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hướng nghiệp mĩ thuật, trưng bày và nhận xét sản phẩm.",
+            "title": "Bài 16: Đặc trưng của ngành, nghề liên quan đến mĩ thuật tạo hình",
+            "chapter": "Chủ đề 8: Hướng nghiệp",
+            "summary": "Phân tích đặc trưng, yêu cầu năng lực và cơ hội nghề nghiệp của mĩ thuật tạo hình.",
             "questions": []
           }
         ]
@@ -18340,81 +18668,153 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-8-b2",
             "number": 2,
-            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (100m)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (100m) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 2",
             "summary": "Thực hành Xuất phát thấp.",
             "questions": []
           },
           {
             "id": "gdtc-8-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (100m)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
-            "summary": "Luyện tập chạy lao sau xuất phát và về đích. và trò chơi vận động.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (100m) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (100m).",
             "questions": []
           },
           {
             "id": "gdtc-8-b4",
             "number": 4,
-            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy cao kiểu bước qua",
-            "chapter": "Chủ đề 2: Nhảy cao kiểu bước qua",
-            "summary": "Thực hành Chạy đà, giậm nhảy.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (100m) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 3",
+            "summary": "Luyện tập chạy lao sau xuất phát và về đích. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-8-b5",
             "number": 5,
-            "title": "Bài 5: Phối hợp vận dụng – Nhảy cao kiểu bước qua",
-            "chapter": "Chủ đề 2: Nhảy cao kiểu bước qua",
-            "summary": "Luyện tập qua xà và tiếp đất. và trò chơi vận động.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (100m) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (100m).",
             "questions": []
           },
           {
             "id": "gdtc-8-b6",
             "number": 6,
-            "title": "Bài 6: Chạy cự li trung bình (Phần 1)",
-            "chapter": "Chủ đề 3: Chạy cự li trung bình",
-            "summary": "Phân phối sức và kĩ thuật hô hấp khi chạy bền.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy cao kiểu bước qua",
+            "chapter": "Chủ đề 2: Nhảy cao kiểu bước qua – Bài 4",
+            "summary": "Thực hành Chạy đà.",
             "questions": []
           },
           {
             "id": "gdtc-8-b7",
             "number": 7,
-            "title": "Bài 7: Chạy cự li trung bình (Phần 2)",
-            "chapter": "Chủ đề 3: Chạy cự li trung bình",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy cự li trung bình.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy cao kiểu bước qua (Phần 1)",
+            "chapter": "Chủ đề 2: Nhảy cao kiểu bước qua – Bài 5",
+            "summary": "Luyện tập qua xà và tiếp đất. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-8-b8",
             "number": 8,
-            "title": "Bài 8: Bài tập thể dục (Phần 1)",
-            "chapter": "Chủ đề 4: Bài tập thể dục",
-            "summary": "Bài thể dục nhịp điệu nâng cao.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy cao kiểu bước qua (Phần 2)",
+            "chapter": "Chủ đề 2: Nhảy cao kiểu bước qua – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Phối hợp vận dụng – Nhảy cao kiểu bước qua.",
             "questions": []
           },
           {
             "id": "gdtc-8-b9",
             "number": 9,
-            "title": "Bài 9: Bài tập thể dục (Phần 2)",
-            "chapter": "Chủ đề 4: Bài tập thể dục",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
+            "title": "Bài 6: Chạy cự li trung bình (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 3: Chạy cự li trung bình – Bài 6",
+            "summary": "Phân phối sức và kĩ thuật hô hấp khi chạy bền.",
             "questions": []
           },
           {
             "id": "gdtc-8-b10",
             "number": 10,
-            "title": "Bài 10: Kĩ thuật cơ bản – Cầu lông / Bóng đá / Bóng rổ",
-            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ",
-            "summary": "Thực hành Đập cầu thuận tay.",
+            "title": "Bài 6: Chạy cự li trung bình (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 3: Chạy cự li trung bình – Bài 6",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 6: Chạy cự li trung bình (Phần 1).",
             "questions": []
           },
           {
             "id": "gdtc-8-b11",
             "number": 11,
-            "title": "Bài 11: Phối hợp vận dụng – Cầu lông / Bóng đá / Bóng rổ",
-            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ",
+            "title": "Bài 7: Chạy cự li trung bình (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 3: Chạy cự li trung bình – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy cự li trung bình.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b12",
+            "number": 12,
+            "title": "Bài 7: Chạy cự li trung bình (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 3: Chạy cự li trung bình – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Chạy cự li trung bình (Phần 2).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b13",
+            "number": 13,
+            "title": "Bài 8: Bài tập thể dục (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 4: Bài tập thể dục – Bài 8",
+            "summary": "Bài thể dục nhịp điệu nâng cao.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b14",
+            "number": 14,
+            "title": "Bài 8: Bài tập thể dục (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 4: Bài tập thể dục – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Bài tập thể dục (Phần 1).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b15",
+            "number": 15,
+            "title": "Bài 9: Bài tập thể dục (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 4: Bài tập thể dục – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b16",
+            "number": 16,
+            "title": "Bài 9: Bài tập thể dục (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 4: Bài tập thể dục – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Bài tập thể dục (Phần 2).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b17",
+            "number": 17,
+            "title": "Bài 10: Kĩ thuật cơ bản – Cầu lông / Bóng đá / Bóng rổ (Phần 1)",
+            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ – Bài 10",
+            "summary": "Thực hành Đập cầu thuận tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b18",
+            "number": 18,
+            "title": "Bài 10: Kĩ thuật cơ bản – Cầu lông / Bóng đá / Bóng rổ (Phần 2)",
+            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ – Bài 10",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 10: Kĩ thuật cơ bản – Cầu lông / Bóng đá / Bóng rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b19",
+            "number": 19,
+            "title": "Bài 11: Phối hợp vận dụng – Cầu lông / Bóng đá / Bóng rổ (Phần 1)",
+            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ – Bài 11",
             "summary": "Luyện tập đỡ bóng bằng ngực/đùi hoặc ném rổ một tay. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b20",
+            "number": 20,
+            "title": "Bài 11: Phối hợp vận dụng – Cầu lông / Bóng đá / Bóng rổ (Phần 2)",
+            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ – Bài 11",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 11: Phối hợp vận dụng – Cầu lông / Bóng đá / Bóng rổ.",
             "questions": []
           }
         ]
@@ -20560,65 +20960,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-9-b2",
             "number": 2,
-            "title": "Bài 2: Chạy cự li ngắn (100m) (Phần 1)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
+            "title": "Bài 2: Chạy cự li ngắn (100m) (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 2",
             "summary": "Phối hợp hoàn chỉnh 4 giai đoạn chạy ngắn 100m.",
             "questions": []
           },
           {
             "id": "gdtc-9-b3",
             "number": 3,
-            "title": "Bài 3: Chạy cự li ngắn (100m) (Phần 2)",
-            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy cự li ngắn (100m).",
+            "title": "Bài 2: Chạy cự li ngắn (100m) (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Chạy cự li ngắn (100m) (Phần 1).",
             "questions": []
           },
           {
             "id": "gdtc-9-b4",
             "number": 4,
-            "title": "Bài 4: Nhảy cao / Nhảy xa (Phần 1)",
-            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa",
-            "summary": "Hoàn thiện kĩ thuật giậm nhảy và qua xà.",
+            "title": "Bài 3: Chạy cự li ngắn (100m) (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy cự li ngắn (100m).",
             "questions": []
           },
           {
             "id": "gdtc-9-b5",
             "number": 5,
-            "title": "Bài 5: Nhảy cao / Nhảy xa (Phần 2)",
-            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Nhảy cao / Nhảy xa.",
+            "title": "Bài 3: Chạy cự li ngắn (100m) (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m) – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Chạy cự li ngắn (100m) (Phần 2).",
             "questions": []
           },
           {
             "id": "gdtc-9-b6",
             "number": 6,
-            "title": "Bài 6: Chạy bền (Phần 1)",
-            "chapter": "Chủ đề 3: Chạy bền",
-            "summary": "Chạy cự li trung bình và hồi phục sau chạy.",
+            "title": "Bài 4: Nhảy cao / Nhảy xa (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa – Bài 4",
+            "summary": "Hoàn thiện kĩ thuật giậm nhảy và qua xà.",
             "questions": []
           },
           {
             "id": "gdtc-9-b7",
             "number": 7,
-            "title": "Bài 7: Chạy bền (Phần 2)",
-            "chapter": "Chủ đề 3: Chạy bền",
-            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy bền.",
+            "title": "Bài 4: Nhảy cao / Nhảy xa (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa – Bài 4",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 4: Nhảy cao / Nhảy xa (Phần 1).",
             "questions": []
           },
           {
             "id": "gdtc-9-b8",
             "number": 8,
-            "title": "Bài 8: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 1)",
-            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền",
-            "summary": "Vận dụng kĩ chiến thuật cơ bản trong thi đấu tập.",
+            "title": "Bài 5: Nhảy cao / Nhảy xa (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Nhảy cao / Nhảy xa.",
             "questions": []
           },
           {
             "id": "gdtc-9-b9",
             "number": 9,
-            "title": "Bài 9: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 2)",
-            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền",
+            "title": "Bài 5: Nhảy cao / Nhảy xa (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Nhảy cao / Nhảy xa (Phần 2).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b10",
+            "number": 10,
+            "title": "Bài 6: Chạy bền (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 3: Chạy bền – Bài 6",
+            "summary": "Chạy cự li trung bình và hồi phục sau chạy.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b11",
+            "number": 11,
+            "title": "Bài 6: Chạy bền (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 3: Chạy bền – Bài 6",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 6: Chạy bền (Phần 1).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b12",
+            "number": 12,
+            "title": "Bài 7: Chạy bền (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 3: Chạy bền – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy bền.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b13",
+            "number": 13,
+            "title": "Bài 7: Chạy bền (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 3: Chạy bền – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Chạy bền (Phần 2).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b14",
+            "number": 14,
+            "title": "Bài 8: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 1) (Phần 1)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền – Bài 8",
+            "summary": "Vận dụng kĩ chiến thuật cơ bản trong thi đấu tập.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b15",
+            "number": 15,
+            "title": "Bài 8: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 1) (Phần 2)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 1).",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b16",
+            "number": 16,
+            "title": "Bài 9: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 2) (Phần 1)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền – Bài 9",
             "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b17",
+            "number": 17,
+            "title": "Bài 9: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 2) (Phần 2)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 2).",
             "questions": []
           }
         ]
@@ -23433,65 +23897,113 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-10-b2",
             "number": 2,
-            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật đá bóng, khống chế và dẫn bóng",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10",
+            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật đá bóng, khống chế và dẫn bóng (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10 – Bài 2",
             "summary": "Thực hành Kĩ thuật đá bóng bằng mu trong.",
             "questions": []
           },
           {
             "id": "gdtc-10-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật đá bóng, khống chế và dẫn bóng",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10",
-            "summary": "Luyện tập lòng bàn chân và phối hợp nhóm. và trò chơi vận động.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật đá bóng, khống chế và dẫn bóng (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10 – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Kĩ thuật cơ bản – Kĩ thuật đá bóng, khống chế và dẫn bóng.",
             "questions": []
           },
           {
             "id": "gdtc-10-b4",
             "number": 4,
-            "title": "Bài 4: Kĩ thuật cơ bản – Kĩ thuật chuyền bóng, đệm bóng, phát bóng",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 10",
-            "summary": "Thực hành Tư thế chuẩn bị, chuyền bóng cao tay.",
+            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật đá bóng, khống chế và dẫn bóng (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10 – Bài 3",
+            "summary": "Luyện tập lòng bàn chân và phối hợp nhóm. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-10-b5",
             "number": 5,
-            "title": "Bài 5: Phối hợp vận dụng – Kĩ thuật chuyền bóng, đệm bóng, phát bóng",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 10",
-            "summary": "Luyện tập đệm bóng thấp tay. và trò chơi vận động.",
+            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật đá bóng, khống chế và dẫn bóng (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10 – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Kĩ thuật đá bóng, khống chế và dẫn bóng.",
             "questions": []
           },
           {
             "id": "gdtc-10-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10",
-            "summary": "Thực hành Kĩ thuật lên rổ hai bước.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Kĩ thuật chuyền bóng, đệm bóng, phát bóng",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 10 – Bài 4",
+            "summary": "Thực hành Tư thế chuẩn bị.",
             "questions": []
           },
           {
             "id": "gdtc-10-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10",
-            "summary": "Luyện tập chuyền bóng bật đất và phòng thủ cá nhân. và trò chơi vận động.",
+            "title": "Bài 5: Phối hợp vận dụng – Kĩ thuật chuyền bóng, đệm bóng, phát bóng (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 10 – Bài 5",
+            "summary": "Luyện tập đệm bóng thấp tay. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-10-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Kĩ thuật di chuyển và đánh cầu cơ bản",
-            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 10",
-            "summary": "Thực hành Cầm vợt, phát cầu thuận tay/trái tay.",
+            "title": "Bài 5: Phối hợp vận dụng – Kĩ thuật chuyền bóng, đệm bóng, phát bóng (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 10 – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Phối hợp vận dụng – Kĩ thuật chuyền bóng, đệm bóng, phát bóng.",
             "questions": []
           },
           {
             "id": "gdtc-10-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật di chuyển và đánh cầu cơ bản",
-            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 10",
+            "title": "Bài 6: Kĩ thuật cơ bản – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10 – Bài 6",
+            "summary": "Thực hành Kĩ thuật lên rổ hai bước.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b10",
+            "number": 10,
+            "title": "Bài 6: Kĩ thuật cơ bản – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10 – Bài 6",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 6: Kĩ thuật cơ bản – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b11",
+            "number": 11,
+            "title": "Bài 7: Phối hợp vận dụng – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10 – Bài 7",
+            "summary": "Luyện tập chuyền bóng bật đất và phòng thủ cá nhân. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b12",
+            "number": 12,
+            "title": "Bài 7: Phối hợp vận dụng – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10 – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b13",
+            "number": 13,
+            "title": "Bài 8: Kĩ thuật cơ bản – Kĩ thuật di chuyển và đánh cầu cơ bản",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 10 – Bài 8",
+            "summary": "Thực hành Cầm vợt.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b14",
+            "number": 14,
+            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật di chuyển và đánh cầu cơ bản (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 10 – Bài 9",
             "summary": "Luyện tập đánh cầu cao sâu. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b15",
+            "number": 15,
+            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật di chuyển và đánh cầu cơ bản (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 10 – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Kĩ thuật di chuyển và đánh cầu cơ bản.",
             "questions": []
           }
         ]
@@ -26090,65 +26602,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-11-b2",
             "number": 2,
-            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật nâng cao và chiến thuật đội hình",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11",
+            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật nâng cao và chiến thuật đội hình (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11 – Bài 2",
             "summary": "Thực hành Đánh đầu.",
             "questions": []
           },
           {
             "id": "gdtc-11-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật nâng cao và chiến thuật đội hình",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11",
-            "summary": "Luyện tập tranh cướp bóng và phối hợp tấn công nhóm. và trò chơi vận động.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật nâng cao và chiến thuật đội hình (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11 – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Kĩ thuật cơ bản – Kĩ thuật nâng cao và chiến thuật đội hình.",
             "questions": []
           },
           {
             "id": "gdtc-11-b4",
             "number": 4,
-            "title": "Bài 4: Kĩ thuật cơ bản – Đập bóng, chắn bóng và chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11",
-            "summary": "Thực hành Kĩ thuật đập bóng chính diện.",
+            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật nâng cao và chiến thuật đội hình (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11 – Bài 3",
+            "summary": "Luyện tập tranh cướp bóng và phối hợp tấn công nhóm. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-11-b5",
             "number": 5,
-            "title": "Bài 5: Phối hợp vận dụng – Đập bóng, chắn bóng và chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11",
-            "summary": "Luyện tập chắn bóng đơn và phối hợp 3 chạm. và trò chơi vận động.",
+            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật nâng cao và chiến thuật đội hình (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11 – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Kĩ thuật nâng cao và chiến thuật đội hình.",
             "questions": []
           },
           {
             "id": "gdtc-11-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Chiến thuật tấn công và phòng thủ khu vực",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11",
-            "summary": "Thực hành Ném rổ nhảy.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Đập bóng, chắn bóng và chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11 – Bài 4",
+            "summary": "Thực hành Kĩ thuật đập bóng chính diện.",
             "questions": []
           },
           {
             "id": "gdtc-11-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Chiến thuật tấn công và phòng thủ khu vực",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11",
-            "summary": "Luyện tập chắn người (screen) và phòng thủ liên phòng. và trò chơi vận động.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Đập bóng, chắn bóng và chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11 – Bài 4",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 4: Kĩ thuật cơ bản – Đập bóng, chắn bóng và chiến thuật thi đấu.",
             "questions": []
           },
           {
             "id": "gdtc-11-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi",
-            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11",
-            "summary": "Thực hành Di chuyển đa hướng.",
+            "title": "Bài 5: Phối hợp vận dụng – Đập bóng, chắn bóng và chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11 – Bài 5",
+            "summary": "Luyện tập chắn bóng đơn và phối hợp 3 chạm. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-11-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi",
-            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11",
+            "title": "Bài 5: Phối hợp vận dụng – Đập bóng, chắn bóng và chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11 – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Phối hợp vận dụng – Đập bóng, chắn bóng và chiến thuật thi đấu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b10",
+            "number": 10,
+            "title": "Bài 6: Kĩ thuật cơ bản – Chiến thuật tấn công và phòng thủ khu vực (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11 – Bài 6",
+            "summary": "Thực hành Ném rổ nhảy.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b11",
+            "number": 11,
+            "title": "Bài 6: Kĩ thuật cơ bản – Chiến thuật tấn công và phòng thủ khu vực (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11 – Bài 6",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 6: Kĩ thuật cơ bản – Chiến thuật tấn công và phòng thủ khu vực.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b12",
+            "number": 12,
+            "title": "Bài 7: Phối hợp vận dụng – Chiến thuật tấn công và phòng thủ khu vực (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11 – Bài 7",
+            "summary": "Luyện tập chắn người (screen) và phòng thủ liên phòng. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b13",
+            "number": 13,
+            "title": "Bài 7: Phối hợp vận dụng – Chiến thuật tấn công và phòng thủ khu vực (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11 – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Chiến thuật tấn công và phòng thủ khu vực.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b14",
+            "number": 14,
+            "title": "Bài 8: Kĩ thuật cơ bản – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11 – Bài 8",
+            "summary": "Thực hành Di chuyển đa hướng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b15",
+            "number": 15,
+            "title": "Bài 8: Kĩ thuật cơ bản – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11 – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Kĩ thuật cơ bản – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b16",
+            "number": 16,
+            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11 – Bài 9",
             "summary": "Luyện tập đập cầu uy lực và phối hợp đánh đôi. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b17",
+            "number": 17,
+            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11 – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi.",
             "questions": []
           }
         ]
@@ -28851,65 +29427,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-12-b2",
             "number": 2,
-            "title": "Bài 2: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12",
+            "title": "Bài 2: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12 – Bài 2",
             "summary": "Thực hành Tổ chức đội hình 7 người.",
             "questions": []
           },
           {
             "id": "gdtc-12-b3",
             "number": 3,
-            "title": "Bài 3: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12",
-            "summary": "Luyện tập 11 người và luật thi đấu bóng đá. và trò chơi vận động.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12 – Bài 2",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 2: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu.",
             "questions": []
           },
           {
             "id": "gdtc-12-b4",
             "number": 4,
-            "title": "Bài 4: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12",
-            "summary": "Thực hành Phối hợp tấn công nhanh.",
+            "title": "Bài 3: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12 – Bài 3",
+            "summary": "Luyện tập 11 người và luật thi đấu bóng đá. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-12-b5",
             "number": 5,
-            "title": "Bài 5: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12",
-            "summary": "Luyện tập phòng thủ hàng sau và trọng tài. và trò chơi vận động.",
+            "title": "Bài 3: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12 – Bài 3",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 3: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu.",
             "questions": []
           },
           {
             "id": "gdtc-12-b6",
             "number": 6,
-            "title": "Bài 6: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12",
-            "summary": "Thực hành Phản công nhanh.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12 – Bài 4",
+            "summary": "Thực hành Phối hợp tấn công nhanh.",
             "questions": []
           },
           {
             "id": "gdtc-12-b7",
             "number": 7,
-            "title": "Bài 7: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12",
-            "summary": "Luyện tập kèm người toàn sân và luật thi đấu. và trò chơi vận động.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12 – Bài 4",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 4: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu.",
             "questions": []
           },
           {
             "id": "gdtc-12-b8",
             "number": 8,
-            "title": "Bài 8: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi",
-            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12",
-            "summary": "Thực hành Chiến thuật điều cầu.",
+            "title": "Bài 5: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12 – Bài 5",
+            "summary": "Luyện tập phòng thủ hàng sau và trọng tài. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-12-b9",
             "number": 9,
-            "title": "Bài 9: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi",
-            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12",
+            "title": "Bài 5: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12 – Bài 5",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 5: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b10",
+            "number": 10,
+            "title": "Bài 6: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12 – Bài 6",
+            "summary": "Thực hành Phản công nhanh.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b11",
+            "number": 11,
+            "title": "Bài 6: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12 – Bài 6",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 6: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b12",
+            "number": 12,
+            "title": "Bài 7: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12 – Bài 7",
+            "summary": "Luyện tập kèm người toàn sân và luật thi đấu. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b13",
+            "number": 13,
+            "title": "Bài 7: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12 – Bài 7",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 7: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b14",
+            "number": 14,
+            "title": "Bài 8: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12 – Bài 8",
+            "summary": "Thực hành Chiến thuật điều cầu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b15",
+            "number": 15,
+            "title": "Bài 8: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12 – Bài 8",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 8: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b16",
+            "number": 16,
+            "title": "Bài 9: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi (Phần 1)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12 – Bài 9",
             "summary": "Luyện tập tấn công và luật thi đấu cầu lông. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b17",
+            "number": 17,
+            "title": "Bài 9: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi (Phần 2)",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12 – Bài 9",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài 9: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi.",
             "questions": []
           }
         ]
