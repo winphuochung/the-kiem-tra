@@ -434,4 +434,51 @@ export const actionHandlers = {
     db.prepare("DELETE FROM sessions WHERE id = ?").run(sessionId);
     return { ok: true };
   },
+
+  // 21. generateAiExam (Sử dụng GEMINI_API_KEY trên server nếu có)
+  generateAiExam: async (args) => {
+    const apiKey = (process.env.GEMINI_API_KEY || "").trim();
+    if (!apiKey) {
+      throw new Error("Server chưa cấu hình GEMINI_API_KEY");
+    }
+    const { grade, subjectName, lessons = [], questionCount = 10, preferredModel = "gemini-2.5-pro", difficulty = "balanced", customPrompt = "" } = args || {};
+    const lessonText = lessons
+      .map((l, i) => `${i + 1}. [${l.chapter}] ${l.title}${l.summary ? ` (Trọng tâm: ${l.summary})` : ""}`)
+      .join("\n");
+
+    const prompt = `Bạn là chuyên gia sư phạm GDPT 2018 (Bộ SGK Kết nối tri thức với cuộc sống - NXBGDVN).
+Soạn ${questionCount} câu hỏi trắc nghiệm 4 lựa chọn (A, B, C, D) chuẩn xác cho Môn ${subjectName} Lớp ${grade}, bám sát đúng các bài:
+${lessonText}
+Mức độ: ${difficulty}.${customPrompt ? ` Ghi chú: ${customPrompt}` : ""}
+TUYỆT ĐỐI không tạo câu hỏi chung chung sáo rỗng. Kiểm tra kiến thức cụ thể của bài học. Phân bố đáp án đúng A, B, C, D đều nhau.
+Trả về JSON: {"title":"...","questions":[{"content":"...","option_a":"...","option_b":"...","option_c":"...","option_d":"...","correct":"B","explanation":"..."}]}`;
+
+    const chain = preferredModel === "gemini-2.5-pro" ? ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-2.0-flash"] : ["gemini-2.5-flash", "gemini-2.0-flash"];
+    let lastErr = null;
+    for (const model of chain) {
+      try {
+        const res = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              contents: [{ role: "user", parts: [{ text: prompt }] }],
+              generationConfig: { temperature: 0.35, responseMimeType: "application/json" },
+            }),
+          }
+        );
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const json = await res.json();
+        const text = json?.candidates?.[0]?.content?.parts?.[0]?.text || "";
+        const parsed = JSON.parse(text.replace(/^```json\s*/i, "").replace(/\s*```$/i, "").trim());
+        if (parsed?.questions?.length > 0) {
+          return { title: parsed.title || "", questions: parsed.questions, modelUsed: model };
+        }
+      } catch (e) {
+        lastErr = e;
+      }
+    }
+    throw lastErr || new Error("Không thể tạo đề qua Gemini API");
+  },
 };
