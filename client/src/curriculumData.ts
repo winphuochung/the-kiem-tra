@@ -416,262 +416,758 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "tiengviet-1",
         "name": "Tiếng Việt",
-        "icon": "📚",
+        "icon": "📖",
         "lessons": [
           {
             "id": "tiengviet-1-b1",
             "number": 1,
-            "title": "Tuần 1: Làm quen chữ a, b, c, d, đ, e, ê và dấu thanh",
-            "chapter": "Tập 1 - Âm và chữ cái",
-            "summary": "Nhận biết âm chữ a, b, c, d, đ, e, ê và các thanh sắc, huyền, hỏi, ngã, nặng.",
+            "title": "Bài 1: A a",
+            "chapter": "Tập 1 - Tuần 1",
+            "summary": "Làm quen chữ A, a; nhận biết âm /a/, ghép tiếng và luyện viết.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b2",
             "number": 2,
-            "title": "Tuần 2: Âm g, h, i, k, l, m, n",
-            "chapter": "Tập 1 - Âm và chữ cái",
-            "summary": "Đánh vần, đọc trơn tiếng chứa âm g, h, i, k, l, m, n.",
+            "title": "Bài 2: B b",
+            "chapter": "Tập 1 - Tuần 1",
+            "summary": "Làm quen chữ B, b; đọc tiếng ba, bà, bá, bả, bã, bạ.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b3",
             "number": 3,
-            "title": "Tuần 3: Âm o, ô, ơ, p, q, r, s, t",
-            "chapter": "Tập 1 - Âm và chữ cái",
-            "summary": "Ghép vần và viết đúng các chữ o, ô, ơ, p, q, r, s, t.",
+            "title": "Bài 3: C c",
+            "chapter": "Tập 1 - Tuần 1",
+            "summary": "Làm quen chữ C, c; đọc tiếng ca, cá, cà, cả, cạ.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b4",
             "number": 4,
-            "title": "Tuần 4: Âm u, ư, v, x, y và phụ âm ghép ch, gh, gi, kh",
-            "chapter": "Tập 1 - Âm và chữ cái",
-            "summary": "Nhận biết quy tắc chính tả gh, ngh và đọc từ ứng dụng.",
+            "title": "Bài 4: E e, Ê ê",
+            "chapter": "Tập 1 - Tuần 1",
+            "summary": "Nhận biết âm và chữ e, ê; đánh vần be, bẻ, bê, bế.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b5",
             "number": 5,
-            "title": "Tuần 5: Phụ âm ghép ng, ngh, nh, ph, qu, th, tr",
-            "chapter": "Tập 1 - Âm và chữ cái",
-            "summary": "Đọc câu ngắn chứa phụ âm ghép.",
+            "title": "Bài 5: Ôn tập và kể chuyện (Tuần 1)",
+            "chapter": "Tập 1 - Tuần 1",
+            "summary": "Ôn tập các âm chữ a, b, c, e, ê và kể chuyện theo tranh.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b6",
             "number": 6,
-            "title": "Tuần 6: Vần có âm cuối m, n (am, ăm, âm, an, ăn, ân, em, êm, en, ên)",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đánh vần và viết vần kết thúc bằng m, n.",
+            "title": "Bài 6: O o",
+            "chapter": "Tập 1 - Tuần 2",
+            "summary": "Nhận biết âm và chữ o; đọc tiếng bo, co, cò, cỏ, bó.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b7",
             "number": 7,
-            "title": "Tuần 7: Vần in, un, ôm, ơm, ôn, ơn, um, ươm, uôn",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đọc bài ứng dụng ngắn với vần có âm cuối m, n.",
+            "title": "Bài 7: Ô ô",
+            "chapter": "Tập 1 - Tuần 2",
+            "summary": "Nhận biết âm và chữ ô; đọc tiếng bô, bố, cô, cổ.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b8",
             "number": 8,
-            "title": "Tuần 8: Vần có âm cuối p, t (ap, ăp, âp, at, ăt, ât, ep, êp, et, êt)",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Phân biệt thanh sắc và thanh nặng trong vần có âm cuối p, t.",
+            "title": "Bài 8: D d, Đ đ",
+            "chapter": "Tập 1 - Tuần 2",
+            "summary": "Phân biệt âm và chữ d, đ; đọc tiếng da, dế, đa, đá, đỏ.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b9",
             "number": 9,
-            "title": "Tuần 9: Ôn tập giữa học kì 1",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Ôn tập toàn bộ âm chữ cái và vần đã học.",
+            "title": "Bài 9: Ơ ơ",
+            "chapter": "Tập 1 - Tuần 2",
+            "summary": "Nhận biết âm và chữ ơ; đọc tiếng bơ, cờ, đơ, đỡ.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b10",
             "number": 10,
-            "title": "Tuần 10: Vần có âm cuối c, ch, ng, nh (ac, ăc, âc, ach, ang, ăng, âng, anh)",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đọc và viết đúng vần có âm cuối c, ch, ng, nh.",
+            "title": "Bài 10: Ôn tập và kể chuyện (Tuần 2)",
+            "chapter": "Tập 1 - Tuần 2",
+            "summary": "Ôn tập o, ô, d, đ, ơ và kể chuyện theo tranh.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b11",
             "number": 11,
-            "title": "Tuần 11: Vần oc, ôc, uc, ưc, ung, ưng, ich, ênh, inh",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Phân biệt vần kết thúc bằng nh/ch và n/t.",
+            "title": "Bài 11: I i, K k",
+            "chapter": "Tập 1 - Tuần 3",
+            "summary": "Nhận biết âm i, k và quy tắc chính tả k đứng trước e, ê, i.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b12",
             "number": 12,
-            "title": "Tuần 12: Vần có âm cuối i, y (ai, ay, ây, oi, ôi, ơi, ui, ưi)",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đọc trơn đoạn văn ngắn chứa vần ai, ay, ây, oi, ôi, ơi.",
+            "title": "Bài 12: H h, L l",
+            "chapter": "Tập 1 - Tuần 3",
+            "summary": "Làm quen âm và chữ h, l; đọc từ hà, hổ, lá, lê.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b13",
             "number": 13,
-            "title": "Tuần 13: Vần có âm cuối o, u (ao, eo, au, âu, êu, iu, ưu)",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đọc hiểu câu chuyện ngắn về thiên nhiên, loài vật.",
+            "title": "Bài 13: U u, Ư ư",
+            "chapter": "Tập 1 - Tuần 3",
+            "summary": "Làm quen âm và chữ u, ư; đọc tiếng cu, cú, cừ, thư.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b14",
             "number": 14,
-            "title": "Tuần 14: Vần có nguyên âm đôi ia, iê, yê, ua, uô, ưa, ươ",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Quy tắc viết iê/yê và uô/ưa/ươ.",
+            "title": "Bài 14: Ch ch, Kh kh",
+            "chapter": "Tập 1 - Tuần 3",
+            "summary": "Nhận biết âm ghép ch, kh; đọc tiếng chó, chợ, khế, kho.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b15",
             "number": 15,
-            "title": "Tuần 15: Vần iêm, iên, iêp, iêt, iêu, uôm, uôn, uôt, ươm, ươn, ươp, ươt",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đọc đoạn văn ngắn và trả lời câu hỏi.",
+            "title": "Bài 15: Ôn tập và kể chuyện (Tuần 3)",
+            "chapter": "Tập 1 - Tuần 3",
+            "summary": "Ôn tập i, k, h, l, u, ư, ch, kh và kể chuyện.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b16",
             "number": 16,
-            "title": "Tuần 16: Vần có âm đệm o, u (oa, oe, uê, uy, oai, oay, uya)",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đánh vần vần tròn môi oa, oe, uê, uy.",
+            "title": "Bài 16: M m, N n",
+            "chapter": "Tập 1 - Tuần 4",
+            "summary": "Nhận biết âm và chữ m, n; đọc tiếng me, mẹ, na, nơ.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b17",
             "number": 17,
-            "title": "Tuần 17: Vần oan, oăn, oat, oăt, oang, oăng, uân, uât, uyên, uyêt",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Đọc và viết các vần phức hợp.",
+            "title": "Bài 17: G g, Gi gi",
+            "chapter": "Tập 1 - Tuần 4",
+            "summary": "Nhận biết g, gi; đọc tiếng gà, gỗ, giỏ, giá.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b18",
             "number": 18,
-            "title": "Tuần 18: Ôn tập cuối học kì 1",
-            "chapter": "Tập 1 - Vần",
-            "summary": "Tổng kết kĩ năng đọc, viết chữ và vần Tiếng Việt 1 Tập 1.",
+            "title": "Bài 18: Gh gh, Nh nh",
+            "chapter": "Tập 1 - Tuần 4",
+            "summary": "Quy tắc gh đi với e, ê, i; âm nh trong nhà, nho.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b19",
             "number": 19,
-            "title": "Bài 1: Tôi là học sinh lớp 1. Đọc: Ngôi nhà, Bạn của em",
-            "chapter": "Tập 2 - Chủ điểm: Tôi và các bạn",
-            "summary": "Đọc hiểu văn bản ngắn về bạn bè, trường lớp.",
+            "title": "Bài 19: Ng ng, Ngh ngh",
+            "chapter": "Tập 1 - Tuần 4",
+            "summary": "Quy tắc ng/ngh; đọc tiếng ngô, ngựa, nghệ, nghỉ.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b20",
             "number": 20,
-            "title": "Bài 2: Đôi tai xấu xí. Đọc: Chuyện của mây",
-            "chapter": "Tập 2 - Chủ điểm: Tôi và các bạn",
-            "summary": "Đọc hiểu và rút ra bài học về tự tin, yêu thương bạn bè.",
+            "title": "Bài 20: Ôn tập và kể chuyện (Tuần 4)",
+            "chapter": "Tập 1 - Tuần 4",
+            "summary": "Ôn tập m, n, g, gi, gh, nh, ng, ngh và kể chuyện.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b21",
             "number": 21,
-            "title": "Bài 3: Giải thưởng. Đọc: Đôi bạn",
-            "chapter": "Tập 2 - Chủ điểm: Tôi và các bạn",
-            "summary": "Luyện đọc trơn, trả lời câu hỏi về tình bạn.",
+            "title": "Bài 21: R r, S s",
+            "chapter": "Tập 1 - Tuần 5",
+            "summary": "Phát âm và viết chữ r, s; đọc tiếng rổ, rùa, sẻ, sư tử.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b22",
             "number": 22,
-            "title": "Bài 4: Mẹ của em. Đọc: Bàn tay mẹ, Quà của bố",
-            "chapter": "Tập 2 - Chủ điểm: Mái ấm gia đình",
-            "summary": "Cảm nhận tình cảm yêu thương trong gia đình.",
+            "title": "Bài 22: T t, Tr tr",
+            "chapter": "Tập 1 - Tuần 5",
+            "summary": "Phân biệt t, tr; đọc tiếng tủ, tô, tre, trâu.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b23",
             "number": 23,
-            "title": "Bài 5: Nụ hôn trên bàn tay. Đọc: Làm anh",
-            "chapter": "Tập 2 - Chủ điểm: Mái ấm gia đình",
-            "summary": "Kể chuyện gia đình và tập viết câu ngắn.",
+            "title": "Bài 23: Th th, ia",
+            "chapter": "Tập 1 - Tuần 5",
+            "summary": "Làm quen âm th và vần ia; đọc tiếng thỏ, chia, mía.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b24",
             "number": 24,
-            "title": "Bài 6: Ngôi nhà của ông bà. Đọc: Cây bàng và lớp học",
-            "chapter": "Tập 2 - Chủ điểm: Mái ấm gia đình",
-            "summary": "Luyện đọc, chính tả phân biệt c/k, g/gh, ng/ngh.",
+            "title": "Bài 24: ua, ưa",
+            "chapter": "Tập 1 - Tuần 5",
+            "summary": "Làm quen vần ua, ưa; đọc tiếng cua, rùa, dưa, ngựa.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b25",
             "number": 25,
-            "title": "Bài 7: Trường em. Đọc: Giờ ra chơi",
-            "chapter": "Tập 2 - Chủ điểm: Mái trường mến yêu",
-            "summary": "Đọc hiểu về hoạt động ở trường tiểu học.",
+            "title": "Bài 25: Ôn tập và kể chuyện (Tuần 5)",
+            "chapter": "Tập 1 - Tuần 5",
+            "summary": "Ôn tập r, s, t, tr, th, ia, ua, ưa và kể chuyện.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b26",
             "number": 26,
-            "title": "Bài 8: Thầy giáo của em. Đọc: Lớp học trên đường",
-            "chapter": "Tập 2 - Chủ điểm: Mái trường mến yêu",
-            "summary": "Luyện đọc diễn cảm thơ và văn xuôi ngắn.",
+            "title": "Bài 26: Ph ph, Qu qu",
+            "chapter": "Tập 1 - Tuần 6",
+            "summary": "Làm quen âm ph, qu; đọc tiếng phố, phở, quà, quê.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b27",
             "number": 27,
-            "title": "Bài 9: Mùa xuân đến. Đọc: Hoa đào, hoa mai",
-            "chapter": "Tập 2 - Chủ điểm: Thiên nhiên tươi đẹp",
-            "summary": "Nhận biết dấu hiệu mùa xuân và từ ngữ miêu tả.",
+            "title": "Bài 27: V v, X x",
+            "chapter": "Tập 1 - Tuần 6",
+            "summary": "Làm quen âm và chữ v, x; đọc tiếng vở, ve, xe, xôi.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b28",
             "number": 28,
-            "title": "Bài 10: Bầu trời và mặt đất. Đọc: Mưa, Cầu vồng",
-            "chapter": "Tập 2 - Chủ điểm: Thiên nhiên tươi đẹp",
-            "summary": "Tìm hiểu hiện tượng thiên nhiên qua bài đọc.",
+            "title": "Bài 28: Y y",
+            "chapter": "Tập 1 - Tuần 6",
+            "summary": "Nhận biết âm y (i dài); đọc tiếng y tá, ý nghĩ, quý.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b29",
             "number": 29,
-            "title": "Bài 11: Thế giới loài vật. Đọc: Chú chim sâu, Voi con",
-            "chapter": "Tập 2 - Chủ điểm: Thiên nhiên tươi đẹp",
-            "summary": "Đọc hiểu đặc điểm các loài vật quen thuộc.",
+            "title": "Bài 29: Luyện tập chính tả",
+            "chapter": "Tập 1 - Tuần 6",
+            "summary": "Phân biệt c/k, g/gh, ng/ngh và luyện viết câu.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b30",
             "number": 30,
-            "title": "Bài 12: Quê hương em. Đọc: Cánh đồng lúa, Biển quê hương",
-            "chapter": "Tập 2 - Chủ điểm: Đất nước và con người",
-            "summary": "Tình yêu quê hương đất nước.",
+            "title": "Bài 30: Ôn tập và kể chuyện (Tuần 6)",
+            "chapter": "Tập 1 - Tuần 6",
+            "summary": "Ôn tập ph, qu, v, x, y và kể chuyện.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b31",
             "number": 31,
-            "title": "Bài 13: Bác Hồ kính yêu. Đọc: Đêm nay Bác không ngủ (lược)",
-            "chapter": "Tập 2 - Chủ điểm: Đất nước và con người",
-            "summary": "Kính yêu Bác Hồ và thiếu nhi.",
+            "title": "Bài 31: an, ăn, ân",
+            "chapter": "Tập 1 - Tuần 7",
+            "summary": "Học vần an, ăn, ân; đọc từ bàn, khăn, sân.",
             "questions": []
           },
           {
             "id": "tiengviet-1-b32",
             "number": 32,
-            "title": "Bài 14: Ôn tập và đánh giá cuối năm học lớp 1",
-            "chapter": "Tập 2 - Ôn tập cuối năm",
-            "summary": "Đọc thành tiếng, đọc hiểu và viết chính tả tổng hợp.",
+            "title": "Bài 32: on, ôn, ơn",
+            "chapter": "Tập 1 - Tuần 7",
+            "summary": "Học vần on, ôn, ơn; đọc từ nón, chồn, sơn ca.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b33",
+            "number": 33,
+            "title": "Bài 33: en, ên, in, un",
+            "chapter": "Tập 1 - Tuần 7",
+            "summary": "Học vần en, ên, in, un; đọc từ đèn, nến, chim, cún.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b34",
+            "number": 34,
+            "title": "Bài 34: am, ăm, âm",
+            "chapter": "Tập 1 - Tuần 7",
+            "summary": "Học vần am, ăm, âm; đọc từ cam, tăm, nấm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b35",
+            "number": 35,
+            "title": "Bài 35: Ôn tập và kể chuyện (Tuần 7)",
+            "chapter": "Tập 1 - Tuần 7",
+            "summary": "Ôn tập các vần kết thúc bằng n, m và kể chuyện.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b36",
+            "number": 36,
+            "title": "Bài 36: om, ôm, ơm",
+            "chapter": "Tập 1 - Tuần 8",
+            "summary": "Học vần om, ôm, ơm; đọc từ đom đóm, tôm, cơm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b37",
+            "number": 37,
+            "title": "Bài 37: em, êm, im, um",
+            "chapter": "Tập 1 - Tuần 8",
+            "summary": "Học vần em, êm, im, um; đọc từ kem, đêm, sim, chùm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b38",
+            "number": 38,
+            "title": "Bài 38: ai, ay, ây",
+            "chapter": "Tập 1 - Tuần 8",
+            "summary": "Học vần ai, ay, ây; đọc từ gà mái, máy bay, đám mây.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b39",
+            "number": 39,
+            "title": "Bài 39: oi, ôi, ơi",
+            "chapter": "Tập 1 - Tuần 8",
+            "summary": "Học vần oi, ôi, ơi; đọc từ voi, cối, đồ chơi.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b40",
+            "number": 40,
+            "title": "Bài 40: Ôn tập và kể chuyện (Tuần 8)",
+            "chapter": "Tập 1 - Tuần 8",
+            "summary": "Ôn tập om, ôm, ơm, em, êm, im, um, ai, ay, ây, oi, ôi, ơi.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b41",
+            "number": 41,
+            "title": "Bài 41: ui, ưi",
+            "chapter": "Tập 1 - Tuần 9",
+            "summary": "Học vần ui, ưi; đọc từ túi, núi, gửi thư.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b42",
+            "number": 42,
+            "title": "Bài 42: ao, eo",
+            "chapter": "Tập 1 - Tuần 9",
+            "summary": "Học vần ao, eo; đọc từ sao, báo, mèo, chèo.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b43",
+            "number": 43,
+            "title": "Bài 43: au, âu, êu",
+            "chapter": "Tập 1 - Tuần 9",
+            "summary": "Học vần au, âu, êu; đọc từ rau, trâu, kêu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b44",
+            "number": 44,
+            "title": "Bài 44: iu, ưu",
+            "chapter": "Tập 1 - Tuần 9",
+            "summary": "Học vần iu, ưu; đọc từ rìu, dịu, cừu, lựu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b45",
+            "number": 45,
+            "title": "Bài 45: Ôn tập và kể chuyện (Tuần 9)",
+            "chapter": "Tập 1 - Tuần 9",
+            "summary": "Ôn tập ui, ưi, ao, eo, au, âu, êu, iu, ưu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b46",
+            "number": 46,
+            "title": "Bài 46: ac, ăc, âc",
+            "chapter": "Tập 1 - Tuần 10",
+            "summary": "Học vần ac, ăc, âc; đọc từ hạc, mặc, gấc.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b47",
+            "number": 47,
+            "title": "Bài 47: oc, ôc, uc, ưc",
+            "chapter": "Tập 1 - Tuần 10",
+            "summary": "Học vần oc, ôc, uc, ưc; đọc từ sóc, gốc, cúc, mực.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b48",
+            "number": 48,
+            "title": "Bài 48: at, ăt, ât",
+            "chapter": "Tập 1 - Tuần 10",
+            "summary": "Học vần at, ăt, ât; đọc từ hạt, mắt, đất.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b49",
+            "number": 49,
+            "title": "Bài 49: ot, ôt, ơt",
+            "chapter": "Tập 1 - Tuần 10",
+            "summary": "Học vần ot, ôt, ơt; đọc từ ngọt, tốt, ớt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b50",
+            "number": 50,
+            "title": "Bài 50: Ôn tập và kể chuyện (Tuần 10)",
+            "chapter": "Tập 1 - Tuần 10",
+            "summary": "Ôn tập các vần kết thúc bằng c, t.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b51",
+            "number": 51,
+            "title": "Bài 51: et, êt, it",
+            "chapter": "Tập 1 - Tuần 11",
+            "summary": "Học vần et, êt, it; đọc từ vịt, tết, mít.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b52",
+            "number": 52,
+            "title": "Bài 52: ut, ưt",
+            "chapter": "Tập 1 - Tuần 11",
+            "summary": "Học vần ut, ưt; đọc từ bút, mứt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b53",
+            "number": 53,
+            "title": "Bài 53: ap, ăp, âp",
+            "chapter": "Tập 1 - Tuần 11",
+            "summary": "Học vần ap, ăp, âp; đọc từ sáp, bắp, tập.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b54",
+            "number": 54,
+            "title": "Bài 54: op, ôp, ơp",
+            "chapter": "Tập 1 - Tuần 11",
+            "summary": "Học vần op, ôp, ơp; đọc từ họp, hộp, lớp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b55",
+            "number": 55,
+            "title": "Bài 55: Ôn tập và kể chuyện (Tuần 11)",
+            "chapter": "Tập 1 - Tuần 11",
+            "summary": "Ôn tập et, êt, it, ut, ưt, ap, ăp, âp, op, ôp, ơp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b56",
+            "number": 56,
+            "title": "Bài 56: ep, êp, ip, up",
+            "chapter": "Tập 1 - Tuần 12",
+            "summary": "Học vần ep, êp, ip, up; đọc từ dép, bếp, nhịp, búp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b57",
+            "number": 57,
+            "title": "Bài 57: anh, ênh, inh",
+            "chapter": "Tập 1 - Tuần 12",
+            "summary": "Học vần anh, ênh, inh; đọc từ tranh, kênh, kính.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b58",
+            "number": 58,
+            "title": "Bài 58: ach, êch, ich",
+            "chapter": "Tập 1 - Tuần 12",
+            "summary": "Học vần ach, êch, ich; đọc từ sách, ếch, lịch.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b59",
+            "number": 59,
+            "title": "Bài 59: ang, ăng, âng",
+            "chapter": "Tập 1 - Tuần 12",
+            "summary": "Học vần ang, ăng, âng; đọc từ bảng, trăng, tầng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b60",
+            "number": 60,
+            "title": "Bài 60: Ôn tập và kể chuyện (Tuần 12)",
+            "chapter": "Tập 1 - Tuần 12",
+            "summary": "Ôn tập các vần nh, ch, ng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b61",
+            "number": 61,
+            "title": "Bài 61: ong, ông, ung, ưng",
+            "chapter": "Tập 1 - Tuần 13",
+            "summary": "Học vần ong, ông, ung, ưng; đọc từ ong, bông, thung, rừng.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b62",
+            "number": 62,
+            "title": "Bài 62: iêc, iên, iêp",
+            "chapter": "Tập 1 - Tuần 13",
+            "summary": "Học vần iêc, iên, iêp; đọc từ xiếc, biển, diếp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b63",
+            "number": 63,
+            "title": "Bài 63: iêng, iêm, yên",
+            "chapter": "Tập 1 - Tuần 13",
+            "summary": "Học vần iêng, iêm, yên; đọc từ chiêng, kiếm, chim yến.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b64",
+            "number": 64,
+            "title": "Bài 64: iêt, iêu, yêu",
+            "chapter": "Tập 1 - Tuần 13",
+            "summary": "Học vần iêt, iêu, yêu; đọc từ viết, diều, yêu quý.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b65",
+            "number": 65,
+            "title": "Bài 65: Ôn tập và kể chuyện (Tuần 13)",
+            "chapter": "Tập 1 - Tuần 13",
+            "summary": "Ôn tập các vần có nguyên âm đôi iê/yê.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b66",
+            "number": 66,
+            "title": "Bài 66: uôi, uôm",
+            "chapter": "Tập 1 - Tuần 14",
+            "summary": "Học vần uôi, uôm; đọc từ chuối, muồm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b67",
+            "number": 67,
+            "title": "Bài 67: uôc, uôt",
+            "chapter": "Tập 1 - Tuần 14",
+            "summary": "Học vần uôc, uôt; đọc từ đuốc, chuột.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b68",
+            "number": 68,
+            "title": "Bài 68: uôn, uông",
+            "chapter": "Tập 1 - Tuần 14",
+            "summary": "Học vần uôn, uông; đọc từ cuốn, chuông.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b69",
+            "number": 69,
+            "title": "Bài 69: ươi, ươu",
+            "chapter": "Tập 1 - Tuần 14",
+            "summary": "Học vần ươi, ươu; đọc từ bưởi, hươu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b70",
+            "number": 70,
+            "title": "Bài 70: Ôn tập và kể chuyện (Tuần 14)",
+            "chapter": "Tập 1 - Tuần 14",
+            "summary": "Ôn tập uôi, uôm, uôc, uôt, uôn, uông, ươi, ươu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b71",
+            "number": 71,
+            "title": "Bài 71: ươc, ươt",
+            "chapter": "Tập 1 - Tuần 15",
+            "summary": "Học vần ươc, ươt; đọc từ thước, lướt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b72",
+            "number": 72,
+            "title": "Bài 72: ươm, ươp",
+            "chapter": "Tập 1 - Tuần 15",
+            "summary": "Học vần ươm, ươp; đọc từ bướm, mướp.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b73",
+            "number": 73,
+            "title": "Bài 73: ươn, ương",
+            "chapter": "Tập 1 - Tuần 15",
+            "summary": "Học vần ươn, ương; đọc từ vượn, trường.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b74",
+            "number": 74,
+            "title": "Bài 74: oa, oe",
+            "chapter": "Tập 1 - Tuần 15",
+            "summary": "Học vần oa, oe; đọc từ hoa, xòe.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b75",
+            "number": 75,
+            "title": "Bài 75: Ôn tập và kể chuyện (Tuần 15)",
+            "chapter": "Tập 1 - Tuần 15",
+            "summary": "Ôn tập các vần ươ và oa, oe.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b76",
+            "number": 76,
+            "title": "Bài 76: oan, oăn, oat, oăt",
+            "chapter": "Tập 1 - Tuần 16",
+            "summary": "Học vần oan, oăn, oat, oăt; đọc từ ngoan, xoăn, hoạt, thoắt.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b77",
+            "number": 77,
+            "title": "Bài 77: oai, uê, uy",
+            "chapter": "Tập 1 - Tuần 16",
+            "summary": "Học vần oai, uê, uy; đọc từ xoài, hoa huệ, thủy.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b78",
+            "number": 78,
+            "title": "Bài 78: uân, uât",
+            "chapter": "Tập 1 - Tuần 16",
+            "summary": "Học vần uân, uât; đọc từ mùa xuân, sản xuất.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b79",
+            "number": 79,
+            "title": "Bài 79: uyên, uyêt",
+            "chapter": "Tập 1 - Tuần 16",
+            "summary": "Học vần uyên, uyêt; đọc từ thuyền, tuyết.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b80",
+            "number": 80,
+            "title": "Bài 80: Ôn tập và kể chuyện (Cuối học kì 1)",
+            "chapter": "Tập 1 - Tuần 16",
+            "summary": "Ôn tập tổng hợp toàn bộ âm, vần Tập 1.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b81",
+            "number": 81,
+            "title": "Bài 1 (Tập 2): Tôi là học sinh lớp 1",
+            "chapter": "Tập 2 - Chủ điểm Tôi và các bạn",
+            "summary": "Đọc bài Ngôi nhà, Bạn của em; luyện viết câu.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b82",
+            "number": 82,
+            "title": "Bài 2 (Tập 2): Đôi tai xấu xí",
+            "chapter": "Tập 2 - Chủ điểm Tôi và các bạn",
+            "summary": "Đọc bài Chuyện của mây; luyện kể chuyện và chính tả.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b83",
+            "number": 83,
+            "title": "Bài 3 (Tập 2): Giải thưởng",
+            "chapter": "Tập 2 - Chủ điểm Tôi và các bạn",
+            "summary": "Đọc bài Đôi bạn; tìm hiểu tinh thần đoàn kết.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b84",
+            "number": 84,
+            "title": "Bài 4 (Tập 2): Mẹ của em",
+            "chapter": "Tập 2 - Chủ điểm Mái ấm gia đình",
+            "summary": "Đọc Bàn tay mẹ, Quà của bố; viết về người thân.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b85",
+            "number": 85,
+            "title": "Bài 5 (Tập 2): Nụ hôn trên bàn tay",
+            "chapter": "Tập 2 - Chủ điểm Mái ấm gia đình",
+            "summary": "Đọc bài Làm anh; rèn tình cảm anh em trong gia đình.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b86",
+            "number": 86,
+            "title": "Bài 6 (Tập 2): Ngôi nhà của ông bà",
+            "chapter": "Tập 2 - Chủ điểm Mái ấm gia đình",
+            "summary": "Đọc Cây bàng và lớp học; luyện đọc diễn cảm.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b87",
+            "number": 87,
+            "title": "Bài 7 (Tập 2): Trường em",
+            "chapter": "Tập 2 - Chủ điểm Mái trường mến yêu",
+            "summary": "Đọc Giờ ra chơi; mở rộng vốn từ về trường học.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b88",
+            "number": 88,
+            "title": "Bài 8 (Tập 2): Thầy giáo của em",
+            "chapter": "Tập 2 - Chủ điểm Mái trường mến yêu",
+            "summary": "Đọc Lớp học trên đường; thể hiện lòng biết ơn thầy cô.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b89",
+            "number": 89,
+            "title": "Bài 9 (Tập 2): Mùa xuân đến",
+            "chapter": "Tập 2 - Chủ điểm Thiên nhiên tươi đẹp",
+            "summary": "Đọc Hoa đào, hoa mai; quan sát thiên nhiên mùa xuân.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b90",
+            "number": 90,
+            "title": "Bài 10 (Tập 2): Bầu trời và mặt đất",
+            "chapter": "Tập 2 - Chủ điểm Thiên nhiên tươi đẹp",
+            "summary": "Đọc Mưa, Cầu vồng; tìm hiểu hiện tượng tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b91",
+            "number": 91,
+            "title": "Bài 11 (Tập 2): Thế giới loài vật",
+            "chapter": "Tập 2 - Chủ điểm Thiên nhiên tươi đẹp",
+            "summary": "Đọc Chú chim sâu, Voi con; bảo vệ động vật.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b92",
+            "number": 92,
+            "title": "Bài 12 (Tập 2): Quê hương em",
+            "chapter": "Tập 2 - Chủ điểm Quê hương đất nước",
+            "summary": "Đọc Cánh đồng lúa, Biển quê hương.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b93",
+            "number": 93,
+            "title": "Bài 13 (Tập 2): Bác Hồ kính yêu",
+            "chapter": "Tập 2 - Chủ điểm Quê hương đất nước",
+            "summary": "Đọc Đêm nay Bác không ngủ (lược); tình cảm với Bác Hồ.",
+            "questions": []
+          },
+          {
+            "id": "tiengviet-1-b94",
+            "number": 94,
+            "title": "Bài 14 (Tập 2): Ôn tập và đánh giá cuối năm học",
+            "chapter": "Tập 2 - Chủ điểm Ôn tập cuối năm",
+            "summary": "Ôn tập đọc hiểu, viết câu và chính tả lớp 1.",
             "questions": []
           }
         ]
@@ -1113,65 +1609,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-1-b1",
             "number": 1,
-            "title": "Chủ đề 1: Âm thanh kì diệu",
+            "title": "Bài 1: Hát & Nghe nhạc – Âm thanh kì diệu",
             "chapter": "Chủ đề 1: Âm thanh kì diệu",
-            "summary": "Nhận biết âm thanh tự nhiên và âm nhạc; hát bài Tiếng trống trường em; đọc nhạc mi-son.",
+            "summary": "Nhận biết âm thanh tự nhiên và âm nhạc.",
             "questions": []
           },
           {
             "id": "amnhac-1-b2",
             "number": 2,
-            "title": "Chủ đề 2: Việt Nam yêu thương",
-            "chapter": "Chủ đề 2: Việt Nam yêu thương",
-            "summary": "Hát Quốc ca (nghe), Lý cây xanh; làm quen nhịp điệu dân ca Việt Nam.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Âm thanh kì diệu",
+            "chapter": "Chủ đề 1: Âm thanh kì diệu",
+            "summary": "hát bài Tiếng trống trường em; đọc nhạc mi-son..",
             "questions": []
           },
           {
             "id": "amnhac-1-b3",
             "number": 3,
-            "title": "Chủ đề 3: Mái trường thân yêu",
-            "chapter": "Chủ đề 3: Mái trường thân yêu",
-            "summary": "Hát Mái trường em, Cô giáo như mẹ hiền; thực hành gõ đệm theo phách.",
+            "title": "Bài 3: Hát & Nghe nhạc – Việt Nam yêu thương",
+            "chapter": "Chủ đề 2: Việt Nam yêu thương",
+            "summary": "Hát Quốc ca (nghe), Lý cây xanh.",
             "questions": []
           },
           {
             "id": "amnhac-1-b4",
             "number": 4,
-            "title": "Chủ đề 4: Vòng tay bè bạn",
-            "chapter": "Chủ đề 4: Vòng tay bè bạn",
-            "summary": "Hát Múa vui, Bạn ơi lắng nghe; thực hành đọc nhạc 3 nốt Đô-Rê-Mi.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Việt Nam yêu thương",
+            "chapter": "Chủ đề 2: Việt Nam yêu thương",
+            "summary": "làm quen nhịp điệu dân ca Việt Nam..",
             "questions": []
           },
           {
             "id": "amnhac-1-b5",
             "number": 5,
-            "title": "Chủ đề 5: Nhịp điệu mùa xuân",
-            "chapter": "Chủ đề 5: Nhịp điệu mùa xuân",
-            "summary": "Hát Sắp đến Tết rồi; cảm nhận nhịp điệu vui tươi ngày xuân.",
+            "title": "Bài 5: Hát & Nghe nhạc – Mái trường thân yêu",
+            "chapter": "Chủ đề 3: Mái trường thân yêu",
+            "summary": "Hát Mái trường em, Cô giáo như mẹ hiền.",
             "questions": []
           },
           {
             "id": "amnhac-1-b6",
             "number": 6,
-            "title": "Chủ đề 6: Về miền dân ca",
-            "chapter": "Chủ đề 6: Về miền dân ca",
-            "summary": "Nghe và vận động theo dân ca Bắc Bộ, Trung Bộ, Nam Bộ; hát Xòe hoa.",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Mái trường thân yêu",
+            "chapter": "Chủ đề 3: Mái trường thân yêu",
+            "summary": "thực hành gõ đệm theo phách..",
             "questions": []
           },
           {
             "id": "amnhac-1-b7",
             "number": 7,
-            "title": "Chủ đề 7: Gia đình",
-            "chapter": "Chủ đề 7: Gia đình",
-            "summary": "Hát Ba ngọn nến lung linh, Mẹ đi vắng; gõ đệm bằng thanh phách.",
+            "title": "Bài 7: Hát & Nghe nhạc – Vòng tay bè bạn",
+            "chapter": "Chủ đề 4: Vòng tay bè bạn",
+            "summary": "Hát Múa vui, Bạn ơi lắng nghe.",
             "questions": []
           },
           {
             "id": "amnhac-1-b8",
             "number": 8,
-            "title": "Chủ đề 8: Vui đón hè",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Vòng tay bè bạn",
+            "chapter": "Chủ đề 4: Vòng tay bè bạn",
+            "summary": "thực hành đọc nhạc 3 nốt Đô-Rê-Mi..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Nhịp điệu mùa xuân",
+            "chapter": "Chủ đề 5: Nhịp điệu mùa xuân",
+            "summary": "Hát Sắp đến Tết rồi.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Nhịp điệu mùa xuân",
+            "chapter": "Chủ đề 5: Nhịp điệu mùa xuân",
+            "summary": "cảm nhận nhịp điệu vui tươi ngày xuân..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Về miền dân ca",
+            "chapter": "Chủ đề 6: Về miền dân ca",
+            "summary": "Nghe và vận động theo dân ca Bắc Bộ, Trung Bộ, Nam Bộ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Về miền dân ca",
+            "chapter": "Chủ đề 6: Về miền dân ca",
+            "summary": "hát Xòe hoa..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Gia đình",
+            "chapter": "Chủ đề 7: Gia đình",
+            "summary": "Hát Ba ngọn nến lung linh, Mẹ đi vắng.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Gia đình",
+            "chapter": "Chủ đề 7: Gia đình",
+            "summary": "gõ đệm bằng thanh phách..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Vui đón hè",
             "chapter": "Chủ đề 8: Vui đón hè",
-            "summary": "Hát Chim chích bông, Hè về vui sao; ôn tập và biểu diễn cuối năm.",
+            "summary": "Hát Chim chích bông, Hè về vui sao.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Vui đón hè",
+            "chapter": "Chủ đề 8: Vui đón hè",
+            "summary": "ôn tập và biểu diễn cuối năm..",
             "questions": []
           }
         ]
@@ -1184,73 +1744,145 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-1-b1",
             "number": 1,
-            "title": "Chủ đề 1: Mĩ thuật trong nhà trường",
+            "title": "Bài 1: Khám phá & Quan sát – Mĩ thuật trong nhà trường",
             "chapter": "Chủ đề 1: Mĩ thuật trong nhà trường",
-            "summary": "Làm quen dụng cụ vẽ, đất nặn, giấy màu; nhận biết tranh vẽ trong trường học.",
+            "summary": "Làm quen dụng cụ vẽ, đất nặn, giấy màu; nhận biết tranh vẽ trong trường học. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-1-b2",
             "number": 2,
-            "title": "Chủ đề 2: Sáng tạo từ những chấm màu",
-            "chapter": "Chủ đề 2: Sáng tạo từ những chấm màu",
-            "summary": "Sử dụng chấm màu tạo hình bông hoa, con vật, bức tranh đơn giản.",
+            "title": "Bài 2: Thực hành sáng tạo – Mĩ thuật trong nhà trường",
+            "chapter": "Chủ đề 1: Mĩ thuật trong nhà trường",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mĩ thuật trong nhà trường, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-1-b3",
             "number": 3,
-            "title": "Chủ đề 3: Nét vẽ của em",
-            "chapter": "Chủ đề 3: Nét vẽ của em",
-            "summary": "Nhận biết nét thẳng, nét cong, nét gấp khúc, nét xoắn ốc trong tạo hình.",
+            "title": "Bài 3: Khám phá & Quan sát – Sáng tạo từ những chấm màu",
+            "chapter": "Chủ đề 2: Sáng tạo từ những chấm màu",
+            "summary": "Sử dụng chấm màu tạo hình bông hoa, con vật, bức tranh đơn giản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-1-b4",
             "number": 4,
-            "title": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
-            "chapter": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
-            "summary": "Ghép hình tròn, vuông, tam giác, chữ nhật tạo ngôi nhà, đồ vật.",
+            "title": "Bài 4: Thực hành sáng tạo – Sáng tạo từ những chấm màu",
+            "chapter": "Chủ đề 2: Sáng tạo từ những chấm màu",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những chấm màu, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-1-b5",
             "number": 5,
-            "title": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
-            "chapter": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
-            "summary": "Nhận biết 3 màu cơ bản: đỏ, vàng, lam và cách phối màu đơn giản.",
+            "title": "Bài 5: Khám phá & Quan sát – Nét vẽ của em",
+            "chapter": "Chủ đề 3: Nét vẽ của em",
+            "summary": "Nhận biết nét thẳng, nét cong, nét gấp khúc, nét xoắn ốc trong tạo hình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-1-b6",
             "number": 6,
-            "title": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
-            "chapter": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
-            "summary": "Nặn và tạo hình từ khối cầu, khối trụ, khối lập phương.",
+            "title": "Bài 6: Thực hành sáng tạo – Nét vẽ của em",
+            "chapter": "Chủ đề 3: Nét vẽ của em",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nét vẽ của em, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-1-b7",
             "number": 7,
-            "title": "Chủ đề 7: Hoa, quả",
-            "chapter": "Chủ đề 7: Hoa, quả",
-            "summary": "Quan sát, vẽ và nặn một số loại hoa, quả quen thuộc.",
+            "title": "Bài 7: Khám phá & Quan sát – Sáng tạo từ những hình cơ bản",
+            "chapter": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
+            "summary": "Ghép hình tròn, vuông, tam giác, chữ nhật tạo ngôi nhà, đồ vật. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-1-b8",
             "number": 8,
-            "title": "Chủ đề 8: Người thân của em",
-            "chapter": "Chủ đề 8: Người thân của em",
-            "summary": "Vẽ chân dung hoặc hoạt động của người thân trong gia đình.",
+            "title": "Bài 8: Thực hành sáng tạo – Sáng tạo từ những hình cơ bản",
+            "chapter": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những hình cơ bản, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-1-b9",
             "number": 9,
-            "title": "Chủ đề 9: Em là học sinh lớp 1",
+            "title": "Bài 9: Khám phá & Quan sát – Màu cơ bản trong mĩ thuật",
+            "chapter": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
+            "summary": "Nhận biết 3 màu cơ bản: đỏ, vàng, lam và cách phối màu đơn giản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành sáng tạo – Màu cơ bản trong mĩ thuật",
+            "chapter": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Màu cơ bản trong mĩ thuật, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Sáng tạo từ những khối cơ bản",
+            "chapter": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
+            "summary": "Nặn và tạo hình từ khối cầu, khối trụ, khối lập phương. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Sáng tạo từ những khối cơ bản",
+            "chapter": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo từ những khối cơ bản, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Hoa, quả",
+            "chapter": "Chủ đề 7: Hoa, quả",
+            "summary": "Quan sát, vẽ và nặn một số loại hoa, quả quen thuộc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Hoa, quả",
+            "chapter": "Chủ đề 7: Hoa, quả",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hoa, quả, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Người thân của em",
+            "chapter": "Chủ đề 8: Người thân của em",
+            "summary": "Vẽ chân dung hoặc hoạt động của người thân trong gia đình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Người thân của em",
+            "chapter": "Chủ đề 8: Người thân của em",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Người thân của em, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b17",
+            "number": 17,
+            "title": "Bài 17: Khám phá & Quan sát – Em là học sinh lớp 1",
             "chapter": "Chủ đề 9: Em là học sinh lớp 1",
-            "summary": "Sáng tạo sản phẩm mĩ thuật về hoạt động học tập, vui chơi lớp 1.",
+            "summary": "Sáng tạo sản phẩm mĩ thuật về hoạt động học tập, vui chơi lớp 1. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành sáng tạo – Em là học sinh lớp 1",
+            "chapter": "Chủ đề 9: Em là học sinh lớp 1",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Em là học sinh lớp 1, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -1263,7 +1895,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-1-b1",
             "number": 1,
-            "title": "Vệ sinh cá nhân và an toàn khi tập luyện",
+            "title": "Bài 1: Vệ sinh cá nhân và an toàn khi tập luyện",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Trang phục gọn gàng, khởi động trước khi tập và vệ sinh sau vận động.",
             "questions": []
@@ -1271,41 +1903,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-1-b2",
             "number": 2,
-            "title": "Chủ đề 1: Đội hình đội ngũ",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Tư thế đứng nghiêm, đứng nghỉ; tập hợp hàng dọc, hàng ngang, quay các hướng.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Thực hành Tư thế đứng nghiêm, đứng nghỉ, tập hợp hàng dọc.",
             "questions": []
           },
           {
             "id": "gdtc-1-b3",
             "number": 3,
-            "title": "Chủ đề 2: Bài tập thể dục",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Động tác vươn thở, tay, chân, vặn mình, bụng, phối hợp, điều hòa.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Luyện tập hàng ngang, quay các hướng. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-1-b4",
             "number": 4,
-            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Vận động đầu, cổ, tay, chân, đi thường, chạy nhẹ nhàng.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Bài tập thể dục",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Thực hành Động tác vươn thở, tay, chân, vặn mình.",
             "questions": []
           },
           {
             "id": "gdtc-1-b5",
             "number": 5,
-            "title": "Chủ đề 1: Môn Bóng rổ (Làm quen)",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Làm quen bóng, di chuyển không bóng, dẫn bóng, ném rổ hai tay trước ngực.",
+            "title": "Bài 5: Phối hợp vận dụng – Bài tập thể dục",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Luyện tập bụng, phối hợp, điều hòa. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-1-b6",
             "number": 6,
-            "title": "Chủ đề 2: Môn Bơi (Làm quen nước)",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Làm quen với nước, nín thở, tập thở trong nước và giữ thăng bằng.",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Thực hành Vận động đầu, cổ, tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Luyện tập chân, đi thường, chạy nhẹ nhàng. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ (Làm quen)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ (Làm quen)",
+            "summary": "Thực hành Làm quen bóng, di chuyển không bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ (Làm quen)",
+            "chapter": "Chủ đề 1: Môn Bóng rổ (Làm quen)",
+            "summary": "Luyện tập dẫn bóng, ném rổ hai tay trước ngực. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b10",
+            "number": 10,
+            "title": "Bài 10: Kĩ thuật cơ bản – Môn Bơi (Làm quen nước)",
+            "chapter": "Chủ đề 2: Môn Bơi (Làm quen nước)",
+            "summary": "Thực hành Làm quen với nước, nín thở.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b11",
+            "number": 11,
+            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi (Làm quen nước)",
+            "chapter": "Chủ đề 2: Môn Bơi (Làm quen nước)",
+            "summary": "Luyện tập tập thở trong nước và giữ thăng bằng. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -1318,7 +1990,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-1-b1",
             "number": 1,
-            "title": "Chủ đề 1: Em và mái trường mến yêu",
+            "title": "Bài 1: Nhận diện & Khám phá – Em và mái trường mến yêu",
             "chapter": "Chủ đề 1: Em và mái trường mến yêu",
             "summary": "Làm quen thầy cô, bạn bè, nội quy lớp học và khuôn viên trường tiểu học.",
             "questions": []
@@ -1326,65 +1998,137 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-1-b2",
             "number": 2,
-            "title": "Chủ đề 2: Em là học sinh lớp 1",
-            "chapter": "Chủ đề 2: Em là học sinh lớp 1",
-            "summary": "Giới thiệu bản thân, rèn nếp sống ngăn nắp và thói quen học tập tốt.",
+            "title": "Bài 2: Thực hành & Vận dụng – Em và mái trường mến yêu",
+            "chapter": "Chủ đề 1: Em và mái trường mến yêu",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em và mái trường mến yêu.",
             "questions": []
           },
           {
             "id": "hdtn-1-b3",
             "number": 3,
-            "title": "Chủ đề 3: Thầy cô của em",
-            "chapter": "Chủ đề 3: Thầy cô của em",
-            "summary": "Thể hiện lòng biết ơn, lễ phép với thầy cô giáo và cán bộ nhà trường.",
+            "title": "Bài 3: Nhận diện & Khám phá – Em là học sinh lớp 1",
+            "chapter": "Chủ đề 2: Em là học sinh lớp 1",
+            "summary": "Giới thiệu bản thân, rèn nếp sống ngăn nắp và thói quen học tập tốt.",
             "questions": []
           },
           {
             "id": "hdtn-1-b4",
             "number": 4,
-            "title": "Chủ đề 4: Tự chăm sóc bản thân",
-            "chapter": "Chủ đề 4: Tự chăm sóc bản thân",
-            "summary": "Thực hành vệ sinh răng miệng, rửa tay, mặc trang phục phù hợp thời tiết.",
+            "title": "Bài 4: Thực hành & Vận dụng – Em là học sinh lớp 1",
+            "chapter": "Chủ đề 2: Em là học sinh lớp 1",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em là học sinh lớp 1.",
             "questions": []
           },
           {
             "id": "hdtn-1-b5",
             "number": 5,
-            "title": "Chủ đề 5: Gia đình yêu thương",
-            "chapter": "Chủ đề 5: Gia đình yêu thương",
-            "summary": "Quan tâm, giúp đỡ ông bà, cha mẹ những việc vừa sức ở nhà.",
+            "title": "Bài 5: Nhận diện & Khám phá – Thầy cô của em",
+            "chapter": "Chủ đề 3: Thầy cô của em",
+            "summary": "Thể hiện lòng biết ơn, lễ phép với thầy cô giáo và cán bộ nhà trường.",
             "questions": []
           },
           {
             "id": "hdtn-1-b6",
             "number": 6,
-            "title": "Chủ đề 6: Quê hương của em",
-            "chapter": "Chủ đề 6: Quê hương của em",
-            "summary": "Tìm hiểu cảnh đẹp, truyền thống quê hương và giữ gìn vệ sinh nơi công cộng.",
+            "title": "Bài 6: Thực hành & Vận dụng – Thầy cô của em",
+            "chapter": "Chủ đề 3: Thầy cô của em",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Thầy cô của em.",
             "questions": []
           },
           {
             "id": "hdtn-1-b7",
             "number": 7,
-            "title": "Chủ đề 7: An toàn trong cuộc sống",
-            "chapter": "Chủ đề 7: An toàn trong cuộc sống",
-            "summary": "Nhận biết tình huống nguy hiểm ở nhà, trường học và cách phòng tránh.",
+            "title": "Bài 7: Nhận diện & Khám phá – Tự chăm sóc bản thân",
+            "chapter": "Chủ đề 4: Tự chăm sóc bản thân",
+            "summary": "Thực hành vệ sinh răng miệng, rửa tay, mặc trang phục phù hợp thời tiết.",
             "questions": []
           },
           {
             "id": "hdtn-1-b8",
             "number": 8,
-            "title": "Chủ đề 8: Thiên nhiên quanh em",
-            "chapter": "Chủ đề 8: Thiên nhiên quanh em",
-            "summary": "Chăm sóc cây xanh, bảo vệ vật nuôi và giữ gìn môi trường xanh sạch.",
+            "title": "Bài 8: Thực hành & Vận dụng – Tự chăm sóc bản thân",
+            "chapter": "Chủ đề 4: Tự chăm sóc bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tự chăm sóc bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-1-b9",
             "number": 9,
-            "title": "Chủ đề 9: Chào mùa hè vui",
+            "title": "Bài 9: Nhận diện & Khám phá – Gia đình yêu thương",
+            "chapter": "Chủ đề 5: Gia đình yêu thương",
+            "summary": "Quan tâm, giúp đỡ ông bà, cha mẹ những việc vừa sức ở nhà.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Gia đình yêu thương",
+            "chapter": "Chủ đề 5: Gia đình yêu thương",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Gia đình yêu thương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Quê hương của em",
+            "chapter": "Chủ đề 6: Quê hương của em",
+            "summary": "Tìm hiểu cảnh đẹp, truyền thống quê hương và giữ gìn vệ sinh nơi công cộng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Quê hương của em",
+            "chapter": "Chủ đề 6: Quê hương của em",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Quê hương của em.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – An toàn trong cuộc sống",
+            "chapter": "Chủ đề 7: An toàn trong cuộc sống",
+            "summary": "Nhận biết tình huống nguy hiểm ở nhà, trường học và cách phòng tránh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – An toàn trong cuộc sống",
+            "chapter": "Chủ đề 7: An toàn trong cuộc sống",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề An toàn trong cuộc sống.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Thiên nhiên quanh em",
+            "chapter": "Chủ đề 8: Thiên nhiên quanh em",
+            "summary": "Chăm sóc cây xanh, bảo vệ vật nuôi và giữ gìn môi trường xanh sạch.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Thiên nhiên quanh em",
+            "chapter": "Chủ đề 8: Thiên nhiên quanh em",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Thiên nhiên quanh em.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b17",
+            "number": 17,
+            "title": "Bài 17: Nhận diện & Khám phá – Chào mùa hè vui",
             "chapter": "Chủ đề 9: Chào mùa hè vui",
             "summary": "Tổng kết năm học, lập kế hoạch nghỉ hè an toàn, bổ ích.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành & Vận dụng – Chào mùa hè vui",
+            "chapter": "Chủ đề 9: Chào mùa hè vui",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Chào mùa hè vui.",
             "questions": []
           }
         ]
@@ -2968,65 +3712,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-2-b1",
             "number": 1,
-            "title": "Chủ đề 1: Sắc màu âm thanh",
+            "title": "Bài 1: Hát & Nghe nhạc – Sắc màu âm thanh",
             "chapter": "Chủ đề 1: Sắc màu âm thanh",
-            "summary": "Nhận biết cao độ, trường độ; hát Ngày mùa vui; thực hành nhạc cụ gõ.",
+            "summary": "Nhận biết cao độ, trường độ.",
             "questions": []
           },
           {
             "id": "amnhac-2-b2",
             "number": 2,
-            "title": "Chủ đề 2: Vui đến trường",
-            "chapter": "Chủ đề 2: Vui đến trường",
-            "summary": "Hát Em yêu trường em, Học sinh lớp 2 chăm ngoan; đọc nhạc 4 nốt.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Sắc màu âm thanh",
+            "chapter": "Chủ đề 1: Sắc màu âm thanh",
+            "summary": "hát Ngày mùa vui; thực hành nhạc cụ gõ..",
             "questions": []
           },
           {
             "id": "amnhac-2-b3",
             "number": 3,
-            "title": "Chủ đề 3: Nhịp điệu quê hương",
-            "chapter": "Chủ đề 3: Nhịp điệu quê hương",
-            "summary": "Hát Quê hương tươi đẹp; nghe dân ca và cảm nhận nhịp 2/4.",
+            "title": "Bài 3: Hát & Nghe nhạc – Vui đến trường",
+            "chapter": "Chủ đề 2: Vui đến trường",
+            "summary": "Hát Em yêu trường em, Học sinh lớp 2 chăm ngoan.",
             "questions": []
           },
           {
             "id": "amnhac-2-b4",
             "number": 4,
-            "title": "Chủ đề 4: Cánh én mùa xuân",
-            "chapter": "Chủ đề 4: Cánh én mùa xuân",
-            "summary": "Hát Mùa xuân đến rồi, Hoa lá mùa xuân; vận động phụ họa theo nhạc.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Vui đến trường",
+            "chapter": "Chủ đề 2: Vui đến trường",
+            "summary": "đọc nhạc 4 nốt..",
             "questions": []
           },
           {
             "id": "amnhac-2-b5",
             "number": 5,
-            "title": "Chủ đề 5: Vui Tết Trung thu",
-            "chapter": "Chủ đề 5: Vui Tết Trung thu",
-            "summary": "Hát Rước đèn tháng Tám; thực hành gõ đệm nhịp nhàng.",
+            "title": "Bài 5: Hát & Nghe nhạc – Nhịp điệu quê hương",
+            "chapter": "Chủ đề 3: Nhịp điệu quê hương",
+            "summary": "Hát Quê hương tươi đẹp.",
             "questions": []
           },
           {
             "id": "amnhac-2-b6",
             "number": 6,
-            "title": "Chủ đề 6: Chia sẻ yêu thương",
-            "chapter": "Chủ đề 6: Chia sẻ yêu thương",
-            "summary": "Hát Chúc mừng sinh nhật, Bàn tay mẹ; thể hiện tình cảm gia đình, bạn bè.",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Nhịp điệu quê hương",
+            "chapter": "Chủ đề 3: Nhịp điệu quê hương",
+            "summary": "nghe dân ca và cảm nhận nhịp 2/4..",
             "questions": []
           },
           {
             "id": "amnhac-2-b7",
             "number": 7,
-            "title": "Chủ đề 7: Thiên nhiên tươi đẹp",
-            "chapter": "Chủ đề 7: Thiên nhiên tươi đẹp",
-            "summary": "Hát Chim sáo, Con chim vành khuyên; đọc nhạc kết hợp vận động.",
+            "title": "Bài 7: Hát & Nghe nhạc – Cánh én mùa xuân",
+            "chapter": "Chủ đề 4: Cánh én mùa xuân",
+            "summary": "Hát Mùa xuân đến rồi, Hoa lá mùa xuân.",
             "questions": []
           },
           {
             "id": "amnhac-2-b8",
             "number": 8,
-            "title": "Chủ đề 8: Chào mùa hè",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Cánh én mùa xuân",
+            "chapter": "Chủ đề 4: Cánh én mùa xuân",
+            "summary": "vận động phụ họa theo nhạc..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Vui Tết Trung thu",
+            "chapter": "Chủ đề 5: Vui Tết Trung thu",
+            "summary": "Hát Rước đèn tháng Tám.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Vui Tết Trung thu",
+            "chapter": "Chủ đề 5: Vui Tết Trung thu",
+            "summary": "thực hành gõ đệm nhịp nhàng..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Chia sẻ yêu thương",
+            "chapter": "Chủ đề 6: Chia sẻ yêu thương",
+            "summary": "Hát Chúc mừng sinh nhật, Bàn tay mẹ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Chia sẻ yêu thương",
+            "chapter": "Chủ đề 6: Chia sẻ yêu thương",
+            "summary": "thể hiện tình cảm gia đình, bạn bè..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Thiên nhiên tươi đẹp",
+            "chapter": "Chủ đề 7: Thiên nhiên tươi đẹp",
+            "summary": "Hát Chim sáo, Con chim vành khuyên.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Thiên nhiên tươi đẹp",
+            "chapter": "Chủ đề 7: Thiên nhiên tươi đẹp",
+            "summary": "đọc nhạc kết hợp vận động..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Chào mùa hè",
             "chapter": "Chủ đề 8: Chào mùa hè",
-            "summary": "Hát Dàn đồng ca mùa hạ; ôn tập các bài hát đã học trong năm.",
+            "summary": "Hát Dàn đồng ca mùa hạ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Chào mùa hè",
+            "chapter": "Chủ đề 8: Chào mùa hè",
+            "summary": "ôn tập các bài hát đã học trong năm..",
             "questions": []
           }
         ]
@@ -3039,81 +3847,161 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-2-b1",
             "number": 1,
-            "title": "Chủ đề 1: Thế giới mĩ thuật qua những chấm",
+            "title": "Bài 1: Khám phá & Quan sát – Thế giới mĩ thuật qua những chấm",
             "chapter": "Chủ đề 1: Thế giới mĩ thuật qua những chấm",
-            "summary": "Tạo bức tranh phong cảnh hoặc sinh hoạt bằng chấm màu.",
+            "summary": "Tạo bức tranh phong cảnh hoặc sinh hoạt bằng chấm màu. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-2-b2",
             "number": 2,
-            "title": "Chủ đề 2: Những sắc màu âm thanh",
-            "chapter": "Chủ đề 2: Những sắc màu âm thanh",
-            "summary": "Thể hiện cảm xúc âm nhạc qua đường nét và màu sắc.",
+            "title": "Bài 2: Thực hành sáng tạo – Thế giới mĩ thuật qua những chấm",
+            "chapter": "Chủ đề 1: Thế giới mĩ thuật qua những chấm",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thế giới mĩ thuật qua những chấm, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-2-b3",
             "number": 3,
-            "title": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
-            "chapter": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
-            "summary": "Vẽ, cắt dán cảnh thiên nhiên, cây cối, bầu trời.",
+            "title": "Bài 3: Khám phá & Quan sát – Những sắc màu âm thanh",
+            "chapter": "Chủ đề 2: Những sắc màu âm thanh",
+            "summary": "Thể hiện cảm xúc âm nhạc qua đường nét và màu sắc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-2-b4",
             "number": 4,
-            "title": "Chủ đề 4: Mái trường thân thiện",
-            "chapter": "Chủ đề 4: Mái trường thân thiện",
-            "summary": "Vẽ và tạo hình hoạt động vui chơi ở sân trường.",
+            "title": "Bài 4: Thực hành sáng tạo – Những sắc màu âm thanh",
+            "chapter": "Chủ đề 2: Những sắc màu âm thanh",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những sắc màu âm thanh, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-2-b5",
             "number": 5,
-            "title": "Chủ đề 5: Ngôi nhà của em",
-            "chapter": "Chủ đề 5: Ngôi nhà của em",
-            "summary": "Tạo hình ngôi nhà từ vật liệu tái chế hoặc giấy bìa.",
+            "title": "Bài 5: Khám phá & Quan sát – Vẻ đẹp của thiên nhiên",
+            "chapter": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
+            "summary": "Vẽ, cắt dán cảnh thiên nhiên, cây cối, bầu trời. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-2-b6",
             "number": 6,
-            "title": "Chủ đề 6: Con vật quen thuộc",
-            "chapter": "Chủ đề 6: Con vật quen thuộc",
-            "summary": "Nặn và vẽ các con vật nuôi trong gia đình.",
+            "title": "Bài 6: Thực hành sáng tạo – Vẻ đẹp của thiên nhiên",
+            "chapter": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp của thiên nhiên, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-2-b7",
             "number": 7,
-            "title": "Chủ đề 7: Khu vườn kỳ diệu",
-            "chapter": "Chủ đề 7: Khu vườn kỳ diệu",
-            "summary": "Phối hợp nhiều chất liệu tạo mô hình khu vườn nhiều màu sắc.",
+            "title": "Bài 7: Khám phá & Quan sát – Mái trường thân thiện",
+            "chapter": "Chủ đề 4: Mái trường thân thiện",
+            "summary": "Vẽ và tạo hình hoạt động vui chơi ở sân trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-2-b8",
             "number": 8,
-            "title": "Chủ đề 8: Quà tặng ý nghĩa",
-            "chapter": "Chủ đề 8: Quà tặng ý nghĩa",
-            "summary": "Làm bưu thiếp, đồ thủ công tặng người thân, thầy cô.",
+            "title": "Bài 8: Thực hành sáng tạo – Mái trường thân thiện",
+            "chapter": "Chủ đề 4: Mái trường thân thiện",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mái trường thân thiện, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-2-b9",
             "number": 9,
-            "title": "Chủ đề 9: Bữa tiệc vui",
-            "chapter": "Chủ đề 9: Bữa tiệc vui",
-            "summary": "Tạo hình bánh, hoa quả, mâm cỗ bằng đất nặn.",
+            "title": "Bài 9: Khám phá & Quan sát – Ngôi nhà của em",
+            "chapter": "Chủ đề 5: Ngôi nhà của em",
+            "summary": "Tạo hình ngôi nhà từ vật liệu tái chế hoặc giấy bìa. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-2-b10",
             "number": 10,
-            "title": "Chủ đề 10: An toàn giao thông",
+            "title": "Bài 10: Thực hành sáng tạo – Ngôi nhà của em",
+            "chapter": "Chủ đề 5: Ngôi nhà của em",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà của em, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Con vật quen thuộc",
+            "chapter": "Chủ đề 6: Con vật quen thuộc",
+            "summary": "Nặn và vẽ các con vật nuôi trong gia đình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Con vật quen thuộc",
+            "chapter": "Chủ đề 6: Con vật quen thuộc",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Con vật quen thuộc, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Khu vườn kỳ diệu",
+            "chapter": "Chủ đề 7: Khu vườn kỳ diệu",
+            "summary": "Phối hợp nhiều chất liệu tạo mô hình khu vườn nhiều màu sắc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Khu vườn kỳ diệu",
+            "chapter": "Chủ đề 7: Khu vườn kỳ diệu",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Khu vườn kỳ diệu, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Quà tặng ý nghĩa",
+            "chapter": "Chủ đề 8: Quà tặng ý nghĩa",
+            "summary": "Làm bưu thiếp, đồ thủ công tặng người thân, thầy cô. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Quà tặng ý nghĩa",
+            "chapter": "Chủ đề 8: Quà tặng ý nghĩa",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Quà tặng ý nghĩa, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b17",
+            "number": 17,
+            "title": "Bài 17: Khám phá & Quan sát – Bữa tiệc vui",
+            "chapter": "Chủ đề 9: Bữa tiệc vui",
+            "summary": "Tạo hình bánh, hoa quả, mâm cỗ bằng đất nặn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành sáng tạo – Bữa tiệc vui",
+            "chapter": "Chủ đề 9: Bữa tiệc vui",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Bữa tiệc vui, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b19",
+            "number": 19,
+            "title": "Bài 19: Khám phá & Quan sát – An toàn giao thông",
             "chapter": "Chủ đề 10: An toàn giao thông",
-            "summary": "Vẽ tranh tuyên truyền đi bộ, sang đường an toàn.",
+            "summary": "Vẽ tranh tuyên truyền đi bộ, sang đường an toàn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b20",
+            "number": 20,
+            "title": "Bài 20: Thực hành sáng tạo – An toàn giao thông",
+            "chapter": "Chủ đề 10: An toàn giao thông",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề An toàn giao thông, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -3126,7 +4014,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-2-b1",
             "number": 1,
-            "title": "Chế độ dinh dưỡng và vệ sinh tập luyện",
+            "title": "Bài 1: Chế độ dinh dưỡng và vệ sinh tập luyện",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Ăn uống đủ chất, uống nước hợp lí và đảm bảo an toàn sân bãi.",
             "questions": []
@@ -3134,41 +4022,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-2-b2",
             "number": 2,
-            "title": "Chủ đề 1: Đội hình đội ngũ",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Chuyển đổi hàng dọc, hàng ngang thành vòng tròn; giậm chân tại chỗ.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Thực hành Chuyển đổi hàng dọc, hàng ngang thành vòng tròn.",
             "questions": []
           },
           {
             "id": "gdtc-2-b3",
             "number": 3,
-            "title": "Chủ đề 2: Bài tập thể dục",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Bài thể dục phát triển chung 8 động tác: vươn thở, tay, chân, lườn, bụng, phối hợp, nhảy, điều hòa.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Luyện tập giậm chân tại chỗ. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-2-b4",
             "number": 4,
-            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Đi theo vạch kẻ, vòng trái/phải, động tác quỳ, ngồi, bật nhảy cơ bản.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Bài tập thể dục",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Thực hành Bài thể dục phát triển chung 8 động tác: vươn thở, tay, chân, lườn.",
             "questions": []
           },
           {
             "id": "gdtc-2-b5",
             "number": 5,
-            "title": "Chủ đề 1: Môn Bóng rổ",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Di chuyển, dẫn bóng tại chỗ và di chuyển, tung bắt bóng hai tay.",
+            "title": "Bài 5: Phối hợp vận dụng – Bài tập thể dục",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Luyện tập bụng, phối hợp, nhảy, điều hòa. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-2-b6",
             "number": 6,
-            "title": "Chủ đề 2: Môn Bơi",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Ôm gối nổi người, duỗi thẳng chân tay, đạp thành bể lướt nước.",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Thực hành Đi theo vạch kẻ, vòng trái/phải, động tác quỳ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Luyện tập ngồi, bật nhảy cơ bản. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ",
+            "chapter": "Chủ đề 1: Môn Bóng rổ",
+            "summary": "Thực hành Di chuyển, dẫn bóng tại chỗ và di chuyển.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ",
+            "chapter": "Chủ đề 1: Môn Bóng rổ",
+            "summary": "Luyện tập tung bắt bóng hai tay. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b10",
+            "number": 10,
+            "title": "Bài 10: Kĩ thuật cơ bản – Môn Bơi",
+            "chapter": "Chủ đề 2: Môn Bơi",
+            "summary": "Thực hành Ôm gối nổi người, duỗi thẳng chân tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b11",
+            "number": 11,
+            "title": "Bài 11: Phối hợp vận dụng – Môn Bơi",
+            "chapter": "Chủ đề 2: Môn Bơi",
+            "summary": "Luyện tập đạp thành bể lướt nước. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -3181,7 +4109,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-2-b1",
             "number": 1,
-            "title": "Chủ đề 1: Khám phá bản thân",
+            "title": "Bài 1: Nhận diện & Khám phá – Khám phá bản thân",
             "chapter": "Chủ đề 1: Khám phá bản thân",
             "summary": "Nhận biết điểm mạnh, sở thích và những việc em có thể tự làm.",
             "questions": []
@@ -3189,65 +4117,137 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-2-b2",
             "number": 2,
-            "title": "Chủ đề 2: Rèn nếp sống",
-            "chapter": "Chủ đề 2: Rèn nếp sống",
-            "summary": "Sắp xếp góc học tập, đồ dùng cá nhân gọn gàng, đúng giờ.",
+            "title": "Bài 2: Thực hành & Vận dụng – Khám phá bản thân",
+            "chapter": "Chủ đề 1: Khám phá bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Khám phá bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-2-b3",
             "number": 3,
-            "title": "Chủ đề 3: Em yêu trường em",
-            "chapter": "Chủ đề 3: Em yêu trường em",
-            "summary": "Tham gia giữ gìn trường lớp sạch đẹp, đoàn kết với bạn bè.",
+            "title": "Bài 3: Nhận diện & Khám phá – Rèn nếp sống",
+            "chapter": "Chủ đề 2: Rèn nếp sống",
+            "summary": "Sắp xếp góc học tập, đồ dùng cá nhân gọn gàng, đúng giờ.",
             "questions": []
           },
           {
             "id": "hdtn-2-b4",
             "number": 4,
-            "title": "Chủ đề 4: Tự phục vụ bản thân",
-            "chapter": "Chủ đề 4: Tự phục vụ bản thân",
-            "summary": "Tự chuẩn bị sách vở, quần áo, tự gấp chăn màn.",
+            "title": "Bài 4: Thực hành & Vận dụng – Rèn nếp sống",
+            "chapter": "Chủ đề 2: Rèn nếp sống",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Rèn nếp sống.",
             "questions": []
           },
           {
             "id": "hdtn-2-b5",
             "number": 5,
-            "title": "Chủ đề 5: Gia đình thân thương",
-            "chapter": "Chủ đề 5: Gia đình thân thương",
-            "summary": "Lắng nghe, chia sẻ và giúp đỡ công việc nhà cùng bố mẹ.",
+            "title": "Bài 5: Nhận diện & Khám phá – Em yêu trường em",
+            "chapter": "Chủ đề 3: Em yêu trường em",
+            "summary": "Tham gia giữ gìn trường lớp sạch đẹp, đoàn kết với bạn bè.",
             "questions": []
           },
           {
             "id": "hdtn-2-b6",
             "number": 6,
-            "title": "Chủ đề 6: Tự chăm sóc và bảo vệ bản thân",
-            "chapter": "Chủ đề 6: Tự chăm sóc và bảo vệ bản thân",
-            "summary": "Phòng tránh ngã, bỏng, điện giật và không đi theo người lạ.",
+            "title": "Bài 6: Thực hành & Vận dụng – Em yêu trường em",
+            "chapter": "Chủ đề 3: Em yêu trường em",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em yêu trường em.",
             "questions": []
           },
           {
             "id": "hdtn-2-b7",
             "number": 7,
-            "title": "Chủ đề 7: Chia sẻ cộng đồng",
-            "chapter": "Chủ đề 7: Chia sẻ cộng đồng",
-            "summary": "Tham gia hoạt động quyên góp, giúp đỡ bạn có hoàn cảnh khó khăn.",
+            "title": "Bài 7: Nhận diện & Khám phá – Tự phục vụ bản thân",
+            "chapter": "Chủ đề 4: Tự phục vụ bản thân",
+            "summary": "Tự chuẩn bị sách vở, quần áo, tự gấp chăn màn.",
             "questions": []
           },
           {
             "id": "hdtn-2-b8",
             "number": 8,
-            "title": "Chủ đề 8: Môi trường quanh em",
-            "chapter": "Chủ đề 8: Môi trường quanh em",
-            "summary": "Phân loại rác thải, tiết kiệm điện nước trong gia đình và nhà trường.",
+            "title": "Bài 8: Thực hành & Vận dụng – Tự phục vụ bản thân",
+            "chapter": "Chủ đề 4: Tự phục vụ bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tự phục vụ bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-2-b9",
             "number": 9,
-            "title": "Chủ đề 9: Em tìm hiểu nghề nghiệp",
+            "title": "Bài 9: Nhận diện & Khám phá – Gia đình thân thương",
+            "chapter": "Chủ đề 5: Gia đình thân thương",
+            "summary": "Lắng nghe, chia sẻ và giúp đỡ công việc nhà cùng bố mẹ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Gia đình thân thương",
+            "chapter": "Chủ đề 5: Gia đình thân thương",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Gia đình thân thương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Tự chăm sóc và bảo vệ bản thân",
+            "chapter": "Chủ đề 6: Tự chăm sóc và bảo vệ bản thân",
+            "summary": "Phòng tránh ngã, bỏng, điện giật và không đi theo người lạ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Tự chăm sóc và bảo vệ bản thân",
+            "chapter": "Chủ đề 6: Tự chăm sóc và bảo vệ bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tự chăm sóc và bảo vệ bản thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Chia sẻ cộng đồng",
+            "chapter": "Chủ đề 7: Chia sẻ cộng đồng",
+            "summary": "Tham gia hoạt động quyên góp, giúp đỡ bạn có hoàn cảnh khó khăn.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Chia sẻ cộng đồng",
+            "chapter": "Chủ đề 7: Chia sẻ cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Chia sẻ cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Môi trường quanh em",
+            "chapter": "Chủ đề 8: Môi trường quanh em",
+            "summary": "Phân loại rác thải, tiết kiệm điện nước trong gia đình và nhà trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Môi trường quanh em",
+            "chapter": "Chủ đề 8: Môi trường quanh em",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Môi trường quanh em.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b17",
+            "number": 17,
+            "title": "Bài 17: Nhận diện & Khám phá – Em tìm hiểu nghề nghiệp",
             "chapter": "Chủ đề 9: Em tìm hiểu nghề nghiệp",
             "summary": "Làm quen một số nghề gần gũi quanh em và công cụ lao động của nghề.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành & Vận dụng – Em tìm hiểu nghề nghiệp",
+            "chapter": "Chủ đề 9: Em tìm hiểu nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em tìm hiểu nghề nghiệp.",
             "questions": []
           }
         ]
@@ -4698,7 +5698,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Thông tin và quyết định",
             "chapter": "Chủ đề 1: Máy tính và em",
-            "summary": "Ba dạng thông tin: chữ, âm thanh, hình ảnh; ra quyết định từ thông tin.",
+            "summary": "Nhận biết thông tin thu nhận qua giác quan và vai trò của thông tin đối với quyết định.",
             "questions": []
           },
           {
@@ -4706,15 +5706,15 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Xử lí thông tin",
             "chapter": "Chủ đề 1: Máy tính và em",
-            "summary": "Tiếp nhận, xử lí và lưu trữ thông tin.",
+            "summary": "Hiểu quá trình tiếp nhận, xử lí và lưu trữ thông tin của con người và máy tính.",
             "questions": []
           },
           {
             "id": "tinhoc-3-b3",
             "number": 3,
-            "title": "Bài 3: Máy tính - người bạn mới",
+            "title": "Bài 3: Máy tính và em",
             "chapter": "Chủ đề 1: Máy tính và em",
-            "summary": "4 bộ phận cơ bản: màn hình, thân máy, bàn phím, chuột.",
+            "summary": "Nhận biết các bộ phận cơ bản của máy tính (màn hình, thân máy, bàn phím, chuột).",
             "questions": []
           },
           {
@@ -4722,15 +5722,15 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Làm việc với máy tính",
             "chapter": "Chủ đề 1: Máy tính và em",
-            "summary": "Ngồi đúng tư thế, thao tác chuột và tắt máy đúng cách.",
+            "summary": "Tư thế ngồi đúng, cách bật/tắt máy tính an toàn và thao tác cơ bản.",
             "questions": []
           },
           {
             "id": "tinhoc-3-b5",
             "number": 5,
             "title": "Bài 5: Sử dụng bàn phím",
-            "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "Hàng phím cơ sở, đặt tay đúng quy tắc 10 ngón.",
+            "chapter": "Chủ đề 1: Máy tính và em",
+            "summary": "Nhận biết các khu vực phím trên bàn phím và cách đặt tay trên hàng phím cơ sở.",
             "questions": []
           },
           {
@@ -4738,7 +5738,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Khám phá thông tin trên Internet",
             "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "Xem tin tức, hình ảnh lành mạnh trên web.",
+            "summary": "Nhận biết thông tin dạng văn bản, hình ảnh, âm thanh, video trên trang web.",
             "questions": []
           },
           {
@@ -4746,7 +5746,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Sắp xếp để dễ tìm",
             "chapter": "Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
-            "summary": "Phân loại đồ vật, thông tin hợp lí.",
+            "summary": "Hiểu ý nghĩa của việc sắp xếp hợp lí giúp tìm kiếm thông tin nhanh chóng.",
             "questions": []
           },
           {
@@ -4754,31 +5754,71 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Sơ đồ hình cây. Tổ chức thông tin trong máy tính",
             "chapter": "Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
-            "summary": "Tạo, đổi tên, xóa thư mục và tệp.",
+            "summary": "Biết tổ chức thông tin theo sơ đồ hình cây và khái niệm thư mục, tệp.",
             "questions": []
           },
           {
             "id": "tinhoc-3-b9",
             "number": 9,
-            "title": "Bài 9: Bảo vệ thông tin cá nhân",
-            "chapter": "Chủ đề 4: Đạo đức, pháp luật và văn hóa trong môi trường số",
-            "summary": "Không chia sẻ thông tin cá nhân cho người lạ trên mạng.",
+            "title": "Bài 9: Thực hành với tệp và thư mục trong máy tính",
+            "chapter": "Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+            "summary": "Thực hành tạo, mở, đổi tên và xóa thư mục trên máy tính.",
             "questions": []
           },
           {
             "id": "tinhoc-3-b10",
             "number": 10,
-            "title": "Bài 10-12: Làm quen với bài trình chiếu PowerPoint",
-            "chapter": "Chủ đề 5: Ứng dụng tin học",
-            "summary": "Tạo trang chiếu, gõ chữ, chèn ảnh và trình chiếu.",
+            "title": "Bài 10: Bảo vệ thông tin khi dùng máy tính",
+            "chapter": "Chủ đề 4: Đạo đức, pháp luật và văn hóa trong môi trường số",
+            "summary": "Nhận biết nguy cơ mất an toàn thông tin và cách bảo vệ thông tin cá nhân.",
             "questions": []
           },
           {
             "id": "tinhoc-3-b11",
             "number": 11,
-            "title": "Bài 13-16: Chia việc lớn thành việc nhỏ và thực hiện theo từng bước",
+            "title": "Bài 11: Bài trình chiếu của em",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Làm quen phần mềm trình chiếu, tạo trang chiếu có chữ và hình ảnh.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-3-b12",
+            "number": 12,
+            "title": "Bài 12: Tìm hiểu về thế giới tự nhiên",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Sử dụng phần mềm học tập hoặc đa phương tiện để khám phá thế giới tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-3-b13",
+            "number": 13,
+            "title": "Bài 13: Luyện tập sử dụng chuột",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Rèn luyện các thao tác di chuyển, nháy, nháy đúp, kéo thả chuột thành thạo.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-3-b14",
+            "number": 14,
+            "title": "Bài 14: Em thực hiện công việc như thế nào",
             "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
-            "summary": "Tư duy từng bước (tuần tự) giải quyết vấn đề.",
+            "summary": "Chia nhỏ công việc thành các bước tuần tự rõ ràng.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-3-b15",
+            "number": 15,
+            "title": "Bài 15: Công việc được thực hiện theo điều kiện",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Nhận biết cấu trúc điều kiện 'Nếu... thì...' trong các công việc hằng ngày.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-3-b16",
+            "number": 16,
+            "title": "Bài 16: Công việc của em và sự trợ giúp của máy tính",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Nhận biết những việc máy tính có thể hỗ trợ con người giải quyết hiệu quả.",
             "questions": []
           }
         ]
@@ -5045,65 +6085,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-3-b1",
             "number": 1,
-            "title": "Chủ đề 1: Vui đón khai trường",
+            "title": "Bài 1: Hát & Nghe nhạc – Vui đón khai trường",
             "chapter": "Chủ đề 1: Vui đón khai trường",
-            "summary": "Hát Khai trường, Em yêu giờ học hát; thực hành nhạc cụ gõ và sáo recorder.",
+            "summary": "Hát Khai trường, Em yêu giờ học hát.",
             "questions": []
           },
           {
             "id": "amnhac-3-b2",
             "number": 2,
-            "title": "Chủ đề 2: Âm thanh ngày mới",
-            "chapter": "Chủ đề 2: Âm thanh ngày mới",
-            "summary": "Hát Tiếng hát bạn bè mình; đọc nhạc Đô-Rê-Mi-Pha-Son.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Vui đón khai trường",
+            "chapter": "Chủ đề 1: Vui đón khai trường",
+            "summary": "thực hành nhạc cụ gõ và sáo recorder..",
             "questions": []
           },
           {
             "id": "amnhac-3-b3",
             "number": 3,
-            "title": "Chủ đề 3: Giai điệu quê hương",
-            "chapter": "Chủ đề 3: Giai điệu quê hương",
-            "summary": "Nghe dân ca các vùng miền; hát Cây trúc xinh.",
+            "title": "Bài 3: Hát & Nghe nhạc – Âm thanh ngày mới",
+            "chapter": "Chủ đề 2: Âm thanh ngày mới",
+            "summary": "Hát Tiếng hát bạn bè mình.",
             "questions": []
           },
           {
             "id": "amnhac-3-b4",
             "number": 4,
-            "title": "Chủ đề 4: Nhịp điệu bạn bè",
-            "chapter": "Chủ đề 4: Nhịp điệu bạn bè",
-            "summary": "Hát Cùng múa hát dưới trăng; gõ đệm theo tiết tấu.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Âm thanh ngày mới",
+            "chapter": "Chủ đề 2: Âm thanh ngày mới",
+            "summary": "đọc nhạc Đô-Rê-Mi-Pha-Son..",
             "questions": []
           },
           {
             "id": "amnhac-3-b5",
             "number": 5,
-            "title": "Chủ đề 5: Mùa xuân và tuổi thơ",
-            "chapter": "Chủ đề 5: Mùa xuân và tuổi thơ",
-            "summary": "Hát Mùa xuân ơi, Bông hoa mừng cô; cảm nhận sắc thái âm nhạc.",
+            "title": "Bài 5: Hát & Nghe nhạc – Giai điệu quê hương",
+            "chapter": "Chủ đề 3: Giai điệu quê hương",
+            "summary": "Nghe dân ca các vùng miền.",
             "questions": []
           },
           {
             "id": "amnhac-3-b6",
             "number": 6,
-            "title": "Chủ đề 6: Em yêu Tổ quốc",
-            "chapter": "Chủ đề 6: Em yêu Tổ quốc",
-            "summary": "Hát Tổ quốc ta; nghe nhạc cụ dân tộc (đàn bầu, đàn tranh).",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Giai điệu quê hương",
+            "chapter": "Chủ đề 3: Giai điệu quê hương",
+            "summary": "hát Cây trúc xinh..",
             "questions": []
           },
           {
             "id": "amnhac-3-b7",
             "number": 7,
-            "title": "Chủ đề 7: Chắp cánh ước mơ",
-            "chapter": "Chủ đề 7: Chắp cánh ước mơ",
-            "summary": "Hát Ước mơ hồng; thực hành đọc nhạc kết hợp vận động.",
+            "title": "Bài 7: Hát & Nghe nhạc – Nhịp điệu bạn bè",
+            "chapter": "Chủ đề 4: Nhịp điệu bạn bè",
+            "summary": "Hát Cùng múa hát dưới trăng.",
             "questions": []
           },
           {
             "id": "amnhac-3-b8",
             "number": 8,
-            "title": "Chủ đề 8: Vui bước đến tương lai",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Nhịp điệu bạn bè",
+            "chapter": "Chủ đề 4: Nhịp điệu bạn bè",
+            "summary": "gõ đệm theo tiết tấu..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Mùa xuân và tuổi thơ",
+            "chapter": "Chủ đề 5: Mùa xuân và tuổi thơ",
+            "summary": "Hát Mùa xuân ơi, Bông hoa mừng cô.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Mùa xuân và tuổi thơ",
+            "chapter": "Chủ đề 5: Mùa xuân và tuổi thơ",
+            "summary": "cảm nhận sắc thái âm nhạc..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Em yêu Tổ quốc",
+            "chapter": "Chủ đề 6: Em yêu Tổ quốc",
+            "summary": "Hát Tổ quốc ta.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Em yêu Tổ quốc",
+            "chapter": "Chủ đề 6: Em yêu Tổ quốc",
+            "summary": "nghe nhạc cụ dân tộc (đàn bầu, đàn tranh)..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Chắp cánh ước mơ",
+            "chapter": "Chủ đề 7: Chắp cánh ước mơ",
+            "summary": "Hát Ước mơ hồng.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Chắp cánh ước mơ",
+            "chapter": "Chủ đề 7: Chắp cánh ước mơ",
+            "summary": "thực hành đọc nhạc kết hợp vận động..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Vui bước đến tương lai",
             "chapter": "Chủ đề 8: Vui bước đến tương lai",
-            "summary": "Hát Tạm biệt lớp 3; ôn tập biểu diễn tổng kết năm học.",
+            "summary": "Hát Tạm biệt lớp 3.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Vui bước đến tương lai",
+            "chapter": "Chủ đề 8: Vui bước đến tương lai",
+            "summary": "ôn tập biểu diễn tổng kết năm học..",
             "questions": []
           }
         ]
@@ -5116,65 +6220,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-3-b1",
             "number": 1,
-            "title": "Chủ đề 1: Thế giới chấm và nét",
+            "title": "Bài 1: Khám phá & Quan sát – Thế giới chấm và nét",
             "chapter": "Chủ đề 1: Thế giới chấm và nét",
-            "summary": "Kết hợp chấm và nét tạo nhịp điệu trong tranh.",
+            "summary": "Kết hợp chấm và nét tạo nhịp điệu trong tranh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-3-b2",
             "number": 2,
-            "title": "Chủ đề 2: Sắc màu thiên nhiên",
-            "chapter": "Chủ đề 2: Sắc màu thiên nhiên",
-            "summary": "Phân biệt màu nóng, màu lạnh và ứng dụng vẽ thiên nhiên.",
+            "title": "Bài 2: Thực hành sáng tạo – Thế giới chấm và nét",
+            "chapter": "Chủ đề 1: Thế giới chấm và nét",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thế giới chấm và nét, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-3-b3",
             "number": 3,
-            "title": "Chủ đề 3: Hình khối trong đời sống",
-            "chapter": "Chủ đề 3: Hình khối trong đời sống",
-            "summary": "Quan sát và tạo hình đồ vật từ hình khối cơ bản.",
+            "title": "Bài 3: Khám phá & Quan sát – Sắc màu thiên nhiên",
+            "chapter": "Chủ đề 2: Sắc màu thiên nhiên",
+            "summary": "Phân biệt màu nóng, màu lạnh và ứng dụng vẽ thiên nhiên. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-3-b4",
             "number": 4,
-            "title": "Chủ đề 4: Cổng trường rộn ràng",
-            "chapter": "Chủ đề 4: Cổng trường rộn ràng",
-            "summary": "Vẽ tranh đề tài ngày khai trường, giờ ra chơi.",
+            "title": "Bài 4: Thực hành sáng tạo – Sắc màu thiên nhiên",
+            "chapter": "Chủ đề 2: Sắc màu thiên nhiên",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sắc màu thiên nhiên, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-3-b5",
             "number": 5,
-            "title": "Chủ đề 5: Ngôi nhà yêu thương",
-            "chapter": "Chủ đề 5: Ngôi nhà yêu thương",
-            "summary": "Tạo hình kiến trúc ngôi nhà và cảnh quan xung quanh.",
+            "title": "Bài 5: Khám phá & Quan sát – Hình khối trong đời sống",
+            "chapter": "Chủ đề 3: Hình khối trong đời sống",
+            "summary": "Quan sát và tạo hình đồ vật từ hình khối cơ bản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-3-b6",
             "number": 6,
-            "title": "Chủ đề 6: Thiên nhiên và cuộc sống",
-            "chapter": "Chủ đề 6: Thiên nhiên và cuộc sống",
-            "summary": "Vẽ tranh bảo vệ thiên nhiên, trồng cây xanh.",
+            "title": "Bài 6: Thực hành sáng tạo – Hình khối trong đời sống",
+            "chapter": "Chủ đề 3: Hình khối trong đời sống",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hình khối trong đời sống, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-3-b7",
             "number": 7,
-            "title": "Chủ đề 7: Nét đẹp truyền thống",
-            "chapter": "Chủ đề 7: Nét đẹp truyền thống",
-            "summary": "Tìm hiểu họa tiết dân gian và trang trí đồ vật.",
+            "title": "Bài 7: Khám phá & Quan sát – Cổng trường rộn ràng",
+            "chapter": "Chủ đề 4: Cổng trường rộn ràng",
+            "summary": "Vẽ tranh đề tài ngày khai trường, giờ ra chơi. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-3-b8",
             "number": 8,
-            "title": "Chủ đề 8: Vui hội làng",
+            "title": "Bài 8: Thực hành sáng tạo – Cổng trường rộn ràng",
+            "chapter": "Chủ đề 4: Cổng trường rộn ràng",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Cổng trường rộn ràng, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b9",
+            "number": 9,
+            "title": "Bài 9: Khám phá & Quan sát – Ngôi nhà yêu thương",
+            "chapter": "Chủ đề 5: Ngôi nhà yêu thương",
+            "summary": "Tạo hình kiến trúc ngôi nhà và cảnh quan xung quanh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành sáng tạo – Ngôi nhà yêu thương",
+            "chapter": "Chủ đề 5: Ngôi nhà yêu thương",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà yêu thương, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Thiên nhiên và cuộc sống",
+            "chapter": "Chủ đề 6: Thiên nhiên và cuộc sống",
+            "summary": "Vẽ tranh bảo vệ thiên nhiên, trồng cây xanh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Thiên nhiên và cuộc sống",
+            "chapter": "Chủ đề 6: Thiên nhiên và cuộc sống",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiên nhiên và cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Nét đẹp truyền thống",
+            "chapter": "Chủ đề 7: Nét đẹp truyền thống",
+            "summary": "Tìm hiểu họa tiết dân gian và trang trí đồ vật. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Nét đẹp truyền thống",
+            "chapter": "Chủ đề 7: Nét đẹp truyền thống",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nét đẹp truyền thống, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Vui hội làng",
             "chapter": "Chủ đề 8: Vui hội làng",
-            "summary": "Vẽ hoặc xé dán tranh về lễ hội truyền thống quê hương.",
+            "summary": "Vẽ hoặc xé dán tranh về lễ hội truyền thống quê hương. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Vui hội làng",
+            "chapter": "Chủ đề 8: Vui hội làng",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vui hội làng, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -5187,7 +6355,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-3-b1",
             "number": 1,
-            "title": "Vệ sinh sân bãi, dụng cụ và an toàn tập luyện",
+            "title": "Bài 1: Vệ sinh sân bãi, dụng cụ và an toàn tập luyện",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Kiểm tra an toàn trước khi vận động và sơ cứu chấn thương nhẹ.",
             "questions": []
@@ -5195,41 +6363,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-3-b2",
             "number": 2,
-            "title": "Chủ đề 1: Đội hình đội ngũ",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Biến đổi đội hình 1 hàng thành 2-3 hàng, dóng hàng, điểm số.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Thực hành Biến đổi đội hình 1 hàng thành 2-3 hàng, dóng hàng.",
             "questions": []
           },
           {
             "id": "gdtc-3-b3",
             "number": 3,
-            "title": "Chủ đề 2: Bài tập thể dục",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Bài thể dục phát triển chung với cờ hoặc không dụng cụ.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Luyện tập điểm số. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-3-b4",
             "number": 4,
-            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Đi nhanh chuyển sang chạy, bật xa tại chỗ, tung và bắt bóng.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Bài thể dục phát triển chung với cờ hoặc không dụng cụ.",
             "questions": []
           },
           {
             "id": "gdtc-3-b5",
             "number": 5,
-            "title": "Chủ đề 1: Môn Bóng rổ / Cầu lông",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Dẫn bóng đổi hướng, truyền bóng hoặc làm quen vợt cầu lông.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
             "questions": []
           },
           {
             "id": "gdtc-3-b6",
             "number": 6,
-            "title": "Chủ đề 2: Môn Bơi / Đá cầu",
-            "chapter": "Phần 3: Thể thao tự chọn",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Thực hành Đi nhanh chuyển sang chạy, bật xa tại chỗ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Luyện tập tung và bắt bóng. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng rổ / Cầu lông",
+            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông",
+            "summary": "Thực hành Dẫn bóng đổi hướng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng rổ / Cầu lông",
+            "chapter": "Chủ đề 1: Môn Bóng rổ / Cầu lông",
+            "summary": "Luyện tập truyền bóng hoặc làm quen vợt cầu lông. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b10",
+            "number": 10,
+            "title": "Bài 10: Môn Bơi / Đá cầu (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu",
             "summary": "Kĩ thuật đạp chân ếch hoặc tâng cầu bằng mu bàn chân.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b11",
+            "number": 11,
+            "title": "Bài 11: Môn Bơi / Đá cầu (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Đá cầu",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bơi / Đá cầu.",
             "questions": []
           }
         ]
@@ -5242,7 +6450,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-3-b1",
             "number": 1,
-            "title": "Chủ đề 1: Em và mái trường thân yêu",
+            "title": "Bài 1: Nhận diện & Khám phá – Em và mái trường thân yêu",
             "chapter": "Chủ đề 1: Em và mái trường thân yêu",
             "summary": "Tìm hiểu truyền thống nhà trường, xây dựng nội quy lớp học.",
             "questions": []
@@ -5250,57 +6458,121 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-3-b2",
             "number": 2,
-            "title": "Chủ đề 2: Khám phá bản thân",
-            "chapter": "Chủ đề 2: Khám phá bản thân",
-            "summary": "Nhận biết cảm xúc cá nhân và cách kiểm soát cảm xúc tích cực.",
+            "title": "Bài 2: Thực hành & Vận dụng – Em và mái trường thân yêu",
+            "chapter": "Chủ đề 1: Em và mái trường thân yêu",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em và mái trường thân yêu.",
             "questions": []
           },
           {
             "id": "hdtn-3-b3",
             "number": 3,
-            "title": "Chủ đề 3: Rèn luyện thói quen tốt",
-            "chapter": "Chủ đề 3: Rèn luyện thói quen tốt",
-            "summary": "Lập thời gian biểu học tập, vui chơi hợp lí mỗi ngày.",
+            "title": "Bài 3: Nhận diện & Khám phá – Khám phá bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Nhận biết cảm xúc cá nhân và cách kiểm soát cảm xúc tích cực.",
             "questions": []
           },
           {
             "id": "hdtn-3-b4",
             "number": 4,
-            "title": "Chủ đề 4: An toàn khi ở nhà và ở trường",
-            "chapter": "Chủ đề 4: An toàn khi ở nhà và ở trường",
-            "summary": "Nhận diện nguy cơ hỏa hoạn, tai nạn giao thông và kĩ năng thoát hiểm.",
+            "title": "Bài 4: Thực hành & Vận dụng – Khám phá bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Khám phá bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-3-b5",
             "number": 5,
-            "title": "Chủ đề 5: Gia đình yêu thương",
-            "chapter": "Chủ đề 5: Gia đình yêu thương",
-            "summary": "Thực hành tiết kiệm chi tiêu trong gia đình và chăm sóc người thân.",
+            "title": "Bài 5: Nhận diện & Khám phá – Rèn luyện thói quen tốt",
+            "chapter": "Chủ đề 3: Rèn luyện thói quen tốt",
+            "summary": "Lập thời gian biểu học tập, vui chơi hợp lí mỗi ngày.",
             "questions": []
           },
           {
             "id": "hdtn-3-b6",
             "number": 6,
-            "title": "Chủ đề 6: Cộng đồng quanh em",
-            "chapter": "Chủ đề 6: Cộng đồng quanh em",
-            "summary": "Ứng xử văn minh nơi công cộng và tham gia hoạt động thiện nguyện.",
+            "title": "Bài 6: Thực hành & Vận dụng – Rèn luyện thói quen tốt",
+            "chapter": "Chủ đề 3: Rèn luyện thói quen tốt",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Rèn luyện thói quen tốt.",
             "questions": []
           },
           {
             "id": "hdtn-3-b7",
             "number": 7,
-            "title": "Chủ đề 7: Trái đất và ngôi nhà chung",
-            "chapter": "Chủ đề 7: Trái đất và ngôi nhà chung",
-            "summary": "Bảo vệ nguồn nước, giữ gìn cảnh quan thiên nhiên địa phương.",
+            "title": "Bài 7: Nhận diện & Khám phá – An toàn khi ở nhà và ở trường",
+            "chapter": "Chủ đề 4: An toàn khi ở nhà và ở trường",
+            "summary": "Nhận diện nguy cơ hỏa hoạn, tai nạn giao thông và kĩ năng thoát hiểm.",
             "questions": []
           },
           {
             "id": "hdtn-3-b8",
             "number": 8,
-            "title": "Chủ đề 8: Nghề nghiệp trong đời sống",
+            "title": "Bài 8: Thực hành & Vận dụng – An toàn khi ở nhà và ở trường",
+            "chapter": "Chủ đề 4: An toàn khi ở nhà và ở trường",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề An toàn khi ở nhà và ở trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b9",
+            "number": 9,
+            "title": "Bài 9: Nhận diện & Khám phá – Gia đình yêu thương",
+            "chapter": "Chủ đề 5: Gia đình yêu thương",
+            "summary": "Thực hành tiết kiệm chi tiêu trong gia đình và chăm sóc người thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Gia đình yêu thương",
+            "chapter": "Chủ đề 5: Gia đình yêu thương",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Gia đình yêu thương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Cộng đồng quanh em",
+            "chapter": "Chủ đề 6: Cộng đồng quanh em",
+            "summary": "Ứng xử văn minh nơi công cộng và tham gia hoạt động thiện nguyện.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Cộng đồng quanh em",
+            "chapter": "Chủ đề 6: Cộng đồng quanh em",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Cộng đồng quanh em.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Trái đất và ngôi nhà chung",
+            "chapter": "Chủ đề 7: Trái đất và ngôi nhà chung",
+            "summary": "Bảo vệ nguồn nước, giữ gìn cảnh quan thiên nhiên địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Trái đất và ngôi nhà chung",
+            "chapter": "Chủ đề 7: Trái đất và ngôi nhà chung",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Trái đất và ngôi nhà chung.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Nghề nghiệp trong đời sống",
             "chapter": "Chủ đề 8: Nghề nghiệp trong đời sống",
             "summary": "Khám phá lợi ích và yêu cầu an toàn của một số nghề phổ biến.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Nghề nghiệp trong đời sống",
+            "chapter": "Chủ đề 8: Nghề nghiệp trong đời sống",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Nghề nghiệp trong đời sống.",
             "questions": []
           }
         ]
@@ -7008,7 +8280,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Phần cứng và phần mềm máy tính",
             "chapter": "Chủ đề 1: Máy tính và em",
-            "summary": "Phân biệt phần cứng (thiết bị) và phần mềm (chương trình).",
+            "summary": "Phân biệt thiết bị phần cứng và chương trình phần mềm, mối quan hệ giữa chúng.",
             "questions": []
           },
           {
@@ -7016,7 +8288,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Gõ bàn phím đúng cách",
             "chapter": "Chủ đề 1: Máy tính và em",
-            "summary": "Luyện gõ 10 ngón nhanh và chính xác.",
+            "summary": "Thực hành gõ bàn phím bằng nhiều ngón đúng tư thế và hàng phím cơ sở.",
             "questions": []
           },
           {
@@ -7024,7 +8296,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Thông tin trên trang web",
             "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "Các thành phần văn bản, hình ảnh, âm thanh, siêu liên kết trên web.",
+            "summary": "Nhận biết các loại thông tin trên trang web và phòng tránh trang web không phù hợp.",
             "questions": []
           },
           {
@@ -7032,7 +8304,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Tìm kiếm thông tin trên Internet",
             "chapter": "Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
-            "summary": "Sử dụng từ khóa chính xác với máy tìm kiếm.",
+            "summary": "Sử dụng máy tìm kiếm với từ khóa phù hợp để tìm thông tin trên Internet.",
             "questions": []
           },
           {
@@ -7040,7 +8312,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Thao tác với tệp và thư mục",
             "chapter": "Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
-            "summary": "Sao chép, di chuyển, xóa, khôi phục tệp và thư mục.",
+            "summary": "Thực hành sao chép, di chuyển, đổi tên và xóa tệp, thư mục.",
             "questions": []
           },
           {
@@ -7048,7 +8320,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Sử dụng phần mềm khi được phép",
             "chapter": "Chủ đề 4: Đạo đức, pháp luật và văn hóa trong môi trường số",
-            "summary": "Bản quyền phần mềm miễn phí và có phí.",
+            "summary": "Nhận biết bản quyền phần mềm và ý thức chỉ sử dụng phần mềm hợp pháp.",
             "questions": []
           },
           {
@@ -7056,7 +8328,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Tạo bài trình chiếu",
             "chapter": "Chủ đề 5: Ứng dụng tin học",
-            "summary": "Chọn bố cục và định dạng văn bản trang chiếu.",
+            "summary": "Khởi động phần mềm trình chiếu, thêm trang chiếu và nhập nội dung tiếng Việt.",
             "questions": []
           },
           {
@@ -7064,7 +8336,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Định dạng văn bản trên trang chiếu",
             "chapter": "Chủ đề 5: Ứng dụng tin học",
-            "summary": "Phông chữ, cỡ chữ, màu sắc hài hòa.",
+            "summary": "Thay đổi phông chữ, cỡ chữ, màu chữ, kiểu chữ và căn lề trên trang chiếu.",
             "questions": []
           },
           {
@@ -7072,23 +8344,71 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Hiệu ứng chuyển trang",
             "chapter": "Chủ đề 5: Ứng dụng tin học",
-            "summary": "Tạo hiệu ứng chuyển tiếp giữa các slide.",
+            "summary": "Áp dụng và tùy chỉnh hiệu ứng chuyển trang chiếu sinh động, hợp lí.",
             "questions": []
           },
           {
             "id": "tinhoc-4-b10",
             "number": 10,
-            "title": "Bài 10-11: Thực hành soạn thảo văn bản Word",
+            "title": "Bài 10: Phần mềm soạn thảo văn bản",
             "chapter": "Chủ đề 5: Ứng dụng tin học",
-            "summary": "Gõ văn bản tiếng Việt có dấu, căn lề, chèn ảnh.",
+            "summary": "Làm quen giao diện phần mềm soạn thảo văn bản và gõ tiếng Việt có dấu.",
             "questions": []
           },
           {
             "id": "tinhoc-4-b11",
             "number": 11,
-            "title": "Bài 12-16: Làm quen với lập trình trực quan Scratch",
+            "title": "Bài 11: Chỉnh sửa văn bản",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Thực hiện chọn, xóa, sao chép, di chuyển đoạn văn bản và chèn hình ảnh.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-4-b12",
+            "number": 12,
+            "title": "Bài 12A: Thực hành sử dụng công cụ đa phương tiện",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Thực hành tổng hợp tạo sản phẩm đa phương tiện trình chiếu hoặc văn bản.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-4-b13",
+            "number": 13,
+            "title": "Bài 12B: Phần mềm luyện gõ bàn phím",
+            "chapter": "Chủ đề 5: Ứng dụng tin học",
+            "summary": "Sử dụng phần mềm luyện gõ để tăng tốc độ và độ chính xác.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-4-b14",
+            "number": 14,
+            "title": "Bài 13: Chơi với máy tính",
             "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
-            "summary": "Khối lệnh di chuyển, xoay, lặp và tạo kịch bản hoạt hình đơn giản.",
+            "summary": "Làm quen tư duy điều khiển đối tượng qua trò chơi giáo dục trên máy tính.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-4-b15",
+            "number": 15,
+            "title": "Bài 14: Khám phá môi trường lập trình trực quan",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Nhận biết giao diện, vùng lệnh, nhân vật và kéo thả lệnh trong Scratch.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-4-b16",
+            "number": 16,
+            "title": "Bài 15: Tạo chương trình máy tính để diễn tả ý tưởng",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Lắp ghép các khối lệnh điều khiển nhân vật di chuyển, nói chuyện.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-4-b17",
+            "number": 17,
+            "title": "Bài 16: Chương trình của em",
+            "chapter": "Chủ đề 6: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Thực hành nâng cấp, sửa lỗi và lưu trữ dự án Scratch sáng tạo.",
             "questions": []
           }
         ]
@@ -7371,65 +8691,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-4-b1",
             "number": 1,
-            "title": "Chủ đề 1: Vui bước đến trường",
+            "title": "Bài 1: Hát & Nghe nhạc – Vui bước đến trường",
             "chapter": "Chủ đề 1: Vui bước đến trường",
-            "summary": "Hát Em yêu giờ học hát; làm quen khuôn nhạc và khóa Son.",
+            "summary": "Hát Em yêu giờ học hát.",
             "questions": []
           },
           {
             "id": "amnhac-4-b2",
             "number": 2,
-            "title": "Chủ đề 2: Trải nghiệm âm nhạc qua các hoạt động",
-            "chapter": "Chủ đề 2: Trải nghiệm âm nhạc",
-            "summary": "Đọc nhạc gam Đô trưởng cơ bản và gõ đệm bằng nhạc cụ.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Vui bước đến trường",
+            "chapter": "Chủ đề 1: Vui bước đến trường",
+            "summary": "làm quen khuôn nhạc và khóa Son..",
             "questions": []
           },
           {
             "id": "amnhac-4-b3",
             "number": 3,
-            "title": "Chủ đề 3: Âm vang núi rừng",
-            "chapter": "Chủ đề 3: Âm vang núi rừng",
-            "summary": "Hát Đi học; nghe và tìm hiểu nhạc cụ dân tộc miền núi.",
+            "title": "Bài 3: Hát & Nghe nhạc – Trải nghiệm âm nhạc qua các hoạt động",
+            "chapter": "Chủ đề 2: Trải nghiệm âm nhạc",
+            "summary": "Đọc nhạc gam Đô trưởng cơ bản và gõ đệm bằng nhạc cụ..",
             "questions": []
           },
           {
             "id": "amnhac-4-b4",
             "number": 4,
-            "title": "Chủ đề 4: Nhớ ơn thầy cô",
-            "chapter": "Chủ đề 4: Nhớ ơn thầy cô",
-            "summary": "Hát Bụi phấn / Nhớ ơn thầy cô; thực hành hát kết hợp vận động.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Trải nghiệm âm nhạc qua các hoạt động",
+            "chapter": "Chủ đề 2: Trải nghiệm âm nhạc",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Trải nghiệm âm nhạc qua các hoạt động).",
             "questions": []
           },
           {
             "id": "amnhac-4-b5",
             "number": 5,
-            "title": "Chủ đề 5: Mùa xuân yêu thương",
-            "chapter": "Chủ đề 5: Mùa xuân yêu thương",
-            "summary": "Hát Khúc ca bốn mùa; đọc nhạc nhịp 2/4 và 3/4.",
+            "title": "Bài 5: Hát & Nghe nhạc – Âm vang núi rừng",
+            "chapter": "Chủ đề 3: Âm vang núi rừng",
+            "summary": "Hát Đi học.",
             "questions": []
           },
           {
             "id": "amnhac-4-b6",
             "number": 6,
-            "title": "Chủ đề 6: Giai điệu bạn bè",
-            "chapter": "Chủ đề 6: Giai điệu bạn bè",
-            "summary": "Hát Thiếu nhi thế giới liên hoan; biểu diễn nhóm.",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Âm vang núi rừng",
+            "chapter": "Chủ đề 3: Âm vang núi rừng",
+            "summary": "nghe và tìm hiểu nhạc cụ dân tộc miền núi..",
             "questions": []
           },
           {
             "id": "amnhac-4-b7",
             "number": 7,
-            "title": "Chủ đề 7: Âm nhạc và cuộc sống",
-            "chapter": "Chủ đề 7: Âm nhạc và cuộc sống",
-            "summary": "Tìm hiểu một số nhạc sĩ Việt Nam tiêu biểu và tác phẩm thiếu nhi.",
+            "title": "Bài 7: Hát & Nghe nhạc – Nhớ ơn thầy cô",
+            "chapter": "Chủ đề 4: Nhớ ơn thầy cô",
+            "summary": "Hát Bụi phấn / Nhớ ơn thầy cô.",
             "questions": []
           },
           {
             "id": "amnhac-4-b8",
             "number": 8,
-            "title": "Chủ đề 8: Hè về vui sao",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Nhớ ơn thầy cô",
+            "chapter": "Chủ đề 4: Nhớ ơn thầy cô",
+            "summary": "thực hành hát kết hợp vận động..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Mùa xuân yêu thương",
+            "chapter": "Chủ đề 5: Mùa xuân yêu thương",
+            "summary": "Hát Khúc ca bốn mùa.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Mùa xuân yêu thương",
+            "chapter": "Chủ đề 5: Mùa xuân yêu thương",
+            "summary": "đọc nhạc nhịp 2/4 và 3/4..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Giai điệu bạn bè",
+            "chapter": "Chủ đề 6: Giai điệu bạn bè",
+            "summary": "Hát Thiếu nhi thế giới liên hoan.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Giai điệu bạn bè",
+            "chapter": "Chủ đề 6: Giai điệu bạn bè",
+            "summary": "biểu diễn nhóm..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Âm nhạc và cuộc sống",
+            "chapter": "Chủ đề 7: Âm nhạc và cuộc sống",
+            "summary": "Tìm hiểu một số nhạc sĩ Việt Nam tiêu biểu và tác phẩm thiếu nhi..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Âm nhạc và cuộc sống",
+            "chapter": "Chủ đề 7: Âm nhạc và cuộc sống",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Âm nhạc và cuộc sống).",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Hè về vui sao",
             "chapter": "Chủ đề 8: Hè về vui sao",
-            "summary": "Hát Cánh diều tuổi thơ; ôn tập tổng kết năm học.",
+            "summary": "Hát Cánh diều tuổi thơ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Hè về vui sao",
+            "chapter": "Chủ đề 8: Hè về vui sao",
+            "summary": "ôn tập tổng kết năm học..",
             "questions": []
           }
         ]
@@ -7442,65 +8826,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-4-b1",
             "number": 1,
-            "title": "Chủ đề 1: Vẻ đẹp trong điêu khắc đình làng Việt Nam",
+            "title": "Bài 1: Khám phá & Quan sát – Vẻ đẹp trong điêu khắc đình làng Việt Nam",
             "chapter": "Chủ đề 1: Điêu khắc đình làng",
-            "summary": "Tìm hiểu chạm khắc đình làng và tạo hình phù điêu đơn giản.",
+            "summary": "Tìm hiểu chạm khắc đình làng và tạo hình phù điêu đơn giản. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-4-b2",
             "number": 2,
-            "title": "Chủ đề 2: Một số dạng không gian trong tranh dân gian Việt Nam",
-            "chapter": "Chủ đề 2: Tranh dân gian Việt Nam",
-            "summary": "Nhận biết bố cục tranh Đông Hồ, Hàng Trống.",
+            "title": "Bài 2: Thực hành sáng tạo – Vẻ đẹp trong điêu khắc đình làng Việt Nam",
+            "chapter": "Chủ đề 1: Điêu khắc đình làng",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp trong điêu khắc đình làng Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-4-b3",
             "number": 3,
-            "title": "Chủ đề 3: Cảnh đẹp quê hương",
-            "chapter": "Chủ đề 3: Cảnh đẹp quê hương",
-            "summary": "Vẽ tranh phong cảnh thể hiện không gian xa - gần.",
+            "title": "Bài 3: Khám phá & Quan sát – Một số dạng không gian trong tranh dân gian Việt Nam",
+            "chapter": "Chủ đề 2: Tranh dân gian Việt Nam",
+            "summary": "Nhận biết bố cục tranh Đông Hồ, Hàng Trống. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-4-b4",
             "number": 4,
-            "title": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
-            "chapter": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
-            "summary": "Vẽ tĩnh vật lọ hoa và quả bằng màu sáp/màu nước.",
+            "title": "Bài 4: Thực hành sáng tạo – Một số dạng không gian trong tranh dân gian Việt Nam",
+            "chapter": "Chủ đề 2: Tranh dân gian Việt Nam",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Một số dạng không gian trong tranh dân gian Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-4-b5",
             "number": 5,
-            "title": "Chủ đề 5: Những kỉ niệm đẹp",
-            "chapter": "Chủ đề 5: Những kỉ niệm đẹp",
-            "summary": "Vẽ tranh sinh hoạt gia đình, bạn bè.",
+            "title": "Bài 5: Khám phá & Quan sát – Cảnh đẹp quê hương",
+            "chapter": "Chủ đề 3: Cảnh đẹp quê hương",
+            "summary": "Vẽ tranh phong cảnh thể hiện không gian xa - gần. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-4-b6",
             "number": 6,
-            "title": "Chủ đề 6: Mái trường yêu dấu",
-            "chapter": "Chủ đề 6: Mái trường yêu dấu",
-            "summary": "Tạo mô hình hoặc vẽ tranh hoạt động tập thể ở trường.",
+            "title": "Bài 6: Thực hành sáng tạo – Cảnh đẹp quê hương",
+            "chapter": "Chủ đề 3: Cảnh đẹp quê hương",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Cảnh đẹp quê hương, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-4-b7",
             "number": 7,
-            "title": "Chủ đề 7: Môi trường xanh – sạch – đẹp",
-            "chapter": "Chủ đề 7: Môi trường xanh - sạch - đẹp",
-            "summary": "Thiết kế áp phích tuyên truyền bảo vệ môi trường.",
+            "title": "Bài 7: Khám phá & Quan sát – Vẻ đẹp trong cuộc sống",
+            "chapter": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
+            "summary": "Vẽ tĩnh vật lọ hoa và quả bằng màu sáp/màu nước. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-4-b8",
             "number": 8,
-            "title": "Chủ đề 8: Quê hương thanh bình",
+            "title": "Bài 8: Thực hành sáng tạo – Vẻ đẹp trong cuộc sống",
+            "chapter": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp trong cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b9",
+            "number": 9,
+            "title": "Bài 9: Khám phá & Quan sát – Những kỉ niệm đẹp",
+            "chapter": "Chủ đề 5: Những kỉ niệm đẹp",
+            "summary": "Vẽ tranh sinh hoạt gia đình, bạn bè. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành sáng tạo – Những kỉ niệm đẹp",
+            "chapter": "Chủ đề 5: Những kỉ niệm đẹp",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những kỉ niệm đẹp, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Mái trường yêu dấu",
+            "chapter": "Chủ đề 6: Mái trường yêu dấu",
+            "summary": "Tạo mô hình hoặc vẽ tranh hoạt động tập thể ở trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Mái trường yêu dấu",
+            "chapter": "Chủ đề 6: Mái trường yêu dấu",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mái trường yêu dấu, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Môi trường xanh – sạch – đẹp",
+            "chapter": "Chủ đề 7: Môi trường xanh - sạch - đẹp",
+            "summary": "Thiết kế áp phích tuyên truyền bảo vệ môi trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Môi trường xanh – sạch – đẹp",
+            "chapter": "Chủ đề 7: Môi trường xanh - sạch - đẹp",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Môi trường xanh – sạch – đẹp, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Quê hương thanh bình",
             "chapter": "Chủ đề 8: Quê hương thanh bình",
-            "summary": "Tổng hợp kĩ năng tạo hình sản phẩm trưng bày cuối năm.",
+            "summary": "Tổng hợp kĩ năng tạo hình sản phẩm trưng bày cuối năm. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Quê hương thanh bình",
+            "chapter": "Chủ đề 8: Quê hương thanh bình",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Quê hương thanh bình, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -7513,7 +8961,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-4-b1",
             "number": 1,
-            "title": "Chế độ dinh dưỡng trong tập luyện thể dục thể thao",
+            "title": "Bài 1: Chế độ dinh dưỡng trong tập luyện thể dục thể thao",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Vai trò của nước, vitamin và năng lượng đối với vận động.",
             "questions": []
@@ -7521,41 +8969,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-4-b2",
             "number": 2,
-            "title": "Chủ đề 1: Đội hình đội ngũ",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Đội hình vòng tròn, đi đều, đổi chân khi đi sai nhịp.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Thực hành Đội hình vòng tròn, đi đều.",
             "questions": []
           },
           {
             "id": "gdtc-4-b3",
             "number": 3,
-            "title": "Chủ đề 2: Bài tập thể dục",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Bài thể dục phát triển chung lớp 4 kết hợp nhịp điệu.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Luyện tập đổi chân khi đi sai nhịp. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-4-b4",
             "number": 4,
-            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Chạy cự li ngắn, bật cao, ném bóng trúng đích.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Bài thể dục phát triển chung lớp 4 kết hợp nhịp điệu.",
             "questions": []
           },
           {
             "id": "gdtc-4-b5",
             "number": 5,
-            "title": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Đá bóng bằng lòng bàn chân hoặc dẫn bóng, chuyền bóng.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
             "questions": []
           },
           {
             "id": "gdtc-4-b6",
             "number": 6,
-            "title": "Chủ đề 2: Môn Bơi / Cầu lông",
-            "chapter": "Phần 3: Thể thao tự chọn",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Thực hành Chạy cự li ngắn, bật cao.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Luyện tập ném bóng trúng đích. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Môn Bóng đá / Bóng rổ",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
+            "summary": "Thực hành Đá bóng bằng lòng bàn chân hoặc dẫn bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Môn Bóng đá / Bóng rổ",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
+            "summary": "Luyện tập chuyền bóng. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b10",
+            "number": 10,
+            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
             "summary": "Kĩ thuật bơi ếch cơ bản hoặc di chuyển đánh cầu thuận tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b11",
+            "number": 11,
+            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bơi / Cầu lông.",
             "questions": []
           }
         ]
@@ -7568,7 +9056,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-4-b1",
             "number": 1,
-            "title": "Chủ đề 1: Nhận diện bản thân",
+            "title": "Bài 1: Nhận diện & Khám phá – Nhận diện bản thân",
             "chapter": "Chủ đề 1: Nhận diện bản thân",
             "summary": "Khám phá điểm mạnh, hạn chế và lập kế hoạch phát triển bản thân.",
             "questions": []
@@ -7576,65 +9064,137 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-4-b2",
             "number": 2,
-            "title": "Chủ đề 2: Nếp sống và tư duy khoa học",
-            "chapter": "Chủ đề 2: Nếp sống và tư duy khoa học",
-            "summary": "Rèn luyện thói quen ngăn nắp, ghi chép khoa học.",
+            "title": "Bài 2: Thực hành & Vận dụng – Nhận diện bản thân",
+            "chapter": "Chủ đề 1: Nhận diện bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Nhận diện bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-4-b3",
             "number": 3,
-            "title": "Chủ đề 3: Yêu trường, mến lớp",
-            "chapter": "Chủ đề 3: Yêu trường, mến lớp",
-            "summary": "Xây dựng tình bạn đẹp, phòng tránh xung đột trong lớp.",
+            "title": "Bài 3: Nhận diện & Khám phá – Nếp sống và tư duy khoa học",
+            "chapter": "Chủ đề 2: Nếp sống và tư duy khoa học",
+            "summary": "Rèn luyện thói quen ngăn nắp, ghi chép khoa học.",
             "questions": []
           },
           {
             "id": "hdtn-4-b4",
             "number": 4,
-            "title": "Chủ đề 4: Tự lực thực hiện nhiệm vụ",
-            "chapter": "Chủ đề 4: Tự lực thực hiện nhiệm vụ",
-            "summary": "Chủ động giải quyết nhiệm vụ học tập và lao động vừa sức.",
+            "title": "Bài 4: Thực hành & Vận dụng – Nếp sống và tư duy khoa học",
+            "chapter": "Chủ đề 2: Nếp sống và tư duy khoa học",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Nếp sống và tư duy khoa học.",
             "questions": []
           },
           {
             "id": "hdtn-4-b5",
             "number": 5,
-            "title": "Chủ đề 5: Mái ấm gia đình",
-            "chapter": "Chủ đề 5: Mái ấm gia đình",
-            "summary": "Gắn kết các thành viên, lập kế hoạch chi tiêu tiết kiệm.",
+            "title": "Bài 5: Nhận diện & Khám phá – Yêu trường, mến lớp",
+            "chapter": "Chủ đề 3: Yêu trường, mến lớp",
+            "summary": "Xây dựng tình bạn đẹp, phòng tránh xung đột trong lớp.",
             "questions": []
           },
           {
             "id": "hdtn-4-b6",
             "number": 6,
-            "title": "Chủ đề 6: Phòng tránh bị xâm hại",
-            "chapter": "Chủ đề 6: Phòng tránh bị xâm hại",
-            "summary": "Nhận biết hành vi không an toàn và kĩ năng tìm kiếm sự trợ giúp.",
+            "title": "Bài 6: Thực hành & Vận dụng – Yêu trường, mến lớp",
+            "chapter": "Chủ đề 3: Yêu trường, mến lớp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Yêu trường, mến lớp.",
             "questions": []
           },
           {
             "id": "hdtn-4-b7",
             "number": 7,
-            "title": "Chủ đề 7: Kết nối cộng đồng",
-            "chapter": "Chủ đề 7: Kết nối cộng đồng",
-            "summary": "Tham gia hoạt động đền ơn đáp nghĩa, bảo vệ di tích địa phương.",
+            "title": "Bài 7: Nhận diện & Khám phá – Tự lực thực hiện nhiệm vụ",
+            "chapter": "Chủ đề 4: Tự lực thực hiện nhiệm vụ",
+            "summary": "Chủ động giải quyết nhiệm vụ học tập và lao động vừa sức.",
             "questions": []
           },
           {
             "id": "hdtn-4-b8",
             "number": 8,
-            "title": "Chủ đề 8: Quê hương em tươi đẹp",
-            "chapter": "Chủ đề 8: Quê hương em tươi đẹp",
-            "summary": "Khảo sát thực trạng môi trường và đề xuất giải pháp xanh.",
+            "title": "Bài 8: Thực hành & Vận dụng – Tự lực thực hiện nhiệm vụ",
+            "chapter": "Chủ đề 4: Tự lực thực hiện nhiệm vụ",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tự lực thực hiện nhiệm vụ.",
             "questions": []
           },
           {
             "id": "hdtn-4-b9",
             "number": 9,
-            "title": "Chủ đề 9: Trải nghiệm nghề truyền thống",
+            "title": "Bài 9: Nhận diện & Khám phá – Mái ấm gia đình",
+            "chapter": "Chủ đề 5: Mái ấm gia đình",
+            "summary": "Gắn kết các thành viên, lập kế hoạch chi tiêu tiết kiệm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Mái ấm gia đình",
+            "chapter": "Chủ đề 5: Mái ấm gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Mái ấm gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Phòng tránh bị xâm hại",
+            "chapter": "Chủ đề 6: Phòng tránh bị xâm hại",
+            "summary": "Nhận biết hành vi không an toàn và kĩ năng tìm kiếm sự trợ giúp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Phòng tránh bị xâm hại",
+            "chapter": "Chủ đề 6: Phòng tránh bị xâm hại",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Phòng tránh bị xâm hại.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Kết nối cộng đồng",
+            "chapter": "Chủ đề 7: Kết nối cộng đồng",
+            "summary": "Tham gia hoạt động đền ơn đáp nghĩa, bảo vệ di tích địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Kết nối cộng đồng",
+            "chapter": "Chủ đề 7: Kết nối cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Kết nối cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Quê hương em tươi đẹp",
+            "chapter": "Chủ đề 8: Quê hương em tươi đẹp",
+            "summary": "Khảo sát thực trạng môi trường và đề xuất giải pháp xanh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Quê hương em tươi đẹp",
+            "chapter": "Chủ đề 8: Quê hương em tươi đẹp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Quê hương em tươi đẹp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b17",
+            "number": 17,
+            "title": "Bài 17: Nhận diện & Khám phá – Trải nghiệm nghề truyền thống",
             "chapter": "Chủ đề 9: Trải nghiệm nghề truyền thống",
             "summary": "Tìm hiểu nghề truyền thống địa phương và giá trị sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành & Vận dụng – Trải nghiệm nghề truyền thống",
+            "chapter": "Chủ đề 9: Trải nghiệm nghề truyền thống",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Trải nghiệm nghề truyền thống.",
             "questions": []
           }
         ]
@@ -9711,65 +11271,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-5-b1",
             "number": 1,
-            "title": "Chủ đề 1: Tự hào truyền thống trường em",
+            "title": "Bài 1: Hát & Nghe nhạc – Tự hào truyền thống trường em",
             "chapter": "Chủ đề 1: Tự hào truyền thống trường em",
-            "summary": "Hát Reo vang bình minh; ôn tập đọc nhạc và nhịp 2/4, 3/4.",
+            "summary": "Hát Reo vang bình minh.",
             "questions": []
           },
           {
             "id": "amnhac-5-b2",
             "number": 2,
-            "title": "Chủ đề 2: Âm nhạc vang lên",
-            "chapter": "Chủ đề 2: Âm nhạc vang lên",
-            "summary": "Thực hành hát bè đơn giản và đệm bằng nhạc cụ gõ.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Tự hào truyền thống trường em",
+            "chapter": "Chủ đề 1: Tự hào truyền thống trường em",
+            "summary": "ôn tập đọc nhạc và nhịp 2/4, 3/4..",
             "questions": []
           },
           {
             "id": "amnhac-5-b3",
             "number": 3,
-            "title": "Chủ đề 3: Vui hội mùa thu",
-            "chapter": "Chủ đề 3: Vui hội mùa thu",
-            "summary": "Hát Đêm Trung thu; nghe và cảm nhận âm nhạc dân gian.",
+            "title": "Bài 3: Hát & Nghe nhạc – Âm nhạc vang lên",
+            "chapter": "Chủ đề 2: Âm nhạc vang lên",
+            "summary": "Thực hành hát bè đơn giản và đệm bằng nhạc cụ gõ..",
             "questions": []
           },
           {
             "id": "amnhac-5-b4",
             "number": 4,
-            "title": "Chủ đề 4: Lời ca dâng thầy cô",
-            "chapter": "Chủ đề 4: Lời ca dâng thầy cô",
-            "summary": "Hát Những bông hoa những bài ca; thể hiện tình cảm tri ân.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Âm nhạc vang lên",
+            "chapter": "Chủ đề 2: Âm nhạc vang lên",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Âm nhạc vang lên).",
             "questions": []
           },
           {
             "id": "amnhac-5-b5",
             "number": 5,
-            "title": "Chủ đề 5: Khúc ca mùa xuân",
-            "chapter": "Chủ đề 5: Khúc ca mùa xuân",
-            "summary": "Hát Ngày Tết quê em; đọc nhạc kết hợp gõ phách.",
+            "title": "Bài 5: Hát & Nghe nhạc – Vui hội mùa thu",
+            "chapter": "Chủ đề 3: Vui hội mùa thu",
+            "summary": "Hát Đêm Trung thu.",
             "questions": []
           },
           {
             "id": "amnhac-5-b6",
             "number": 6,
-            "title": "Chủ đề 6: Quê hương tươi đẹp",
-            "chapter": "Chủ đề 6: Quê hương tươi đẹp",
-            "summary": "Hát Em đi giữa biển vàng; tìm hiểu nhạc sĩ Hoàng Vân.",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Vui hội mùa thu",
+            "chapter": "Chủ đề 3: Vui hội mùa thu",
+            "summary": "nghe và cảm nhận âm nhạc dân gian..",
             "questions": []
           },
           {
             "id": "amnhac-5-b7",
             "number": 7,
-            "title": "Chủ đề 7: Giai điệu bạn bè",
-            "chapter": "Chủ đề 7: Giai điệu bạn bè",
-            "summary": "Hát Thiếu nhi thế giới; tìm hiểu một số nhạc cụ phương Tây.",
+            "title": "Bài 7: Hát & Nghe nhạc – Lời ca dâng thầy cô",
+            "chapter": "Chủ đề 4: Lời ca dâng thầy cô",
+            "summary": "Hát Những bông hoa những bài ca.",
             "questions": []
           },
           {
             "id": "amnhac-5-b8",
             "number": 8,
-            "title": "Chủ đề 8: Trái đất xanh",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Lời ca dâng thầy cô",
+            "chapter": "Chủ đề 4: Lời ca dâng thầy cô",
+            "summary": "thể hiện tình cảm tri ân..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Khúc ca mùa xuân",
+            "chapter": "Chủ đề 5: Khúc ca mùa xuân",
+            "summary": "Hát Ngày Tết quê em.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Khúc ca mùa xuân",
+            "chapter": "Chủ đề 5: Khúc ca mùa xuân",
+            "summary": "đọc nhạc kết hợp gõ phách..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Quê hương tươi đẹp",
+            "chapter": "Chủ đề 6: Quê hương tươi đẹp",
+            "summary": "Hát Em đi giữa biển vàng.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Quê hương tươi đẹp",
+            "chapter": "Chủ đề 6: Quê hương tươi đẹp",
+            "summary": "tìm hiểu nhạc sĩ Hoàng Vân..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Giai điệu bạn bè",
+            "chapter": "Chủ đề 7: Giai điệu bạn bè",
+            "summary": "Hát Thiếu nhi thế giới.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Giai điệu bạn bè",
+            "chapter": "Chủ đề 7: Giai điệu bạn bè",
+            "summary": "tìm hiểu một số nhạc cụ phương Tây..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Trái đất xanh",
             "chapter": "Chủ đề 8: Trái đất xanh",
-            "summary": "Hát Trái đất này là của chúng mình; biểu diễn tổng kết bậc Tiểu học.",
+            "summary": "Hát Trái đất này là của chúng mình.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Trái đất xanh",
+            "chapter": "Chủ đề 8: Trái đất xanh",
+            "summary": "biểu diễn tổng kết bậc Tiểu học..",
             "questions": []
           }
         ]
@@ -9782,65 +11406,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-5-b1",
             "number": 1,
-            "title": "Chủ đề 1: Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề",
+            "title": "Bài 1: Khám phá & Quan sát – Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề",
             "chapter": "Chủ đề 1: Yếu tố tạo hình",
-            "summary": "Vận dụng đường nét, hình khối, màu sắc, đậm nhạt trong sáng tạo.",
+            "summary": "Vận dụng đường nét, hình khối, màu sắc, đậm nhạt trong sáng tạo. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-5-b2",
             "number": 2,
-            "title": "Chủ đề 2: Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam",
-            "chapter": "Chủ đề 2: Hình tượng anh hùng dân tộc",
-            "summary": "Tìm hiểu tượng đài, tranh lịch sử về các anh hùng dân tộc.",
+            "title": "Bài 2: Thực hành sáng tạo – Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề",
+            "chapter": "Chủ đề 1: Yếu tố tạo hình",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-5-b3",
             "number": 3,
-            "title": "Chủ đề 3: Gia đình",
-            "chapter": "Chủ đề 3: Gia đình",
-            "summary": "Vẽ và tạo hình chủ đề sum họp, yêu thương gia đình.",
+            "title": "Bài 3: Khám phá & Quan sát – Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam",
+            "chapter": "Chủ đề 2: Hình tượng anh hùng dân tộc",
+            "summary": "Tìm hiểu tượng đài, tranh lịch sử về các anh hùng dân tộc. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-5-b4",
             "number": 4,
-            "title": "Chủ đề 4: Những hoạt động yêu thích ở trường em",
-            "chapter": "Chủ đề 4: Hoạt động yêu thích ở trường",
-            "summary": "Sáng tạo tranh cổ động, tranh sinh hoạt học đường.",
+            "title": "Bài 4: Thực hành sáng tạo – Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam",
+            "chapter": "Chủ đề 2: Hình tượng anh hùng dân tộc",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-5-b5",
             "number": 5,
-            "title": "Chủ đề 5: Những việc làm bình dị mà cao quý trong cuộc sống",
-            "chapter": "Chủ đề 5: Việc làm cao quý",
-            "summary": "Vẽ tranh về gương người tốt việc tốt, nghề nghiệp phục vụ cộng đồng.",
+            "title": "Bài 5: Khám phá & Quan sát – Gia đình",
+            "chapter": "Chủ đề 3: Gia đình",
+            "summary": "Vẽ và tạo hình chủ đề sum họp, yêu thương gia đình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-5-b6",
             "number": 6,
-            "title": "Chủ đề 6: Cảnh sắc quê hương",
-            "chapter": "Chủ đề 6: Cảnh sắc quê hương",
-            "summary": "Vẽ phong cảnh quê hương bằng chất liệu tự chọn.",
+            "title": "Bài 6: Thực hành sáng tạo – Gia đình",
+            "chapter": "Chủ đề 3: Gia đình",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Gia đình, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-5-b7",
             "number": 7,
-            "title": "Chủ đề 7: Việt Nam đất nước, con người",
-            "chapter": "Chủ đề 7: Việt Nam đất nước, con người",
-            "summary": "Giới thiệu bản sắc văn hóa các vùng miền qua mĩ thuật.",
+            "title": "Bài 7: Khám phá & Quan sát – Những hoạt động yêu thích ở trường em",
+            "chapter": "Chủ đề 4: Hoạt động yêu thích ở trường",
+            "summary": "Sáng tạo tranh cổ động, tranh sinh hoạt học đường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-5-b8",
             "number": 8,
-            "title": "Chủ đề 8: Vì một thế giới hoà bình",
+            "title": "Bài 8: Thực hành sáng tạo – Những hoạt động yêu thích ở trường em",
+            "chapter": "Chủ đề 4: Hoạt động yêu thích ở trường",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những hoạt động yêu thích ở trường em, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b9",
+            "number": 9,
+            "title": "Bài 9: Khám phá & Quan sát – Những việc làm bình dị mà cao quý trong cuộc sống",
+            "chapter": "Chủ đề 5: Việc làm cao quý",
+            "summary": "Vẽ tranh về gương người tốt việc tốt, nghề nghiệp phục vụ cộng đồng. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành sáng tạo – Những việc làm bình dị mà cao quý trong cuộc sống",
+            "chapter": "Chủ đề 5: Việc làm cao quý",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những việc làm bình dị mà cao quý trong cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Cảnh sắc quê hương",
+            "chapter": "Chủ đề 6: Cảnh sắc quê hương",
+            "summary": "Vẽ phong cảnh quê hương bằng chất liệu tự chọn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Cảnh sắc quê hương",
+            "chapter": "Chủ đề 6: Cảnh sắc quê hương",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Cảnh sắc quê hương, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Việt Nam đất nước, con người",
+            "chapter": "Chủ đề 7: Việt Nam đất nước, con người",
+            "summary": "Giới thiệu bản sắc văn hóa các vùng miền qua mĩ thuật. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Việt Nam đất nước, con người",
+            "chapter": "Chủ đề 7: Việt Nam đất nước, con người",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Việt Nam đất nước, con người, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Vì một thế giới hoà bình",
             "chapter": "Chủ đề 8: Vì một thế giới hòa bình",
-            "summary": "Vẽ tranh chủ đề hòa bình, tình hữu nghị quốc tế.",
+            "summary": "Vẽ tranh chủ đề hòa bình, tình hữu nghị quốc tế. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Vì một thế giới hoà bình",
+            "chapter": "Chủ đề 8: Vì một thế giới hòa bình",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vì một thế giới hoà bình, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -9853,7 +11541,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-5-b1",
             "number": 1,
-            "title": "Phòng tránh chấn thương và dinh dưỡng thể thao",
+            "title": "Bài 1: Phòng tránh chấn thương và dinh dưỡng thể thao",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Khởi động chuyên biệt, hồi tĩnh sau tập và chế độ ăn hợp lí.",
             "questions": []
@@ -9861,41 +11549,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-5-b2",
             "number": 2,
-            "title": "Chủ đề 1: Đội hình đội ngũ",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Đi đều vòng trái/phải, giậm chân tại chỗ chuyển sang đi đều.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Thực hành Đi đều vòng trái/phải.",
             "questions": []
           },
           {
             "id": "gdtc-5-b3",
             "number": 3,
-            "title": "Chủ đề 2: Bài tập thể dục",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Bài thể dục phát triển chung lớp 5 nhịp nhàng theo nhạc.",
+            "title": "Bài 3: Phối hợp vận dụng – Đội hình đội ngũ",
+            "chapter": "Chủ đề 1: Đội hình đội ngũ",
+            "summary": "Luyện tập giậm chân tại chỗ chuyển sang đi đều. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-5-b4",
             "number": 4,
-            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Chạy bền trên địa hình tự nhiên, nhảy dây bền, bật xa.",
+            "title": "Bài 4: Bài tập thể dục (Phần 1)",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Bài thể dục phát triển chung lớp 5 nhịp nhàng theo nhạc.",
             "questions": []
           },
           {
             "id": "gdtc-5-b5",
             "number": 5,
-            "title": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Dẫn bóng vượt chướng ngại vật và phối hợp chuyền bóng.",
+            "title": "Bài 5: Bài tập thể dục (Phần 2)",
+            "chapter": "Chủ đề 2: Bài tập thể dục",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
             "questions": []
           },
           {
             "id": "gdtc-5-b6",
             "number": 6,
-            "title": "Chủ đề 2: Môn Bơi / Cầu lông",
-            "chapter": "Phần 3: Thể thao tự chọn",
+            "title": "Bài 6: Kĩ thuật cơ bản – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Thực hành Chạy bền trên địa hình tự nhiên, nhảy dây bền.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "summary": "Luyện tập bật xa. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b8",
+            "number": 8,
+            "title": "Bài 8: Môn Bóng đá / Bóng rổ (Phần 1)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
+            "summary": "Dẫn bóng vượt chướng ngại vật và phối hợp chuyền bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b9",
+            "number": 9,
+            "title": "Bài 9: Môn Bóng đá / Bóng rổ (Phần 2)",
+            "chapter": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bóng đá / Bóng rổ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b10",
+            "number": 10,
+            "title": "Bài 10: Môn Bơi / Cầu lông (Phần 1)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
             "summary": "Hoàn thiện kĩ thuật bơi ếch hoặc phát cầu thấp tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b11",
+            "number": 11,
+            "title": "Bài 11: Môn Bơi / Cầu lông (Phần 2)",
+            "chapter": "Chủ đề 2: Môn Bơi / Cầu lông",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Môn Bơi / Cầu lông.",
             "questions": []
           }
         ]
@@ -9908,7 +11636,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-5-b1",
             "number": 1,
-            "title": "Chủ đề 1: Em và sự trưởng thành của bản thân",
+            "title": "Bài 1: Nhận diện & Khám phá – Em và sự trưởng thành của bản thân",
             "chapter": "Chủ đề 1: Em lớn khôn",
             "summary": "Nhận biết sự thay đổi của bản thân và rèn luyện tính tự chủ.",
             "questions": []
@@ -9916,57 +11644,121 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-5-b2",
             "number": 2,
-            "title": "Chủ đề 2: Kiểm soát cảm xúc và giải quyết vấn đề",
-            "chapter": "Chủ đề 2: Quản lí cảm xúc và tự kiểm soát",
-            "summary": "Cách xử lí bất đồng với bạn bè và kiểm soát nóng giận.",
+            "title": "Bài 2: Thực hành & Vận dụng – Em và sự trưởng thành của bản thân",
+            "chapter": "Chủ đề 1: Em lớn khôn",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em và sự trưởng thành của bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-5-b3",
             "number": 3,
-            "title": "Chủ đề 3: Xây dựng trường học thân thiện, an toàn",
-            "chapter": "Chủ đề 3: Trường học thân thiện",
-            "summary": "Hợp tác nhóm và tổ chức sự kiện tri ân thầy cô cuối cấp.",
+            "title": "Bài 3: Nhận diện & Khám phá – Kiểm soát cảm xúc và giải quyết vấn đề",
+            "chapter": "Chủ đề 2: Quản lí cảm xúc và tự kiểm soát",
+            "summary": "Cách xử lí bất đồng với bạn bè và kiểm soát nóng giận.",
             "questions": []
           },
           {
             "id": "hdtn-5-b4",
             "number": 4,
-            "title": "Chủ đề 4: Trách nhiệm và gắn kết gia đình",
-            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
-            "summary": "Lập kế hoạch kinh doanh nhỏ/tiết kiệm và chăm sóc gia đình.",
+            "title": "Bài 4: Thực hành & Vận dụng – Kiểm soát cảm xúc và giải quyết vấn đề",
+            "chapter": "Chủ đề 2: Quản lí cảm xúc và tự kiểm soát",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Kiểm soát cảm xúc và giải quyết vấn đề.",
             "questions": []
           },
           {
             "id": "hdtn-5-b5",
             "number": 5,
-            "title": "Chủ đề 5: An toàn trên không gian mạng và đời sống",
-            "chapter": "Chủ đề 5: Phòng tránh xâm hại và an toàn mạng",
-            "summary": "Nhận biết rủi ro trên Internet và kĩ năng tự bảo vệ.",
+            "title": "Bài 5: Nhận diện & Khám phá – Xây dựng trường học thân thiện, an toàn",
+            "chapter": "Chủ đề 3: Trường học thân thiện",
+            "summary": "Hợp tác nhóm và tổ chức sự kiện tri ân thầy cô cuối cấp.",
             "questions": []
           },
           {
             "id": "hdtn-5-b6",
             "number": 6,
-            "title": "Chủ đề 6: Hoạt động vì cộng đồng",
-            "chapter": "Chủ đề 6: Cộng đồng văn minh",
-            "summary": "Lập kế hoạch và thực hiện dự án thiện nguyện nhỏ.",
+            "title": "Bài 6: Thực hành & Vận dụng – Xây dựng trường học thân thiện, an toàn",
+            "chapter": "Chủ đề 3: Trường học thân thiện",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Xây dựng trường học thân thiện, an toàn.",
             "questions": []
           },
           {
             "id": "hdtn-5-b7",
             "number": 7,
-            "title": "Chủ đề 7: Hành động vì môi trường xanh",
-            "chapter": "Chủ đề 7: Bảo vệ thiên nhiên",
-            "summary": "Tuyên truyền bảo vệ đa dạng sinh học và giảm thiểu rác thải nhựa.",
+            "title": "Bài 7: Nhận diện & Khám phá – Trách nhiệm và gắn kết gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Lập kế hoạch kinh doanh nhỏ/tiết kiệm và chăm sóc gia đình.",
             "questions": []
           },
           {
             "id": "hdtn-5-b8",
             "number": 8,
-            "title": "Chủ đề 8: Khám phá sở thích nghề nghiệp tương lai",
+            "title": "Bài 8: Thực hành & Vận dụng – Trách nhiệm và gắn kết gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Trách nhiệm và gắn kết gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b9",
+            "number": 9,
+            "title": "Bài 9: Nhận diện & Khám phá – An toàn trên không gian mạng và đời sống",
+            "chapter": "Chủ đề 5: Phòng tránh xâm hại và an toàn mạng",
+            "summary": "Nhận biết rủi ro trên Internet và kĩ năng tự bảo vệ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – An toàn trên không gian mạng và đời sống",
+            "chapter": "Chủ đề 5: Phòng tránh xâm hại và an toàn mạng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề An toàn trên không gian mạng và đời sống.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Hoạt động vì cộng đồng",
+            "chapter": "Chủ đề 6: Cộng đồng văn minh",
+            "summary": "Lập kế hoạch và thực hiện dự án thiện nguyện nhỏ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Hoạt động vì cộng đồng",
+            "chapter": "Chủ đề 6: Cộng đồng văn minh",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Hoạt động vì cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Hành động vì môi trường xanh",
+            "chapter": "Chủ đề 7: Bảo vệ thiên nhiên",
+            "summary": "Tuyên truyền bảo vệ đa dạng sinh học và giảm thiểu rác thải nhựa.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Hành động vì môi trường xanh",
+            "chapter": "Chủ đề 7: Bảo vệ thiên nhiên",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Hành động vì môi trường xanh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Khám phá sở thích nghề nghiệp tương lai",
             "chapter": "Chủ đề 8: Định hướng nghề nghiệp",
             "summary": "Tìm hiểu các nhóm nghề và chuẩn bị tâm thế lên lớp 6.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Khám phá sở thích nghề nghiệp tương lai",
+            "chapter": "Chủ đề 8: Định hướng nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Khám phá sở thích nghề nghiệp tương lai.",
             "questions": []
           }
         ]
@@ -10814,95 +12606,303 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài học đường đời đầu tiên (Tô Hoài)",
             "chapter": "Bài 1: Tôi và các bạn",
-            "summary": "Truyện đồng thoại, bài học về sự kiêu căng.",
+            "summary": "Phân tích nhân vật Dế Mèn, ngôi kể thứ nhất và bài học về tính kiêu căng, xốc nổi.",
             "questions": []
           },
           {
             "id": "nguvan-6-b2",
             "number": 2,
-            "title": "Nếu cậu muốn có một người bạn... (trích Hoàng tử bé)",
+            "title": "Nếu cậu muốn có một người bạn (Ăng-toan đơ Xanh-tơ Ê-xu-pe-ri)",
             "chapter": "Bài 1: Tôi và các bạn",
-            "summary": "Ý nghĩa của tình bạn và sự cảm hóa.",
+            "summary": "Cảm nhận ý nghĩa sâu sắc của tình bạn qua cuộc trò chuyện giữa Hoàng tử bé và con cáo.",
             "questions": []
           },
           {
             "id": "nguvan-6-b3",
             "number": 3,
-            "title": "Chuyện cổ tích về loài người (Xuân Quỳnh)",
-            "chapter": "Bài 2: Gõ cửa trái tim",
-            "summary": "Thơ năm chữ về tình yêu thương dành cho trẻ em.",
+            "title": "Bắt nạt (Nguyễn Thế Hoàng Linh)",
+            "chapter": "Bài 1: Tôi và các bạn",
+            "summary": "Thông điệp nhân ái về việc tôn trọng sự khác biệt và nói không với bắt nạt.",
             "questions": []
           },
           {
             "id": "nguvan-6-b4",
             "number": 4,
-            "title": "Mây và sóng (Ta-go)",
-            "chapter": "Bài 2: Gõ cửa trái tim",
-            "summary": "Tình mẫu tử thiêng liêng.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 1)",
+            "chapter": "Bài 1: Tôi và các bạn",
+            "summary": "Từ đơn và từ phức (từ ghép, từ láy); viết bài văn kể lại một trải nghiệm của em.",
             "questions": []
           },
           {
             "id": "nguvan-6-b5",
             "number": 5,
-            "title": "Cô bé bán diêm (An-đéc-xen)",
-            "chapter": "Bài 3: Yêu thương và chia sẻ",
-            "summary": "Thông điệp về lòng nhân ái.",
+            "title": "Chuyện cổ tích về loài người (Xuân Quỳnh)",
+            "chapter": "Bài 2: Gõ cửa trái tim",
+            "summary": "Tình yêu thương dành cho trẻ em qua hình tượng thơ giàu tính cổ tích.",
             "questions": []
           },
           {
             "id": "nguvan-6-b6",
             "number": 6,
-            "title": "Gió lạnh đầu mùa (Thạch Lam)",
-            "chapter": "Bài 3: Yêu thương và chia sẻ",
-            "summary": "Sự sẻ chia ấm áp giữa chị em Sơn, Lan với bé Hiên.",
+            "title": "Mây và sóng (Ta-go)",
+            "chapter": "Bài 2: Gõ cửa trái tim",
+            "summary": "Tình mẫu tử thiêng liêng và trí tưởng tượng hồn nhiên của em bé.",
             "questions": []
           },
           {
             "id": "nguvan-6-b7",
             "number": 7,
-            "title": "Chùm ca dao về quê hương đất nước",
-            "chapter": "Bài 4: Quê hương yêu dấu",
-            "summary": "Thể thơ lục bát và tình yêu quê hương.",
+            "title": "Bức tranh của em gái tôi (Tạ Duy Anh)",
+            "chapter": "Bài 2: Gõ cửa trái tim",
+            "summary": "Tâm trạng của người anh và tấm lòng nhân hậu, bao dung của cô em gái Kiều Phương.",
             "questions": []
           },
           {
             "id": "nguvan-6-b8",
             "number": 8,
-            "title": "Cô Tô (Nguyễn Tuân)",
-            "chapter": "Bài 5: Những nẻo đường xứ sở",
-            "summary": "Vẻ đẹp thiên nhiên và lao động trên đảo Cô Tô.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 2)",
+            "chapter": "Bài 2: Gõ cửa trái tim",
+            "summary": "Biện pháp tu từ ẩn dụ, hoán dụ; viết đoạn văn ghi lại cảm xúc về một bài thơ có yếu tố tự sự, miêu tả.",
             "questions": []
           },
           {
             "id": "nguvan-6-b9",
             "number": 9,
-            "title": "Thánh Gióng & Sơn Tinh, Thủy Tinh",
-            "chapter": "Bài 6: Chuyện kể về những người anh hùng",
-            "summary": "Truyền thuyết về tinh thần chống giặc và chế ngự thiên tai.",
+            "title": "Cô bé bán diêm (An-đéc-xen)",
+            "chapter": "Bài 3: Yêu thương và chia sẻ",
+            "summary": "Số phận bất hạnh của cô bé bán diêm và nghệ thuật tương phản giữa thực tại và mộng tưởng.",
             "questions": []
           },
           {
             "id": "nguvan-6-b10",
             "number": 10,
-            "title": "Thạch Sanh & Cây khế",
-            "chapter": "Bài 7: Thế giới cổ tích",
-            "summary": "Ở hiền gặp lành trong truyện cổ tích.",
+            "title": "Gió lạnh đầu mùa (Thạch Lam)",
+            "chapter": "Bài 3: Yêu thương và chia sẻ",
+            "summary": "Tình yêu thương, sự sẻ chia ấm áp giữa Sơn, Lan và bé Hiên trong gió lạnh đầu mùa.",
             "questions": []
           },
           {
             "id": "nguvan-6-b11",
             "number": 11,
-            "title": "Xem người ta kìa! & Hai loại khác biệt",
-            "chapter": "Bài 8: Khác biệt và gần gũi",
-            "summary": "Nghị luận về tôn trọng sự khác biệt.",
+            "title": "Con chào mào (Mai Văn Phấn)",
+            "chapter": "Bài 3: Yêu thương và chia sẻ",
+            "summary": "Vẻ đẹp thiên nhiên và tình yêu tự do qua hình ảnh con chim chào mào.",
             "questions": []
           },
           {
             "id": "nguvan-6-b12",
             "number": 12,
-            "title": "Trái Đất - cái nôi của sự sống",
-            "chapter": "Bài 9: Trái Đất - ngôi nhà chung",
-            "summary": "Văn bản thông tin về bảo vệ hành tinh xanh.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 3)",
+            "chapter": "Bài 3: Yêu thương và chia sẻ",
+            "summary": "Cụm danh từ, cụm động từ, cụm tính từ; viết bài văn kể lại một trải nghiệm đáng nhớ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b13",
+            "number": 13,
+            "title": "Chùm ca dao về quê hương đất nước",
+            "chapter": "Bài 4: Quê hương yêu dấu",
+            "summary": "Vẻ đẹp thiên nhiên, con người và tình yêu quê hương qua các bài ca dao truyền thống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b14",
+            "number": 14,
+            "title": "Chuyện cổ nước mình (Lâm Thị Mỹ Dạ)",
+            "chapter": "Bài 4: Quê hương yêu dấu",
+            "summary": "Vẻ đẹp nhân hậu, thủy chung của truyện cổ dân gian Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b15",
+            "number": 15,
+            "title": "Cây tre Việt Nam (Thép Mới)",
+            "chapter": "Bài 4: Quê hương yêu dấu",
+            "summary": "Hình tượng cây tre gắn bó với đời sống, lao động và chiến đấu của dân tộc Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b16",
+            "number": 16,
+            "title": "Thực hành tiếng Việt & Viết (Bài 4)",
+            "chapter": "Bài 4: Quê hương yêu dấu",
+            "summary": "Từ đồng âm, từ đa nghĩa; tập làm thơ lục bát và viết đoạn văn ghi lại cảm xúc về bài thơ lục bát.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b17",
+            "number": 17,
+            "title": "Cô Tô (Nguyễn Tuân)",
+            "chapter": "Bài 5: Những nẻo đường xứ sở",
+            "summary": "Vẻ đẹp trong sáng, hùng vĩ của đảo Cô Tô sau trận bão và cảnh mặt trời mọc.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b18",
+            "number": 18,
+            "title": "Hang Én (Hà Công Thành)",
+            "chapter": "Bài 5: Những nẻo đường xứ sở",
+            "summary": "Khám phá vẻ đẹp kì vĩ, nguyên sơ của Hang Én qua thể loại du kí.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b19",
+            "number": 19,
+            "title": "Cửu Long Giang ta ơi (Nguyên Hồng)",
+            "chapter": "Bài 5: Những nẻo đường xứ sở",
+            "summary": "Cảm xúc tự hào về dòng sông Cửu Long và vùng đất Nam Bộ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b20",
+            "number": 20,
+            "title": "Thực hành tiếng Việt & Viết (Bài 5)",
+            "chapter": "Bài 5: Những nẻo đường xứ sở",
+            "summary": "Ẩn dụ, hoán dụ, dấu ngoặc kép; viết bài văn tả cảnh sinh hoạt.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b21",
+            "number": 21,
+            "title": "Thánh Gióng (Truyền thuyết)",
+            "chapter": "Bài 6: Chuyện kể về những người anh hùng",
+            "summary": "Hình tượng Thánh Gióng biểu trưng cho sức mạnh và lòng yêu nước chống giặc ngoại xâm.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b22",
+            "number": 22,
+            "title": "Sơn Tinh, Thủy Tinh (Truyền thuyết)",
+            "chapter": "Bài 6: Chuyện kể về những người anh hùng",
+            "summary": "Giải thích hiện tượng lũ lụt và ca ngợi tinh thần trị thủy của nhân dân ta.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b23",
+            "number": 23,
+            "title": "Ai ơi mồng 9 tháng 4 (Anh Thư)",
+            "chapter": "Bài 6: Chuyện kể về những người anh hùng",
+            "summary": "Tìm hiểu lễ hội Gióng và giá trị văn hóa lịch sử truyền thống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b24",
+            "number": 24,
+            "title": "Thực hành tiếng Việt & Viết (Bài 6)",
+            "chapter": "Bài 6: Chuyện kể về những người anh hùng",
+            "summary": "Từ mượn, yếu tố Hán Việt; viết bài văn thuyết minh thuật lại một sự kiện.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b25",
+            "number": 25,
+            "title": "Thạch Sanh (Truyện cổ tích)",
+            "chapter": "Bài 7: Thế giới cổ tích",
+            "summary": "Nhân vật người dũng sĩ với phẩm chất thật thà, dũng cảm, nhân hậu.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b26",
+            "number": 26,
+            "title": "Cây khế (Truyện cổ tích)",
+            "chapter": "Bài 7: Thế giới cổ tích",
+            "summary": "Bài học về lòng tham và sự hiền lành, ở hiền gặp lành.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b27",
+            "number": 27,
+            "title": "Vua chích chòe (Truyện cổ tích Grim)",
+            "chapter": "Bài 7: Thế giới cổ tích",
+            "summary": "Bài học về sự khiêm tốn và thay đổi tính cách kiêu ngạo.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b28",
+            "number": 28,
+            "title": "Thực hành tiếng Việt & Viết (Bài 7)",
+            "chapter": "Bài 7: Thế giới cổ tích",
+            "summary": "Thành ngữ; viết bài văn đóng vai nhân vật kể lại một truyện cổ tích.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b29",
+            "number": 29,
+            "title": "Xem người ta kìa! (Lạc Thanh)",
+            "chapter": "Bài 8: Khác biệt và gần gũi",
+            "summary": "Nhận thức về sự khác biệt của mỗi cá nhân và thái độ tôn trọng lẫn nhau.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b30",
+            "number": 30,
+            "title": "Hai loại khác biệt (Giong-mi Mun)",
+            "chapter": "Bài 8: Khác biệt và gần gũi",
+            "summary": "Phân biệt sự khác biệt bề ngoài và khác biệt có ý nghĩa trong cuộc sống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b31",
+            "number": 31,
+            "title": "Bài tập làm văn (Rơ-nê Gô-xi-nhi)",
+            "chapter": "Bài 8: Khác biệt và gần gũi",
+            "summary": "Góc nhìn hài hước, chân thực về tâm lí học sinh.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b32",
+            "number": 32,
+            "title": "Thực hành tiếng Việt & Viết (Bài 8)",
+            "chapter": "Bài 8: Khác biệt và gần gũi",
+            "summary": "Nghị luận xã hội ngắn: trình bày ý kiến về một hiện tượng đời sống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b33",
+            "number": 33,
+            "title": "Trái Đất – cái nôi của sự sống (Hồ Thanh Trang)",
+            "chapter": "Bài 9: Trái Đất – ngôi nhà chung",
+            "summary": "Vai trò của nước, khí quyển và đa dạng sinh học đối với sự sống trên Trái Đất.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b34",
+            "number": 34,
+            "title": "Các loài chung sống với nhau như thế nào? (Ngọc Phú)",
+            "chapter": "Bài 9: Trái Đất – ngôi nhà chung",
+            "summary": "Mối quan hệ cân bằng sinh thái giữa các loài sinh vật.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b35",
+            "number": 35,
+            "title": "Trái Đất (Ra-lún-đơ)",
+            "chapter": "Bài 9: Trái Đất – ngôi nhà chung",
+            "summary": "Thông điệp bảo vệ hòa bình và môi trường sống trên hành tinh xanh.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b36",
+            "number": 36,
+            "title": "Thực hành tiếng Việt & Viết (Bài 9)",
+            "chapter": "Bài 9: Trái Đất – ngôi nhà chung",
+            "summary": "Từ mượn, phương tiện giao tiếp phi ngôn ngữ; viết biên bản một cuộc họp/thảo luận.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b37",
+            "number": 37,
+            "title": "Thách thức đầu tiên: Đọc sách & Chuyện cơm hến",
+            "chapter": "Bài 10: Cuốn sách tôi yêu",
+            "summary": "Phát triển thói quen đọc sách và khám phá văn hóa ẩm thực.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-6-b38",
+            "number": 38,
+            "title": "Hội thổi cơm thi ở Đồng Văn & Tổng kết",
+            "chapter": "Bài 10: Cuốn sách tôi yêu",
+            "summary": "Giới thiệu sách yêu thích và tổng kết kĩ năng đọc, viết, nói, nghe lớp 6.",
             "questions": []
           }
         ]
@@ -11766,65 +13766,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-6-b1",
             "number": 1,
-            "title": "Chủ đề 1: Khởi đầu năm học",
+            "title": "Bài 1: Hát & Nghe nhạc – Khởi đầu năm học",
             "chapter": "Chủ đề 1: Khởi đầu năm học",
-            "summary": "Hát Mùa khai trường; đọc nhạc bài số 1; tìm hiểu kí hiệu ghi nhạc.",
+            "summary": "Hát Mùa khai trường.",
             "questions": []
           },
           {
             "id": "amnhac-6-b2",
             "number": 2,
-            "title": "Chủ đề 2: Vẻ đẹp của âm nhạc",
-            "chapter": "Chủ đề 2: Vẻ đẹp của âm nhạc",
-            "summary": "Hát Em đi trong tươi xanh; nghe nhạc Beethoven; đọc nhạc nhịp 2/4.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Khởi đầu năm học",
+            "chapter": "Chủ đề 1: Khởi đầu năm học",
+            "summary": "đọc nhạc bài số 1; tìm hiểu kí hiệu ghi nhạc..",
             "questions": []
           },
           {
             "id": "amnhac-6-b3",
             "number": 3,
-            "title": "Chủ đề 3: Nhịp điệu mùa thu",
-            "chapter": "Chủ đề 3: Nhịp điệu mùa thu",
-            "summary": "Hát Tiếng chuông và ngọn cờ; thực hành nhạc cụ giai điệu.",
+            "title": "Bài 3: Hát & Nghe nhạc – Vẻ đẹp của âm nhạc",
+            "chapter": "Chủ đề 2: Vẻ đẹp của âm nhạc",
+            "summary": "Hát Em đi trong tươi xanh.",
             "questions": []
           },
           {
             "id": "amnhac-6-b4",
             "number": 4,
-            "title": "Chủ đề 4: Giai điệu quê hương",
-            "chapter": "Chủ đề 4: Giai điệu quê hương",
-            "summary": "Nghe dân ca Quan họ, Ca trù; hát Đi cắt lúa.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Vẻ đẹp của âm nhạc",
+            "chapter": "Chủ đề 2: Vẻ đẹp của âm nhạc",
+            "summary": "nghe nhạc Beethoven; đọc nhạc nhịp 2/4..",
             "questions": []
           },
           {
             "id": "amnhac-6-b5",
             "number": 5,
-            "title": "Chủ đề 5: Bài ca hòa bình",
-            "chapter": "Chủ đề 5: Bài ca hòa bình",
-            "summary": "Hát Niềm vui của em; đọc nhạc gam Đô trưởng.",
+            "title": "Bài 5: Hát & Nghe nhạc – Nhịp điệu mùa thu",
+            "chapter": "Chủ đề 3: Nhịp điệu mùa thu",
+            "summary": "Hát Tiếng chuông và ngọn cờ.",
             "questions": []
           },
           {
             "id": "amnhac-6-b6",
             "number": 6,
-            "title": "Chủ đề 6: Sắc màu dân gian",
-            "chapter": "Chủ đề 6: Sắc màu dân gian",
-            "summary": "Tìm hiểu một số nhạc cụ dân tộc Việt Nam và hát dân ca.",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Nhịp điệu mùa thu",
+            "chapter": "Chủ đề 3: Nhịp điệu mùa thu",
+            "summary": "thực hành nhạc cụ giai điệu..",
             "questions": []
           },
           {
             "id": "amnhac-6-b7",
             "number": 7,
-            "title": "Chủ đề 7: Âm nhạc nước ngoài",
-            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
-            "summary": "Nghe và hát bài hát thiếu nhi quốc tế; tìm hiểu nhịp 3/4.",
+            "title": "Bài 7: Hát & Nghe nhạc – Giai điệu quê hương",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "Nghe dân ca Quan họ, Ca trù.",
             "questions": []
           },
           {
             "id": "amnhac-6-b8",
             "number": 8,
-            "title": "Chủ đề 8: Giai điệu mùa hè",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Giai điệu quê hương",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "hát Đi cắt lúa..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Bài ca hòa bình",
+            "chapter": "Chủ đề 5: Bài ca hòa bình",
+            "summary": "Hát Niềm vui của em.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Bài ca hòa bình",
+            "chapter": "Chủ đề 5: Bài ca hòa bình",
+            "summary": "đọc nhạc gam Đô trưởng..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Sắc màu dân gian",
+            "chapter": "Chủ đề 6: Sắc màu dân gian",
+            "summary": "Tìm hiểu một số nhạc cụ dân tộc Việt Nam và hát dân ca..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Sắc màu dân gian",
+            "chapter": "Chủ đề 6: Sắc màu dân gian",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Sắc màu dân gian).",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Âm nhạc nước ngoài",
+            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
+            "summary": "Nghe và hát bài hát thiếu nhi quốc tế.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Âm nhạc nước ngoài",
+            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
+            "summary": "tìm hiểu nhịp 3/4..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Giai điệu mùa hè",
             "chapter": "Chủ đề 8: Giai điệu mùa hè",
-            "summary": "Hát Ngôi nhà của chúng ta; ôn tập kiểm tra cuối năm.",
+            "summary": "Hát Ngôi nhà của chúng ta.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Giai điệu mùa hè",
+            "chapter": "Chủ đề 8: Giai điệu mùa hè",
+            "summary": "ôn tập kiểm tra cuối năm..",
             "questions": []
           }
         ]
@@ -11837,81 +13901,161 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-6-b1",
             "number": 1,
-            "title": "Chủ đề 1: Những sắc màu của tự nhiên",
+            "title": "Bài 1: Khám phá & Quan sát – Những sắc màu của tự nhiên",
             "chapter": "Chủ đề 1: Những sắc màu của tự nhiên",
-            "summary": "Hòa sắc từ tự nhiên, pha màu cơ bản và màu thứ cấp.",
+            "summary": "Hòa sắc từ tự nhiên, pha màu cơ bản và màu thứ cấp. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-6-b2",
             "number": 2,
-            "title": "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam",
-            "chapter": "Chủ đề 2: Nghệ thuật tiền sử",
-            "summary": "Tìm hiểu hình vẽ hang động tiền sử và mô phỏng tạo hình.",
+            "title": "Bài 2: Thực hành sáng tạo – Những sắc màu của tự nhiên",
+            "chapter": "Chủ đề 1: Những sắc màu của tự nhiên",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Những sắc màu của tự nhiên, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-6-b3",
             "number": 3,
-            "title": "Chủ đề 3: Sáng tạo với những vật liệu thông dụng",
-            "chapter": "Chủ đề 3: Vật liệu thông dụng",
-            "summary": "Thiết kế sản phẩm từ bìa, dây, vật liệu tái chế.",
+            "title": "Bài 3: Khám phá & Quan sát – Nghệ thuật tiền sử thế giới và Việt Nam",
+            "chapter": "Chủ đề 2: Nghệ thuật tiền sử",
+            "summary": "Tìm hiểu hình vẽ hang động tiền sử và mô phỏng tạo hình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-6-b4",
             "number": 4,
-            "title": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
-            "chapter": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
-            "summary": "Tìm hiểu kim tự tháp, tượng nhân sư và nghệ thuật phù điêu Ai Cập.",
+            "title": "Bài 4: Thực hành sáng tạo – Nghệ thuật tiền sử thế giới và Việt Nam",
+            "chapter": "Chủ đề 2: Nghệ thuật tiền sử",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật tiền sử thế giới và Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-6-b5",
             "number": 5,
-            "title": "Chủ đề 5: Ngôi nhà của em",
-            "chapter": "Chủ đề 5: Ngôi nhà của em",
-            "summary": "Thiết kế mô hình nhà ở kết hợp trang trí nội thất.",
+            "title": "Bài 5: Khám phá & Quan sát – Sáng tạo với những vật liệu thông dụng",
+            "chapter": "Chủ đề 3: Vật liệu thông dụng",
+            "summary": "Thiết kế sản phẩm từ bìa, dây, vật liệu tái chế. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-6-b6",
             "number": 6,
-            "title": "Chủ đề 6: Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật",
-            "chapter": "Chủ đề 6: Vẻ đẹp thiên nhiên",
-            "summary": "Vẽ tranh phong cảnh bằng chất liệu màu nước/sáp dầu.",
+            "title": "Bài 6: Thực hành sáng tạo – Sáng tạo với những vật liệu thông dụng",
+            "chapter": "Chủ đề 3: Vật liệu thông dụng",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo với những vật liệu thông dụng, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-6-b7",
             "number": 7,
-            "title": "Chủ đề 7: Hòa sắc của mùa xuân",
-            "chapter": "Chủ đề 7: Hòa sắc mùa xuân",
-            "summary": "Ứng dụng gam màu tương đồng, tương phản trong tranh.",
+            "title": "Bài 7: Khám phá & Quan sát – Nghệ thuật Ai Cập cổ đại",
+            "chapter": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
+            "summary": "Tìm hiểu kim tự tháp, tượng nhân sư và nghệ thuật phù điêu Ai Cập. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-6-b8",
             "number": 8,
-            "title": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
-            "chapter": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
-            "summary": "Tìm hiểu kiến trúc đền Parthenon, gốm Hy Lạp và tỉ lệ cơ thể.",
+            "title": "Bài 8: Thực hành sáng tạo – Nghệ thuật Ai Cập cổ đại",
+            "chapter": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật Ai Cập cổ đại, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-6-b9",
             "number": 9,
-            "title": "Chủ đề 9: Thiết kế thời trang và cuộc sống",
-            "chapter": "Chủ đề 9: Thiết kế thời trang",
-            "summary": "Thiết kế trang phục từ giấy, vải vụn theo chủ đề.",
+            "title": "Bài 9: Khám phá & Quan sát – Ngôi nhà của em",
+            "chapter": "Chủ đề 5: Ngôi nhà của em",
+            "summary": "Thiết kế mô hình nhà ở kết hợp trang trí nội thất. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-6-b10",
             "number": 10,
-            "title": "Chủ đề 10: Nghệ thuật đại chúng",
+            "title": "Bài 10: Thực hành sáng tạo – Ngôi nhà của em",
+            "chapter": "Chủ đề 5: Ngôi nhà của em",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Ngôi nhà của em, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật",
+            "chapter": "Chủ đề 6: Vẻ đẹp thiên nhiên",
+            "summary": "Vẽ tranh phong cảnh bằng chất liệu màu nước/sáp dầu. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật",
+            "chapter": "Chủ đề 6: Vẻ đẹp thiên nhiên",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Hòa sắc của mùa xuân",
+            "chapter": "Chủ đề 7: Hòa sắc mùa xuân",
+            "summary": "Ứng dụng gam màu tương đồng, tương phản trong tranh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Hòa sắc của mùa xuân",
+            "chapter": "Chủ đề 7: Hòa sắc mùa xuân",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hòa sắc của mùa xuân, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Nghệ thuật Hy Lạp cổ đại",
+            "chapter": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
+            "summary": "Tìm hiểu kiến trúc đền Parthenon, gốm Hy Lạp và tỉ lệ cơ thể. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Nghệ thuật Hy Lạp cổ đại",
+            "chapter": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật Hy Lạp cổ đại, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b17",
+            "number": 17,
+            "title": "Bài 17: Khám phá & Quan sát – Thiết kế thời trang và cuộc sống",
+            "chapter": "Chủ đề 9: Thiết kế thời trang",
+            "summary": "Thiết kế trang phục từ giấy, vải vụn theo chủ đề. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành sáng tạo – Thiết kế thời trang và cuộc sống",
+            "chapter": "Chủ đề 9: Thiết kế thời trang",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế thời trang và cuộc sống, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b19",
+            "number": 19,
+            "title": "Bài 19: Khám phá & Quan sát – Nghệ thuật đại chúng",
             "chapter": "Chủ đề 10: Nghệ thuật đại chúng",
-            "summary": "Làm quen nghệ thuật Pop Art và sáng tạo sản phẩm.",
+            "summary": "Làm quen nghệ thuật Pop Art và sáng tạo sản phẩm. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b20",
+            "number": 20,
+            "title": "Bài 20: Thực hành sáng tạo – Nghệ thuật đại chúng",
+            "chapter": "Chủ đề 10: Nghệ thuật đại chúng",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật đại chúng, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -11924,7 +14068,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-6-b1",
             "number": 1,
-            "title": "Chế độ dinh dưỡng trong luyện tập TDTT",
+            "title": "Bài 1: Chế độ dinh dưỡng trong luyện tập TDTT",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Cân bằng dinh dưỡng cho lứa tuổi THCS khi vận động thể thao.",
             "questions": []
@@ -11932,33 +14076,65 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-6-b2",
             "number": 2,
-            "title": "Chủ đề 1: Chạy cự li ngắn (60m)",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Động tác bổ trợ, xuất phát cao và chạy lao sau xuất phát.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "summary": "Thực hành Động tác bổ trợ.",
             "questions": []
           },
           {
             "id": "gdtc-6-b3",
             "number": 3,
-            "title": "Chủ đề 2: Nhảy xa kiểu ngồi",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Chạy đà, giậm nhảy, bước bộ trên không và rơi xuống cát.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "summary": "Luyện tập xuất phát cao và chạy lao sau xuất phát. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-6-b4",
             "number": 4,
-            "title": "Chủ đề 3: Bài thể dục nhịp điệu",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Các động tác tay, chân, bật nhảy kết hợp nhịp điệu.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy xa kiểu ngồi",
+            "chapter": "Chủ đề 2: Nhảy xa kiểu ngồi",
+            "summary": "Thực hành Chạy đà, giậm nhảy.",
             "questions": []
           },
           {
             "id": "gdtc-6-b5",
             "number": 5,
-            "title": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Kĩ thuật cơ bản: dẫn bóng, chuyền bóng hoặc đánh cầu cao tay.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa kiểu ngồi",
+            "chapter": "Chủ đề 2: Nhảy xa kiểu ngồi",
+            "summary": "Luyện tập bước bộ trên không và rơi xuống cát. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b6",
+            "number": 6,
+            "title": "Bài 6: Kĩ thuật cơ bản – Bài thể dục nhịp điệu",
+            "chapter": "Chủ đề 3: Bài thể dục nhịp điệu",
+            "summary": "Thực hành Các động tác tay, chân.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục nhịp điệu",
+            "chapter": "Chủ đề 3: Bài thể dục nhịp điệu",
+            "summary": "Luyện tập bật nhảy kết hợp nhịp điệu. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "summary": "Thực hành Kĩ thuật cơ bản: dẫn bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "summary": "Luyện tập chuyền bóng hoặc đánh cầu cao tay. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -11971,7 +14147,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-6-b1",
             "number": 1,
-            "title": "Chủ đề 1: Em với nhà trường",
+            "title": "Bài 1: Nhận diện & Khám phá – Em với nhà trường",
             "chapter": "Chủ đề 1: Em với nhà trường",
             "summary": "Làm quen môi trường THCS, truyền thống trường và cách học mới.",
             "questions": []
@@ -11979,65 +14155,137 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-6-b2",
             "number": 2,
-            "title": "Chủ đề 2: Khám phá bản thân",
-            "chapter": "Chủ đề 2: Khám phá bản thân",
-            "summary": "Nhận diện đức tính đặc trưng, sở thích và giá trị bản thân.",
+            "title": "Bài 2: Thực hành & Vận dụng – Em với nhà trường",
+            "chapter": "Chủ đề 1: Em với nhà trường",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em với nhà trường.",
             "questions": []
           },
           {
             "id": "hdtn-6-b3",
             "number": 3,
-            "title": "Chủ đề 3: Trách nhiệm với bản thân",
-            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
-            "summary": "Tự chăm sóc sức khỏe tuổi dậy thì và ứng phó thiên tai.",
+            "title": "Bài 3: Nhận diện & Khám phá – Khám phá bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Nhận diện đức tính đặc trưng, sở thích và giá trị bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-6-b4",
             "number": 4,
-            "title": "Chủ đề 4: Rèn luyện bản thân",
-            "chapter": "Chủ đề 4: Rèn luyện bản thân",
-            "summary": "Sắp xếp góc học tập, giao tiếp tích cực và chi tiêu hợp lí.",
+            "title": "Bài 4: Thực hành & Vận dụng – Khám phá bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Khám phá bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-6-b5",
             "number": 5,
-            "title": "Chủ đề 5: Em với gia đình",
-            "chapter": "Chủ đề 5: Em với gia đình",
-            "summary": "Chăm sóc người thân, chia sẻ và giải quyết vấn đề gia đình.",
+            "title": "Bài 5: Nhận diện & Khám phá – Trách nhiệm với bản thân",
+            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
+            "summary": "Tự chăm sóc sức khỏe tuổi dậy thì và ứng phó thiên tai.",
             "questions": []
           },
           {
             "id": "hdtn-6-b6",
             "number": 6,
-            "title": "Chủ đề 6: Em với cộng đồng",
-            "chapter": "Chủ đề 6: Em với cộng đồng",
-            "summary": "Thiện nguyện, giữ gìn văn hóa nơi công cộng và truyền thống quê hương.",
+            "title": "Bài 6: Thực hành & Vận dụng – Trách nhiệm với bản thân",
+            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Trách nhiệm với bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-6-b7",
             "number": 7,
-            "title": "Chủ đề 7: Em với thiên nhiên và môi trường",
-            "chapter": "Chủ đề 7: Em với thiên nhiên",
-            "summary": "Tìm hiểu di tích, cảnh quan thiên nhiên và bảo vệ môi trường.",
+            "title": "Bài 7: Nhận diện & Khám phá – Rèn luyện bản thân",
+            "chapter": "Chủ đề 4: Rèn luyện bản thân",
+            "summary": "Sắp xếp góc học tập, giao tiếp tích cực và chi tiêu hợp lí.",
             "questions": []
           },
           {
             "id": "hdtn-6-b8",
             "number": 8,
-            "title": "Chủ đề 8: Khám phá thế giới nghề nghiệp",
-            "chapter": "Chủ đề 8: Khám phá nghề nghiệp",
-            "summary": "Tìm hiểu nghề truyền thống, nghề phổ biến và dụng cụ lao động.",
+            "title": "Bài 8: Thực hành & Vận dụng – Rèn luyện bản thân",
+            "chapter": "Chủ đề 4: Rèn luyện bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Rèn luyện bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-6-b9",
             "number": 9,
-            "title": "Chủ đề 9: Hiểu bản thân để chọn nghề phù hợp",
+            "title": "Bài 9: Nhận diện & Khám phá – Em với gia đình",
+            "chapter": "Chủ đề 5: Em với gia đình",
+            "summary": "Chăm sóc người thân, chia sẻ và giải quyết vấn đề gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Em với gia đình",
+            "chapter": "Chủ đề 5: Em với gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em với gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Em với cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Thiện nguyện, giữ gìn văn hóa nơi công cộng và truyền thống quê hương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Em với cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em với cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Em với thiên nhiên và môi trường",
+            "chapter": "Chủ đề 7: Em với thiên nhiên",
+            "summary": "Tìm hiểu di tích, cảnh quan thiên nhiên và bảo vệ môi trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Em với thiên nhiên và môi trường",
+            "chapter": "Chủ đề 7: Em với thiên nhiên",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em với thiên nhiên và môi trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Khám phá thế giới nghề nghiệp",
+            "chapter": "Chủ đề 8: Khám phá nghề nghiệp",
+            "summary": "Tìm hiểu nghề truyền thống, nghề phổ biến và dụng cụ lao động.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Khám phá thế giới nghề nghiệp",
+            "chapter": "Chủ đề 8: Khám phá nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Khám phá thế giới nghề nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b17",
+            "number": 17,
+            "title": "Bài 17: Nhận diện & Khám phá – Hiểu bản thân để chọn nghề phù hợp",
             "chapter": "Chủ đề 9: Hiểu bản thân chọn đúng nghề",
             "summary": "Liên hệ sở thích, năng lực cá nhân với nhóm nghề tương lai.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành & Vận dụng – Hiểu bản thân để chọn nghề phù hợp",
+            "chapter": "Chủ đề 9: Hiểu bản thân chọn đúng nghề",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Hiểu bản thân để chọn nghề phù hợp.",
             "questions": []
           }
         ]
@@ -12650,7 +14898,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bầy chim chìa vôi (Nguyễn Quang Thiều)",
             "chapter": "Bài 1: Bầu trời tuổi thơ",
-            "summary": "Tình yêu thiên nhiên và sự ngây thơ của Mên, Mon.",
+            "summary": "Tâm hồn trong trẻo, giàu yêu thương thiên nhiên của hai anh em Mon và Mên.",
             "questions": []
           },
           {
@@ -12658,71 +14906,263 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Đi lấy mật (Đoàn Giỏi)",
             "chapter": "Bài 1: Bầu trời tuổi thơ",
-            "summary": "Thiên nhiên rừng U Minh Nam Bộ.",
+            "summary": "Vẻ đẹp rừng U Minh và tình bạn hồn nhiên giữa An và Cò.",
             "questions": []
           },
           {
             "id": "nguvan-7-b3",
             "number": 3,
-            "title": "Đồng dao mùa xuân (Nguyễn Khoa Điềm)",
-            "chapter": "Bài 2: Khúc nhạc tâm hồn",
-            "summary": "Hình tượng người lính trẻ.",
+            "title": "Ngàn sao làm việc (Võ Quảng)",
+            "chapter": "Bài 1: Bầu trời tuổi thơ",
+            "summary": "Thế giới thiên nhiên lung linh qua trí tưởng tượng của tuổi thơ.",
             "questions": []
           },
           {
             "id": "nguvan-7-b4",
             "number": 4,
-            "title": "Gặp lá cơm nếp (Thanh Thảo)",
-            "chapter": "Bài 2: Khúc nhạc tâm hồn",
-            "summary": "Nỗi nhớ mẹ và quê hương.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 1)",
+            "chapter": "Bài 1: Bầu trời tuổi thơ",
+            "summary": "Mở rộng thành phần chính của câu bằng cụm từ; tóm tắt văn bản.",
             "questions": []
           },
           {
             "id": "nguvan-7-b5",
             "number": 5,
-            "title": "Vừa nhắm mắt vừa mở cửa sổ (Nguyễn Ngọc Thuần)",
-            "chapter": "Bài 3: Cội nguồn yêu thương",
-            "summary": "Cảm nhận thế giới bằng yêu thương.",
+            "title": "Đồng dao mùa xuân (Nguyễn Khoa Điềm)",
+            "chapter": "Bài 2: Khúc nhạc tâm hồn",
+            "summary": "Hình tượng người lính trẻ tuổi anh dũng và lạc quan.",
             "questions": []
           },
           {
             "id": "nguvan-7-b6",
             "number": 6,
-            "title": "Mùa xuân nho nhỏ (Thanh Hải)",
-            "chapter": "Bài 4: Giai điệu đất nước",
-            "summary": "Khát vọng cống hiến cho đất nước.",
+            "title": "Gặp lá cơm nếp (Thanh Hảo)",
+            "chapter": "Bài 2: Khúc nhạc tâm hồn",
+            "summary": "Nỗi nhớ mẹ và tình yêu quê hương của người chiến sĩ trên đường hành quân.",
             "questions": []
           },
           {
             "id": "nguvan-7-b7",
             "number": 7,
-            "title": "Tháng Giêng, mơ về trăng non rét ngọt (Vũ Bằng)",
-            "chapter": "Bài 5: Màu sắc trăm miền",
-            "summary": "Tùy bút về mùa xuân Hà Nội.",
+            "title": "Trở gió (Nguyễn Ngọc Tư)",
+            "chapter": "Bài 2: Khúc nhạc tâm hồn",
+            "summary": "Nỗi nhớ gió chướng và nét đẹp tâm hồn con người miền Tây Nam Bộ.",
             "questions": []
           },
           {
             "id": "nguvan-7-b8",
             "number": 8,
-            "title": "Đẽo cày giữa đường & Ếch ngồi đáy giếng",
-            "chapter": "Bài 6: Bài học cuộc sống",
-            "summary": "Truyện ngụ ngôn và bài học thực tiễn.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 2)",
+            "chapter": "Bài 2: Khúc nhạc tâm hồn",
+            "summary": "Biện pháp tu từ nói giảm nói tránh; tập làm thơ bốn chữ, năm chữ.",
             "questions": []
           },
           {
             "id": "nguvan-7-b9",
             "number": 9,
-            "title": "Cuộc chạm trán trên đại dương (Giuyn Véc-nơ)",
-            "chapter": "Bài 7: Thế giới viễn tưởng",
-            "summary": "Truyện khoa học viễn tưởng.",
+            "title": "Vừa nhắm mắt vừa mở cửa sổ (Nguyễn Ngọc Thuần)",
+            "chapter": "Bài 3: Cội nguồn yêu thương",
+            "summary": "Cảm nhận thế giới bằng tất cả giác quan và lòng yêu thương.",
             "questions": []
           },
           {
             "id": "nguvan-7-b10",
             "number": 10,
+            "title": "Người thầy đầu tiên (Ai-tơ-ma-tốp)",
+            "chapter": "Bài 3: Cội nguồn yêu thương",
+            "summary": "Tấm lòng tận tụy, yêu thương học trò của thầy Đuy-sen.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b11",
+            "number": 11,
+            "title": "Quê hương (Tế Hanh)",
+            "chapter": "Bài 3: Cội nguồn yêu thương",
+            "summary": "Bức tranh làng chài rộn ràng và nỗi nhớ quê hương tha thiết.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b12",
+            "number": 12,
+            "title": "Thực hành tiếng Việt & Viết (Bài 3)",
+            "chapter": "Bài 3: Cội nguồn yêu thương",
+            "summary": "Số từ, phó từ; viết bài văn phân tích đặc điểm nhân vật.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b13",
+            "number": 13,
+            "title": "Mùa xuân nho nhỏ (Thanh Hải)",
+            "chapter": "Bài 4: Giai điệu đất nước",
+            "summary": "Khát vọng cống hiến âm thầm, đẹp đẽ cho đất nước và cuộc đời.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b14",
+            "number": 14,
+            "title": "Gò Me (Hoàng Tố Nguyên)",
+            "chapter": "Bài 4: Giai điệu đất nước",
+            "summary": "Vẻ đẹp trù phú và nghĩa tình của vùng đất Gò Me.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b15",
+            "number": 15,
+            "title": "Bài thơ Đường núi (Nguyễn Đình Thi)",
+            "chapter": "Bài 4: Giai điệu đất nước",
+            "summary": "Cảnh sắc núi rừng Việt Bắc và tinh thần lạc quan.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b16",
+            "number": 16,
+            "title": "Thực hành tiếng Việt & Viết (Bài 4)",
+            "chapter": "Bài 4: Giai điệu đất nước",
+            "summary": "Ngữ cảnh và nghĩa của từ; viết bài văn biểu cảm về con người hoặc sự việc.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b17",
+            "number": 17,
+            "title": "Tháng Giêng, mơ về trăng non rét ngọt (Vũ Bằng)",
+            "chapter": "Bài 5: Màu sắc trăm miền",
+            "summary": "Cảm nhận tinh tế về mùa xuân Bắc Bộ trong tùy bút Vũ Bằng.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b18",
+            "number": 18,
+            "title": "Chuyện cơm hến (Hoàng Phủ Ngọc Tường)",
+            "chapter": "Bài 5: Màu sắc trăm miền",
+            "summary": "Nét đặc sắc của văn hóa ẩm thực xứ Huế.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b19",
+            "number": 19,
+            "title": "Hội lồng tồng",
+            "chapter": "Bài 5: Màu sắc trăm miền",
+            "summary": "Giới thiệu lễ hội truyền thống vùng Việt Bắc qua văn bản thông tin.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b20",
+            "number": 20,
+            "title": "Thực hành tiếng Việt & Viết (Bài 5)",
+            "chapter": "Bài 5: Màu sắc trăm miền",
+            "summary": "Dấu chấm lửng; viết văn bản tường trình rõ ràng, chuẩn mực.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b21",
+            "number": 21,
+            "title": "Đẽo cày giữa đường, Ếch ngồi đáy giếng (Ngụ ngôn)",
+            "chapter": "Bài 6: Bài học cuộc sống",
+            "summary": "Bài học về giữ vững lập trường và mở rộng tầm hiểu biết.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b22",
+            "number": 22,
+            "title": "Một số câu tục ngữ Việt Nam",
+            "chapter": "Bài 6: Bài học cuộc sống",
+            "summary": "Đúc kết kinh nghiệm về thiên nhiên, lao động và ứng xử của dân gian.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b23",
+            "number": 23,
+            "title": "Con hổ có nghĩa (Vũ Trọng Phụng)",
+            "chapter": "Bài 6: Bài học cuộc sống",
+            "summary": "Đạo lí sống ân nghĩa thủy chung qua truyện trung đại.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b24",
+            "number": 24,
+            "title": "Thực hành tiếng Việt & Viết (Bài 6)",
+            "chapter": "Bài 6: Bài học cuộc sống",
+            "summary": "Thành ngữ, tục ngữ, biện pháp nói quá; viết bài văn nghị luận về một vấn đề đời sống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b25",
+            "number": 25,
+            "title": "Cuộc chạm trán trên đại dương (Giu-léc Véc-nơ)",
+            "chapter": "Bài 7: Thế giới viễn tưởng",
+            "summary": "Khám phá tàu ngầm Nautilus và trí tưởng tượng khoa học.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b26",
+            "number": 26,
+            "title": "Đường vào trung tâm vũ trụ (Hà Thủy Nguyên)",
+            "chapter": "Bài 7: Thế giới viễn tưởng",
+            "summary": "Cuộc phiêu lưu kì thú trong truyện khoa học viễn tưởng Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b27",
+            "number": 27,
+            "title": "Thực hành tiếng Việt & Viết (Bài 7)",
+            "chapter": "Bài 7: Thế giới viễn tưởng",
+            "summary": "Mạch lạc và liên kết trong văn bản; viết bài văn kể lại sự việc có thật liên quan đến nhân vật hoặc sự kiện lịch sử.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b28",
+            "number": 28,
+            "title": "Bản đồ dẫn đường (Đa-ni-en Gốt-li-ép)",
+            "chapter": "Bài 8: Trải nghiệm để trưởng thành",
+            "summary": "Suy ngẫm về cách tìm hướng đi và thái độ sống tích cực.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b29",
+            "number": 29,
+            "title": "Hãy cầm lấy và đọc (Nguyễn Hiến Lê)",
+            "chapter": "Bài 8: Trải nghiệm để trưởng thành",
+            "summary": "Giá trị của việc đọc sách và tinh thần tự học suốt đời.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b30",
+            "number": 30,
+            "title": "Nói với con (Y Phương)",
+            "chapter": "Bài 8: Trải nghiệm để trưởng thành",
+            "summary": "Lời dặn dò ân cần của người cha về cội nguồn và sức sống bền bỉ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b31",
+            "number": 31,
+            "title": "Thực hành tiếng Việt & Viết (Bài 8)",
+            "chapter": "Bài 8: Trải nghiệm để trưởng thành",
+            "summary": "Thuật ngữ; viết bài văn nghị luận phân tích ý kiến tán thành hay phản đối.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b32",
+            "number": 32,
             "title": "Thủy tiên tháng Một & Lễ rửa làng của người Lô Lô",
             "chapter": "Bài 9: Hòa điệu với tự nhiên",
-            "summary": "Văn bản thông tin về môi trường.",
+            "summary": "Tìm hiểu mối quan hệ gắn bó giữa con người và thiên nhiên.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b33",
+            "number": 33,
+            "title": "Bản tin về hoa anh đào & Thực hành tiếng Việt (Bài 9)",
+            "chapter": "Bài 9: Hòa điệu với tự nhiên",
+            "summary": "Đặc điểm văn bản thông tin, cước chú, tài liệu tham khảo và thuyết minh quy tắc hoạt động.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-7-b34",
+            "number": 34,
+            "title": "Tổng kết kĩ năng đọc, viết, nói, nghe Ngữ văn 7",
+            "chapter": "Bài 10: Trang sách và cuộc sống",
+            "summary": "Hệ thống hóa kiến thức thể loại truyện, thơ, nghị luận, thông tin lớp 7.",
             "questions": []
           }
         ]
@@ -13418,65 +15858,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-7-b1",
             "number": 1,
-            "title": "Chủ đề 1: Âm nhạc và cuộc sống",
+            "title": "Bài 1: Hát & Nghe nhạc – Âm nhạc và cuộc sống",
             "chapter": "Chủ đề 1: Âm nhạc và cuộc sống",
-            "summary": "Hát Khai giảng; ôn tập đọc nhạc và kí hiệu âm nhạc cơ bản.",
+            "summary": "Hát Khai giảng.",
             "questions": []
           },
           {
             "id": "amnhac-7-b2",
             "number": 2,
-            "title": "Chủ đề 2: Khúc ca tình bạn",
-            "chapter": "Chủ đề 2: Khúc ca tình bạn",
-            "summary": "Hát Mái trường mến yêu; thực hành hát hai bè đơn giản.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Âm nhạc và cuộc sống",
+            "chapter": "Chủ đề 1: Âm nhạc và cuộc sống",
+            "summary": "ôn tập đọc nhạc và kí hiệu âm nhạc cơ bản..",
             "questions": []
           },
           {
             "id": "amnhac-7-b3",
             "number": 3,
-            "title": "Chủ đề 3: Giai điệu bốn mùa",
-            "chapter": "Chủ đề 3: Giai điệu bốn mùa",
-            "summary": "Nghe nhạc Bốn mùa (Vivaldi); đọc nhạc nhịp 3/4.",
+            "title": "Bài 3: Hát & Nghe nhạc – Khúc ca tình bạn",
+            "chapter": "Chủ đề 2: Khúc ca tình bạn",
+            "summary": "Hát Mái trường mến yêu.",
             "questions": []
           },
           {
             "id": "amnhac-7-b4",
             "number": 4,
-            "title": "Chủ đề 4: Âm nhạc và truyền thống",
-            "chapter": "Chủ đề 4: Âm nhạc và truyền thống",
-            "summary": "Hát Nhớ ơn thầy cô; tìm hiểu nhạc cổ truyền Việt Nam.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Khúc ca tình bạn",
+            "chapter": "Chủ đề 2: Khúc ca tình bạn",
+            "summary": "thực hành hát hai bè đơn giản..",
             "questions": []
           },
           {
             "id": "amnhac-7-b5",
             "number": 5,
-            "title": "Chủ đề 5: Giai điệu quê hương",
-            "chapter": "Chủ đề 5: Giai điệu quê hương",
-            "summary": "Nghe và hát dân ca Trung Bộ, Nam Bộ; thực hành nhạc cụ.",
+            "title": "Bài 5: Hát & Nghe nhạc – Giai điệu bốn mùa",
+            "chapter": "Chủ đề 3: Giai điệu bốn mùa",
+            "summary": "Nghe nhạc Bốn mùa (Vivaldi).",
             "questions": []
           },
           {
             "id": "amnhac-7-b6",
             "number": 6,
-            "title": "Chủ đề 6: Âm nhạc nước ngoài",
-            "chapter": "Chủ đề 6: Âm nhạc nước ngoài",
-            "summary": "Hát bài hát dân ca nước ngoài; phân biệt giọng trưởng, thứ.",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Giai điệu bốn mùa",
+            "chapter": "Chủ đề 3: Giai điệu bốn mùa",
+            "summary": "đọc nhạc nhịp 3/4..",
             "questions": []
           },
           {
             "id": "amnhac-7-b7",
             "number": 7,
-            "title": "Chủ đề 7: Hướng tới tương lai",
-            "chapter": "Chủ đề 7: Hướng tới tương lai",
-            "summary": "Hát Tiến bước lên Đoàn; thực hành biểu diễn nhóm.",
+            "title": "Bài 7: Hát & Nghe nhạc – Âm nhạc và truyền thống",
+            "chapter": "Chủ đề 4: Âm nhạc và truyền thống",
+            "summary": "Hát Nhớ ơn thầy cô.",
             "questions": []
           },
           {
             "id": "amnhac-7-b8",
             "number": 8,
-            "title": "Chủ đề 8: Vui bước tới trường",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Âm nhạc và truyền thống",
+            "chapter": "Chủ đề 4: Âm nhạc và truyền thống",
+            "summary": "tìm hiểu nhạc cổ truyền Việt Nam..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Giai điệu quê hương",
+            "chapter": "Chủ đề 5: Giai điệu quê hương",
+            "summary": "Nghe và hát dân ca Trung Bộ, Nam Bộ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Giai điệu quê hương",
+            "chapter": "Chủ đề 5: Giai điệu quê hương",
+            "summary": "thực hành nhạc cụ..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Âm nhạc nước ngoài",
+            "chapter": "Chủ đề 6: Âm nhạc nước ngoài",
+            "summary": "Hát bài hát dân ca nước ngoài.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Âm nhạc nước ngoài",
+            "chapter": "Chủ đề 6: Âm nhạc nước ngoài",
+            "summary": "phân biệt giọng trưởng, thứ..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Hướng tới tương lai",
+            "chapter": "Chủ đề 7: Hướng tới tương lai",
+            "summary": "Hát Tiến bước lên Đoàn.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Hướng tới tương lai",
+            "chapter": "Chủ đề 7: Hướng tới tương lai",
+            "summary": "thực hành biểu diễn nhóm..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Vui bước tới trường",
             "chapter": "Chủ đề 8: Vui bước tới trường",
-            "summary": "Ôn tập các bài hát, bài đọc nhạc và nhạc cụ cuối năm.",
+            "summary": "Ôn tập các bài hát, bài đọc nhạc và nhạc cụ cuối năm..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Vui bước tới trường",
+            "chapter": "Chủ đề 8: Vui bước tới trường",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Vui bước tới trường).",
             "questions": []
           }
         ]
@@ -13489,65 +15993,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-7-b1",
             "number": 1,
-            "title": "Chủ đề 1: Sự biểu cảm của sắc màu",
+            "title": "Bài 1: Khám phá & Quan sát – Sự biểu cảm của sắc màu",
             "chapter": "Chủ đề 1: Sự biểu cảm của sắc màu",
-            "summary": "Khai thác hòa sắc trong thể hiện cảm xúc bức tranh.",
+            "summary": "Khai thác hòa sắc trong thể hiện cảm xúc bức tranh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-7-b2",
             "number": 2,
-            "title": "Chủ đề 2: Nghệ thuật trung đại thế giới và Việt Nam",
-            "chapter": "Chủ đề 2: Nghệ thuật trung đại",
-            "summary": "Tìm hiểu kiến trúc, điêu khắc thời Lý - Trần và Phục hưng sơ kì.",
+            "title": "Bài 2: Thực hành sáng tạo – Sự biểu cảm của sắc màu",
+            "chapter": "Chủ đề 1: Sự biểu cảm của sắc màu",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sự biểu cảm của sắc màu, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-7-b3",
             "number": 3,
-            "title": "Chủ đề 3: Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế",
-            "chapter": "Chủ đề 3: Vật liệu tái chế",
-            "summary": "Thiết kế đồ dùng trang trí từ nhựa, giấy, kim loại phế liệu.",
+            "title": "Bài 3: Khám phá & Quan sát – Nghệ thuật trung đại thế giới và Việt Nam",
+            "chapter": "Chủ đề 2: Nghệ thuật trung đại",
+            "summary": "Tìm hiểu kiến trúc, điêu khắc thời Lý - Trần và Phục hưng sơ kì. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-7-b4",
             "number": 4,
-            "title": "Chủ đề 4: Âm nhạc và mĩ thuật",
-            "chapter": "Chủ đề 4: Âm nhạc và mĩ thuật",
-            "summary": "Chuyển hóa nhịp điệu, giai điệu âm nhạc thành bố cục tạo hình.",
+            "title": "Bài 4: Thực hành sáng tạo – Nghệ thuật trung đại thế giới và Việt Nam",
+            "chapter": "Chủ đề 2: Nghệ thuật trung đại",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật trung đại thế giới và Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-7-b5",
             "number": 5,
-            "title": "Chủ đề 5: Nghệ thuật và thế giới tuổi teen",
-            "chapter": "Chủ đề 5: Nghệ thuật vị thành niên",
-            "summary": "Vẽ tranh, thiết kế nhân vật, truyện tranh ngắn.",
+            "title": "Bài 5: Khám phá & Quan sát – Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế",
+            "chapter": "Chủ đề 3: Vật liệu tái chế",
+            "summary": "Thiết kế đồ dùng trang trí từ nhựa, giấy, kim loại phế liệu. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-7-b6",
             "number": 6,
-            "title": "Chủ đề 6: Nghệ thuật đồ họa (Tranh in)",
-            "chapter": "Chủ đề 6: Nghệ thuật đồ họa",
-            "summary": "Thực hành kĩ thuật tranh in độc bản, in khắc xốp.",
+            "title": "Bài 6: Thực hành sáng tạo – Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế",
+            "chapter": "Chủ đề 3: Vật liệu tái chế",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-7-b7",
             "number": 7,
-            "title": "Chủ đề 7: Thiết kế đồ họa (Biểu trưng, poster)",
-            "chapter": "Chủ đề 7: Thiết kế đồ họa",
-            "summary": "Thiết kế logo, poster tuyên truyền sự kiện trường học.",
+            "title": "Bài 7: Khám phá & Quan sát – Âm nhạc và mĩ thuật",
+            "chapter": "Chủ đề 4: Âm nhạc và mĩ thuật",
+            "summary": "Chuyển hóa nhịp điệu, giai điệu âm nhạc thành bố cục tạo hình. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-7-b8",
             "number": 8,
-            "title": "Chủ đề 8: Nghệ thuật truyền thống Việt Nam",
+            "title": "Bài 8: Thực hành sáng tạo – Âm nhạc và mĩ thuật",
+            "chapter": "Chủ đề 4: Âm nhạc và mĩ thuật",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Âm nhạc và mĩ thuật, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b9",
+            "number": 9,
+            "title": "Bài 9: Khám phá & Quan sát – Nghệ thuật và thế giới tuổi teen",
+            "chapter": "Chủ đề 5: Nghệ thuật vị thành niên",
+            "summary": "Vẽ tranh, thiết kế nhân vật, truyện tranh ngắn. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành sáng tạo – Nghệ thuật và thế giới tuổi teen",
+            "chapter": "Chủ đề 5: Nghệ thuật vị thành niên",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật và thế giới tuổi teen, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Nghệ thuật đồ họa (Tranh in)",
+            "chapter": "Chủ đề 6: Nghệ thuật đồ họa",
+            "summary": "Thực hành kĩ thuật tranh in độc bản, in khắc xốp. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Nghệ thuật đồ họa (Tranh in)",
+            "chapter": "Chủ đề 6: Nghệ thuật đồ họa",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật đồ họa (Tranh in), trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Thiết kế đồ họa (Biểu trưng, poster)",
+            "chapter": "Chủ đề 7: Thiết kế đồ họa",
+            "summary": "Thiết kế logo, poster tuyên truyền sự kiện trường học. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Thiết kế đồ họa (Biểu trưng, poster)",
+            "chapter": "Chủ đề 7: Thiết kế đồ họa",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế đồ họa (Biểu trưng, poster), trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Nghệ thuật truyền thống Việt Nam",
             "chapter": "Chủ đề 8: Nghệ thuật truyền thống Việt Nam",
-            "summary": "Nghiên cứu và ứng dụng họa tiết gốm, tranh dân gian.",
+            "summary": "Nghiên cứu và ứng dụng họa tiết gốm, tranh dân gian. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Nghệ thuật truyền thống Việt Nam",
+            "chapter": "Chủ đề 8: Nghệ thuật truyền thống Việt Nam",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật truyền thống Việt Nam, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -13560,7 +16128,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-7-b1",
             "number": 1,
-            "title": "Sử dụng các yếu tố tự nhiên trong luyện tập TDTT",
+            "title": "Bài 1: Sử dụng các yếu tố tự nhiên trong luyện tập TDTT",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Ánh sáng, không khí, nước giúp tăng cường sức khỏe khi tập luyện.",
             "questions": []
@@ -13568,33 +16136,65 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-7-b2",
             "number": 2,
-            "title": "Chủ đề 1: Chạy cự li ngắn (60m)",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Xuất phát cao, chạy lao và chạy giữa quãng.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (60m)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "summary": "Thực hành Xuất phát cao.",
             "questions": []
           },
           {
             "id": "gdtc-7-b3",
             "number": 3,
-            "title": "Chủ đề 2: Nhảy xa / Nhảy cao",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Kĩ thuật chạy đà, giậm nhảy, trên không và tiếp đất an toàn.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (60m)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "summary": "Luyện tập chạy lao và chạy giữa quãng. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-7-b4",
             "number": 4,
-            "title": "Chủ đề 3: Bài thể dục liên hoàn",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Hoàn thiện bài thể dục nhịp điệu phối hợp tay, chân, thân mình.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy xa / Nhảy cao",
+            "chapter": "Chủ đề 2: Nhảy xa / Nhảy cao",
+            "summary": "Thực hành Kĩ thuật chạy đà, giậm nhảy.",
             "questions": []
           },
           {
             "id": "gdtc-7-b5",
             "number": 5,
-            "title": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Nâng cao kĩ thuật chuyền bóng, dẫn bóng hoặc đánh cầu trái tay.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy xa / Nhảy cao",
+            "chapter": "Chủ đề 2: Nhảy xa / Nhảy cao",
+            "summary": "Luyện tập trên không và tiếp đất an toàn. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b6",
+            "number": 6,
+            "title": "Bài 6: Kĩ thuật cơ bản – Bài thể dục liên hoàn",
+            "chapter": "Chủ đề 3: Bài thể dục liên hoàn",
+            "summary": "Thực hành Hoàn thiện bài thể dục nhịp điệu phối hợp tay, chân.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Bài thể dục liên hoàn",
+            "chapter": "Chủ đề 3: Bài thể dục liên hoàn",
+            "summary": "Luyện tập thân mình. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Bóng đá / Bóng rổ / Cầu lông",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "summary": "Thực hành Nâng cao kĩ thuật chuyền bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Bóng đá / Bóng rổ / Cầu lông",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "summary": "Luyện tập dẫn bóng hoặc đánh cầu trái tay. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -13607,7 +16207,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-7-b1",
             "number": 1,
-            "title": "Chủ đề 1: Tự hào truyền thống trường em",
+            "title": "Bài 1: Nhận diện & Khám phá – Tự hào truyền thống trường em",
             "chapter": "Chủ đề 1: Tự hào truyền thống trường em",
             "summary": "Phát huy truyền thống nhà trường và rèn luyện kĩ năng hợp tác.",
             "questions": []
@@ -13615,57 +16215,121 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-7-b2",
             "number": 2,
-            "title": "Chủ đề 2: Rèn luyện thói quen và kiểm soát cảm xúc",
-            "chapter": "Chủ đề 2: Rèn luyện thói quen tích cực",
-            "summary": "Vượt qua khó khăn trong học tập và kiềm chế nóng giận.",
+            "title": "Bài 2: Thực hành & Vận dụng – Tự hào truyền thống trường em",
+            "chapter": "Chủ đề 1: Tự hào truyền thống trường em",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tự hào truyền thống trường em.",
             "questions": []
           },
           {
             "id": "hdtn-7-b3",
             "number": 3,
-            "title": "Chủ đề 3: Chăm sóc, bảo vệ cơ thể và an toàn",
-            "chapter": "Chủ đề 3: Chăm sóc sức khỏe",
-            "summary": "Vệ sinh cá nhân, phòng tránh tai nạn và xâm hại.",
+            "title": "Bài 3: Nhận diện & Khám phá – Rèn luyện thói quen và kiểm soát cảm xúc",
+            "chapter": "Chủ đề 2: Rèn luyện thói quen tích cực",
+            "summary": "Vượt qua khó khăn trong học tập và kiềm chế nóng giận.",
             "questions": []
           },
           {
             "id": "hdtn-7-b4",
             "number": 4,
-            "title": "Chủ đề 4: Chi tiêu hợp lí và tiết kiệm",
-            "chapter": "Chủ đề 4: Quản lí tài chính cá nhân",
-            "summary": "Lập kế hoạch thu chi cá nhân và tiết kiệm tiền tiêu vặt.",
+            "title": "Bài 4: Thực hành & Vận dụng – Rèn luyện thói quen và kiểm soát cảm xúc",
+            "chapter": "Chủ đề 2: Rèn luyện thói quen tích cực",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Rèn luyện thói quen và kiểm soát cảm xúc.",
             "questions": []
           },
           {
             "id": "hdtn-7-b5",
             "number": 5,
-            "title": "Chủ đề 5: Gắn kết gia đình và tình bạn đẹp",
-            "chapter": "Chủ đề 5: Xây dựng tình bạn và gia đình",
-            "summary": "Ứng xử khéo léo với bạn bè, chia sẻ việc nhà với người thân.",
+            "title": "Bài 5: Nhận diện & Khám phá – Chăm sóc, bảo vệ cơ thể và an toàn",
+            "chapter": "Chủ đề 3: Chăm sóc sức khỏe",
+            "summary": "Vệ sinh cá nhân, phòng tránh tai nạn và xâm hại.",
             "questions": []
           },
           {
             "id": "hdtn-7-b6",
             "number": 6,
-            "title": "Chủ đề 6: Tham gia hoạt động cộng đồng",
-            "chapter": "Chủ đề 6: Em với cộng đồng",
-            "summary": "Giữ gìn văn hóa giao tiếp và tham gia dự án cộng đồng.",
+            "title": "Bài 6: Thực hành & Vận dụng – Chăm sóc, bảo vệ cơ thể và an toàn",
+            "chapter": "Chủ đề 3: Chăm sóc sức khỏe",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Chăm sóc, bảo vệ cơ thể và an toàn.",
             "questions": []
           },
           {
             "id": "hdtn-7-b7",
             "number": 7,
-            "title": "Chủ đề 7: Giảm thiểu hiệu ứng nhà kính và bảo vệ thiên nhiên",
-            "chapter": "Chủ đề 7: Bảo vệ môi trường",
-            "summary": "Tuyên truyền bảo vệ nguồn nước, cây xanh địa phương.",
+            "title": "Bài 7: Nhận diện & Khám phá – Chi tiêu hợp lí và tiết kiệm",
+            "chapter": "Chủ đề 4: Quản lí tài chính cá nhân",
+            "summary": "Lập kế hoạch thu chi cá nhân và tiết kiệm tiền tiêu vặt.",
             "questions": []
           },
           {
             "id": "hdtn-7-b8",
             "number": 8,
-            "title": "Chủ đề 8: Các nhóm nghề cơ bản ở địa phương",
+            "title": "Bài 8: Thực hành & Vận dụng – Chi tiêu hợp lí và tiết kiệm",
+            "chapter": "Chủ đề 4: Quản lí tài chính cá nhân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Chi tiêu hợp lí và tiết kiệm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b9",
+            "number": 9,
+            "title": "Bài 9: Nhận diện & Khám phá – Gắn kết gia đình và tình bạn đẹp",
+            "chapter": "Chủ đề 5: Xây dựng tình bạn và gia đình",
+            "summary": "Ứng xử khéo léo với bạn bè, chia sẻ việc nhà với người thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Gắn kết gia đình và tình bạn đẹp",
+            "chapter": "Chủ đề 5: Xây dựng tình bạn và gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Gắn kết gia đình và tình bạn đẹp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Tham gia hoạt động cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Giữ gìn văn hóa giao tiếp và tham gia dự án cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Tham gia hoạt động cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tham gia hoạt động cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Giảm thiểu hiệu ứng nhà kính và bảo vệ thiên nhiên",
+            "chapter": "Chủ đề 7: Bảo vệ môi trường",
+            "summary": "Tuyên truyền bảo vệ nguồn nước, cây xanh địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Giảm thiểu hiệu ứng nhà kính và bảo vệ thiên nhiên",
+            "chapter": "Chủ đề 7: Bảo vệ môi trường",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Giảm thiểu hiệu ứng nhà kính và bảo vệ thiên nhiên.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Các nhóm nghề cơ bản ở địa phương",
             "chapter": "Chủ đề 8: Tìm hiểu nghề nghiệp",
             "summary": "Tìm hiểu đặc trưng, yêu cầu an toàn lao động của các nghề.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Các nhóm nghề cơ bản ở địa phương",
+            "chapter": "Chủ đề 8: Tìm hiểu nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Các nhóm nghề cơ bản ở địa phương.",
             "questions": []
           }
         ]
@@ -14388,81 +17052,273 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-8-b1",
             "number": 1,
-            "title": "Bài 1: Câu chuyện của lịch sử (Lá cờ thêu sáu chữ vàng, Quang Trung đại phá quân Thanh)",
-            "chapter": "Tập 1 - Bài 1: Câu chuyện của lịch sử",
-            "summary": "Đặc trưng truyện lịch sử và thực hành từ Hán Việt.",
+            "title": "Lá cờ thêu sáu chữ vàng (Nguyễn Huy Tưởng)",
+            "chapter": "Bài 1: Câu chuyện của lịch sử",
+            "summary": "Khí phách anh hùng của Trần Quốc Toản trong cuộc kháng chiến chống Nguyên - Mông.",
             "questions": []
           },
           {
             "id": "nguvan-8-b2",
             "number": 2,
-            "title": "Bài 2: Vẻ đẹp cổ điển (Thu điếu, Thiên Trường vãn vọng, Ca Huế trên sông Hương)",
-            "chapter": "Tập 1 - Bài 2: Vẻ đẹp cổ điển",
-            "summary": "Thơ thất ngôn bát cú và thất ngôn tứ tuyệt Đường luật.",
+            "title": "Quang Trung đại phá quân Thanh (Hoàng Lê nhất thống chí)",
+            "chapter": "Bài 1: Câu chuyện của lịch sử",
+            "summary": "Hình tượng vua Quang Trung mưu lược, thần tốc và chiến thắng lẫy lừng.",
             "questions": []
           },
           {
             "id": "nguvan-8-b3",
             "number": 3,
-            "title": "Bài 3: Lời sông núi (Hịch tướng sĩ, Tinh thần yêu nước của nhân dân ta, Nam quốc sơn hà)",
-            "chapter": "Tập 1 - Bài 3: Lời sông núi",
-            "summary": "Nghệ thuật lập luận chặt chẽ, hào hùng trong văn nghị luận trung đại và hiện đại.",
+            "title": "Ta đi tới (Tố Hữu)",
+            "chapter": "Bài 1: Câu chuyện của lịch sử",
+            "summary": "Niềm tự hào dân tộc và tinh thần tiến bước sau chiến thắng Điện Biên Phủ.",
             "questions": []
           },
           {
             "id": "nguvan-8-b4",
             "number": 4,
-            "title": "Bài 4: Tiếng cười trào phúng trong thơ (Lễ xướng danh khoa Đinh Dậu, Lai Tân)",
-            "chapter": "Tập 1 - Bài 4: Tiếng cười trào phúng trong thơ",
-            "summary": "Thủ pháp trào phúng của Tú Xương, Hồ Chí Minh và thực hành tiếng Việt.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 1)",
+            "chapter": "Bài 1: Câu chuyện của lịch sử",
+            "summary": "Từ tượng hình, từ tượng thanh; viết bài văn kể lại một chuyến đi hoặc hoạt động xã hội.",
             "questions": []
           },
           {
             "id": "nguvan-8-b5",
             "number": 5,
-            "title": "Bài 5: Những câu chuyện hài (Trưởng giả học làm sang, Chùm truyện cười dân gian)",
-            "chapter": "Tập 1 - Bài 5: Những câu chuyện hài",
-            "summary": "Xung đột hài kịch Mô-li-e và nghệ thuật gây cười dân gian.",
+            "title": "Thu điếu (Nguyễn Khuyến)",
+            "chapter": "Bài 2: Vẻ đẹp cổ điển",
+            "summary": "Bức tranh thu làng cảnh Việt Nam tĩnh lặng và tâm sự yêu nước thầm kín.",
             "questions": []
           },
           {
             "id": "nguvan-8-b6",
             "number": 6,
-            "title": "Bài 6: Chân dung cuộc sống (Mắt sói, Lặng lẽ Sa Pa, Bếp lửa)",
-            "chapter": "Tập 2 - Bài 6: Chân dung cuộc sống",
-            "summary": "Vẻ đẹp tâm hồn con người lao động và tình cảm gia đình.",
+            "title": "Thiên Trường vãn vọng (Trần Nhân Tông)",
+            "chapter": "Bài 2: Vẻ đẹp cổ điển",
+            "summary": "Cảnh chiều quê thanh bình và tình yêu thiên nhiên, nhân dân của vị vua anh minh.",
             "questions": []
           },
           {
             "id": "nguvan-8-b7",
             "number": 7,
-            "title": "Bài 7: Tin yêu và ước vọng (Đồng dao mùa xuân, Gió lạnh đầu mùa, Con đường tôi đi)",
-            "chapter": "Tập 2 - Bài 7: Tin yêu và ước vọng",
-            "summary": "Thơ tự do và truyện ngắn Thạch Lam.",
+            "title": "Ca Huế trên sông Hương (Hà Ánh Minh)",
+            "chapter": "Bài 2: Vẻ đẹp cổ điển",
+            "summary": "Nét đẹp văn hóa âm nhạc cung đình và dân gian xứ Huế.",
             "questions": []
           },
           {
             "id": "nguvan-8-b8",
             "number": 8,
-            "title": "Bài 8: Nhà văn và trang viết (Nhà thơ của quê hương làng cảnh Việt Nam, Đọc văn - cuộc chơi tìm ý nghĩa)",
-            "chapter": "Tập 2 - Bài 8: Nhà văn và trang viết",
-            "summary": "Nghị luận văn học phân tích cái hay, cái đẹp của tác phẩm.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 2)",
+            "chapter": "Bài 2: Vẻ đẹp cổ điển",
+            "summary": "Biện pháp tu từ đảo ngữ, từ Hán Việt; phân tích một tác phẩm thơ Đường luật.",
             "questions": []
           },
           {
             "id": "nguvan-8-b9",
             "number": 9,
-            "title": "Bài 9: Hôm nay và ngày mai (Miền châu thổ sông Cửu Long cần chuyển đổi từ sống chung sang thích ứng, Choáng ngợp và đau đớn những cảnh báo từ loạt phim Hành tinh của chúng ta)",
-            "chapter": "Tập 2 - Bài 9: Hôm nay và ngày mai",
-            "summary": "Văn bản thông tin giải thích hiện tượng tự nhiên và bảo vệ môi trường.",
+            "title": "Hịch tướng sĩ (Trần Quốc Tuấn)",
+            "chapter": "Bài 3: Lời sông núi",
+            "summary": "Lòng yêu nước nồng nàn, ý chí quyết chiến và nghệ thuật lập luận đanh thép.",
             "questions": []
           },
           {
             "id": "nguvan-8-b10",
             "number": 10,
-            "title": "Bài 10: Sách – người bạn đồng hành (Thách thức đọc sách, Giới thiệu cuốn sách yêu thích)",
-            "chapter": "Tập 2 - Bài 10: Sách – người bạn đồng hành",
-            "summary": "Phương pháp đọc sách hiệu quả và viết bài giới thiệu sách.",
+            "title": "Tinh thần yêu nước của nhân dân ta (Hồ Chí Minh)",
+            "chapter": "Bài 3: Lời sông núi",
+            "summary": "Truyền thống yêu nước nồng nàn qua các thời đại và kết cấu nghị luận mẫu mực.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b11",
+            "number": 11,
+            "title": "Nam quốc sơn hà & Chiếu dời đô",
+            "chapter": "Bài 3: Lời sông núi",
+            "summary": "Bản tuyên ngôn độc lập đầu tiên và tầm nhìn xây dựng đất nước của Lý Công Uẩn.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b12",
+            "number": 12,
+            "title": "Thực hành tiếng Việt & Viết (Bài 3)",
+            "chapter": "Bài 3: Lời sông núi",
+            "summary": "Đoạn văn diễn dịch, quy nạp, song song, phối hợp; viết bài văn nghị luận xã hội.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b13",
+            "number": 13,
+            "title": "Lễ xướng danh khoa Đinh Dậu (Trần Tế Xương)",
+            "chapter": "Bài 4: Tiếng cười trào phúng trong thơ",
+            "summary": "Tiếng cười châm biếm sâu cay cảnh thi cử nhốn nháo buổi giao thời.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b14",
+            "number": 14,
+            "title": "Lai Tân (Hồ Chí Minh)",
+            "chapter": "Bài 4: Tiếng cười trào phúng trong thơ",
+            "summary": "Nghệ thuật châm biếm nhẹ nhàng mà thâm thúy bộ máy quan lại thối nát.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b15",
+            "number": 15,
+            "title": "Một số giọng điệu của tiếng cười trong thơ trào phúng",
+            "chapter": "Bài 4: Tiếng cười trào phúng trong thơ",
+            "summary": "Nhận diện các cung bậc hài hước, châm biếm, đả kích trong thơ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b16",
+            "number": 16,
+            "title": "Thực hành tiếng Việt & Viết (Bài 4)",
+            "chapter": "Bài 4: Tiếng cười trào phúng trong thơ",
+            "summary": "Nghĩa tường minh và nghĩa hàm ẩn; phân tích bài thơ trào phúng.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b17",
+            "number": 17,
+            "title": "Trưởng giả học làm sang (Mô-li-e)",
+            "chapter": "Bài 5: Những câu chuyện hài",
+            "summary": "Tiếng cười hài kịch phê phán thói học đòi kệch cỡm của ông Giuốc-đanh.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b18",
+            "number": 18,
+            "title": "Chùm truyện cười dân gian (Lợn cưới áo mới, Treo biển)",
+            "chapter": "Bài 5: Những câu chuyện hài",
+            "summary": "Thủ pháp gây cười phóng đại và phê phán thói khoe khoang, thiếu chính kiến.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b19",
+            "number": 19,
+            "title": "Chùm ca dao trào phúng",
+            "chapter": "Bài 5: Những câu chuyện hài",
+            "summary": "Tiếng cười hóm hỉnh trong sinh hoạt lao động và đời sống dân gian.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b20",
+            "number": 20,
+            "title": "Thực hành tiếng Việt & Viết (Bài 5)",
+            "chapter": "Bài 5: Những câu chuyện hài",
+            "summary": "Câu hỏi tu từ; viết bài nghị luận về một vấn đề đời sống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b21",
+            "number": 21,
+            "title": "Mắt sói (Đa-ni-en Pen-nắc)",
+            "chapter": "Bài 6: Chân dung cuộc sống",
+            "summary": "Tình cảm gắn bó giữa cậu bé Phi Châu và con sói lam.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b22",
+            "number": 22,
+            "title": "Lặng lẽ Sa Pa (Nguyễn Thành Long)",
+            "chapter": "Bài 6: Chân dung cuộc sống",
+            "summary": "Vẻ đẹp cống hiến thầm lặng của anh thanh niên làm công tác khí tượng.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b23",
+            "number": 23,
+            "title": "Bếp lửa (Bằng Việt)",
+            "chapter": "Bài 6: Chân dung cuộc sống",
+            "summary": "Kỉ niệm ấm áp bên bà và tình cảm gia đình hòa quyện tình yêu quê hương.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b24",
+            "number": 24,
+            "title": "Chiếc lá cuối cùng (O. Hen-ri) & Thực hành tiếng Việt (Bài 6)",
+            "chapter": "Bài 6: Chân dung cuộc sống",
+            "summary": "Bức thông điệp nghệ thuật vị nhân sinh; biệt ngữ xã hội, trợ từ, thán từ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b25",
+            "number": 25,
+            "title": "Đồng chí (Chính Hữu)",
+            "chapter": "Bài 7: Tin yêu và ước vọng",
+            "summary": "Tình đồng chí keo sơn của những người lính trong kháng chiến chống Pháp.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b26",
+            "number": 26,
+            "title": "Lá đỏ (Nguyễn Đình Thi)",
+            "chapter": "Bài 7: Tin yêu và ước vọng",
+            "summary": "Khí thế hào hùng trên tuyến đường Trường Sơn.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b27",
+            "number": 27,
+            "title": "Những ngôi sao xa xôi (Lê Minh Khuê)",
+            "chapter": "Bài 7: Tin yêu và ước vọng",
+            "summary": "Tâm hồn trong sáng, dũng cảm của ba nữ thanh niên xung phong.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b28",
+            "number": 28,
+            "title": "Thực hành tiếng Việt & Viết (Bài 7)",
+            "chapter": "Bài 7: Tin yêu và ước vọng",
+            "summary": "Biện pháp tu từ điệp ngữ, liệt kê; phân tích một tác phẩm truyện.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b29",
+            "number": 29,
+            "title": "Nhà thơ của quê hương làng cảnh Việt Nam (Xuân Diệu)",
+            "chapter": "Bài 8: Nhà văn và trang viết",
+            "summary": "Nghệ thuật phê bình văn học tinh tế về thơ thu Nguyễn Khuyến.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b30",
+            "number": 30,
+            "title": "Đọc văn – cuộc chơi tìm ý nghĩa (Trần Đình Sử)",
+            "chapter": "Bài 8: Nhà văn và trang viết",
+            "summary": "Phương pháp tiếp cận và đối thoại sáng tạo với tác phẩm văn học.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b31",
+            "number": 31,
+            "title": "Thực hành tiếng Việt & Viết (Bài 8)",
+            "chapter": "Bài 8: Nhà văn và trang viết",
+            "summary": "Thành phần biệt lập; giới thiệu cuốn sách yêu thích.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b32",
+            "number": 32,
+            "title": "Miền châu thổ sông Cửu Long chuyển đổi thích ứng lũ",
+            "chapter": "Bài 9: Hôm nay và ngày mai",
+            "summary": "Văn bản thông tin giải thích nguyên nhân - kết quả về biến đổi khí hậu.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b33",
+            "number": 33,
+            "title": "Bảo vệ nguồn nước & Thực hành tiếng Việt (Bài 9)",
+            "chapter": "Bài 9: Hôm nay và ngày mai",
+            "summary": "Câu khẳng định, câu phủ định; viết văn bản thuyết minh giải thích một hiện tượng tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-8-b34",
+            "number": 34,
+            "title": "Phương pháp đọc sách & Tổng kết Ngữ văn 8",
+            "chapter": "Bài 10: Sách – Người bạn đồng hành",
+            "summary": "Chiến lược đọc sách hiệu quả và tổng kết toàn năm học.",
             "questions": []
           }
         ]
@@ -15206,65 +18062,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-8-b1",
             "number": 1,
-            "title": "Chủ đề 1: Chào năm học mới",
+            "title": "Bài 1: Hát & Nghe nhạc – Chào năm học mới",
             "chapter": "Chủ đề 1: Chào năm học mới",
-            "summary": "Hát Tuổi hồng; ôn tập đọc nhạc và kí hiệu âm nhạc.",
+            "summary": "Hát Tuổi hồng.",
             "questions": []
           },
           {
             "id": "amnhac-8-b2",
             "number": 2,
-            "title": "Chủ đề 2: Âm nhạc miền núi phía Bắc",
-            "chapter": "Chủ đề 2: Âm nhạc miền núi phía Bắc",
-            "summary": "Tìm hiểu đàn tính, hát Then và dân ca các dân tộc miền núi.",
+            "title": "Bài 2: Đọc nhạc & Nhạc cụ – Chào năm học mới",
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "summary": "ôn tập đọc nhạc và kí hiệu âm nhạc..",
             "questions": []
           },
           {
             "id": "amnhac-8-b3",
             "number": 3,
-            "title": "Chủ đề 3: Khúc ca hòa bình",
-            "chapter": "Chủ đề 3: Khúc ca hòa bình",
-            "summary": "Hát Lá cờ hòa bình; đọc nhạc giọng La thứ.",
+            "title": "Bài 3: Hát & Nghe nhạc – Âm nhạc miền núi phía Bắc",
+            "chapter": "Chủ đề 2: Âm nhạc miền núi phía Bắc",
+            "summary": "Tìm hiểu đàn tính, hát Then và dân ca các dân tộc miền núi..",
             "questions": []
           },
           {
             "id": "amnhac-8-b4",
             "number": 4,
-            "title": "Chủ đề 4: Giai điệu quê hương",
-            "chapter": "Chủ đề 4: Giai điệu quê hương",
-            "summary": "Tìm hiểu nhạc sĩ Văn Cao, Đỗ Nhuận; hát Quê hương.",
+            "title": "Bài 4: Đọc nhạc & Nhạc cụ – Âm nhạc miền núi phía Bắc",
+            "chapter": "Chủ đề 2: Âm nhạc miền núi phía Bắc",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Âm nhạc miền núi phía Bắc).",
             "questions": []
           },
           {
             "id": "amnhac-8-b5",
             "number": 5,
-            "title": "Chủ đề 5: Âm nhạc và những sắc màu",
-            "chapter": "Chủ đề 5: Âm nhạc và những sắc màu",
-            "summary": "Thực hành hòa tấu nhạc cụ gõ và giai điệu.",
+            "title": "Bài 5: Hát & Nghe nhạc – Khúc ca hòa bình",
+            "chapter": "Chủ đề 3: Khúc ca hòa bình",
+            "summary": "Hát Lá cờ hòa bình.",
             "questions": []
           },
           {
             "id": "amnhac-8-b6",
             "number": 6,
-            "title": "Chủ đề 6: Giai điệu tuổi thơ",
-            "chapter": "Chủ đề 6: Giai điệu tuổi thơ",
-            "summary": "Hát Hò ba lí / Bài ca đi học; cảm nhận nhịp 4/4.",
+            "title": "Bài 6: Đọc nhạc & Nhạc cụ – Khúc ca hòa bình",
+            "chapter": "Chủ đề 3: Khúc ca hòa bình",
+            "summary": "đọc nhạc giọng La thứ..",
             "questions": []
           },
           {
             "id": "amnhac-8-b7",
             "number": 7,
-            "title": "Chủ đề 7: Âm nhạc cổ điển phương Tây",
-            "chapter": "Chủ đề 7: Âm nhạc cổ điển phương Tây",
-            "summary": "Tìm hiểu Mozart, Chopin và thể loại giao hưởng, sonata.",
+            "title": "Bài 7: Hát & Nghe nhạc – Giai điệu quê hương",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "Tìm hiểu nhạc sĩ Văn Cao, Đỗ Nhuận.",
             "questions": []
           },
           {
             "id": "amnhac-8-b8",
             "number": 8,
-            "title": "Chủ đề 8: Khúc ca mùa hè",
+            "title": "Bài 8: Đọc nhạc & Nhạc cụ – Giai điệu quê hương",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "hát Quê hương..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b9",
+            "number": 9,
+            "title": "Bài 9: Hát & Nghe nhạc – Âm nhạc và những sắc màu",
+            "chapter": "Chủ đề 5: Âm nhạc và những sắc màu",
+            "summary": "Thực hành hòa tấu nhạc cụ gõ và giai điệu..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b10",
+            "number": 10,
+            "title": "Bài 10: Đọc nhạc & Nhạc cụ – Âm nhạc và những sắc màu",
+            "chapter": "Chủ đề 5: Âm nhạc và những sắc màu",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Âm nhạc và những sắc màu).",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b11",
+            "number": 11,
+            "title": "Bài 11: Hát & Nghe nhạc – Giai điệu tuổi thơ",
+            "chapter": "Chủ đề 6: Giai điệu tuổi thơ",
+            "summary": "Hát Hò ba lí / Bài ca đi học.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b12",
+            "number": 12,
+            "title": "Bài 12: Đọc nhạc & Nhạc cụ – Giai điệu tuổi thơ",
+            "chapter": "Chủ đề 6: Giai điệu tuổi thơ",
+            "summary": "cảm nhận nhịp 4/4..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b13",
+            "number": 13,
+            "title": "Bài 13: Hát & Nghe nhạc – Âm nhạc cổ điển phương Tây",
+            "chapter": "Chủ đề 7: Âm nhạc cổ điển phương Tây",
+            "summary": "Tìm hiểu Mozart, Chopin và thể loại giao hưởng, sonata..",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b14",
+            "number": 14,
+            "title": "Bài 14: Đọc nhạc & Nhạc cụ – Âm nhạc cổ điển phương Tây",
+            "chapter": "Chủ đề 7: Âm nhạc cổ điển phương Tây",
+            "summary": "Đọc nhạc, nhạc cụ và thường thức âm nhạc (Âm nhạc cổ điển phương Tây).",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b15",
+            "number": 15,
+            "title": "Bài 15: Hát & Nghe nhạc – Khúc ca mùa hè",
             "chapter": "Chủ đề 8: Khúc ca mùa hè",
-            "summary": "Hát Mùa hè xanh; tổng kết, biểu diễn cuối năm.",
+            "summary": "Hát Mùa hè xanh.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b16",
+            "number": 16,
+            "title": "Bài 16: Đọc nhạc & Nhạc cụ – Khúc ca mùa hè",
+            "chapter": "Chủ đề 8: Khúc ca mùa hè",
+            "summary": "tổng kết, biểu diễn cuối năm..",
             "questions": []
           }
         ]
@@ -15277,65 +18197,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-8-b1",
             "number": 1,
-            "title": "Chủ đề 1: Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX",
+            "title": "Bài 1: Khám phá & Quan sát – Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX",
             "chapter": "Chủ đề 1: Nghệ thuật Phục hưng",
-            "summary": "Tìm hiểu Leonardo da Vinci, Michelangelo, Van Gogh và luật phối cảnh.",
+            "summary": "Tìm hiểu Leonardo da Vinci, Michelangelo, Van Gogh và luật phối cảnh. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-8-b2",
             "number": 2,
-            "title": "Chủ đề 2: Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954",
-            "chapter": "Chủ đề 2: Mĩ thuật Việt Nam hiện đại",
-            "summary": "Tìm hiểu Trường Cao đẳng Mĩ thuật Đông Dương và các danh họa.",
+            "title": "Bài 2: Thực hành sáng tạo – Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX",
+            "chapter": "Chủ đề 1: Nghệ thuật Phục hưng",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-8-b3",
             "number": 3,
-            "title": "Chủ đề 3: Thiết kế đồ họa và tạo dáng sản phẩm",
-            "chapter": "Chủ đề 3: Thiết kế sản phẩm",
-            "summary": "Thiết kế bao bì sản phẩm hoặc đồ dùng học tập thân thiện môi trường.",
+            "title": "Bài 3: Khám phá & Quan sát – Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954",
+            "chapter": "Chủ đề 2: Mĩ thuật Việt Nam hiện đại",
+            "summary": "Tìm hiểu Trường Cao đẳng Mĩ thuật Đông Dương và các danh họa. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-8-b4",
             "number": 4,
-            "title": "Chủ đề 4: Không gian đa chiều trong hội họa",
-            "chapter": "Chủ đề 4: Không gian đa chiều",
-            "summary": "Vận dụng luật xa gần 1 điểm tụ, 2 điểm tụ vào tranh vẽ.",
+            "title": "Bài 4: Thực hành sáng tạo – Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954",
+            "chapter": "Chủ đề 2: Mĩ thuật Việt Nam hiện đại",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-8-b5",
             "number": 5,
-            "title": "Chủ đề 5: Nghệ thuật sắp đặt và trình diễn",
-            "chapter": "Chủ đề 5: Nghệ thuật sắp đặt",
-            "summary": "Sáng tạo tác phẩm sắp đặt không gian từ vật liệu sẵn có.",
+            "title": "Bài 5: Khám phá & Quan sát – Thiết kế đồ họa và tạo dáng sản phẩm",
+            "chapter": "Chủ đề 3: Thiết kế sản phẩm",
+            "summary": "Thiết kế bao bì sản phẩm hoặc đồ dùng học tập thân thiện môi trường. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-8-b6",
             "number": 6,
-            "title": "Chủ đề 6: Đồ vật với không gian sống",
-            "chapter": "Chủ đề 6: Đồ vật và không gian sống",
-            "summary": "Thiết kế không gian phòng học, góc sinh hoạt hài hòa.",
+            "title": "Bài 6: Thực hành sáng tạo – Thiết kế đồ họa và tạo dáng sản phẩm",
+            "chapter": "Chủ đề 3: Thiết kế sản phẩm",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Thiết kế đồ họa và tạo dáng sản phẩm, trưng bày và nhận xét sản phẩm.",
             "questions": []
           },
           {
             "id": "mithuat-8-b7",
             "number": 7,
-            "title": "Chủ đề 7: Nghệ thuật truyền thống Việt Nam",
-            "chapter": "Chủ đề 7: Điêu khắc, kiến trúc truyền thống",
-            "summary": "Tìm hiểu điêu khắc Chăm-pa và kiến trúc cổ Việt Nam.",
+            "title": "Bài 7: Khám phá & Quan sát – Không gian đa chiều trong hội họa",
+            "chapter": "Chủ đề 4: Không gian đa chiều",
+            "summary": "Vận dụng luật xa gần 1 điểm tụ, 2 điểm tụ vào tranh vẽ. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
             "questions": []
           },
           {
             "id": "mithuat-8-b8",
             "number": 8,
-            "title": "Chủ đề 8: Hướng nghiệp mĩ thuật",
+            "title": "Bài 8: Thực hành sáng tạo – Không gian đa chiều trong hội họa",
+            "chapter": "Chủ đề 4: Không gian đa chiều",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Không gian đa chiều trong hội họa, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b9",
+            "number": 9,
+            "title": "Bài 9: Khám phá & Quan sát – Nghệ thuật sắp đặt và trình diễn",
+            "chapter": "Chủ đề 5: Nghệ thuật sắp đặt",
+            "summary": "Sáng tạo tác phẩm sắp đặt không gian từ vật liệu sẵn có. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành sáng tạo – Nghệ thuật sắp đặt và trình diễn",
+            "chapter": "Chủ đề 5: Nghệ thuật sắp đặt",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật sắp đặt và trình diễn, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b11",
+            "number": 11,
+            "title": "Bài 11: Khám phá & Quan sát – Đồ vật với không gian sống",
+            "chapter": "Chủ đề 6: Đồ vật và không gian sống",
+            "summary": "Thiết kế không gian phòng học, góc sinh hoạt hài hòa. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành sáng tạo – Đồ vật với không gian sống",
+            "chapter": "Chủ đề 6: Đồ vật và không gian sống",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Đồ vật với không gian sống, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b13",
+            "number": 13,
+            "title": "Bài 13: Khám phá & Quan sát – Nghệ thuật truyền thống Việt Nam",
+            "chapter": "Chủ đề 7: Điêu khắc, kiến trúc truyền thống",
+            "summary": "Tìm hiểu điêu khắc Chăm-pa và kiến trúc cổ Việt Nam. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành sáng tạo – Nghệ thuật truyền thống Việt Nam",
+            "chapter": "Chủ đề 7: Điêu khắc, kiến trúc truyền thống",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Nghệ thuật truyền thống Việt Nam, trưng bày và nhận xét sản phẩm.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b15",
+            "number": 15,
+            "title": "Bài 15: Khám phá & Quan sát – Hướng nghiệp mĩ thuật",
             "chapter": "Chủ đề 8: Hướng nghiệp mĩ thuật",
-            "summary": "Tìm hiểu các ngành nghề liên quan đến mĩ thuật ứng dụng.",
+            "summary": "Tìm hiểu các ngành nghề liên quan đến mĩ thuật ứng dụng. (Nhận biết đường nét, màu sắc, bố cục và ý tưởng tạo hình).",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành sáng tạo – Hướng nghiệp mĩ thuật",
+            "chapter": "Chủ đề 8: Hướng nghiệp mĩ thuật",
+            "summary": "Thực hành tạo hình sản phẩm mĩ thuật theo chủ đề Hướng nghiệp mĩ thuật, trưng bày và nhận xét sản phẩm.",
             "questions": []
           }
         ]
@@ -15348,7 +18332,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-8-b1",
             "number": 1,
-            "title": "Chế độ dinh dưỡng thích hợp với bản thân",
+            "title": "Bài 1: Chế độ dinh dưỡng thích hợp với bản thân",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Tính toán nhu cầu năng lượng và dinh dưỡng cho người tập thể thao.",
             "questions": []
@@ -15356,41 +18340,81 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-8-b2",
             "number": 2,
-            "title": "Chủ đề 1: Chạy cự li ngắn (100m)",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Xuất phát thấp, chạy lao sau xuất phát và về đích.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Chạy cự li ngắn (100m)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
+            "summary": "Thực hành Xuất phát thấp.",
             "questions": []
           },
           {
             "id": "gdtc-8-b3",
             "number": 3,
-            "title": "Chủ đề 2: Nhảy cao kiểu bước qua",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Chạy đà, giậm nhảy, qua xà và tiếp đất.",
+            "title": "Bài 3: Phối hợp vận dụng – Chạy cự li ngắn (100m)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
+            "summary": "Luyện tập chạy lao sau xuất phát và về đích. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-8-b4",
             "number": 4,
-            "title": "Chủ đề 3: Chạy cự li trung bình",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Phân phối sức và kĩ thuật hô hấp khi chạy bền.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Nhảy cao kiểu bước qua",
+            "chapter": "Chủ đề 2: Nhảy cao kiểu bước qua",
+            "summary": "Thực hành Chạy đà, giậm nhảy.",
             "questions": []
           },
           {
             "id": "gdtc-8-b5",
             "number": 5,
-            "title": "Chủ đề 4: Bài tập thể dục",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Bài thể dục nhịp điệu nâng cao.",
+            "title": "Bài 5: Phối hợp vận dụng – Nhảy cao kiểu bước qua",
+            "chapter": "Chủ đề 2: Nhảy cao kiểu bước qua",
+            "summary": "Luyện tập qua xà và tiếp đất. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-8-b6",
             "number": 6,
-            "title": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ",
-            "chapter": "Phần 3: Thể thao tự chọn",
-            "summary": "Đập cầu thuận tay, đỡ bóng bằng ngực/đùi hoặc ném rổ một tay.",
+            "title": "Bài 6: Chạy cự li trung bình (Phần 1)",
+            "chapter": "Chủ đề 3: Chạy cự li trung bình",
+            "summary": "Phân phối sức và kĩ thuật hô hấp khi chạy bền.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b7",
+            "number": 7,
+            "title": "Bài 7: Chạy cự li trung bình (Phần 2)",
+            "chapter": "Chủ đề 3: Chạy cự li trung bình",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy cự li trung bình.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b8",
+            "number": 8,
+            "title": "Bài 8: Bài tập thể dục (Phần 1)",
+            "chapter": "Chủ đề 4: Bài tập thể dục",
+            "summary": "Bài thể dục nhịp điệu nâng cao.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b9",
+            "number": 9,
+            "title": "Bài 9: Bài tập thể dục (Phần 2)",
+            "chapter": "Chủ đề 4: Bài tập thể dục",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bài tập thể dục.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b10",
+            "number": 10,
+            "title": "Bài 10: Kĩ thuật cơ bản – Cầu lông / Bóng đá / Bóng rổ",
+            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ",
+            "summary": "Thực hành Đập cầu thuận tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b11",
+            "number": 11,
+            "title": "Bài 11: Phối hợp vận dụng – Cầu lông / Bóng đá / Bóng rổ",
+            "chapter": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ",
+            "summary": "Luyện tập đỡ bóng bằng ngực/đùi hoặc ném rổ một tay. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -15403,7 +18427,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-8-b1",
             "number": 1,
-            "title": "Chủ đề 1: Em với nhà trường và bạn bè",
+            "title": "Bài 1: Nhận diện & Khám phá – Em với nhà trường và bạn bè",
             "chapter": "Chủ đề 1: Xây dựng trường học văn minh",
             "summary": "Phòng chống bạo lực học đường, xây dựng tình bạn lành mạnh.",
             "questions": []
@@ -15411,57 +18435,121 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-8-b2",
             "number": 2,
-            "title": "Chủ đề 2: Trách nhiệm và kỉ luật bản thân",
-            "chapter": "Chủ đề 2: Khám phá và rèn luyện bản thân",
-            "summary": "Tự đánh giá tính cách, lập kế hoạch khắc phục hạn chế.",
+            "title": "Bài 2: Thực hành & Vận dụng – Em với nhà trường và bạn bè",
+            "chapter": "Chủ đề 1: Xây dựng trường học văn minh",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Em với nhà trường và bạn bè.",
             "questions": []
           },
           {
             "id": "hdtn-8-b3",
             "number": 3,
-            "title": "Chủ đề 3: Rèn luyện kĩ năng giao tiếp và hợp tác",
-            "chapter": "Chủ đề 3: Tư duy phản biện và giải quyết vấn đề",
-            "summary": "Từ chối áp lực tiêu cực từ bạn bè và thương lượng hiệu quả.",
+            "title": "Bài 3: Nhận diện & Khám phá – Trách nhiệm và kỉ luật bản thân",
+            "chapter": "Chủ đề 2: Khám phá và rèn luyện bản thân",
+            "summary": "Tự đánh giá tính cách, lập kế hoạch khắc phục hạn chế.",
             "questions": []
           },
           {
             "id": "hdtn-8-b4",
             "number": 4,
-            "title": "Chủ đề 4: Lập kế hoạch chi tiêu và gắn kết gia đình",
-            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
-            "summary": "Quản lí ngân sách cá nhân và tổ chức hoạt động gia đình.",
+            "title": "Bài 4: Thực hành & Vận dụng – Trách nhiệm và kỉ luật bản thân",
+            "chapter": "Chủ đề 2: Khám phá và rèn luyện bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Trách nhiệm và kỉ luật bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-8-b5",
             "number": 5,
-            "title": "Chủ đề 5: Tham gia hoạt động xã hội và thiện nguyện",
-            "chapter": "Chủ đề 5: Xây dựng cộng đồng",
-            "summary": "Lập dự án truyền thông văn hóa ứng xử ở địa phương.",
+            "title": "Bài 5: Nhận diện & Khám phá – Rèn luyện kĩ năng giao tiếp và hợp tác",
+            "chapter": "Chủ đề 3: Tư duy phản biện và giải quyết vấn đề",
+            "summary": "Từ chối áp lực tiêu cực từ bạn bè và thương lượng hiệu quả.",
             "questions": []
           },
           {
             "id": "hdtn-8-b6",
             "number": 6,
-            "title": "Chủ đề 6: Tìm hiểu và bảo vệ đa dạng sinh học",
-            "chapter": "Chủ đề 6: Bảo vệ môi trường tự nhiên",
-            "summary": "Đề xuất giải pháp giảm ô nhiễm và bảo vệ danh lam thắng cảnh.",
+            "title": "Bài 6: Thực hành & Vận dụng – Rèn luyện kĩ năng giao tiếp và hợp tác",
+            "chapter": "Chủ đề 3: Tư duy phản biện và giải quyết vấn đề",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Rèn luyện kĩ năng giao tiếp và hợp tác.",
             "questions": []
           },
           {
             "id": "hdtn-8-b7",
             "number": 7,
-            "title": "Chủ đề 7: Tìm hiểu thị trường lao động",
-            "chapter": "Chủ đề 7: Thế giới nghề nghiệp hiện đại",
-            "summary": "Khám phá nghề phổ biến ở địa phương và xu hướng nghề nghiệp.",
+            "title": "Bài 7: Nhận diện & Khám phá – Lập kế hoạch chi tiêu và gắn kết gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Quản lí ngân sách cá nhân và tổ chức hoạt động gia đình.",
             "questions": []
           },
           {
             "id": "hdtn-8-b8",
             "number": 8,
-            "title": "Chủ đề 8: Đánh giá sự phù hợp nghề nghiệp",
+            "title": "Bài 8: Thực hành & Vận dụng – Lập kế hoạch chi tiêu và gắn kết gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Lập kế hoạch chi tiêu và gắn kết gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b9",
+            "number": 9,
+            "title": "Bài 9: Nhận diện & Khám phá – Tham gia hoạt động xã hội và thiện nguyện",
+            "chapter": "Chủ đề 5: Xây dựng cộng đồng",
+            "summary": "Lập dự án truyền thông văn hóa ứng xử ở địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Tham gia hoạt động xã hội và thiện nguyện",
+            "chapter": "Chủ đề 5: Xây dựng cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tham gia hoạt động xã hội và thiện nguyện.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Tìm hiểu và bảo vệ đa dạng sinh học",
+            "chapter": "Chủ đề 6: Bảo vệ môi trường tự nhiên",
+            "summary": "Đề xuất giải pháp giảm ô nhiễm và bảo vệ danh lam thắng cảnh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Tìm hiểu và bảo vệ đa dạng sinh học",
+            "chapter": "Chủ đề 6: Bảo vệ môi trường tự nhiên",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tìm hiểu và bảo vệ đa dạng sinh học.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Tìm hiểu thị trường lao động",
+            "chapter": "Chủ đề 7: Thế giới nghề nghiệp hiện đại",
+            "summary": "Khám phá nghề phổ biến ở địa phương và xu hướng nghề nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Tìm hiểu thị trường lao động",
+            "chapter": "Chủ đề 7: Thế giới nghề nghiệp hiện đại",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tìm hiểu thị trường lao động.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Đánh giá sự phù hợp nghề nghiệp",
             "chapter": "Chủ đề 8: Định hướng học tập",
             "summary": "Xác định sở thích, năng lực cá nhân theo định hướng nghề.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Đánh giá sự phù hợp nghề nghiệp",
+            "chapter": "Chủ đề 8: Định hướng học tập",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Đánh giá sự phù hợp nghề nghiệp.",
             "questions": []
           }
         ]
@@ -16112,81 +19200,233 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-9-b1",
             "number": 1,
-            "title": "Bài 1: Thế giới kì ảo (Chuyện người con gái Nam Xương, Dế chọi)",
-            "chapter": "Tập 1 - Bài 1: Thế giới kì ảo",
-            "summary": "Đặc trưng truyện truyền kì trung đại và yếu tố kì ảo.",
+            "title": "Chuyện người con gái Nam Xương (Nguyễn Dữ)",
+            "chapter": "Bài 1: Thế giới kì ảo",
+            "summary": "Bi kịch oan khuất của Vũ Nương và giá trị nhân đạo của truyện truyền kì.",
             "questions": []
           },
           {
             "id": "nguvan-9-b2",
             "number": 2,
-            "title": "Bài 2: Những cung bậc tâm trạng (Nỗi niềm chinh phụ, Tiếng đàn mưa, Một thể thơ độc đáo của người Việt)",
-            "chapter": "Tập 1 - Bài 2: Những cung bậc tâm trạng",
-            "summary": "Thể thơ song thất lục bát và biểu cảm trong thơ.",
+            "title": "Dế chọi (Bồ Tùng Linh)",
+            "chapter": "Bài 1: Thế giới kì ảo",
+            "summary": "Phản ánh hiện thực xã hội phong kiến qua yếu tố kì ảo.",
             "questions": []
           },
           {
             "id": "nguvan-9-b3",
             "number": 3,
-            "title": "Bài 3: Hồn nước nằm trong tiếng mẹ cha (Kim - Kiều gặp gỡ, Lục Vân Tiên đánh cướp cứu Kiều Nguyệt Nga)",
-            "chapter": "Tập 1 - Bài 3: Hồn nước nằm trong tiếng mẹ cha",
-            "summary": "Truyện thơ Nôm bác học (Truyện Kiều) và bình dân (Lục Vân Tiên).",
+            "title": "Sơn Tinh – Thủy Tinh (Nguyễn Nhược Pháp)",
+            "chapter": "Bài 1: Thế giới kì ảo",
+            "summary": "Vẻ đẹp thơ mới kết hợp truyền thuyết dân gian.",
             "questions": []
           },
           {
             "id": "nguvan-9-b4",
             "number": 4,
-            "title": "Bài 4: Khám phá vẻ đẹp văn chương (Người con gái Nam Xương - một bi kịch của con người, Từ thằng quỷ nhỏ đến cậu bé thông minh)",
-            "chapter": "Tập 1 - Bài 4: Khám phá vẻ đẹp văn chương",
-            "summary": "Nghị luận văn học phân tích tác phẩm truyện và thơ.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 1)",
+            "chapter": "Bài 1: Thế giới kì ảo",
+            "summary": "Điển tích, điển cố; viết bài văn nghị luận về mối quan hệ giữa con người và tự nhiên.",
             "questions": []
           },
           {
             "id": "nguvan-9-b5",
             "number": 5,
-            "title": "Bài 5: Đối diện với nỗi đau (Rô-mê-ô và Giu-li-ét, Lơ Xít, Bí ẩn của làn nước)",
-            "chapter": "Tập 1 - Bài 5: Đối diện với nỗi đau",
-            "summary": "Bi kịch cổ điển và nỗi đau trong chiến tranh, đời sống.",
+            "title": "Nỗi niềm chinh phụ (Đoàn Thị Điểm)",
+            "chapter": "Bài 2: Những cung bậc tâm trạng",
+            "summary": "Nỗi cô đơn, khát vọng hạnh phúc của người chinh phụ qua thể thơ song thất lục bát.",
             "questions": []
           },
           {
             "id": "nguvan-9-b6",
             "number": 6,
-            "title": "Bài 6: Giải mã những bí mật (Ba chàng sinh viên, Bài hát đồng sáu xu, Phạm Xuân Ẩn)",
-            "chapter": "Tập 2 - Bài 6: Giải mã những bí mật",
-            "summary": "Đặc trưng truyện trinh thám (Arthur Conan Doyle, Agatha Christie).",
+            "title": "Tiếng đàn mưa (Bích Khê)",
+            "chapter": "Bài 2: Những cung bậc tâm trạng",
+            "summary": "Nhạc điệu và cảm xúc buồn man mác trong thơ Bích Khê.",
             "questions": []
           },
           {
             "id": "nguvan-9-b7",
             "number": 7,
-            "title": "Bài 7: Hồn thơ muôn điệu (Tiếng Việt, Mưa xuân)",
-            "chapter": "Tập 2 - Bài 7: Hồn thơ muôn điệu",
-            "summary": "Thơ tám chữ hiện đại (Lưu Quang Vũ, Nguyễn Bính).",
+            "title": "Thực hành tiếng Việt & Viết (Bài 2)",
+            "chapter": "Bài 2: Những cung bậc tâm trạng",
+            "summary": "Biện pháp chơi chữ, điệp thanh, điệp vần; phân tích một tác phẩm thơ song thất lục bát.",
             "questions": []
           },
           {
             "id": "nguvan-9-b8",
             "number": 8,
-            "title": "Bài 8: Tiếng nói của lương tri (Đấu tranh cho một thế giới hòa bình, Biến đổi khí hậu)",
-            "chapter": "Tập 2 - Bài 8: Tiếng nói của lương tri",
-            "summary": "Nghị luận xã hội về hòa bình và bảo vệ sự sống Trái Đất.",
+            "title": "Kim – Kiều gặp gỡ (Nguyễn Du)",
+            "chapter": "Bài 3: Hồn nước nằm trong tiếng mẹ cha",
+            "summary": "Nghệ thuật miêu tả ngoại hình, tâm lí và ngôn ngữ bác học trong Truyện Kiều.",
             "questions": []
           },
           {
             "id": "nguvan-9-b9",
             "number": 9,
-            "title": "Bài 9: Đi và suy ngẫm (Yên Tử, núi thiêng; Văn hóa hoa - cây cảnh)",
-            "chapter": "Tập 2 - Bài 9: Đi và suy ngẫm",
-            "summary": "Văn bản thông tin giới thiệu danh lam thắng cảnh và di tích lịch sử.",
+            "title": "Lục Vân Tiên đánh cướp, cứu Kiều Nguyệt Nga (Nguyễn Đình Chiểu)",
+            "chapter": "Bài 3: Hồn nước nằm trong tiếng mẹ cha",
+            "summary": "Lí tưởng anh hùng vị nghĩa và ngôn ngữ bình dị Nam Bộ.",
             "questions": []
           },
           {
             "id": "nguvan-9-b10",
             "number": 10,
-            "title": "Bài 10: Văn học – lịch sử tâm hồn (Đọc để trưởng thành, Quảng bá giá trị của sách)",
-            "chapter": "Tập 2 - Bài 10: Văn học – lịch sử tâm hồn",
-            "summary": "Tổng kết văn học Việt Nam và văn hóa đọc.",
+            "title": "Tự tình II (Hồ Xuân Hương)",
+            "chapter": "Bài 3: Hồn nước nằm trong tiếng mẹ cha",
+            "summary": "Tâm trạng phẫn uất, khát vọng hạnh phúc của người phụ nữ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b11",
+            "number": 11,
+            "title": "Thực hành tiếng Việt & Viết (Bài 3)",
+            "chapter": "Bài 3: Hồn nước nằm trong tiếng mẹ cha",
+            "summary": "Chữ Nôm, dẫn trực tiếp và dẫn gián tiếp; nghị luận xã hội về vấn đề đời sống học sinh.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b12",
+            "number": 12,
+            "title": "Bàn về đọc sách (Chu Quang Tiềm)",
+            "chapter": "Bài 4: Khám phá vẻ đẹp văn chương",
+            "summary": "Tầm quan trọng của đọc sách và phương pháp đọc có chọn lọc, nghiền ngẫm.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b13",
+            "number": 13,
+            "title": "Tôi học chữ (Nguyễn Địch Dũng)",
+            "chapter": "Bài 4: Khám phá vẻ đẹp văn chương",
+            "summary": "Kỉ niệm sâu sắc về hành trình tiếp cận tri thức và văn chương.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b14",
+            "number": 14,
+            "title": "Thực hành tiếng Việt & Viết (Bài 4)",
+            "chapter": "Bài 4: Khám phá vẻ đẹp văn chương",
+            "summary": "Biến đổi và mở rộng cấu trúc câu; phân tích một tác phẩm truyện.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b15",
+            "number": 15,
+            "title": "Rô-mê-ô và Giu-li-ét (Sếch-xpia)",
+            "chapter": "Bài 5: Đối diện với nỗi đau",
+            "summary": "Tình yêu cao đẹp vượt qua hận thù dòng tộc trong bi kịch Phục hưng.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b16",
+            "number": 16,
+            "title": "Mắc-bét (Sếch-xpia)",
+            "chapter": "Bài 5: Đối diện với nỗi đau",
+            "summary": "Xung đột nội tâm và bi kịch tham vọng quyền lực.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b17",
+            "number": 17,
+            "title": "Thực hành tiếng Việt & Viết (Bài 5)",
+            "chapter": "Bài 5: Đối diện với nỗi đau",
+            "summary": "Câu rút gọn, câu đặc biệt; phân tích một tác phẩm kịch bản văn học.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b18",
+            "number": 18,
+            "title": "Ba chàng sinh viên (Cô-nan Đoi-lơ)",
+            "chapter": "Bài 6: Giải mã những bí mật",
+            "summary": "Nghệ thuật xây dựng cốt truyện trinh thám và suy luận logic của Sherlock Holmes.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b19",
+            "number": 19,
+            "title": "Bài hát đồng sáu xu (A-ga-tha Crít-xti)",
+            "chapter": "Bài 6: Giải mã những bí mật",
+            "summary": "Cấu trúc phá án bất ngờ trong truyện trinh thám.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b20",
+            "number": 20,
+            "title": "Phạm Xuân Ẩn – tên người như cuộc đời (Nguyễn Thị Ngọc Hải)",
+            "chapter": "Bài 6: Giải mã những bí mật",
+            "summary": "Chân dung nhà tình báo chiến lược tài ba.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b21",
+            "number": 21,
+            "title": "Thực hành tiếng Việt & Viết (Bài 6)",
+            "chapter": "Bài 6: Giải mã những bí mật",
+            "summary": "Câu đơn và câu ghép; viết truyện ngắn sáng tạo có yếu tố trinh thám.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b22",
+            "number": 22,
+            "title": "Tiếng Việt (Lưu Quang Vũ)",
+            "chapter": "Bài 7: Hồn thơ muôn điệu",
+            "summary": "Vẻ đẹp giàu thanh điệu, sức sống trường tồn của tiếng Việt.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b23",
+            "number": 23,
+            "title": "Mưa xuân (Nguyễn Bính)",
+            "chapter": "Bài 7: Hồn thơ muôn điệu",
+            "summary": "Tâm trạng e ấp, hờn tủi của cô gái quê trong thơ tám chữ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b24",
+            "number": 24,
+            "title": "Một kiểu phát biểu luận đề độc đáo ở bài thơ Vội vàng",
+            "chapter": "Bài 7: Hồn thơ muôn điệu",
+            "summary": "Cách nhìn mới mẻ về văn bản nghị luận văn học.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b25",
+            "number": 25,
+            "title": "Thực hành tiếng Việt & Viết (Bài 7)",
+            "chapter": "Bài 7: Hồn thơ muôn điệu",
+            "summary": "Tập làm bài thơ tám chữ và viết đoạn văn ghi lại cảm nghĩ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b26",
+            "number": 26,
+            "title": "Bếp lửa & Đường về quê mẹ & Lặng lẽ Sa Pa (Chuyên đề đọc)",
+            "chapter": "Bài 8: Tiếng nói của lương tri",
+            "summary": "Giá trị nhân văn và trách nhiệm công dân qua các tác phẩm hiện đại.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b27",
+            "number": 27,
+            "title": "Thực hành tiếng Việt & Viết (Bài 8)",
+            "chapter": "Bài 8: Tiếng nói của lương tri",
+            "summary": "Nghị luận xã hội về một vấn đề cần giải quyết trong đời sống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b28",
+            "number": 28,
+            "title": "Văn bản tản văn, du kí & Thuyết minh danh lam thắng cảnh",
+            "chapter": "Bài 9: Đi và suy ngẫm",
+            "summary": "Viết bài thuyết minh về một danh lam thắng cảnh hoặc di tích lịch sử.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-9-b29",
+            "number": 29,
+            "title": "Tổng kết thể loại văn học và ôn thi vào lớp 10",
+            "chapter": "Bài 10: Văn học – Lịch sử tâm hồn",
+            "summary": "Hệ thống hóa kiến thức đọc hiểu, tiếng Việt và làm văn lớp 9.",
             "questions": []
           }
         ]
@@ -17042,65 +20282,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "amnhac-9-b1",
             "number": 1,
-            "title": "Chủ đề 1: Nối vòng tay lớn (Bài 1–2)",
+            "title": "Bài 1: Hát Nối vòng tay lớn & Đọc nhạc số 1",
             "chapter": "Chủ đề 1: Nối vòng tay lớn",
-            "summary": "Hát Nối vòng tay lớn; ôn tập đọc nhạc và nhạc cụ.",
+            "summary": "Hát bài Nối vòng tay lớn (Trịnh Công Sơn) với sắc thái hào hùng; thực hành Bài đọc nhạc số 1.",
             "questions": []
           },
           {
             "id": "amnhac-9-b2",
             "number": 2,
-            "title": "Chủ đề 2: Khát vọng tuổi trẻ (Bài 3–4)",
-            "chapter": "Chủ đề 2: Khát vọng tuổi trẻ",
-            "summary": "Hát Khát vọng tuổi trẻ; đọc nhạc nhịp 6/8.",
+            "title": "Bài 2: Lí thuyết quãng & Nhạc sĩ Huy Du",
+            "chapter": "Chủ đề 1: Nối vòng tay lớn",
+            "summary": "Tìm hiểu lí thuyết quãng trong âm nhạc và tìm hiểu cuộc đời, sự nghiệp nhạc sĩ Huy Du.",
             "questions": []
           },
           {
             "id": "amnhac-9-b3",
             "number": 3,
-            "title": "Chủ đề 3: Kỉ niệm dưới mái trường (Bài 5–6)",
-            "chapter": "Chủ đề 3: Kỉ niệm dưới mái trường",
-            "summary": "Hát Bụi phấn / Mong ước kỉ niệm xưa; thực hành hát bè.",
+            "title": "Bài 3: Hát Bảy sắc cầu vồng & Nghe Thời thanh niên sôi nổi",
+            "chapter": "Chủ đề 2: Khát vọng tuổi trẻ",
+            "summary": "Hát bài Bảy sắc cầu vồng; nghe và cảm nhận ca khúc Thời thanh niên sôi nổi.",
             "questions": []
           },
           {
             "id": "amnhac-9-b4",
             "number": 4,
-            "title": "Chủ đề 4: Giai điệu quê hương (Bài 7–8)",
-            "chapter": "Chủ đề 4: Giai điệu quê hương",
-            "summary": "Tìm hiểu Nhã nhạc cung đình Huế, Không gian văn hóa Cồng chiêng Tây Nguyên.",
+            "title": "Bài 4: Nhạc cụ & Kèn ô-boa, kèn co",
+            "chapter": "Chủ đề 2: Khát vọng tuổi trẻ",
+            "summary": "Thực hành nhạc cụ hòa tấu và tìm hiểu nhạc cụ kèn ô-boa, kèn co.",
             "questions": []
           },
           {
             "id": "amnhac-9-b5",
             "number": 5,
-            "title": "Chủ đề 5: Trái đất xanh (Bài 9–10)",
-            "chapter": "Chủ đề 5: Trái đất xanh",
-            "summary": "Hát chủ đề môi trường; đọc nhạc giọng thứ.",
+            "title": "Bài 5: Hát Tháng năm học trò & Thể loại nhạc đàn",
+            "chapter": "Chủ đề 3: Kỉ niệm dưới mái trường",
+            "summary": "Hát bài Tháng năm học trò; nhận biết một số thể loại nhạc đàn phổ biến.",
             "questions": []
           },
           {
             "id": "amnhac-9-b6",
             "number": 6,
-            "title": "Chủ đề 6: Tiếng hát hòa bình (Bài 11–12)",
-            "chapter": "Chủ đề 6: Tiếng hát hòa bình",
-            "summary": "Nghe và cảm nhận các ca khúc cách mạng, hòa bình.",
+            "title": "Bài 6: Dịch giọng & Đọc nhạc số 2",
+            "chapter": "Chủ đề 3: Kỉ niệm dưới mái trường",
+            "summary": "Tìm hiểu khái niệm dịch giọng và thực hành Bài đọc nhạc số 2.",
             "questions": []
           },
           {
             "id": "amnhac-9-b7",
             "number": 7,
-            "title": "Chủ đề 7: Âm nhạc nước ngoài (Bài 13–14)",
-            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
-            "summary": "Tìm hiểu các dòng nhạc đại chúng thế giới (Pop, Rock, Jazz).",
+            "title": "Bài 7: Hát Lí ngựa ô (Nam Bộ) & Nghe Lí ngựa ô (Trung Bộ)",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "Hát dân ca Lí ngựa ô Nam Bộ và so sánh với Lí ngựa ô Trung Bộ.",
             "questions": []
           },
           {
             "id": "amnhac-9-b8",
             "number": 8,
-            "title": "Chủ đề 8: Một thời để nhớ (Bài 15–16)",
+            "title": "Bài 8: Nhã nhạc Cung đình Huế & Nhạc cụ",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "Tìm hiểu di sản Nhã nhạc Cung đình Huế và thực hành nhạc cụ gõ, giai điệu.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b9",
+            "number": 9,
+            "title": "Bài 9: Hát Ngôi nhà của chúng ta & Nghe Mùa xuân",
+            "chapter": "Chủ đề 5: Trái đất xanh",
+            "summary": "Hát bài Ngôi nhà của chúng ta; nghe và cảm nhận tác phẩm Mùa xuân.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b10",
+            "number": 10,
+            "title": "Bài 10: Hợp âm & Đọc nhạc số 3",
+            "chapter": "Chủ đề 5: Trái đất xanh",
+            "summary": "Tìm hiểu cấu tạo hợp âm cơ bản và thực hành Bài đọc nhạc số 3.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b11",
+            "number": 11,
+            "title": "Bài 11: Hát Nụ cười & Nghe Chúng em cần hòa bình",
+            "chapter": "Chủ đề 6: Tiếng hát hòa bình",
+            "summary": "Hát bài Nụ cười; nghe và cảm nhận ca khúc Chúng em cần hòa bình.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b12",
+            "number": 12,
+            "title": "Bài 12: Nhạc cụ & Đàn đá, đàn đáy",
+            "chapter": "Chủ đề 6: Tiếng hát hòa bình",
+            "summary": "Thực hành nhạc cụ và tìm hiểu nhạc cụ truyền thống đàn đá, đàn đáy.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b13",
+            "number": 13,
+            "title": "Bài 13: Hát Donna Donna & Nghe Serenade (Schubert)",
+            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
+            "summary": "Hát bài Donna Donna; thưởng thức tác phẩm Serenade của Schubert.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b14",
+            "number": 14,
+            "title": "Bài 14: Hợp âm Đô trưởng, La thứ & Đọc nhạc số 4",
+            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
+            "summary": "Nhận biết hợp âm Đô trưởng, La thứ và thực hành Bài đọc nhạc số 4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b15",
+            "number": 15,
+            "title": "Bài 15: Hát Một thời để nhớ & Nghe Khi tóc thầy bạc trắng",
             "chapter": "Chủ đề 8: Một thời để nhớ",
-            "summary": "Hát Tạm biệt mái trường; biểu diễn tổng kết bậc THCS.",
+            "summary": "Hát bài Một thời để nhớ; nghe ca khúc Khi tóc thầy bạc trắng.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b16",
+            "number": 16,
+            "title": "Bài 16: Nhạc cụ & Vận dụng sáng tạo",
+            "chapter": "Chủ đề 8: Một thời để nhớ",
+            "summary": "Thực hành tổng hợp nhạc cụ, biểu diễn và vận dụng sáng tạo cuối năm.",
             "questions": []
           }
         ]
@@ -17113,65 +20417,129 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "mithuat-9-b1",
             "number": 1,
-            "title": "Chủ đề 1: Cuộc sống muôn màu (Bài 1–2)",
+            "title": "Bài 1: Vẻ đẹp cuộc sống trong tác phẩm mĩ thuật",
             "chapter": "Chủ đề 1: Cuộc sống muôn màu",
-            "summary": "Khai thác chất liệu tổng hợp thể hiện đề tài sinh hoạt.",
+            "summary": "Nhận biết vẻ đẹp cuộc sống thường nhật trong các tác phẩm hội họa, điêu khắc.",
             "questions": []
           },
           {
             "id": "mithuat-9-b2",
             "number": 2,
-            "title": "Chủ đề 2: Nghệ thuật đương đại thế giới (Bài 3–4)",
-            "chapter": "Chủ đề 2: Nghệ thuật đương đại thế giới",
-            "summary": "Tìm hiểu các trào lưu nghệ thuật hiện đại và đương đại.",
+            "title": "Bài 2: Thiết kế phụ kiện thời trang",
+            "chapter": "Chủ đề 1: Cuộc sống muôn màu",
+            "summary": "Thiết kế và trang trí phụ kiện thời trang mang dấu ấn thẩm mĩ cá nhân.",
             "questions": []
           },
           {
             "id": "mithuat-9-b3",
             "number": 3,
-            "title": "Chủ đề 3: Thiết kế mĩ thuật sách (Bài 5–6)",
-            "chapter": "Chủ đề 3: Thiết kế mĩ thuật sách",
-            "summary": "Thiết kế bìa sách, trình bày dàn trang và minh họa.",
+            "title": "Bài 3: Một số trào lưu của nghệ thuật đương đại thế giới",
+            "chapter": "Chủ đề 2: Nghệ thuật đương đại thế giới",
+            "summary": "Tìm hiểu đặc điểm một số trào lưu nghệ thuật đương đại thế giới.",
             "questions": []
           },
           {
             "id": "mithuat-9-b4",
             "number": 4,
-            "title": "Chủ đề 4: Cảm hứng trong sáng tác mĩ thuật (Bài 7–8)",
-            "chapter": "Chủ đề 4: Cảm hứng trong sáng tác",
-            "summary": "Phát triển ý tưởng sáng tác từ hiện thực và trí tưởng tượng.",
+            "title": "Bài 4: Thiết kế giá đỡ thiết bị công nghệ",
+            "chapter": "Chủ đề 2: Nghệ thuật đương đại thế giới",
+            "summary": "Vận dụng tư duy tạo hình công nghiệp thiết kế giá đỡ thiết bị công nghệ.",
             "questions": []
           },
           {
             "id": "mithuat-9-b5",
             "number": 5,
-            "title": "Chủ đề 5: Vẻ đẹp của nguyên mẫu trong thực hành, sáng tạo (Bài 9–10)",
-            "chapter": "Chủ đề 5: Vẻ đẹp nguyên mẫu",
-            "summary": "Kí họa dáng người, tĩnh vật và cách điệu tạo hình.",
+            "title": "Bài 5: Thiết kế bìa sách",
+            "chapter": "Chủ đề 3: Thiết kế mĩ thuật sách",
+            "summary": "Xây dựng bố cục, kiểu chữ và hình ảnh minh họa cho bìa sách.",
             "questions": []
           },
           {
             "id": "mithuat-9-b6",
             "number": 6,
-            "title": "Chủ đề 6: Nghệ thuật múa rối (Bài 11–12)",
-            "chapter": "Chủ đề 6: Nghệ thuật múa rối",
-            "summary": "Tìm hiểu rối nước, rối cạn và tạo hình con rối.",
+            "title": "Bài 6: Tranh minh họa",
+            "chapter": "Chủ đề 3: Thiết kế mĩ thuật sách",
+            "summary": "Sáng tác tranh minh họa phù hợp với nội dung câu chuyện hoặc văn bản.",
             "questions": []
           },
           {
             "id": "mithuat-9-b7",
             "number": 7,
-            "title": "Chủ đề 7: Mĩ thuật đương đại Việt Nam (Bài 13–14)",
-            "chapter": "Chủ đề 7: Mĩ thuật đương đại Việt Nam",
-            "summary": "Tìm hiểu tranh sơn mài, lụa, khắc gỗ hiện đại Việt Nam.",
+            "title": "Bài 7: Cảm hứng trong sáng tác hội họa",
+            "chapter": "Chủ đề 4: Cảm hứng trong sáng tác mĩ thuật",
+            "summary": "Khai thác cảm hứng từ đời sống và thiên nhiên để sáng tác tranh.",
             "questions": []
           },
           {
             "id": "mithuat-9-b8",
             "number": 8,
-            "title": "Chủ đề 8: Hướng nghiệp mĩ thuật (Bài 15–16)",
-            "chapter": "Chủ đề 8: Hướng nghiệp",
-            "summary": "Định hướng ngành học thiết kế, kiến trúc, hội họa sau THCS.",
+            "title": "Bài 8: Thiết kế hình ảnh nhận diện thương hiệu",
+            "chapter": "Chủ đề 4: Cảm hứng trong sáng tác mĩ thuật",
+            "summary": "Thiết kế logo và bộ nhận diện thương hiệu đơn giản, nhất quán.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b9",
+            "number": 9,
+            "title": "Bài 9: Tỉ lệ và hình khối của đồ vật",
+            "chapter": "Chủ đề 5: Vẻ đẹp của nguyên mẫu trong thực hành, sáng tạo",
+            "summary": "Quan sát, phân tích tỉ lệ và hình khối của đồ vật trong không gian.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b10",
+            "number": 10,
+            "title": "Bài 10: Nguyên mẫu trong tác phẩm điêu khắc",
+            "chapter": "Chủ đề 5: Vẻ đẹp của nguyên mẫu trong thực hành, sáng tạo",
+            "summary": "Nghiên cứu nguyên mẫu và thực hành tạo hình điêu khắc.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b11",
+            "number": 11,
+            "title": "Bài 11: Vẻ đẹp tạo hình con rối",
+            "chapter": "Chủ đề 6: Nghệ thuật múa rối",
+            "summary": "Tìm hiểu tạo hình, chất liệu và màu sắc của con rối truyền thống.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b12",
+            "number": 12,
+            "title": "Bài 12: Tạo hình nhân vật múa rối nước",
+            "chapter": "Chủ đề 6: Nghệ thuật múa rối",
+            "summary": "Thiết kế và tạo hình nhân vật múa rối nước từ vật liệu phù hợp.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b13",
+            "number": 13,
+            "title": "Bài 13: Khuynh hướng sáng tác mĩ thuật",
+            "chapter": "Chủ đề 7: Mĩ thuật đương đại Việt Nam",
+            "summary": "Tìm hiểu các khuynh hướng sáng tác của mĩ thuật đương đại Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b14",
+            "number": 14,
+            "title": "Bài 14: Thiết kế sản phẩm đồ gia dụng từ vật liệu đã qua sử dụng",
+            "chapter": "Chủ đề 7: Mĩ thuật đương đại Việt Nam",
+            "summary": "Tái chế vật liệu đã qua sử dụng thành sản phẩm đồ gia dụng thẩm mĩ.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b15",
+            "number": 15,
+            "title": "Bài 15: Ngành, nghề liên quan đến mĩ thuật ứng dụng",
+            "chapter": "Chủ đề 8: Hướng nghiệp mĩ thuật",
+            "summary": "Tìm hiểu các ngành, nghề thuộc lĩnh vực mĩ thuật ứng dụng hiện nay.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b16",
+            "number": 16,
+            "title": "Bài 16: Đặc trưng của ngành, nghề liên quan đến mĩ thuật ứng dụng",
+            "chapter": "Chủ đề 8: Hướng nghiệp mĩ thuật",
+            "summary": "Phân tích yêu cầu, năng lực và cơ hội phát triển của nghề mĩ thuật ứng dụng.",
             "questions": []
           }
         ]
@@ -17184,7 +20552,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-9-b1",
             "number": 1,
-            "title": "Sử dụng yếu tố tự nhiên và rèn luyện thể lực",
+            "title": "Bài 1: Sử dụng yếu tố tự nhiên và rèn luyện thể lực",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Phòng chống đuối nước, sốc nhiệt và tự đánh giá thể lực.",
             "questions": []
@@ -17192,33 +20560,65 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-9-b2",
             "number": 2,
-            "title": "Chủ đề 1: Chạy cự li ngắn (100m)",
-            "chapter": "Phần 2: Vận động cơ bản",
+            "title": "Bài 2: Chạy cự li ngắn (100m) (Phần 1)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
             "summary": "Phối hợp hoàn chỉnh 4 giai đoạn chạy ngắn 100m.",
             "questions": []
           },
           {
             "id": "gdtc-9-b3",
             "number": 3,
-            "title": "Chủ đề 2: Nhảy cao / Nhảy xa",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Hoàn thiện kĩ thuật giậm nhảy và qua xà.",
+            "title": "Bài 3: Chạy cự li ngắn (100m) (Phần 2)",
+            "chapter": "Chủ đề 1: Chạy cự li ngắn (100m)",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy cự li ngắn (100m).",
             "questions": []
           },
           {
             "id": "gdtc-9-b4",
             "number": 4,
-            "title": "Chủ đề 3: Chạy bền",
-            "chapter": "Phần 2: Vận động cơ bản",
-            "summary": "Chạy cự li trung bình và hồi phục sau chạy.",
+            "title": "Bài 4: Nhảy cao / Nhảy xa (Phần 1)",
+            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa",
+            "summary": "Hoàn thiện kĩ thuật giậm nhảy và qua xà.",
             "questions": []
           },
           {
             "id": "gdtc-9-b5",
             "number": 5,
-            "title": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền",
-            "chapter": "Phần 3: Thể thao tự chọn",
+            "title": "Bài 5: Nhảy cao / Nhảy xa (Phần 2)",
+            "chapter": "Chủ đề 2: Nhảy cao / Nhảy xa",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Nhảy cao / Nhảy xa.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b6",
+            "number": 6,
+            "title": "Bài 6: Chạy bền (Phần 1)",
+            "chapter": "Chủ đề 3: Chạy bền",
+            "summary": "Chạy cự li trung bình và hồi phục sau chạy.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b7",
+            "number": 7,
+            "title": "Bài 7: Chạy bền (Phần 2)",
+            "chapter": "Chủ đề 3: Chạy bền",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Chạy bền.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b8",
+            "number": 8,
+            "title": "Bài 8: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 1)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền",
             "summary": "Vận dụng kĩ chiến thuật cơ bản trong thi đấu tập.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b9",
+            "number": 9,
+            "title": "Bài 9: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền (Phần 2)",
+            "chapter": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền",
+            "summary": "Củng cố kĩ thuật và thi đấu/vận dụng Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền.",
             "questions": []
           }
         ]
@@ -17231,7 +20631,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-9-b1",
             "number": 1,
-            "title": "Chủ đề 1: Xây dựng truyền thống nhà trường",
+            "title": "Bài 1: Nhận diện & Khám phá – Xây dựng truyền thống nhà trường",
             "chapter": "Chủ đề 1: Em với nhà trường",
             "summary": "Tôn trọng sự khác biệt, phòng chống bạo lực học đường.",
             "questions": []
@@ -17239,65 +20639,137 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-9-b2",
             "number": 2,
-            "title": "Chủ đề 2: Phát triển phẩm chất, năng lực bản thân",
-            "chapter": "Chủ đề 2: Khám phá bản thân",
-            "summary": "Đánh giá điểm mạnh, điểm yếu và khả năng thích ứng thay đổi.",
+            "title": "Bài 2: Thực hành & Vận dụng – Xây dựng truyền thống nhà trường",
+            "chapter": "Chủ đề 1: Em với nhà trường",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Xây dựng truyền thống nhà trường.",
             "questions": []
           },
           {
             "id": "hdtn-9-b3",
             "number": 3,
-            "title": "Chủ đề 3: Quản lí cảm xúc và ứng phó áp lực thi cử",
-            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
-            "summary": "Kĩ năng kiểm soát căng thẳng trong học tập và thi vào lớp 10.",
+            "title": "Bài 3: Nhận diện & Khám phá – Phát triển phẩm chất, năng lực bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Đánh giá điểm mạnh, điểm yếu và khả năng thích ứng thay đổi.",
             "questions": []
           },
           {
             "id": "hdtn-9-b4",
             "number": 4,
-            "title": "Chủ đề 4: Giao tiếp hiệu quả và quản lí tài chính",
-            "chapter": "Chủ đề 4: Rèn luyện bản thân",
-            "summary": "Lập kế hoạch tiết kiệm và tự chủ chi tiêu.",
+            "title": "Bài 4: Thực hành & Vận dụng – Phát triển phẩm chất, năng lực bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Phát triển phẩm chất, năng lực bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-9-b5",
             "number": 5,
-            "title": "Chủ đề 5: Trách nhiệm và chia sẻ trong gia đình",
-            "chapter": "Chủ đề 5: Em với gia đình",
-            "summary": "Thảo luận định hướng tương lai cùng cha mẹ.",
+            "title": "Bài 5: Nhận diện & Khám phá – Quản lí cảm xúc và ứng phó áp lực thi cử",
+            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
+            "summary": "Kĩ năng kiểm soát căng thẳng trong học tập và thi vào lớp 10.",
             "questions": []
           },
           {
             "id": "hdtn-9-b6",
             "number": 6,
-            "title": "Chủ đề 6: Hoạt động thiện nguyện và văn hóa cộng đồng",
-            "chapter": "Chủ đề 6: Em với cộng đồng",
-            "summary": "Tổ chức hoạt động cộng đồng và giữ gìn bản sắc địa phương.",
+            "title": "Bài 6: Thực hành & Vận dụng – Quản lí cảm xúc và ứng phó áp lực thi cử",
+            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Quản lí cảm xúc và ứng phó áp lực thi cử.",
             "questions": []
           },
           {
             "id": "hdtn-9-b7",
             "number": 7,
-            "title": "Chủ đề 7: Bảo vệ cảnh quan và ứng phó biến đổi khí hậu",
-            "chapter": "Chủ đề 7: Em với thiên nhiên",
-            "summary": "Truyền thông bảo vệ môi trường bền vững.",
+            "title": "Bài 7: Nhận diện & Khám phá – Giao tiếp hiệu quả và quản lí tài chính",
+            "chapter": "Chủ đề 4: Rèn luyện bản thân",
+            "summary": "Lập kế hoạch tiết kiệm và tự chủ chi tiêu.",
             "questions": []
           },
           {
             "id": "hdtn-9-b8",
             "number": 8,
-            "title": "Chủ đề 8: Hệ thống giáo dục nghề nghiệp và thị trường lao động",
-            "chapter": "Chủ đề 8: Định hướng nghề nghiệp",
-            "summary": "Tìm hiểu phân luồng sau THCS: THPT, Trung cấp nghề, GDTX.",
+            "title": "Bài 8: Thực hành & Vận dụng – Giao tiếp hiệu quả và quản lí tài chính",
+            "chapter": "Chủ đề 4: Rèn luyện bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Giao tiếp hiệu quả và quản lí tài chính.",
             "questions": []
           },
           {
             "id": "hdtn-9-b9",
             "number": 9,
-            "title": "Chủ đề 9: Xây dựng kế hoạch học tập và nghề nghiệp",
+            "title": "Bài 9: Nhận diện & Khám phá – Trách nhiệm và chia sẻ trong gia đình",
+            "chapter": "Chủ đề 5: Em với gia đình",
+            "summary": "Thảo luận định hướng tương lai cùng cha mẹ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Trách nhiệm và chia sẻ trong gia đình",
+            "chapter": "Chủ đề 5: Em với gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Trách nhiệm và chia sẻ trong gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Hoạt động thiện nguyện và văn hóa cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Tổ chức hoạt động cộng đồng và giữ gìn bản sắc địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Hoạt động thiện nguyện và văn hóa cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Hoạt động thiện nguyện và văn hóa cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Bảo vệ cảnh quan và ứng phó biến đổi khí hậu",
+            "chapter": "Chủ đề 7: Em với thiên nhiên",
+            "summary": "Truyền thông bảo vệ môi trường bền vững.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Bảo vệ cảnh quan và ứng phó biến đổi khí hậu",
+            "chapter": "Chủ đề 7: Em với thiên nhiên",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Bảo vệ cảnh quan và ứng phó biến đổi khí hậu.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Hệ thống giáo dục nghề nghiệp và thị trường lao động",
+            "chapter": "Chủ đề 8: Định hướng nghề nghiệp",
+            "summary": "Tìm hiểu phân luồng sau THCS: THPT, Trung cấp nghề, GDTX.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Hệ thống giáo dục nghề nghiệp và thị trường lao động",
+            "chapter": "Chủ đề 8: Định hướng nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Hệ thống giáo dục nghề nghiệp và thị trường lao động.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b17",
+            "number": 17,
+            "title": "Bài 17: Nhận diện & Khám phá – Xây dựng kế hoạch học tập và nghề nghiệp",
             "chapter": "Chủ đề 9: Lựa chọn hướng đi sau THCS",
             "summary": "Tự đánh giá năng lực, sở thích để lựa chọn con đường sau lớp 9.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành & Vận dụng – Xây dựng kế hoạch học tập và nghề nghiệp",
+            "chapter": "Chủ đề 9: Lựa chọn hướng đi sau THCS",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Xây dựng kế hoạch học tập và nghề nghiệp.",
             "questions": []
           }
         ]
@@ -18226,73 +21698,225 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-10-b1",
             "number": 1,
-            "title": "Bài 1: Sức hấp dẫn của truyện kể (Thần thoại, Chữ người tử tù)",
-            "chapter": "Tập 1 - Bài 1: Sức hấp dẫn của truyện kể",
-            "summary": "Truyện kể về các vị thần sáng tạo thế giới, Chữ người tử tù (Nguyễn Tuân), Tản Viên từ Phán sự lục.",
+            "title": "Truyện về các vị thần sáng tạo thế giới (Thần thoại)",
+            "chapter": "Bài 1: Sức hấp dẫn của truyện kể",
+            "summary": "Đặc trưng không gian, thời gian và nhân vật thần thoại Việt Nam.",
             "questions": []
           },
           {
             "id": "nguvan-10-b2",
             "number": 2,
-            "title": "Bài 2: Vẻ đẹp của thơ ca (Chùm thơ haiku, Thu hứng, Mùa xuân chín)",
-            "chapter": "Tập 1 - Bài 2: Vẻ đẹp của thơ ca",
-            "summary": "Thơ Đỗ Phủ, Hàn Mặc Tử, thơ haiku Nhật Bản và thực hành biện pháp tu từ.",
+            "title": "Tản Viên từ phán sự lục (Nguyễn Dữ)",
+            "chapter": "Bài 1: Sức hấp dẫn của truyện kể",
+            "summary": "Khí phách cương trực của Ngô Tử Văn và nghệ thuật truyện truyền kì.",
             "questions": []
           },
           {
             "id": "nguvan-10-b3",
             "number": 3,
-            "title": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận (Hiền tài là nguyên khí quốc gia)",
-            "chapter": "Tập 1 - Bài 3: Nghệ thuật thuyết phục trong văn nghị luận",
-            "summary": "Thân Nhân Trung, Yêu và đồng cảm, Chữ bầu lên nhà thơ và viết bài luận thuyết phục.",
+            "title": "Chữ người tử tù (Nguyễn Tuân)",
+            "chapter": "Bài 1: Sức hấp dẫn của truyện kể",
+            "summary": "Vẻ đẹp tài hoa, thiên lương trong sáng của Huấn Cao và cảnh cho chữ xưa nay chưa từng có.",
             "questions": []
           },
           {
             "id": "nguvan-10-b4",
             "number": 4,
-            "title": "Bài 4: Sức sống của sử thi (Héc-to từ biệt Ăng-đrô-mác, Đăm Săn)",
-            "chapter": "Tập 1 - Bài 4: Sức sống của sử thi",
-            "summary": "Sử thi Hy Lạp I-li-át và sử thi Tây Nguyên Đăm Săn đi bắt Nữ Thần Mặt Trời.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 1)",
+            "chapter": "Bài 1: Sức hấp dẫn của truyện kể",
+            "summary": "Sử dụng từ Hán Việt; viết bài văn nghị luận phân tích, đánh giá một tác phẩm truyện.",
             "questions": []
           },
           {
             "id": "nguvan-10-b5",
             "number": 5,
-            "title": "Bài 5: Tích trò sân khấu dân gian (Xúy Vân giả dại, Huyện Trìa xử án)",
-            "chapter": "Tập 1 - Bài 5: Tích trò sân khấu dân gian",
-            "summary": "Nghệ thuật chèo cổ và tuồng đồ dân gian Việt Nam.",
+            "title": "Chùm thơ Hai-cư Nhật Bản",
+            "chapter": "Bài 2: Vẻ đẹp của thơ ca",
+            "summary": "Thể thơ ngắn nhất thế giới, tứ thơ hàm súc và cảm hứng thiên nhiên.",
             "questions": []
           },
           {
             "id": "nguvan-10-b6",
             "number": 6,
-            "title": "Bài 6: Nguyễn Trãi – 'Dành còn để trợ dân này' (Bình Ngô đại cáo)",
-            "chapter": "Tập 2 - Bài 6: Nguyễn Trãi – “Dành còn để trợ dân này”",
-            "summary": "Tác gia Nguyễn Trãi, Bình Ngô đại cáo và Bảo kính cảnh giới.",
+            "title": "Thu hứng (Đỗ Phủ)",
+            "chapter": "Bài 2: Vẻ đẹp của thơ ca",
+            "summary": "Nỗi niềm ưu quốc ái dân và nghệ thuật đối chỉnh trong thơ Đường luật.",
             "questions": []
           },
           {
             "id": "nguvan-10-b7",
             "number": 7,
-            "title": "Bài 7: Quyền năng của người kể chuyện (Người cầm quyền khôi phục uy quyền, Dưới bóng hoàng lan)",
-            "chapter": "Tập 2 - Bài 7: Quyền năng của người kể chuyện",
-            "summary": "Ngôi kể, điểm nhìn trong truyện của Victor Hugo, Thạch Lam, Nguyễn Huy Thiệp.",
+            "title": "Mùa xuân chín (Hàn Mặc Tử)",
+            "chapter": "Bài 2: Vẻ đẹp của thơ ca",
+            "summary": "Bức tranh xuân rạng rỡ và nỗi niềm hoài niệm sâu lắng.",
             "questions": []
           },
           {
             "id": "nguvan-10-b8",
             "number": 8,
-            "title": "Bài 8: Thế giới đa dạng của thông tin (Sự sống và cái chết, Nghệ thuật truyền thống của người Việt)",
-            "chapter": "Tập 2 - Bài 8: Thế giới đa dạng của thông tin",
-            "summary": "Văn bản thông tin tổng hợp và phương tiện giao tiếp phi ngôn ngữ.",
+            "title": "Bản hòa âm ngôn từ trong Tiếng thu & Thực hành tiếng Việt (Bài 2)",
+            "chapter": "Bài 2: Vẻ đẹp của thơ ca",
+            "summary": "Lỗi dùng từ và cách sửa; phân tích, đánh giá một tác phẩm thơ.",
             "questions": []
           },
           {
             "id": "nguvan-10-b9",
             "number": 9,
-            "title": "Bài 9: Hành trang cuộc sống (Về chính chúng ta, Con đường không chọn)",
-            "chapter": "Tập 2 - Bài 9: Hành trang cuộc sống",
-            "summary": "Nghị luận xã hội về lựa chọn, lí tưởng và bản lĩnh sống.",
+            "title": "Hiền tài là nguyên khí của quốc gia (Thân Nhân Trung)",
+            "chapter": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận",
+            "summary": "Vai trò của hiền tài đối với vận mệnh đất nước và nghệ thuật lập luận chặt chẽ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b10",
+            "number": 10,
+            "title": "Yêu và đồng cảm (Phong Tử Khải)",
+            "chapter": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận",
+            "summary": "Bản chất của nghệ thuật và thái độ sống biết đồng cảm với vạn vật.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b11",
+            "number": 11,
+            "title": "Chữ bầu lên nhà thơ & Thực hành tiếng Việt (Bài 3)",
+            "chapter": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận",
+            "summary": "Lỗi về trật tự từ; viết bài luận thuyết phục người khác từ bỏ một thói quen.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b12",
+            "number": 12,
+            "title": "Héc-to từ biệt Ăng-đrô-mác (I-li-át – Hô-me-rơ)",
+            "chapter": "Bài 4: Sức sống của sử thi",
+            "summary": "Tình cảm gia đình thiêng liêng và trách nhiệm công dân của người anh hùng sử thi.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b13",
+            "number": 13,
+            "title": "Đăm Săn đi bắt Nữ Thần Mặt Trời (Sử thi Ê-đê)",
+            "chapter": "Bài 4: Sức sống của sử thi",
+            "summary": "Khát vọng chinh phục thiên nhiên và tầm vóc kì vĩ của anh hùng Đăm Săn.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b14",
+            "number": 14,
+            "title": "Thực hành tiếng Việt & Viết (Bài 4)",
+            "chapter": "Bài 4: Sức sống của sử thi",
+            "summary": "Sử dụng trích dẫn, cước chú; viết báo cáo nghiên cứu về một vấn đề.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b15",
+            "number": 15,
+            "title": "Xúy Vân giả dại (Trích chèo Kim Nham)",
+            "chapter": "Bài 5: Tích trò sân khấu dân gian",
+            "summary": "Bi kịch tình yêu, gia đình và nghệ thuật biểu diễn chèo cổ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b16",
+            "number": 16,
+            "title": "Huyện đường (Trích tuồng Nghêu, Sò, Ốc, Hến)",
+            "chapter": "Bài 5: Tích trò sân khấu dân gian",
+            "summary": "Tiếng cười châm biếm bộ máy quan lại tham nhũng trong tuồng đồ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b17",
+            "number": 17,
+            "title": "Múa rối nước – hiện đại soi bóng tiền nhân",
+            "chapter": "Bài 5: Tích trò sân khấu dân gian",
+            "summary": "Giá trị văn hóa của nghệ thuật múa rối nước truyền thống.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b18",
+            "number": 18,
+            "title": "Tác gia Nguyễn Trãi & Bình Ngô đại cáo",
+            "chapter": "Bài 6: Nguyễn Trãi – Dành còn để trợ dân này",
+            "summary": "Áng thiên cổ hùng văn tổng kết cuộc kháng chiến chống Minh oanh liệt.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b19",
+            "number": 19,
+            "title": "Bảo kính cảnh giới (Bài 43) & Dục Thúy sơn",
+            "chapter": "Bài 6: Nguyễn Trãi – Dành còn để trợ dân này",
+            "summary": "Tâm hồn yêu thiên nhiên và tấm lòng ưu ái vì dân của Ức Trai.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b20",
+            "number": 20,
+            "title": "Thực hành tiếng Việt & Viết (Bài 6)",
+            "chapter": "Bài 6: Nguyễn Trãi – Dành còn để trợ dân này",
+            "summary": "Biện pháp tu từ chêm xen, liệt kê; viết bài luận về bản thân.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b21",
+            "number": 21,
+            "title": "Người cầm quyền khôi phục uy quyền (Vích-to Huy-gô)",
+            "chapter": "Bài 7: Quyền năng của người kể chuyện",
+            "summary": "Tình thương yêu và ánh sáng nhân phẩm trong tiểu thuyết Những người khốn khổ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b22",
+            "number": 22,
+            "title": "Dưới bóng hoàng lan (Thạch Lam)",
+            "chapter": "Bài 7: Quyền năng của người kể chuyện",
+            "summary": "Cảm xúc thanh khiết, êm đềm về tình bà cháu và tình yêu quê hương.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b23",
+            "number": 23,
+            "title": "Một chuyện đùa nho nhỏ (Sê-khốp)",
+            "chapter": "Bài 7: Quyền năng của người kể chuyện",
+            "summary": "Tâm lí tinh tế của nhân vật và thông điệp trân trọng tình cảm chân thành.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b24",
+            "number": 24,
+            "title": "Thực hành tiếng Việt & Viết (Bài 7)",
+            "chapter": "Bài 7: Quyền năng của người kể chuyện",
+            "summary": "Biện pháp chêm xen; phân tích điểm nhìn và lời người kể chuyện.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b25",
+            "number": 25,
+            "title": "Sự sống và cái chết (Trịnh Xuân Thuận)",
+            "chapter": "Bài 8: Thế giới đa dạng của thông tin",
+            "summary": "Góc nhìn khoa học và triết lí về sự tiến hóa, cân bằng của tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b26",
+            "number": 26,
+            "title": "Nghệ thuật truyền thống của người Việt (Nguyễn Văn Huyên)",
+            "chapter": "Bài 8: Thế giới đa dạng của thông tin",
+            "summary": "Đặc sắc mĩ thuật, kiến trúc truyền thống Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b27",
+            "number": 27,
+            "title": "Phục hồi tầng ozone: Thành công hiếm hoi của nỗ lực toàn cầu",
+            "chapter": "Bài 8: Thế giới đa dạng của thông tin",
+            "summary": "Ý nghĩa hợp tác quốc tế trong bảo vệ môi trường toàn cầu.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b28",
+            "number": 28,
+            "title": "Về chính chúng ta & Con đường không chọn & Một đời như kẻ tìm đường",
+            "chapter": "Bài 9: Hành trang cuộc sống",
+            "summary": "Suy ngẫm về lựa chọn, khát vọng tri thức và bản lĩnh tuổi trẻ.",
             "questions": []
           }
         ]
@@ -19801,7 +23425,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-10-b1",
             "number": 1,
-            "title": "Sử dụng các yếu tố tự nhiên và dinh dưỡng rèn luyện sức khỏe",
+            "title": "Bài 1: Sử dụng các yếu tố tự nhiên và dinh dưỡng rèn luyện sức khỏe",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Nguyên tắc tập luyện thể lực, phòng tránh chấn thương và dinh dưỡng tuổi THPT.",
             "questions": []
@@ -19809,33 +23433,65 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-10-b2",
             "number": 2,
-            "title": "Bóng đá 10: Kĩ thuật đá bóng, khống chế và dẫn bóng",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Kĩ thuật đá bóng bằng mu trong, lòng bàn chân và phối hợp nhóm.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật đá bóng, khống chế và dẫn bóng",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10",
+            "summary": "Thực hành Kĩ thuật đá bóng bằng mu trong.",
             "questions": []
           },
           {
             "id": "gdtc-10-b3",
             "number": 3,
-            "title": "Bóng chuyền 10: Kĩ thuật chuyền bóng, đệm bóng, phát bóng",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Tư thế chuẩn bị, chuyền bóng cao tay, đệm bóng thấp tay.",
+            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật đá bóng, khống chế và dẫn bóng",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 10",
+            "summary": "Luyện tập lòng bàn chân và phối hợp nhóm. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-10-b4",
             "number": 4,
-            "title": "Bóng rổ 10: Kĩ thuật dẫn bóng, chuyền bóng, ném rổ",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Kĩ thuật lên rổ hai bước, chuyền bóng bật đất và phòng thủ cá nhân.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Kĩ thuật chuyền bóng, đệm bóng, phát bóng",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 10",
+            "summary": "Thực hành Tư thế chuẩn bị, chuyền bóng cao tay.",
             "questions": []
           },
           {
             "id": "gdtc-10-b5",
             "number": 5,
-            "title": "Cầu lông 10: Kĩ thuật di chuyển và đánh cầu cơ bản",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Cầm vợt, phát cầu thuận tay/trái tay, đánh cầu cao sâu.",
+            "title": "Bài 5: Phối hợp vận dụng – Kĩ thuật chuyền bóng, đệm bóng, phát bóng",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 10",
+            "summary": "Luyện tập đệm bóng thấp tay. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b6",
+            "number": 6,
+            "title": "Bài 6: Kĩ thuật cơ bản – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10",
+            "summary": "Thực hành Kĩ thuật lên rổ hai bước.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Kĩ thuật dẫn bóng, chuyền bóng, ném rổ",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 10",
+            "summary": "Luyện tập chuyền bóng bật đất và phòng thủ cá nhân. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Kĩ thuật di chuyển và đánh cầu cơ bản",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 10",
+            "summary": "Thực hành Cầm vợt, phát cầu thuận tay/trái tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật di chuyển và đánh cầu cơ bản",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 10",
+            "summary": "Luyện tập đánh cầu cao sâu. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -19848,7 +23504,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-10-b1",
             "number": 1,
-            "title": "Chủ đề 1: Xây dựng và phát triển nhà trường",
+            "title": "Bài 1: Nhận diện & Khám phá – Xây dựng và phát triển nhà trường",
             "chapter": "Chủ đề 1: Phát huy truyền thống nhà trường",
             "summary": "Thích ứng môi trường THPT, xây dựng văn hóa học đường.",
             "questions": []
@@ -19856,57 +23512,121 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-10-b2",
             "number": 2,
-            "title": "Chủ đề 2: Khám phá tính cách, quan điểm sống",
-            "chapter": "Chủ đề 2: Khám phá bản thân",
-            "summary": "Nhận diện cá tính, giá trị sống và điều chỉnh bản thân.",
+            "title": "Bài 2: Thực hành & Vận dụng – Xây dựng và phát triển nhà trường",
+            "chapter": "Chủ đề 1: Phát huy truyền thống nhà trường",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Xây dựng và phát triển nhà trường.",
             "questions": []
           },
           {
             "id": "hdtn-10-b3",
             "number": 3,
-            "title": "Chủ đề 3: Tư duy phản biện và quản lí tài chính",
-            "chapter": "Chủ đề 3: Rèn luyện bản thân",
-            "summary": "Tự chủ trong học tập, giao tiếp và lập kế hoạch tài chính cá nhân.",
+            "title": "Bài 3: Nhận diện & Khám phá – Khám phá tính cách, quan điểm sống",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Nhận diện cá tính, giá trị sống và điều chỉnh bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-10-b4",
             "number": 4,
-            "title": "Chủ đề 4: Thực hiện trách nhiệm và kinh tế gia đình",
-            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
-            "summary": "Tham gia giải quyết vấn đề và đóng góp kinh tế gia đình.",
+            "title": "Bài 4: Thực hành & Vận dụng – Khám phá tính cách, quan điểm sống",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Khám phá tính cách, quan điểm sống.",
             "questions": []
           },
           {
             "id": "hdtn-10-b5",
             "number": 5,
-            "title": "Chủ đề 5: Tham gia các hoạt động cộng đồng",
-            "chapter": "Chủ đề 5: Phát triển cộng đồng",
-            "summary": "Xây dựng mạng lưới quan hệ xã hội tích cực và thiện nguyện.",
+            "title": "Bài 5: Nhận diện & Khám phá – Tư duy phản biện và quản lí tài chính",
+            "chapter": "Chủ đề 3: Rèn luyện bản thân",
+            "summary": "Tự chủ trong học tập, giao tiếp và lập kế hoạch tài chính cá nhân.",
             "questions": []
           },
           {
             "id": "hdtn-10-b6",
             "number": 6,
-            "title": "Chủ đề 6: Bảo vệ môi trường và tài nguyên thiên nhiên",
-            "chapter": "Chủ đề 6: Bảo tồn cảnh quan thiên nhiên",
-            "summary": "Đánh giá thực trạng môi trường địa phương và hành động xanh.",
+            "title": "Bài 6: Thực hành & Vận dụng – Tư duy phản biện và quản lí tài chính",
+            "chapter": "Chủ đề 3: Rèn luyện bản thân",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tư duy phản biện và quản lí tài chính.",
             "questions": []
           },
           {
             "id": "hdtn-10-b7",
             "number": 7,
-            "title": "Chủ đề 7: Thông tin nghề nghiệp và yêu cầu nhà tuyển dụng",
-            "chapter": "Chủ đề 7: Tìm hiểu nghề nghiệp",
-            "summary": "Khám phá hệ thống ngành nghề và năng lực cần thiết.",
+            "title": "Bài 7: Nhận diện & Khám phá – Thực hiện trách nhiệm và kinh tế gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Tham gia giải quyết vấn đề và đóng góp kinh tế gia đình.",
             "questions": []
           },
           {
             "id": "hdtn-10-b8",
             "number": 8,
-            "title": "Chủ đề 8: Lựa chọn nghề nghiệp và lập kế hoạch học tập",
+            "title": "Bài 8: Thực hành & Vận dụng – Thực hiện trách nhiệm và kinh tế gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Thực hiện trách nhiệm và kinh tế gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b9",
+            "number": 9,
+            "title": "Bài 9: Nhận diện & Khám phá – Tham gia các hoạt động cộng đồng",
+            "chapter": "Chủ đề 5: Phát triển cộng đồng",
+            "summary": "Xây dựng mạng lưới quan hệ xã hội tích cực và thiện nguyện.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Tham gia các hoạt động cộng đồng",
+            "chapter": "Chủ đề 5: Phát triển cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tham gia các hoạt động cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Bảo vệ môi trường và tài nguyên thiên nhiên",
+            "chapter": "Chủ đề 6: Bảo tồn cảnh quan thiên nhiên",
+            "summary": "Đánh giá thực trạng môi trường địa phương và hành động xanh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Bảo vệ môi trường và tài nguyên thiên nhiên",
+            "chapter": "Chủ đề 6: Bảo tồn cảnh quan thiên nhiên",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Bảo vệ môi trường và tài nguyên thiên nhiên.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Thông tin nghề nghiệp và yêu cầu nhà tuyển dụng",
+            "chapter": "Chủ đề 7: Tìm hiểu nghề nghiệp",
+            "summary": "Khám phá hệ thống ngành nghề và năng lực cần thiết.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Thông tin nghề nghiệp và yêu cầu nhà tuyển dụng",
+            "chapter": "Chủ đề 7: Tìm hiểu nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Thông tin nghề nghiệp và yêu cầu nhà tuyển dụng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Lựa chọn nghề nghiệp và lập kế hoạch học tập",
             "chapter": "Chủ đề 8: Chọn nghề phù hợp",
             "summary": "Kết nối sở thích, năng lực với tổ hợp môn học ở THPT.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Lựa chọn nghề nghiệp và lập kế hoạch học tập",
+            "chapter": "Chủ đề 8: Chọn nghề phù hợp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Lựa chọn nghề nghiệp và lập kế hoạch học tập.",
             "questions": []
           }
         ]
@@ -20859,73 +24579,217 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-11-b1",
             "number": 1,
-            "title": "Bài 1: Câu chuyện và điểm nhìn trong truyện kể (Vợ nhặt, Chí Phèo)",
-            "chapter": "Tập 1 - Bài 1: Câu chuyện và điểm nhìn trong truyện kể",
-            "summary": "Phân tích nghệ thuật kể chuyện, điểm nhìn trong Vợ nhặt (Kim Lân), Chí Phèo (Nam Cao).",
+            "title": "Vợ nhặt (Kim Lân)",
+            "chapter": "Bài 1: Câu chuyện và điểm nhìn trong truyện kể",
+            "summary": "Thảm cảnh nạn đói 1945 và tình người ấm áp, khát vọng sống của Tràng, thị và bà cụ Tứ.",
             "questions": []
           },
           {
             "id": "nguvan-11-b2",
             "number": 2,
-            "title": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình (Nhớ đồng, Tràng giang, Đây thôn Vĩ Dạ)",
-            "chapter": "Tập 1 - Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình",
-            "summary": "Tìm hiểu cấu tứ và biểu tượng trong thơ mới và thơ hiện đại.",
+            "title": "Chí Phèo (Nam Cao)",
+            "chapter": "Bài 1: Câu chuyện và điểm nhìn trong truyện kể",
+            "summary": "Bi kịch bị cự tuyệt quyền làm người của Chí Phèo và giá trị hiện thực, nhân đạo.",
             "questions": []
           },
           {
             "id": "nguvan-11-b3",
             "number": 3,
-            "title": "Bài 3: Cấu trúc của văn bản nghị luận (Cầu hiền chiếu, Xin lập khoa luật)",
-            "chapter": "Tập 1 - Bài 3: Cấu trúc của văn bản nghị luận",
-            "summary": "Cách lập luận, lí lẽ và bằng chứng trong văn nghị luận trung đại và hiện đại.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 1)",
+            "chapter": "Bài 1: Câu chuyện và điểm nhìn trong truyện kể",
+            "summary": "Đặc điểm ngôn ngữ nói và ngôn ngữ viết; nghị luận về nghệ thuật kể chuyện trong truyện.",
             "questions": []
           },
           {
             "id": "nguvan-11-b4",
             "number": 4,
-            "title": "Bài 4: Tự sự trong truyện thơ dân gian và truyện thơ Nôm (Lời tiễn dặn, Truyện Kiều)",
-            "chapter": "Tập 1 - Bài 4: Tự sự trong truyện thơ dân gian và truyện thơ Nôm",
-            "summary": "Giá trị nhân đạo và nghệ thuật tự sự trong Tiễn dặn người yêu, Truyện Kiều.",
+            "title": "Nhớ đồng (Tố Hữu)",
+            "chapter": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình",
+            "summary": "Nỗi nhớ quê hương, đồng bào và khát vọng tự do của người chiến sĩ cộng sản.",
             "questions": []
           },
           {
             "id": "nguvan-11-b5",
             "number": 5,
-            "title": "Bài 5: Nhân vật và xung đột trong bi kịch (Sống hay không sống, Vĩnh biệt Cửu Trùng Đài)",
-            "chapter": "Tập 1 - Bài 5: Nhân vật và xung đột trong bi kịch",
-            "summary": "Xung đột bi kịch trong Hamlet (Shakespeare) và Vũ Như Tô (Nguyễn Huy Tưởng).",
+            "title": "Tràng giang (Huy Cận)",
+            "chapter": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình",
+            "summary": "Bức tranh sông dài trời rộng và nỗi sầu vạn cổ, lòng yêu nước thầm kín.",
             "questions": []
           },
           {
             "id": "nguvan-11-b6",
             "number": 6,
-            "title": "Bài 6: Nguyễn Du – 'Những điều trông thấy mà đau đớn lòng'",
-            "chapter": "Tập 2 - Bài 6: Nguyễn Du – “Những điều trông thấy mà đau đớn lòng”",
-            "summary": "Tác gia Nguyễn Du, Trao duyên, Độc Tiểu Thanh kí.",
+            "title": "Con đường mùa đông (Pu-skin)",
+            "chapter": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình",
+            "summary": "Nỗi cô đơn, tâm trạng trầm lắng và vẻ đẹp thiên nhiên nước Nga.",
             "questions": []
           },
           {
             "id": "nguvan-11-b7",
             "number": 7,
-            "title": "Bài 7: Ghi chép và tưởng tượng trong kí (Ai đã đặt tên cho dòng sông, Và tôi vẫn muốn mẹ)",
-            "chapter": "Tập 2 - Bài 7: Ghi chép và tưởng tượng trong kí",
-            "summary": "Đặc trưng thể loại bút kí, tùy bút và tản văn.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 2)",
+            "chapter": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình",
+            "summary": "Hiện tượng phá vỡ quy tắc ngôn ngữ thông thường; phân tích cấu tứ và hình ảnh thơ.",
             "questions": []
           },
           {
             "id": "nguvan-11-b8",
             "number": 8,
-            "title": "Bài 8: Cấu trúc của văn bản thông tin (Nữ phóng viên đầu tiên, Trí thông minh nhân tạo)",
-            "chapter": "Tập 2 - Bài 8: Cấu trúc của văn bản thông tin",
-            "summary": "Bố cục, dữ liệu và tính khách quan trong văn bản thông tin.",
+            "title": "Cầu hiền chiếu (Ngô Thì Nhậm)",
+            "chapter": "Bài 3: Cấu trúc của văn bản nghị luận",
+            "summary": "Chính sách trọng dụng nhân tài và nghệ thuật viết chiếu thuyết phục.",
             "questions": []
           },
           {
             "id": "nguvan-11-b9",
             "number": 9,
-            "title": "Bài 9: Lựa chọn và hành động (Bài ca ngất ngưởng, Văn tế nghĩa sĩ Cần Giuộc)",
-            "chapter": "Tập 2 - Bài 9: Lựa chọn và hành động",
-            "summary": "Phẩm chất, khí phách con người trước lựa chọn lịch sử và cuộc đời.",
+            "title": "Tôi có một ước mơ (Mác-tin Lu-thơ Kinh)",
+            "chapter": "Bài 3: Cấu trúc của văn bản nghị luận",
+            "summary": "Khát vọng bình đẳng, tự do và sức mạnh ngôn từ trong bài diễn văn.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b10",
+            "number": 10,
+            "title": "Một thời đại trong thi ca (Hoài Thanh)",
+            "chapter": "Bài 3: Cấu trúc của văn bản nghị luận",
+            "summary": "Tinh thần Thơ mới và chữ 'tôi' trong văn học Việt Nam 1932–1945.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b11",
+            "number": 11,
+            "title": "Thực hành tiếng Việt & Viết (Bài 3)",
+            "chapter": "Bài 3: Cấu trúc của văn bản nghị luận",
+            "summary": "Lỗi logic, lỗi câu mơ hồ; viết bài nghị luận về một vấn đề xã hội.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b12",
+            "number": 12,
+            "title": "Lời tiễn dặn (Tiễn dặn người yêu)",
+            "chapter": "Bài 4: Tự sự trong truyện thơ dân gian và thơ trữ tình",
+            "summary": "Khát vọng tình yêu chung thủy trong truyện thơ dân tộc Thái.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b13",
+            "number": 13,
+            "title": "Dương phụ hành (Cao Bá Quát)",
+            "chapter": "Bài 4: Tự sự trong truyện thơ dân gian và thơ trữ tình",
+            "summary": "Cái nhìn nhân văn, mới mẻ của Cao Bá Quát trước hình ảnh người phụ nữ phương Tây.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b14",
+            "number": 14,
+            "title": "Thuyền và biển (Xuân Quỳnh)",
+            "chapter": "Bài 4: Tự sự trong truyện thơ dân gian và thơ trữ tình",
+            "summary": "Tình yêu thiết tha, sâu lắng qua hình tượng ẩn dụ thuyền và biển.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b15",
+            "number": 15,
+            "title": "Thực hành tiếng Việt & Viết (Bài 4)",
+            "chapter": "Bài 4: Tự sự trong truyện thơ dân gian và thơ trữ tình",
+            "summary": "Biện pháp chêm xen, liệt kê; nghị luận về lối sống tích cực trong xã hội hiện đại.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b16",
+            "number": 16,
+            "title": "Sống, hay không sống – đó là vấn đề (Hăm-lét – Sếch-xpia)",
+            "chapter": "Bài 5: Nhân vật và xung đột trong bi kịch",
+            "summary": "Độc thoại nội tâm sâu sắc về lẽ sống, cái chết và trách nhiệm đấu tranh.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b17",
+            "number": 17,
+            "title": "Vĩnh biệt Cửu Trùng Đài (Vũ Như Tô – Nguyễn Huy Tưởng)",
+            "chapter": "Bài 5: Nhân vật và xung đột trong bi kịch",
+            "summary": "Bi kịch mâu thuẫn giữa khát vọng nghệ thuật thuần túy và lợi ích nhân dân.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b18",
+            "number": 18,
+            "title": "Thực hành tiếng Việt & Viết (Bài 5)",
+            "chapter": "Bài 5: Nhân vật và xung đột trong bi kịch",
+            "summary": "Từ ngữ địa phương; viết báo cáo nghiên cứu về một vấn đề tự nhiên hoặc xã hội.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b19",
+            "number": 19,
+            "title": "Tác gia Nguyễn Du & Trao duyên (Truyện Kiều)",
+            "chapter": "Bài 6: Nguyễn Du – Những điều trông thấy mà đau đớn lòng",
+            "summary": "Bi kịch tình yêu tan vỡ và vẻ đẹp nhân cách vị tha của Thúy Kiều.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b20",
+            "number": 20,
+            "title": "Độc Tiểu Thanh kí (Nguyễn Du)",
+            "chapter": "Bài 6: Nguyễn Du – Những điều trông thấy mà đau đớn lòng",
+            "summary": "Tấm lòng đồng cảm với số phận tài hoa bạc mệnh.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b21",
+            "number": 21,
+            "title": "Chí khí anh hùng & Thực hành tiếng Việt (Bài 6)",
+            "chapter": "Bài 6: Nguyễn Du – Những điều trông thấy mà đau đớn lòng",
+            "summary": "Thành ngữ, điển tích; thuyết minh về một tác phẩm văn học.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b22",
+            "number": 22,
+            "title": "Ai đã đặt tên cho dòng sông? (Hoàng Phủ Ngọc Tường)",
+            "chapter": "Bài 7: Ghi chép và tưởng tượng trong kí",
+            "summary": "Vẻ đẹp đa chiều của sông Hương qua góc nhìn địa lí, lịch sử, thi ca.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b23",
+            "number": 23,
+            "title": "Và tôi vẫn muốn mẹ... & Cà Mau quê xứ (Sơn Nam)",
+            "chapter": "Bài 7: Ghi chép và tưởng tượng trong kí",
+            "summary": "Chất kí giàu cảm xúc và bản sắc vùng đất Nam Bộ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b24",
+            "number": 24,
+            "title": "Thực hành tiếng Việt & Viết (Bài 7)",
+            "chapter": "Bài 7: Ghi chép và tưởng tượng trong kí",
+            "summary": "Đảo ngữ, câu hỏi tu từ; thuyết minh về một sự vật, hiện tượng xã hội.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b25",
+            "number": 25,
+            "title": "Nữ phóng viên đầu tiên & Trí thông minh nhân tạo",
+            "chapter": "Bài 8: Cấu trúc của văn bản thông tin",
+            "summary": "Cách tổ chức dữ liệu khách quan và vấn đề thời đại AI.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b26",
+            "number": 26,
+            "title": "Pa-ra-lim-pích: Một lịch sử chữa lành những vết thương",
+            "chapter": "Bài 8: Cấu trúc của văn bản thông tin",
+            "summary": "Ý chí vượt lên nghịch cảnh qua thể thao người khuyết tật.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b27",
+            "number": 27,
+            "title": "Bài ca ngất ngưởng (Cao Bá Quát) & Văn tế nghĩa sĩ Cần Giuộc (Nguyễn Đình Chiểu)",
+            "chapter": "Bài 9: Lựa chọn và hành động",
+            "summary": "Bản lĩnh cá nhân và hình tượng người nông dân nghĩa sĩ bất tử.",
             "questions": []
           }
         ]
@@ -22218,7 +26082,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-11-b1",
             "number": 1,
-            "title": "Lập kế hoạch và đánh giá sự phát triển thể chất",
+            "title": "Bài 1: Lập kế hoạch và đánh giá sự phát triển thể chất",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Theo dõi nhịp tim, chỉ số BMI và xây dựng lịch tập cá nhân.",
             "questions": []
@@ -22226,33 +26090,65 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-11-b2",
             "number": 2,
-            "title": "Bóng đá 11: Kĩ thuật nâng cao và chiến thuật đội hình",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Đánh đầu, tranh cướp bóng và phối hợp tấn công nhóm.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Kĩ thuật nâng cao và chiến thuật đội hình",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11",
+            "summary": "Thực hành Đánh đầu.",
             "questions": []
           },
           {
             "id": "gdtc-11-b3",
             "number": 3,
-            "title": "Bóng chuyền 11: Đập bóng, chắn bóng và chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Kĩ thuật đập bóng chính diện, chắn bóng đơn và phối hợp 3 chạm.",
+            "title": "Bài 3: Phối hợp vận dụng – Kĩ thuật nâng cao và chiến thuật đội hình",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 11",
+            "summary": "Luyện tập tranh cướp bóng và phối hợp tấn công nhóm. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-11-b4",
             "number": 4,
-            "title": "Bóng rổ 11: Chiến thuật tấn công và phòng thủ khu vực",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Ném rổ nhảy, chắn người (screen) và phòng thủ liên phòng.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Đập bóng, chắn bóng và chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11",
+            "summary": "Thực hành Kĩ thuật đập bóng chính diện.",
             "questions": []
           },
           {
             "id": "gdtc-11-b5",
             "number": 5,
-            "title": "Cầu lông 11: Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Di chuyển đa hướng, đập cầu uy lực và phối hợp đánh đôi.",
+            "title": "Bài 5: Phối hợp vận dụng – Đập bóng, chắn bóng và chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 11",
+            "summary": "Luyện tập chắn bóng đơn và phối hợp 3 chạm. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b6",
+            "number": 6,
+            "title": "Bài 6: Kĩ thuật cơ bản – Chiến thuật tấn công và phòng thủ khu vực",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11",
+            "summary": "Thực hành Ném rổ nhảy.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Chiến thuật tấn công và phòng thủ khu vực",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 11",
+            "summary": "Luyện tập chắn người (screen) và phòng thủ liên phòng. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11",
+            "summary": "Thực hành Di chuyển đa hướng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 11",
+            "summary": "Luyện tập đập cầu uy lực và phối hợp đánh đôi. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -22265,7 +26161,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-11-b1",
             "number": 1,
-            "title": "Chủ đề 1: Phát triển quan hệ hợp tác trong nhà trường",
+            "title": "Bài 1: Nhận diện & Khám phá – Phát triển quan hệ hợp tác trong nhà trường",
             "chapter": "Chủ đề 1: Xây dựng và phát triển nhà trường",
             "summary": "Tổ chức hoạt động câu lạc bộ và phát triển cộng đồng học đường.",
             "questions": []
@@ -22273,49 +26169,153 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-11-b2",
             "number": 2,
-            "title": "Chủ đề 2–3: Tự tin, thích ứng và quản lí tài chính cá nhân",
-            "chapter": "Chủ đề 2–3: Khám phá và rèn luyện bản thân",
-            "summary": "Phát triển tư duy độc lập, quản lí cảm xúc và kế hoạch chi tiêu.",
+            "title": "Bài 2: Thực hành & Vận dụng – Phát triển quan hệ hợp tác trong nhà trường",
+            "chapter": "Chủ đề 1: Xây dựng và phát triển nhà trường",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Phát triển quan hệ hợp tác trong nhà trường.",
             "questions": []
           },
           {
             "id": "hdtn-11-b3",
             "number": 3,
-            "title": "Chủ đề 4–5: Trách nhiệm với gia đình và phát triển cộng đồng",
-            "chapter": "Chủ đề 4–5: Gia đình và cộng đồng",
-            "summary": "Giải quyết mâu thuẫn gia đình và tham gia dự án cộng đồng.",
+            "title": "Bài 3: Tìm hiểu – Tự tin, thích ứng",
+            "chapter": "Chủ đề 2: Tự tin, thích ứng",
+            "summary": "Phát triển tư duy độc lập, quản lí cảm xúc và kế hoạch chi tiêu.",
             "questions": []
           },
           {
             "id": "hdtn-11-b4",
             "number": 4,
-            "title": "Chủ đề 6–7: Bảo tồn cảnh quan và bảo vệ môi trường",
-            "chapter": "Chủ đề 6–7: Thiên nhiên và môi trường",
-            "summary": "Nghiên cứu tác động phát triển kinh tế đến môi trường địa phương.",
+            "title": "Bài 4: Thực hành – Tự tin, thích ứng",
+            "chapter": "Chủ đề 2: Tự tin, thích ứng",
+            "summary": "Vận dụng và chia sẻ kết quả trải nghiệm về tự tin, thích ứng.",
             "questions": []
           },
           {
             "id": "hdtn-11-b5",
             "number": 5,
-            "title": "Chủ đề 8: Các nhóm nghề cơ bản và yêu cầu thị trường lao động",
-            "chapter": "Chủ đề 8: Thị trường lao động",
-            "summary": "Phân tích xu hướng tuyển dụng, kỹ năng mềm và chuyển đổi số.",
+            "title": "Bài 5: Tìm hiểu – quản lí tài chính cá nhân",
+            "chapter": "Chủ đề 3: Quản lí tài chính cá nhân",
+            "summary": "Phát triển tư duy độc lập, quản lí cảm xúc và kế hoạch chi tiêu.",
             "questions": []
           },
           {
             "id": "hdtn-11-b6",
             "number": 6,
-            "title": "Chủ đề 9: Rèn luyện phẩm chất, năng lực phù hợp nhóm nghề",
-            "chapter": "Chủ đề 9: Rèn luyện phẩm chất nghề nghiệp",
-            "summary": "Trải nghiệm thực tế nghề nghiệp và đánh giá sự phù hợp.",
+            "title": "Bài 6: Thực hành – quản lí tài chính cá nhân",
+            "chapter": "Chủ đề 3: Quản lí tài chính cá nhân",
+            "summary": "Rèn luyện kĩ năng và đánh giá hoạt động về quản lí tài chính cá nhân.",
             "questions": []
           },
           {
             "id": "hdtn-11-b7",
             "number": 7,
-            "title": "Chủ đề 10: Xây dựng kế hoạch học tập theo định hướng nghề lựa chọn",
+            "title": "Bài 7: Tìm hiểu – Trách nhiệm với gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Giải quyết mâu thuẫn gia đình và tham gia dự án cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b8",
+            "number": 8,
+            "title": "Bài 8: Thực hành – Trách nhiệm với gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Vận dụng và chia sẻ kết quả trải nghiệm về trách nhiệm với gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b9",
+            "number": 9,
+            "title": "Bài 9: Tìm hiểu – phát triển cộng đồng",
+            "chapter": "Chủ đề 5: Phát triển cộng đồng",
+            "summary": "Giải quyết mâu thuẫn gia đình và tham gia dự án cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành – phát triển cộng đồng",
+            "chapter": "Chủ đề 5: Phát triển cộng đồng",
+            "summary": "Rèn luyện kĩ năng và đánh giá hoạt động về phát triển cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b11",
+            "number": 11,
+            "title": "Bài 11: Tìm hiểu – Bảo tồn cảnh quan",
+            "chapter": "Chủ đề 6: Bảo tồn cảnh quan",
+            "summary": "Nghiên cứu tác động phát triển kinh tế đến môi trường địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành – Bảo tồn cảnh quan",
+            "chapter": "Chủ đề 6: Bảo tồn cảnh quan",
+            "summary": "Vận dụng và chia sẻ kết quả trải nghiệm về bảo tồn cảnh quan.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b13",
+            "number": 13,
+            "title": "Bài 13: Tìm hiểu – bảo vệ môi trường",
+            "chapter": "Chủ đề 7: Bảo vệ môi trường",
+            "summary": "Nghiên cứu tác động phát triển kinh tế đến môi trường địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành – bảo vệ môi trường",
+            "chapter": "Chủ đề 7: Bảo vệ môi trường",
+            "summary": "Rèn luyện kĩ năng và đánh giá hoạt động về bảo vệ môi trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Các nhóm nghề cơ bản và yêu cầu thị trường lao động",
+            "chapter": "Chủ đề 8: Thị trường lao động",
+            "summary": "Phân tích xu hướng tuyển dụng, kỹ năng mềm và chuyển đổi số.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Các nhóm nghề cơ bản và yêu cầu thị trường lao động",
+            "chapter": "Chủ đề 8: Thị trường lao động",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Các nhóm nghề cơ bản và yêu cầu thị trường lao động.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b17",
+            "number": 17,
+            "title": "Bài 17: Nhận diện & Khám phá – Rèn luyện phẩm chất, năng lực phù hợp nhóm nghề",
+            "chapter": "Chủ đề 9: Rèn luyện phẩm chất nghề nghiệp",
+            "summary": "Trải nghiệm thực tế nghề nghiệp và đánh giá sự phù hợp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành & Vận dụng – Rèn luyện phẩm chất, năng lực phù hợp nhóm nghề",
+            "chapter": "Chủ đề 9: Rèn luyện phẩm chất nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Rèn luyện phẩm chất, năng lực phù hợp nhóm nghề.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b19",
+            "number": 19,
+            "title": "Bài 19: Nhận diện & Khám phá – Xây dựng kế hoạch học tập theo định hướng nghề lựa chọn",
             "chapter": "Chủ đề 10: Kế hoạch học tập hướng nghiệp",
             "summary": "Xác định khối thi, ngành học và lộ trình chuẩn bị lớp 12.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b20",
+            "number": 20,
+            "title": "Bài 20: Thực hành & Vận dụng – Xây dựng kế hoạch học tập theo định hướng nghề lựa chọn",
+            "chapter": "Chủ đề 10: Kế hoạch học tập hướng nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Xây dựng kế hoạch học tập theo định hướng nghề lựa chọn.",
             "questions": []
           }
         ]
@@ -23228,73 +27228,217 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-12-b1",
             "number": 1,
-            "title": "Bài 1: Khả năng lớn lao của tiểu thuyết (Xuân Tóc Đỏ cứu quốc, Nỗi buồn chiến tranh)",
-            "chapter": "Tập 1 - Bài 1: Khả năng lớn lao của tiểu thuyết",
-            "summary": "Nghệ thuật trào phúng trong Số đỏ (Vũ Trọng Phụng) và tiểu thuyết hiện đại.",
+            "title": "Xuân Tóc Đỏ cứu quốc (Trích Số đỏ – Vũ Trọng Phụng)",
+            "chapter": "Bài 1: Khả năng lớn lao của tiểu thuyết",
+            "summary": "Nghệ thuật trào phúng bậc thầy phơi bày xã hội tư sản thành thị lố lăng.",
             "questions": []
           },
           {
             "id": "nguvan-12-b2",
             "number": 2,
-            "title": "Bài 2: Những thế giới thơ (Cảm hoài, Tây Tiến, Đàn ghi ta của Lor-ca)",
-            "chapter": "Tập 1 - Bài 2: Những thế giới thơ",
-            "summary": "Phong cách lãng mạn, bi tráng và tượng trưng siêu thực trong thơ.",
+            "title": "Nỗi buồn chiến tranh (Bảo Ninh)",
+            "chapter": "Bài 1: Khả năng lớn lao của tiểu thuyết",
+            "summary": "Cái nhìn nhân bản sâu sắc về thân phận con người và kí ức hậu chiến.",
             "questions": []
           },
           {
             "id": "nguvan-12-b3",
             "number": 3,
-            "title": "Bài 3: Lập luận trong văn bản nghị luận (Nhìn về vốn văn hóa dân tộc, Năng lực sáng tạo)",
-            "chapter": "Tập 1 - Bài 3: Lập luận trong văn bản nghị luận",
-            "summary": "Nghệ thuật lập luận chặt chẽ, sắc sảo trong văn nghị luận hiện đại.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 1)",
+            "chapter": "Bài 1: Khả năng lớn lao của tiểu thuyết",
+            "summary": "Biện pháp nói mỉa, nghịch ngữ; viết bài văn so sánh, đánh giá hai tác phẩm truyện.",
             "questions": []
           },
           {
             "id": "nguvan-12-b4",
             "number": 4,
-            "title": "Bài 4: Yếu tố kì ảo trong truyện kể (Hải khẩu linh từ, Muối của rừng)",
-            "chapter": "Tập 1 - Bài 4: Yếu tố kì ảo trong truyện kể",
-            "summary": "Vai trò yếu tố kì ảo trong truyện truyền kì trung đại và truyện ngắn đương đại.",
+            "title": "Cảm hoài (Đặng Dung)",
+            "chapter": "Bài 2: Những thế giới thơ",
+            "summary": "Khí phách anh hùng và nỗi niềm ưu thời mẫn thế trong thơ trung đại.",
             "questions": []
           },
           {
             "id": "nguvan-12-b5",
             "number": 5,
-            "title": "Bài 5: Tiếng cười của hài kịch (Nhân vật quan trọng, Giấu của)",
-            "chapter": "Tập 1 - Bài 5: Tiếng cười của hài kịch",
-            "summary": "Xung đột, nhân vật và tiếng cười phê phán trong hài kịch.",
+            "title": "Tây Tiến (Quang Dũng)",
+            "chapter": "Bài 2: Những thế giới thơ",
+            "summary": "Vẻ đẹp lãng mạn, bi tráng của đoàn quân Tây Tiến và thiên nhiên miền Tây.",
             "questions": []
           },
           {
             "id": "nguvan-12-b6",
             "number": 6,
-            "title": "Bài 6: Hồ Chí Minh – 'Văn hóa phải soi đường cho quốc dân đi' (Tuyên ngôn Độc lập)",
-            "chapter": "Tập 2 - Bài 6: Hồ Chí Minh – “Văn hóa phải soi đường cho quốc dân đi”",
-            "summary": "Tác gia Hồ Chí Minh, Tuyên ngôn Độc lập, Mộ (Chiều tối), Nhật kí trong tù.",
+            "title": "Đàn ghi ta của Lor-ca (Thanh Thảo)",
+            "chapter": "Bài 2: Những thế giới thơ",
+            "summary": "Hình tượng nghệ sĩ Lor-ca và bút pháp siêu thực tượng trưng.",
             "questions": []
           },
           {
             "id": "nguvan-12-b7",
             "number": 7,
-            "title": "Bài 7: Sự thật trong tác phẩm kí (Nghệ thuật băm thịt gà, Bước vào đời)",
-            "chapter": "Tập 2 - Bài 7: Sự thật trong tác phẩm kí",
-            "summary": "Tính xác thực và cái tôi trữ tình trong phóng sự, hồi kí.",
+            "title": "Thực hành tiếng Việt & Viết (Bài 2)",
+            "chapter": "Bài 2: Những thế giới thơ",
+            "summary": "Tác dụng biện pháp tu từ trong thơ; so sánh, đánh giá hai tác phẩm thơ.",
             "questions": []
           },
           {
             "id": "nguvan-12-b8",
             "number": 8,
-            "title": "Bài 8: Dữ liệu trong văn bản thông tin (Pa-ra-na, Giáo dục khai phóng)",
-            "chapter": "Tập 2 - Bài 8: Dữ liệu trong văn bản thông tin",
-            "summary": "Cách sử dụng số liệu, bằng chứng khoa học trong văn bản thông tin.",
+            "title": "Nhìn về văn hóa dân tộc (Trần Đình Hượu)",
+            "chapter": "Bài 3: Lập luận trong văn bản nghị luận",
+            "summary": "Phân tích sắc sảo những nét truyền thống và hạn chế của văn hóa Việt Nam.",
             "questions": []
           },
           {
             "id": "nguvan-12-b9",
             "number": 9,
-            "title": "Bài 9: Văn học và cuộc đời (Vội vàng, Trở về, Hồn Trương Ba da hàng thịt)",
-            "chapter": "Tập 2 - Bài 9: Văn học và cuộc đời",
-            "summary": "Giá trị nhân văn và sức sống của văn học đối với đời sống con người.",
+            "title": "Năng lực sáng tạo (Phan Đình Diệu)",
+            "chapter": "Bài 3: Lập luận trong văn bản nghị luận",
+            "summary": "Vai trò của tư duy khoa học và năng lực sáng tạo trong thời đại mới.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b10",
+            "number": 10,
+            "title": "Mấy ý nghĩ về thơ (Nguyễn Đình Thi)",
+            "chapter": "Bài 3: Lập luận trong văn bản nghị luận",
+            "summary": "Quan niệm hiện đại về bản chất và hình thức nghệ thuật của thơ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b11",
+            "number": 11,
+            "title": "Thực hành tiếng Việt & Viết (Bài 3)",
+            "chapter": "Bài 3: Lập luận trong văn bản nghị luận",
+            "summary": "Sửa lỗi logic, câu mơ hồ; nghị luận về một vấn đề liên quan đến tuổi trẻ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b12",
+            "number": 12,
+            "title": "Hải khẩu linh từ – Đền thiêng của bể (Đoàn Thị Điểm)",
+            "chapter": "Bài 4: Yếu tố kì ảo trong truyện kể",
+            "summary": "Sự kết hợp giữa hiện thực lịch sử và yếu tố kì ảo truyền kì.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b13",
+            "number": 13,
+            "title": "Muối của rừng (Nguyễn Huy Thiệp)",
+            "chapter": "Bài 4: Yếu tố kì ảo trong truyện kể",
+            "summary": "Mối quan hệ giữa con người và thiên nhiên qua truyện ngắn hiện đại.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b14",
+            "number": 14,
+            "title": "Thực hành tiếng Việt & Viết (Bài 4)",
+            "chapter": "Bài 4: Yếu tố kì ảo trong truyện kể",
+            "summary": "Nghệ thuật sử dụng điển cố; nghị luận về vay mượn – cải biến – sáng tạo.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b15",
+            "number": 15,
+            "title": "Nhân vật quan trọng (Quan thanh tra – Gô-gôn)",
+            "chapter": "Bài 5: Tiếng cười của hài kịch",
+            "summary": "Xung đột kịch và nghệ thuật phóng đại phơi bày tệ quan liêu.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b16",
+            "number": 16,
+            "title": "Giấu của (Lộng Chương)",
+            "chapter": "Bài 5: Tiếng cười của hài kịch",
+            "summary": "Tiếng cười châm biếm thói tham lam ích kỉ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b17",
+            "number": 17,
+            "title": "Thực hành tiếng Việt & Viết (Bài 5)",
+            "chapter": "Bài 5: Tiếng cười của hài kịch",
+            "summary": "Sử dụng từ ngữ địa phương; viết báo cáo nghiên cứu.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b18",
+            "number": 18,
+            "title": "Tuyên ngôn Độc lập (Hồ Chí Minh)",
+            "chapter": "Bài 6: Hồ Chí Minh – Văn hóa phải soi đường cho quốc dân đi",
+            "summary": "Bản hùng ca lập nước với lập luận đanh thép và dẫn chứng không thể chối cãi.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b19",
+            "number": 19,
+            "title": "Thơ chữ Hán Hồ Chí Minh (Chiều tối, Ngắm trăng, Cảnh khuya, Nguyên tiêu)",
+            "chapter": "Bài 6: Hồ Chí Minh – Văn hóa phải soi đường cho quốc dân đi",
+            "summary": "Phong thái ung dung, tình yêu thiên nhiên và tinh thần thép của Bác.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b20",
+            "number": 20,
+            "title": "Những trò lố hay là Va-ren và Phan Bội Châu (Nguyễn Ái Quốc)",
+            "chapter": "Bài 6: Hồ Chí Minh – Văn hóa phải soi đường cho quốc dân đi",
+            "summary": "Nghệ thuật châm biếm sắc bén đối lập hai nhân cách.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b21",
+            "number": 21,
+            "title": "Thực hành tiếng Việt & Viết (Bài 6)",
+            "chapter": "Bài 6: Hồ Chí Minh – Văn hóa phải soi đường cho quốc dân đi",
+            "summary": "Biện pháp tăng tính khẳng định, phủ định; viết báo cáo dự án.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b22",
+            "number": 22,
+            "title": "Nghệ thuật băm thịt gà (Việc làng – Ngô Tất Tố)",
+            "chapter": "Bài 7: Sự thật trong tác phẩm kí",
+            "summary": "Bức tranh phong tục làng quê và nghệ thuật phóng sự sắc sảo.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b23",
+            "number": 23,
+            "title": "Bước vào đời (Đào Duy Anh) & Vĩ tuyến 17 (Xuân Phượng)",
+            "chapter": "Bài 7: Sự thật trong tác phẩm kí",
+            "summary": "Giá trị chân thực và cảm xúc của hồi kí lịch sử.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b24",
+            "number": 24,
+            "title": "Thực hành tiếng Việt & Viết (Bài 7)",
+            "chapter": "Bài 7: Sự thật trong tác phẩm kí",
+            "summary": "Ngôn ngữ trang trọng và thân mật; nghị luận về cách ứng xử của tuổi trẻ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b25",
+            "number": 25,
+            "title": "Pa-ra-na & Giáo dục khai phóng ở Việt Nam nhìn từ Đông Kinh Nghĩa Thục",
+            "chapter": "Bài 8: Dữ liệu trong văn bản thông tin",
+            "summary": "Đánh giá độ tin cậy của dữ liệu và bài học khai phóng dân trí.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b26",
+            "number": 26,
+            "title": "Đời muối & Sách thay đổi lịch sử loài người",
+            "chapter": "Bài 8: Dữ liệu trong văn bản thông tin",
+            "summary": "Vai trò tri thức và lịch sử văn minh nhân loại; bảo vệ quyền sở hữu trí tuệ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b27",
+            "number": 27,
+            "title": "Nhà tôi, Chiều xuân, Đường tới thành phố & Ôn thi tốt nghiệp THPT",
+            "chapter": "Bài 9: Văn học và cuộc đời",
+            "summary": "Tổng hợp kiến thức đọc hiểu và nghị luận văn học, nghị luận xã hội lớp 12.",
             "questions": []
           }
         ]
@@ -24699,7 +28843,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-12-b1",
             "number": 1,
-            "title": "Định hướng nghề thể thao và duy trì lối sống năng động",
+            "title": "Bài 1: Định hướng nghề thể thao và duy trì lối sống năng động",
             "chapter": "Phần 1: Kiến thức chung",
             "summary": "Các ngành nghề thể dục thể thao và duy trì tập luyện suốt đời.",
             "questions": []
@@ -24707,33 +28851,65 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "gdtc-12-b2",
             "number": 2,
-            "title": "Bóng đá 12: Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Tổ chức đội hình 7 người, 11 người và luật thi đấu bóng đá.",
+            "title": "Bài 2: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12",
+            "summary": "Thực hành Tổ chức đội hình 7 người.",
             "questions": []
           },
           {
             "id": "gdtc-12-b3",
             "number": 3,
-            "title": "Bóng chuyền 12: Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Phối hợp tấn công nhanh, phòng thủ hàng sau và trọng tài.",
+            "title": "Bài 3: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng đá 12",
+            "summary": "Luyện tập 11 người và luật thi đấu bóng đá. và trò chơi vận động.",
             "questions": []
           },
           {
             "id": "gdtc-12-b4",
             "number": 4,
-            "title": "Bóng rổ 12: Hoàn thiện kĩ chiến thuật thi đấu",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Phản công nhanh, kèm người toàn sân và luật thi đấu.",
+            "title": "Bài 4: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12",
+            "summary": "Thực hành Phối hợp tấn công nhanh.",
             "questions": []
           },
           {
             "id": "gdtc-12-b5",
             "number": 5,
-            "title": "Cầu lông 12: Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi",
-            "chapter": "Phần 2: Thể thao tự chọn",
-            "summary": "Chiến thuật điều cầu, tấn công và luật thi đấu cầu lông.",
+            "title": "Bài 5: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng chuyền 12",
+            "summary": "Luyện tập phòng thủ hàng sau và trọng tài. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b6",
+            "number": 6,
+            "title": "Bài 6: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12",
+            "summary": "Thực hành Phản công nhanh.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b7",
+            "number": 7,
+            "title": "Bài 7: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn – Bóng rổ 12",
+            "summary": "Luyện tập kèm người toàn sân và luật thi đấu. và trò chơi vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b8",
+            "number": 8,
+            "title": "Bài 8: Kĩ thuật cơ bản – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12",
+            "summary": "Thực hành Chiến thuật điều cầu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b9",
+            "number": 9,
+            "title": "Bài 9: Phối hợp vận dụng – Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi",
+            "chapter": "Phần 2: Thể thao tự chọn – Cầu lông 12",
+            "summary": "Luyện tập tấn công và luật thi đấu cầu lông. và trò chơi vận động.",
             "questions": []
           }
         ]
@@ -24746,7 +28922,7 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-12-b1",
             "number": 1,
-            "title": "Chủ đề 1: Phát triển các mối quan hệ tốt đẹp với thầy cô và bạn bè",
+            "title": "Bài 1: Nhận diện & Khám phá – Phát triển các mối quan hệ tốt đẹp với thầy cô và bạn bè",
             "chapter": "Chủ đề 1: Phát triển quan hệ tốt đẹp",
             "summary": "Gìn giữ kỉ niệm tuổi học trò và kĩ năng hợp tác trưởng thành.",
             "questions": []
@@ -24754,49 +28930,121 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hdtn-12-b2",
             "number": 2,
-            "title": "Chủ đề 2–3: Tôi trưởng thành và hoàn thiện bản thân",
-            "chapter": "Chủ đề 2–3: Tôi trưởng thành",
-            "summary": "Tư duy phản biện, trách nhiệm công dân và bản lĩnh vượt áp lực.",
+            "title": "Bài 2: Thực hành & Vận dụng – Phát triển các mối quan hệ tốt đẹp với thầy cô và bạn bè",
+            "chapter": "Chủ đề 1: Phát triển quan hệ tốt đẹp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Phát triển các mối quan hệ tốt đẹp với thầy cô và bạn bè.",
             "questions": []
           },
           {
             "id": "hdtn-12-b3",
             "number": 3,
-            "title": "Chủ đề 4: Trách nhiệm với gia đình và tự lập tài chính",
-            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
-            "summary": "Chuẩn bị tâm thế tự lập khi bước vào đại học hoặc đi làm.",
+            "title": "Bài 3: Tìm hiểu – Tôi trưởng thành",
+            "chapter": "Chủ đề 2: Tôi trưởng thành",
+            "summary": "Tư duy phản biện, trách nhiệm công dân và bản lĩnh vượt áp lực.",
             "questions": []
           },
           {
             "id": "hdtn-12-b4",
             "number": 4,
-            "title": "Chủ đề 5: Tổ chức hoạt động tình nguyện và công dân số",
-            "chapter": "Chủ đề 5: Tham gia phát triển cộng đồng",
-            "summary": "Ứng xử có trách nhiệm trong cộng đồng và xã hội số.",
+            "title": "Bài 4: Thực hành – Tôi trưởng thành",
+            "chapter": "Chủ đề 2: Tôi trưởng thành",
+            "summary": "Vận dụng và chia sẻ kết quả trải nghiệm về tôi trưởng thành.",
             "questions": []
           },
           {
             "id": "hdtn-12-b5",
             "number": 5,
-            "title": "Chủ đề 6: Hành động vì phát triển bền vững",
-            "chapter": "Chủ đề 6: Bảo vệ môi trường",
-            "summary": "Thực hiện sáng kiến bảo vệ tài nguyên và môi trường.",
+            "title": "Bài 5: Tìm hiểu – hoàn thiện bản thân",
+            "chapter": "Chủ đề 3: Hoàn thiện bản thân",
+            "summary": "Tư duy phản biện, trách nhiệm công dân và bản lĩnh vượt áp lực.",
             "questions": []
           },
           {
             "id": "hdtn-12-b6",
             "number": 6,
-            "title": "Chủ đề 7: Tìm hiểu hệ thống đào tạo đại học, cao đẳng, nghề nghiệp",
-            "chapter": "Chủ đề 7: Tư vấn tuyển sinh và chọn nghề",
-            "summary": "Phân tích chỉ tiêu tuyển sinh, cơ hội việc làm và xu hướng ngành nghề.",
+            "title": "Bài 6: Thực hành – hoàn thiện bản thân",
+            "chapter": "Chủ đề 3: Hoàn thiện bản thân",
+            "summary": "Rèn luyện kĩ năng và đánh giá hoạt động về hoàn thiện bản thân.",
             "questions": []
           },
           {
             "id": "hdtn-12-b7",
             "number": 7,
-            "title": "Chủ đề 8: Hoàn thiện hồ sơ định hướng nghề nghiệp tương lai",
+            "title": "Bài 7: Nhận diện & Khám phá – Trách nhiệm với gia đình và tự lập tài chính",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Chuẩn bị tâm thế tự lập khi bước vào đại học hoặc đi làm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b8",
+            "number": 8,
+            "title": "Bài 8: Thực hành & Vận dụng – Trách nhiệm với gia đình và tự lập tài chính",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Trách nhiệm với gia đình và tự lập tài chính.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b9",
+            "number": 9,
+            "title": "Bài 9: Nhận diện & Khám phá – Tổ chức hoạt động tình nguyện và công dân số",
+            "chapter": "Chủ đề 5: Tham gia phát triển cộng đồng",
+            "summary": "Ứng xử có trách nhiệm trong cộng đồng và xã hội số.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành & Vận dụng – Tổ chức hoạt động tình nguyện và công dân số",
+            "chapter": "Chủ đề 5: Tham gia phát triển cộng đồng",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tổ chức hoạt động tình nguyện và công dân số.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b11",
+            "number": 11,
+            "title": "Bài 11: Nhận diện & Khám phá – Hành động vì phát triển bền vững",
+            "chapter": "Chủ đề 6: Bảo vệ môi trường",
+            "summary": "Thực hiện sáng kiến bảo vệ tài nguyên và môi trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành & Vận dụng – Hành động vì phát triển bền vững",
+            "chapter": "Chủ đề 6: Bảo vệ môi trường",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Hành động vì phát triển bền vững.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b13",
+            "number": 13,
+            "title": "Bài 13: Nhận diện & Khám phá – Tìm hiểu hệ thống đào tạo đại học, cao đẳng, nghề nghiệp",
+            "chapter": "Chủ đề 7: Tư vấn tuyển sinh và chọn nghề",
+            "summary": "Phân tích chỉ tiêu tuyển sinh, cơ hội việc làm và xu hướng ngành nghề.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành & Vận dụng – Tìm hiểu hệ thống đào tạo đại học, cao đẳng, nghề nghiệp",
+            "chapter": "Chủ đề 7: Tư vấn tuyển sinh và chọn nghề",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Tìm hiểu hệ thống đào tạo đại học, cao đẳng, nghề nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b15",
+            "number": 15,
+            "title": "Bài 15: Nhận diện & Khám phá – Hoàn thiện hồ sơ định hướng nghề nghiệp tương lai",
             "chapter": "Chủ đề 8: Hồ sơ và quyết định nghề nghiệp",
             "summary": "Xây dựng CV, kế hoạch học tập đại học hoặc gia nhập thị trường lao động.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành & Vận dụng – Hoàn thiện hồ sơ định hướng nghề nghiệp tương lai",
+            "chapter": "Chủ đề 8: Hồ sơ và quyết định nghề nghiệp",
+            "summary": "Thảo luận nhóm, xử lí tình huống và thực hành trải nghiệm chủ đề Hoàn thiện hồ sơ định hướng nghề nghiệp tương lai.",
             "questions": []
           }
         ]
