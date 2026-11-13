@@ -944,6 +944,290 @@ export const GRADES_DATA: GradeItem[] = [
             "questions": []
           }
         ]
+      },
+      {
+        "id": "amnhac-1",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-1-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Âm thanh kì diệu",
+            "chapter": "Chủ đề 1: Âm thanh kì diệu",
+            "summary": "Nhận biết âm thanh tự nhiên và âm nhạc; hát bài Tiếng trống trường em; đọc nhạc mi-son.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Việt Nam yêu thương",
+            "chapter": "Chủ đề 2: Việt Nam yêu thương",
+            "summary": "Hát Quốc ca (nghe), Lý cây xanh; làm quen nhịp điệu dân ca Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Mái trường thân yêu",
+            "chapter": "Chủ đề 3: Mái trường thân yêu",
+            "summary": "Hát Mái trường em, Cô giáo như mẹ hiền; thực hành gõ đệm theo phách.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Vòng tay bè bạn",
+            "chapter": "Chủ đề 4: Vòng tay bè bạn",
+            "summary": "Hát Múa vui, Bạn ơi lắng nghe; thực hành đọc nhạc 3 nốt Đô-Rê-Mi.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Nhịp điệu mùa xuân",
+            "chapter": "Chủ đề 5: Nhịp điệu mùa xuân",
+            "summary": "Hát Sắp đến Tết rồi; cảm nhận nhịp điệu vui tươi ngày xuân.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Về miền dân ca",
+            "chapter": "Chủ đề 6: Về miền dân ca",
+            "summary": "Nghe và vận động theo dân ca Bắc Bộ, Trung Bộ, Nam Bộ; hát Xòe hoa.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Gia đình",
+            "chapter": "Chủ đề 7: Gia đình",
+            "summary": "Hát Ba ngọn nến lung linh, Mẹ đi vắng; gõ đệm bằng thanh phách.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-1-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Vui đón hè",
+            "chapter": "Chủ đề 8: Vui đón hè",
+            "summary": "Hát Chim chích bông, Hè về vui sao; ôn tập và biểu diễn cuối năm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-1",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-1-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Mĩ thuật trong nhà trường",
+            "chapter": "Chủ đề 1: Mĩ thuật trong nhà trường",
+            "summary": "Làm quen dụng cụ vẽ, đất nặn, giấy màu; nhận biết tranh vẽ trong trường học.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Sáng tạo từ những chấm màu",
+            "chapter": "Chủ đề 2: Sáng tạo từ những chấm màu",
+            "summary": "Sử dụng chấm màu tạo hình bông hoa, con vật, bức tranh đơn giản.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Nét vẽ của em",
+            "chapter": "Chủ đề 3: Nét vẽ của em",
+            "summary": "Nhận biết nét thẳng, nét cong, nét gấp khúc, nét xoắn ốc trong tạo hình.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
+            "chapter": "Chủ đề 4: Sáng tạo từ những hình cơ bản",
+            "summary": "Ghép hình tròn, vuông, tam giác, chữ nhật tạo ngôi nhà, đồ vật.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
+            "chapter": "Chủ đề 5: Màu cơ bản trong mĩ thuật",
+            "summary": "Nhận biết 3 màu cơ bản: đỏ, vàng, lam và cách phối màu đơn giản.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
+            "chapter": "Chủ đề 6: Sáng tạo từ những khối cơ bản",
+            "summary": "Nặn và tạo hình từ khối cầu, khối trụ, khối lập phương.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Hoa, quả",
+            "chapter": "Chủ đề 7: Hoa, quả",
+            "summary": "Quan sát, vẽ và nặn một số loại hoa, quả quen thuộc.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Người thân của em",
+            "chapter": "Chủ đề 8: Người thân của em",
+            "summary": "Vẽ chân dung hoặc hoạt động của người thân trong gia đình.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-1-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Em là học sinh lớp 1",
+            "chapter": "Chủ đề 9: Em là học sinh lớp 1",
+            "summary": "Sáng tạo sản phẩm mĩ thuật về hoạt động học tập, vui chơi lớp 1.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-1",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-1-b1",
+            "number": 1,
+            "title": "Vệ sinh cá nhân và an toàn khi tập luyện",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Trang phục gọn gàng, khởi động trước khi tập và vệ sinh sau vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Đội hình đội ngũ",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Tư thế đứng nghiêm, đứng nghỉ; tập hợp hàng dọc, hàng ngang, quay các hướng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Bài tập thể dục",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Động tác vươn thở, tay, chân, vặn mình, bụng, phối hợp, điều hòa.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Vận động đầu, cổ, tay, chân, đi thường, chạy nhẹ nhàng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Môn Bóng rổ (Làm quen)",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Làm quen bóng, di chuyển không bóng, dẫn bóng, ném rổ hai tay trước ngực.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-1-b6",
+            "number": 6,
+            "title": "Chủ đề 2: Môn Bơi (Làm quen nước)",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Làm quen với nước, nín thở, tập thở trong nước và giữ thăng bằng.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-1",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-1-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Em và mái trường mến yêu",
+            "chapter": "Chủ đề 1: Em và mái trường mến yêu",
+            "summary": "Làm quen thầy cô, bạn bè, nội quy lớp học và khuôn viên trường tiểu học.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Em là học sinh lớp 1",
+            "chapter": "Chủ đề 2: Em là học sinh lớp 1",
+            "summary": "Giới thiệu bản thân, rèn nếp sống ngăn nắp và thói quen học tập tốt.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Thầy cô của em",
+            "chapter": "Chủ đề 3: Thầy cô của em",
+            "summary": "Thể hiện lòng biết ơn, lễ phép với thầy cô giáo và cán bộ nhà trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Tự chăm sóc bản thân",
+            "chapter": "Chủ đề 4: Tự chăm sóc bản thân",
+            "summary": "Thực hành vệ sinh răng miệng, rửa tay, mặc trang phục phù hợp thời tiết.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Gia đình yêu thương",
+            "chapter": "Chủ đề 5: Gia đình yêu thương",
+            "summary": "Quan tâm, giúp đỡ ông bà, cha mẹ những việc vừa sức ở nhà.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Quê hương của em",
+            "chapter": "Chủ đề 6: Quê hương của em",
+            "summary": "Tìm hiểu cảnh đẹp, truyền thống quê hương và giữ gìn vệ sinh nơi công cộng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b7",
+            "number": 7,
+            "title": "Chủ đề 7: An toàn trong cuộc sống",
+            "chapter": "Chủ đề 7: An toàn trong cuộc sống",
+            "summary": "Nhận biết tình huống nguy hiểm ở nhà, trường học và cách phòng tránh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Thiên nhiên quanh em",
+            "chapter": "Chủ đề 8: Thiên nhiên quanh em",
+            "summary": "Chăm sóc cây xanh, bảo vệ vật nuôi và giữ gìn môi trường xanh sạch.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-1-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Chào mùa hè vui",
+            "chapter": "Chủ đề 9: Chào mùa hè vui",
+            "summary": "Tổng kết năm học, lập kế hoạch nghỉ hè an toàn, bổ ích.",
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -2123,6 +2407,298 @@ export const GRADES_DATA: GradeItem[] = [
             "questions": []
           }
         ]
+      },
+      {
+        "id": "amnhac-2",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-2-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Sắc màu âm thanh",
+            "chapter": "Chủ đề 1: Sắc màu âm thanh",
+            "summary": "Nhận biết cao độ, trường độ; hát Ngày mùa vui; thực hành nhạc cụ gõ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Vui đến trường",
+            "chapter": "Chủ đề 2: Vui đến trường",
+            "summary": "Hát Em yêu trường em, Học sinh lớp 2 chăm ngoan; đọc nhạc 4 nốt.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Nhịp điệu quê hương",
+            "chapter": "Chủ đề 3: Nhịp điệu quê hương",
+            "summary": "Hát Quê hương tươi đẹp; nghe dân ca và cảm nhận nhịp 2/4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Cánh én mùa xuân",
+            "chapter": "Chủ đề 4: Cánh én mùa xuân",
+            "summary": "Hát Mùa xuân đến rồi, Hoa lá mùa xuân; vận động phụ họa theo nhạc.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Vui Tết Trung thu",
+            "chapter": "Chủ đề 5: Vui Tết Trung thu",
+            "summary": "Hát Rước đèn tháng Tám; thực hành gõ đệm nhịp nhàng.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Chia sẻ yêu thương",
+            "chapter": "Chủ đề 6: Chia sẻ yêu thương",
+            "summary": "Hát Chúc mừng sinh nhật, Bàn tay mẹ; thể hiện tình cảm gia đình, bạn bè.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Thiên nhiên tươi đẹp",
+            "chapter": "Chủ đề 7: Thiên nhiên tươi đẹp",
+            "summary": "Hát Chim sáo, Con chim vành khuyên; đọc nhạc kết hợp vận động.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-2-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Chào mùa hè",
+            "chapter": "Chủ đề 8: Chào mùa hè",
+            "summary": "Hát Dàn đồng ca mùa hạ; ôn tập các bài hát đã học trong năm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-2",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-2-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Thế giới mĩ thuật qua những chấm",
+            "chapter": "Chủ đề 1: Thế giới mĩ thuật qua những chấm",
+            "summary": "Tạo bức tranh phong cảnh hoặc sinh hoạt bằng chấm màu.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Những sắc màu âm thanh",
+            "chapter": "Chủ đề 2: Những sắc màu âm thanh",
+            "summary": "Thể hiện cảm xúc âm nhạc qua đường nét và màu sắc.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
+            "chapter": "Chủ đề 3: Vẻ đẹp của thiên nhiên",
+            "summary": "Vẽ, cắt dán cảnh thiên nhiên, cây cối, bầu trời.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Mái trường thân thiện",
+            "chapter": "Chủ đề 4: Mái trường thân thiện",
+            "summary": "Vẽ và tạo hình hoạt động vui chơi ở sân trường.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Ngôi nhà của em",
+            "chapter": "Chủ đề 5: Ngôi nhà của em",
+            "summary": "Tạo hình ngôi nhà từ vật liệu tái chế hoặc giấy bìa.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Con vật quen thuộc",
+            "chapter": "Chủ đề 6: Con vật quen thuộc",
+            "summary": "Nặn và vẽ các con vật nuôi trong gia đình.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Khu vườn kỳ diệu",
+            "chapter": "Chủ đề 7: Khu vườn kỳ diệu",
+            "summary": "Phối hợp nhiều chất liệu tạo mô hình khu vườn nhiều màu sắc.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Quà tặng ý nghĩa",
+            "chapter": "Chủ đề 8: Quà tặng ý nghĩa",
+            "summary": "Làm bưu thiếp, đồ thủ công tặng người thân, thầy cô.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Bữa tiệc vui",
+            "chapter": "Chủ đề 9: Bữa tiệc vui",
+            "summary": "Tạo hình bánh, hoa quả, mâm cỗ bằng đất nặn.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-2-b10",
+            "number": 10,
+            "title": "Chủ đề 10: An toàn giao thông",
+            "chapter": "Chủ đề 10: An toàn giao thông",
+            "summary": "Vẽ tranh tuyên truyền đi bộ, sang đường an toàn.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-2",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-2-b1",
+            "number": 1,
+            "title": "Chế độ dinh dưỡng và vệ sinh tập luyện",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Ăn uống đủ chất, uống nước hợp lí và đảm bảo an toàn sân bãi.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Đội hình đội ngũ",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Chuyển đổi hàng dọc, hàng ngang thành vòng tròn; giậm chân tại chỗ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Bài tập thể dục",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Bài thể dục phát triển chung 8 động tác: vươn thở, tay, chân, lườn, bụng, phối hợp, nhảy, điều hòa.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Đi theo vạch kẻ, vòng trái/phải, động tác quỳ, ngồi, bật nhảy cơ bản.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Môn Bóng rổ",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Di chuyển, dẫn bóng tại chỗ và di chuyển, tung bắt bóng hai tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-2-b6",
+            "number": 6,
+            "title": "Chủ đề 2: Môn Bơi",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Ôm gối nổi người, duỗi thẳng chân tay, đạp thành bể lướt nước.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-2",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-2-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Khám phá bản thân",
+            "chapter": "Chủ đề 1: Khám phá bản thân",
+            "summary": "Nhận biết điểm mạnh, sở thích và những việc em có thể tự làm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Rèn nếp sống",
+            "chapter": "Chủ đề 2: Rèn nếp sống",
+            "summary": "Sắp xếp góc học tập, đồ dùng cá nhân gọn gàng, đúng giờ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Em yêu trường em",
+            "chapter": "Chủ đề 3: Em yêu trường em",
+            "summary": "Tham gia giữ gìn trường lớp sạch đẹp, đoàn kết với bạn bè.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Tự phục vụ bản thân",
+            "chapter": "Chủ đề 4: Tự phục vụ bản thân",
+            "summary": "Tự chuẩn bị sách vở, quần áo, tự gấp chăn màn.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Gia đình thân thương",
+            "chapter": "Chủ đề 5: Gia đình thân thương",
+            "summary": "Lắng nghe, chia sẻ và giúp đỡ công việc nhà cùng bố mẹ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Tự chăm sóc và bảo vệ bản thân",
+            "chapter": "Chủ đề 6: Tự chăm sóc và bảo vệ bản thân",
+            "summary": "Phòng tránh ngã, bỏng, điện giật và không đi theo người lạ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Chia sẻ cộng đồng",
+            "chapter": "Chủ đề 7: Chia sẻ cộng đồng",
+            "summary": "Tham gia hoạt động quyên góp, giúp đỡ bạn có hoàn cảnh khó khăn.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Môi trường quanh em",
+            "chapter": "Chủ đề 8: Môi trường quanh em",
+            "summary": "Phân loại rác thải, tiết kiệm điện nước trong gia đình và nhà trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-2-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Em tìm hiểu nghề nghiệp",
+            "chapter": "Chủ đề 9: Em tìm hiểu nghề nghiệp",
+            "summary": "Làm quen một số nghề gần gũi quanh em và công cụ lao động của nghề.",
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -2135,14 +2711,14 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "toan-3",
         "name": "Toán",
-        "icon": "🔢",
+        "icon": "📐",
         "lessons": [
           {
             "id": "toan-3-b1",
             "number": 1,
             "title": "Bài 1: Ôn tập các số đến 1 000",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Đọc, viết, so sánh số có 3 chữ số.",
+            "summary": "Đọc, viết, so sánh và phân tích cấu tạo số có ba chữ số.",
             "questions": []
           },
           {
@@ -2150,7 +2726,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Ôn tập phép cộng, phép trừ trong phạm vi 1 000",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Cộng trừ có nhớ trong phạm vi 1000.",
+            "summary": "Đặt tính và tính cộng, trừ có nhớ và không nhớ trong phạm vi 1 000.",
             "questions": []
           },
           {
@@ -2158,7 +2734,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Tìm thành phần trong phép cộng, phép trừ",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Tìm số hạng, số bị trừ, số trừ chưa biết.",
+            "summary": "Tìm số hạng chưa biết, số bị trừ, số trừ.",
             "questions": []
           },
           {
@@ -2166,7 +2742,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Ôn tập bảng nhân 2; 5, bảng chia 2; 5",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Tính nhẩm bảng nhân chia 2 và 5.",
+            "summary": "Vận dụng bảng nhân, chia 2 và 5 vào tính nhẩm và giải toán.",
             "questions": []
           },
           {
@@ -2174,7 +2750,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Bảng nhân 3, bảng chia 3",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Thuộc và vận dụng bảng nhân, chia 3.",
+            "summary": "Hình thành và ghi nhớ bảng nhân 3, bảng chia 3.",
             "questions": []
           },
           {
@@ -2182,7 +2758,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Bảng nhân 4, bảng chia 4",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Thuộc và vận dụng bảng nhân, chia 4.",
+            "summary": "Hình thành và ghi nhớ bảng nhân 4, bảng chia 4.",
             "questions": []
           },
           {
@@ -2190,7 +2766,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Ôn tập hình học và đo lường",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Ôn tập độ dài, khối lượng, dung tích, hình phẳng.",
+            "summary": "Đo độ dài, khối lượng, xem đồng hồ và nhận biết hình phẳng, hình khối.",
             "questions": []
           },
           {
@@ -2198,7 +2774,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Luyện tập chung",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Củng cố Chủ đề 1.",
+            "summary": "Củng cố kiến thức cộng, trừ, bảng nhân chia 2, 3, 4, 5.",
             "questions": []
           },
           {
@@ -2206,7 +2782,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Bảng nhân 6, bảng chia 6",
             "chapter": "Chủ đề 2: Bảng nhân, bảng chia",
-            "summary": "Thuộc và vận dụng bảng nhân, chia 6.",
+            "summary": "Ghi nhớ bảng nhân 6, bảng chia 6 và vận dụng giải toán.",
             "questions": []
           },
           {
@@ -2214,7 +2790,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 10,
             "title": "Bài 10: Bảng nhân 7, bảng chia 7",
             "chapter": "Chủ đề 2: Bảng nhân, bảng chia",
-            "summary": "Thuộc và vận dụng bảng nhân, chia 7.",
+            "summary": "Ghi nhớ bảng nhân 7, bảng chia 7.",
             "questions": []
           },
           {
@@ -2222,7 +2798,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: Bảng nhân 8, bảng chia 8",
             "chapter": "Chủ đề 2: Bảng nhân, bảng chia",
-            "summary": "Thuộc và vận dụng bảng nhân, chia 8.",
+            "summary": "Ghi nhớ bảng nhân 8, bảng chia 8.",
             "questions": []
           },
           {
@@ -2230,7 +2806,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 12,
             "title": "Bài 12: Bảng nhân 9, bảng chia 9",
             "chapter": "Chủ đề 2: Bảng nhân, bảng chia",
-            "summary": "Thuộc và vận dụng bảng nhân, chia 9.",
+            "summary": "Ghi nhớ bảng nhân 9, bảng chia 9.",
             "questions": []
           },
           {
@@ -2246,7 +2822,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Một phần mấy",
             "chapter": "Chủ đề 2: Bảng nhân, bảng chia",
-            "summary": "Nhận biết 1/2, 1/3, ..., 1/9.",
+            "summary": "Nhận biết 1/2, 1/3, ..., 1/9 của một hình hoặc một nhóm đối tượng.",
             "questions": []
           },
           {
@@ -2254,7 +2830,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 15,
             "title": "Bài 15: Luyện tập chung",
             "chapter": "Chủ đề 2: Bảng nhân, bảng chia",
-            "summary": "Củng cố bảng nhân, chia đến 9.",
+            "summary": "Ôn tập toàn bộ bảng nhân, chia từ 2 đến 9.",
             "questions": []
           },
           {
@@ -2262,7 +2838,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Điểm ở giữa, trung điểm của đoạn thẳng",
             "chapter": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
-            "summary": "Xác định điểm ở giữa và trung điểm.",
+            "summary": "Nhận biết điểm ở giữa và trung điểm chia đoạn thẳng thành 2 phần bằng nhau.",
             "questions": []
           },
           {
@@ -2270,15 +2846,15 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 17,
             "title": "Bài 17: Hình tròn. Tâm, bán kính, đường kính của hình tròn",
             "chapter": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
-            "summary": "Đường kính gấp 2 lần bán kính.",
+            "summary": "Đường kính gấp 2 lần bán kính; dùng compa vẽ hình tròn.",
             "questions": []
           },
           {
             "id": "toan-3-b18",
             "number": 18,
-            "title": "Bài 18: Góc vuông, góc không vuông",
+            "title": "Bài 18: Góc, góc vuông, góc không vuông",
             "chapter": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
-            "summary": "Dùng ê ke kiểm tra góc vuông.",
+            "summary": "Dùng ê ke kiểm tra góc vuông và góc không vuông.",
             "questions": []
           },
           {
@@ -2286,264 +2862,503 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 19,
             "title": "Bài 19: Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông",
             "chapter": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
-            "summary": "Đặc điểm góc và cạnh của hình chữ nhật, hình vuông.",
+            "summary": "Đặc điểm cạnh và góc vuông của hình chữ nhật, hình vuông.",
             "questions": []
           },
           {
             "id": "toan-3-b20",
             "number": 20,
-            "title": "Bài 20: Khối lập phương, khối hộp chữ nhật",
+            "title": "Bài 20: Thực hành vẽ góc vuông, vẽ đường tròn, hình vuông, hình chữ nhật",
             "chapter": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
-            "summary": "Số đỉnh (8), số cạnh (12), số mặt (6).",
+            "summary": "Vẽ hình bằng thước thẳng, ê ke, compa.",
             "questions": []
           },
           {
             "id": "toan-3-b21",
             "number": 21,
-            "title": "Bài 21: Luyện tập chung",
+            "title": "Bài 21: Khối lập phương, khối hộp chữ nhật",
             "chapter": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
-            "summary": "Củng cố hình phẳng, hình khối.",
+            "summary": "Đếm số đỉnh (8), số cạnh (12), số mặt (6) của khối lập phương, khối hộp chữ nhật.",
             "questions": []
           },
           {
             "id": "toan-3-b22",
             "number": 22,
-            "title": "Bài 22: Phép nhân số có hai chữ số với số có một chữ số",
-            "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
-            "summary": "Đặt tính nhân trong phạm vi 100.",
+            "title": "Bài 22: Luyện tập chung",
+            "chapter": "Chủ đề 3: Làm quen với hình phẳng, hình khối",
+            "summary": "Ôn tập kiến thức hình học phẳng và hình khối.",
             "questions": []
           },
           {
             "id": "toan-3-b23",
             "number": 23,
-            "title": "Bài 23: Phép chia số có hai chữ số cho số có một chữ số",
+            "title": "Bài 23: Nhân số có hai chữ số với số có một chữ số",
             "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
-            "summary": "Chia hết và chia có dư.",
+            "summary": "Đặt tính và tính nhân số có 2 chữ số với số có 1 chữ số.",
             "questions": []
           },
           {
             "id": "toan-3-b24",
             "number": 24,
-            "title": "Bài 24: Luyện tập chung",
+            "title": "Bài 24: Gấp một số lên một số lần",
             "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
-            "summary": "Củng cố nhân chia phạm vi 100.",
+            "summary": "Muốn gấp một số lên một số lần, ta lấy số đó nhân với số lần.",
             "questions": []
           },
           {
             "id": "toan-3-b25",
             "number": 25,
-            "title": "Bài 25: Giải bài toán bằng hai bước tính",
+            "title": "Bài 25: Phép chia hết, phép chia có dư",
             "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
-            "summary": "Phân tích và giải bài toán có hai phép tính.",
+            "summary": "Số dư luôn bé hơn số chia.",
             "questions": []
           },
           {
             "id": "toan-3-b26",
             "number": 26,
-            "title": "Bài 27: Mi-li-mét",
-            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
-            "summary": "1 cm = 10 mm.",
+            "title": "Bài 26: Chia số có hai chữ số cho số có một chữ số",
+            "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+            "summary": "Thực hiện chia từng lượt từ trái sang phải.",
             "questions": []
           },
           {
             "id": "toan-3-b27",
             "number": 27,
-            "title": "Bài 28: Gam",
-            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
-            "summary": "1 kg = 1 000 g.",
+            "title": "Bài 27: Giảm một số đi một số lần",
+            "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+            "summary": "Muốn giảm một số đi một số lần, ta chia số đó cho số lần.",
             "questions": []
           },
           {
             "id": "toan-3-b28",
             "number": 28,
-            "title": "Bài 29: Mi-li-lít",
-            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
-            "summary": "1 lít = 1 000 ml.",
+            "title": "Bài 28: Bài toán giải bằng hai bước tính",
+            "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+            "summary": "Phân tích và trình bày bài toán có hai phép tính.",
             "questions": []
           },
           {
             "id": "toan-3-b29",
             "number": 29,
-            "title": "Bài 30: Nhiệt độ. Đơn vị đo nhiệt độ",
-            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
-            "summary": "Đơn vị độ C (°C) và đọc nhiệt kế.",
+            "title": "Bài 29: Luyện tập chung",
+            "chapter": "Chủ đề 4: Phép nhân, phép chia trong phạm vi 100",
+            "summary": "Củng cố nhân chia trong phạm vi 100 và giải toán.",
             "questions": []
           },
           {
             "id": "toan-3-b30",
             "number": 30,
-            "title": "Bài 32: Nhân số có ba chữ số với số có một chữ số",
-            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
-            "summary": "Đặt tính nhân trong phạm vi 1000.",
+            "title": "Bài 30: Mi-li-mét",
+            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+            "summary": "1 cm = 10 mm; 1 m = 1 000 mm.",
             "questions": []
           },
           {
             "id": "toan-3-b31",
             "number": 31,
-            "title": "Bài 33: Chia số có ba chữ số cho số có một chữ số",
-            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
-            "summary": "Chia hết và chia có dư trong phạm vi 1000.",
+            "title": "Bài 31: Gam",
+            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+            "summary": "1 kg = 1 000 g; cân và đổi đơn vị khối lượng.",
             "questions": []
           },
           {
             "id": "toan-3-b32",
             "number": 32,
-            "title": "Bài 35: Biểu thức số. Tính giá trị của biểu thức số",
-            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
-            "summary": "Thứ tự thực hiện nhân/chia trước, cộng/trừ sau; trong ngoặc trước.",
+            "title": "Bài 32: Mi-li-lít",
+            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+            "summary": "1 lít = 1 000 ml; đọc vạch chia dung tích.",
             "questions": []
           },
           {
             "id": "toan-3-b33",
             "number": 33,
-            "title": "Bài 45: Các số có bốn chữ số. Số 10 000",
-            "chapter": "Chủ đề 8: Các số đến 10 000",
-            "summary": "Đọc, viết số đến 10 000.",
+            "title": "Bài 33: Nhiệt độ. Đơn vị đo nhiệt độ",
+            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+            "summary": "Đọc nhiệt kế theo độ C (°C).",
             "questions": []
           },
           {
             "id": "toan-3-b34",
             "number": 34,
-            "title": "Bài 46: So sánh các số trong phạm vi 10 000",
-            "chapter": "Chủ đề 8: Các số đến 10 000",
-            "summary": "So sánh từ hàng nghìn đến đơn vị.",
+            "title": "Bài 34: Thực hành và trải nghiệm với các đơn vị mm, g, ml, độ C",
+            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+            "summary": "Đo thực tế độ dài, khối lượng, dung tích, nhiệt độ.",
             "questions": []
           },
           {
             "id": "toan-3-b35",
             "number": 35,
-            "title": "Bài 47: Làm quen với chữ số La Mã",
-            "chapter": "Chủ đề 8: Các số đến 10 000",
-            "summary": "Các chữ số I, V, X (từ 1 đến 20).",
+            "title": "Bài 35: Luyện tập chung",
+            "chapter": "Chủ đề 5: Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+            "summary": "Đổi và tính toán với các đơn vị đo đại lượng.",
             "questions": []
           },
           {
             "id": "toan-3-b36",
             "number": 36,
-            "title": "Bài 48: Làm tròn số đến hàng chục, hàng trăm",
-            "chapter": "Chủ đề 8: Các số đến 10 000",
-            "summary": "Quy tắc làm tròn số tự nhiên.",
+            "title": "Bài 36: Nhân số có ba chữ số với số có một chữ số",
+            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
+            "summary": "Đặt tính nhân số có 3 chữ số với số có 1 chữ số.",
             "questions": []
           },
           {
             "id": "toan-3-b37",
             "number": 37,
-            "title": "Bài 50: Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông",
-            "chapter": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
-            "summary": "Chu vi HCN = (a+b)x2; Chu vi HV = a x 4.",
+            "title": "Bài 37: Chia số có ba chữ số cho số có một chữ số",
+            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
+            "summary": "Đặt tính chia số có 3 chữ số cho số có 1 chữ số.",
             "questions": []
           },
           {
             "id": "toan-3-b38",
             "number": 38,
-            "title": "Bài 51: Diện tích của một hình. Xăng-ti-mét vuông",
-            "chapter": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
-            "summary": "Đơn vị cm².",
+            "title": "Bài 38: Biểu thức số. Tính giá trị của biểu thức số",
+            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
+            "summary": "Quy tắc cộng trừ từ trái sang phải, nhân chia trước cộng trừ sau, trong ngoặc trước.",
             "questions": []
           },
           {
             "id": "toan-3-b39",
             "number": 39,
-            "title": "Bài 52: Diện tích hình chữ nhật, diện tích hình vuông",
-            "chapter": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
-            "summary": "S_HCN = a x b; S_HV = a x a.",
-            "questions": [
-              {
-                "content": "Một hình chữ nhật có chiều dài 9 cm, chiều rộng 5 cm. Diện tích hình chữ nhật đó là:",
-                "option_a": "14 cm²",
-                "option_b": "28 cm²",
-                "option_c": "45 cm²",
-                "option_d": "40 cm²",
-                "correct": "C"
-              }
-            ]
+            "title": "Bài 39: So sánh số lớn gấp mấy lần số bé",
+            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
+            "summary": "Lấy số lớn chia cho số bé.",
+            "questions": []
           },
           {
             "id": "toan-3-b40",
             "number": 40,
-            "title": "Bài 54: Phép cộng trong phạm vi 10 000",
-            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
-            "summary": "Đặt tính cộng số có 4 chữ số.",
+            "title": "Bài 40: Luyện tập chung",
+            "chapter": "Chủ đề 6: Phép nhân, phép chia trong phạm vi 1 000",
+            "summary": "Củng cố tính giá trị biểu thức và nhân chia.",
             "questions": []
           },
           {
             "id": "toan-3-b41",
             "number": 41,
-            "title": "Bài 55: Phép trừ trong phạm vi 10 000",
-            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
-            "summary": "Đặt tính trừ số có 4 chữ số.",
+            "title": "Bài 41: Ôn tập phép nhân, phép chia trong phạm vi 100, 1 000",
+            "chapter": "Chủ đề 7: Ôn tập học kì 1",
+            "summary": "Ôn tập nhân chia phạm vi 1 000.",
             "questions": []
           },
           {
             "id": "toan-3-b42",
             "number": 42,
-            "title": "Bài 56: Nhân số có bốn chữ số với số có một chữ số",
-            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
-            "summary": "Nhân số có 4 chữ số.",
+            "title": "Bài 42: Ôn tập biểu thức số",
+            "chapter": "Chủ đề 7: Ôn tập học kì 1",
+            "summary": "Tính giá trị biểu thức có dấu ngoặc và không dấu ngoặc.",
             "questions": []
           },
           {
             "id": "toan-3-b43",
             "number": 43,
-            "title": "Bài 57: Chia số có bốn chữ số cho số có một chữ số",
-            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
-            "summary": "Chia số có 4 chữ số.",
+            "title": "Bài 43: Ôn tập hình học và đo lường",
+            "chapter": "Chủ đề 7: Ôn tập học kì 1",
+            "summary": "Góc vuông, hình chữ nhật, hình vuông, mm, g, ml.",
             "questions": []
           },
           {
             "id": "toan-3-b44",
             "number": 44,
-            "title": "Bài 59: Các số có năm chữ số. Số 100 000",
-            "chapter": "Chủ đề 11: Các số đến 100 000",
-            "summary": "Đọc, viết, so sánh và làm tròn số đến 100 000.",
+            "title": "Bài 44: Ôn tập chung",
+            "chapter": "Chủ đề 7: Ôn tập học kì 1",
+            "summary": "Tổng kết kiến thức Toán học kì 1 lớp 3.",
             "questions": []
           },
           {
             "id": "toan-3-b45",
             "number": 45,
-            "title": "Bài 63: Phép cộng trong phạm vi 100 000",
-            "chapter": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
-            "summary": "Cộng số có 5 chữ số.",
+            "title": "Bài 45: Các số có bốn chữ số. Số 10 000",
+            "chapter": "Chủ đề 8: Các số đến 10 000",
+            "summary": "Đọc, viết cấu tạo hàng nghìn, trăm, chục, đơn vị.",
             "questions": []
           },
           {
             "id": "toan-3-b46",
             "number": 46,
-            "title": "Bài 64: Phép trừ trong phạm vi 100 000",
-            "chapter": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
-            "summary": "Trừ số có 5 chữ số.",
+            "title": "Bài 46: So sánh các số trong phạm vi 10 000",
+            "chapter": "Chủ đề 8: Các số đến 10 000",
+            "summary": "So sánh từng hàng từ trái sang phải.",
             "questions": []
           },
           {
             "id": "toan-3-b47",
             "number": 47,
-            "title": "Bài 66: Xem đồng hồ. Tháng – năm",
-            "chapter": "Chủ đề 13: Xem đồng hồ. Tháng – Năm. Tiền Việt Nam",
-            "summary": "Xem giờ chính xác đến phút; 1 năm = 12 tháng.",
+            "title": "Bài 47: Làm quen với chữ số La Mã",
+            "chapter": "Chủ đề 8: Các số đến 10 000",
+            "summary": "Đọc và viết các số La Mã từ I đến XX.",
             "questions": []
           },
           {
             "id": "toan-3-b48",
             "number": 48,
-            "title": "Bài 68: Tiền Việt Nam",
-            "chapter": "Chủ đề 13: Xem đồng hồ. Tháng – Năm. Tiền Việt Nam",
-            "summary": "Tính toán mua bán với tiền Việt Nam.",
+            "title": "Bài 48: Làm tròn số đến hàng chục, hàng trăm",
+            "chapter": "Chủ đề 8: Các số đến 10 000",
+            "summary": "Quy tắc làm tròn số đến hàng chục, hàng trăm.",
             "questions": []
           },
           {
             "id": "toan-3-b49",
             "number": 49,
-            "title": "Bài 70: Nhân số có năm chữ số với số có một chữ số",
-            "chapter": "Chủ đề 14: Nhân, chia trong phạm vi 100 000",
-            "summary": "Nhân số có 5 chữ số.",
+            "title": "Bài 49: Luyện tập chung",
+            "chapter": "Chủ đề 8: Các số đến 10 000",
+            "summary": "Củng cố số có 4 chữ số, số La Mã và làm tròn số.",
             "questions": []
           },
           {
             "id": "toan-3-b50",
             "number": 50,
+            "title": "Bài 50: Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông",
+            "chapter": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+            "summary": "Chu vi hình chữ nhật = (dài + rộng) x 2; chu vi hình vuông = cạnh x 4.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b51",
+            "number": 51,
+            "title": "Bài 51: Diện tích của một hình. Xăng-ti-mét vuông",
+            "chapter": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+            "summary": "Đơn vị cm² và cách đếm ô vuông đo diện tích.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b52",
+            "number": 52,
+            "title": "Bài 52: Diện tích hình chữ nhật, diện tích hình vuông",
+            "chapter": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+            "summary": "Diện tích HCN = dài x rộng; Diện tích HV = cạnh x cạnh.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b53",
+            "number": 53,
+            "title": "Bài 53: Luyện tập chung",
+            "chapter": "Chủ đề 9: Chu vi, diện tích một số hình phẳng",
+            "summary": "Tính chu vi và diện tích các hình phẳng.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b54",
+            "number": 54,
+            "title": "Bài 54: Phép cộng trong phạm vi 10 000",
+            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+            "summary": "Đặt tính cộng các số có 4 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b55",
+            "number": 55,
+            "title": "Bài 55: Phép trừ trong phạm vi 10 000",
+            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+            "summary": "Đặt tính trừ các số có 4 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b56",
+            "number": 56,
+            "title": "Bài 56: Nhân số có bốn chữ số với số có một chữ số",
+            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+            "summary": "Nhân số có 4 chữ số với số có 1 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b57",
+            "number": 57,
+            "title": "Bài 57: Chia số có bốn chữ số cho số có một chữ số",
+            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+            "summary": "Chia hết và chia có dư số có 4 chữ số cho số có 1 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b58",
+            "number": 58,
+            "title": "Bài 58: Luyện tập chung",
+            "chapter": "Chủ đề 10: Cộng, trừ, nhân, chia trong phạm vi 10 000",
+            "summary": "Vận dụng bốn phép tính trong phạm vi 10 000.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b59",
+            "number": 59,
+            "title": "Bài 59: Các số có năm chữ số. Số 100 000",
+            "chapter": "Chủ đề 11: Các số đến 100 000",
+            "summary": "Đọc, viết số có hàng chục nghìn đến 100 000.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b60",
+            "number": 60,
+            "title": "Bài 60: So sánh các số trong phạm vi 100 000",
+            "chapter": "Chủ đề 11: Các số đến 100 000",
+            "summary": "So sánh các số có đến 5 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b61",
+            "number": 61,
+            "title": "Bài 61: Làm tròn số đến hàng nghìn, hàng chục nghìn",
+            "chapter": "Chủ đề 11: Các số đến 100 000",
+            "summary": "Quy tắc làm tròn số đến hàng nghìn, hàng chục nghìn.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b62",
+            "number": 62,
+            "title": "Bài 62: Luyện tập chung",
+            "chapter": "Chủ đề 11: Các số đến 100 000",
+            "summary": "Ôn tập các số đến 100 000.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b63",
+            "number": 63,
+            "title": "Bài 63: Phép cộng trong phạm vi 100 000",
+            "chapter": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
+            "summary": "Đặt tính cộng các số có 5 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b64",
+            "number": 64,
+            "title": "Bài 64: Phép trừ trong phạm vi 100 000",
+            "chapter": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
+            "summary": "Đặt tính trừ các số có 5 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b65",
+            "number": 65,
+            "title": "Bài 65: Luyện tập chung",
+            "chapter": "Chủ đề 12: Cộng, trừ trong phạm vi 100 000",
+            "summary": "Giải toán cộng trừ trong phạm vi 100 000.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b66",
+            "number": 66,
+            "title": "Bài 66: Xem đồng hồ. Tháng – năm",
+            "chapter": "Chủ đề 13: Xem đồng hồ. Tháng - năm. Tiền Việt Nam",
+            "summary": "Xem đồng hồ chính xác đến từng phút; số ngày trong tháng.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b67",
+            "number": 67,
+            "title": "Bài 67: Thực hành xem đồng hồ, xem lịch",
+            "chapter": "Chủ đề 13: Xem đồng hồ. Tháng - năm. Tiền Việt Nam",
+            "summary": "Tính khoảng thời gian và xem lịch năm.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b68",
+            "number": 68,
+            "title": "Bài 68: Tiền Việt Nam",
+            "chapter": "Chủ đề 13: Xem đồng hồ. Tháng - năm. Tiền Việt Nam",
+            "summary": "Nhận biết mệnh giá tiền 100 000 đồng trở xuống và tính tiền.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b69",
+            "number": 69,
+            "title": "Bài 69: Luyện tập chung",
+            "chapter": "Chủ đề 13: Xem đồng hồ. Tháng - năm. Tiền Việt Nam",
+            "summary": "Giải toán về thời gian và tiền Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b70",
+            "number": 70,
+            "title": "Bài 70: Nhân số có năm chữ số với số có một chữ số",
+            "chapter": "Chủ đề 14: Nhân, chia trong phạm vi 100 000",
+            "summary": "Thực hiện phép nhân số có 5 chữ số với số có 1 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b71",
+            "number": 71,
             "title": "Bài 71: Chia số có năm chữ số cho số có một chữ số",
             "chapter": "Chủ đề 14: Nhân, chia trong phạm vi 100 000",
-            "summary": "Chia số có 5 chữ số.",
+            "summary": "Thực hiện phép chia số có 5 chữ số cho số có 1 chữ số.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b72",
+            "number": 72,
+            "title": "Bài 72: Luyện tập chung",
+            "chapter": "Chủ đề 14: Nhân, chia trong phạm vi 100 000",
+            "summary": "Bài toán rút về đơn vị và nhân chia trong phạm vi 100 000.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b73",
+            "number": 73,
+            "title": "Bài 73: Thu thập, phân loại, ghi chép số liệu. Bảng số liệu",
+            "chapter": "Chủ đề 15: Làm quen với yếu tố thống kê, xác suất",
+            "summary": "Đọc và phân tích bảng số liệu thống kê đơn giản.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b74",
+            "number": 74,
+            "title": "Bài 74: Khả năng xảy ra của một sự kiện",
+            "chapter": "Chủ đề 15: Làm quen với yếu tố thống kê, xác suất",
+            "summary": "Phân biệt sự kiện chắc chắn, có thể, không thể xảy ra.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b75",
+            "number": 75,
+            "title": "Bài 75: Thực hành và trải nghiệm thu thập, phân loại, ghi chép số liệu, đọc bảng số liệu",
+            "chapter": "Chủ đề 15: Làm quen với yếu tố thống kê, xác suất",
+            "summary": "Thực hành thống kê số liệu thực tế.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b76",
+            "number": 76,
+            "title": "Bài 76: Ôn tập các số trong phạm vi 10 000, 100 000",
+            "chapter": "Chủ đề 16: Ôn tập cuối năm",
+            "summary": "Ôn tập đọc, viết, so sánh số đến 100 000.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b77",
+            "number": 77,
+            "title": "Bài 77: Ôn tập phép cộng, phép trừ trong phạm vi 100 000",
+            "chapter": "Chủ đề 16: Ôn tập cuối năm",
+            "summary": "Ôn tập cộng, trừ có nhớ.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b78",
+            "number": 78,
+            "title": "Bài 78: Ôn tập phép nhân, phép chia trong phạm vi 100 000",
+            "chapter": "Chủ đề 16: Ôn tập cuối năm",
+            "summary": "Ôn tập nhân, chia trong phạm vi 100 000.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b79",
+            "number": 79,
+            "title": "Bài 79: Ôn tập hình học và đo lường",
+            "chapter": "Chủ đề 16: Ôn tập cuối năm",
+            "summary": "Ôn tập chu vi, diện tích và đơn vị đo.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b80",
+            "number": 80,
+            "title": "Bài 80: Ôn tập bảng số liệu, khả năng xảy ra của một sự kiện",
+            "chapter": "Chủ đề 16: Ôn tập cuối năm",
+            "summary": "Ôn tập thống kê, xác suất lớp 3.",
+            "questions": []
+          },
+          {
+            "id": "toan-3-b81",
+            "number": 81,
+            "title": "Bài 81: Ôn tập chung",
+            "chapter": "Chủ đề 16: Ôn tập cuối năm",
+            "summary": "Tổng hợp kiến thức Toán lớp 3 cả năm.",
             "questions": []
           }
         ]
@@ -3242,6 +4057,274 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 20: At the zoo",
             "chapter": "Unit 20: At the zoo",
             "summary": "Động vật sở thú: elephant, monkey, peacock, tiger.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "amnhac-3",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-3-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Vui đón khai trường",
+            "chapter": "Chủ đề 1: Vui đón khai trường",
+            "summary": "Hát Khai trường, Em yêu giờ học hát; thực hành nhạc cụ gõ và sáo recorder.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Âm thanh ngày mới",
+            "chapter": "Chủ đề 2: Âm thanh ngày mới",
+            "summary": "Hát Tiếng hát bạn bè mình; đọc nhạc Đô-Rê-Mi-Pha-Son.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Giai điệu quê hương",
+            "chapter": "Chủ đề 3: Giai điệu quê hương",
+            "summary": "Nghe dân ca các vùng miền; hát Cây trúc xinh.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Nhịp điệu bạn bè",
+            "chapter": "Chủ đề 4: Nhịp điệu bạn bè",
+            "summary": "Hát Cùng múa hát dưới trăng; gõ đệm theo tiết tấu.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Mùa xuân và tuổi thơ",
+            "chapter": "Chủ đề 5: Mùa xuân và tuổi thơ",
+            "summary": "Hát Mùa xuân ơi, Bông hoa mừng cô; cảm nhận sắc thái âm nhạc.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Em yêu Tổ quốc",
+            "chapter": "Chủ đề 6: Em yêu Tổ quốc",
+            "summary": "Hát Tổ quốc ta; nghe nhạc cụ dân tộc (đàn bầu, đàn tranh).",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Chắp cánh ước mơ",
+            "chapter": "Chủ đề 7: Chắp cánh ước mơ",
+            "summary": "Hát Ước mơ hồng; thực hành đọc nhạc kết hợp vận động.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-3-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Vui bước đến tương lai",
+            "chapter": "Chủ đề 8: Vui bước đến tương lai",
+            "summary": "Hát Tạm biệt lớp 3; ôn tập biểu diễn tổng kết năm học.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-3",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-3-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Thế giới chấm và nét",
+            "chapter": "Chủ đề 1: Thế giới chấm và nét",
+            "summary": "Kết hợp chấm và nét tạo nhịp điệu trong tranh.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Sắc màu thiên nhiên",
+            "chapter": "Chủ đề 2: Sắc màu thiên nhiên",
+            "summary": "Phân biệt màu nóng, màu lạnh và ứng dụng vẽ thiên nhiên.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Hình khối trong đời sống",
+            "chapter": "Chủ đề 3: Hình khối trong đời sống",
+            "summary": "Quan sát và tạo hình đồ vật từ hình khối cơ bản.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Cổng trường rộn ràng",
+            "chapter": "Chủ đề 4: Cổng trường rộn ràng",
+            "summary": "Vẽ tranh đề tài ngày khai trường, giờ ra chơi.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Ngôi nhà yêu thương",
+            "chapter": "Chủ đề 5: Ngôi nhà yêu thương",
+            "summary": "Tạo hình kiến trúc ngôi nhà và cảnh quan xung quanh.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Thiên nhiên và cuộc sống",
+            "chapter": "Chủ đề 6: Thiên nhiên và cuộc sống",
+            "summary": "Vẽ tranh bảo vệ thiên nhiên, trồng cây xanh.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Nét đẹp truyền thống",
+            "chapter": "Chủ đề 7: Nét đẹp truyền thống",
+            "summary": "Tìm hiểu họa tiết dân gian và trang trí đồ vật.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-3-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Vui hội làng",
+            "chapter": "Chủ đề 8: Vui hội làng",
+            "summary": "Vẽ hoặc xé dán tranh về lễ hội truyền thống quê hương.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-3",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-3-b1",
+            "number": 1,
+            "title": "Vệ sinh sân bãi, dụng cụ và an toàn tập luyện",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Kiểm tra an toàn trước khi vận động và sơ cứu chấn thương nhẹ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Đội hình đội ngũ",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Biến đổi đội hình 1 hàng thành 2-3 hàng, dóng hàng, điểm số.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Bài tập thể dục",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Bài thể dục phát triển chung với cờ hoặc không dụng cụ.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Đi nhanh chuyển sang chạy, bật xa tại chỗ, tung và bắt bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Môn Bóng rổ / Cầu lông",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Dẫn bóng đổi hướng, truyền bóng hoặc làm quen vợt cầu lông.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-3-b6",
+            "number": 6,
+            "title": "Chủ đề 2: Môn Bơi / Đá cầu",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Kĩ thuật đạp chân ếch hoặc tâng cầu bằng mu bàn chân.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-3",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-3-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Em và mái trường thân yêu",
+            "chapter": "Chủ đề 1: Em và mái trường thân yêu",
+            "summary": "Tìm hiểu truyền thống nhà trường, xây dựng nội quy lớp học.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Khám phá bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Nhận biết cảm xúc cá nhân và cách kiểm soát cảm xúc tích cực.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Rèn luyện thói quen tốt",
+            "chapter": "Chủ đề 3: Rèn luyện thói quen tốt",
+            "summary": "Lập thời gian biểu học tập, vui chơi hợp lí mỗi ngày.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b4",
+            "number": 4,
+            "title": "Chủ đề 4: An toàn khi ở nhà và ở trường",
+            "chapter": "Chủ đề 4: An toàn khi ở nhà và ở trường",
+            "summary": "Nhận diện nguy cơ hỏa hoạn, tai nạn giao thông và kĩ năng thoát hiểm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Gia đình yêu thương",
+            "chapter": "Chủ đề 5: Gia đình yêu thương",
+            "summary": "Thực hành tiết kiệm chi tiêu trong gia đình và chăm sóc người thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Cộng đồng quanh em",
+            "chapter": "Chủ đề 6: Cộng đồng quanh em",
+            "summary": "Ứng xử văn minh nơi công cộng và tham gia hoạt động thiện nguyện.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Trái đất và ngôi nhà chung",
+            "chapter": "Chủ đề 7: Trái đất và ngôi nhà chung",
+            "summary": "Bảo vệ nguồn nước, giữ gìn cảnh quan thiên nhiên địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-3-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Nghề nghiệp trong đời sống",
+            "chapter": "Chủ đề 8: Nghề nghiệp trong đời sống",
+            "summary": "Khám phá lợi ích và yêu cầu an toàn của một số nghề phổ biến.",
             "questions": []
           }
         ]
@@ -4871,6 +5954,282 @@ export const GRADES_DATA: GradeItem[] = [
             "questions": []
           }
         ]
+      },
+      {
+        "id": "amnhac-4",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-4-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Vui bước đến trường",
+            "chapter": "Chủ đề 1: Vui bước đến trường",
+            "summary": "Hát Em yêu giờ học hát; làm quen khuôn nhạc và khóa Son.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Trải nghiệm âm nhạc qua các hoạt động",
+            "chapter": "Chủ đề 2: Trải nghiệm âm nhạc",
+            "summary": "Đọc nhạc gam Đô trưởng cơ bản và gõ đệm bằng nhạc cụ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Âm vang núi rừng",
+            "chapter": "Chủ đề 3: Âm vang núi rừng",
+            "summary": "Hát Đi học; nghe và tìm hiểu nhạc cụ dân tộc miền núi.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Nhớ ơn thầy cô",
+            "chapter": "Chủ đề 4: Nhớ ơn thầy cô",
+            "summary": "Hát Bụi phấn / Nhớ ơn thầy cô; thực hành hát kết hợp vận động.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Mùa xuân yêu thương",
+            "chapter": "Chủ đề 5: Mùa xuân yêu thương",
+            "summary": "Hát Khúc ca bốn mùa; đọc nhạc nhịp 2/4 và 3/4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Giai điệu bạn bè",
+            "chapter": "Chủ đề 6: Giai điệu bạn bè",
+            "summary": "Hát Thiếu nhi thế giới liên hoan; biểu diễn nhóm.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Âm nhạc và cuộc sống",
+            "chapter": "Chủ đề 7: Âm nhạc và cuộc sống",
+            "summary": "Tìm hiểu một số nhạc sĩ Việt Nam tiêu biểu và tác phẩm thiếu nhi.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-4-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Hè về vui sao",
+            "chapter": "Chủ đề 8: Hè về vui sao",
+            "summary": "Hát Cánh diều tuổi thơ; ôn tập tổng kết năm học.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-4",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-4-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Vẻ đẹp trong điêu khắc đình làng Việt Nam",
+            "chapter": "Chủ đề 1: Điêu khắc đình làng",
+            "summary": "Tìm hiểu chạm khắc đình làng và tạo hình phù điêu đơn giản.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Một số dạng không gian trong tranh dân gian Việt Nam",
+            "chapter": "Chủ đề 2: Tranh dân gian Việt Nam",
+            "summary": "Nhận biết bố cục tranh Đông Hồ, Hàng Trống.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Cảnh đẹp quê hương",
+            "chapter": "Chủ đề 3: Cảnh đẹp quê hương",
+            "summary": "Vẽ tranh phong cảnh thể hiện không gian xa - gần.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
+            "chapter": "Chủ đề 4: Vẻ đẹp trong cuộc sống",
+            "summary": "Vẽ tĩnh vật lọ hoa và quả bằng màu sáp/màu nước.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Những kỉ niệm đẹp",
+            "chapter": "Chủ đề 5: Những kỉ niệm đẹp",
+            "summary": "Vẽ tranh sinh hoạt gia đình, bạn bè.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Mái trường yêu dấu",
+            "chapter": "Chủ đề 6: Mái trường yêu dấu",
+            "summary": "Tạo mô hình hoặc vẽ tranh hoạt động tập thể ở trường.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Môi trường xanh – sạch – đẹp",
+            "chapter": "Chủ đề 7: Môi trường xanh - sạch - đẹp",
+            "summary": "Thiết kế áp phích tuyên truyền bảo vệ môi trường.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-4-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Quê hương thanh bình",
+            "chapter": "Chủ đề 8: Quê hương thanh bình",
+            "summary": "Tổng hợp kĩ năng tạo hình sản phẩm trưng bày cuối năm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-4",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-4-b1",
+            "number": 1,
+            "title": "Chế độ dinh dưỡng trong tập luyện thể dục thể thao",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Vai trò của nước, vitamin và năng lượng đối với vận động.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Đội hình đội ngũ",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Đội hình vòng tròn, đi đều, đổi chân khi đi sai nhịp.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Bài tập thể dục",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Bài thể dục phát triển chung lớp 4 kết hợp nhịp điệu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Chạy cự li ngắn, bật cao, ném bóng trúng đích.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Đá bóng bằng lòng bàn chân hoặc dẫn bóng, chuyền bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-4-b6",
+            "number": 6,
+            "title": "Chủ đề 2: Môn Bơi / Cầu lông",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Kĩ thuật bơi ếch cơ bản hoặc di chuyển đánh cầu thuận tay.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-4",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-4-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Nhận diện bản thân",
+            "chapter": "Chủ đề 1: Nhận diện bản thân",
+            "summary": "Khám phá điểm mạnh, hạn chế và lập kế hoạch phát triển bản thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Nếp sống và tư duy khoa học",
+            "chapter": "Chủ đề 2: Nếp sống và tư duy khoa học",
+            "summary": "Rèn luyện thói quen ngăn nắp, ghi chép khoa học.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Yêu trường, mến lớp",
+            "chapter": "Chủ đề 3: Yêu trường, mến lớp",
+            "summary": "Xây dựng tình bạn đẹp, phòng tránh xung đột trong lớp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Tự lực thực hiện nhiệm vụ",
+            "chapter": "Chủ đề 4: Tự lực thực hiện nhiệm vụ",
+            "summary": "Chủ động giải quyết nhiệm vụ học tập và lao động vừa sức.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Mái ấm gia đình",
+            "chapter": "Chủ đề 5: Mái ấm gia đình",
+            "summary": "Gắn kết các thành viên, lập kế hoạch chi tiêu tiết kiệm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Phòng tránh bị xâm hại",
+            "chapter": "Chủ đề 6: Phòng tránh bị xâm hại",
+            "summary": "Nhận biết hành vi không an toàn và kĩ năng tìm kiếm sự trợ giúp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Kết nối cộng đồng",
+            "chapter": "Chủ đề 7: Kết nối cộng đồng",
+            "summary": "Tham gia hoạt động đền ơn đáp nghĩa, bảo vệ di tích địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Quê hương em tươi đẹp",
+            "chapter": "Chủ đề 8: Quê hương em tươi đẹp",
+            "summary": "Khảo sát thực trạng môi trường và đề xuất giải pháp xanh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-4-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Trải nghiệm nghề truyền thống",
+            "chapter": "Chủ đề 9: Trải nghiệm nghề truyền thống",
+            "summary": "Tìm hiểu nghề truyền thống địa phương và giá trị sản phẩm.",
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -4883,7 +6242,7 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "toan-5",
         "name": "Toán",
-        "icon": "🔢",
+        "icon": "📐",
         "lessons": [
           {
             "id": "toan-5-b1",
@@ -4898,7 +6257,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Ôn tập các phép tính với số tự nhiên",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Cộng, trừ, nhân, chia số tự nhiên.",
+            "summary": "Cộng, trừ, nhân, chia và tính chất giao hoán, kết hợp, phân phối.",
             "questions": []
           },
           {
@@ -4906,7 +6265,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Ôn tập phân số",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Rút gọn, quy đồng và so sánh phân số.",
+            "summary": "Rút gọn, quy đồng, so sánh phân số.",
             "questions": []
           },
           {
@@ -4914,7 +6273,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Phân số thập phân",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Phân số có mẫu số là 10, 100, 1000...",
+            "summary": "Phân số có mẫu số là 10, 100, 1000,...",
             "questions": []
           },
           {
@@ -4930,7 +6289,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Cộng, trừ hai phân số khác mẫu số",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Quy đồng và cộng trừ phân số.",
+            "summary": "Quy đồng rồi cộng, trừ hai phân số khác mẫu.",
             "questions": []
           },
           {
@@ -4938,7 +6297,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 7,
             "title": "Bài 7: Hỗn số",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Cấu tạo phần nguyên và phần phân số của hỗn số.",
+            "summary": "Cấu tạo hỗn số (phần nguyên + phần phân số) và chuyển đổi.",
             "questions": []
           },
           {
@@ -4946,7 +6305,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Ôn tập hình học và đo lường",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Ôn tập các hình phẳng và đơn vị đo.",
+            "summary": "Ôn tập chu vi, diện tích, góc và đơn vị đo.",
             "questions": []
           },
           {
@@ -4954,7 +6313,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 9,
             "title": "Bài 9: Luyện tập chung",
             "chapter": "Chủ đề 1: Ôn tập và bổ sung",
-            "summary": "Củng cố Chủ đề 1.",
+            "summary": "Tổng hợp ôn tập phân số, hỗn số.",
             "questions": []
           },
           {
@@ -4970,7 +6329,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 11,
             "title": "Bài 11: So sánh các số thập phân",
             "chapter": "Chủ đề 2: Số thập phân",
-            "summary": "So sánh phần nguyên rồi từng hàng phần thập phân.",
+            "summary": "So sánh phần nguyên trước, rồi từng hàng phần thập phân.",
             "questions": []
           },
           {
@@ -4986,7 +6345,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 13,
             "title": "Bài 13: Làm tròn số thập phân",
             "chapter": "Chủ đề 2: Số thập phân",
-            "summary": "Làm tròn đến số tự nhiên gần nhất, hàng phần mười, hàng phần trăm.",
+            "summary": "Làm tròn số thập phân đến số tự nhiên gần nhất, hàng phần mười, phần trăm.",
             "questions": []
           },
           {
@@ -4994,7 +6353,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 14,
             "title": "Bài 14: Luyện tập chung",
             "chapter": "Chủ đề 2: Số thập phân",
-            "summary": "Củng cố khái niệm số thập phân.",
+            "summary": "Củng cố khái niệm và so sánh số thập phân.",
             "questions": []
           },
           {
@@ -5010,7 +6369,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 16,
             "title": "Bài 16: Các đơn vị đo diện tích",
             "chapter": "Chủ đề 3: Một số đơn vị đo diện tích",
-            "summary": "Bảng đơn vị đo diện tích từ mm² đến km².",
+            "summary": "Bảng đơn vị đo diện tích và quy đổi.",
             "questions": []
           },
           {
@@ -5018,7 +6377,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 17,
             "title": "Bài 17: Thực hành và trải nghiệm với một số đơn vị đo đại lượng",
             "chapter": "Chủ đề 3: Một số đơn vị đo diện tích",
-            "summary": "Ước lượng và tính diện tích thực tế.",
+            "summary": "Ước lượng và đo diện tích thực tế.",
             "questions": []
           },
           {
@@ -5026,7 +6385,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 18,
             "title": "Bài 18: Luyện tập chung",
             "chapter": "Chủ đề 3: Một số đơn vị đo diện tích",
-            "summary": "Củng cố đơn vị đo diện tích.",
+            "summary": "Giải toán liên quan đơn vị đo diện tích.",
             "questions": []
           },
           {
@@ -5034,7 +6393,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 19,
             "title": "Bài 19: Phép cộng số thập phân",
             "chapter": "Chủ đề 4: Các phép tính với số thập phân",
-            "summary": "Đặt tính thẳng dấu phẩy và cộng.",
+            "summary": "Đặt tính thẳng dấu phẩy và cộng số thập phân.",
             "questions": []
           },
           {
@@ -5042,7 +6401,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 20,
             "title": "Bài 20: Phép trừ số thập phân",
             "chapter": "Chủ đề 4: Các phép tính với số thập phân",
-            "summary": "Đặt tính thẳng dấu phẩy và trừ.",
+            "summary": "Đặt tính thẳng dấu phẩy và trừ số thập phân.",
             "questions": []
           },
           {
@@ -5064,9 +6423,9 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "toan-5-b23",
             "number": 23,
-            "title": "Bài 23: Nhân, chia số thập phân với 10; 100; 1000; ... hoặc với 0,1; 0,01; 0,001; ...",
+            "title": "Bài 23: Nhân, chia số thập phân với 10; 100; 1000;... hoặc với 0,1; 0,01; 0,001;...",
             "chapter": "Chủ đề 4: Các phép tính với số thập phân",
-            "summary": "Dịch chuyển dấu phẩy sang phải/trái.",
+            "summary": "Quy tắc dịch chuyển dấu phẩy sang phải hoặc trái.",
             "questions": []
           },
           {
@@ -5074,14 +6433,14 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 24,
             "title": "Bài 24: Luyện tập chung",
             "chapter": "Chủ đề 4: Các phép tính với số thập phân",
-            "summary": "Củng cố 4 phép tính số thập phân.",
+            "summary": "Tính giá trị biểu thức số thập phân.",
             "questions": []
           },
           {
             "id": "toan-5-b25",
             "number": 25,
             "title": "Bài 25: Hình tam giác. Diện tích hình tam giác",
-            "chapter": "Chủ đề 5: Một số hình phẳng. Chu vi và diện tích",
+            "chapter": "Chủ đề 5: Một số hình phẳng, chu vi và diện tích",
             "summary": "S = (a x h) / 2.",
             "questions": []
           },
@@ -5089,7 +6448,7 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "toan-5-b26",
             "number": 26,
             "title": "Bài 26: Hình thang. Diện tích hình thang",
-            "chapter": "Chủ đề 5: Một số hình phẳng. Chu vi và diện tích",
+            "chapter": "Chủ đề 5: Một số hình phẳng, chu vi và diện tích",
             "summary": "S = ((a + b) x h) / 2.",
             "questions": []
           },
@@ -5097,33 +6456,24 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "toan-5-b27",
             "number": 27,
             "title": "Bài 27: Đường tròn. Chu vi và diện tích hình tròn",
-            "chapter": "Chủ đề 5: Một số hình phẳng. Chu vi và diện tích",
+            "chapter": "Chủ đề 5: Một số hình phẳng, chu vi và diện tích",
             "summary": "C = d x 3,14 = r x 2 x 3,14; S = r x r x 3,14.",
-            "questions": [
-              {
-                "content": "Một hình tròn có bán kính r = 3 cm. Diện tích của hình tròn đó là:",
-                "option_a": "18,84 cm²",
-                "option_b": "28,26 cm²",
-                "option_c": "9,42 cm²",
-                "option_d": "12,56 cm²",
-                "correct": "B"
-              }
-            ]
+            "questions": []
           },
           {
             "id": "toan-5-b28",
             "number": 28,
             "title": "Bài 28: Thực hành và trải nghiệm đo, vẽ, lắp ghép, tạo hình",
-            "chapter": "Chủ đề 5: Một số hình phẳng. Chu vi và diện tích",
-            "summary": "Thực hành đo và tính diện tích.",
+            "chapter": "Chủ đề 5: Một số hình phẳng, chu vi và diện tích",
+            "summary": "Đo vẽ hình tam giác, hình thang, hình tròn.",
             "questions": []
           },
           {
             "id": "toan-5-b29",
             "number": 29,
             "title": "Bài 29: Luyện tập chung",
-            "chapter": "Chủ đề 5: Một số hình phẳng. Chu vi và diện tích",
-            "summary": "Củng cố chu vi, diện tích hình phẳng.",
+            "chapter": "Chủ đề 5: Một số hình phẳng, chu vi và diện tích",
+            "summary": "Tính diện tích hình ghép.",
             "questions": []
           },
           {
@@ -5131,7 +6481,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 30,
             "title": "Bài 30: Ôn tập số thập phân",
             "chapter": "Chủ đề 6: Ôn tập học kì 1",
-            "summary": "Ôn tập số thập phân HK1.",
+            "summary": "Ôn tập đọc, viết, so sánh, làm tròn số thập phân.",
             "questions": []
           },
           {
@@ -5139,7 +6489,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 31,
             "title": "Bài 31: Ôn tập các phép tính với số thập phân",
             "chapter": "Chủ đề 6: Ôn tập học kì 1",
-            "summary": "Ôn tập phép tính số thập phân.",
+            "summary": "Ôn tập bốn phép tính số thập phân.",
             "questions": []
           },
           {
@@ -5147,15 +6497,15 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 32,
             "title": "Bài 32: Ôn tập một số hình phẳng",
             "chapter": "Chủ đề 6: Ôn tập học kì 1",
-            "summary": "Ôn tập tam giác, hình thang, hình tròn.",
+            "summary": "Ôn tập đặc điểm tam giác, hình thang, hình tròn.",
             "questions": []
           },
           {
             "id": "toan-5-b33",
             "number": 33,
-            "title": "Bài 33: Ôn tập diện tích và thể tích một số hình",
+            "title": "Bài 33: Ôn tập diện tích, chu vi một số hình phẳng",
             "chapter": "Chủ đề 6: Ôn tập học kì 1",
-            "summary": "Ôn tập hình học HK1.",
+            "summary": "Ôn tập công thức chu vi, diện tích.",
             "questions": []
           },
           {
@@ -5163,7 +6513,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 34,
             "title": "Bài 34: Ôn tập đo lường",
             "chapter": "Chủ đề 6: Ôn tập học kì 1",
-            "summary": "Ôn tập đơn vị đo.",
+            "summary": "Ôn tập đơn vị đo độ dài, khối lượng, diện tích.",
             "questions": []
           },
           {
@@ -5171,7 +6521,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 35,
             "title": "Bài 35: Ôn tập chung",
             "chapter": "Chủ đề 6: Ôn tập học kì 1",
-            "summary": "Tổng ôn HK1.",
+            "summary": "Đề tổng hợp học kì 1 Toán 5.",
             "questions": []
           },
           {
@@ -5179,7 +6529,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 36,
             "title": "Bài 36: Tỉ số. Tỉ số phần trăm",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Tính tỉ số phần trăm của hai số.",
+            "summary": "Viết tỉ số và đổi sang tỉ số phần trăm.",
             "questions": []
           },
           {
@@ -5187,7 +6537,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 37,
             "title": "Bài 37: Tỉ lệ bản đồ và ứng dụng",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Tính độ dài thật và độ dài thu nhỏ trên bản đồ.",
+            "summary": "Tính độ dài thật và độ dài trên bản đồ theo tỉ lệ.",
             "questions": []
           },
           {
@@ -5195,7 +6545,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 38,
             "title": "Bài 38: Tìm hai số khi biết tổng và tỉ số của hai số đó",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Vẽ sơ đồ tổng số phần bằng nhau.",
+            "summary": "Tìm tổng số phần bằng nhau rồi tìm mỗi số.",
             "questions": []
           },
           {
@@ -5203,7 +6553,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 39,
             "title": "Bài 39: Tìm hai số khi biết hiệu và tỉ số của hai số đó",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Tìm hiệu số phần bằng nhau.",
+            "summary": "Tìm hiệu số phần bằng nhau rồi tìm mỗi số.",
             "questions": []
           },
           {
@@ -5211,7 +6561,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 40,
             "title": "Bài 40: Tìm tỉ số phần trăm của hai số",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Chia hai số rồi nhân 100 và viết kí hiệu %.",
+            "summary": "Lấy số thứ nhất chia số thứ hai rồi nhân 100%.",
             "questions": []
           },
           {
@@ -5219,7 +6569,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 41,
             "title": "Bài 41: Tìm giá trị phần trăm của một số",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Giải toán lãi suất, giảm giá.",
+            "summary": "Lấy số đó chia 100 rồi nhân với số phần trăm.",
             "questions": []
           },
           {
@@ -5227,176 +6577,271 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 42,
             "title": "Bài 42: Máy tính cầm tay",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Sử dụng máy tính cầm tay tính tỉ số phần trăm.",
+            "summary": "Sử dụng máy tính cầm tay thực hiện phép tính.",
             "questions": []
           },
           {
             "id": "toan-5-b43",
             "number": 43,
-            "title": "Bài 43: Luyện tập chung",
+            "title": "Bài 43: Thực hành và trải nghiệm sử dụng máy tính cầm tay",
             "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
-            "summary": "Củng cố tỉ số và phần trăm.",
+            "summary": "Ứng dụng máy tính cầm tay tính tỉ số phần trăm.",
             "questions": []
           },
           {
             "id": "toan-5-b44",
             "number": 44,
-            "title": "Bài 44: Sử dụng bảng đơn vị đo thể tích: cm³, dm³, m³",
-            "chapter": "Chủ đề 8: Thể tích. Đơn vị đo thể tích",
-            "summary": "1 m³ = 1 000 dm³; 1 dm³ = 1 000 cm³; 1 dm³ = 1 lít.",
+            "title": "Bài 44: Luyện tập chung",
+            "chapter": "Chủ đề 7: Tỉ số và các bài toán liên quan",
+            "summary": "Giải bài toán tỉ số phần trăm, tổng-tỉ, hiệu-tỉ.",
             "questions": []
           },
           {
             "id": "toan-5-b45",
             "number": 45,
             "title": "Bài 45: Thể tích của một hình",
-            "chapter": "Chủ đề 8: Thể tích. Đơn vị đo thể tích",
-            "summary": "So sánh thể tích hai hình.",
+            "chapter": "Chủ đề 8: Thể tích, đơn vị đo thể tích",
+            "summary": "So sánh thể tích hai hình khối.",
             "questions": []
           },
           {
             "id": "toan-5-b46",
             "number": 46,
-            "title": "Bài 46: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
-            "chapter": "Chủ đề 8: Thể tích. Đơn vị đo thể tích",
-            "summary": "S_xq = (a + b) x 2 x c; S_tp = S_xq + 2 x a x b.",
+            "title": "Bài 46: Xăng-ti-mét khối. Đề-xi-mét khối",
+            "chapter": "Chủ đề 8: Thể tích, đơn vị đo thể tích",
+            "summary": "1 dm³ = 1 000 cm³; 1 dm³ = 1 lít.",
             "questions": []
           },
           {
             "id": "toan-5-b47",
             "number": 47,
-            "title": "Bài 47: Diện tích xung quanh và diện tích toàn phần của hình lập phương",
-            "chapter": "Chủ đề 8: Thể tích. Đơn vị đo thể tích",
-            "summary": "S_xq = a x a x 4; S_tp = a x a x 6.",
+            "title": "Bài 47: Mét khối",
+            "chapter": "Chủ đề 8: Thể tích, đơn vị đo thể tích",
+            "summary": "1 m³ = 1 000 dm³ = 1 000 000 cm³.",
             "questions": []
           },
           {
             "id": "toan-5-b48",
             "number": 48,
-            "title": "Bài 48: Thể tích của hình hộp chữ nhật",
-            "chapter": "Chủ đề 8: Thể tích. Đơn vị đo thể tích",
-            "summary": "V = a x b x c.",
+            "title": "Bài 48: Luyện tập chung",
+            "chapter": "Chủ đề 8: Thể tích, đơn vị đo thể tích",
+            "summary": "Quy đổi đơn vị đo thể tích.",
             "questions": []
           },
           {
             "id": "toan-5-b49",
             "number": 49,
-            "title": "Bài 49: Thể tích của hình lập phương",
-            "chapter": "Chủ đề 8: Thể tích. Đơn vị đo thể tích",
-            "summary": "V = a x a x a.",
+            "title": "Bài 49: Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ",
+            "chapter": "Chủ đề 9: Diện tích và thể tích của một số hình khối",
+            "summary": "Nhận biết hình khai triển của hình khối.",
             "questions": []
           },
           {
             "id": "toan-5-b50",
             "number": 50,
-            "title": "Bài 50: Luyện tập chung",
-            "chapter": "Chủ đề 8: Thể tích. Đơn vị đo thể tích",
-            "summary": "Củng cố diện tích và thể tích hình khối.",
+            "title": "Bài 50: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
+            "chapter": "Chủ đề 9: Diện tích và thể tích của một số hình khối",
+            "summary": "Sxq = 2 x (a + b) x c; Stp = Sxq + 2 x a x b.",
             "questions": []
           },
           {
             "id": "toan-5-b51",
             "number": 51,
-            "title": "Bài 51: Thực hành và trải nghiệm tạo hình khối",
+            "title": "Bài 51: Diện tích xung quanh và diện tích toàn phần của hình lập phương",
             "chapter": "Chủ đề 9: Diện tích và thể tích của một số hình khối",
-            "summary": "Gấp, ghép hình hộp chữ nhật, hình lập phương.",
+            "summary": "Sxq = a x a x 4; Stp = a x a x 6.",
             "questions": []
           },
           {
             "id": "toan-5-b52",
             "number": 52,
-            "title": "Bài 52: Bảng đơn vị đo thời gian",
-            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều",
-            "summary": "Năm nhuận, năm thường, đổi đơn vị thời gian.",
+            "title": "Bài 52: Thể tích của hình hộp chữ nhật",
+            "chapter": "Chủ đề 9: Diện tích và thể tích của một số hình khối",
+            "summary": "V = a x b x c.",
             "questions": []
           },
           {
             "id": "toan-5-b53",
             "number": 53,
-            "title": "Bài 53: Cộng, trừ số đo thời gian",
-            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều",
-            "summary": "Cộng, trừ số đo giờ, phút, giây.",
+            "title": "Bài 53: Thể tích của hình lập phương",
+            "chapter": "Chủ đề 9: Diện tích và thể tích của một số hình khối",
+            "summary": "V = a x a x a.",
             "questions": []
           },
           {
             "id": "toan-5-b54",
             "number": 54,
-            "title": "Bài 54: Nhân, chia số đo thời gian với một số",
-            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều",
-            "summary": "Nhân, chia số đo thời gian.",
+            "title": "Bài 54: Thực hành tính toán và ước lượng thể tích một số hình khối",
+            "chapter": "Chủ đề 9: Diện tích và thể tích của một số hình khối",
+            "summary": "Tính thể tích bể nước, hộp thực tế.",
             "questions": []
           },
           {
             "id": "toan-5-b55",
             "number": 55,
-            "title": "Bài 55: Vận tốc của một chuyển động đều",
-            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều",
-            "summary": "v = s / t (km/giờ, m/giây).",
-            "questions": [
-              {
-                "content": "Một ô tô đi quãng đường 135 km hết 3 giờ. Vận tốc của ô tô là:",
-                "option_a": "40 km/giờ",
-                "option_b": "45 km/giờ",
-                "option_c": "50 km/giờ",
-                "option_d": "405 km/giờ",
-                "correct": "B"
-              }
-            ]
+            "title": "Bài 55: Luyện tập chung",
+            "chapter": "Chủ đề 9: Diện tích và thể tích của một số hình khối",
+            "summary": "Tổng hợp diện tích và thể tích hình khối.",
+            "questions": []
           },
           {
             "id": "toan-5-b56",
             "number": 56,
-            "title": "Bài 56: Quãng đường, thời gian của một chuyển động đều",
-            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều",
-            "summary": "s = v x t và t = s / v.",
+            "title": "Bài 56: Các đơn vị đo thời gian",
+            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Chuyển động đều",
+            "summary": "Thế kỉ, năm, tháng, ngày, giờ, phút, giây.",
             "questions": []
           },
           {
             "id": "toan-5-b57",
             "number": 57,
-            "title": "Bài 57: Luyện tập chung",
-            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều",
-            "summary": "Củng cố toán chuyển động đều.",
+            "title": "Bài 57: Cộng, trừ số đo thời gian",
+            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Chuyển động đều",
+            "summary": "Cộng, trừ các đơn vị thời gian có nhớ/mượn.",
             "questions": []
           },
           {
             "id": "toan-5-b58",
             "number": 58,
-            "title": "Bài 58: Biểu đồ hình quạt tròn",
-            "chapter": "Chủ đề 11: Một số yếu tố thống kê và xác suất",
-            "summary": "Đọc và phân tích tỉ số phần trăm trên biểu đồ hình quạt tròn.",
+            "title": "Bài 58: Nhân, chia số đo thời gian với một số",
+            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Chuyển động đều",
+            "summary": "Nhân, chia số đo thời gian cho một số tự nhiên.",
             "questions": []
           },
           {
             "id": "toan-5-b59",
             "number": 59,
-            "title": "Bài 59: Tỉ số của số lần lặp lại một sự kiện so với tổng số lần thực hiện",
-            "chapter": "Chủ đề 11: Một số yếu tố thống kê và xác suất",
-            "summary": "Thử nghiệm tung đồng xu, rút thăm.",
+            "title": "Bài 59: Vận tốc của một chuyển động đều",
+            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Chuyển động đều",
+            "summary": "v = s / t.",
             "questions": []
           },
           {
             "id": "toan-5-b60",
             "number": 60,
-            "title": "Bài 60: Ôn tập số tự nhiên, phân số, số thập phân",
-            "chapter": "Chủ đề 12: Ôn tập cuối năm",
-            "summary": "Ôn tập các loại số.",
+            "title": "Bài 60: Quãng đường, thời gian của một chuyển động đều",
+            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Chuyển động đều",
+            "summary": "s = v x t; t = s / v.",
             "questions": []
           },
           {
             "id": "toan-5-b61",
             "number": 61,
-            "title": "Bài 61: Ôn tập các phép tính với số tự nhiên, phân số, số thập phân",
-            "chapter": "Chủ đề 12: Ôn tập cuối năm",
-            "summary": "Ôn tập phép tính.",
+            "title": "Bài 61: Thực hành tính toán và ước lượng về vận tốc, quãng đường, thời gian",
+            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Chuyển động đều",
+            "summary": "Giải toán chuyển động cùng chiều, ngược chiều.",
             "questions": []
           },
           {
             "id": "toan-5-b62",
             "number": 62,
-            "title": "Bài 62: Ôn tập chung",
+            "title": "Bài 62: Luyện tập chung",
+            "chapter": "Chủ đề 10: Số đo thời gian, vận tốc. Chuyển động đều",
+            "summary": "Tổng hợp bài toán chuyển động đều.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b63",
+            "number": 63,
+            "title": "Bài 63: Thu thập, phân loại, sắp xếp các số liệu",
+            "chapter": "Chủ đề 11: Một số yếu tố thống kê và xác suất",
+            "summary": "Lập bảng số liệu thống kê.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b64",
+            "number": 64,
+            "title": "Bài 64: Biểu đồ hình quạt tròn",
+            "chapter": "Chủ đề 11: Một số yếu tố thống kê và xác suất",
+            "summary": "Đọc và phân tích số liệu tỉ lệ phần trăm trên biểu đồ hình quạt tròn.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b65",
+            "number": 65,
+            "title": "Bài 65: Tỉ số của số lần lặp lại một sự kiện so với tổng số lần thực hiện",
+            "chapter": "Chủ đề 11: Một số yếu tố thống kê và xác suất",
+            "summary": "Tính tỉ số thực nghiệm trong xác suất.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b66",
+            "number": 66,
+            "title": "Bài 66: Thực hành và trải nghiệm thu thập, phân tích, biểu diễn số liệu",
+            "chapter": "Chủ đề 11: Một số yếu tố thống kê và xác suất",
+            "summary": "Thực hành vẽ và đọc biểu đồ.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b67",
+            "number": 67,
+            "title": "Bài 67: Luyện tập chung",
+            "chapter": "Chủ đề 11: Một số yếu tố thống kê và xác suất",
+            "summary": "Ôn tập thống kê và xác suất.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b68",
+            "number": 68,
+            "title": "Bài 68: Ôn tập số tự nhiên, phân số, số thập phân",
             "chapter": "Chủ đề 12: Ôn tập cuối năm",
-            "summary": "Tổng ôn Toán lớp 5.",
+            "summary": "Ôn tập hệ thống số.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b69",
+            "number": 69,
+            "title": "Bài 69: Ôn tập các phép tính với số tự nhiên, phân số, số thập phân",
+            "chapter": "Chủ đề 12: Ôn tập cuối năm",
+            "summary": "Ôn tập bốn phép tính.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b70",
+            "number": 70,
+            "title": "Bài 70: Ôn tập tỉ số, tỉ số phần trăm",
+            "chapter": "Chủ đề 12: Ôn tập cuối năm",
+            "summary": "Ôn tập tỉ số và phần trăm.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b71",
+            "number": 71,
+            "title": "Bài 71: Ôn tập hình học",
+            "chapter": "Chủ đề 12: Ôn tập cuối năm",
+            "summary": "Ôn tập chu vi, diện tích, thể tích.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b72",
+            "number": 72,
+            "title": "Bài 72: Ôn tập đo lường",
+            "chapter": "Chủ đề 12: Ôn tập cuối năm",
+            "summary": "Ôn tập đơn vị đo đại lượng.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b73",
+            "number": 73,
+            "title": "Bài 73: Ôn tập toán chuyển động đều",
+            "chapter": "Chủ đề 12: Ôn tập cuối năm",
+            "summary": "Ôn tập v, s, t.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b74",
+            "number": 74,
+            "title": "Bài 74: Ôn tập một số yếu tố thống kê và xác suất",
+            "chapter": "Chủ đề 12: Ôn tập cuối năm",
+            "summary": "Ôn tập biểu đồ quạt tròn và xác suất.",
+            "questions": []
+          },
+          {
+            "id": "toan-5-b75",
+            "number": 75,
+            "title": "Bài 75: Ôn tập chung",
+            "chapter": "Chủ đề 12: Ôn tập cuối năm",
+            "summary": "Đề tổng hợp ôn thi cuối cấp Tiểu học.",
             "questions": []
           }
         ]
@@ -6318,6 +7763,274 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 20: Our summer holidays",
             "chapter": "Unit 20: Our summer holidays",
             "summary": "Dự định kì nghỉ hè: Where are you going to visit this summer?",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "amnhac-5",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-5-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Tự hào truyền thống trường em",
+            "chapter": "Chủ đề 1: Tự hào truyền thống trường em",
+            "summary": "Hát Reo vang bình minh; ôn tập đọc nhạc và nhịp 2/4, 3/4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Âm nhạc vang lên",
+            "chapter": "Chủ đề 2: Âm nhạc vang lên",
+            "summary": "Thực hành hát bè đơn giản và đệm bằng nhạc cụ gõ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Vui hội mùa thu",
+            "chapter": "Chủ đề 3: Vui hội mùa thu",
+            "summary": "Hát Đêm Trung thu; nghe và cảm nhận âm nhạc dân gian.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Lời ca dâng thầy cô",
+            "chapter": "Chủ đề 4: Lời ca dâng thầy cô",
+            "summary": "Hát Những bông hoa những bài ca; thể hiện tình cảm tri ân.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Khúc ca mùa xuân",
+            "chapter": "Chủ đề 5: Khúc ca mùa xuân",
+            "summary": "Hát Ngày Tết quê em; đọc nhạc kết hợp gõ phách.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Quê hương tươi đẹp",
+            "chapter": "Chủ đề 6: Quê hương tươi đẹp",
+            "summary": "Hát Em đi giữa biển vàng; tìm hiểu nhạc sĩ Hoàng Vân.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Giai điệu bạn bè",
+            "chapter": "Chủ đề 7: Giai điệu bạn bè",
+            "summary": "Hát Thiếu nhi thế giới; tìm hiểu một số nhạc cụ phương Tây.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-5-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Trái đất xanh",
+            "chapter": "Chủ đề 8: Trái đất xanh",
+            "summary": "Hát Trái đất này là của chúng mình; biểu diễn tổng kết bậc Tiểu học.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-5",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-5-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Yếu tố tạo hình trong thực hành, sáng tạo theo chủ đề",
+            "chapter": "Chủ đề 1: Yếu tố tạo hình",
+            "summary": "Vận dụng đường nét, hình khối, màu sắc, đậm nhạt trong sáng tạo.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Hình tượng anh hùng dân tộc trong mĩ thuật tạo hình Việt Nam",
+            "chapter": "Chủ đề 2: Hình tượng anh hùng dân tộc",
+            "summary": "Tìm hiểu tượng đài, tranh lịch sử về các anh hùng dân tộc.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Gia đình",
+            "chapter": "Chủ đề 3: Gia đình",
+            "summary": "Vẽ và tạo hình chủ đề sum họp, yêu thương gia đình.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Những hoạt động yêu thích ở trường em",
+            "chapter": "Chủ đề 4: Hoạt động yêu thích ở trường",
+            "summary": "Sáng tạo tranh cổ động, tranh sinh hoạt học đường.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Những việc làm bình dị mà cao quý trong cuộc sống",
+            "chapter": "Chủ đề 5: Việc làm cao quý",
+            "summary": "Vẽ tranh về gương người tốt việc tốt, nghề nghiệp phục vụ cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Cảnh sắc quê hương",
+            "chapter": "Chủ đề 6: Cảnh sắc quê hương",
+            "summary": "Vẽ phong cảnh quê hương bằng chất liệu tự chọn.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Việt Nam đất nước, con người",
+            "chapter": "Chủ đề 7: Việt Nam đất nước, con người",
+            "summary": "Giới thiệu bản sắc văn hóa các vùng miền qua mĩ thuật.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-5-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Vì một thế giới hoà bình",
+            "chapter": "Chủ đề 8: Vì một thế giới hòa bình",
+            "summary": "Vẽ tranh chủ đề hòa bình, tình hữu nghị quốc tế.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-5",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-5-b1",
+            "number": 1,
+            "title": "Phòng tránh chấn thương và dinh dưỡng thể thao",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Khởi động chuyên biệt, hồi tĩnh sau tập và chế độ ăn hợp lí.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Đội hình đội ngũ",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Đi đều vòng trái/phải, giậm chân tại chỗ chuyển sang đi đều.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Bài tập thể dục",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Bài thể dục phát triển chung lớp 5 nhịp nhàng theo nhạc.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Tư thế và kĩ năng vận động cơ bản",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Chạy bền trên địa hình tự nhiên, nhảy dây bền, bật xa.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Môn Bóng đá / Bóng rổ",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Dẫn bóng vượt chướng ngại vật và phối hợp chuyền bóng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-5-b6",
+            "number": 6,
+            "title": "Chủ đề 2: Môn Bơi / Cầu lông",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Hoàn thiện kĩ thuật bơi ếch hoặc phát cầu thấp tay.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-5",
+        "name": "Hoạt động trải nghiệm",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-5-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Em và sự trưởng thành của bản thân",
+            "chapter": "Chủ đề 1: Em lớn khôn",
+            "summary": "Nhận biết sự thay đổi của bản thân và rèn luyện tính tự chủ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Kiểm soát cảm xúc và giải quyết vấn đề",
+            "chapter": "Chủ đề 2: Quản lí cảm xúc và tự kiểm soát",
+            "summary": "Cách xử lí bất đồng với bạn bè và kiểm soát nóng giận.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Xây dựng trường học thân thiện, an toàn",
+            "chapter": "Chủ đề 3: Trường học thân thiện",
+            "summary": "Hợp tác nhóm và tổ chức sự kiện tri ân thầy cô cuối cấp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Trách nhiệm và gắn kết gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Lập kế hoạch kinh doanh nhỏ/tiết kiệm và chăm sóc gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b5",
+            "number": 5,
+            "title": "Chủ đề 5: An toàn trên không gian mạng và đời sống",
+            "chapter": "Chủ đề 5: Phòng tránh xâm hại và an toàn mạng",
+            "summary": "Nhận biết rủi ro trên Internet và kĩ năng tự bảo vệ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Hoạt động vì cộng đồng",
+            "chapter": "Chủ đề 6: Cộng đồng văn minh",
+            "summary": "Lập kế hoạch và thực hiện dự án thiện nguyện nhỏ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Hành động vì môi trường xanh",
+            "chapter": "Chủ đề 7: Bảo vệ thiên nhiên",
+            "summary": "Tuyên truyền bảo vệ đa dạng sinh học và giảm thiểu rác thải nhựa.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-5-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Khám phá sở thích nghề nghiệp tương lai",
+            "chapter": "Chủ đề 8: Định hướng nghề nghiệp",
+            "summary": "Tìm hiểu các nhóm nghề và chuẩn bị tâm thế lên lớp 6.",
             "questions": []
           }
         ]
@@ -7268,15 +8981,15 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Lịch sử và cuộc sống",
             "chapter": "Lịch sử - Chương 1: Vì sao phải học lịch sử?",
-            "summary": "Hiện thực lịch sử và nhận thức lịch sử.",
+            "summary": "Khái niệm lịch sử và ý nghĩa của việc học tập lịch sử.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b2",
             "number": 2,
-            "title": "Bài 2: Dựa vào đâu để biết và dựng lại lịch sử?",
+            "title": "Bài 2: Dựa vào đâu để biết và phục dựng lại lịch sử?",
             "chapter": "Lịch sử - Chương 1: Vì sao phải học lịch sử?",
-            "summary": "Sử liệu truyền miệng, hiện vật, chữ viết.",
+            "summary": "Tư liệu truyền miệng, tư liệu hiện vật và tư liệu chữ viết.",
             "questions": []
           },
           {
@@ -7284,135 +8997,359 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Thời gian trong lịch sử",
             "chapter": "Lịch sử - Chương 1: Vì sao phải học lịch sử?",
-            "summary": "Âm lịch, dương lịch, công nguyên, thế kỉ.",
+            "summary": "Âm lịch, dương lịch, Công lịch; cách tính thế kỉ, thiên niên kỉ.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b4",
             "number": 4,
             "title": "Bài 4: Nguồn gốc loài người",
-            "chapter": "Lịch sử - Chương 2: Thời kì nguyên thủy",
-            "summary": "Người tối cổ và người tinh khôn.",
+            "chapter": "Lịch sử - Chương 2: Xã hội nguyên thuỷ",
+            "summary": "Quá trình tiến hóa từ vượn người thành người tinh khôn.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b5",
             "number": 5,
-            "title": "Bài 5: Xã hội nguyên thủy",
-            "chapter": "Lịch sử - Chương 2: Thời kì nguyên thủy",
-            "summary": "Bầy người nguyên thủy, công xã thị tộc, phát minh kim loại.",
+            "title": "Bài 5: Xã hội nguyên thuỷ",
+            "chapter": "Lịch sử - Chương 2: Xã hội nguyên thuỷ",
+            "summary": "Đời sống vật chất và tinh thần của người nguyên thủy (bầy người, công xã thị tộc).",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b6",
             "number": 6,
-            "title": "Bài 6: Ai Cập và Lưỡng Hà cổ đại",
-            "chapter": "Lịch sử - Chương 3: Xã hội cổ đại",
-            "summary": "Lưu vực sông Nin, Ơ-phơ-rát, Ti-gơ-rơ.",
+            "title": "Bài 6: Sự chuyển biến và phân hoá của xã hội nguyên thuỷ",
+            "chapter": "Lịch sử - Chương 2: Xã hội nguyên thuỷ",
+            "summary": "Sự xuất hiện kim loại dẫn đến tư hữu và phân hóa giai cấp.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b7",
             "number": 7,
-            "title": "Bài 7: Ấn Độ cổ đại",
+            "title": "Bài 7: Ai Cập và Lưỡng Hà cổ đại",
             "chapter": "Lịch sử - Chương 3: Xã hội cổ đại",
-            "summary": "Sông Ấn - sông Hằng, Phật giáo, chữ số.",
+            "summary": "Văn minh sông Nin, sông Ơ-phơ-rát và Ti-gơ-rơ; kim tự tháp, chữ tượng hình.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b8",
             "number": 8,
-            "title": "Bài 8: Trung Quốc từ thời cổ đại đến thế kỉ VII",
+            "title": "Bài 8: Ấn Độ cổ đại",
             "chapter": "Lịch sử - Chương 3: Xã hội cổ đại",
-            "summary": "Nhà Tần, Hán, Đường; Con đường tơ lụa.",
+            "summary": "Văn minh sông Ấn - sông Hằng, chế độ đẳng cấp và Phật giáo, Ấn Độ giáo.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b9",
             "number": 9,
-            "title": "Bài 9: Hy Lạp và La Mã cổ đại",
+            "title": "Bài 9: Trung Quốc từ thời cổ đại đến thế kỉ VII",
             "chapter": "Lịch sử - Chương 3: Xã hội cổ đại",
-            "summary": "Dân chủ cổ đại và thành tựu văn hóa.",
+            "summary": "Tần Thủy Hoàng thống nhất Trung Quốc, con đường tơ lụa và phát minh văn hóa.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b10",
             "number": 10,
-            "title": "Bài 14: Nhà nước Văn Lang - Âu Lạc",
-            "chapter": "Lịch sử - Chương 5: Việt Nam từ thế kỉ VII TCN đến đầu thế kỉ X",
-            "summary": "Thời Hùng Vương và An Dương Vương.",
+            "title": "Bài 10: Hy Lạp và La Mã cổ đại",
+            "chapter": "Lịch sử - Chương 3: Xã hội cổ đại",
+            "summary": "Thể chế dân chủ cổ đại, toán học, kiến trúc và chữ viết La-tinh.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b11",
             "number": 11,
-            "title": "Bài 17: Đấu tranh bảo tồn và phát triển văn hóa dân tộc thời Bắc thuộc",
-            "chapter": "Lịch sử - Chương 5: Việt Nam từ thế kỉ VII TCN đến đầu thế kỉ X",
-            "summary": "Khởi nghĩa Hai Bà Trưng, Lý Bí, Ngô Quyền.",
+            "title": "Bài 11: Các quốc gia sơ kì ở Đông Nam Á",
+            "chapter": "Lịch sử - Chương 4: Đông Nam Á đến thế kỉ X",
+            "summary": "Vị trí cầu nối và các vương quốc cổ ở Đông Nam Á.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b12",
             "number": 12,
-            "title": "Bài 1: Hệ thống kinh, vĩ tuyến. Tọa độ địa lí",
-            "chapter": "Địa lí - Chương 1: Bản đồ",
-            "summary": "Kinh tuyến gốc 0°, Xích đạo 0°, tọa độ.",
+            "title": "Bài 12: Các vương quốc phong kiến Đông Nam Á (thế kỉ VII–X)",
+            "chapter": "Lịch sử - Chương 4: Đông Nam Á đến thế kỉ X",
+            "summary": "Sự phát triển của Ăng-co, Pa-gan, Sri Vi-giay-a.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b13",
             "number": 13,
-            "title": "Bài 5: Vị trí Trái Đất trong Hệ Mặt Trời. Hình dạng, kích thước",
-            "chapter": "Địa lí - Chương 2: Trái Đất",
-            "summary": "Vị trí thứ 3, hình cầu.",
+            "title": "Bài 13: Giao lưu văn hoá ở Đông Nam Á từ đầu Công nguyên đến thế kỉ X",
+            "chapter": "Lịch sử - Chương 4: Đông Nam Á đến thế kỉ X",
+            "summary": "Ảnh hưởng của văn hóa Ấn Độ, Trung Quốc và bản sắc bản địa.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b14",
             "number": 14,
-            "title": "Bài 6: Chuyển động tự quay quanh trục của Trái Đất và hệ quả",
-            "chapter": "Địa lí - Chương 2: Trái Đất",
-            "summary": "Ngày đêm luân phiên, giờ khu vực, lực Coriolis.",
+            "title": "Bài 14: Nhà nước Văn Lang – Âu Lạc",
+            "chapter": "Lịch sử - Chương 5: Việt Nam từ TK VII TCN đến đầu TK X",
+            "summary": "Kinh đô Phong Châu, Cổ Loa và văn hóa Đông Sơn.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b15",
             "number": 15,
-            "title": "Bài 7: Chuyển động quanh Mặt Trời của Trái Đất và hệ quả",
-            "chapter": "Địa lí - Chương 2: Trái Đất",
-            "summary": "Các mùa và ngày đêm dài ngắn theo mùa.",
+            "title": "Bài 15: Chính sách cai trị của phong kiến phương Bắc và chuyển biến Âu Lạc",
+            "chapter": "Lịch sử - Chương 5: Việt Nam từ TK VII TCN đến đầu TK X",
+            "summary": "Chính sách đồng hóa, bóc lột và sự chuyển biến kinh tế-xã hội.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b16",
             "number": 16,
-            "title": "Bài 9: Cấu tạo của Trái Đất. Động đất và núi lửa",
-            "chapter": "Địa lí - Chương 3: Cấu tạo Trái Đất",
-            "summary": "Vỏ, man-ti, nhân Trái Đất.",
+            "title": "Bài 16: Các cuộc khởi nghĩa tiêu biểu giành độc lập trước thế kỉ X",
+            "chapter": "Lịch sử - Chương 5: Việt Nam từ TK VII TCN đến đầu TK X",
+            "summary": "Khởi nghĩa Hai Bà Trưng, Bà Triệu, Lý Bí, Mai Thúc Loan, Phùng Hưng.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b17",
             "number": 17,
-            "title": "Bài 12: Lớp vỏ khí. Khối khí. Khí áp và gió trên Trái Đất",
-            "chapter": "Địa lí - Chương 4: Khí hậu",
-            "summary": "Khí quyển, gió Tín phong, Tây ôn đới.",
+            "title": "Bài 17: Cuộc đấu tranh bảo tồn và phát triển văn hoá dân tộc",
+            "chapter": "Lịch sử - Chương 5: Việt Nam từ TK VII TCN đến đầu TK X",
+            "summary": "Giữ gìn tiếng Việt, phong tục tập quán trong thời Bắc thuộc.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b18",
             "number": 18,
-            "title": "Bài 16: Thủy quyển. Vòng tuần hoàn nước. Nước ngầm, băng hà",
-            "chapter": "Địa lí - Chương 5: Nước trên Trái Đất",
-            "summary": "Vòng tuần hoàn nước.",
+            "title": "Bài 18: Bước ngoặt lịch sử đầu thế kỉ X",
+            "chapter": "Lịch sử - Chương 5: Việt Nam từ TK VII TCN đến đầu TK X",
+            "summary": "Khúc Thừa Dụ dựng quyền tự chủ và chiến thắng Bạch Đằng 938 của Ngô Quyền.",
             "questions": []
           },
           {
             "id": "lichsu-diali-6-b19",
             "number": 19,
-            "title": "Bài 21: Biến đổi khí hậu và ứng phó với biến đổi khí hậu",
-            "chapter": "Địa lí - Chương 6: Đất và sinh vật",
-            "summary": "Ứng phó biến đổi khí hậu.",
+            "title": "Bài 19: Vương quốc Chăm-pa từ thế kỉ II đến thế kỉ X",
+            "chapter": "Lịch sử - Chương 5: Việt Nam từ TK VII TCN đến đầu TK X",
+            "summary": "Lâm Ấp, Chăm-pa, thánh địa Mỹ Sơn và văn hóa Chăm.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b20",
+            "number": 20,
+            "title": "Bài 20: Vương quốc Phù Nam",
+            "chapter": "Lịch sử - Chương 5: Việt Nam từ TK VII TCN đến đầu TK X",
+            "summary": "Vương quốc Phù Nam và văn hóa Óc Eo ở Nam Bộ.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b21",
+            "number": 21,
+            "title": "Bài mở đầu (Địa lí 6)",
+            "chapter": "Địa lí - Mở đầu",
+            "summary": "Giới thiệu môn Địa lí và cách học bản đồ, thế giới tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b22",
+            "number": 22,
+            "title": "Bài 1: Hệ thống kinh, vĩ tuyến. Tọa độ địa lí",
+            "chapter": "Địa lí - Chương 1: Bản đồ",
+            "summary": "Kinh tuyến, vĩ tuyến, kinh độ, vĩ độ và tọa độ một điểm.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b23",
+            "number": 23,
+            "title": "Bài 2: Bản đồ. Một số lưới kinh, vĩ tuyến. Phương hướng trên bản đồ",
+            "chapter": "Địa lí - Chương 1: Bản đồ",
+            "summary": "8 hướng chính và cách xác định phương hướng trên bản đồ.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b24",
+            "number": 24,
+            "title": "Bài 3: Tỉ lệ bản đồ. Tính khoảng cách thực tế dựa vào tỉ lệ bản đồ",
+            "chapter": "Địa lí - Chương 1: Bản đồ",
+            "summary": "Tỉ lệ số, tỉ lệ thước và công thức tính khoảng cách thực địa.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b25",
+            "number": 25,
+            "title": "Bài 4: Kí hiệu và bảng chú giải bản đồ. Tìm đường đi trên bản đồ",
+            "chapter": "Địa lí - Chương 1: Bản đồ",
+            "summary": "Kí hiệu điểm, đường, diện tích và tìm đường đi.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b26",
+            "number": 26,
+            "title": "Bài 5: Lược đồ trí nhớ",
+            "chapter": "Địa lí - Chương 1: Bản đồ",
+            "summary": "Vẽ lược đồ trí nhớ khu vực quen thuộc.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b27",
+            "number": 27,
+            "title": "Bài 6: Trái Đất trong hệ Mặt Trời",
+            "chapter": "Địa lí - Chương 2: Trái Đất - Hành tinh của hệ Mặt Trời",
+            "summary": "Vị trí thứ 3 tính từ Mặt Trời; hình dạng và kích thước Trái Đất.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b28",
+            "number": 28,
+            "title": "Bài 7: Chuyển động tự quay quanh trục của Trái Đất và hệ quả",
+            "chapter": "Địa lí - Chương 2: Trái Đất - Hành tinh của hệ Mặt Trời",
+            "summary": "Luân phiên ngày đêm, giờ trên Trái Đất (24 múi giờ), lực Cô-ri-ô-lít.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b29",
+            "number": 29,
+            "title": "Bài 8: Chuyển động của Trái Đất quanh Mặt Trời và hệ quả",
+            "chapter": "Địa lí - Chương 2: Trái Đất - Hành tinh của hệ Mặt Trời",
+            "summary": "Hiện tượng các mùa và ngày đêm dài ngắn theo mùa.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b30",
+            "number": 30,
+            "title": "Bài 9: Cấu tạo của Trái Đất. Các mảng kiến tạo",
+            "chapter": "Địa lí - Chương 3: Cấu tạo của Trái Đất",
+            "summary": "Vỏ Trái Đất, man-ti, nhân; sự dịch chuyển các mảng kiến tạo.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b31",
+            "number": 31,
+            "title": "Bài 10: Quá trình nội sinh và quá trình ngoại sinh. Hiện tượng tạo núi",
+            "chapter": "Địa lí - Chương 3: Cấu tạo của Trái Đất",
+            "summary": "Nội sinh làm gồ ghề, ngoại sinh bào mòn bồi tụ.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b32",
+            "number": 32,
+            "title": "Bài 11: Núi lửa và động đất",
+            "chapter": "Địa lí - Chương 3: Cấu tạo của Trái Đất",
+            "summary": "Nguyên nhân và cách phòng tránh động đất, núi lửa.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b33",
+            "number": 33,
+            "title": "Bài 12: Các dạng địa hình chính trên Trái Đất. Khoáng sản",
+            "chapter": "Địa lí - Chương 3: Cấu tạo của Trái Đất",
+            "summary": "Núi, đồi, cao nguyên, đồng bằng và khoáng sản.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b34",
+            "number": 34,
+            "title": "Bài 13: Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản",
+            "chapter": "Địa lí - Chương 3: Cấu tạo của Trái Đất",
+            "summary": "Đọc đường đồng mức và lát cắt địa hình.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b35",
+            "number": 35,
+            "title": "Bài 14: Lớp vỏ khí của Trái Đất. Khí áp và gió",
+            "chapter": "Địa lí - Chương 4: Khí hậu và biến đổi khí hậu",
+            "summary": "Thành phần không khí, các tầng khí quyển, đai khí áp và gió.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b36",
+            "number": 36,
+            "title": "Bài 15: Nhiệt độ không khí. Mây và mưa",
+            "chapter": "Địa lí - Chương 4: Khí hậu và biến đổi khí hậu",
+            "summary": "Sự thay đổi nhiệt độ, hơi nước, mây và phân bố lượng mưa.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b37",
+            "number": 37,
+            "title": "Bài 16: Thời tiết và khí hậu. Biến đổi khí hậu",
+            "chapter": "Địa lí - Chương 4: Khí hậu và biến đổi khí hậu",
+            "summary": "Các đới khí hậu trên Trái Đất và ứng phó biến đổi khí hậu.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b38",
+            "number": 38,
+            "title": "Bài 17: Thực hành: Phân tích biểu đồ nhiệt độ, lượng mưa",
+            "chapter": "Địa lí - Chương 4: Khí hậu và biến đổi khí hậu",
+            "summary": "Đọc nhiệt độ cao nhất/thấp nhất và mùa mưa trên biểu đồ.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b39",
+            "number": 39,
+            "title": "Bài 18: Thuỷ quyển và vòng tuần hoàn lớn của nước",
+            "chapter": "Địa lí - Chương 5: Nước trên Trái Đất",
+            "summary": "Nước ngọt, nước mặn và vòng tuần hoàn nước.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b40",
+            "number": 40,
+            "title": "Bài 19: Sông và hồ. Nước ngầm và băng hà",
+            "chapter": "Địa lí - Chương 5: Nước trên Trái Đất",
+            "summary": "Lưu vực sông, thủy chế, vai trò nước ngầm và băng hà.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b41",
+            "number": 41,
+            "title": "Bài 20: Biển và đại dương",
+            "chapter": "Địa lí - Chương 5: Nước trên Trái Đất",
+            "summary": "Độ muối, sóng, thủy triều và dòng biển.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b42",
+            "number": 42,
+            "title": "Bài 21: Lớp đất trên Trái Đất. Các nhân tố hình thành đất",
+            "chapter": "Địa lí - Chương 6: Đất và sinh vật trên Trái Đất",
+            "summary": "Độ phì của đất và 5 nhân tố hình thành đất.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b43",
+            "number": 43,
+            "title": "Bài 22: Sinh vật và sự phân bố các đới thiên nhiên. Rừng nhiệt đới",
+            "chapter": "Địa lí - Chương 6: Đất và sinh vật trên Trái Đất",
+            "summary": "Các đới thiên nhiên và đặc trưng rừng nhiệt đới.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b44",
+            "number": 44,
+            "title": "Bài 23: Thực hành: Tìm hiểu môi trường tự nhiên qua tài liệu và tham quan địa phương",
+            "chapter": "Địa lí - Chương 6: Đất và sinh vật trên Trái Đất",
+            "summary": "Khảo sát tự nhiên địa phương.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b45",
+            "number": 45,
+            "title": "Bài 24: Dân số và sự phân bố dân cư trên thế giới",
+            "chapter": "Địa lí - Chương 7: Con người và thiên nhiên",
+            "summary": "Gia tăng dân số và phân bố dân cư không đều.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b46",
+            "number": 46,
+            "title": "Bài 25: Con người và thiên nhiên",
+            "chapter": "Địa lí - Chương 7: Con người và thiên nhiên",
+            "summary": "Tác động qua lại giữa con người và tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-6-b47",
+            "number": 47,
+            "title": "Bài 26: Thực hành: Tìm hiểu tác động của con người đến thiên nhiên địa phương",
+            "chapter": "Địa lí - Chương 7: Con người và thiên nhiên",
+            "summary": "Đề xuất bảo vệ môi trường địa phương.",
             "questions": []
           }
         ]
@@ -7881,6 +9818,290 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 12: Robots",
             "chapter": "Unit 12: Robots",
             "summary": "So sánh nhất của tính từ ngắn.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "amnhac-6",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-6-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Khởi đầu năm học",
+            "chapter": "Chủ đề 1: Khởi đầu năm học",
+            "summary": "Hát Mùa khai trường; đọc nhạc bài số 1; tìm hiểu kí hiệu ghi nhạc.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Vẻ đẹp của âm nhạc",
+            "chapter": "Chủ đề 2: Vẻ đẹp của âm nhạc",
+            "summary": "Hát Em đi trong tươi xanh; nghe nhạc Beethoven; đọc nhạc nhịp 2/4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Nhịp điệu mùa thu",
+            "chapter": "Chủ đề 3: Nhịp điệu mùa thu",
+            "summary": "Hát Tiếng chuông và ngọn cờ; thực hành nhạc cụ giai điệu.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Giai điệu quê hương",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "Nghe dân ca Quan họ, Ca trù; hát Đi cắt lúa.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Bài ca hòa bình",
+            "chapter": "Chủ đề 5: Bài ca hòa bình",
+            "summary": "Hát Niềm vui của em; đọc nhạc gam Đô trưởng.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Sắc màu dân gian",
+            "chapter": "Chủ đề 6: Sắc màu dân gian",
+            "summary": "Tìm hiểu một số nhạc cụ dân tộc Việt Nam và hát dân ca.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Âm nhạc nước ngoài",
+            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
+            "summary": "Nghe và hát bài hát thiếu nhi quốc tế; tìm hiểu nhịp 3/4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-6-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Giai điệu mùa hè",
+            "chapter": "Chủ đề 8: Giai điệu mùa hè",
+            "summary": "Hát Ngôi nhà của chúng ta; ôn tập kiểm tra cuối năm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-6",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-6-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Những sắc màu của tự nhiên",
+            "chapter": "Chủ đề 1: Những sắc màu của tự nhiên",
+            "summary": "Hòa sắc từ tự nhiên, pha màu cơ bản và màu thứ cấp.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Nghệ thuật tiền sử thế giới và Việt Nam",
+            "chapter": "Chủ đề 2: Nghệ thuật tiền sử",
+            "summary": "Tìm hiểu hình vẽ hang động tiền sử và mô phỏng tạo hình.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Sáng tạo với những vật liệu thông dụng",
+            "chapter": "Chủ đề 3: Vật liệu thông dụng",
+            "summary": "Thiết kế sản phẩm từ bìa, dây, vật liệu tái chế.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
+            "chapter": "Chủ đề 4: Nghệ thuật Ai Cập cổ đại",
+            "summary": "Tìm hiểu kim tự tháp, tượng nhân sư và nghệ thuật phù điêu Ai Cập.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Ngôi nhà của em",
+            "chapter": "Chủ đề 5: Ngôi nhà của em",
+            "summary": "Thiết kế mô hình nhà ở kết hợp trang trí nội thất.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Vẻ đẹp của thiên nhiên trong sáng tạo mĩ thuật",
+            "chapter": "Chủ đề 6: Vẻ đẹp thiên nhiên",
+            "summary": "Vẽ tranh phong cảnh bằng chất liệu màu nước/sáp dầu.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Hòa sắc của mùa xuân",
+            "chapter": "Chủ đề 7: Hòa sắc mùa xuân",
+            "summary": "Ứng dụng gam màu tương đồng, tương phản trong tranh.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
+            "chapter": "Chủ đề 8: Nghệ thuật Hy Lạp cổ đại",
+            "summary": "Tìm hiểu kiến trúc đền Parthenon, gốm Hy Lạp và tỉ lệ cơ thể.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Thiết kế thời trang và cuộc sống",
+            "chapter": "Chủ đề 9: Thiết kế thời trang",
+            "summary": "Thiết kế trang phục từ giấy, vải vụn theo chủ đề.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-6-b10",
+            "number": 10,
+            "title": "Chủ đề 10: Nghệ thuật đại chúng",
+            "chapter": "Chủ đề 10: Nghệ thuật đại chúng",
+            "summary": "Làm quen nghệ thuật Pop Art và sáng tạo sản phẩm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-6",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-6-b1",
+            "number": 1,
+            "title": "Chế độ dinh dưỡng trong luyện tập TDTT",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Cân bằng dinh dưỡng cho lứa tuổi THCS khi vận động thể thao.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Động tác bổ trợ, xuất phát cao và chạy lao sau xuất phát.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Nhảy xa kiểu ngồi",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Chạy đà, giậm nhảy, bước bộ trên không và rơi xuống cát.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Bài thể dục nhịp điệu",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Các động tác tay, chân, bật nhảy kết hợp nhịp điệu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-6-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Kĩ thuật cơ bản: dẫn bóng, chuyền bóng hoặc đánh cầu cao tay.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-6",
+        "name": "Hoạt động trải nghiệm, hướng nghiệp",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-6-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Em với nhà trường",
+            "chapter": "Chủ đề 1: Em với nhà trường",
+            "summary": "Làm quen môi trường THCS, truyền thống trường và cách học mới.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Khám phá bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Nhận diện đức tính đặc trưng, sở thích và giá trị bản thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Trách nhiệm với bản thân",
+            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
+            "summary": "Tự chăm sóc sức khỏe tuổi dậy thì và ứng phó thiên tai.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Rèn luyện bản thân",
+            "chapter": "Chủ đề 4: Rèn luyện bản thân",
+            "summary": "Sắp xếp góc học tập, giao tiếp tích cực và chi tiêu hợp lí.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Em với gia đình",
+            "chapter": "Chủ đề 5: Em với gia đình",
+            "summary": "Chăm sóc người thân, chia sẻ và giải quyết vấn đề gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Em với cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Thiện nguyện, giữ gìn văn hóa nơi công cộng và truyền thống quê hương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Em với thiên nhiên và môi trường",
+            "chapter": "Chủ đề 7: Em với thiên nhiên",
+            "summary": "Tìm hiểu di tích, cảnh quan thiên nhiên và bảo vệ môi trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Khám phá thế giới nghề nghiệp",
+            "chapter": "Chủ đề 8: Khám phá nghề nghiệp",
+            "summary": "Tìm hiểu nghề truyền thống, nghề phổ biến và dụng cụ lao động.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-6-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Hiểu bản thân để chọn nghề phù hợp",
+            "chapter": "Chủ đề 9: Hiểu bản thân chọn đúng nghề",
+            "summary": "Liên hệ sở thích, năng lực cá nhân với nhóm nghề tương lai.",
             "questions": []
           }
         ]
@@ -8578,89 +10799,233 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "lichsu-diali-7-b1",
             "number": 1,
-            "title": "Bài 1: Quá trình hình thành và phát triển của chế độ phong kiến ở Tây Âu",
-            "chapter": "Lịch sử - Chương 1: Tây Âu trung đại",
-            "summary": "Lãnh địa phong kiến và thành thị trung đại.",
+            "title": "Bài 1: Quá trình hình thành và phát triển chế độ phong kiến ở Tây Âu",
+            "chapter": "Lịch sử - Chương 1: Tây Âu (TK V–XVI)",
+            "summary": "Lãnh địa phong kiến, thành thị trung đại và Thiên Chúa giáo.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b2",
             "number": 2,
-            "title": "Bài 2: Các cuộc phát kiến địa lí",
-            "chapter": "Lịch sử - Chương 1: Tây Âu trung đại",
-            "summary": "Cô-lôm-bô, Ma-gien-lăng.",
+            "title": "Bài 2: Các cuộc phát kiến địa lí và sự hình thành quan hệ sản xuất TBCN ở Tây Âu",
+            "chapter": "Lịch sử - Chương 1: Tây Âu (TK V–XVI)",
+            "summary": "C. Cô-lôm-bô, V. Ga-ma, F. Ma-gien-lăng và hệ quả phát kiến.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b3",
             "number": 3,
-            "title": "Bài 3: Phong trào Văn hóa Phục hưng",
-            "chapter": "Lịch sử - Chương 1: Tây Âu trung đại",
-            "summary": "Đề cao con người và khoa học.",
+            "title": "Bài 3: Phong trào Văn hoá Phục hưng và Cải cách tôn giáo",
+            "chapter": "Lịch sử - Chương 1: Tây Âu (TK V–XVI)",
+            "summary": "Thành tựu Phục hưng (Leonardo da Vinci, Shakespeare) và cải cách Lu-thơ.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b4",
             "number": 4,
-            "title": "Bài 11: Nhà Lý xây dựng và phát triển đất nước (1009 - 1225)",
-            "chapter": "Lịch sử - Chương 4: Việt Nam từ thế kỉ X đến thế kỉ XVI",
-            "summary": "Dời đô Thăng Long, chống Tống.",
+            "title": "Bài 4: Trung Quốc từ thế kỉ VII đến giữa thế kỉ XIX",
+            "chapter": "Lịch sử - Chương 2: Trung Quốc và Ấn Độ thời trung đại",
+            "summary": "Các triều đại Đường, Tống, Nguyên, Minh, Thanh và thành tựu văn hóa.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b5",
             "number": 5,
-            "title": "Bài 14: Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
-            "chapter": "Lịch sử - Chương 4: Việt Nam từ thế kỉ X đến thế kỉ XVI",
-            "summary": "Hào khí Đông A thời Trần.",
+            "title": "Bài 5: Ấn Độ từ thế kỉ IV đến giữa thế kỉ XIX",
+            "chapter": "Lịch sử - Chương 2: Trung Quốc và Ấn Độ thời trung đại",
+            "summary": "Vương triều Gúp-ta, Đê-li, Mô-gôn và thành tựu văn hóa Ấn Độ.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b6",
             "number": 6,
-            "title": "Bài 17: Khởi nghĩa Lam Sơn (1418 - 1427)",
-            "chapter": "Lịch sử - Chương 4: Việt Nam từ thế kỉ X đến thế kỉ XVI",
-            "summary": "Lê Lợi, Nguyễn Trãi đánh đuổi quân Minh.",
+            "title": "Bài 6: Các vương quốc phong kiến Đông Nam Á (nửa sau TK X – nửa đầu TK XVI)",
+            "chapter": "Lịch sử - Chương 3: Đông Nam Á (TK X–XVI)",
+            "summary": "Sự phát triển rực rỡ của các quốc gia phong kiến Đông Nam Á.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b7",
             "number": 7,
-            "title": "Bài 1: Vị trí địa lí, đặc điểm tự nhiên châu Âu",
-            "chapter": "Địa lí - Chương 1: Châu Âu",
-            "summary": "Đồng bằng, núi An-pơ, khí hậu ôn đới.",
+            "title": "Bài 7: Vương quốc Lào",
+            "chapter": "Lịch sử - Chương 3: Đông Nam Á (TK X–XVI)",
+            "summary": "Vương quốc Lan Xang (Triệu Voi) và văn hóa Lào.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b8",
             "number": 8,
-            "title": "Bài 5: Vị trí địa lí, đặc điểm tự nhiên châu Á",
-            "chapter": "Địa lí - Chương 2: Châu Á",
-            "summary": "Châu lục lớn nhất, Hi-ma-lay-a, gió mùa.",
+            "title": "Bài 8: Vương quốc Cam-pu-chia",
+            "chapter": "Lịch sử - Chương 3: Đông Nam Á (TK X–XVI)",
+            "summary": "Thời kì Ăng-co, đền Ăng-co Vát và văn hóa Khơ-me.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b9",
             "number": 9,
-            "title": "Bài 9: Vị trí địa lí, đặc điểm tự nhiên châu Phi",
-            "chapter": "Địa lí - Chương 3: Châu Phi",
-            "summary": "Hoang mạc Xa-ha-ra, khí hậu nóng khô.",
+            "title": "Bài 9: Đất nước buổi đầu độc lập (Ngô – Đinh – Tiền Lê)",
+            "chapter": "Lịch sử - Chương 4: Ngô - Đinh - Tiền Lê",
+            "summary": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, Lê Hoàn kháng chiến chống Tống 981.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b10",
             "number": 10,
-            "title": "Bài 13: Phát kiến ra châu Mỹ, vị trí địa lí và phạm vi châu Mỹ",
-            "chapter": "Địa lí - Chương 4: Châu Mỹ",
-            "summary": "Rừng A-ma-dôn, phân hóa Bắc - Nam Mỹ.",
+            "title": "Bài 10: Nhà Lý thành lập và xây dựng đất nước (thế kỉ XI – XIII)",
+            "chapter": "Lịch sử - Chương 5: Đại Việt thời Lý - Trần - Hồ",
+            "summary": "Dời đô về Thăng Long (1010), Quốc Tử Giám, bộ luật Hình thư.",
             "questions": []
           },
           {
             "id": "lichsu-diali-7-b11",
             "number": 11,
-            "title": "Bài 18: Châu Nam Cực",
-            "chapter": "Địa lí - Chương 5: Châu Đại Dương và châu Nam Cực",
-            "summary": "Châu lục lạnh nhất, hiệp ước Nam Cực.",
+            "title": "Bài 11: Cuộc kháng chiến chống quân xâm lược Tống (1075 – 1077)",
+            "chapter": "Lịch sử - Chương 5: Đại Việt thời Lý - Trần - Hồ",
+            "summary": "Lý Thường Kiệt, chiến tuyến sông Như Nguyệt và bài thơ Nam quốc sơn hà.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b12",
+            "number": 12,
+            "title": "Bài 12: Đại Việt thời Trần (thế kỉ XIII – XIV)",
+            "chapter": "Lịch sử - Chương 5: Đại Việt thời Lý - Trần - Hồ",
+            "summary": "Tổ chức nhà nước, kinh tế nông nghiệp, văn hóa thời Trần.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b13",
+            "number": 13,
+            "title": "Bài 13: Ba lần kháng chiến chống quân xâm lược Mông – Nguyên (thế kỉ XIII)",
+            "chapter": "Lịch sử - Chương 5: Đại Việt thời Lý - Trần - Hồ",
+            "summary": "Hội nghị Diên Hồng, Hưng Đạo Vương Trần Quốc Tuấn, chiến thắng Bạch Đằng 1288.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b14",
+            "number": 14,
+            "title": "Bài 14: Nước Đại Việt thời Hồ (đầu thế kỉ XV)",
+            "chapter": "Lịch sử - Chương 5: Đại Việt thời Lý - Trần - Hồ",
+            "summary": "Cải cách của Hồ Quý Ly và cuộc kháng chiến chống quân Minh thất bại.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b15",
+            "number": 15,
+            "title": "Bài 15: Khởi nghĩa Lam Sơn (1418 – 1427)",
+            "chapter": "Lịch sử - Chương 6: Khởi nghĩa Lam Sơn và Đại Việt thời Lê sơ",
+            "summary": "Lê Lợi, Nguyễn Trãi, chiến thắng Chi Lăng - Xương Giang.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b16",
+            "number": 16,
+            "title": "Bài 16: Đại Việt thời Lê sơ (1428 – 1527)",
+            "chapter": "Lịch sử - Chương 6: Khởi nghĩa Lam Sơn và Đại Việt thời Lê sơ",
+            "summary": "Bộ luật Hồng Đức, văn hóa giáo dục Nho giáo và bia Tiến sĩ.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b17",
+            "number": 17,
+            "title": "Bài 17: Vị trí địa lí, đặc điểm tự nhiên, dân cư và xã hội châu Âu",
+            "chapter": "Địa lí - Chương 1: Châu Âu",
+            "summary": "Địa hình, khí hậu ôn đới và vấn đề già hóa dân số châu Âu.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b18",
+            "number": 18,
+            "title": "Bài 18: Phương thức con người khai thác, sử dụng và bảo vệ thiên nhiên châu Âu",
+            "chapter": "Địa lí - Chương 1: Châu Âu",
+            "summary": "Bảo vệ môi trường không khí, nước và đa dạng sinh học ở châu Âu.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b19",
+            "number": 19,
+            "title": "Bài 19: Liên minh châu Âu (EU)",
+            "chapter": "Địa lí - Chương 1: Châu Âu",
+            "summary": "Trung tâm kinh tế lớn hàng đầu thế giới.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b20",
+            "number": 20,
+            "title": "Bài 20: Vị trí địa lí, đặc điểm tự nhiên, dân cư và xã hội châu Á",
+            "chapter": "Địa lí - Chương 2: Châu Á",
+            "summary": "Châu lục lớn nhất, địa hình núi cao nguyên, khí hậu đa dạng và đông dân nhất.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b21",
+            "number": 21,
+            "title": "Bài 21: Đặc điểm kinh tế – xã hội các khu vực châu Á",
+            "chapter": "Địa lí - Chương 2: Châu Á",
+            "summary": "Đông Á, Đông Nam Á, Nam Á, Tây Á, Trung Á.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b22",
+            "number": 22,
+            "title": "Bài 22: Vị trí địa lí, đặc điểm tự nhiên, dân cư và xã hội châu Phi",
+            "chapter": "Địa lí - Chương 3: Châu Phi",
+            "summary": "Lục địa nóng, hoang mạc Xa-ha-ra, tỉ suất gia tăng dân số cao.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b23",
+            "number": 23,
+            "title": "Bài 23: Phương thức con người khai thác, sử dụng và bảo vệ thiên nhiên châu Phi",
+            "chapter": "Địa lí - Chương 3: Châu Phi",
+            "summary": "Chống sa mạc hóa và bảo vệ động vật hoang dã.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b24",
+            "number": 24,
+            "title": "Bài 24: Vị trí địa lí, lịch sử khám phá và thiên nhiên châu Mỹ",
+            "chapter": "Địa lí - Chương 4: Châu Mỹ",
+            "summary": "Bắc Mỹ, Trung và Nam Mỹ; dãy Coóc-đi-e, An-đét, rừng A-ma-dôn.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b25",
+            "number": 25,
+            "title": "Bài 25: Dân cư, xã hội và kinh tế châu Mỹ",
+            "chapter": "Địa lí - Chương 4: Châu Mỹ",
+            "summary": "Đô thị hóa Bắc Mỹ và khai thác tài nguyên ở Nam Mỹ.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b26",
+            "number": 26,
+            "title": "Bài 26: Châu Đại Dương",
+            "chapter": "Địa lí - Chương 5: Châu Đại Dương và Châu Nam Cực",
+            "summary": "Lục địa Ô-xtrây-li-a và các đảo Thái Bình Dương.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b27",
+            "number": 27,
+            "title": "Bài 27: Châu Nam Cực",
+            "chapter": "Địa lí - Chương 5: Châu Đại Dương và Châu Nam Cực",
+            "summary": "Cực lạnh thế giới, lớp băng phủ dày và Hiệp ước Nam Cực.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b28",
+            "number": 28,
+            "title": "Chủ đề chung 1: Các cuộc đại phát kiến địa lí",
+            "chapter": "Chủ đề chung",
+            "summary": "Tích hợp Lịch sử và Địa lí về các chuyến hải trình thế kỉ XV–XVI.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-7-b29",
+            "number": 29,
+            "title": "Chủ đề chung 2: Đô thị: Lịch sử và hiện tại",
+            "chapter": "Chủ đề chung",
+            "summary": "Sự hình thành và phát triển các đô thị qua các thời kì.",
             "questions": []
           }
         ]
@@ -9105,6 +11470,266 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 12: English-speaking Countries",
             "chapter": "Unit 12: English-speaking Countries",
             "summary": "Articles a, an, the.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "amnhac-7",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-7-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Âm nhạc và cuộc sống",
+            "chapter": "Chủ đề 1: Âm nhạc và cuộc sống",
+            "summary": "Hát Khai giảng; ôn tập đọc nhạc và kí hiệu âm nhạc cơ bản.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Khúc ca tình bạn",
+            "chapter": "Chủ đề 2: Khúc ca tình bạn",
+            "summary": "Hát Mái trường mến yêu; thực hành hát hai bè đơn giản.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Giai điệu bốn mùa",
+            "chapter": "Chủ đề 3: Giai điệu bốn mùa",
+            "summary": "Nghe nhạc Bốn mùa (Vivaldi); đọc nhạc nhịp 3/4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Âm nhạc và truyền thống",
+            "chapter": "Chủ đề 4: Âm nhạc và truyền thống",
+            "summary": "Hát Nhớ ơn thầy cô; tìm hiểu nhạc cổ truyền Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Giai điệu quê hương",
+            "chapter": "Chủ đề 5: Giai điệu quê hương",
+            "summary": "Nghe và hát dân ca Trung Bộ, Nam Bộ; thực hành nhạc cụ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Âm nhạc nước ngoài",
+            "chapter": "Chủ đề 6: Âm nhạc nước ngoài",
+            "summary": "Hát bài hát dân ca nước ngoài; phân biệt giọng trưởng, thứ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Hướng tới tương lai",
+            "chapter": "Chủ đề 7: Hướng tới tương lai",
+            "summary": "Hát Tiến bước lên Đoàn; thực hành biểu diễn nhóm.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-7-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Vui bước tới trường",
+            "chapter": "Chủ đề 8: Vui bước tới trường",
+            "summary": "Ôn tập các bài hát, bài đọc nhạc và nhạc cụ cuối năm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-7",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-7-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Sự biểu cảm của sắc màu",
+            "chapter": "Chủ đề 1: Sự biểu cảm của sắc màu",
+            "summary": "Khai thác hòa sắc trong thể hiện cảm xúc bức tranh.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Nghệ thuật trung đại thế giới và Việt Nam",
+            "chapter": "Chủ đề 2: Nghệ thuật trung đại",
+            "summary": "Tìm hiểu kiến trúc, điêu khắc thời Lý - Trần và Phục hưng sơ kì.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Sáng tạo sản phẩm mĩ thuật từ vật liệu tái chế",
+            "chapter": "Chủ đề 3: Vật liệu tái chế",
+            "summary": "Thiết kế đồ dùng trang trí từ nhựa, giấy, kim loại phế liệu.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Âm nhạc và mĩ thuật",
+            "chapter": "Chủ đề 4: Âm nhạc và mĩ thuật",
+            "summary": "Chuyển hóa nhịp điệu, giai điệu âm nhạc thành bố cục tạo hình.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Nghệ thuật và thế giới tuổi teen",
+            "chapter": "Chủ đề 5: Nghệ thuật vị thành niên",
+            "summary": "Vẽ tranh, thiết kế nhân vật, truyện tranh ngắn.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Nghệ thuật đồ họa (Tranh in)",
+            "chapter": "Chủ đề 6: Nghệ thuật đồ họa",
+            "summary": "Thực hành kĩ thuật tranh in độc bản, in khắc xốp.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Thiết kế đồ họa (Biểu trưng, poster)",
+            "chapter": "Chủ đề 7: Thiết kế đồ họa",
+            "summary": "Thiết kế logo, poster tuyên truyền sự kiện trường học.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-7-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Nghệ thuật truyền thống Việt Nam",
+            "chapter": "Chủ đề 8: Nghệ thuật truyền thống Việt Nam",
+            "summary": "Nghiên cứu và ứng dụng họa tiết gốm, tranh dân gian.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-7",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-7-b1",
+            "number": 1,
+            "title": "Sử dụng các yếu tố tự nhiên trong luyện tập TDTT",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Ánh sáng, không khí, nước giúp tăng cường sức khỏe khi tập luyện.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Chạy cự li ngắn (60m)",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Xuất phát cao, chạy lao và chạy giữa quãng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Nhảy xa / Nhảy cao",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Kĩ thuật chạy đà, giậm nhảy, trên không và tiếp đất an toàn.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Bài thể dục liên hoàn",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Hoàn thiện bài thể dục nhịp điệu phối hợp tay, chân, thân mình.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-7-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Nâng cao kĩ thuật chuyền bóng, dẫn bóng hoặc đánh cầu trái tay.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-7",
+        "name": "Hoạt động trải nghiệm, hướng nghiệp",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-7-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Tự hào truyền thống trường em",
+            "chapter": "Chủ đề 1: Tự hào truyền thống trường em",
+            "summary": "Phát huy truyền thống nhà trường và rèn luyện kĩ năng hợp tác.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Rèn luyện thói quen và kiểm soát cảm xúc",
+            "chapter": "Chủ đề 2: Rèn luyện thói quen tích cực",
+            "summary": "Vượt qua khó khăn trong học tập và kiềm chế nóng giận.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Chăm sóc, bảo vệ cơ thể và an toàn",
+            "chapter": "Chủ đề 3: Chăm sóc sức khỏe",
+            "summary": "Vệ sinh cá nhân, phòng tránh tai nạn và xâm hại.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Chi tiêu hợp lí và tiết kiệm",
+            "chapter": "Chủ đề 4: Quản lí tài chính cá nhân",
+            "summary": "Lập kế hoạch thu chi cá nhân và tiết kiệm tiền tiêu vặt.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Gắn kết gia đình và tình bạn đẹp",
+            "chapter": "Chủ đề 5: Xây dựng tình bạn và gia đình",
+            "summary": "Ứng xử khéo léo với bạn bè, chia sẻ việc nhà với người thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Tham gia hoạt động cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Giữ gìn văn hóa giao tiếp và tham gia dự án cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Giảm thiểu hiệu ứng nhà kính và bảo vệ thiên nhiên",
+            "chapter": "Chủ đề 7: Bảo vệ môi trường",
+            "summary": "Tuyên truyền bảo vệ nguồn nước, cây xanh địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-7-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Các nhóm nghề cơ bản ở địa phương",
+            "chapter": "Chủ đề 8: Tìm hiểu nghề nghiệp",
+            "summary": "Tìm hiểu đặc trưng, yêu cầu an toàn lao động của các nghề.",
             "questions": []
           }
         ]
@@ -9899,80 +12524,248 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "lichsu-diali-8-b1",
             "number": 1,
             "title": "Bài 1: Cách mạng tư sản Anh và Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ",
-            "chapter": "Lịch sử - Chương 1",
-            "summary": "Các cuộc cách mạng tư sản đầu tiên.",
+            "chapter": "Lịch sử - Chương 1: Châu Âu và Bắc Mỹ (TK XVI–XVIII)",
+            "summary": "Nguyên nhân, diễn biến và ý nghĩa cách mạng tư sản Anh 1640 và Mỹ 1776.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b2",
             "number": 2,
             "title": "Bài 2: Cách mạng tư sản Pháp cuối thế kỉ XVIII",
-            "chapter": "Lịch sử - Chương 1",
-            "summary": "Tuyên ngôn Nhân quyền và Dân quyền 1789.",
+            "chapter": "Lịch sử - Chương 1: Châu Âu và Bắc Mỹ (TK XVI–XVIII)",
+            "summary": "Sự kiện 14/7/1789, Tuyên ngôn Nhân quyền và Dân quyền.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b3",
             "number": 3,
-            "title": "Bài 3: Cách mạng công nghiệp (nửa sau thế kỉ XVIII - giữa thế kỉ XIX)",
-            "chapter": "Lịch sử - Chương 1",
-            "summary": "Máy hơi nước và cơ khí hóa.",
+            "title": "Bài 3: Cách mạng công nghiệp (nửa sau TK XVIII – giữa TK XIX)",
+            "chapter": "Lịch sử - Chương 1: Châu Âu và Bắc Mỹ (TK XVI–XVIII)",
+            "summary": "Máy hơi nước Giêm Oát và tác động kinh tế - xã hội.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b4",
             "number": 4,
-            "title": "Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII & Phong trào Tây Sơn",
-            "chapter": "Lịch sử - Chương 3",
-            "summary": "Nguyễn Huệ đại phá quân Xiêm và quân Thanh.",
+            "title": "Bài 4: Đông Nam Á từ nửa sau thế kỉ XVI đến giữa thế kỉ XIX",
+            "chapter": "Lịch sử - Chương 2: Đông Nam Á (TK XVI–XIX)",
+            "summary": "Quá trình xâm nhập của tư bản phương Tây vào Đông Nam Á.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b5",
             "number": 5,
-            "title": "Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược từ năm 1858 đến năm 1884",
-            "chapter": "Lịch sử - Chương 5",
-            "summary": "Phong trào Cần vương và khởi nghĩa Yên Thế.",
+            "title": "Bài 5: Cuộc xung đột Nam – Bắc triều và Trịnh – Nguyễn",
+            "chapter": "Lịch sử - Chương 3: Việt Nam (TK XVI–XVIII)",
+            "summary": "Sự chia cắt Đàng Trong - Đàng Ngoài.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b6",
             "number": 6,
-            "title": "Bài 1: Vị trí địa lí và phạm vi lãnh thổ Việt Nam",
-            "chapter": "Địa lí - Chương 1",
-            "summary": "Các điểm cực và ý nghĩa lãnh thổ.",
+            "title": "Bài 6: Công cuộc khai phá vùng đất phía Nam và thực thi chủ quyền Hoàng Sa, Trường Sa",
+            "chapter": "Lịch sử - Chương 3: Việt Nam (TK XVI–XVIII)",
+            "summary": "Chúa Nguyễn mở cõi Nam Bộ và đội Hoàng Sa, Bắc Hải.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b7",
             "number": 7,
-            "title": "Bài 2: Địa hình Việt Nam",
-            "chapter": "Địa lí - Chương 1",
-            "summary": "Đồi núi 3/4 diện tích, đồng bằng châu thổ.",
+            "title": "Bài 7: Khởi nghĩa nông dân ở Đàng Ngoài thế kỉ XVIII",
+            "chapter": "Lịch sử - Chương 3: Việt Nam (TK XVI–XVIII)",
+            "summary": "Khởi nghĩa Nguyễn Hữu Cầu, Hoàng Công Chất.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b8",
             "number": 8,
-            "title": "Bài 4: Khí hậu Việt Nam",
-            "chapter": "Địa lí - Chương 2",
-            "summary": "Nhiệt đới ẩm gió mùa và phân hóa đa dạng.",
+            "title": "Bài 8: Phong trào Tây Sơn",
+            "chapter": "Lịch sử - Chương 3: Việt Nam (TK XVI–XVIII)",
+            "summary": "Quang Trung - Nguyễn Huệ đánh tan quân Xiêm (Rạch Gầm-Xoài Mút) và quân Thanh (Ngọc Hồi-Đống Đa).",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b9",
             "number": 9,
-            "title": "Bài 6: Thủy văn Việt Nam",
-            "chapter": "Địa lí - Chương 2",
-            "summary": "Hệ thống sông Hồng, sông Mê Kông.",
+            "title": "Bài 9: Tình hình kinh tế, văn hoá, tôn giáo trong các thế kỉ XVI – XVIII",
+            "chapter": "Lịch sử - Chương 3: Việt Nam (TK XVI–XVIII)",
+            "summary": "Phố Hiến, Hội An, chữ Quốc ngữ và văn học dân gian.",
             "questions": []
           },
           {
             "id": "lichsu-diali-8-b10",
             "number": 10,
-            "title": "Bài 11: Phạm vi Biển Đông. Vùng biển đảo và đặc điểm tự nhiên vùng biển đảo Việt Nam",
-            "chapter": "Địa lí - Chương 4",
-            "summary": "Chủ quyền Hoàng Sa, Trường Sa.",
+            "title": "Bài 10: Sự hình thành của chủ nghĩa đế quốc ở các nước Âu – Mỹ",
+            "chapter": "Lịch sử - Chương 4: Châu Âu và nước Mỹ (cuối TK XVIII – đầu TK XX)",
+            "summary": "Công nghiệp hóa và chuyển sang chủ nghĩa đế quốc.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b11",
+            "number": 11,
+            "title": "Bài 11: Phong trào công nhân và sự ra đời của chủ nghĩa xã hội khoa học",
+            "chapter": "Lịch sử - Chương 4: Châu Âu và nước Mỹ (cuối TK XVIII – đầu TK XX)",
+            "summary": "C. Mác, Ph. Ăng-ghen, Công xã Pa-ri 1871.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b12",
+            "number": 12,
+            "title": "Bài 12: Chiến tranh thế giới thứ nhất (1914 – 1918) và Cách mạng tháng Mười Nga năm 1917",
+            "chapter": "Lịch sử - Chương 4: Châu Âu và nước Mỹ (cuối TK XVIII – đầu TK XX)",
+            "summary": "Nguyên nhân, kết cục Thế chiến I và thắng lợi Cách mạng tháng Mười Nga.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b13",
+            "number": 13,
+            "title": "Bài 13: Sự phát triển của khoa học, kĩ thuật, văn học, nghệ thuật trong các thế kỉ XVIII – XIX",
+            "chapter": "Lịch sử - Chương 5: Khoa học, kĩ thuật, văn học, nghệ thuật (TK XVIII–XIX)",
+            "summary": "Đác-uyn, Men-đê-lê-ép, Bét-tô-ven, Tôn-xtôi.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b14",
+            "number": 14,
+            "title": "Bài 14: Trung Quốc và Nhật Bản từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+            "chapter": "Lịch sử - Chương 6: Châu Á (nửa sau TK XIX – đầu TK XX)",
+            "summary": "Cách mạng Tân Hợi 1911 và Duy tân Minh Trị 1868.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b15",
+            "number": 15,
+            "title": "Bài 15: Ấn Độ và Đông Nam Á từ nửa sau thế kỉ XIX đến đầu thế kỉ XX",
+            "chapter": "Lịch sử - Chương 6: Châu Á (nửa sau TK XIX – đầu TK XX)",
+            "summary": "Phong trào giải phóng dân tộc ở Ấn Độ và Đông Nam Á.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b16",
+            "number": 16,
+            "title": "Bài 16: Việt Nam dưới thời Nguyễn (nửa đầu thế kỉ XIX)",
+            "chapter": "Lịch sử - Chương 7: Việt Nam (TK XIX – đầu TK XX)",
+            "summary": "Nhà Nguyễn thành lập (1802), cải cách Minh Mạng và văn hóa.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b17",
+            "number": 17,
+            "title": "Bài 17: Cuộc kháng chiến chống thực dân Pháp xâm lược ở Việt Nam (1858 – 1884)",
+            "chapter": "Lịch sử - Chương 7: Việt Nam (TK XIX – đầu TK XX)",
+            "summary": "Pháp đánh Đà Nẵng 1858 và các hiệp ước 1862, 1874, 1883, 1884.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b18",
+            "number": 18,
+            "title": "Bài 18: Phong trào yêu nước chống Pháp ở Việt Nam từ đầu thế kỉ XX đến năm 1914",
+            "chapter": "Lịch sử - Chương 7: Việt Nam (TK XIX – đầu TK XX)",
+            "summary": "Phong trào Cần Vương, Yên Thế, Phan Bội Châu, Phan Châu Trinh, Nguyễn Tất Thành ra đi tìm đường cứu nước.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b19",
+            "number": 19,
+            "title": "Bài 1: Vị trí địa lí và phạm vi lãnh thổ Việt Nam",
+            "chapter": "Địa lí - Chương 1: Vị trí, địa hình, khoáng sản Việt Nam",
+            "summary": "Tọa độ cực Bắc-Nam-Đông-Tây, diện tích đất liền và vùng biển.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b20",
+            "number": 20,
+            "title": "Bài 2: Địa hình Việt Nam",
+            "chapter": "Địa lí - Chương 1: Vị trí, địa hình, khoáng sản Việt Nam",
+            "summary": "Đồi núi chiếm 3/4 diện tích, đồng bằng 1/4; hướng Tây Bắc-Đông Nam và vòng cung.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b21",
+            "number": 21,
+            "title": "Bài 3: Khoáng sản Việt Nam",
+            "chapter": "Địa lí - Chương 1: Vị trí, địa hình, khoáng sản Việt Nam",
+            "summary": "Than (Quảng Ninh), dầu khí (thềm lục địa), bô-xít (Tây Nguyên).",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b22",
+            "number": 22,
+            "title": "Bài 4: Khí hậu Việt Nam",
+            "chapter": "Địa lí - Chương 2: Khí hậu và thủy văn Việt Nam",
+            "summary": "Nhiệt đới ẩm gió mùa, phân hóa Bắc-Nam, Đông-Tây và theo độ cao.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b23",
+            "number": 23,
+            "title": "Bài 5: Thực hành: Vẽ và phân tích biểu đồ khí hậu",
+            "chapter": "Địa lí - Chương 2: Khí hậu và thủy văn Việt Nam",
+            "summary": "Phân tích biểu đồ nhiệt độ và lượng mưa các trạm khí tượng.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b24",
+            "number": 24,
+            "title": "Bài 6: Thuỷ văn Việt Nam",
+            "chapter": "Địa lí - Chương 2: Khí hậu và thủy văn Việt Nam",
+            "summary": "Mạng lưới sông ngòi dày đặc (hệ thống sông Hồng, Mê Kông) và hồ, nước ngầm.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b25",
+            "number": 25,
+            "title": "Bài 7: Tác động của biến đổi khí hậu đối với khí hậu và thủy văn Việt Nam",
+            "chapter": "Địa lí - Chương 2: Khí hậu và thủy văn Việt Nam",
+            "summary": "Nước biển dâng, hạn hán, bão lũ và giải pháp ứng phó.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b26",
+            "number": 26,
+            "title": "Bài 8: Thổ nhưỡng Việt Nam",
+            "chapter": "Địa lí - Chương 3: Thổ nhưỡng và sinh vật Việt Nam",
+            "summary": "Đất feralit vùng đồi núi, đất phù sa đồng bằng và đất mặn, phèn.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b27",
+            "number": 27,
+            "title": "Bài 9: Sinh vật Việt Nam",
+            "chapter": "Địa lí - Chương 3: Thổ nhưỡng và sinh vật Việt Nam",
+            "summary": "Tính đa dạng sinh học cao và biện pháp bảo tồn.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b28",
+            "number": 28,
+            "title": "Bài 10: Biển đảo Việt Nam",
+            "chapter": "Địa lí - Chương 4: Biển đảo Việt Nam",
+            "summary": "Vị trí Biển Đông, 1 triệu km² vùng biển và hai quần đảo Hoàng Sa, Trường Sa.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b29",
+            "number": 29,
+            "title": "Bài 11: Môi trường và tài nguyên biển đảo Việt Nam",
+            "chapter": "Địa lí - Chương 4: Biển đảo Việt Nam",
+            "summary": "Khai thác bền vững thủy sản, dầu khí, du lịch và bảo vệ môi trường biển.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b30",
+            "number": 30,
+            "title": "Chủ đề chung 1: Văn minh châu thổ sông Hồng và sông Cửu Long",
+            "chapter": "Chủ đề chung",
+            "summary": "Quá trình hình thành và phát triển văn minh lúa nước ở hai đồng bằng.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-8-b31",
+            "number": 31,
+            "title": "Chủ đề chung 2: Bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông",
+            "chapter": "Chủ đề chung",
+            "summary": "Cơ sở lịch sử và pháp lí (UNCLOS 1982) khẳng định chủ quyền biển đảo.",
             "questions": []
           }
         ]
@@ -10449,6 +13242,274 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 12: Life on Other Planets",
             "chapter": "Unit 12: Life on Other Planets",
             "summary": "Reported speech (questions).",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "amnhac-8",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-8-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Chào năm học mới",
+            "chapter": "Chủ đề 1: Chào năm học mới",
+            "summary": "Hát Tuổi hồng; ôn tập đọc nhạc và kí hiệu âm nhạc.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Âm nhạc miền núi phía Bắc",
+            "chapter": "Chủ đề 2: Âm nhạc miền núi phía Bắc",
+            "summary": "Tìm hiểu đàn tính, hát Then và dân ca các dân tộc miền núi.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Khúc ca hòa bình",
+            "chapter": "Chủ đề 3: Khúc ca hòa bình",
+            "summary": "Hát Lá cờ hòa bình; đọc nhạc giọng La thứ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Giai điệu quê hương",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "Tìm hiểu nhạc sĩ Văn Cao, Đỗ Nhuận; hát Quê hương.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Âm nhạc và những sắc màu",
+            "chapter": "Chủ đề 5: Âm nhạc và những sắc màu",
+            "summary": "Thực hành hòa tấu nhạc cụ gõ và giai điệu.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Giai điệu tuổi thơ",
+            "chapter": "Chủ đề 6: Giai điệu tuổi thơ",
+            "summary": "Hát Hò ba lí / Bài ca đi học; cảm nhận nhịp 4/4.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Âm nhạc cổ điển phương Tây",
+            "chapter": "Chủ đề 7: Âm nhạc cổ điển phương Tây",
+            "summary": "Tìm hiểu Mozart, Chopin và thể loại giao hưởng, sonata.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-8-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Khúc ca mùa hè",
+            "chapter": "Chủ đề 8: Khúc ca mùa hè",
+            "summary": "Hát Mùa hè xanh; tổng kết, biểu diễn cuối năm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-8",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-8-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Nghệ thuật phương Tây từ thời kì Phục hưng đến cuối thế kỉ XIX",
+            "chapter": "Chủ đề 1: Nghệ thuật Phục hưng",
+            "summary": "Tìm hiểu Leonardo da Vinci, Michelangelo, Van Gogh và luật phối cảnh.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Mĩ thuật Việt Nam từ cuối thế kỉ XIX đến năm 1954",
+            "chapter": "Chủ đề 2: Mĩ thuật Việt Nam hiện đại",
+            "summary": "Tìm hiểu Trường Cao đẳng Mĩ thuật Đông Dương và các danh họa.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Thiết kế đồ họa và tạo dáng sản phẩm",
+            "chapter": "Chủ đề 3: Thiết kế sản phẩm",
+            "summary": "Thiết kế bao bì sản phẩm hoặc đồ dùng học tập thân thiện môi trường.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Không gian đa chiều trong hội họa",
+            "chapter": "Chủ đề 4: Không gian đa chiều",
+            "summary": "Vận dụng luật xa gần 1 điểm tụ, 2 điểm tụ vào tranh vẽ.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Nghệ thuật sắp đặt và trình diễn",
+            "chapter": "Chủ đề 5: Nghệ thuật sắp đặt",
+            "summary": "Sáng tạo tác phẩm sắp đặt không gian từ vật liệu sẵn có.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Đồ vật với không gian sống",
+            "chapter": "Chủ đề 6: Đồ vật và không gian sống",
+            "summary": "Thiết kế không gian phòng học, góc sinh hoạt hài hòa.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Nghệ thuật truyền thống Việt Nam",
+            "chapter": "Chủ đề 7: Điêu khắc, kiến trúc truyền thống",
+            "summary": "Tìm hiểu điêu khắc Chăm-pa và kiến trúc cổ Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-8-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Hướng nghiệp mĩ thuật",
+            "chapter": "Chủ đề 8: Hướng nghiệp mĩ thuật",
+            "summary": "Tìm hiểu các ngành nghề liên quan đến mĩ thuật ứng dụng.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-8",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-8-b1",
+            "number": 1,
+            "title": "Chế độ dinh dưỡng thích hợp với bản thân",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Tính toán nhu cầu năng lượng và dinh dưỡng cho người tập thể thao.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Chạy cự li ngắn (100m)",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Xuất phát thấp, chạy lao sau xuất phát và về đích.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Nhảy cao kiểu bước qua",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Chạy đà, giậm nhảy, qua xà và tiếp đất.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Chạy cự li trung bình",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Phân phối sức và kĩ thuật hô hấp khi chạy bền.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b5",
+            "number": 5,
+            "title": "Chủ đề 4: Bài tập thể dục",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Bài thể dục nhịp điệu nâng cao.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-8-b6",
+            "number": 6,
+            "title": "Chủ đề 1: Cầu lông / Bóng đá / Bóng rổ",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Đập cầu thuận tay, đỡ bóng bằng ngực/đùi hoặc ném rổ một tay.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-8",
+        "name": "Hoạt động trải nghiệm, hướng nghiệp",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-8-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Em với nhà trường và bạn bè",
+            "chapter": "Chủ đề 1: Xây dựng trường học văn minh",
+            "summary": "Phòng chống bạo lực học đường, xây dựng tình bạn lành mạnh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Trách nhiệm và kỉ luật bản thân",
+            "chapter": "Chủ đề 2: Khám phá và rèn luyện bản thân",
+            "summary": "Tự đánh giá tính cách, lập kế hoạch khắc phục hạn chế.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Rèn luyện kĩ năng giao tiếp và hợp tác",
+            "chapter": "Chủ đề 3: Tư duy phản biện và giải quyết vấn đề",
+            "summary": "Từ chối áp lực tiêu cực từ bạn bè và thương lượng hiệu quả.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Lập kế hoạch chi tiêu và gắn kết gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Quản lí ngân sách cá nhân và tổ chức hoạt động gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Tham gia hoạt động xã hội và thiện nguyện",
+            "chapter": "Chủ đề 5: Xây dựng cộng đồng",
+            "summary": "Lập dự án truyền thông văn hóa ứng xử ở địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Tìm hiểu và bảo vệ đa dạng sinh học",
+            "chapter": "Chủ đề 6: Bảo vệ môi trường tự nhiên",
+            "summary": "Đề xuất giải pháp giảm ô nhiễm và bảo vệ danh lam thắng cảnh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Tìm hiểu thị trường lao động",
+            "chapter": "Chủ đề 7: Thế giới nghề nghiệp hiện đại",
+            "summary": "Khám phá nghề phổ biến ở địa phương và xu hướng nghề nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-8-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Đánh giá sự phù hợp nghề nghiệp",
+            "chapter": "Chủ đề 8: Định hướng học tập",
+            "summary": "Xác định sở thích, năng lực cá nhân theo định hướng nghề.",
             "questions": []
           }
         ]
@@ -11171,136 +14232,304 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "lichsu-diali-9-b1",
             "number": 1,
             "title": "Bài 1: Nước Nga và Liên Xô từ năm 1918 đến năm 1945",
-            "chapter": "Lịch sử - Chương 1",
-            "summary": "NEP và xây dựng CNXH.",
+            "chapter": "Lịch sử - Chương 1: Thế giới (1918–1945)",
+            "summary": "Chính sách kinh tế mới (NEP) và công cuộc xây dựng CNXH ở Liên Xô.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b2",
             "number": 2,
-            "title": "Bài 3: Chiến tranh thế giới thứ hai (1939 - 1945)",
-            "chapter": "Lịch sử - Chương 1",
-            "summary": "Diễn biến, vai trò Đồng minh, hậu quả.",
+            "title": "Bài 2: Châu Âu và nước Mỹ từ năm 1918 đến năm 1945",
+            "chapter": "Lịch sử - Chương 1: Thế giới (1918–1945)",
+            "summary": "Đại suy thoái 1929–1933, Chính sách mới ở Mỹ và chủ nghĩa phát xít ở Đức, Ý.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b3",
             "number": 3,
-            "title": "Bài 6: Hoạt động của Nguyễn Ái Quốc và sự thành lập Đảng Cộng sản Việt Nam",
-            "chapter": "Lịch sử - Chương 2",
-            "summary": "Ngày 3/2/1930 thành lập ĐCSVN.",
+            "title": "Bài 3: Châu Á từ năm 1918 đến năm 1945",
+            "chapter": "Lịch sử - Chương 1: Thế giới (1918–1945)",
+            "summary": "Phong trào giải phóng dân tộc và chủ nghĩa quân phiệt Nhật Bản.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b4",
             "number": 4,
-            "title": "Bài 8: Cách mạng tháng Tám năm 1945",
-            "chapter": "Lịch sử - Chương 2",
-            "summary": "Tuyên ngôn Độc lập 2/9/1945.",
+            "title": "Bài 4: Chiến tranh thế giới thứ hai (1939 – 1945)",
+            "chapter": "Lịch sử - Chương 1: Thế giới (1918–1945)",
+            "summary": "Nguyên nhân, diễn biến chính, vai trò Liên Xô-Đồng minh và hậu quả.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b5",
             "number": 5,
-            "title": "Bài 14: Cuộc kháng chiến chống thực dân Pháp (1945 - 1954)",
-            "chapter": "Lịch sử - Chương 4",
-            "summary": "Chiến thắng Điện Biên Phủ 1954.",
+            "title": "Bài 5: Việt Nam từ năm 1918 đến năm 1930",
+            "chapter": "Lịch sử - Chương 2: Việt Nam (1918–1945)",
+            "summary": "Hoạt động Nguyễn Ái Quốc và sự ra đời Đảng Cộng sản Việt Nam (3/2/1930).",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b6",
             "number": 6,
-            "title": "Bài 17: Cuộc kháng chiến chống Mỹ, cứu nước (1954 - 1975)",
-            "chapter": "Lịch sử - Chương 4",
-            "summary": "Chiến dịch Hồ Chí Minh 30/4/1975.",
+            "title": "Bài 6: Hoạt động cách mạng từ năm 1930 đến năm 1945",
+            "chapter": "Lịch sử - Chương 2: Việt Nam (1918–1945)",
+            "summary": "Phong trào 1930–1931, 1936–1939 và Mặt trận Việt Minh 1941.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b7",
             "number": 7,
-            "title": "Bài 19: Công cuộc Đổi mới từ năm 1986 đến nay",
-            "chapter": "Lịch sử - Chương 4",
-            "summary": "Đại hội VI (1986) và thành tựu.",
+            "title": "Bài 7: Cách mạng tháng Tám năm 1945",
+            "chapter": "Lịch sử - Chương 2: Việt Nam (1918–1945)",
+            "summary": "Tổng khởi nghĩa giành chính quyền và Tuyên ngôn Độc lập 2/9/1945.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b8",
             "number": 8,
-            "title": "Bài 1: Dân tộc và dân số",
-            "chapter": "Địa lí - Chương 1",
-            "summary": "54 dân tộc, cơ cấu dân số.",
+            "title": "Bài 8: Trật tự thế giới mới và Chiến tranh lạnh (1945 – 1991)",
+            "chapter": "Lịch sử - Chương 3: Thế giới (1945–1991)",
+            "summary": "Trật tự hai cực I-an-ta, Liên hợp quốc và đối đầu Mỹ-Liên Xô.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b9",
             "number": 9,
-            "title": "Bài 4: Nông nghiệp, lâm nghiệp, thủy sản",
-            "chapter": "Địa lí - Chương 2",
-            "summary": "Phân bố cây trồng, vật nuôi, thủy sản.",
+            "title": "Bài 9: Liên Xô và các nước Đông Âu (1945 – 1991). Liên bang Nga (1991 – nay)",
+            "chapter": "Lịch sử - Chương 3: Thế giới (1945–1991)",
+            "summary": "Công cuộc khôi phục sau chiến tranh và sự tan rã năm 1991.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b10",
             "number": 10,
-            "title": "Bài 7: Công nghiệp",
-            "chapter": "Địa lí - Chương 2",
-            "summary": "Các ngành công nghiệp trọng điểm.",
+            "title": "Bài 10: Các nước châu Á, châu Phi và Mỹ La-tinh (1945 – 1991)",
+            "chapter": "Lịch sử - Chương 3: Thế giới (1945–1991)",
+            "summary": "Trung Quốc, Ấn Độ, ASEAN và phong trào giải phóng dân tộc.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b11",
             "number": 11,
-            "title": "Bài 11: Vùng Trung du và miền núi Bắc Bộ",
-            "chapter": "Địa lí - Chương 3",
-            "summary": "Thủy điện, khoáng sản, cây công nghiệp cận nhiệt.",
+            "title": "Bài 11: Nước Mỹ, Tây Âu và Nhật Bản (1945 – 1991)",
+            "chapter": "Lịch sử - Chương 3: Thế giới (1945–1991)",
+            "summary": "Sự phát triển kinh tế - khoa học kĩ thuật của các nước tư bản chủ nghĩa.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b12",
             "number": 12,
-            "title": "Bài 12: Vùng Đồng bằng sông Hồng",
-            "chapter": "Địa lí - Chương 3",
-            "summary": "Thủ đô Hà Nội, tam giác tăng trưởng.",
+            "title": "Bài 12: Việt Nam từ năm 1945 đến năm 1954",
+            "chapter": "Lịch sử - Chương 4: Việt Nam (1945–1991)",
+            "summary": "Kháng chiến chống thực dân Pháp, chiến thắng Điện Biên Phủ 1954.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b13",
             "number": 13,
-            "title": "Bài 13: Vùng Bắc Trung Bộ",
-            "chapter": "Địa lí - Chương 3",
-            "summary": "Kinh tế biển, rừng, di sản.",
+            "title": "Bài 13: Việt Nam từ năm 1954 đến năm 1975",
+            "chapter": "Lịch sử - Chương 4: Việt Nam (1945–1991)",
+            "summary": "Xây dựng CNXH ở miền Bắc và kháng chiến chống Mỹ, Đại thắng mùa Xuân 1975.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b14",
             "number": 14,
-            "title": "Bài 14: Vùng Duyên hải Nam Trung Bộ",
-            "chapter": "Địa lí - Chương 3",
-            "summary": "Cảng biển nước sâu, du lịch.",
+            "title": "Bài 14: Việt Nam từ năm 1976 đến năm 1991",
+            "chapter": "Lịch sử - Chương 4: Việt Nam (1945–1991)",
+            "summary": "Thống nhất đất nước, bảo vệ biên giới và khởi xướng Đổi mới 1986.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b15",
             "number": 15,
-            "title": "Bài 15: Vùng Tây Nguyên",
-            "chapter": "Địa lí - Chương 3",
-            "summary": "Cây công nghiệp lâu năm, thủy điện.",
+            "title": "Bài 15: Thế giới từ năm 1991 đến nay",
+            "chapter": "Lịch sử - Chương 5–7: Thế giới và Việt Nam từ 1991 đến nay",
+            "summary": "Xu thế đa cực, toàn cầu hóa và cách mạng công nghiệp 4.0.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b16",
             "number": 16,
-            "title": "Bài 16: Vùng Đông Nam Bộ",
-            "chapter": "Địa lí - Chương 3",
-            "summary": "Vùng kinh tế phát triển năng động nhất.",
+            "title": "Bài 16: Việt Nam từ năm 1991 đến nay",
+            "chapter": "Lịch sử - Chương 5–7: Thế giới và Việt Nam từ 1991 đến nay",
+            "summary": "Thành tựu Đổi mới kinh tế, xã hội và hội nhập quốc tế.",
             "questions": []
           },
           {
             "id": "lichsu-diali-9-b17",
             "number": 17,
-            "title": "Bài 17: Vùng Đồng bằng sông Cửu Long",
-            "chapter": "Địa lí - Chương 3",
-            "summary": "Vựa lúa, trái cây, thủy sản lớn nhất.",
+            "title": "Bài 17: Cách mạng khoa học – kĩ thuật và xu thế toàn cầu hoá",
+            "chapter": "Lịch sử - Chương 5–7: Thế giới và Việt Nam từ 1991 đến nay",
+            "summary": "Tác động của khoa học công nghệ đến đời sống nhân loại.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b18",
+            "number": 18,
+            "title": "Bài 18: Dân số và sự gia tăng dân số ở Việt Nam",
+            "chapter": "Địa lí - Chương 1: Địa lí dân cư Việt Nam",
+            "summary": "Quy mô, cơ cấu dân số trẻ/già hóa và phân bố dân số.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b19",
+            "number": 19,
+            "title": "Bài 19: Phân bố dân cư và các loại hình quần cư ở Việt Nam",
+            "chapter": "Địa lí - Chương 1: Địa lí dân cư Việt Nam",
+            "summary": "Mật độ dân số, quần cư nông thôn và đô thị.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b20",
+            "number": 20,
+            "title": "Bài 20: Lao động và việc làm. Chất lượng cuộc sống",
+            "chapter": "Địa lí - Chương 1: Địa lí dân cư Việt Nam",
+            "summary": "Cơ cấu lao động theo ngành và nâng cao chất lượng cuộc sống.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b21",
+            "number": 21,
+            "title": "Bài 21: Thực hành: Phân tích sự phân bố dân cư và lao động",
+            "chapter": "Địa lí - Chương 1: Địa lí dân cư Việt Nam",
+            "summary": "Đọc bản đồ mật độ dân số và biểu đồ lao động.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b22",
+            "number": 22,
+            "title": "Bài 22: Các dân tộc ở Việt Nam",
+            "chapter": "Địa lí - Chương 1: Địa lí dân cư Việt Nam",
+            "summary": "54 dân tộc anh em, phân bố và bình đẳng đoàn kết.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b23",
+            "number": 23,
+            "title": "Bài 23: Sự phát triển và phân bố nông nghiệp, lâm nghiệp, thuỷ sản",
+            "chapter": "Địa lí - Chương 2: Địa lí các ngành kinh tế",
+            "summary": "Trồng trọt, chăn nuôi, lâm nghiệp và thủy sản Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b24",
+            "number": 24,
+            "title": "Bài 24: Thực hành: Tìm hiểu sản xuất nông, lâm, thuỷ sản địa phương",
+            "chapter": "Địa lí - Chương 2: Địa lí các ngành kinh tế",
+            "summary": "Khảo sát nông nghiệp địa phương.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b25",
+            "number": 25,
+            "title": "Bài 25: Sự phát triển và phân bố công nghiệp ở Việt Nam",
+            "chapter": "Địa lí - Chương 2: Địa lí các ngành kinh tế",
+            "summary": "Công nghiệp năng lượng, chế biến, điện tử và các trung tâm công nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b26",
+            "number": 26,
+            "title": "Bài 26: Thực hành: Vẽ biểu đồ và phân tích cơ cấu công nghiệp",
+            "chapter": "Địa lí - Chương 2: Địa lí các ngành kinh tế",
+            "summary": "Vẽ biểu đồ cơ cấu và nhận xét.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b27",
+            "number": 27,
+            "title": "Bài 27: Giao thông vận tải và bưu chính viễn thông",
+            "chapter": "Địa lí - Chương 2: Địa lí các ngành kinh tế",
+            "summary": "Các tuyến đường bộ, sắt, biển, hàng không và hạ tầng số.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b28",
+            "number": 28,
+            "title": "Bài 28: Thương mại và du lịch ở Việt Nam",
+            "chapter": "Địa lí - Chương 2: Địa lí các ngành kinh tế",
+            "summary": "Nội thương, ngoại thương xuất nhập khẩu và tài nguyên du lịch.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b29",
+            "number": 29,
+            "title": "Bài 29: Vùng Trung du và miền núi Bắc Bộ",
+            "chapter": "Địa lí - Chương 3: Sự phân hoá lãnh thổ",
+            "summary": "Thế mạnh thủy điện, khoáng sản, cây công nghiệp cận nhiệt.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b30",
+            "number": 30,
+            "title": "Bài 30: Vùng Đồng bằng sông Hồng",
+            "chapter": "Địa lí - Chương 3: Sự phân hoá lãnh thổ",
+            "summary": "Vùng trọng điểm lương thực, công nghiệp, dịch vụ phía Bắc.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b31",
+            "number": 31,
+            "title": "Bài 31: Vùng Bắc Trung Bộ và Duyên hải miền Trung",
+            "chapter": "Địa lí - Chương 3: Sự phân hoá lãnh thổ",
+            "summary": "Kinh tế biển, cảng nước sâu và du lịch di sản.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b32",
+            "number": 32,
+            "title": "Bài 32: Vùng Tây Nguyên",
+            "chapter": "Địa lí - Chương 3: Sự phân hoá lãnh thổ",
+            "summary": "Đất đỏ bazan, cây công nghiệp lâu năm (cà phê, cao su, hồ tiêu).",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b33",
+            "number": 33,
+            "title": "Bài 33: Vùng Đông Nam Bộ",
+            "chapter": "Địa lí - Chương 3: Sự phân hoá lãnh thổ",
+            "summary": "Vùng kinh tế phát triển năng động nhất cả nước.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b34",
+            "number": 34,
+            "title": "Bài 34: Vùng Đồng bằng sông Cửu Long",
+            "chapter": "Địa lí - Chương 3: Sự phân hoá lãnh thổ",
+            "summary": "Vựa lúa, thủy sản và trái cây lớn nhất cả nước.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b35",
+            "number": 35,
+            "title": "Bài 35: Phát triển tổng hợp kinh tế và bảo vệ tài nguyên, môi trường biển đảo",
+            "chapter": "Địa lí - Chương 3: Sự phân hoá lãnh thổ",
+            "summary": "Phát triển kinh tế biển xanh gắn với quốc phòng an ninh.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b36",
+            "number": 36,
+            "title": "Chủ đề chung 1: Đô thị: Lịch sử và hiện tại",
+            "chapter": "Chủ đề chung",
+            "summary": "Quá trình đô thị hóa và đô thị thông minh.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b37",
+            "number": 37,
+            "title": "Chủ đề chung 2: Văn minh châu thổ sông Hồng và sông Cửu Long",
+            "chapter": "Chủ đề chung",
+            "summary": "Ứng phó biến đổi khí hậu ở hai đồng bằng châu thổ.",
+            "questions": []
+          },
+          {
+            "id": "lichsu-diali-9-b38",
+            "number": 38,
+            "title": "Chủ đề chung 3: Bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông",
+            "chapter": "Chủ đề chung",
+            "summary": "Phát triển kinh tế biển và bảo vệ chủ quyền toàn vẹn lãnh thổ.",
             "questions": []
           }
         ]
@@ -11514,54 +14743,222 @@ export const GRADES_DATA: GradeItem[] = [
       {
         "id": "congnghe-9",
         "name": "Công nghệ",
-        "icon": "🛠️",
+        "icon": "⚙️",
         "lessons": [
           {
             "id": "congnghe-9-b1",
             "number": 1,
             "title": "Bài 1: Nghề nghiệp trong lĩnh vực kĩ thuật và công nghệ",
-            "chapter": "Định hướng nghề nghiệp",
-            "summary": "Đặc điểm, yêu cầu của các ngành nghề kĩ thuật.",
+            "chapter": "Phần chung: Định hướng nghề nghiệp",
+            "summary": "Vai trò, đặc điểm và yêu cầu của các nghề kĩ thuật, công nghệ.",
             "questions": []
           },
           {
             "id": "congnghe-9-b2",
             "number": 2,
             "title": "Bài 2: Cơ cấu hệ thống giáo dục quốc dân",
-            "chapter": "Định hướng nghề nghiệp",
-            "summary": "Phân luồng sau THCS.",
+            "chapter": "Phần chung: Định hướng nghề nghiệp",
+            "summary": "Phân luồng học sinh sau THCS vào THPT, trung cấp nghề, cao đẳng.",
             "questions": []
           },
           {
             "id": "congnghe-9-b3",
             "number": 3,
             "title": "Bài 3: Thị trường lao động kĩ thuật, công nghệ tại Việt Nam",
-            "chapter": "Định hướng nghề nghiệp",
-            "summary": "Nhu cầu nhân lực và chọn nghề phù hợp.",
+            "chapter": "Phần chung: Định hướng nghề nghiệp",
+            "summary": "Nhu cầu nhân lực, xu hướng việc làm kĩ thuật công nghệ.",
             "questions": []
           },
           {
             "id": "congnghe-9-b4",
             "number": 4,
-            "title": "Bài 4: Thiết bị đóng cắt và lấy điện trong gia đình",
-            "chapter": "Mô-đun: Lắp đặt mạng điện trong nhà",
-            "summary": "Công tắc, cầu dao, ổ cắm, phích cắm.",
+            "title": "Bài 4: Quy trình lựa chọn nghề nghiệp",
+            "chapter": "Phần chung: Định hướng nghề nghiệp",
+            "summary": "Các bước đánh giá bản thân, tìm hiểu nghề và ra quyết định.",
             "questions": []
           },
           {
             "id": "congnghe-9-b5",
             "number": 5,
-            "title": "Bài 5: Dụng cụ đo điện cơ bản",
-            "chapter": "Mô-đun: Lắp đặt mạng điện trong nhà",
-            "summary": "Đồng hồ vạn năng, ampe kìm, công tơ điện.",
+            "title": "Bài 5: Dự án: Tự đánh giá mức độ phù hợp với ngành nghề kĩ thuật, công nghệ",
+            "chapter": "Phần chung: Định hướng nghề nghiệp",
+            "summary": "Thực hành tự đánh giá năng lực nghề nghiệp.",
             "questions": []
           },
           {
             "id": "congnghe-9-b6",
             "number": 6,
-            "title": "Bài 6: Thiết kế và lắp đặt mạng điện trong nhà",
-            "chapter": "Mô-đun: Lắp đặt mạng điện trong nhà",
-            "summary": "Sơ đồ nguyên lí, sơ đồ lắp đặt và kiểm tra an toàn.",
+            "title": "Bài 1: Thiết bị đóng cắt và lấy điện trong gia đình",
+            "chapter": "Mô-đun 1: Lắp đặt mạng điện trong nhà",
+            "summary": "Công tắc, cầu dao, aptomat, ổ cắm và phích cắm điện.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b7",
+            "number": 7,
+            "title": "Bài 2: Dụng cụ đo điện cơ bản",
+            "chapter": "Mô-đun 1: Lắp đặt mạng điện trong nhà",
+            "summary": "Đồng hồ vạn năng, ampe kìm, công tơ điện.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b8",
+            "number": 8,
+            "title": "Bài 3: Thiết kế mạng điện trong nhà",
+            "chapter": "Mô-đun 1: Lắp đặt mạng điện trong nhà",
+            "summary": "Sơ đồ nguyên lí và sơ đồ lắp đặt mạch điện chiếu sáng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b9",
+            "number": 9,
+            "title": "Bài 4: Vật liệu, thiết bị và dụng cụ dùng cho lắp đặt mạng điện trong nhà",
+            "chapter": "Mô-đun 1: Lắp đặt mạng điện trong nhà",
+            "summary": "Dây dẫn điện, ống luồn dây, kìm, tua vít, bút thử điện.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b10",
+            "number": 10,
+            "title": "Bài 5: Tính toán chi phí mạng điện trong nhà",
+            "chapter": "Mô-đun 1: Lắp đặt mạng điện trong nhà",
+            "summary": "Dự toán số lượng vật tư và chi phí lắp đặt.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b11",
+            "number": 11,
+            "title": "Bài 6: Thực hành: Lắp đặt mạng điện trong nhà",
+            "chapter": "Mô-đun 1: Lắp đặt mạng điện trong nhà",
+            "summary": "Lắp mạch bảng điện, mạch đèn cầu thang an toàn.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b12",
+            "number": 12,
+            "title": "Bài 7: Một số ngành nghề liên quan đến lắp đặt mạng điện",
+            "chapter": "Mô-đun 1: Lắp đặt mạng điện trong nhà",
+            "summary": "Thợ điện dân dụng, kĩ sư điện.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b13",
+            "number": 13,
+            "title": "Bài 1: Giới thiệu chung về cây ăn quả",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Vai trò, đặc điểm thực vật học và yêu cầu ngoại cảnh cây ăn quả.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b14",
+            "number": 14,
+            "title": "Bài 2: Nhân giống vô tính cây ăn quả",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Giâm cành, chiết cành, ghép cành/mắt.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b15",
+            "number": 15,
+            "title": "Bài 3: Kĩ thuật trồng và chăm sóc cây ăn quả có múi",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Trồng và chăm sóc cam, bưởi, chanh, quýt.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b16",
+            "number": 16,
+            "title": "Bài 4: Kĩ thuật trồng và chăm sóc cây nhãn",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Quy trình trồng, cắt tỉa, phòng sâu bệnh cây nhãn.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b17",
+            "number": 17,
+            "title": "Bài 5: Kĩ thuật trồng và chăm sóc cây xoài",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Kĩ thuật trồng, xử lí ra hoa và thu hoạch xoài.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b18",
+            "number": 18,
+            "title": "Bài 6: Kĩ thuật trồng và chăm sóc cây sầu riêng",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Đặc điểm sinh trưởng và chăm sóc sầu riêng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b19",
+            "number": 19,
+            "title": "Bài 7: Kĩ thuật trồng và chăm sóc cây chuối",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Trồng chuối bằng chồi hoặc nuôi cấy mô.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b20",
+            "number": 20,
+            "title": "Bài 8: Dự án trồng cây ăn quả",
+            "chapter": "Mô-đun 2: Trồng cây ăn quả",
+            "summary": "Lập kế hoạch trồng và chăm sóc cây ăn quả.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b21",
+            "number": 21,
+            "title": "Bài 1: Thành phần dinh dưỡng trong thực phẩm",
+            "chapter": "Mô-đun 3: Chế biến thực phẩm",
+            "summary": "Chất đạm, béo, đường bột, vitamin, chất khoáng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b22",
+            "number": 22,
+            "title": "Bài 2: Lựa chọn và bảo quản thực phẩm",
+            "chapter": "Mô-đun 3: Chế biến thực phẩm",
+            "summary": "Cách chọn thực phẩm tươi ngon và bảo quản an toàn.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b23",
+            "number": 23,
+            "title": "Bài 3: Một số ngành nghề liên quan đến chế biến thực phẩm",
+            "chapter": "Mô-đun 3: Chế biến thực phẩm",
+            "summary": "Đầu bếp, kĩ sư công nghệ thực phẩm.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b24",
+            "number": 24,
+            "title": "Bài 4: An toàn lao động và an toàn vệ sinh thực phẩm",
+            "chapter": "Mô-đun 3: Chế biến thực phẩm",
+            "summary": "Phòng tránh ngộ độc thực phẩm và tai nạn nhà bếp.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b25",
+            "number": 25,
+            "title": "Bài 5: Dự án: Tính toán chi phí bữa ăn theo thực đơn",
+            "chapter": "Mô-đun 3: Chế biến thực phẩm",
+            "summary": "Xây dựng thực đơn cân bằng dinh dưỡng và tiết kiệm.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b26",
+            "number": 26,
+            "title": "Bài 6: Chế biến thực phẩm có sử dụng nhiệt",
+            "chapter": "Mô-đun 3: Chế biến thực phẩm",
+            "summary": "Luộc, hấp, rán, xào, nướng, kho.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-9-b27",
+            "number": 27,
+            "title": "Bài 7: Chế biến thực phẩm không sử dụng nhiệt",
+            "chapter": "Mô-đun 3: Chế biến thực phẩm",
+            "summary": "Trộn dầu giấm, nộm (gỏi), muối chua.",
             "questions": []
           }
         ]
@@ -11665,6 +15062,274 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 12: Career Choices",
             "chapter": "Unit 12: Career Choices",
             "summary": "Adverbial clauses of concession, result, reason.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "amnhac-9",
+        "name": "Âm nhạc",
+        "icon": "🎵",
+        "lessons": [
+          {
+            "id": "amnhac-9-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Nối vòng tay lớn (Bài 1–2)",
+            "chapter": "Chủ đề 1: Nối vòng tay lớn",
+            "summary": "Hát Nối vòng tay lớn; ôn tập đọc nhạc và nhạc cụ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Khát vọng tuổi trẻ (Bài 3–4)",
+            "chapter": "Chủ đề 2: Khát vọng tuổi trẻ",
+            "summary": "Hát Khát vọng tuổi trẻ; đọc nhạc nhịp 6/8.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Kỉ niệm dưới mái trường (Bài 5–6)",
+            "chapter": "Chủ đề 3: Kỉ niệm dưới mái trường",
+            "summary": "Hát Bụi phấn / Mong ước kỉ niệm xưa; thực hành hát bè.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Giai điệu quê hương (Bài 7–8)",
+            "chapter": "Chủ đề 4: Giai điệu quê hương",
+            "summary": "Tìm hiểu Nhã nhạc cung đình Huế, Không gian văn hóa Cồng chiêng Tây Nguyên.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Trái đất xanh (Bài 9–10)",
+            "chapter": "Chủ đề 5: Trái đất xanh",
+            "summary": "Hát chủ đề môi trường; đọc nhạc giọng thứ.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Tiếng hát hòa bình (Bài 11–12)",
+            "chapter": "Chủ đề 6: Tiếng hát hòa bình",
+            "summary": "Nghe và cảm nhận các ca khúc cách mạng, hòa bình.",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Âm nhạc nước ngoài (Bài 13–14)",
+            "chapter": "Chủ đề 7: Âm nhạc nước ngoài",
+            "summary": "Tìm hiểu các dòng nhạc đại chúng thế giới (Pop, Rock, Jazz).",
+            "questions": []
+          },
+          {
+            "id": "amnhac-9-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Một thời để nhớ (Bài 15–16)",
+            "chapter": "Chủ đề 8: Một thời để nhớ",
+            "summary": "Hát Tạm biệt mái trường; biểu diễn tổng kết bậc THCS.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "mithuat-9",
+        "name": "Mĩ thuật",
+        "icon": "🎨",
+        "lessons": [
+          {
+            "id": "mithuat-9-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Cuộc sống muôn màu (Bài 1–2)",
+            "chapter": "Chủ đề 1: Cuộc sống muôn màu",
+            "summary": "Khai thác chất liệu tổng hợp thể hiện đề tài sinh hoạt.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Nghệ thuật đương đại thế giới (Bài 3–4)",
+            "chapter": "Chủ đề 2: Nghệ thuật đương đại thế giới",
+            "summary": "Tìm hiểu các trào lưu nghệ thuật hiện đại và đương đại.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Thiết kế mĩ thuật sách (Bài 5–6)",
+            "chapter": "Chủ đề 3: Thiết kế mĩ thuật sách",
+            "summary": "Thiết kế bìa sách, trình bày dàn trang và minh họa.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Cảm hứng trong sáng tác mĩ thuật (Bài 7–8)",
+            "chapter": "Chủ đề 4: Cảm hứng trong sáng tác",
+            "summary": "Phát triển ý tưởng sáng tác từ hiện thực và trí tưởng tượng.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Vẻ đẹp của nguyên mẫu trong thực hành, sáng tạo (Bài 9–10)",
+            "chapter": "Chủ đề 5: Vẻ đẹp nguyên mẫu",
+            "summary": "Kí họa dáng người, tĩnh vật và cách điệu tạo hình.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Nghệ thuật múa rối (Bài 11–12)",
+            "chapter": "Chủ đề 6: Nghệ thuật múa rối",
+            "summary": "Tìm hiểu rối nước, rối cạn và tạo hình con rối.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Mĩ thuật đương đại Việt Nam (Bài 13–14)",
+            "chapter": "Chủ đề 7: Mĩ thuật đương đại Việt Nam",
+            "summary": "Tìm hiểu tranh sơn mài, lụa, khắc gỗ hiện đại Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "mithuat-9-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Hướng nghiệp mĩ thuật (Bài 15–16)",
+            "chapter": "Chủ đề 8: Hướng nghiệp",
+            "summary": "Định hướng ngành học thiết kế, kiến trúc, hội họa sau THCS.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-9",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-9-b1",
+            "number": 1,
+            "title": "Sử dụng yếu tố tự nhiên và rèn luyện thể lực",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Phòng chống đuối nước, sốc nhiệt và tự đánh giá thể lực.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b2",
+            "number": 2,
+            "title": "Chủ đề 1: Chạy cự li ngắn (100m)",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Phối hợp hoàn chỉnh 4 giai đoạn chạy ngắn 100m.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b3",
+            "number": 3,
+            "title": "Chủ đề 2: Nhảy cao / Nhảy xa",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Hoàn thiện kĩ thuật giậm nhảy và qua xà.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b4",
+            "number": 4,
+            "title": "Chủ đề 3: Chạy bền",
+            "chapter": "Phần 2: Vận động cơ bản",
+            "summary": "Chạy cự li trung bình và hồi phục sau chạy.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-9-b5",
+            "number": 5,
+            "title": "Chủ đề 1: Bóng đá / Bóng rổ / Cầu lông / Bóng chuyền",
+            "chapter": "Phần 3: Thể thao tự chọn",
+            "summary": "Vận dụng kĩ chiến thuật cơ bản trong thi đấu tập.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-9",
+        "name": "Hoạt động trải nghiệm, hướng nghiệp",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-9-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Xây dựng truyền thống nhà trường",
+            "chapter": "Chủ đề 1: Em với nhà trường",
+            "summary": "Tôn trọng sự khác biệt, phòng chống bạo lực học đường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Phát triển phẩm chất, năng lực bản thân",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Đánh giá điểm mạnh, điểm yếu và khả năng thích ứng thay đổi.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Quản lí cảm xúc và ứng phó áp lực thi cử",
+            "chapter": "Chủ đề 3: Trách nhiệm với bản thân",
+            "summary": "Kĩ năng kiểm soát căng thẳng trong học tập và thi vào lớp 10.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Giao tiếp hiệu quả và quản lí tài chính",
+            "chapter": "Chủ đề 4: Rèn luyện bản thân",
+            "summary": "Lập kế hoạch tiết kiệm và tự chủ chi tiêu.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Trách nhiệm và chia sẻ trong gia đình",
+            "chapter": "Chủ đề 5: Em với gia đình",
+            "summary": "Thảo luận định hướng tương lai cùng cha mẹ.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Hoạt động thiện nguyện và văn hóa cộng đồng",
+            "chapter": "Chủ đề 6: Em với cộng đồng",
+            "summary": "Tổ chức hoạt động cộng đồng và giữ gìn bản sắc địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Bảo vệ cảnh quan và ứng phó biến đổi khí hậu",
+            "chapter": "Chủ đề 7: Em với thiên nhiên",
+            "summary": "Truyền thông bảo vệ môi trường bền vững.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Hệ thống giáo dục nghề nghiệp và thị trường lao động",
+            "chapter": "Chủ đề 8: Định hướng nghề nghiệp",
+            "summary": "Tìm hiểu phân luồng sau THCS: THPT, Trung cấp nghề, GDTX.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-9-b9",
+            "number": 9,
+            "title": "Chủ đề 9: Xây dựng kế hoạch học tập và nghề nghiệp",
+            "chapter": "Chủ đề 9: Lựa chọn hướng đi sau THCS",
+            "summary": "Tự đánh giá năng lực, sở thích để lựa chọn con đường sau lớp 9.",
             "questions": []
           }
         ]
@@ -12187,57 +15852,57 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hoahoc-10-b1",
             "number": 1,
-            "title": "Bài 1: Nhập môn Hóa học",
-            "chapter": "Mở đầu",
-            "summary": "Đối tượng nghiên cứu và phương pháp học Hóa học.",
+            "title": "Bài 1: Thành phần của nguyên tử",
+            "chapter": "Chương 1: Cấu tạo nguyên tử",
+            "summary": "Proton, neutron, electron; kích thước và khối lượng nguyên tử.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b2",
             "number": 2,
-            "title": "Bài 2: Thành phần của nguyên tử",
+            "title": "Bài 2: Nguyên tố hóa học",
             "chapter": "Chương 1: Cấu tạo nguyên tử",
-            "summary": "Proton, neutron, electron.",
+            "summary": "Số hiệu nguyên tử, số khối, đồng vị và nguyên tử khối trung bình.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b3",
             "number": 3,
-            "title": "Bài 3: Nguyên tố hóa học",
+            "title": "Bài 3: Cấu trúc lớp vỏ electron nguyên tử",
             "chapter": "Chương 1: Cấu tạo nguyên tử",
-            "summary": "Số hiệu Z, số khối A, đồng vị, nguyên tử khối trung bình.",
+            "summary": "Orbital nguyên tử (AO), lớp, phân lớp và cấu hình electron.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b4",
             "number": 4,
-            "title": "Bài 4: Cấu trúc lớp vỏ electron của nguyên tử",
+            "title": "Bài 4: Ôn tập chương 1",
             "chapter": "Chương 1: Cấu tạo nguyên tử",
-            "summary": "Orbital, nguyên lí Pauli, quy tắc Hund, cấu hình e.",
+            "summary": "Hệ thống kiến thức cấu tạo nguyên tử và cấu hình electron.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b5",
             "number": 5,
-            "title": "Bài 5: Cấu tạo bảng tuần hoàn các nguyên tố hóa học",
+            "title": "Bài 5: Cấu tạo của bảng tuần hoàn các nguyên tố hóa học",
             "chapter": "Chương 2: Bảng tuần hoàn các nguyên tố hóa học",
-            "summary": "Ô, chu kì, nhóm A và B.",
+            "summary": "Ô, chu kì, nhóm A, nhóm B và nguyên tắc sắp xếp bảng tuần hoàn.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b6",
             "number": 6,
-            "title": "Bài 6: Xu hướng biến đổi một số tính chất của nguyên tử các nguyên tố",
+            "title": "Bài 6: Xu hướng biến đổi một số tính chất của nguyên tử",
             "chapter": "Chương 2: Bảng tuần hoàn các nguyên tố hóa học",
-            "summary": "Bán kính, độ âm điện, tính kim loại/phi kim.",
+            "summary": "Bán kính nguyên tử, độ âm điện, tính kim loại và phi kim.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b7",
             "number": 7,
-            "title": "Bài 7: Xu hướng biến đổi thành phần và một số tính chất của hợp chất trong một chu kì",
+            "title": "Bài 7: Xu hướng biến đổi thành phần và tính chất hợp chất",
             "chapter": "Chương 2: Bảng tuần hoàn các nguyên tố hóa học",
-            "summary": "Tính acid/base của oxide và hydroxide.",
+            "summary": "Oxide cao nhất, hydroxide và tính acid-base trong chu kì.",
             "questions": []
           },
           {
@@ -12245,79 +15910,127 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 8,
             "title": "Bài 8: Định luật tuần hoàn. Ý nghĩa của bảng tuần hoàn",
             "chapter": "Chương 2: Bảng tuần hoàn các nguyên tố hóa học",
-            "summary": "Liên hệ vị trí - cấu tạo - tính chất.",
+            "summary": "Sự biến đổi tuần hoàn tính chất và dự đoán tính chất nguyên tố.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b9",
             "number": 9,
-            "title": "Bài 10: Quy tắc Octet",
-            "chapter": "Chương 3: Liên kết hóa học",
-            "summary": "Đạt cấu hình bền vững 8e lớp ngoài cùng.",
+            "title": "Bài 9: Ôn tập chương 2",
+            "chapter": "Chương 2: Bảng tuần hoàn các nguyên tố hóa học",
+            "summary": "Bài tập định luật tuần hoàn và vị trí nguyên tố.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b10",
             "number": 10,
-            "title": "Bài 11: Liên kết ion",
+            "title": "Bài 10: Quy tắc octet",
             "chapter": "Chương 3: Liên kết hóa học",
-            "summary": "Lực hút tĩnh điện giữa cation và anion.",
+            "summary": "Xu hướng đạt cấu hình bền vững khí hiếm của nguyên tử.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b11",
             "number": 11,
-            "title": "Bài 12: Liên kết cộng hóa trị",
+            "title": "Bài 11: Liên kết ion",
             "chapter": "Chương 3: Liên kết hóa học",
-            "summary": "Liên kết phân cực, không phân cực, σ và π.",
+            "summary": "Sự hình thành ion, lực hút tĩnh điện và tinh thể ion.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b12",
             "number": 12,
-            "title": "Bài 13: Liên kết hydrogen và tương tác van der Waals",
+            "title": "Bài 12: Liên kết cộng hóa trị",
             "chapter": "Chương 3: Liên kết hóa học",
-            "summary": "Ảnh hưởng đến nhiệt độ sôi và độ tan.",
+            "summary": "Cặp electron dùng chung, liên kết phân cực/không phân cực, liên kết sigma và pi.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b13",
             "number": 13,
-            "title": "Bài 15: Phản ứng oxi hóa - khử",
-            "chapter": "Chương 4: Phản ứng oxi hóa - khử",
-            "summary": "Số oxi hóa và cân bằng thăng bằng electron.",
+            "title": "Bài 13: Liên kết hydrogen và tương tác van der Waals",
+            "chapter": "Chương 3: Liên kết hóa học",
+            "summary": "Ảnh hưởng đến nhiệt độ sôi, nhiệt độ nóng chảy và tính tan.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b14",
             "number": 14,
-            "title": "Bài 17: Biến thiên enthalpy trong các phản ứng hóa học",
-            "chapter": "Chương 5: Năng lượng hóa học",
-            "summary": "Tỏa nhiệt (ΔH < 0) và thu nhiệt (ΔH > 0).",
+            "title": "Bài 14: Ôn tập chương 3",
+            "chapter": "Chương 3: Liên kết hóa học",
+            "summary": "So sánh các loại liên kết hóa học.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b15",
             "number": 15,
-            "title": "Bài 19: Tốc độ phản ứng hóa học",
-            "chapter": "Chương 6: Tốc độ phản ứng hóa học",
-            "summary": "Định luật tác dụng khối lượng và các yếu tố ảnh hưởng.",
+            "title": "Bài 15: Phản ứng oxi hóa – khử",
+            "chapter": "Chương 4: Phản ứng oxi hóa - khử",
+            "summary": "Số oxi hóa, chất khử, chất oxi hóa và cân bằng theo thăng bằng electron.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b16",
             "number": 16,
-            "title": "Bài 21: Nhóm Halogen",
-            "chapter": "Chương 7: Nguyên tố nhóm VIIA - Halogen",
-            "summary": "F₂, Cl₂, Br₂, I₂ và tính oxi hóa giảm dần.",
+            "title": "Bài 16: Ôn tập chương 4",
+            "chapter": "Chương 4: Phản ứng oxi hóa - khử",
+            "summary": "Cân bằng và tính toán phản ứng oxi hóa - khử.",
             "questions": []
           },
           {
             "id": "hoahoc-10-b17",
             "number": 17,
-            "title": "Bài 22: Hydrogen halide và một số phản ứng của ion halide",
-            "chapter": "Chương 7: Nguyên tố nhóm VIIA - Halogen",
-            "summary": "Tính acid HF < HCl < HBr < HI và nhận biết bằng AgNO₃.",
+            "title": "Bài 17: Biến thiên enthalpy trong các phản ứng hóa học",
+            "chapter": "Chương 5: Năng lượng hóa học",
+            "summary": "Phản ứng tỏa nhiệt, thu nhiệt, enthalpy tạo thành chuẩn và năng lượng liên kết.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-10-b18",
+            "number": 18,
+            "title": "Bài 18: Ôn tập chương 5",
+            "chapter": "Chương 5: Năng lượng hóa học",
+            "summary": "Tính biến thiên enthalpy chuẩn của phản ứng.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-10-b19",
+            "number": 19,
+            "title": "Bài 19: Tốc độ phản ứng hóa học",
+            "chapter": "Chương 6: Tốc độ phản ứng hóa học",
+            "summary": "Tốc độ trung bình, các yếu tố ảnh hưởng (nồng độ, nhiệt độ, áp suất, diện tích bề mặt, xúc tác).",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-10-b20",
+            "number": 20,
+            "title": "Bài 20: Ôn tập chương 6",
+            "chapter": "Chương 6: Tốc độ phản ứng hóa học",
+            "summary": "Vận dụng hệ số nhiệt độ Van't Hoff và các yếu tố tăng tốc độ phản ứng.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-10-b21",
+            "number": 21,
+            "title": "Bài 21: Nhóm halogen",
+            "chapter": "Chương 7: Nguyên tố nhóm VIIA (Halogen)",
+            "summary": "Cấu tạo, tính chất vật lí, tính oxi hóa giảm dần từ F2 đến I2.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-10-b22",
+            "number": 22,
+            "title": "Bài 22: Hydrogen halide. Muối halide",
+            "chapter": "Chương 7: Nguyên tố nhóm VIIA (Halogen)",
+            "summary": "Tính acid của HX (HF yếu, HCl, HBr, HI mạnh) và nhận biết ion halide bằng AgNO3.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-10-b23",
+            "number": 23,
+            "title": "Bài 23: Ôn tập chương 7",
+            "chapter": "Chương 7: Nguyên tố nhóm VIIA (Halogen)",
+            "summary": "Tổng hợp hóa học nhóm VIIA.",
             "questions": []
           }
         ]
@@ -12330,25 +16043,25 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "sinhhoc-10-b1",
             "number": 1,
-            "title": "Bài 1: Giới thiệu khái quát chương trình môn Sinh học",
-            "chapter": "Mở đầu",
-            "summary": "Đối tượng, lĩnh vực và phát triển bền vững.",
+            "title": "Bài 1: Giới thiệu khái quát môn Sinh học",
+            "chapter": "Phần mở đầu",
+            "summary": "Đối tượng, lĩnh vực nghiên cứu và vai trò của Sinh học.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b2",
             "number": 2,
             "title": "Bài 2: Phương pháp nghiên cứu và học tập môn Sinh học",
-            "chapter": "Mở đầu",
-            "summary": "Quan sát, làm việc trong phòng thí nghiệm, thực nghiệm.",
+            "chapter": "Phần mở đầu",
+            "summary": "Quan sát, làm việc trong phòng thí nghiệm và thực nghiệm khoa học.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b3",
             "number": 3,
             "title": "Bài 3: Các cấp độ tổ chức của thế giới sống",
-            "chapter": "Mở đầu",
-            "summary": "Tế bào -> Cơ thể -> Quần thể -> Quần xã -> Hệ sinh thái -> Sinh quyển.",
+            "chapter": "Phần mở đầu",
+            "summary": "Từ tế bào, cơ thể, quần thể, quần xã, hệ sinh thái đến sinh quyển.",
             "questions": []
           },
           {
@@ -12356,7 +16069,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Các nguyên tố hóa học và nước",
             "chapter": "Chương 1: Thành phần hóa học của tế bào",
-            "summary": "Đa lượng, vi lượng và vai trò của nước.",
+            "summary": "Nguyên tố đa lượng, vi lượng và vai trò của nước.",
             "questions": []
           },
           {
@@ -12364,87 +16077,175 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Các phân tử sinh học",
             "chapter": "Chương 1: Thành phần hóa học của tế bào",
-            "summary": "Carbohydrate, Lipid, Protein, Nucleic acid.",
+            "summary": "Carbohydrate, lipid, protein và nucleic acid (DNA, RNA).",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b6",
             "number": 6,
-            "title": "Bài 7: Tế bào nhân sơ",
-            "chapter": "Chương 2: Cấu trúc tế bào",
-            "summary": "Đặc điểm tế bào nhân sơ.",
+            "title": "Bài 6: Thực hành: Nhận biết một số phân tử sinh học",
+            "chapter": "Chương 1: Thành phần hóa học của tế bào",
+            "summary": "Thử nghiệm nhận biết tinh bột, đường khử, protein và lipid.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b7",
             "number": 7,
-            "title": "Bài 8: Tế bào nhân thực",
+            "title": "Bài 7: Tế bào nhân sơ",
             "chapter": "Chương 2: Cấu trúc tế bào",
-            "summary": "Nhân và các bào quan có màng.",
+            "summary": "Cấu tạo vi khuẩn: thành tế bào, màng sinh chất, tế bào chất, vùng nhân.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b8",
             "number": 8,
-            "title": "Bài 11: Vận chuyển các chất qua màng sinh chất",
-            "chapter": "Chương 3: Trao đổi chất và chuyển hóa năng lượng ở tế bào",
-            "summary": "Thụ động, chủ động, xuất nhập bào.",
+            "title": "Bài 8: Tế bào nhân thực",
+            "chapter": "Chương 2: Cấu tạo tế bào",
+            "summary": "Nhân, lưới nội chất, bộ máy Golgi, ti thể, lục lạp, màng sinh chất.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b9",
             "number": 9,
-            "title": "Bài 13: Chuyển hóa vật chất và năng lượng trong tế bào",
-            "chapter": "Chương 3: Trao đổi chất và chuyển hóa năng lượng ở tế bào",
-            "summary": "Đồng hóa, dị hóa và ATP.",
+            "title": "Bài 9: Thực hành: Quan sát tế bào",
+            "chapter": "Chương 2: Cấu tạo tế bào",
+            "summary": "Sử dụng kính hiển vi quang học quan sát tế bào thực vật, động vật.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b10",
             "number": 10,
-            "title": "Bài 14: Phân giải và tổng hợp các chất trong tế bào",
-            "chapter": "Chương 3: Trao đổi chất và chuyển hóa năng lượng ở tế bào",
-            "summary": "Hô hấp tế bào, lên men, quang hợp.",
+            "title": "Bài 10: Trao đổi chất qua màng tế bào",
+            "chapter": "Chương 3: Trao đổi chất qua màng và truyền tin tế bào",
+            "summary": "Vận chuyển thụ động (khuếch tán, thẩm thấu), chủ động, xuất nhập bào.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b11",
             "number": 11,
-            "title": "Bài 16: Chu kì tế bào và nguyên phân",
-            "chapter": "Chương 4: Chu kì tế bào, phân bào và công nghệ tế bào",
-            "summary": "G1, S, G2 và 4 kì nguyên phân.",
+            "title": "Bài 11: Thực hành: Thí nghiệm co và phản co nguyên sinh",
+            "chapter": "Chương 3: Trao đổi chất qua màng và truyền tin tế bào",
+            "summary": "Quan sát hiện tượng thẩm thấu ở tế bào thực vật.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b12",
             "number": 12,
-            "title": "Bài 17: Giảm phân",
-            "chapter": "Chương 4: Chu kì tế bào, phân bào và công nghệ tế bào",
-            "summary": "Giảm phân I, II và trao đổi chéo.",
+            "title": "Bài 12: Truyền tin tế bào",
+            "chapter": "Chương 3: Trao đổi chất qua màng và truyền tin tế bào",
+            "summary": "Tiếp nhận, truyền tin và đáp ứng tín hiệu ở tế bào.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b13",
             "number": 13,
-            "title": "Bài 18: Công nghệ tế bào",
-            "chapter": "Chương 4: Chu kì tế bào, phân bào và công nghệ tế bào",
-            "summary": "Nuôi cấy mô thực vật, nhân bản vô tính, tế bào gốc.",
+            "title": "Bài 13: Khái quát về chuyển hóa vật chất và năng lượng",
+            "chapter": "Chương 4: Chuyển hóa năng lượng trong tế bào",
+            "summary": "ATP và vai trò của enzyme trong xúc tác sinh học.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b14",
             "number": 14,
-            "title": "Bài 20: Sự sinh trưởng và sinh sản ở vi sinh vật",
-            "chapter": "Chương 5: Vi sinh vật và ứng dụng",
-            "summary": "4 pha sinh trưởng quần thể vi khuẩn.",
+            "title": "Bài 14: Phân giải và tổng hợp các chất trong tế bào",
+            "chapter": "Chương 4: Chuyển hóa năng lượng trong tế bào",
+            "summary": "Hô hấp tế bào, lên men và quang hợp, hóa tổng hợp.",
             "questions": []
           },
           {
             "id": "sinhhoc-10-b15",
             "number": 15,
+            "title": "Bài 15: Thực hành: Thí nghiệm ảnh hưởng của một số yếu tố đến hoạt tính enzyme",
+            "chapter": "Chương 4: Chuyển hóa năng lượng trong tế bào",
+            "summary": "Khảo sát nhiệt độ, pH ảnh hưởng đến enzyme amylase.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b16",
+            "number": 16,
+            "title": "Bài 16: Chu kì tế bào và nguyên phân",
+            "chapter": "Chương 5: Chu kì tế bào và phân bào",
+            "summary": "Kì trung gian (G1, S, G2) và 4 kì nguyên phân; kiểm soát chu kì tế bào.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b17",
+            "number": 17,
+            "title": "Bài 17: Giảm phân",
+            "chapter": "Chương 5: Chu kì tế bào và phân bào",
+            "summary": "Giảm phân I, giảm phân II và ý nghĩa tạo biến dị tổ hợp.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành: Làm và quan sát tiêu bản nguyên phân và giảm phân",
+            "chapter": "Chương 5: Chu kì tế bào và phân bào",
+            "summary": "Quan sát tiêu bản rễ hành tây và tế bào châu chấu.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b19",
+            "number": 19,
+            "title": "Bài 19: Công nghệ tế bào",
+            "chapter": "Chương 5: Chu kì tế bào và phân bào",
+            "summary": "Nuôi cấy mô tế bào thực vật, nhân bản vô tính và tế bào gốc.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b20",
+            "number": 20,
+            "title": "Bài 20: Sự đa dạng và phương pháp nghiên cứu vi sinh vật",
+            "chapter": "Chương 6: Sinh học vi sinh vật",
+            "summary": "Các kiểu dinh dưỡng của vi sinh vật (quang tự dưỡng, hóa dị dưỡng,...).",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b21",
+            "number": 21,
+            "title": "Bài 21: Trao đổi chất, sinh trưởng và sinh sản ở vi sinh vật",
+            "chapter": "Chương 6: Sinh học vi sinh vật",
+            "summary": "4 pha sinh trưởng của quần thể vi khuẩn và các yếu tố ảnh hưởng.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b22",
+            "number": 22,
+            "title": "Bài 22: Vai trò và ứng dụng của vi sinh vật",
+            "chapter": "Chương 6: Sinh học vi sinh vật",
+            "summary": "Sản xuất thực phẩm lên men, thuốc kháng sinh, xử lí môi trường.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b23",
+            "number": 23,
+            "title": "Bài 23: Thực hành: Nghiên cứu vi sinh vật và làm sản phẩm lên men",
+            "chapter": "Chương 6: Sinh học vi sinh vật",
+            "summary": "Làm sữa chua, muối chua rau củ.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b24",
+            "number": 24,
             "title": "Bài 24: Khái quát về virus",
-            "chapter": "Chương 6: Virus và ứng dụng",
-            "summary": "Cấu tạo và chu trình nhân lên của virus.",
+            "chapter": "Chương 7: Virus",
+            "summary": "Cấu tạo virus (lõi nucleic acid và vỏ capsid) và chu trình nhân lên.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b25",
+            "number": 25,
+            "title": "Bài 25: Một số bệnh do virus và thành tựu nghiên cứu ứng dụng virus",
+            "chapter": "Chương 7: Virus",
+            "summary": "Phòng chống HIV/AIDS, cúm, COVID-19 và sản xuất vaccine.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-10-b26",
+            "number": 26,
+            "title": "Bài 26: Thực hành: Điều tra một số bệnh do virus và tuyên truyền phòng chống",
+            "chapter": "Chương 7: Virus",
+            "summary": "Lập kế hoạch tuyên truyền phòng chống bệnh truyền nhiễm.",
             "questions": []
           }
         ]
@@ -12457,57 +16258,73 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-10-b1",
             "number": 1,
-            "title": "Thần trụ trời & Chuyện chức phán sự đền Tản Viên (Nguyễn Dữ)",
-            "chapter": "Bài 1: Sức hấp dẫn của truyện kể",
-            "summary": "Thần thoại và truyện truyền kì.",
+            "title": "Bài 1: Sức hấp dẫn của truyện kể (Thần thoại, Chữ người tử tù)",
+            "chapter": "Tập 1 - Bài 1: Sức hấp dẫn của truyện kể",
+            "summary": "Truyện kể về các vị thần sáng tạo thế giới, Chữ người tử tù (Nguyễn Tuân), Tản Viên từ Phán sự lục.",
             "questions": []
           },
           {
             "id": "nguvan-10-b2",
             "number": 2,
-            "title": "Chùm thơ hai-cư Nhật Bản & Thu hứng (Đỗ Phủ)",
-            "chapter": "Bài 2: Vẻ đẹp của thơ ca",
-            "summary": "Thơ cô đọng và Đường luật.",
+            "title": "Bài 2: Vẻ đẹp của thơ ca (Chùm thơ haiku, Thu hứng, Mùa xuân chín)",
+            "chapter": "Tập 1 - Bài 2: Vẻ đẹp của thơ ca",
+            "summary": "Thơ Đỗ Phủ, Hàn Mặc Tử, thơ haiku Nhật Bản và thực hành biện pháp tu từ.",
             "questions": []
           },
           {
             "id": "nguvan-10-b3",
             "number": 3,
-            "title": "Bình Ngô đại cáo (Nguyễn Trãi)",
-            "chapter": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận",
-            "summary": "Bản tuyên ngôn độc lập hào hùng.",
+            "title": "Bài 3: Nghệ thuật thuyết phục trong văn nghị luận (Hiền tài là nguyên khí quốc gia)",
+            "chapter": "Tập 1 - Bài 3: Nghệ thuật thuyết phục trong văn nghị luận",
+            "summary": "Thân Nhân Trung, Yêu và đồng cảm, Chữ bầu lên nhà thơ và viết bài luận thuyết phục.",
             "questions": []
           },
           {
             "id": "nguvan-10-b4",
             "number": 4,
-            "title": "Héc-to từ biệt Ăng-đrô-mác & Đăm Săn đi bắt Nữ Thần Mặt Trời",
-            "chapter": "Bài 4: Sức sống của sử thi",
-            "summary": "Người anh hùng sử thi.",
+            "title": "Bài 4: Sức sống của sử thi (Héc-to từ biệt Ăng-đrô-mác, Đăm Săn)",
+            "chapter": "Tập 1 - Bài 4: Sức sống của sử thi",
+            "summary": "Sử thi Hy Lạp I-li-át và sử thi Tây Nguyên Đăm Săn đi bắt Nữ Thần Mặt Trời.",
             "questions": []
           },
           {
             "id": "nguvan-10-b5",
             "number": 5,
-            "title": "Xúy Vân giả dại (trích chèo Kim Nham)",
-            "chapter": "Bài 5: Tích trò sân khấu dân gian",
-            "summary": "Sân khấu chèo truyền thống.",
+            "title": "Bài 5: Tích trò sân khấu dân gian (Xúy Vân giả dại, Huyện Trìa xử án)",
+            "chapter": "Tập 1 - Bài 5: Tích trò sân khấu dân gian",
+            "summary": "Nghệ thuật chèo cổ và tuồng đồ dân gian Việt Nam.",
             "questions": []
           },
           {
             "id": "nguvan-10-b6",
             "number": 6,
-            "title": "Dục Thúy sơn & Bảo kính cảnh giới (bài 43)",
-            "chapter": "Bài 6: Nguyễn Trãi - 'Dành còn để trợ dân này'",
-            "summary": "Tư tưởng nhân nghĩa và yêu thiên nhiên.",
+            "title": "Bài 6: Nguyễn Trãi – 'Dành còn để trợ dân này' (Bình Ngô đại cáo)",
+            "chapter": "Tập 2 - Bài 6: Nguyễn Trãi – “Dành còn để trợ dân này”",
+            "summary": "Tác gia Nguyễn Trãi, Bình Ngô đại cáo và Bảo kính cảnh giới.",
             "questions": []
           },
           {
             "id": "nguvan-10-b7",
             "number": 7,
-            "title": "Người cầm quyền khôi phục uy quyền & Dưới bóng hoàng lan",
-            "chapter": "Bài 7: Quyền năng của người kể chuyện",
-            "summary": "Điểm nhìn trần thuật.",
+            "title": "Bài 7: Quyền năng của người kể chuyện (Người cầm quyền khôi phục uy quyền, Dưới bóng hoàng lan)",
+            "chapter": "Tập 2 - Bài 7: Quyền năng của người kể chuyện",
+            "summary": "Ngôi kể, điểm nhìn trong truyện của Victor Hugo, Thạch Lam, Nguyễn Huy Thiệp.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b8",
+            "number": 8,
+            "title": "Bài 8: Thế giới đa dạng của thông tin (Sự sống và cái chết, Nghệ thuật truyền thống của người Việt)",
+            "chapter": "Tập 2 - Bài 8: Thế giới đa dạng của thông tin",
+            "summary": "Văn bản thông tin tổng hợp và phương tiện giao tiếp phi ngôn ngữ.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-10-b9",
+            "number": 9,
+            "title": "Bài 9: Hành trang cuộc sống (Về chính chúng ta, Con đường không chọn)",
+            "chapter": "Tập 2 - Bài 9: Hành trang cuộc sống",
+            "summary": "Nghị luận xã hội về lựa chọn, lí tưởng và bản lĩnh sống.",
             "questions": []
           }
         ]
@@ -12943,7 +16760,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Thông tin và xử lí thông tin",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Dữ liệu, thông tin, tri thức và thiết bị số.",
+            "summary": "Phân biệt thông tin và dữ liệu, đơn vị đo dữ liệu (bit, byte, KB, MB, GB).",
             "questions": []
           },
           {
@@ -12951,7 +16768,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Vai trò của thiết bị thông minh và tin học đối với xã hội",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Cách mạng công nghiệp 4.0 và IoT.",
+            "summary": "IoT, trí tuệ nhân tạo và tác động của tin học.",
             "questions": []
           },
           {
@@ -12959,7 +16776,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Một số kiểu dữ liệu và dữ liệu văn bản",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Bảng mã ASCII và Unicode.",
+            "summary": "Biểu diễn số nguyên, số thực và bảng mã ASCII, Unicode.",
             "questions": []
           },
           {
@@ -12967,7 +16784,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Hệ nhị phân và dữ liệu số nguyên",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Đổi số thập phân sang nhị phân và ngược lại.",
+            "summary": "Chuyển đổi hệ thập phân sang nhị phân và ngược lại.",
             "questions": []
           },
           {
@@ -12975,7 +16792,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Dữ liệu lôgic",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Phép toán AND, OR, NOT.",
+            "summary": "Phép toán AND, OR, NOT và bảng chân trị.",
             "questions": []
           },
           {
@@ -12983,103 +16800,231 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 6,
             "title": "Bài 6: Dữ liệu âm thanh và hình ảnh",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Số hóa âm thanh và ảnh bitmap.",
+            "summary": "Số hóa âm thanh, điểm ảnh (pixel) và độ sâu màu.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b7",
             "number": 7,
-            "title": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
-            "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "LAN, WAN, Internet và điện toán đám mây.",
+            "title": "Bài 7: Thực hành sử dụng thiết bị số thông dụng",
+            "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
+            "summary": "Kết nối và khai thác thiết bị số an toàn.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b8",
             "number": 8,
-            "title": "Bài 9: An toàn trên không gian mạng",
+            "title": "Bài 8: Mạng máy tính trong cuộc sống hiện đại",
             "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "Phần mềm độc hại và phòng chống.",
+            "summary": "Mạng LAN, WAN, Internet và điện toán đám mây.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b9",
             "number": 9,
-            "title": "Bài 11: Ứng xử trên môi trường số. Nghĩa vụ tôn trọng bản quyền",
-            "chapter": "Chủ đề 3: Đạo đức, pháp luật và văn hóa",
-            "summary": "Quyền tác giả và bản quyền.",
+            "title": "Bài 9: An toàn trên không gian mạng",
+            "chapter": "Chủ đề 2: Mạng máy tính và Internet",
+            "summary": "Phòng chống phần mềm độc hại, lừa đảo và bảo mật tài khoản.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b10",
             "number": 10,
-            "title": "Bài 12-15: Phần mềm thiết kế đồ họa vector (Inkscape)",
-            "chapter": "Chủ đề 4: Ứng dụng tin học",
-            "summary": "Vẽ hình khối, đường cong Bézier và văn bản.",
+            "title": "Bài 10: Thực hành khai thác tài nguyên trên Internet",
+            "chapter": "Chủ đề 2: Mạng máy tính và Internet",
+            "summary": "Tìm kiếm thông tin, lưu trữ đám mây và dịch thuật.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b11",
             "number": 11,
-            "title": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "Cài đặt, môi trường lập trình Python.",
+            "title": "Bài 11: Ứng xử trên môi trường số. Nghĩa vụ tôn trọng bản quyền",
+            "chapter": "Chủ đề 3: Đạo đức, pháp luật và văn hóa trong môi trường số",
+            "summary": "Bản quyền phần mềm, nội dung số và văn hóa ứng xử mạng.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b12",
             "number": 12,
-            "title": "Bài 17: Biến và lệnh gán",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "Biến, quy tắc đặt tên và phép toán trong Python.",
+            "title": "Bài 12: Phần mềm thiết kế đồ họa",
+            "chapter": "Chủ đề 4: Ứng dụng tin học",
+            "summary": "Đồ họa vectơ và đồ họa điểm ảnh; giao diện Inkscape.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b13",
             "number": 13,
-            "title": "Bài 18: Các lệnh vào ra đơn giản",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "input() và print().",
+            "title": "Bài 13: Bổ sung các đối tượng đồ họa",
+            "chapter": "Chủ đề 4: Ứng dụng tin học",
+            "summary": "Vẽ hình cơ bản, biến đổi đối tượng, tô màu và viền.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b14",
             "number": 14,
-            "title": "Bài 19: Câu lệnh rẽ nhánh if",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "if - else - elif.",
+            "title": "Bài 14: Làm việc với đối tượng đường và văn bản",
+            "chapter": "Chủ đề 4: Ứng dụng tin học",
+            "summary": "Vẽ đường cong Bezier, chèn chữ và uốn chữ theo đường dẫn.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b15",
             "number": 15,
-            "title": "Bài 20: Câu lệnh lặp for",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "range() và vòng lặp for.",
+            "title": "Bài 15: Hoàn thiện hình ảnh đồ họa",
+            "chapter": "Chủ đề 4: Ứng dụng tin học",
+            "summary": "Xuất file ảnh PNG, SVG thiết kế logo, banner.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b16",
             "number": 16,
-            "title": "Bài 21: Câu lệnh lặp while",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "Vòng lặp với số lần chưa biết trước.",
+            "title": "Bài 16: Ngôn ngữ lập trình bậc cao và Python",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Chế độ gõ lệnh trực tiếp và soạn thảo chương trình Python.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b17",
             "number": 17,
-            "title": "Bài 22-25: Kiểu dữ liệu danh sách (List) và Xâu kí tự (String)",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "Thao tác trên list và string.",
+            "title": "Bài 17: Biến và lệnh gán",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Quy tắc đặt tên biến, từ khóa và lệnh gán trong Python.",
             "questions": []
           },
           {
             "id": "tinhoc-10-b18",
             "number": 18,
-            "title": "Bài 26-29: Hàm trong Python và Kiểm thử gỡ lỗi",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính (Python)",
-            "summary": "def, tham số, giá trị trả về.",
+            "title": "Bài 18: Các lệnh vào ra đơn giản",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Hàm input(), print() và chuyển đổi kiểu int(), float(), str().",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b19",
+            "number": 19,
+            "title": "Bài 19: Câu lệnh rẽ nhánh if",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Cấu trúc if, if-else và biểu thức điều kiện.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b20",
+            "number": 20,
+            "title": "Bài 20: Câu lệnh lặp for",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Hàm range() và lặp với số lần biết trước.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b21",
+            "number": 21,
+            "title": "Bài 21: Câu lệnh lặp while",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Lặp với điều kiện và tránh lặp vô hạn.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b22",
+            "number": 22,
+            "title": "Bài 22: Kiểu dữ liệu danh sách",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Khởi tạo list, truy cập chỉ số và duyệt phần tử.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b23",
+            "number": 23,
+            "title": "Bài 23: Một số lệnh làm việc với dữ liệu danh sách",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "append(), insert(), remove(), len(), toán tử in.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b24",
+            "number": 24,
+            "title": "Bài 24: Xâu kí tự",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Truy cập kí tự, cắt xâu và toán tử với xâu.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b25",
+            "number": 25,
+            "title": "Bài 25: Một số lệnh làm việc với xâu kí tự",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "find(), split(), join(), upper(), lower().",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b26",
+            "number": 26,
+            "title": "Bài 26: Hàm trong Python",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Định nghĩa hàm bằng def, giá trị trả về return.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b27",
+            "number": 27,
+            "title": "Bài 27: Tham số của hàm",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Tham số, đối số và phạm vi biến (cục bộ, toàn cục).",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b28",
+            "number": 28,
+            "title": "Bài 28: Phạm vi của biến",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Từ khóa global và quản lí biến trong hàm.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b29",
+            "number": 29,
+            "title": "Bài 29: Nhận biết lỗi chương trình",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Lỗi cú pháp (SyntaxError), lỗi ngoại lệ (Runtime) và lỗi ngữ nghĩa.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b30",
+            "number": 30,
+            "title": "Bài 30: Kiểm thử và gỡ lỗi chương trình",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Thiết kế bộ test (test case) và truy vết gỡ lỗi.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b31",
+            "number": 31,
+            "title": "Bài 31: Thực hành viết chương trình đơn giản",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Giải bài toán thực tế bằng Python.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b32",
+            "number": 32,
+            "title": "Bài 32: Ôn tập lập trình Python",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề với sự trợ giúp của máy tính",
+            "summary": "Tổng hợp kiến thức lập trình Python lớp 10.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b33",
+            "number": 33,
+            "title": "Bài 33: Nghề thiết kế đồ họa máy tính",
+            "chapter": "Chủ đề 6: Hướng nghiệp với Tin học",
+            "summary": "Công việc, phẩm chất và cơ hội nghề thiết kế đồ họa.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-10-b34",
+            "number": 34,
+            "title": "Bài 34: Nghề phát triển phần mềm",
+            "chapter": "Chủ đề 6: Hướng nghiệp với Tin học",
+            "summary": "Quy trình phát triển phần mềm và kĩ năng lập trình viên.",
             "questions": []
           }
         ]
@@ -13302,6 +17247,458 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 10: Ecotourism",
             "chapter": "Unit 10: Ecotourism",
             "summary": "Conditional sentences type 1 and type 2.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "congnghe-trongtrot-10",
+        "name": "Công nghệ (Công nghệ trồng trọt)",
+        "icon": "🌱",
+        "lessons": [
+          {
+            "id": "congnghe-trongtrot-10-b1",
+            "number": 1,
+            "title": "Bài 1: Giới thiệu về trồng trọt",
+            "chapter": "Chương I: Giới thiệu chung về trồng trọt",
+            "summary": "Vai trò, triển vọng và thành tựu của trồng trọt.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b2",
+            "number": 2,
+            "title": "Bài 2: Cây trồng và các yếu tố chính trong trồng trọt",
+            "chapter": "Chương I: Giới thiệu chung về trồng trọt",
+            "summary": "Phân loại cây trồng và các yếu tố ánh sáng, nhiệt độ, nước, đất, dinh dưỡng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b3",
+            "number": 3,
+            "title": "Bài 3: Giới thiệu về đất trồng",
+            "chapter": "Chương II: Đất trồng",
+            "summary": "Thành phần, tính chất (keo đất, phản ứng chua/kiềm, độ phì) của đất.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b4",
+            "number": 4,
+            "title": "Bài 4: Sử dụng, cải tạo và bảo vệ đất trồng",
+            "chapter": "Chương II: Đất trồng",
+            "summary": "Cải tạo đất xám bạc màu, đất mặn, đất phèn, đất xói mòn.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b5",
+            "number": 5,
+            "title": "Bài 5: Giá thể trồng cây",
+            "chapter": "Chương II: Đất trồng",
+            "summary": "Giá thể hữu cơ, vô cơ (xơ dừa, trấu hun, perlite) và ứng dụng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b6",
+            "number": 6,
+            "title": "Bài 6: Thực hành: Xác định độ chua và độ mặn của đất",
+            "chapter": "Chương II: Đất trồng",
+            "summary": "Đo pH và độ mặn của mẫu đất bằng máy đo/giấy chỉ thị.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b7",
+            "number": 7,
+            "title": "Bài 7: Giới thiệu về phân bón",
+            "chapter": "Chương III: Phân bón",
+            "summary": "Phân hóa học, phân hữu cơ và phân vi sinh.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b8",
+            "number": 8,
+            "title": "Bài 8: Sử dụng và bảo quản phân bón",
+            "chapter": "Chương III: Phân bón",
+            "summary": "Nguyên tắc bón phân đúng loại, đúng lúc, đúng liều lượng, đúng cách.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b9",
+            "number": 9,
+            "title": "Bài 9: Sử dụng công nghệ vi sinh trong sản xuất phân bón",
+            "chapter": "Chương III: Phân bón",
+            "summary": "Quy trình sản xuất phân hữu cơ vi sinh từ phế phụ phẩm nông nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành: Nhận biết một số loại phân bón hóa học",
+            "chapter": "Chương III: Phân bón",
+            "summary": "Quan sát màu sắc, trạng thái và thử độ tan của đạm, lân, kali.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b11",
+            "number": 11,
+            "title": "Bài 11: Khái niệm và vai trò của giống cây trồng",
+            "chapter": "Chương IV: Công nghệ giống cây trồng",
+            "summary": "Khái niệm giống và vai trò nâng cao năng suất, chất lượng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b12",
+            "number": 12,
+            "title": "Bài 12: Một số phương pháp chọn, tạo giống cây trồng",
+            "chapter": "Chương IV: Công nghệ giống cây trồng",
+            "summary": "Chọn lọc, lai hữu tính, gây đột biến và chuyển gen.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b13",
+            "number": 13,
+            "title": "Bài 13: Nhân giống cây trồng",
+            "chapter": "Chương IV: Công nghệ giống cây trồng",
+            "summary": "Nhân giống hữu tính, vô tính và nuôi cấy mô tế bào thực vật.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b14",
+            "number": 14,
+            "title": "Bài 14: Thực hành: Nhân giống cây ăn quả bằng phương pháp ghép",
+            "chapter": "Chương IV: Công nghệ giống cây trồng",
+            "summary": "Thực hành ghép mắt/ghép cành cây ăn quả.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b15",
+            "number": 15,
+            "title": "Bài 15: Sâu, bệnh hại cây trồng và ý nghĩa phòng trừ",
+            "chapter": "Chương V: Phòng trừ sâu, bệnh hại cây trồng",
+            "summary": "Khái niệm sâu hại, bệnh hại và nguyên tắc phòng trừ tổng hợp (IPM).",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b16",
+            "number": 16,
+            "title": "Bài 16: Một số sâu hại cây trồng thường gặp và biện pháp phòng trừ",
+            "chapter": "Chương V: Phòng trừ sâu, bệnh hại cây trồng",
+            "summary": "Sâu cuốn lá, rầy nâu, sâu đục thân và biện pháp phòng trừ.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b17",
+            "number": 17,
+            "title": "Bài 17: Một số bệnh hại cây trồng thường gặp và biện pháp phòng trừ",
+            "chapter": "Chương V: Phòng trừ sâu, bệnh hại cây trồng",
+            "summary": "Bệnh đạo ôn, bạc lá, thán thư, vàng lá.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b18",
+            "number": 18,
+            "title": "Bài 18: Ứng dụng công nghệ vi sinh trong phòng trừ sâu, bệnh hại",
+            "chapter": "Chương V: Phòng trừ sâu, bệnh hại cây trồng",
+            "summary": "Chế phẩm sinh học Bt, nấm xanh, nấm trắng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b19",
+            "number": 19,
+            "title": "Bài 19: Quy trình trồng trọt và cơ giới hóa trong trồng trọt",
+            "chapter": "Chương VI: Kĩ thuật trồng trọt",
+            "summary": "Làm đất, gieo trồng, chăm sóc, thu hoạch và cơ giới hóa.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b20",
+            "number": 20,
+            "title": "Bài 20: Công nghệ cao trong thu hoạch và bảo quản sản phẩm trồng trọt",
+            "chapter": "Chương VI: Kĩ thuật trồng trọt",
+            "summary": "Bảo quản lạnh, chiếu xạ, khí quyển điều chỉnh (CA).",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b21",
+            "number": 21,
+            "title": "Bài 21: Chế biến sản phẩm trồng trọt",
+            "chapter": "Chương VI: Kĩ thuật trồng trọt",
+            "summary": "Sấy khô, muối chua, đóng hộp và lên men.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b22",
+            "number": 22,
+            "title": "Bài 22: Dự án: Trồng hoa trong chậu",
+            "chapter": "Chương VI: Kĩ thuật trồng trọt",
+            "summary": "Lập kế hoạch và chăm sóc chậu hoa cảnh.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b23",
+            "number": 23,
+            "title": "Bài 23: Giới thiệu về trồng trọt công nghệ cao",
+            "chapter": "Chương VII: Trồng trọt công nghệ cao",
+            "summary": "Đặc điểm, vai trò của nông nghiệp thông minh 4.0.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b24",
+            "number": 24,
+            "title": "Bài 24: Một số công nghệ cao trong trồng trọt",
+            "chapter": "Chương VII: Trồng trọt công nghệ cao",
+            "summary": "Nhà kính thông minh, tưới nhỏ giọt tự động, cảm biến IoT, drone.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b25",
+            "number": 25,
+            "title": "Bài 25: Công nghệ trồng cây không dùng đất",
+            "chapter": "Chương VII: Trồng trọt công nghệ cao",
+            "summary": "Thủy canh (hydroponics), khí canh (aeroponics).",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b26",
+            "number": 26,
+            "title": "Bài 26: Sự cần thiết phải bảo vệ môi trường trong trồng trọt",
+            "chapter": "Chương VIII: Bảo vệ môi trường trong trồng trọt",
+            "summary": "Ô nhiễm đất, nước do phân bón và thuốc bảo vệ thực vật.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b27",
+            "number": 27,
+            "title": "Bài 27: Ứng dụng công nghệ vi sinh trong bảo vệ môi trường trồng trọt",
+            "chapter": "Chương VIII: Bảo vệ môi trường trong trồng trọt",
+            "summary": "Xử lí rơm rạ, phụ phẩm thành phân bón và năng lượng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-trongtrot-10-b28",
+            "number": 28,
+            "title": "Bài 28: Thực hành: Sử dụng rơm, rạ để trồng nấm rơm",
+            "chapter": "Chương VIII: Bảo vệ môi trường trong trồng trọt",
+            "summary": "Quy trình ủ rơm, cấy meo và thu hoạch nấm rơm.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdqp-10",
+        "name": "Giáo dục quốc phòng và an ninh",
+        "icon": "🛡️",
+        "lessons": [
+          {
+            "id": "gdqp-10-b1",
+            "number": 1,
+            "title": "Bài 1: Lịch sử, truyền thống của lực lượng vũ trang nhân dân Việt Nam",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Lịch sử hình thành, truyền thống vẻ vang của QĐND và CAND Việt Nam.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b2",
+            "number": 2,
+            "title": "Bài 2: Nội dung cơ bản một số luật về quốc phòng và an ninh Việt Nam",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Luật Quốc phòng, Luật An ninh quốc gia và trách nhiệm công dân.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b3",
+            "number": 3,
+            "title": "Bài 3: Ma tuý, tác hại của ma tuý",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Nhận diện các loại ma túy, tác hại và biện pháp phòng chống trong học đường.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b4",
+            "number": 4,
+            "title": "Bài 4: Phòng, chống vi phạm pháp luật về trật tự an toàn giao thông",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Quy tắc an toàn giao thông và xử phạt vi phạm hành chính.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b5",
+            "number": 5,
+            "title": "Bài 5: Bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Khái niệm an ninh quốc gia, trật tự an toàn xã hội và trách nhiệm học sinh.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b6",
+            "number": 6,
+            "title": "Bài 6: Một số hiểu biết về an ninh mạng",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Luật An ninh mạng, phòng tránh lừa đảo và bảo vệ thông tin cá nhân.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b7",
+            "number": 7,
+            "title": "Bài 7: Thường thức phòng tránh bom, mìn, vũ khí công nghệ cao, thiên tai, dịch bệnh",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Kĩ năng phòng tránh rủi ro thiên tai, cháy nổ và vũ khí công nghệ cao.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b8",
+            "number": 8,
+            "title": "Bài 8: Một số nội dung điều lệnh quản lí bộ đội và điều lệnh CAND",
+            "chapter": "Phần điều lệnh - quân sự",
+            "summary": "Chế độ sinh hoạt, học tập, xưng hô chào hỏi theo điều lệnh.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b9",
+            "number": 9,
+            "title": "Bài 9: Đội ngũ từng người không có súng",
+            "chapter": "Phần điều lệnh - quân sự",
+            "summary": "Động tác nghiêm, nghỉ, quay tại chỗ, đi đều, đứng lại.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b10",
+            "number": 10,
+            "title": "Bài 10: Đội ngũ tiểu đội",
+            "chapter": "Phần điều lệnh - quân sự",
+            "summary": "Đội hình tiểu đội hàng ngang, hàng dọc, tiến, lùi, sang phải/trái.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b11",
+            "number": 11,
+            "title": "Bài 11: Các tư thế, động tác cơ bản vận động trong chiến đấu",
+            "chapter": "Phần điều lệnh - quân sự",
+            "summary": "Đi khom, chạy khom, bò cao, bò thấp, lê, trườn.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-10-b12",
+            "number": 12,
+            "title": "Bài 12: Kĩ thuật cấp cứu và chuyển thương",
+            "chapter": "Phần điều lệnh - quân sự",
+            "summary": "Băng bó vết thương, cầm máu tạm thời, cố định xương gãy và chuyển thương.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-10",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-10-b1",
+            "number": 1,
+            "title": "Sử dụng các yếu tố tự nhiên và dinh dưỡng rèn luyện sức khỏe",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Nguyên tắc tập luyện thể lực, phòng tránh chấn thương và dinh dưỡng tuổi THPT.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b2",
+            "number": 2,
+            "title": "Bóng đá 10: Kĩ thuật đá bóng, khống chế và dẫn bóng",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Kĩ thuật đá bóng bằng mu trong, lòng bàn chân và phối hợp nhóm.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b3",
+            "number": 3,
+            "title": "Bóng chuyền 10: Kĩ thuật chuyền bóng, đệm bóng, phát bóng",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Tư thế chuẩn bị, chuyền bóng cao tay, đệm bóng thấp tay.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b4",
+            "number": 4,
+            "title": "Bóng rổ 10: Kĩ thuật dẫn bóng, chuyền bóng, ném rổ",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Kĩ thuật lên rổ hai bước, chuyền bóng bật đất và phòng thủ cá nhân.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-10-b5",
+            "number": 5,
+            "title": "Cầu lông 10: Kĩ thuật di chuyển và đánh cầu cơ bản",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Cầm vợt, phát cầu thuận tay/trái tay, đánh cầu cao sâu.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-10",
+        "name": "Hoạt động trải nghiệm, hướng nghiệp",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-10-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Xây dựng và phát triển nhà trường",
+            "chapter": "Chủ đề 1: Phát huy truyền thống nhà trường",
+            "summary": "Thích ứng môi trường THPT, xây dựng văn hóa học đường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b2",
+            "number": 2,
+            "title": "Chủ đề 2: Khám phá tính cách, quan điểm sống",
+            "chapter": "Chủ đề 2: Khám phá bản thân",
+            "summary": "Nhận diện cá tính, giá trị sống và điều chỉnh bản thân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b3",
+            "number": 3,
+            "title": "Chủ đề 3: Tư duy phản biện và quản lí tài chính",
+            "chapter": "Chủ đề 3: Rèn luyện bản thân",
+            "summary": "Tự chủ trong học tập, giao tiếp và lập kế hoạch tài chính cá nhân.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b4",
+            "number": 4,
+            "title": "Chủ đề 4: Thực hiện trách nhiệm và kinh tế gia đình",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Tham gia giải quyết vấn đề và đóng góp kinh tế gia đình.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b5",
+            "number": 5,
+            "title": "Chủ đề 5: Tham gia các hoạt động cộng đồng",
+            "chapter": "Chủ đề 5: Phát triển cộng đồng",
+            "summary": "Xây dựng mạng lưới quan hệ xã hội tích cực và thiện nguyện.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b6",
+            "number": 6,
+            "title": "Chủ đề 6: Bảo vệ môi trường và tài nguyên thiên nhiên",
+            "chapter": "Chủ đề 6: Bảo tồn cảnh quan thiên nhiên",
+            "summary": "Đánh giá thực trạng môi trường địa phương và hành động xanh.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b7",
+            "number": 7,
+            "title": "Chủ đề 7: Thông tin nghề nghiệp và yêu cầu nhà tuyển dụng",
+            "chapter": "Chủ đề 7: Tìm hiểu nghề nghiệp",
+            "summary": "Khám phá hệ thống ngành nghề và năng lực cần thiết.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-10-b8",
+            "number": 8,
+            "title": "Chủ đề 8: Lựa chọn nghề nghiệp và lập kế hoạch học tập",
+            "chapter": "Chủ đề 8: Chọn nghề phù hợp",
+            "summary": "Kết nối sở thích, năng lực với tổ hợp môn học ở THPT.",
             "questions": []
           }
         ]
@@ -13594,160 +17991,208 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "vatli-11-b1",
             "number": 1,
             "title": "Bài 1: Dao động điều hòa",
-            "chapter": "Chương I: Dao động",
-            "summary": "Biên độ, chu kì, tần số, pha.",
+            "chapter": "Chương 1: Dao động",
+            "summary": "Dao động cơ, dao động tuần hoàn và phương trình dao động điều hòa.",
             "questions": []
           },
           {
             "id": "vatli-11-b2",
             "number": 2,
             "title": "Bài 2: Mô tả dao động điều hòa",
-            "chapter": "Chương I: Dao động",
-            "summary": "Phương trình x = Acos(ωt + φ).",
+            "chapter": "Chương 1: Dao động",
+            "summary": "Biên độ, chu kì, tần số, tần số góc, pha và độ lệch pha.",
             "questions": []
           },
           {
             "id": "vatli-11-b3",
             "number": 3,
             "title": "Bài 3: Vận tốc, gia tốc trong dao động điều hòa",
-            "chapter": "Chương I: Dao động",
-            "summary": "v = -ωAsin(ωt+φ), a = -ω²x.",
+            "chapter": "Chương 1: Dao động",
+            "summary": "Phương trình vận tốc, gia tốc và đồ thị biến thiên theo thời gian.",
             "questions": []
           },
           {
             "id": "vatli-11-b4",
             "number": 4,
-            "title": "Bài 5: Động năng. Thế năng. Sự chuyển hóa năng lượng trong dao động điều hòa",
-            "chapter": "Chương I: Dao động",
-            "summary": "Cơ năng W = ½mω²A².",
+            "title": "Bài 4: Bài tập về dao động điều hòa",
+            "chapter": "Chương 1: Dao động",
+            "summary": "Giải bài toán viết phương trình và tìm li độ, vận tốc, gia tốc.",
             "questions": []
           },
           {
             "id": "vatli-11-b5",
             "number": 5,
-            "title": "Bài 6: Dao động tắt dần. Dao động cưỡng bức. Hiện tượng cộng hưởng",
-            "chapter": "Chương I: Dao động",
-            "summary": "Điều kiện cộng hưởng f = f₀.",
+            "title": "Bài 5: Động năng. Thế năng. Sự chuyển hóa năng lượng trong dao động điều hòa",
+            "chapter": "Chương 1: Dao động",
+            "summary": "Bảo toàn cơ năng W = Wđ + Wt = 1/2 mω²A².",
             "questions": []
           },
           {
             "id": "vatli-11-b6",
             "number": 6,
-            "title": "Bài 8: Mô tả sóng",
-            "chapter": "Chương II: Sóng",
-            "summary": "Bước sóng λ = vT = v/f.",
+            "title": "Bài 6: Dao động tắt dần. Dao động cưỡng bức. Hiện tượng cộng hưởng",
+            "chapter": "Chương 1: Dao động",
+            "summary": "Điều kiện cộng hưởng (f = f0) và ứng dụng.",
             "questions": []
           },
           {
             "id": "vatli-11-b7",
             "number": 7,
-            "title": "Bài 9: Sóng ngang. Sóng dọc. Sự truyền năng lượng của sóng cơ",
-            "chapter": "Chương II: Sóng",
-            "summary": "Phương dao động và phương truyền sóng.",
+            "title": "Bài 7: Bài tập về sự chuyển hóa năng lượng trong dao động điều hòa",
+            "chapter": "Chương 1: Dao động",
+            "summary": "Tính cơ năng, động năng, thế năng con lắc lò xo, con lắc đơn.",
             "questions": []
           },
           {
             "id": "vatli-11-b8",
             "number": 8,
-            "title": "Bài 11: Sóng điện từ",
-            "chapter": "Chương II: Sóng",
-            "summary": "Thang sóng điện từ, tốc độ c = 3·10⁸ m/s.",
+            "title": "Bài 8: Mô tả sóng",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Bước sóng λ = vT = v/f, biên độ sóng, tần số và tốc độ truyền sóng.",
             "questions": []
           },
           {
             "id": "vatli-11-b9",
             "number": 9,
-            "title": "Bài 12: Giao thoa sóng",
-            "chapter": "Chương II: Sóng",
-            "summary": "Giao thoa sóng cơ và thí nghiệm Y-âng.",
+            "title": "Bài 9: Sóng ngang. Sóng dọc. Sự truyền năng lượng của sóng cơ",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Phân biệt sóng ngang và sóng dọc; môi trường truyền sóng.",
             "questions": []
           },
           {
             "id": "vatli-11-b10",
             "number": 10,
-            "title": "Bài 13: Sóng dừng",
-            "chapter": "Chương II: Sóng",
-            "summary": "Nút sóng, bụng sóng.",
+            "title": "Bài 10: Thực hành: Đo tần số của sóng âm",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Sử dụng dao động kí đo tần số âm thoa.",
             "questions": []
           },
           {
             "id": "vatli-11-b11",
             "number": 11,
-            "title": "Bài 16: Lực tương tác giữa hai điện tích",
-            "chapter": "Chương III: Điện trường",
-            "summary": "Định luật Coulomb F = k|q₁q₂|/(εr²).",
+            "title": "Bài 11: Sóng điện từ",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Thang sóng điện từ: vô tuyến, hồng ngoại, ánh sáng nhìn thấy, tử ngoại, tia X, tia gamma.",
             "questions": []
           },
           {
             "id": "vatli-11-b12",
             "number": 12,
-            "title": "Bài 17: Khái niệm điện trường",
-            "chapter": "Chương III: Điện trường",
-            "summary": "E = F/q = k|Q|/r².",
+            "title": "Bài 12: Giao thoa sóng",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Điều kiện giao thoa hai nguồn kết hợp, cực đại và cực tiểu giao thoa; thí nghiệm Young.",
             "questions": []
           },
           {
             "id": "vatli-11-b13",
             "number": 13,
-            "title": "Bài 18: Điện trường đều",
-            "chapter": "Chương III: Điện trường",
-            "summary": "Điện trường giữa hai bản phẳng song song.",
+            "title": "Bài 13: Sóng dừng",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Nút sóng, bụng sóng; điều kiện sóng dừng trên dây hai đầu cố định và một đầu tự do.",
             "questions": []
           },
           {
             "id": "vatli-11-b14",
             "number": 14,
-            "title": "Bài 19: Thế năng điện",
-            "chapter": "Chương III: Điện trường",
-            "summary": "Công lực điện A = qEd.",
+            "title": "Bài 14: Bài tập về sóng dừng",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Tính số bụng, số nút và bước sóng trên dây.",
             "questions": []
           },
           {
             "id": "vatli-11-b15",
             "number": 15,
-            "title": "Bài 20: Điện thế",
-            "chapter": "Chương III: Điện trường",
-            "summary": "Hiệu điện thế U = A/q.",
+            "title": "Bài 15: Thực hành: Đo tốc độ truyền âm",
+            "chapter": "Chương 2: Sóng",
+            "summary": "Đo tốc độ truyền âm bằng cộng hưởng sóng dừng trong ống khí.",
             "questions": []
           },
           {
             "id": "vatli-11-b16",
             "number": 16,
-            "title": "Bài 21: Tụ điện",
-            "chapter": "Chương III: Điện trường",
-            "summary": "C = Q/U và năng lượng tụ W = ½CU².",
+            "title": "Bài 16: Lực tương tác giữa hai điện tích",
+            "chapter": "Chương 3: Điện trường",
+            "summary": "Định luật Coulomb F = k|q1q2|/(εr²).",
             "questions": []
           },
           {
             "id": "vatli-11-b17",
             "number": 17,
-            "title": "Bài 22: Cường độ dòng điện",
-            "chapter": "Chương IV: Dòng điện. Mạch điện",
-            "summary": "I = Δq/Δt = Snve.",
+            "title": "Bài 17: Khái niệm điện trường",
+            "chapter": "Chương 3: Điện trường",
+            "summary": "Cường độ điện trường E = F/q và đường sức điện.",
             "questions": []
           },
           {
             "id": "vatli-11-b18",
             "number": 18,
-            "title": "Bài 23: Điện trở. Định luật Ohm",
-            "chapter": "Chương IV: Dòng điện. Mạch điện",
-            "summary": "Định luật Ohm và điện trở nhiệt, quang điện trở.",
+            "title": "Bài 18: Điện trường đều",
+            "chapter": "Chương 3: Điện trường",
+            "summary": "Cường độ điện trường giữa hai bản phẳng song song E = U/d và chuyển động điện tích.",
             "questions": []
           },
           {
             "id": "vatli-11-b19",
             "number": 19,
-            "title": "Bài 24: Nguồn điện",
-            "chapter": "Chương IV: Dòng điện. Mạch điện",
-            "summary": "Suất điện động E, điện trở trong r, I = E/(R+r).",
+            "title": "Bài 19: Thế năng điện",
+            "chapter": "Chương 3: Điện trường",
+            "summary": "Công của lực điện A = qEd và thế năng của điện tích trong điện trường.",
             "questions": []
           },
           {
             "id": "vatli-11-b20",
             "number": 20,
+            "title": "Bài 20: Điện thế",
+            "chapter": "Chương 3: Điện trường",
+            "summary": "Điện thế V, hiệu điện thế U = A/q và liên hệ E = U/d.",
+            "questions": []
+          },
+          {
+            "id": "vatli-11-b21",
+            "number": 21,
+            "title": "Bài 21: Tụ điện",
+            "chapter": "Chương 3: Điện trường",
+            "summary": "Điện dung C = Q/U, ghép tụ nối tiếp/song song và năng lượng tụ điện.",
+            "questions": []
+          },
+          {
+            "id": "vatli-11-b22",
+            "number": 22,
+            "title": "Bài 22: Cường độ dòng điện",
+            "chapter": "Chương 4: Dòng điện. Mạch điện",
+            "summary": "I = Δq/Δt = Snve và chiều dòng điện.",
+            "questions": []
+          },
+          {
+            "id": "vatli-11-b23",
+            "number": 23,
+            "title": "Bài 23: Điện trở. Định luật Ohm",
+            "chapter": "Chương 4: Dòng điện. Mạch điện",
+            "summary": "Định luật Ohm I = U/R và đường đặc trưng Vôn-Ampe.",
+            "questions": []
+          },
+          {
+            "id": "vatli-11-b24",
+            "number": 24,
+            "title": "Bài 24: Nguồn điện",
+            "chapter": "Chương 4: Dòng điện. Mạch điện",
+            "summary": "Suất điện động E, điện trở trong r và định luật Ohm cho toàn mạch.",
+            "questions": []
+          },
+          {
+            "id": "vatli-11-b25",
+            "number": 25,
             "title": "Bài 25: Năng lượng và công suất điện",
-            "chapter": "Chương IV: Dòng điện. Mạch điện",
-            "summary": "P = UI, A = UIt.",
+            "chapter": "Chương 4: Dòng điện. Mạch điện",
+            "summary": "Công A = UIt, công suất P = UI và định luật Joule-Lenz.",
+            "questions": []
+          },
+          {
+            "id": "vatli-11-b26",
+            "number": 26,
+            "title": "Bài 26: Thực hành: Đo suất điện động và điện trở trong của pin điện hóa",
+            "chapter": "Chương 4: Dòng điện. Mạch điện",
+            "summary": "Mắc mạch đo U và I để xác định E và r.",
             "questions": []
           }
         ]
@@ -13762,7 +18207,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Khái niệm về cân bằng hóa học",
             "chapter": "Chương 1: Cân bằng hóa học",
-            "summary": "Hằng số cân bằng K_C và nguyên lí Le Chatelier.",
+            "summary": "Phản ứng thuận nghịch, hằng số cân bằng Kc và nguyên lí Le Chatelier.",
             "questions": []
           },
           {
@@ -13770,143 +18215,191 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Cân bằng trong dung dịch nước",
             "chapter": "Chương 1: Cân bằng hóa học",
-            "summary": "Thuyết Brønsted - Lowry, pH, chuẩn độ acid - base.",
+            "summary": "Thuyết Bronsted-Lowry về acid-base, pH và chuẩn độ acid-base.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b3",
             "number": 3,
-            "title": "Bài 4: Nitrogen",
-            "chapter": "Chương 2: Nitrogen - Sulfur",
-            "summary": "Cấu tạo phân tử N₂, tính trơ và ứng dụng.",
+            "title": "Bài 3: Ôn tập chương 1",
+            "chapter": "Chương 1: Cân bằng hóa học",
+            "summary": "Bài tập chuyển dịch cân bằng và tính pH.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b4",
             "number": 4,
-            "title": "Bài 5: Ammonia. Muối ammonium",
-            "chapter": "Chương 2: Nitrogen - Sulfur",
-            "summary": "Cấu tạo NH₃, tính base yếu, tính khử; nhận biết NH₄⁺.",
+            "title": "Bài 4: Nitrogen",
+            "chapter": "Chương 2: Nitrogen – Sulfur",
+            "summary": "Cấu tạo phân tử N2, tính trơ ở nhiệt độ thường và ứng dụng.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b5",
             "number": 5,
-            "title": "Bài 6: Một số hợp chất của nitrogen với oxygen",
-            "chapter": "Chương 2: Nitrogen - Sulfur",
-            "summary": "Mưa acid và nitric acid (HNO₃).",
+            "title": "Bài 5: Ammonia – Muối ammonium",
+            "chapter": "Chương 2: Nitrogen – Sulfur",
+            "summary": "Tính base yếu, tính khử của NH3 và nhận biết ion NH4+.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b6",
             "number": 6,
-            "title": "Bài 7: Sulfur và sulfur dioxide",
-            "chapter": "Chương 2: Nitrogen - Sulfur",
-            "summary": "Tính chất S và SO₂ (vừa khử vừa oxi hóa).",
+            "title": "Bài 6: Một số hợp chất của nitrogen với oxygen",
+            "chapter": "Chương 2: Nitrogen – Sulfur",
+            "summary": "NO, NO2, mưa acid và tính acid, tính oxi hóa mạnh của HNO3.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b7",
             "number": 7,
-            "title": "Bài 8: Sulfuric acid và muối sulfate",
-            "chapter": "Chương 2: Nitrogen - Sulfur",
-            "summary": "H₂SO₄ loãng và đặc nóng; nhận biết ion SO₄²⁻.",
+            "title": "Bài 7: Sulfur và sulfur dioxide",
+            "chapter": "Chương 2: Nitrogen – Sulfur",
+            "summary": "Tính chất của đơn chất S và tính oxi hóa, tính khử của SO2.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b8",
             "number": 8,
-            "title": "Bài 10: Hợp chất hữu cơ và hóa học hữu cơ",
-            "chapter": "Chương 3: Đại cương về hóa học hữu cơ",
-            "summary": "Nhóm chức và phổ hồng ngoại (IR).",
+            "title": "Bài 8: Sulfuric acid và muối sulfate",
+            "chapter": "Chương 2: Nitrogen – Sulfur",
+            "summary": "Tính háo nước, tính oxi hóa mạnh của H2SO4 đặc và nhận biết ion SO4^2-.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b9",
             "number": 9,
-            "title": "Bài 11: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
-            "chapter": "Chương 3: Đại cương về hóa học hữu cơ",
-            "summary": "Chưng cất, chiết, kết tinh, sắc kí cột.",
+            "title": "Bài 9: Ôn tập chương 2",
+            "chapter": "Chương 2: Nitrogen – Sulfur",
+            "summary": "Tổng hợp hóa học nguyên tố N và S.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b10",
             "number": 10,
-            "title": "Bài 12: Công thức phân tử hợp chất hữu cơ",
+            "title": "Bài 10: Hợp chất hữu cơ và hóa học hữu cơ",
             "chapter": "Chương 3: Đại cương về hóa học hữu cơ",
-            "summary": "Phổ khối lượng (MS) xác định phân tử khối.",
+            "summary": "Đặc điểm hợp chất hữu cơ, nhóm chức và phổ hồng ngoại (IR).",
             "questions": []
           },
           {
             "id": "hoahoc-11-b11",
             "number": 11,
-            "title": "Bài 13: Cấu tạo hóa học hợp chất hữu cơ",
+            "title": "Bài 11: Phương pháp tách biệt và tinh chế hợp chất hữu cơ",
             "chapter": "Chương 3: Đại cương về hóa học hữu cơ",
-            "summary": "Thuyết cấu tạo hóa học và đồng phân.",
+            "summary": "Chưng cất, chiết, kết tinh và sắc kí cột.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b12",
             "number": 12,
-            "title": "Bài 15: Alkane",
-            "chapter": "Chương 4: Hydrocarbon",
-            "summary": "C_nH_{2n+2}, thế halogen, cracking, reforming.",
+            "title": "Bài 12: Công thức phân tử hợp chất hữu cơ",
+            "chapter": "Chương 3: Đại cương về hóa học hữu cơ",
+            "summary": "Lập CTĐGN và CTPT từ phân tích nguyên tố và phổ khối lượng (MS).",
             "questions": []
           },
           {
             "id": "hoahoc-11-b13",
             "number": 13,
-            "title": "Bài 16: Hydrocarbon không no",
-            "chapter": "Chương 4: Hydrocarbon",
-            "summary": "Alkene, alkyne, đồng phân hình học cis-trans, quy tắc Markovnikov.",
+            "title": "Bài 13: Cấu tạo hóa học hợp chất hữu cơ",
+            "chapter": "Chương 3: Đại cương về hóa học hữu cơ",
+            "summary": "Thuyết cấu tạo hóa học, đồng đẳng và đồng phân.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b14",
             "number": 14,
-            "title": "Bài 17: Arene (Hydrocarbon thơm)",
-            "chapter": "Chương 4: Hydrocarbon",
-            "summary": "Benzene, toluene, phản ứng thế vòng thơm.",
+            "title": "Bài 14: Ôn tập chương 3",
+            "chapter": "Chương 3: Đại cương về hóa học hữu cơ",
+            "summary": "Giải phổ IR, MS và viết đồng phân cấu tạo.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b15",
             "number": 15,
-            "title": "Bài 19: Dẫn xuất halogen",
-            "chapter": "Chương 5: Dẫn xuất halogen - Alcohol - Phenol",
-            "summary": "Thủy phân và tách HX (quy tắc Zaitsev).",
+            "title": "Bài 15: Alkane",
+            "chapter": "Chương 4: Hydrocarbon",
+            "summary": "Danh pháp, đồng phân, phản ứng thế halogen, cracking và reforming.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b16",
             "number": 16,
-            "title": "Bài 20: Alcohol",
-            "chapter": "Chương 5: Dẫn xuất halogen - Alcohol - Phenol",
-            "summary": "Bậc alcohol, tác dụng Na, Cu(OH)₂ (polyalcohol), tách nước.",
+            "title": "Bài 16: Hydrocarbon không no",
+            "chapter": "Chương 4: Hydrocarbon",
+            "summary": "Alkene, alkyne; đồng phân hình học cis-trans, quy tắc Markovnikov.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b17",
             "number": 17,
-            "title": "Bài 21: Phenol",
-            "chapter": "Chương 5: Dẫn xuất halogen - Alcohol - Phenol",
-            "summary": "Tính acid yếu, phản ứng với Br₂ và HNO₃.",
+            "title": "Bài 17: Arene (Hydrocarbon thơm)",
+            "chapter": "Chương 4: Hydrocarbon",
+            "summary": "Benzene, toluene; phản ứng thế vòng thơm và oxi hóa mạch nhánh.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b18",
             "number": 18,
-            "title": "Bài 23: Hợp chất carbonyl",
-            "chapter": "Chương 6: Hợp chất carbonyl - Carboxylic acid",
-            "summary": "Aldehyde và ketone; phản ứng tráng bạc, iodoform.",
+            "title": "Bài 18: Ôn tập chương 4",
+            "chapter": "Chương 4: Hydrocarbon",
+            "summary": "Phân biệt alkane, alkene, alkyne, arene.",
             "questions": []
           },
           {
             "id": "hoahoc-11-b19",
             "number": 19,
+            "title": "Bài 19: Dẫn xuất halogen",
+            "chapter": "Chương 5: Dẫn xuất halogen – Alcohol – Phenol",
+            "summary": "Danh pháp, phản ứng thủy phân và tách HX theo quy tắc Zaitsev.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-11-b20",
+            "number": 20,
+            "title": "Bài 20: Alcohol",
+            "chapter": "Chương 5: Dẫn xuất halogen – Alcohol – Phenol",
+            "summary": "Bậc alcohol, liên kết hydrogen, phản ứng với Na, Cu(OH)2 (glycerol), tách nước.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-11-b21",
+            "number": 21,
+            "title": "Bài 21: Phenol",
+            "chapter": "Chương 5: Dẫn xuất halogen – Alcohol – Phenol",
+            "summary": "Tính acid yếu, phản ứng với Na, NaOH và nước bromine.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-11-b22",
+            "number": 22,
+            "title": "Bài 22: Ôn tập chương 5",
+            "chapter": "Chương 5: Dẫn xuất halogen – Alcohol – Phenol",
+            "summary": "Chuyển hóa dẫn xuất halogen - alcohol - phenol.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-11-b23",
+            "number": 23,
+            "title": "Bài 23: Hợp chất carbonyl",
+            "chapter": "Chương 6: Hợp chất carbonyl – Carboxylic acid",
+            "summary": "Aldehyde và ketone; phản ứng tráng bạc Tollens, Cu(OH)2 và phản ứng iodoform.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-11-b24",
+            "number": 24,
             "title": "Bài 24: Carboxylic acid",
-            "chapter": "Chương 6: Hợp chất carbonyl - Carboxylic acid",
-            "summary": "Tính acid và phản ứng ester hóa.",
+            "chapter": "Chương 6: Hợp chất carbonyl – Carboxylic acid",
+            "summary": "Tính acid, phản ứng ester hóa và ứng dụng trong đời sống.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-11-b25",
+            "number": 25,
+            "title": "Bài 25: Ôn tập chương 6",
+            "chapter": "Chương 6: Hợp chất carbonyl – Carboxylic acid",
+            "summary": "Tổng hợp hóa hữu cơ lớp 11.",
             "questions": []
           }
         ]
@@ -13919,89 +18412,233 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "sinhhoc-11-b1",
             "number": 1,
-            "title": "Bài 2: Trao đổi nước và khoáng ở thực vật",
-            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng",
-            "summary": "Hấp thụ ở rễ, vận chuyển mạch gỗ/rây, thoát hơi nước.",
+            "title": "Bài 1: Khái quát về trao đổi chất và chuyển hóa năng lượng",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Các phương thức trao đổi chất (tự dưỡng, dị dưỡng) và chuyển hóa năng lượng.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b2",
             "number": 2,
-            "title": "Bài 4: Quang hợp ở thực vật",
-            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng",
-            "summary": "Pha sáng, pha tối (C₃, C₄, CAM).",
+            "title": "Bài 2: Trao đổi nước và khoáng ở thực vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Hấp thụ nước và muối khoáng ở rễ, vận chuyển qua mạch gỗ/mạch rây, thoát hơi nước.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b3",
             "number": 3,
-            "title": "Bài 6: Hô hấp ở thực vật",
-            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng",
-            "summary": "Đường phân, chu trình Krebs, chuỗi truyền electron.",
+            "title": "Bài 3: Thực hành: Thí nghiệm trao đổi nước và trồng cây thủy canh, khí canh",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Thực hành chứng minh sự hút nước và thoát hơi nước.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b4",
             "number": 4,
-            "title": "Bài 8: Dinh dưỡng và tiêu hóa ở động vật",
-            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng",
-            "summary": "Các hình thức tiêu hóa ở động vật.",
+            "title": "Bài 4: Quang hợp ở thực vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Pha sáng, pha tối (C3, C4, CAM) và các yếu tố ảnh hưởng quang hợp.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b5",
             "number": 5,
-            "title": "Bài 9: Hô hấp ở động vật",
-            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng",
-            "summary": "Bề mặt trao đổi khí, mang, hệ thống ống khí, phổi.",
+            "title": "Bài 5: Thực hành: Quang hợp ở thực vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Chiết rút sắc tố và phát hiện tinh bột ở lá xanh.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b6",
             "number": 6,
-            "title": "Bài 10: Tuần hoàn ở động vật",
-            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng",
-            "summary": "Hệ tuần hoàn hở, kín; chu kì tim, huyết áp.",
+            "title": "Bài 6: Hô hấp ở thực vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Đường phân, chu trình Krebs, chuỗi truyền electron và vai trò hô hấp.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b7",
             "number": 7,
-            "title": "Bài 12: Miễn dịch ở người và động vật",
-            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng",
-            "summary": "Miễn dịch không đặc hiệu và đặc hiệu.",
+            "title": "Bài 7: Thực hành: Hô hấp ở thực vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Thí nghiệm hạt nảy mầm thải CO2 và tỏa nhiệt.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b8",
             "number": 8,
-            "title": "Bài 15: Cảm ứng ở thực vật",
-            "chapter": "Chương 2: Cảm ứng ở sinh vật",
-            "summary": "Hướng động và ứng động.",
+            "title": "Bài 8: Dinh dưỡng và tiêu hóa ở động vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Tiêu hóa nội bào, túi tiêu hóa, ống tiêu hóa và động vật ăn thực vật/thịt.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b9",
             "number": 9,
-            "title": "Bài 17: Cảm ứng ở động vật",
-            "chapter": "Chương 2: Cảm ứng ở sinh vật",
-            "summary": "Điện thế nghỉ, điện thế hoạt động, synapse, phản xạ.",
+            "title": "Bài 9: Hô hấp ở động vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Qua bề mặt cơ thể, hệ thống ống khí, mang và phổi.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b10",
             "number": 10,
-            "title": "Bài 19-21: Hormone thực vật và sinh trưởng phát triển ở động vật",
-            "chapter": "Chương 3: Sinh trưởng và phát triển ở sinh vật",
-            "summary": "Auxin, GA, Cytokinin, Ethylene, ABA; biến thái.",
+            "title": "Bài 10: Tuần hoàn ở động vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Hệ tuần hoàn hở, kín (đơn, kép); hoạt động của tim và hệ mạch.",
             "questions": []
           },
           {
             "id": "sinhhoc-11-b11",
             "number": 11,
-            "title": "Bài 24-26: Sinh sản ở thực vật và động vật",
+            "title": "Bài 11: Thực hành: Một số thí nghiệm về hệ tuần hoàn",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Đo huyết áp, đếm nhịp tim trước và sau vận động.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b12",
+            "number": 12,
+            "title": "Bài 12: Miễn dịch ở động vật",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Miễn dịch không đặc hiệu, miễn dịch đặc hiệu (dịch thể và tế bào) và vaccine.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b13",
+            "number": 13,
+            "title": "Bài 13: Bài tiết và cân bằng nội môi",
+            "chapter": "Chương 1: Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+            "summary": "Vai trò của thận, gan, phổi trong điều hòa áp suất thẩm thấu và pH máu.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b14",
+            "number": 14,
+            "title": "Bài 14: Khái quát về cảm ứng ở sinh vật",
+            "chapter": "Chương 2: Cảm ứng ở sinh vật",
+            "summary": "Cơ chế tiếp nhận, dẫn truyền, xử lí và trả lời kích thích.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b15",
+            "number": 15,
+            "title": "Bài 15: Cảm ứng ở thực vật",
+            "chapter": "Chương 2: Cảm ứng ở sinh vật",
+            "summary": "Hướng động (hướng sáng, trọng lực, nước, hóa) và ứng động.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành: Cảm ứng ở thực vật",
+            "chapter": "Chương 2: Cảm ứng ở sinh vật",
+            "summary": "Quan sát hướng sáng, hướng trọng lực ở cây non.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b17",
+            "number": 17,
+            "title": "Bài 17: Cảm ứng ở động vật",
+            "chapter": "Chương 2: Cảm ứng ở sinh vật",
+            "summary": "Hệ thần kinh dạng lưới, chuỗi hạch, ống; điện thế nghỉ, điện thế hoạt động, synapse.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b18",
+            "number": 18,
+            "title": "Bài 18: Tập tính ở động vật",
+            "chapter": "Chương 2: Cảm ứng ở sinh vật",
+            "summary": "Tập tính bẩm sinh, học được và ứng dụng trong chăn nuôi.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b19",
+            "number": 19,
+            "title": "Bài 19: Khái quát về sinh trưởng và phát triển ở sinh vật",
+            "chapter": "Chương 3: Sinh trưởng và phát triển ở sinh vật",
+            "summary": "Mối quan hệ giữa sinh trưởng, phát triển và vòng đời.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b20",
+            "number": 20,
+            "title": "Bài 20: Sinh trưởng và phát triển ở thực vật",
+            "chapter": "Chương 3: Sinh trưởng và phát triển ở sinh vật",
+            "summary": "Mô phân sinh đỉnh, bên, lóng và các hormone thực vật (auxin, GA, cytokinin, ABA, ethylene).",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b21",
+            "number": 21,
+            "title": "Bài 21: Thực hành: Bấm ngọn, tỉa cành, tính tuổi cây",
+            "chapter": "Chương 3: Sinh trưởng và phát triển ở sinh vật",
+            "summary": "Thực hành kĩ thuật tác động đến sinh trưởng thực vật.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b22",
+            "number": 22,
+            "title": "Bài 22: Sinh trưởng và phát triển ở động vật",
+            "chapter": "Chương 3: Sinh trưởng và phát triển ở sinh vật",
+            "summary": "Phát triển không qua biến thái và qua biến thái; vai trò hormone GH, thyroxine, ecdysone.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b23",
+            "number": 23,
+            "title": "Bài 23: Thực hành: Quan sát quá trình biến thái ở động vật",
+            "chapter": "Chương 3: Sinh trưởng và phát triển ở sinh vật",
+            "summary": "Quan sát vòng đời sâu bướm/tằm hoặc ếch.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b24",
+            "number": 24,
+            "title": "Bài 24: Khái quát về sinh sản ở sinh vật",
             "chapter": "Chương 4: Sinh sản ở sinh vật",
-            "summary": "Thụ tinh kép và điều hòa sinh sản.",
+            "summary": "So sánh sinh sản vô tính và sinh sản hữu tính.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b25",
+            "number": 25,
+            "title": "Bài 25: Sinh sản ở thực vật",
+            "chapter": "Chương 4: Sinh sản ở sinh vật",
+            "summary": "Thụ phấn, thụ tinh kép, hình thành hạt và quả ở thực vật có hoa.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b26",
+            "number": 26,
+            "title": "Bài 26: Thực hành: Nhân giống vô tính và thụ phấn cho cây",
+            "chapter": "Chương 4: Sinh sản ở sinh vật",
+            "summary": "Giâm cành, chiết cành và thụ phấn nhân tạo.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b27",
+            "number": 27,
+            "title": "Bài 27: Sinh sản ở động vật",
+            "chapter": "Chương 4: Sinh sản ở sinh vật",
+            "summary": "Các hình thức sinh sản vô tính, hữu tính và điều hòa sinh sản.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b28",
+            "number": 28,
+            "title": "Bài 28: Cơ thể sinh vật là một hệ thống mở và tự điều chỉnh",
+            "chapter": "Chương 5: Sinh học cơ thể và ngành nghề",
+            "summary": "Mối liên hệ thống nhất giữa các quá trình sinh lí.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-11-b29",
+            "number": 29,
+            "title": "Bài 29: Một số ngành nghề liên quan đến sinh học cơ thể",
+            "chapter": "Chương 5: Sinh học cơ thể và ngành nghề",
+            "summary": "Y học, dược học, nông lâm nghiệp và công nghệ sinh học.",
             "questions": []
           }
         ]
@@ -14014,57 +18651,73 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-11-b1",
             "number": 1,
-            "title": "Vợ nhặt (Kim Lân) & Chí Phèo (Nam Cao)",
-            "chapter": "Bài 1: Câu chuyện và điểm nhìn",
-            "summary": "Truyện ngắn hiện thực và nhân đạo.",
+            "title": "Bài 1: Câu chuyện và điểm nhìn trong truyện kể (Vợ nhặt, Chí Phèo)",
+            "chapter": "Tập 1 - Bài 1: Câu chuyện và điểm nhìn trong truyện kể",
+            "summary": "Phân tích nghệ thuật kể chuyện, điểm nhìn trong Vợ nhặt (Kim Lân), Chí Phèo (Nam Cao).",
             "questions": []
           },
           {
             "id": "nguvan-11-b2",
             "number": 2,
-            "title": "Tràng giang (Huy Cận) & Đây thôn Vĩ Dạ (Hàn Mặc Tử)",
-            "chapter": "Bài 2: Cấu tứ và hình ảnh trong thơ",
-            "summary": "Thơ mới lãng mạn.",
+            "title": "Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình (Nhớ đồng, Tràng giang, Đây thôn Vĩ Dạ)",
+            "chapter": "Tập 1 - Bài 2: Cấu tứ và hình ảnh trong thơ trữ tình",
+            "summary": "Tìm hiểu cấu tứ và biểu tượng trong thơ mới và thơ hiện đại.",
             "questions": []
           },
           {
             "id": "nguvan-11-b3",
             "number": 3,
-            "title": "Cầu hiền chiếu (Ngô Thì Nhậm)",
-            "chapter": "Bài 3: Văn bản nghị luận",
-            "summary": "Nghị luận trung đại.",
+            "title": "Bài 3: Cấu trúc của văn bản nghị luận (Cầu hiền chiếu, Xin lập khoa luật)",
+            "chapter": "Tập 1 - Bài 3: Cấu trúc của văn bản nghị luận",
+            "summary": "Cách lập luận, lí lẽ và bằng chứng trong văn nghị luận trung đại và hiện đại.",
             "questions": []
           },
           {
             "id": "nguvan-11-b4",
             "number": 4,
-            "title": "Lời tiễn dặn & Trao duyên (Nguyễn Du)",
-            "chapter": "Bài 4: Truyện thơ",
-            "summary": "Truyện thơ dân gian và truyện thơ Nôm.",
+            "title": "Bài 4: Tự sự trong truyện thơ dân gian và truyện thơ Nôm (Lời tiễn dặn, Truyện Kiều)",
+            "chapter": "Tập 1 - Bài 4: Tự sự trong truyện thơ dân gian và truyện thơ Nôm",
+            "summary": "Giá trị nhân đạo và nghệ thuật tự sự trong Tiễn dặn người yêu, Truyện Kiều.",
             "questions": []
           },
           {
             "id": "nguvan-11-b5",
             "number": 5,
-            "title": "Sống, hay không sống & Vĩnh biệt Cửu Trùng Đài",
-            "chapter": "Bài 5: Bi kịch",
-            "summary": "Xung đột bi kịch.",
+            "title": "Bài 5: Nhân vật và xung đột trong bi kịch (Sống hay không sống, Vĩnh biệt Cửu Trùng Đài)",
+            "chapter": "Tập 1 - Bài 5: Nhân vật và xung đột trong bi kịch",
+            "summary": "Xung đột bi kịch trong Hamlet (Shakespeare) và Vũ Như Tô (Nguyễn Huy Tưởng).",
             "questions": []
           },
           {
             "id": "nguvan-11-b6",
             "number": 6,
-            "title": "Tác gia Nguyễn Du & Độc Tiểu Thanh kí",
-            "chapter": "Bài 6: Tác gia Nguyễn Du",
-            "summary": "Chủ nghĩa nhân đạo Nguyễn Du.",
+            "title": "Bài 6: Nguyễn Du – 'Những điều trông thấy mà đau đớn lòng'",
+            "chapter": "Tập 2 - Bài 6: Nguyễn Du – “Những điều trông thấy mà đau đớn lòng”",
+            "summary": "Tác gia Nguyễn Du, Trao duyên, Độc Tiểu Thanh kí.",
             "questions": []
           },
           {
             "id": "nguvan-11-b7",
             "number": 7,
-            "title": "Ai đã đặt tên cho dòng sông? (Hoàng Phủ Ngọc Tường)",
-            "chapter": "Bài 7: Ghi chép và tưởng tượng trong kí",
-            "summary": "Bút kí sông Hương.",
+            "title": "Bài 7: Ghi chép và tưởng tượng trong kí (Ai đã đặt tên cho dòng sông, Và tôi vẫn muốn mẹ)",
+            "chapter": "Tập 2 - Bài 7: Ghi chép và tưởng tượng trong kí",
+            "summary": "Đặc trưng thể loại bút kí, tùy bút và tản văn.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b8",
+            "number": 8,
+            "title": "Bài 8: Cấu trúc của văn bản thông tin (Nữ phóng viên đầu tiên, Trí thông minh nhân tạo)",
+            "chapter": "Tập 2 - Bài 8: Cấu trúc của văn bản thông tin",
+            "summary": "Bố cục, dữ liệu và tính khách quan trong văn bản thông tin.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-11-b9",
+            "number": 9,
+            "title": "Bài 9: Lựa chọn và hành động (Bài ca ngất ngưởng, Văn tế nghĩa sĩ Cần Giuộc)",
+            "chapter": "Tập 2 - Bài 9: Lựa chọn và hành động",
+            "summary": "Phẩm chất, khí phách con người trước lựa chọn lịch sử và cuộc đời.",
             "questions": []
           }
         ]
@@ -14508,7 +19161,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Hệ điều hành",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Quản lí tài nguyên, giao diện hệ điều hành.",
+            "summary": "Vai trò, phân loại hệ điều hành PC và thiết bị di động.",
             "questions": []
           },
           {
@@ -14516,7 +19169,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Thực hành sử dụng hệ điều hành",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Quản lí tệp và tiện ích hệ thống.",
+            "summary": "Quản lí tệp, thư mục và tiện ích hệ thống.",
             "questions": []
           },
           {
@@ -14524,7 +19177,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Phần mềm nguồn mở và phần mềm chạy trên Internet",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Mã nguồn mở (GPL) và SaaS.",
+            "summary": "Phân biệt phần mềm thương mại, nguồn mở (GPL) và ứng dụng web.",
             "questions": []
           },
           {
@@ -14532,7 +19185,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Bên trong máy tính",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "CPU, RAM, ROM, cổng logic AND, OR, NOT.",
+            "summary": "CPU, RAM, ROM, bộ nhớ ngoài và cổng logic (AND, OR, NOT).",
             "questions": []
           },
           {
@@ -14540,78 +19193,350 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 5,
             "title": "Bài 5: Kết nối máy tính với các thiết bị số",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "USB, Bluetooth, HDMI.",
+            "summary": "Cổng kết nối, thông số màn hình, máy in và Bluetooth.",
             "questions": []
           },
           {
             "id": "tinhoc-11-b6",
             "number": 6,
-            "title": "Bài 6-8: Lưu trữ trực tuyến, tìm kiếm nâng cao và giao dịch số",
-            "chapter": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
-            "summary": "Cloud Drive, toán tử tìm kiếm.",
+            "title": "Bài 6: Lưu trữ và chia sẻ tệp tin trên Internet",
+            "chapter": "Chủ đề 2: Tổ chức lưu trữ và trao đổi thông tin",
+            "summary": "Google Drive, OneDrive và phân quyền chia sẻ tài liệu.",
             "questions": []
           },
           {
             "id": "tinhoc-11-b7",
             "number": 7,
-            "title": "Bài 9: Giao tiếp an toàn trên Internet",
-            "chapter": "Chủ đề 3: Đạo đức, pháp luật và văn hóa",
-            "summary": "Phòng tránh lừa đảo trực tuyến.",
+            "title": "Bài 7: Thực hành tìm kiếm thông tin trên Internet",
+            "chapter": "Chủ đề 2: Tổ chức lưu trữ và trao đổi thông tin",
+            "summary": "Toán tử tìm kiếm nâng cao và đánh giá độ tin cậy thông tin.",
             "questions": []
           },
           {
             "id": "tinhoc-11-b8",
             "number": 8,
-            "title": "Bài 10-16: Cơ sở dữ liệu, Hệ quản trị CSDL và CSDL quan hệ (MySQL/Access)",
-            "chapter": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
-            "summary": "Bảng, khóa chính, khóa ngoài, truy vấn SQL cơ bản.",
+            "title": "Bài 8: Thực hành nâng cao sử dụng thư điện tử và mạng xã hội",
+            "chapter": "Chủ đề 2: Tổ chức lưu trữ và trao đổi thông tin",
+            "summary": "Quản lí email, nhãn, lọc thư và bảo mật mạng xã hội.",
             "questions": []
           },
           {
             "id": "tinhoc-11-b9",
             "number": 9,
-            "title": "Bài 17-25: Thiết kế thuật toán, đệ quy, chia để trị và chỉnh sửa ảnh/video",
-            "chapter": "Chủ đề 5: Giải quyết vấn đề (Khoa học máy tính / Tin học ứng dụng)",
-            "summary": "Thuật toán tìm kiếm, sắp xếp hiệu quả.",
+            "title": "Bài 9: Giao tiếp an toàn trên Internet",
+            "chapter": "Chủ đề 3: Đạo đức, pháp luật và văn hóa số",
+            "summary": "Phòng tránh bắt nạt mạng, bảo vệ danh tính số.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b10",
+            "number": 10,
+            "title": "Bài 10: Lưu trữ dữ liệu và khai thác thông tin phục vụ quản lí",
+            "chapter": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+            "summary": "Bài toán quản lí và nhu cầu lưu trữ dữ liệu.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b11",
+            "number": 11,
+            "title": "Bài 11: Cơ sở dữ liệu",
+            "chapter": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+            "summary": "Khái niệm CSDL, tính toàn vẹn, độc lập và bảo mật dữ liệu.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b12",
+            "number": 12,
+            "title": "Bài 12: Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu",
+            "chapter": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+            "summary": "Chức năng định nghĩa, cập nhật và kiểm soát truy cập của HQTCSDL.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b13",
+            "number": 13,
+            "title": "Bài 13: Cơ sở dữ liệu quan hệ",
+            "chapter": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+            "summary": "Bảng, bản ghi, trường, khóa chính, khóa ngoài và liên kết bảng.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b14",
+            "number": 14,
+            "title": "Bài 14: SQL – Ngôn ngữ truy vấn có cấu trúc",
+            "chapter": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+            "summary": "DDL, DML, DCL; câu lệnh CREATE, SELECT, INSERT, UPDATE, DELETE.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b15",
+            "number": 15,
+            "title": "Bài 15: Bảo mật và an toàn hệ cơ sở dữ liệu",
+            "chapter": "Chủ đề 4: Giới thiệu các hệ cơ sở dữ liệu",
+            "summary": "Sao lưu định kì, phân quyền người dùng và mã hóa.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b16",
+            "number": 16,
+            "title": "Bài 16: Công nghệ thông tin trong đời sống và định hướng nghề nghiệp",
+            "chapter": "Chủ đề 5: Hướng nghiệp với Tin học",
+            "summary": "Nghề quản trị CSDL và phân tích dữ liệu.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b17",
+            "number": 17,
+            "title": "Bài 17: Phần mềm chỉnh sửa ảnh",
+            "chapter": "Chủ đề 6: Thực hành ứng dụng tin học (ICT)",
+            "summary": "Làm việc với ảnh số và lớp (layer) trong GIMP.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành chỉnh sửa ảnh",
+            "chapter": "Chủ đề 6: Thực hành ứng dụng tin học (ICT)",
+            "summary": "Cắt ghép, chỉnh sáng, xóa khuyết điểm ảnh.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b19",
+            "number": 19,
+            "title": "Bài 19: Phần mềm làm phim",
+            "chapter": "Chủ đề 6: Thực hành ứng dụng tin học (ICT)",
+            "summary": "Biên tập video, chèn âm thanh, phụ đề và hiệu ứng chuyển cảnh.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b20",
+            "number": 20,
+            "title": "Bài 20: Thực hành làm phim",
+            "chapter": "Chủ đề 6: Thực hành ứng dụng tin học (ICT)",
+            "summary": "Xuất bản video hoàn chỉnh.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b21",
+            "number": 21,
+            "title": "Bài 21: Thực hành thiết kế chương trình quản lí",
+            "chapter": "Chủ đề 6: Thực hành ứng dụng tin học (ICT)",
+            "summary": "Tạo CSDL quản lí thư viện/âm nhạc trên MySQL/HeidiSQL.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-11-b22",
+            "number": 22,
+            "title": "Bài 22: Thực hành sử dụng ngôn ngữ truy vấn dữ liệu",
+            "chapter": "Chủ đề 6: Thực hành ứng dụng tin học (ICT)",
+            "summary": "Truy vấn JOIN, WHERE, ORDER BY trên CSDL quan hệ.",
             "questions": []
           }
         ]
       },
       {
         "id": "congnghe-11",
-        "name": "Công nghệ (Cơ khí)",
-        "icon": "🛠️",
+        "name": "Công nghệ (Công nghệ cơ khí)",
+        "icon": "⚙️",
         "lessons": [
           {
             "id": "congnghe-11-b1",
             "number": 1,
-            "title": "Bài 1-5: Giới thiệu cơ khí chế tạo và Vật liệu cơ khí",
-            "chapter": "Phần I: Cơ khí chế tạo",
-            "summary": "Thép, gang, hợp kim nhôm, đồng, composite.",
+            "title": "Bài 1: Khái quát về cơ khí chế tạo",
+            "chapter": "Chương I: Giới thiệu chung về cơ khí chế tạo",
+            "summary": "Vai trò, đặc điểm và quy trình cơ khí chế tạo.",
             "questions": []
           },
           {
             "id": "congnghe-11-b2",
             "number": 2,
-            "title": "Bài 6-10: Các phương pháp gia công cơ khí và sản xuất cơ khí",
-            "chapter": "Phần I: Cơ khí chế tạo",
-            "summary": "Đúc, hàn, tiện, phay, khoan, tự động hóa.",
+            "title": "Bài 2: Ngành nghề trong lĩnh vực cơ khí chế tạo",
+            "chapter": "Chương I: Giới thiệu chung về cơ khí chế tạo",
+            "summary": "Kĩ sư thiết kế, gia công, lắp ráp, bảo dưỡng cơ khí.",
             "questions": []
           },
           {
             "id": "congnghe-11-b3",
             "number": 3,
-            "title": "Bài 11-15: Động cơ đốt trong (4 kì, 2 kì)",
-            "chapter": "Phần II: Cơ khí động lực",
-            "summary": "Nguyên lí nạp - nén - nổ - xả và các hệ thống động cơ.",
+            "title": "Bài 3: Tổng quan về vật liệu cơ khí",
+            "chapter": "Chương II: Vật liệu cơ khí",
+            "summary": "Tính chất cơ học, vật lí, hóa học và công nghệ của vật liệu.",
             "questions": []
           },
           {
             "id": "congnghe-11-b4",
             "number": 4,
-            "title": "Bài 16-20: Ô tô và hệ thống truyền lực",
-            "chapter": "Phần II: Cơ khí động lực",
-            "summary": "Li hợp, hộp số, hệ thống phanh, lái, treo.",
+            "title": "Bài 4: Vật liệu kim loại và hợp kim",
+            "chapter": "Chương II: Vật liệu cơ khí",
+            "summary": "Gang, thép, hợp kim nhôm, hợp kim đồng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b5",
+            "number": 5,
+            "title": "Bài 5: Vật liệu phi kim loại",
+            "chapter": "Chương II: Vật liệu cơ khí",
+            "summary": "Chất dẻo nhiệt, chất dẻo nhiệt rắn và cao su.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b6",
+            "number": 6,
+            "title": "Bài 6: Vật liệu mới",
+            "chapter": "Chương II: Vật liệu cơ khí",
+            "summary": "Vật liệu nano, composite, hợp kim nhớ hình.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b7",
+            "number": 7,
+            "title": "Bài 7: Khái quát về gia công cơ khí",
+            "chapter": "Chương III: Các phương pháp gia công cơ khí",
+            "summary": "Gia công không phoi và gia công có phoi.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b8",
+            "number": 8,
+            "title": "Bài 8: Một số phương pháp gia công cơ khí",
+            "chapter": "Chương III: Các phương pháp gia công cơ khí",
+            "summary": "Đúc, hàn, rèn, tiện, phay, khoan.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b9",
+            "number": 9,
+            "title": "Bài 9: Quy trình công nghệ gia công chi tiết",
+            "chapter": "Chương III: Các phương pháp gia công cơ khí",
+            "summary": "Lập quy trình gia công chi tiết trụ, trục.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b10",
+            "number": 10,
+            "title": "Bài 10: Dự án: Chế tạo sản phẩm bằng phương pháp gia công cắt gọt",
+            "chapter": "Chương III: Các phương pháp gia công cơ khí",
+            "summary": "Thực hành gia công chi tiết cơ khí đơn giản.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b11",
+            "number": 11,
+            "title": "Bài 11: Quá trình sản xuất cơ khí",
+            "chapter": "Chương IV: Sản xuất cơ khí",
+            "summary": "Các giai đoạn từ chế tạo phôi đến lắp ráp, kiểm tra.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b12",
+            "number": 12,
+            "title": "Bài 12: Dây chuyền sản xuất tự động với sự tham gia của robot",
+            "chapter": "Chương IV: Sản xuất cơ khí",
+            "summary": "Máy CNC và robot công nghiệp trong sản xuất.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b13",
+            "number": 13,
+            "title": "Bài 13: Tự động hóa quá trình sản xuất dưới tác động của CMCN 4.0",
+            "chapter": "Chương IV: Sản xuất cơ khí",
+            "summary": "Nhà máy thông minh, IoT và AI trong cơ khí.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b14",
+            "number": 14,
+            "title": "Bài 14: An toàn lao động và bảo vệ môi trường trong sản xuất cơ khí",
+            "chapter": "Chương IV: Sản xuất cơ khí",
+            "summary": "Trang bị bảo hộ và xử lí chất thải cơ khí.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b15",
+            "number": 15,
+            "title": "Bài 15: Khái quát về cơ khí động lực",
+            "chapter": "Chương V: Giới thiệu chung về cơ khí động lực",
+            "summary": "Hệ thống máy động lực và máy công tác.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b16",
+            "number": 16,
+            "title": "Bài 16: Ngành nghề trong lĩnh vực cơ khí động lực",
+            "chapter": "Chương V: Giới thiệu chung về cơ khí động lực",
+            "summary": "Kĩ sư ô tô, tàu thủy, máy bay.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b17",
+            "number": 17,
+            "title": "Bài 17: Đại cương về động cơ đốt trong",
+            "chapter": "Chương VI: Động cơ đốt trong",
+            "summary": "Phân loại và các bộ phận chính của động cơ đốt trong.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b18",
+            "number": 18,
+            "title": "Bài 18: Nguyên lí làm việc của động cơ đốt trong",
+            "chapter": "Chương VI: Động cơ đốt trong",
+            "summary": "Chu trình 4 kì (nạp, nén, cháy-dãn nở, thải) và 2 kì.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b19",
+            "number": 19,
+            "title": "Bài 19: Các cơ cấu trong động cơ đốt trong",
+            "chapter": "Chương VI: Động cơ đốt trong",
+            "summary": "Cơ cấu trục khuỷu thanh truyền và cơ cấu phân phối khí.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b20",
+            "number": 20,
+            "title": "Bài 20: Các hệ thống trong động cơ đốt trong",
+            "chapter": "Chương VI: Động cơ đốt trong",
+            "summary": "Hệ thống bôi trơn, làm mát, nhiên liệu, đánh lửa và khởi động.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b21",
+            "number": 21,
+            "title": "Bài 21: Khái quát chung về ô tô",
+            "chapter": "Chương VII: Ô tô",
+            "summary": "Cấu tạo chung các cụm hệ thống trên ô tô.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b22",
+            "number": 22,
+            "title": "Bài 22: Hệ thống truyền lực",
+            "chapter": "Chương VII: Ô tô",
+            "summary": "Li hợp, hộp số, truyền lực các-đăng và vi sai.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b23",
+            "number": 23,
+            "title": "Bài 23: Bánh xe và hệ thống treo ô tô",
+            "chapter": "Chương VII: Ô tô",
+            "summary": "Giảm chấn, lò xo, thanh ổn định và lốp xe.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b24",
+            "number": 24,
+            "title": "Bài 24: Hệ thống lái",
+            "chapter": "Chương VII: Ô tô",
+            "summary": "Vô lăng, trục lái, cơ cấu lái và dẫn động lái.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-11-b25",
+            "number": 25,
+            "title": "Bài 25: Hệ thống phanh. An toàn khi tham gia giao thông",
+            "chapter": "Chương VII: Ô tô",
+            "summary": "Phanh đĩa, phanh tang trống và hệ thống ABS.",
             "questions": []
           }
         ]
@@ -14699,6 +19624,386 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 10: The Ecosystem",
             "chapter": "Unit 10: The Ecosystem",
             "summary": "Compound nouns.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "congnghe-channuoi-11",
+        "name": "Công nghệ (Công nghệ chăn nuôi)",
+        "icon": "🐄",
+        "lessons": [
+          {
+            "id": "congnghe-channuoi-11-b1",
+            "number": 1,
+            "title": "Bài 1: Vai trò và triển vọng của chăn nuôi",
+            "chapter": "Chương I: Giới thiệu chung về chăn nuôi",
+            "summary": "Cung cấp thực phẩm, sức kéo và xu hướng chăn nuôi công nghệ cao.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b2",
+            "number": 2,
+            "title": "Bài 2: Vật nuôi và phương thức chăn nuôi",
+            "chapter": "Chương I: Giới thiệu chung về chăn nuôi",
+            "summary": "Chăn nuôi nông hộ, trang trại, công nghiệp và hữu cơ.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b3",
+            "number": 3,
+            "title": "Bài 3: Khái niệm, vai trò của giống trong chăn nuôi",
+            "chapter": "Chương II: Công nghệ giống vật nuôi",
+            "summary": "Đặc điểm của giống vật nuôi.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b4",
+            "number": 4,
+            "title": "Bài 4: Chọn giống vật nuôi",
+            "chapter": "Chương II: Công nghệ giống vật nuôi",
+            "summary": "Chọn lọc hàng loạt, chọn lọc cá thể và đánh giá năng suất.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b5",
+            "number": 5,
+            "title": "Bài 5: Nhân giống vật nuôi",
+            "chapter": "Chương II: Công nghệ giống vật nuôi",
+            "summary": "Nhân giống thuần chủng và lai tạo giống.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b6",
+            "number": 6,
+            "title": "Bài 6: Ứng dụng công nghệ sinh học trong chọn và nhân giống",
+            "chapter": "Chương II: Công nghệ giống vật nuôi",
+            "summary": "Thụ tinh nhân tạo, cấy truyền phôi và xác định giới tính.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b7",
+            "number": 7,
+            "title": "Bài 7: Thức ăn và nhu cầu dinh dưỡng của vật nuôi",
+            "chapter": "Chương III: Công nghệ thức ăn chăn nuôi",
+            "summary": "Nhu cầu duy trì, sinh trưởng, sinh sản và cho sữa/trứng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b8",
+            "number": 8,
+            "title": "Bài 8: Sản xuất và chế biến thức ăn chăn nuôi",
+            "chapter": "Chương III: Công nghệ thức ăn chăn nuôi",
+            "summary": "Thức ăn hỗn hợp, ủ chua và lên men vi sinh.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b9",
+            "number": 9,
+            "title": "Bài 9: Bảo quản thức ăn chăn nuôi",
+            "chapter": "Chương III: Công nghệ thức ăn chăn nuôi",
+            "summary": "Bảo quản khô, bảo quản lạnh và chống nấm mốc.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành: Chế biến, bảo quản thức ăn cho vật nuôi",
+            "chapter": "Chương III: Công nghệ thức ăn chăn nuôi",
+            "summary": "Thực hành ủ chua thức ăn xanh hoặc phối trộn khẩu phần.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b11",
+            "number": 11,
+            "title": "Bài 11: Vai trò của phòng, trị bệnh trong chăn nuôi",
+            "chapter": "Chương IV: Phòng, trị bệnh cho vật nuôi",
+            "summary": "Nguyên tắc phòng bệnh hơn chữa bệnh và an toàn sinh học.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b12",
+            "number": 12,
+            "title": "Bài 12: Một số bệnh phổ biến ở lợn và biện pháp phòng, trị",
+            "chapter": "Chương IV: Phòng, trị bệnh cho vật nuôi",
+            "summary": "Dịch tả lợn, tai xanh, lở mồm long móng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b13",
+            "number": 13,
+            "title": "Bài 13: Một số bệnh phổ biến ở gia cầm và biện pháp phòng, trị",
+            "chapter": "Chương IV: Phòng, trị bệnh cho vật nuôi",
+            "summary": "Cúm gia cầm, Newcastle, tụ huyết trùng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b14",
+            "number": 14,
+            "title": "Bài 14: Một số bệnh phổ biến ở trâu, bò và biện pháp phòng, trị",
+            "chapter": "Chương IV: Phòng, trị bệnh cho vật nuôi",
+            "summary": "Tụ huyết trùng, lở mồm long móng, ký sinh trùng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b15",
+            "number": 15,
+            "title": "Bài 15: Ứng dụng công nghệ sinh học trong phòng, trị bệnh",
+            "chapter": "Chương IV: Phòng, trị bệnh cho vật nuôi",
+            "summary": "Vaccine thế hệ mới, chẩn đoán PCR và kháng sinh sinh học.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b16",
+            "number": 16,
+            "title": "Bài 16: Chuồng nuôi và biện pháp vệ sinh trong chăn nuôi",
+            "chapter": "Chương V: Công nghệ chăn nuôi",
+            "summary": "Thiết kế chuồng kín, chuồng hở và kiểm soát tiểu khí hậu.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b17",
+            "number": 17,
+            "title": "Bài 17: Nuôi dưỡng và chăm sóc vật nuôi",
+            "chapter": "Chương V: Công nghệ chăn nuôi",
+            "summary": "Chăm sóc vật nuôi non, đực giống, cái sinh sản và vỗ béo.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b18",
+            "number": 18,
+            "title": "Bài 18: Chăn nuôi theo tiêu chuẩn VietGAP",
+            "chapter": "Chương V: Công nghệ chăn nuôi",
+            "summary": "Quy trình an toàn thực phẩm, truy xuất nguồn gốc.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b19",
+            "number": 19,
+            "title": "Bài 19: Chăn nuôi công nghệ cao",
+            "chapter": "Chương V: Công nghệ chăn nuôi",
+            "summary": "Cảm biến theo dõi sức khỏe, cho ăn tự động, robot vắt sữa.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b20",
+            "number": 20,
+            "title": "Bài 20: Bảo quản và chế biến sản phẩm chăn nuôi",
+            "chapter": "Chương V: Công nghệ chăn nuôi",
+            "summary": "Bảo quản thịt, trứng, sữa và chế biến thực phẩm.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b21",
+            "number": 21,
+            "title": "Bài 21: Sự cần thiết phải bảo vệ môi trường trong chăn nuôi",
+            "chapter": "Chương VI: Bảo vệ môi trường trong chăn nuôi",
+            "summary": "Kiểm soát chất thải rắn, lỏng và khí gây ô nhiễm.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-channuoi-11-b22",
+            "number": 22,
+            "title": "Bài 22: Xử lí chất thải chăn nuôi",
+            "chapter": "Chương VI: Bảo vệ môi trường trong chăn nuôi",
+            "summary": "Hầm khí sinh học (biogas), đệm lót sinh học và ủ phân compost.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdqp-11",
+        "name": "Giáo dục quốc phòng và an ninh",
+        "icon": "🛡️",
+        "lessons": [
+          {
+            "id": "gdqp-11-b1",
+            "number": 1,
+            "title": "Bài 1: Bảo vệ chủ quyền lãnh thổ, biên giới quốc gia Việt Nam",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Chủ quyền lãnh thổ, biên giới đất liền, biển đảo và trách nhiệm bảo vệ Tổ quốc.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b2",
+            "number": 2,
+            "title": "Bài 2: Luật Nghĩa vụ quân sự và trách nhiệm của học sinh",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Quy định về độ tuổi, đăng kí nghĩa vụ quân sự và tạm hoãn gọi nhập ngũ.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b3",
+            "number": 3,
+            "title": "Bài 3: Phòng, chống tệ nạn xã hội ở Việt Nam trong thời kì hội nhập",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Nhận diện và phòng chống cờ bạc, mại dâm, tệ nạn xã hội.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b4",
+            "number": 4,
+            "title": "Bài 4: Phòng, chống vi phạm pháp luật về tội phạm sử dụng công nghệ cao",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Nhận diện tội phạm mạng, lừa đảo trực tuyến và cách phòng tránh.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b5",
+            "number": 5,
+            "title": "Bài 5: Kiến thức phổ thông về phòng thủ dân sự",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Biện pháp phòng tránh, khắc phục hậu quả thiên tai, thảm họa, dịch bệnh.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b6",
+            "number": 6,
+            "title": "Bài 6: Giới thiệu một số loại vũ khí phổ biến",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Tính năng, cấu tạo cơ bản của súng tiểu liên AK và lựu đạn.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b7",
+            "number": 7,
+            "title": "Bài 7: Pháp luật về quản lí vũ khí, vật liệu nổ, công cụ hỗ trợ",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Quy định nghiêm cấm tàng trữ, sử dụng trái phép vũ khí và vật liệu nổ.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b8",
+            "number": 8,
+            "title": "Bài 8: Đội ngũ từng người có súng",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Động tác mang súng, treo súng, khám súng, đứng nghiêm nghỉ có súng.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b9",
+            "number": 9,
+            "title": "Bài 9: Các tư thế, động tác cơ bản vận động trong chiến đấu có súng",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Giữ súng khi đi khom, chạy khom, bò, lê, trườn.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-11-b10",
+            "number": 10,
+            "title": "Bài 10: Kĩ thuật bắn súng tiểu liên AK",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Ngắm bắn, đường ngắm cơ bản, đường ngắm đúng và yếu lĩnh bắn súng AK.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-11",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-11-b1",
+            "number": 1,
+            "title": "Lập kế hoạch và đánh giá sự phát triển thể chất",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Theo dõi nhịp tim, chỉ số BMI và xây dựng lịch tập cá nhân.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b2",
+            "number": 2,
+            "title": "Bóng đá 11: Kĩ thuật nâng cao và chiến thuật đội hình",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Đánh đầu, tranh cướp bóng và phối hợp tấn công nhóm.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b3",
+            "number": 3,
+            "title": "Bóng chuyền 11: Đập bóng, chắn bóng và chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Kĩ thuật đập bóng chính diện, chắn bóng đơn và phối hợp 3 chạm.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b4",
+            "number": 4,
+            "title": "Bóng rổ 11: Chiến thuật tấn công và phòng thủ khu vực",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Ném rổ nhảy, chắn người (screen) và phòng thủ liên phòng.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-11-b5",
+            "number": 5,
+            "title": "Cầu lông 11: Kĩ thuật bỏ nhỏ, đập cầu và đánh đôi",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Di chuyển đa hướng, đập cầu uy lực và phối hợp đánh đôi.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-11",
+        "name": "Hoạt động trải nghiệm, hướng nghiệp",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-11-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Phát triển quan hệ hợp tác trong nhà trường",
+            "chapter": "Chủ đề 1: Xây dựng và phát triển nhà trường",
+            "summary": "Tổ chức hoạt động câu lạc bộ và phát triển cộng đồng học đường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b2",
+            "number": 2,
+            "title": "Chủ đề 2–3: Tự tin, thích ứng và quản lí tài chính cá nhân",
+            "chapter": "Chủ đề 2–3: Khám phá và rèn luyện bản thân",
+            "summary": "Phát triển tư duy độc lập, quản lí cảm xúc và kế hoạch chi tiêu.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b3",
+            "number": 3,
+            "title": "Chủ đề 4–5: Trách nhiệm với gia đình và phát triển cộng đồng",
+            "chapter": "Chủ đề 4–5: Gia đình và cộng đồng",
+            "summary": "Giải quyết mâu thuẫn gia đình và tham gia dự án cộng đồng.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b4",
+            "number": 4,
+            "title": "Chủ đề 6–7: Bảo tồn cảnh quan và bảo vệ môi trường",
+            "chapter": "Chủ đề 6–7: Thiên nhiên và môi trường",
+            "summary": "Nghiên cứu tác động phát triển kinh tế đến môi trường địa phương.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b5",
+            "number": 5,
+            "title": "Chủ đề 8: Các nhóm nghề cơ bản và yêu cầu thị trường lao động",
+            "chapter": "Chủ đề 8: Thị trường lao động",
+            "summary": "Phân tích xu hướng tuyển dụng, kỹ năng mềm và chuyển đổi số.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b6",
+            "number": 6,
+            "title": "Chủ đề 9: Rèn luyện phẩm chất, năng lực phù hợp nhóm nghề",
+            "chapter": "Chủ đề 9: Rèn luyện phẩm chất nghề nghiệp",
+            "summary": "Trải nghiệm thực tế nghề nghiệp và đánh giá sự phù hợp.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-11-b7",
+            "number": 7,
+            "title": "Chủ đề 10: Xây dựng kế hoạch học tập theo định hướng nghề lựa chọn",
+            "chapter": "Chủ đề 10: Kế hoạch học tập hướng nghiệp",
+            "summary": "Xác định khối thi, ngành học và lộ trình chuẩn bị lớp 12.",
             "questions": []
           }
         ]
@@ -14879,168 +20184,200 @@ export const GRADES_DATA: GradeItem[] = [
             "id": "vatli-12-b1",
             "number": 1,
             "title": "Bài 1: Cấu trúc của chất. Sự chuyển thể",
-            "chapter": "Chương I: Vật lí nhiệt",
-            "summary": "Mô hình động học phân tử và sự nóng chảy, hóa hơi.",
+            "chapter": "Chương 1: Vật lí nhiệt",
+            "summary": "Mô hình động học phân tử và sự nóng chảy, đông đặc, bay hơi, ngưng tụ.",
             "questions": []
           },
           {
             "id": "vatli-12-b2",
             "number": 2,
-            "title": "Bài 2: Nội năng. Định luật 1 của nhiệt động lực học",
-            "chapter": "Chương I: Vật lí nhiệt",
-            "summary": "ΔU = A + Q và quy ước dấu.",
+            "title": "Bài 2: Nội năng. Định luật I của nhiệt động lực học",
+            "chapter": "Chương 1: Vật lí nhiệt",
+            "summary": "ΔU = A + Q; quy ước dấu công và nhiệt lượng.",
             "questions": []
           },
           {
             "id": "vatli-12-b3",
             "number": 3,
-            "title": "Bài 3: Nhiệt độ. Thang nhiệt độ - Nhiệt kế",
-            "chapter": "Chương I: Vật lí nhiệt",
-            "summary": "Thang Celsius (°C) và thang Kelvin (K): T(K) = t(°C) + 273.",
+            "title": "Bài 3: Nhiệt độ, thang nhiệt độ, nhiệt kế",
+            "chapter": "Chương 1: Vật lí nhiệt",
+            "summary": "Thang Celsius (t°C) và thang Kelvin (T(K) = t + 273).",
             "questions": []
           },
           {
             "id": "vatli-12-b4",
             "number": 4,
             "title": "Bài 4: Nhiệt dung riêng",
-            "chapter": "Chương I: Vật lí nhiệt",
-            "summary": "Q = mcΔT.",
+            "chapter": "Chương 1: Vật lí nhiệt",
+            "summary": "Q = m.c.ΔT và thực hành đo nhiệt dung riêng của nước.",
             "questions": []
           },
           {
             "id": "vatli-12-b5",
             "number": 5,
             "title": "Bài 5: Nhiệt nóng chảy riêng",
-            "chapter": "Chương I: Vật lí nhiệt",
-            "summary": "Q = λm.",
+            "chapter": "Chương 1: Vật lí nhiệt",
+            "summary": "Q = λ.m và thực hành đo nhiệt nóng chảy riêng của nước đá.",
             "questions": []
           },
           {
             "id": "vatli-12-b6",
             "number": 6,
             "title": "Bài 6: Nhiệt hóa hơi riêng",
-            "chapter": "Chương I: Vật lí nhiệt",
-            "summary": "Q = Lm.",
+            "chapter": "Chương 1: Vật lí nhiệt",
+            "summary": "Q = L.m và thực hành đo nhiệt hóa hơi riêng của nước.",
             "questions": []
           },
           {
             "id": "vatli-12-b7",
             "number": 7,
-            "title": "Bài 8: Mô hình động học phân tử chất khí",
-            "chapter": "Chương II: Khí lí tưởng",
-            "summary": "Đặc điểm khí lí tưởng.",
+            "title": "Bài 7: Bài tập vật lí nhiệt",
+            "chapter": "Chương 1: Vật lí nhiệt",
+            "summary": "Giải bài tập cân bằng nhiệt và định luật I nhiệt động lực học.",
             "questions": []
           },
           {
             "id": "vatli-12-b8",
             "number": 8,
-            "title": "Bài 9: Định luật Boyle",
-            "chapter": "Chương II: Khí lí tưởng",
-            "summary": "Quá trình đẳng nhiệt p₁V₁ = p₂V₂.",
+            "title": "Bài 8: Mô hình động học phân tử chất khí",
+            "chapter": "Chương 2: Khí lí tưởng",
+            "summary": "Chuyển động nhiệt hỗn loạn của phân tử khí và khí lí tưởng.",
             "questions": []
           },
           {
             "id": "vatli-12-b9",
             "number": 9,
-            "title": "Bài 10: Định luật Charles",
-            "chapter": "Chương II: Khí lí tưởng",
-            "summary": "Quá trình đẳng áp V₁/T₁ = V₂/T₂.",
+            "title": "Bài 9: Định luật Boyle",
+            "chapter": "Chương 2: Khí lí tưởng",
+            "summary": "Quá trình đẳng nhiệt: p1.V1 = p2.V2.",
             "questions": []
           },
           {
             "id": "vatli-12-b10",
             "number": 10,
-            "title": "Bài 11: Phương trình trạng thái của khí lí tưởng",
-            "chapter": "Chương II: Khí lí tưởng",
-            "summary": "pV/T = const và pV = nRT.",
+            "title": "Bài 10: Định luật Charles",
+            "chapter": "Chương 2: Khí lí tưởng",
+            "summary": "Quá trình đẳng áp: V1/T1 = V2/T2.",
             "questions": []
           },
           {
             "id": "vatli-12-b11",
             "number": 11,
-            "title": "Bài 12: Áp suất khí theo mô hình động học phân tử. Quan hệ giữa động năng phân tử và nhiệt độ",
-            "chapter": "Chương II: Khí lí tưởng",
-            "summary": "p = (1/3)μmv² và W_đ = (3/2)kT.",
+            "title": "Bài 11: Phương trình trạng thái của khí lí tưởng",
+            "chapter": "Chương 2: Khí lí tưởng",
+            "summary": "pV/T = const; pV = nRT.",
             "questions": []
           },
           {
             "id": "vatli-12-b12",
             "number": 12,
-            "title": "Bài 14: Từ trường",
-            "chapter": "Chương III: Từ trường",
-            "summary": "Đường sức từ và từ trường đều.",
+            "title": "Bài 12: Áp suất khí theo mô hình động học phân tử",
+            "chapter": "Chương 2: Khí lí tưởng",
+            "summary": "p = 1/3 μmv² và động năng tịnh tiến trung bình tỉ lệ với T.",
             "questions": []
           },
           {
             "id": "vatli-12-b13",
             "number": 13,
-            "title": "Bài 15: Lực từ tác dụng lên dây dẫn mang dòng điện. Cảm ứng từ",
-            "chapter": "Chương III: Từ trường",
-            "summary": "F = BILsinα và quy tắc bàn tay trái.",
+            "title": "Bài 13: Bài tập về khí lí tưởng",
+            "chapter": "Chương 2: Khí lí tưởng",
+            "summary": "Đồ thị các đẳng quá trình và bài toán khí lí tưởng.",
             "questions": []
           },
           {
             "id": "vatli-12-b14",
             "number": 14,
-            "title": "Bài 16: Từ thông. Hiện tượng cảm ứng điện từ",
-            "chapter": "Chương III: Từ trường",
-            "summary": "Φ = BScosα và định luật Faraday e = -ΔΦ/Δt.",
+            "title": "Bài 14: Từ trường",
+            "chapter": "Chương 3: Từ trường",
+            "summary": "Từ trường, đường sức từ và quy tắc nắm tay phải.",
             "questions": []
           },
           {
             "id": "vatli-12-b15",
             "number": 15,
-            "title": "Bài 17: Máy phát điện xoay chiều",
-            "chapter": "Chương III: Từ trường",
-            "summary": "Dòng điện xoay chiều và giá trị hiệu dụng I = I₀/√2.",
+            "title": "Bài 15: Lực từ tác dụng lên dây dẫn mang dòng điện. Cảm ứng từ",
+            "chapter": "Chương 3: Từ trường",
+            "summary": "F = B.I.L.sinα và quy tắc bàn tay trái.",
             "questions": []
           },
           {
             "id": "vatli-12-b16",
             "number": 16,
-            "title": "Bài 18: Ứng dụng hiện tượng cảm ứng điện từ",
-            "chapter": "Chương III: Từ trường",
-            "summary": "Máy biến áp U₁/U₂ = N₁/N₂ và đàn ghi-ta điện.",
+            "title": "Bài 16: Từ thông. Hiện tượng cảm ứng điện từ",
+            "chapter": "Chương 3: Từ trường",
+            "summary": "Φ = B.S.cosα; định luật Faraday và định luật Lenz.",
             "questions": []
           },
           {
             "id": "vatli-12-b17",
             "number": 17,
-            "title": "Bài 19: Điện từ trường. Mô hình sóng điện từ",
-            "chapter": "Chương III: Từ trường",
-            "summary": "Điện trường biến thiên và từ trường biến thiên.",
+            "title": "Bài 17: Máy phát điện xoay chiều",
+            "chapter": "Chương 3: Từ trường",
+            "summary": "Cấu tạo, nguyên lí tạo suất điện động xoay chiều và giá trị hiệu dụng.",
             "questions": []
           },
           {
             "id": "vatli-12-b18",
             "number": 18,
-            "title": "Bài 21: Cấu trúc hạt nhân",
-            "chapter": "Chương IV: Vật lí hạt nhân",
-            "summary": "Số proton Z, số nucleon A, bán kính hạt nhân.",
+            "title": "Bài 18: Ứng dụng hiện tượng cảm ứng điện từ",
+            "chapter": "Chương 3: Từ trường",
+            "summary": "Máy biến áp, đàn guitar điện, bếp từ và sạc không dây.",
             "questions": []
           },
           {
             "id": "vatli-12-b19",
             "number": 19,
-            "title": "Bài 22: Phản ứng hạt nhân và năng lượng liên kết",
-            "chapter": "Chương IV: Vật lí hạt nhân",
-            "summary": "Độ hụt khối Δm, W_lk = Δmc², phân hạch, nhiệt hạch.",
+            "title": "Bài 19: Điện từ trường. Mô hình sóng điện từ",
+            "chapter": "Chương 3: Từ trường",
+            "summary": "Liên hệ điện trường biến thiên và từ trường biến thiên.",
             "questions": []
           },
           {
             "id": "vatli-12-b20",
             "number": 20,
-            "title": "Bài 23: Hiện tượng phóng xạ",
-            "chapter": "Chương IV: Vật lí hạt nhân",
-            "summary": "Tia α, β⁻, β⁺, γ và N = N₀·2^(-t/T).",
+            "title": "Bài 20: Bài tập về từ trường",
+            "chapter": "Chương 3: Từ trường",
+            "summary": "Bài toán lực từ, cảm ứng điện từ và dòng điện xoay chiều.",
             "questions": []
           },
           {
             "id": "vatli-12-b21",
             "number": 21,
+            "title": "Bài 21: Cấu trúc hạt nhân",
+            "chapter": "Chương 4: Vật lí hạt nhân",
+            "summary": "Proton, neutron, số khối A, số Z và đồng vị.",
+            "questions": []
+          },
+          {
+            "id": "vatli-12-b22",
+            "number": 22,
+            "title": "Bài 22: Phản ứng hạt nhân và năng lượng liên kết",
+            "chapter": "Chương 4: Vật lí hạt nhân",
+            "summary": "Độ hụt khối Δm, năng lượng liên kết riêng, phản ứng phân hạch và nhiệt hạch.",
+            "questions": []
+          },
+          {
+            "id": "vatli-12-b23",
+            "number": 23,
+            "title": "Bài 23: Hiện tượng phóng xạ",
+            "chapter": "Chương 4: Vật lí hạt nhân",
+            "summary": "Tia α, β, γ; định luật phóng xạ N = N0.2^(-t/T).",
+            "questions": []
+          },
+          {
+            "id": "vatli-12-b24",
+            "number": 24,
             "title": "Bài 24: Công nghiệp hạt nhân",
-            "chapter": "Chương IV: Vật lí hạt nhân",
-            "summary": "Nhà máy điện hạt nhân và y học hạt nhân.",
+            "chapter": "Chương 4: Vật lí hạt nhân",
+            "summary": "Nhà máy điện hạt nhân, y học hạt nhân và an toàn phóng xạ.",
+            "questions": []
+          },
+          {
+            "id": "vatli-12-b25",
+            "number": 25,
+            "title": "Bài 25: Bài tập về vật lí hạt nhân",
+            "chapter": "Chương 4: Vật lí hạt nhân",
+            "summary": "Tính năng lượng phản ứng hạt nhân và tuổi cổ vật phóng xạ.",
             "questions": []
           }
         ]
@@ -15053,177 +20390,249 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "hoahoc-12-b1",
             "number": 1,
-            "title": "Bài 1: Ester - Lipid",
-            "chapter": "Chương 1: Ester - Lipid",
-            "summary": "Danh pháp, thủy phân ester và chất béo (xà phòng hóa).",
+            "title": "Bài 1: Ester – Lipid",
+            "chapter": "Chương 1: Ester – Lipid",
+            "summary": "Danh pháp, tính chất vật lí, thủy phân ester trong acid/kiềm và chất béo.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b2",
             "number": 2,
             "title": "Bài 2: Xà phòng và chất giặt rửa",
-            "chapter": "Chương 1: Ester - Lipid",
-            "summary": "Cấu tạo và cơ chế giặt rửa.",
+            "chapter": "Chương 1: Ester – Lipid",
+            "summary": "Cơ chế giặt rửa và phân biệt xà phòng với chất giặt rửa tổng hợp.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b3",
             "number": 3,
-            "title": "Bài 4: Giới thiệu về carbohydrate. Glucose và fructose",
-            "chapter": "Chương 2: Carbohydrate",
-            "summary": "Phản ứng với Cu(OH)₂, thuốc thử Tollens, nước Br₂.",
+            "title": "Bài 3: Ôn tập chương 1",
+            "chapter": "Chương 1: Ester – Lipid",
+            "summary": "Bài tập phản ứng xà phòng hóa ester và chất béo.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b4",
             "number": 4,
-            "title": "Bài 5: Saccharose và maltose",
+            "title": "Bài 4: Giới thiệu về carbohydrate. Glucose và fructose",
             "chapter": "Chương 2: Carbohydrate",
-            "summary": "Phản ứng thủy phân và Cu(OH)₂.",
+            "summary": "Cấu tạo dạng mạch hở/vòng, tính chất polyalcohol và phản ứng tráng bạc.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b5",
             "number": 5,
-            "title": "Bài 6: Tinh bột và cellulose",
+            "title": "Bài 5: Saccharose và maltose",
             "chapter": "Chương 2: Carbohydrate",
-            "summary": "Amylose, amylopectin, cellulose và phản ứng iodine.",
+            "summary": "Cấu tạo disaccharide và phản ứng thủy phân.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b6",
             "number": 6,
-            "title": "Bài 8: Amine",
-            "chapter": "Chương 3: Hợp chất chứa nitrogen",
-            "summary": "Bậc amine, tính base và phản ứng với HNO₂, Br₂ (aniline).",
+            "title": "Bài 6: Tinh bột và cellulose",
+            "chapter": "Chương 2: Carbohydrate",
+            "summary": "Phân biệt tinh bột (amylose, amylopectin) với cellulose và phản ứng màu iodine.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b7",
             "number": 7,
-            "title": "Bài 9: Amino acid và peptide",
-            "chapter": "Chương 3: Hợp chất chứa nitrogen",
-            "summary": "Tính lưỡng tính, điểm đẳng điện, phản ứng màu biuret.",
+            "title": "Bài 7: Ôn tập chương 2",
+            "chapter": "Chương 2: Carbohydrate",
+            "summary": "Bài tập thủy phân và lên men carbohydrate.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b8",
             "number": 8,
-            "title": "Bài 10: Protein và enzyme",
+            "title": "Bài 8: Amine",
             "chapter": "Chương 3: Hợp chất chứa nitrogen",
-            "summary": "Sự đông tụ, thủy phân và xúc tác enzyme.",
+            "summary": "Bậc amine, tính base và phản ứng của aniline với nước bromine.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b9",
             "number": 9,
-            "title": "Bài 12: Đại cương về polymer",
-            "chapter": "Chương 4: Polymer",
-            "summary": "Trùng hợp, trùng ngưng và tính chất.",
+            "title": "Bài 9: Amino acid và peptide",
+            "chapter": "Chương 3: Hợp chất chứa nitrogen",
+            "summary": "Tính lưỡng tính, điện di amino acid và phản ứng màu biuret của peptide.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b10",
             "number": 10,
-            "title": "Bài 13: Vật liệu polymer",
-            "chapter": "Chương 4: Polymer",
-            "summary": "Chất dẻo, tơ, cao su, vật liệu composite.",
+            "title": "Bài 10: Protein và enzyme",
+            "chapter": "Chương 3: Hợp chất chứa nitrogen",
+            "summary": "Cấu trúc bậc 1-4 của protein, sự đông tụ và vai trò enzyme.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b11",
             "number": 11,
-            "title": "Bài 15: Thế điện cực và nguồn điện hóa học",
-            "chapter": "Chương 5: Pin điện và điện phân",
-            "summary": "Cặp oxi hóa - khử và E°_pin = E°_cathode - E°_anode.",
+            "title": "Bài 11: Ôn tập chương 3",
+            "chapter": "Chương 3: Hợp chất chứa nitrogen",
+            "summary": "Tổng hợp amine - amino acid - peptide - protein.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b12",
             "number": 12,
-            "title": "Bài 16: Điện phân",
-            "chapter": "Chương 5: Pin điện và điện phân",
-            "summary": "Điện phân nóng chảy và dung dịch.",
+            "title": "Bài 12: Đại cương về polymer",
+            "chapter": "Chương 4: Polymer",
+            "summary": "Monomer, mắt xích, trùng hợp và trùng ngưng.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b13",
             "number": 13,
-            "title": "Bài 18: Cấu tạo và liên kết trong tinh thể kim loại",
-            "chapter": "Chương 6: Đại cương về kim loại",
-            "summary": "Liên kết kim loại và tính chất vật lí chung.",
+            "title": "Bài 13: Vật liệu polymer",
+            "chapter": "Chương 4: Polymer",
+            "summary": "Chất dẻo, tơ, cao su và keo dán tổng hợp.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b14",
             "number": 14,
-            "title": "Bài 19: Tính chất vật lí và tính chất hóa học của kim loại",
-            "chapter": "Chương 6: Đại cương về kim loại",
-            "summary": "Tính khử của kim loại.",
+            "title": "Bài 14: Ôn tập chương 4",
+            "chapter": "Chương 4: Polymer",
+            "summary": "Phân loại và ứng dụng vật liệu polymer.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b15",
             "number": 15,
-            "title": "Bài 20: Kim loại trong tự nhiên và phương pháp tách kim loại",
-            "chapter": "Chương 6: Đại cương về kim loại",
-            "summary": "Thủy luyện, nhiệt luyện, điện phân.",
+            "title": "Bài 15: Thế điện cực và nguồn điện hóa học",
+            "chapter": "Chương 5: Pin điện và điện phân",
+            "summary": "Cặp oxi hóa-khử, thế điện cực chuẩn, sức điện động pin Galvani và pin nhiên liệu.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b16",
             "number": 16,
-            "title": "Bài 21: Hợp kim",
-            "chapter": "Chương 6: Đại cương về kim loại",
-            "summary": "Gang, thép, hợp kim nhôm.",
+            "title": "Bài 16: Điện phân",
+            "chapter": "Chương 5: Pin điện và điện phân",
+            "summary": "Thứ tự điện phân nóng chảy và dung dịch, ứng dụng tinh chế kim loại và mạ điện.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b17",
             "number": 17,
-            "title": "Bài 22: Sự ăn mòn kim loại",
-            "chapter": "Chương 6: Đại cương về kim loại",
-            "summary": "Ăn mòn hóa học, ăn mòn điện hóa và bảo vệ kim loại.",
+            "title": "Bài 17: Ôn tập chương 5",
+            "chapter": "Chương 5: Pin điện và điện phân",
+            "summary": "Tính sức điện động pin và định luật Faraday điện phân.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b18",
             "number": 18,
-            "title": "Bài 24: Nguyên tố nhóm IA",
-            "chapter": "Chương 7: Nguyên tố nhóm IA và nhóm IIA",
-            "summary": "Kim loại kiềm và hợp chất NaOH, Na₂CO₃, NaHCO₃.",
+            "title": "Bài 18: Cấu tạo và liên kết trong tinh thể kim loại",
+            "chapter": "Chương 6: Đại cương về kim loại",
+            "summary": "Liên kết kim loại và tính chất vật lí chung (dẫn điện, dẫn nhiệt, dẻo, ánh kim).",
             "questions": []
           },
           {
             "id": "hoahoc-12-b19",
             "number": 19,
-            "title": "Bài 25: Nguyên tố nhóm IIA",
-            "chapter": "Chương 7: Nguyên tố nhóm IA và nhóm IIA",
-            "summary": "Kim loại kiềm thổ và nước cứng.",
+            "title": "Bài 19: Tính chất vật lí và tính chất hóa học của kim loại",
+            "chapter": "Chương 6: Đại cương về kim loại",
+            "summary": "Dãy điện hóa và phản ứng với phi kim, nước, acid, muối.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b20",
             "number": 20,
-            "title": "Bài 27: Đại cương về kim loại chuyển tiếp dãy thứ nhất",
-            "chapter": "Chương 8: Kim loại chuyển tiếp dãy thứ nhất và phức chất",
-            "summary": "Số oxi hóa, màu sắc ion và chuẩn độ Fe²⁺ bằng KMnO₄.",
+            "title": "Bài 20: Kim loại trong tự nhiên và phương pháp tách kim loại",
+            "chapter": "Chương 6: Đại cương về kim loại",
+            "summary": "Nhiệt luyện, thủy luyện và điện phân.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b21",
             "number": 21,
-            "title": "Bài 28: Sơ lược về phức chất",
-            "chapter": "Chương 8: Kim loại chuyển tiếp dãy thứ nhất và phức chất",
-            "summary": "Nguyên tử trung tâm và phối tử.",
+            "title": "Bài 21: Hợp kim",
+            "chapter": "Chương 6: Đại cương về kim loại",
+            "summary": "Thành phần, tính chất của gang, thép, đuy-ra.",
             "questions": []
           },
           {
             "id": "hoahoc-12-b22",
             "number": 22,
+            "title": "Bài 22: Sự ăn mòn kim loại",
+            "chapter": "Chương 6: Đại cương về kim loại",
+            "summary": "Ăn mòn hóa học, ăn mòn điện hóa và bảo vệ chống ăn mòn.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b23",
+            "number": 23,
+            "title": "Bài 23: Ôn tập chương 6",
+            "chapter": "Chương 6: Đại cương về kim loại",
+            "summary": "Tổng hợp đại cương kim loại.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b24",
+            "number": 24,
+            "title": "Bài 24: Nguyên tố nhóm IA",
+            "chapter": "Chương 7: Nguyên tố nhóm IA và nhóm IIA",
+            "summary": "Kim loại kiềm (Li, Na, K) và hợp chất NaOH, NaHCO3, Na2CO3.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b25",
+            "number": 25,
+            "title": "Bài 25: Nguyên tố nhóm IIA",
+            "chapter": "Chương 7: Nguyên tố nhóm IA và nhóm IIA",
+            "summary": "Kim loại kiềm thổ (Mg, Ca, Ba) và nước cứng, làm mềm nước cứng.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b26",
+            "number": 26,
+            "title": "Bài 26: Ôn tập chương 7",
+            "chapter": "Chương 7: Nguyên tố nhóm IA và nhóm IIA",
+            "summary": "Nhận biết ion nhóm IA, IIA và xử lí nước cứng.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b27",
+            "number": 27,
+            "title": "Bài 27: Đại cương về kim loại chuyển tiếp dãy thứ nhất",
+            "chapter": "Chương 8: Sơ lược về kim loại chuyển tiếp dãy thứ nhất và phức chất",
+            "summary": "Cấu hình electron (Sc đến Cu), số oxi hóa và màu sắc hợp chất.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b28",
+            "number": 28,
+            "title": "Bài 28: Sơ lược về phức chất",
+            "chapter": "Chương 8: Sơ lược về kim loại chuyển tiếp dãy thứ nhất và phức chất",
+            "summary": "Nguyên tử trung tâm, phối tử, số phối trí và dạng hình học phức chất.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b29",
+            "number": 29,
             "title": "Bài 29: Một số tính chất và ứng dụng của phức chất",
-            "chapter": "Chương 8: Kim loại chuyển tiếp dãy thứ nhất và phức chất",
-            "summary": "Phản ứng thế phối tử và ứng dụng.",
+            "chapter": "Chương 8: Sơ lược về kim loại chuyển tiếp dãy thứ nhất và phức chất",
+            "summary": "Phản ứng thế phối tử trong dung dịch và ứng dụng trong y học, xúc tác.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b30",
+            "number": 30,
+            "title": "Bài 30: Sơ lược về đồng, sắt và hợp chất",
+            "chapter": "Chương 8: Sơ lược về kim loại chuyển tiếp dãy thứ nhất và phức chất",
+            "summary": "Tính chất đặc trưng của Cu, Fe và hợp chất.",
+            "questions": []
+          },
+          {
+            "id": "hoahoc-12-b31",
+            "number": 31,
+            "title": "Bài 31: Ôn tập chương 8",
+            "chapter": "Chương 8: Sơ lược về kim loại chuyển tiếp dãy thứ nhất và phức chất",
+            "summary": "Tổng hợp hóa học kim loại chuyển tiếp và phức chất.",
             "questions": []
           }
         ]
@@ -15238,7 +20647,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: DNA và cơ chế tái bản DNA",
             "chapter": "Chương 1: Di truyền phân tử",
-            "summary": "Cấu trúc DNA và nhân đôi bán bảo toàn.",
+            "summary": "Cấu trúc xoắn kép Watson-Crick và nguyên tắc bán bảo toàn, bổ sung.",
             "questions": []
           },
           {
@@ -15246,15 +20655,15 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Gene, quá trình truyền đạt thông tin di truyền và hệ gene",
             "chapter": "Chương 1: Di truyền phân tử",
-            "summary": "Phiên mã, mã di truyền, dịch mã.",
+            "summary": "Phiên mã, phiên mã ngược, mã di truyền và dịch mã.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b3",
             "number": 3,
-            "title": "Bài 3: Điều hòa biểu hiện gene",
+            "title": "Bài 3: Điều hòa biểu hiện của gene",
             "chapter": "Chương 1: Di truyền phân tử",
-            "summary": "Mô hình Operon lac ở E. coli.",
+            "summary": "Mô hình Operon Lac ở vi khuẩn E. coli và ý nghĩa điều hòa.",
             "questions": []
           },
           {
@@ -15262,119 +20671,239 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Đột biến gene",
             "chapter": "Chương 1: Di truyền phân tử",
-            "summary": "Đột biến điểm và nguyên nhân.",
+            "summary": "Đột biến điểm (thay thế, thêm, mất cặp nucleotide) và hậu quả.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b5",
             "number": 5,
-            "title": "Bài 5: Công nghệ gene",
+            "title": "Bài 5: Công nghệ di truyền",
             "chapter": "Chương 1: Di truyền phân tử",
-            "summary": "DNA tái tổ hợp và sinh vật biến đổi gene.",
+            "summary": "Công nghệ DNA tái tổ hợp, tạo sinh vật biến đổi gene và CRISPR.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b6",
             "number": 6,
-            "title": "Bài 7: Cấu trúc và chức năng của nhiễm sắc thể",
-            "chapter": "Chương 2: Di truyền nhiễm sắc thể",
-            "summary": "Nucleosome và các bậc xoắn NST.",
+            "title": "Bài 6: Thực hành: Tách chiết DNA",
+            "chapter": "Chương 1: Di truyền phân tử",
+            "summary": "Tách chiết DNA từ tế bào thực vật/động vật.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b7",
             "number": 7,
-            "title": "Bài 8: Học thuyết di truyền của Mendel",
+            "title": "Bài 7: Cấu trúc và chức năng của nhiễm sắc thể",
             "chapter": "Chương 2: Di truyền nhiễm sắc thể",
-            "summary": "Phân li và phân li độc lập.",
+            "summary": "Nucleosome, sợi cơ bản, sợi nhiễm sắc và vị trí gene trên NST.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b8",
             "number": 8,
-            "title": "Bài 9: Mở rộng học thuyết Mendel",
+            "title": "Bài 8: Học thuyết di truyền của Mendel",
             "chapter": "Chương 2: Di truyền nhiễm sắc thể",
-            "summary": "Tương tác gene và tính đa hiệu của gene.",
+            "summary": "Quy luật phân li và quy luật phân li độc lập.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b9",
             "number": 9,
-            "title": "Bài 10: Di truyền giới tính và di truyền liên kết với giới tính",
+            "title": "Bài 9: Mở rộng học thuyết Mendel",
             "chapter": "Chương 2: Di truyền nhiễm sắc thể",
-            "summary": "Gene trên NST X, Y.",
+            "summary": "Tính trội không hoàn toàn, đồng trội, tương tác gene và tác động đa hiệu.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b10",
             "number": 10,
-            "title": "Bài 11: Liên kết gene và hoán vị gene",
+            "title": "Bài 10: Di truyền giới tính và di truyền liên kết với giới tính",
             "chapter": "Chương 2: Di truyền nhiễm sắc thể",
-            "summary": "Tần số hoán vị gene f ≤ 50%.",
+            "summary": "NST giới tính XX/XY và di truyền gene trên X, Y.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b11",
             "number": 11,
-            "title": "Bài 12: Đột biến nhiễm sắc thể",
+            "title": "Bài 11: Liên kết gene và hoán vị gene",
             "chapter": "Chương 2: Di truyền nhiễm sắc thể",
-            "summary": "Đột biến cấu trúc và số lượng NST.",
+            "summary": "Thí nghiệm Morgan ở ruồi giấm, tần số hoán vị và bản đồ di truyền.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b12",
             "number": 12,
-            "title": "Bài 13: Di truyền học người và di truyền y học",
+            "title": "Bài 12: Đột biến nhiễm sắc thể",
             "chapter": "Chương 2: Di truyền nhiễm sắc thể",
-            "summary": "Phả hệ và tư vấn di truyền.",
+            "summary": "Đột biến cấu trúc (mất, lặp, đảo, chuyển đoạn) và số lượng NST (lệch bội, đa bội).",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b13",
             "number": 13,
-            "title": "Bài 16: Di truyền quần thể",
-            "chapter": "Chương 3: Di truyền quần thể",
-            "summary": "Tần số allele, kiểu gene và định luật Hardy - Weinberg.",
+            "title": "Bài 13: Di truyền học người và di truyền y học",
+            "chapter": "Chương 2: Di truyền nhiễm sắc thể",
+            "summary": "Phả hệ, bệnh di truyền (Down, bạch tạng, máu khó đông) và tư vấn y học.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b14",
             "number": 14,
-            "title": "Bài 19: Các bằng chứng tiến hóa",
-            "chapter": "Chương 4: Tiến hóa",
-            "summary": "Giải phẫu so sánh, hóa thạch, sinh học phân tử.",
+            "title": "Bài 14: Thực hành: Quan sát một số dạng đột biến NST",
+            "chapter": "Chương 2: Di truyền nhiễm sắc thể",
+            "summary": "Quan sát tiêu bản và tranh ảnh đột biến NST.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b15",
             "number": 15,
-            "title": "Bài 20: Quan niệm của Darwin về chọn lọc tự nhiên và hình thành loài",
-            "chapter": "Chương 4: Tiến hóa",
-            "summary": "Chọn lọc tự nhiên.",
+            "title": "Bài 15: Di truyền gene ngoài nhân",
+            "chapter": "Chương 3: Mở rộng học thuyết di truyền NST",
+            "summary": "Di truyền ti thể, lục lạp theo dòng mẹ.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b16",
             "number": 16,
-            "title": "Bài 21: Học thuyết tiến hóa tổng hợp hiện đại",
-            "chapter": "Chương 4: Tiến hóa",
-            "summary": "5 nhân tố tiến hóa.",
+            "title": "Bài 16: Tương tác giữa kiểu gene với môi trường và thành tựu chọn giống",
+            "chapter": "Chương 3: Mở rộng học thuyết di truyền NST",
+            "summary": "Thường biến, mức phản ứng và thành tựu tạo giống.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b17",
             "number": 17,
-            "title": "Bài 22: Tiến hóa lớn và quá trình phát sinh chủng loại",
-            "chapter": "Chương 4: Tiến hóa",
-            "summary": "Hình thành loài mới.",
+            "title": "Bài 17: Thực hành: Thí nghiệm về thường biến ở cây trồng",
+            "chapter": "Chương 3: Mở rộng học thuyết di truyền NST",
+            "summary": "Khảo sát mức phản ứng của giống cây trồng.",
             "questions": []
           },
           {
             "id": "sinhhoc-12-b18",
             "number": 18,
-            "title": "Bài 25-31: Môi trường, Quần thể, Quần xã và Hệ sinh thái",
-            "chapter": "Chương 5-7: Sinh thái học",
-            "summary": "Ổ sinh thái, chuỗi thức ăn, diễn thế sinh thái, bảo tồn đa dạng sinh học.",
+            "title": "Bài 18: Di truyền học quần thể",
+            "chapter": "Chương 4: Di truyền quần thể",
+            "summary": "Tần số allele, kiểu gene và định luật Hardy-Weinberg (p² + 2pq + q² = 1).",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b19",
+            "number": 19,
+            "title": "Bài 19: Các bằng chứng tiến hóa",
+            "chapter": "Chương 5: Bằng chứng và các học thuyết tiến hóa",
+            "summary": "Bằng chứng hóa thạch, giải phẫu so sánh, tế bào học và sinh học phân tử.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b20",
+            "number": 20,
+            "title": "Bài 20: Học thuyết Darwin về chọn lọc tự nhiên và hình thành loài",
+            "chapter": "Chương 5: Bằng chứng và các học thuyết tiến hóa",
+            "summary": "Biến dị cá thể, đấu tranh sinh tồn và chọn lọc tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b21",
+            "number": 21,
+            "title": "Bài 21: Học thuyết tiến hóa tổng hợp hiện đại",
+            "chapter": "Chương 5: Bằng chứng và các học thuyết tiến hóa",
+            "summary": "Tiến hóa nhỏ và các nhân tố tiến hóa (đột biến, di-nhập gene, CLTN, phiêu bạt di truyền, giao phối không ngẫu nhiên).",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b22",
+            "number": 22,
+            "title": "Bài 22: Tiến hóa lớn và quá trình phát sinh chủng loại",
+            "chapter": "Chương 5: Bằng chứng và các học thuyết tiến hóa",
+            "summary": "Cây phát sinh chủng loại và tiến hóa loài người.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b23",
+            "number": 23,
+            "title": "Bài 23: Môi trường và các nhân tố sinh thái",
+            "chapter": "Chương 6: Môi trường và sinh thái học quần thể",
+            "summary": "Giới hạn sinh thái, ổ sinh thái và quy luật tác động.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b24",
+            "number": 24,
+            "title": "Bài 24: Sinh thái học quần thể",
+            "chapter": "Chương 6: Môi trường và sinh thái học quần thể",
+            "summary": "Các đặc trưng cơ bản của quần thể (mật độ, tỉ lệ giới tính, tháp tuổi, phân bố).",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b25",
+            "number": 25,
+            "title": "Bài 25: Thực hành: Xác định phân bố và kích thước quần thể",
+            "chapter": "Chương 6: Môi trường và sinh thái học quần thể",
+            "summary": "Phương pháp đếm ô vuông và bắt-đánh dấu-thả.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b26",
+            "number": 26,
+            "title": "Bài 26: Quần xã sinh vật",
+            "chapter": "Chương 7: Sinh thái học quần xã",
+            "summary": "Độ đa dạng, loài ưu thế, loài đặc trưng, mối quan hệ hỗ trợ/đối kháng và diễn thế sinh thái.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b27",
+            "number": 27,
+            "title": "Bài 27: Thực hành: Tìm hiểu đặc trưng cơ bản của quần xã",
+            "chapter": "Chương 7: Sinh thái học quần xã",
+            "summary": "Khảo sát thành phần loài trong quần xã tự nhiên.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b28",
+            "number": 28,
+            "title": "Bài 28: Hệ sinh thái",
+            "chapter": "Chương 8: Hệ sinh thái và sinh quyển",
+            "summary": "Thành phần hữu sinh, vô sinh và lưới thức ăn, bậc dinh dưỡng.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b29",
+            "number": 29,
+            "title": "Bài 29: Dòng năng lượng và hiệu suất sinh thái",
+            "chapter": "Chương 8: Hệ sinh thái và sinh quyển",
+            "summary": "Sự truyền năng lượng qua các bậc dinh dưỡng (~10%) và tháp sinh thái.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b30",
+            "number": 30,
+            "title": "Bài 30: Chu trình sinh địa hóa và sinh quyển",
+            "chapter": "Chương 8: Hệ sinh thái và sinh quyển",
+            "summary": "Chu trình carbon, nitrogen và nước.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b31",
+            "number": 31,
+            "title": "Bài 31: Sinh quyển và các khu sinh học",
+            "chapter": "Chương 8: Hệ sinh thái và sinh quyển",
+            "summary": "Khu sinh học trên cạn, nước ngọt và biển.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b32",
+            "number": 32,
+            "title": "Bài 32: Thực hành: Khảo sát hệ sinh thái",
+            "chapter": "Chương 8: Hệ sinh thái và sinh quyển",
+            "summary": "Phân tích chuỗi thức ăn và môi trường hệ sinh thái địa phương.",
+            "questions": []
+          },
+          {
+            "id": "sinhhoc-12-b33",
+            "number": 33,
+            "title": "Bài 33: Sinh học với phát triển bền vững",
+            "chapter": "Chương 9: Sinh học với phát triển bền vững",
+            "summary": "Bảo tồn đa dạng sinh học, kiểm soát dân số và kinh tế tuần hoàn.",
             "questions": []
           }
         ]
@@ -15387,57 +20916,73 @@ export const GRADES_DATA: GradeItem[] = [
           {
             "id": "nguvan-12-b1",
             "number": 1,
-            "title": "Xuân Tóc Đỏ cứu quốc (Vũ Trọng Phụng) & Nỗi buồn chiến tranh",
-            "chapter": "Bài 1: Khả năng lớn lao của tiểu thuyết",
-            "summary": "Nghệ thuật trào phúng và góc nhìn hiện đại.",
+            "title": "Bài 1: Khả năng lớn lao của tiểu thuyết (Xuân Tóc Đỏ cứu quốc, Nỗi buồn chiến tranh)",
+            "chapter": "Tập 1 - Bài 1: Khả năng lớn lao của tiểu thuyết",
+            "summary": "Nghệ thuật trào phúng trong Số đỏ (Vũ Trọng Phụng) và tiểu thuyết hiện đại.",
             "questions": []
           },
           {
             "id": "nguvan-12-b2",
             "number": 2,
-            "title": "Cảm hoài (Đặng Dung) & Tây Tiến (Quang Dũng)",
-            "chapter": "Bài 2: Những thế giới thơ",
-            "summary": "Hào khí anh hùng và chất lãng mạn bi tráng.",
+            "title": "Bài 2: Những thế giới thơ (Cảm hoài, Tây Tiến, Đàn ghi ta của Lor-ca)",
+            "chapter": "Tập 1 - Bài 2: Những thế giới thơ",
+            "summary": "Phong cách lãng mạn, bi tráng và tượng trưng siêu thực trong thơ.",
             "questions": []
           },
           {
             "id": "nguvan-12-b3",
             "number": 3,
-            "title": "Nhìn về vốn văn hóa dân tộc (Trần Đình Hượu)",
-            "chapter": "Bài 3: Lập luận trong văn bản nghị luận",
-            "summary": "Nghệ thuật lập luận chặt chẽ.",
+            "title": "Bài 3: Lập luận trong văn bản nghị luận (Nhìn về vốn văn hóa dân tộc, Năng lực sáng tạo)",
+            "chapter": "Tập 1 - Bài 3: Lập luận trong văn bản nghị luận",
+            "summary": "Nghệ thuật lập luận chặt chẽ, sắc sảo trong văn nghị luận hiện đại.",
             "questions": []
           },
           {
             "id": "nguvan-12-b4",
             "number": 4,
-            "title": "Hải khẩu linh từ & Muối của rừng (Nguyễn Huy Thiệp)",
-            "chapter": "Bài 4: Yếu tố kì ảo trong truyện kể",
-            "summary": "Yếu tố kì ảo phản ánh hiện thực.",
+            "title": "Bài 4: Yếu tố kì ảo trong truyện kể (Hải khẩu linh từ, Muối của rừng)",
+            "chapter": "Tập 1 - Bài 4: Yếu tố kì ảo trong truyện kể",
+            "summary": "Vai trò yếu tố kì ảo trong truyện truyền kì trung đại và truyện ngắn đương đại.",
             "questions": []
           },
           {
             "id": "nguvan-12-b5",
             "number": 5,
-            "title": "Nhân vật quan trọng (Gô-gôn) & Giấu của",
-            "chapter": "Bài 5: Tiếng cười của hài kịch",
-            "summary": "Tình huống và ngôn ngữ hài kịch.",
+            "title": "Bài 5: Tiếng cười của hài kịch (Nhân vật quan trọng, Giấu của)",
+            "chapter": "Tập 1 - Bài 5: Tiếng cười của hài kịch",
+            "summary": "Xung đột, nhân vật và tiếng cười phê phán trong hài kịch.",
             "questions": []
           },
           {
             "id": "nguvan-12-b6",
             "number": 6,
-            "title": "Tuyên ngôn Độc lập & Nhật kí trong tù",
-            "chapter": "Bài 6: Hồ Chí Minh - 'Văn hóa phải soi đường cho quốc dân đi'",
-            "summary": "Văn chính luận và thơ Hồ Chí Minh.",
+            "title": "Bài 6: Hồ Chí Minh – 'Văn hóa phải soi đường cho quốc dân đi' (Tuyên ngôn Độc lập)",
+            "chapter": "Tập 2 - Bài 6: Hồ Chí Minh – “Văn hóa phải soi đường cho quốc dân đi”",
+            "summary": "Tác gia Hồ Chí Minh, Tuyên ngôn Độc lập, Mộ (Chiều tối), Nhật kí trong tù.",
             "questions": []
           },
           {
             "id": "nguvan-12-b7",
             "number": 7,
-            "title": "Nghệ thuật băm thịt gà (Ngô Tất Tố) & Bước vào đời",
-            "chapter": "Bài 7: Sự thật trong tác phẩm kí",
-            "summary": "Tính xác thực trong phóng sự, hồi kí.",
+            "title": "Bài 7: Sự thật trong tác phẩm kí (Nghệ thuật băm thịt gà, Bước vào đời)",
+            "chapter": "Tập 2 - Bài 7: Sự thật trong tác phẩm kí",
+            "summary": "Tính xác thực và cái tôi trữ tình trong phóng sự, hồi kí.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b8",
+            "number": 8,
+            "title": "Bài 8: Dữ liệu trong văn bản thông tin (Pa-ra-na, Giáo dục khai phóng)",
+            "chapter": "Tập 2 - Bài 8: Dữ liệu trong văn bản thông tin",
+            "summary": "Cách sử dụng số liệu, bằng chứng khoa học trong văn bản thông tin.",
+            "questions": []
+          },
+          {
+            "id": "nguvan-12-b9",
+            "number": 9,
+            "title": "Bài 9: Văn học và cuộc đời (Vội vàng, Trở về, Hồn Trương Ba da hàng thịt)",
+            "chapter": "Tập 2 - Bài 9: Văn học và cuộc đời",
+            "summary": "Giá trị nhân văn và sức sống của văn học đối với đời sống con người.",
             "questions": []
           }
         ]
@@ -15873,7 +21418,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 1,
             "title": "Bài 1: Làm quen với Trí tuệ nhân tạo",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Khái niệm AI, AI hẹp và AI tổng quát.",
+            "summary": "Khái niệm AI, học máy (Machine Learning) và ứng dụng AI.",
             "questions": []
           },
           {
@@ -15881,7 +21426,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 2,
             "title": "Bài 2: Trí tuệ nhân tạo trong khoa học và đời sống",
             "chapter": "Chủ đề 1: Máy tính và xã hội tri thức",
-            "summary": "Ứng dụng và cảnh báo rủi ro AI.",
+            "summary": "Lợi ích và cảnh báo rủi ro đạo đức, bảo mật của AI.",
             "questions": []
           },
           {
@@ -15889,7 +21434,7 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 3,
             "title": "Bài 3: Một số thiết bị mạng thông dụng",
             "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "Hub, Switch, Router, Modem, Access Point.",
+            "summary": "Hub, Switch, Router, Access Point, Modem.",
             "questions": []
           },
           {
@@ -15897,78 +21442,446 @@ export const GRADES_DATA: GradeItem[] = [
             "number": 4,
             "title": "Bài 4: Giao thức mạng",
             "chapter": "Chủ đề 2: Mạng máy tính và Internet",
-            "summary": "Giao thức TCP/IP và địa chỉ IP.",
+            "summary": "TCP/IP, địa chỉ IP, DNS, HTTP/HTTPS.",
             "questions": []
           },
           {
             "id": "tinhoc-12-b5",
             "number": 5,
-            "title": "Bài 6: Giao tiếp và ứng xử trong không gian mạng",
-            "chapter": "Chủ đề 3: Đạo đức, pháp luật và văn hóa",
-            "summary": "Tính nhân văn trong không gian mạng.",
+            "title": "Bài 5: Thực hành chia sẻ tài nguyên trên mạng",
+            "chapter": "Chủ đề 2: Mạng máy tính và Internet",
+            "summary": "Chia sẻ thư mục và máy in trong mạng LAN.",
             "questions": []
           },
           {
             "id": "tinhoc-12-b6",
             "number": 6,
-            "title": "Bài 7-12: HTML, liên kết, danh sách, bảng, biểu mẫu (Form) và đa phương tiện",
-            "chapter": "Chủ đề 4: Tạo trang web (HTML & CSS)",
-            "summary": "Cấu trúc trang web HTML5.",
+            "title": "Bài 6: Giao tiếp và ứng xử trong không gian mạng",
+            "chapter": "Chủ đề 3: Đạo đức, pháp luật và văn hóa số",
+            "summary": "Ưu nhược điểm giao tiếp mạng và ứng xử nhân văn.",
             "questions": []
           },
           {
             "id": "tinhoc-12-b7",
             "number": 7,
-            "title": "Bài 13-18: Định dạng trang web với CSS (Bộ chọn, Box Model, Bố cục)",
-            "chapter": "Chủ đề 4: Tạo trang web (HTML & CSS)",
-            "summary": "Thiết kế giao diện web bằng CSS.",
+            "title": "Bài 7: HTML và cấu trúc trang web",
+            "chapter": "Chủ đề 4: Giải quyết vấn đề - HTML",
+            "summary": "Thẻ html, head, title, body và cấu trúc cây DOM.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b8",
+            "number": 8,
+            "title": "Bài 8: Định dạng văn bản",
+            "chapter": "Chủ đề 4: Giải quyết vấn đề - HTML",
+            "summary": "Thẻ h1-h6, p, strong, em, br, hr.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b9",
+            "number": 9,
+            "title": "Bài 9: Tạo danh sách, bảng",
+            "chapter": "Chủ đề 4: Giải quyết vấn đề - HTML",
+            "summary": "Thẻ ul, ol, li, table, tr, th, td.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b10",
+            "number": 10,
+            "title": "Bài 10: Tạo liên kết",
+            "chapter": "Chủ đề 4: Giải quyết vấn đề - HTML",
+            "summary": "Thẻ a, thuộc tính href, liên kết ngoài và liên kết nội bộ.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b11",
+            "number": 11,
+            "title": "Bài 11: Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web",
+            "chapter": "Chủ đề 4: Giải quyết vấn đề - HTML",
+            "summary": "Thẻ img, audio, video, iframe.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b12",
+            "number": 12,
+            "title": "Bài 12: Tạo biểu mẫu",
+            "chapter": "Chủ đề 4: Giải quyết vấn đề - HTML",
+            "summary": "Thẻ form, input, label, select, textarea, button.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b13",
+            "number": 13,
+            "title": "Bài 13: Khái niệm, vai trò của CSS",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề - CSS",
+            "summary": "Cú pháp CSS, internal, external, inline CSS.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b14",
+            "number": 14,
+            "title": "Bài 14: Định dạng văn bản bằng CSS",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề - CSS",
+            "summary": "font-family, font-size, font-weight, text-align.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b15",
+            "number": 15,
+            "title": "Bài 15: Tạo màu cho chữ và nền",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề - CSS",
+            "summary": "color, background-color, hệ màu RGB, HEX.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b16",
+            "number": 16,
+            "title": "Bài 16: Định dạng khung",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề - CSS",
+            "summary": "Box model: margin, border, padding, content.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b17",
+            "number": 17,
+            "title": "Bài 17: Các mức ưu tiên của bộ chọn",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề - CSS",
+            "summary": "Thứ tự ưu tiên inline > id > class > element.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b18",
+            "number": 18,
+            "title": "Bài 18: Thực hành tổng hợp thiết kế trang web",
+            "chapter": "Chủ đề 5: Giải quyết vấn đề - CSS",
+            "summary": "Xây dựng trang web hoàn chỉnh bằng HTML & CSS.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b19",
+            "number": 19,
+            "title": "Bài 19: Dịch vụ sửa chữa và bảo trì máy tính",
+            "chapter": "Chủ đề 6: Hướng nghiệp với Tin học",
+            "summary": "Công việc, kĩ năng của kĩ thuật viên phần cứng/phần mềm.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b20",
+            "number": 20,
+            "title": "Bài 20: Nhóm nghề quản trị thuộc ngành Công nghệ thông tin",
+            "chapter": "Chủ đề 6: Hướng nghiệp với Tin học",
+            "summary": "Quản trị mạng, bảo mật hệ thống thông tin.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b21",
+            "number": 21,
+            "title": "Bài 21: Hội thảo hướng nghiệp",
+            "chapter": "Chủ đề 6: Hướng nghiệp với Tin học",
+            "summary": "Tìm hiểu các ngành đào tạo CNTT và nhu cầu tuyển dụng.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b22",
+            "number": 22,
+            "title": "Bài 22: Tìm hiểu phần mềm tạo trang web",
+            "chapter": "Chủ đề 7: Ứng dụng tin học - Tạo trang web",
+            "summary": "Làm quen nền tảng tạo web không cần code (Google Sites/Mobirise).",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b23",
+            "number": 23,
+            "title": "Bài 23: Chuẩn bị xây dựng trang web",
+            "chapter": "Chủ đề 7: Ứng dụng tin học - Tạo trang web",
+            "summary": "Lập dàn ý cấu trúc website và chuẩn bị tài nguyên.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b24",
+            "number": 24,
+            "title": "Bài 24: Xây dựng phần đầu trang web",
+            "chapter": "Chủ đề 7: Ứng dụng tin học - Tạo trang web",
+            "summary": "Thiết kế header, banner và thanh điều hướng.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b25",
+            "number": 25,
+            "title": "Bài 25: Xây dựng phần thân và chân trang web",
+            "chapter": "Chủ đề 7: Ứng dụng tin học - Tạo trang web",
+            "summary": "Bố cục nội dung chính và footer.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b26",
+            "number": 26,
+            "title": "Bài 26: Liên kết và thanh điều hướng",
+            "chapter": "Chủ đề 7: Ứng dụng tin học - Tạo trang web",
+            "summary": "Tạo menu đa cấp và liên kết các trang con.",
+            "questions": []
+          },
+          {
+            "id": "tinhoc-12-b27",
+            "number": 27,
+            "title": "Bài 27: Biểu mẫu trên trang web",
+            "chapter": "Chủ đề 7: Ứng dụng tin học - Tạo trang web",
+            "summary": "Nhúng biểu mẫu thu thập phản hồi và xuất bản website.",
             "questions": []
           }
         ]
       },
       {
         "id": "congnghe-12",
-        "name": "Công nghệ (Điện - Điện tử)",
-        "icon": "🛠️",
+        "name": "Công nghệ (Điện – Điện tử)",
+        "icon": "🔌",
         "lessons": [
           {
             "id": "congnghe-12-b1",
             "number": 1,
             "title": "Bài 1: Vai trò và triển vọng phát triển của ngành kĩ thuật điện tử",
             "chapter": "Phần một: Kĩ thuật điện tử",
-            "summary": "Ứng dụng điện tử trong công nghiệp và đời sống.",
+            "summary": "Ứng dụng điện tử trong công nghiệp, y tế, giao thông và đời sống.",
             "questions": []
           },
           {
             "id": "congnghe-12-b2",
             "number": 2,
-            "title": "Bài 2-5: Linh kiện điện tử (Điện trở, Tụ điện, Cuộn cảm, Diode, Transistor, IC)",
-            "chapter": "Phần một: Kĩ thuật điện tử",
-            "summary": "Kí hiệu, thông số và công dụng linh kiện.",
+            "title": "Bài 2: Điện trở – Tụ điện – Cuộn cảm",
+            "chapter": "Chương 1: Linh kiện điện tử",
+            "summary": "Công dụng, thông số kĩ thuật và đọc trị số vòng màu điện trở.",
             "questions": []
           },
           {
             "id": "congnghe-12-b3",
             "number": 3,
-            "title": "Bài 6-10: Mạch khuếch đại, mạch tạo xung, mạch chỉnh lưu và mạch điện tử số (cổng logic)",
-            "chapter": "Phần một: Kĩ thuật điện tử",
-            "summary": "Cổng AND, OR, NOT, NAND, NOR.",
+            "title": "Bài 3: Thực hành: Điện trở – Tụ điện – Cuộn cảm",
+            "chapter": "Chương 1: Linh kiện điện tử",
+            "summary": "Đo kiểm tra chất lượng R, C, L bằng đồng hồ vạn năng.",
             "questions": []
           },
           {
             "id": "congnghe-12-b4",
             "number": 4,
-            "title": "Bài 11-16: Mạch điện xoay chiều ba pha, Máy biến áp ba pha, Động cơ không đồng bộ ba pha",
-            "chapter": "Phần hai: Kĩ thuật điện",
-            "summary": "Nối hình sao (Y) và hình tam giác (Δ).",
+            "title": "Bài 4: Linh kiện bán dẫn và IC",
+            "chapter": "Chương 1: Linh kiện điện tử",
+            "summary": "Diode, Transistor lưỡng cực (BJT), Thyristor, Triac và mạch tích hợp IC.",
             "questions": []
           },
           {
             "id": "congnghe-12-b5",
             "number": 5,
-            "title": "Bài 17-20: Mạng điện hạ áp trong gia đình và An toàn điện",
-            "chapter": "Phần hai: Kĩ thuật điện",
-            "summary": "Sơ đồ mạng điện sinh hoạt và phòng chống tai nạn điện.",
+            "title": "Bài 5: Thực hành: Diode – Thyristor – Triac",
+            "chapter": "Chương 1: Linh kiện điện tử",
+            "summary": "Đo phân cực thuận/nghịch kiểm tra linh kiện bán dẫn.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b6",
+            "number": 6,
+            "title": "Bài 6: Thực hành: Transistor",
+            "chapter": "Chương 1: Linh kiện điện tử",
+            "summary": "Xác định cực B, C, E và loại NPN/PNP của transistor.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b7",
+            "number": 7,
+            "title": "Bài 7: Khái niệm mạch điện tử – Chỉnh lưu – Nguồn một chiều",
+            "chapter": "Chương 2: Một số mạch điện tử cơ bản",
+            "summary": "Biến đổi AC thành DC qua mạch chỉnh lưu nửa chu kì, hai nửa chu kì.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b8",
+            "number": 8,
+            "title": "Bài 8: Mạch khuếch đại – Mạch tạo xung",
+            "chapter": "Chương 2: Một số mạch điện tử cơ bản",
+            "summary": "Khuếch đại thuật toán (Op-Amp) và mạch tạo xung đa hài.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b9",
+            "number": 9,
+            "title": "Bài 9: Thiết kế mạch điện tử đơn giản",
+            "chapter": "Chương 2: Một số mạch điện tử cơ bản",
+            "summary": "Nguyên tắc và các bước thiết kế mạch điện tử.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b10",
+            "number": 10,
+            "title": "Bài 10: Thực hành: Mạch nguồn điện một chiều",
+            "chapter": "Chương 2: Một số mạch điện tử cơ bản",
+            "summary": "Khảo sát khối biến áp, chỉnh lưu, lọc và ổn áp.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b11",
+            "number": 11,
+            "title": "Bài 11: Thực hành: Lắp mạch nguồn chỉnh lưu cầu",
+            "chapter": "Chương 2: Một số mạch điện tử cơ bản",
+            "summary": "Lắp và đo điện áp đầu ra mạch chỉnh lưu cầu có tụ lọc.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b12",
+            "number": 12,
+            "title": "Bài 12: Thực hành: Điều chỉnh thông số mạch tạo xung đa hài",
+            "chapter": "Chương 2: Một số mạch điện tử cơ bản",
+            "summary": "Thay đổi R, C để điều chỉnh chu kì nhấp nháy LED.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b13",
+            "number": 13,
+            "title": "Bài 13: Khái niệm về mạch điện tử điều khiển",
+            "chapter": "Chương 3: Mạch điện tử điều khiển đơn giản",
+            "summary": "Sơ đồ khối và phân loại mạch điều khiển.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b14",
+            "number": 14,
+            "title": "Bài 14: Mạch điều khiển tín hiệu",
+            "chapter": "Chương 3: Mạch điện tử điều khiển đơn giản",
+            "summary": "Điều khiển đèn giao thông, bảng quảng cáo, báo cháy.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b15",
+            "number": 15,
+            "title": "Bài 15: Mạch điều khiển tốc độ động cơ xoay chiều một pha",
+            "chapter": "Chương 3: Mạch điện tử điều khiển đơn giản",
+            "summary": "Điều khiển điện áp dùng Triac hoặc thay đổi tần số.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b16",
+            "number": 16,
+            "title": "Bài 16: Thực hành: Mạch điều khiển tốc độ động cơ một pha",
+            "chapter": "Chương 3: Mạch điện tử điều khiển đơn giản",
+            "summary": "Lắp ráp và thử nghiệm mạch điều chỉnh tốc độ quạt.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b17",
+            "number": 17,
+            "title": "Bài 17: Khái niệm về hệ thống thông tin và viễn thông",
+            "chapter": "Chương 4: Một số thiết bị điện tử dân dụng",
+            "summary": "Khối phát, kênh truyền và khối thu thông tin.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b18",
+            "number": 18,
+            "title": "Bài 18: Máy tăng âm",
+            "chapter": "Chương 4: Một số thiết bị điện tử dân dụng",
+            "summary": "Sơ đồ khối khuếch đại âm tần và nguyên lí hoạt động.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b19",
+            "number": 19,
+            "title": "Bài 19: Máy thu thanh",
+            "chapter": "Chương 4: Một số thiết bị điện tử dân dụng",
+            "summary": "Điều chế AM/FM và nguyên lí thu sóng vô tuyến.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b20",
+            "number": 20,
+            "title": "Bài 20: Máy thu hình",
+            "chapter": "Chương 4: Một số thiết bị điện tử dân dụng",
+            "summary": "Tín hiệu hình, tiếng và công nghệ màn hình LCD/OLED.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b21",
+            "number": 21,
+            "title": "Bài 21: Thực hành: Mạch khuếch đại âm tần",
+            "chapter": "Chương 4: Một số thiết bị điện tử dân dụng",
+            "summary": "Kiểm tra và vận hành mạch khuếch đại âm thanh.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b22",
+            "number": 22,
+            "title": "Bài 22: Hệ thống điện quốc gia",
+            "chapter": "Chương 5: Mạch điện xoay chiều ba pha",
+            "summary": "Nguồn điện, lưới điện truyền tải cao áp và hộ tiêu thụ.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b23",
+            "number": 23,
+            "title": "Bài 23: Mạch điện xoay chiều ba pha",
+            "chapter": "Chương 5: Mạch điện xoay chiều ba pha",
+            "summary": "Cách nối hình sao (Y) và hình tam giác (Δ); Ud = √3 Up (nối sao).",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b24",
+            "number": 24,
+            "title": "Bài 24: Thực hành: Nối tải ba pha hình sao và hình tam giác",
+            "chapter": "Chương 5: Mạch điện xoay chiều ba pha",
+            "summary": "Đo điện áp dây và điện áp pha.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b25",
+            "number": 25,
+            "title": "Bài 25: Máy điện xoay chiều ba pha – Máy biến áp ba pha",
+            "chapter": "Chương 6: Máy điện ba pha",
+            "summary": "Cấu tạo, nguyên lí và hệ số biến áp ba pha.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b26",
+            "number": 26,
+            "title": "Bài 26: Động cơ không đồng bộ ba pha",
+            "chapter": "Chương 6: Máy điện ba pha",
+            "summary": "Từ trường quay, hệ số trượt s và mở máy động cơ.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b27",
+            "number": 27,
+            "title": "Bài 27: Thực hành: Tìm hiểu động cơ không đồng bộ ba pha",
+            "chapter": "Chương 6: Máy điện ba pha",
+            "summary": "Đọc nhãn thông số và đấu dây sao/tam giác.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b28",
+            "number": 28,
+            "title": "Bài 28: Mạng điện hạ thế dùng trong sinh hoạt",
+            "chapter": "Chương 7: Mạng điện hạ thế",
+            "summary": "Cấu trúc tủ phân phối tổng, dây pha, dây trung tính và dây nối đất.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b29",
+            "number": 29,
+            "title": "Bài 29: An toàn điện",
+            "chapter": "Chương 7: Mạng điện hạ thế",
+            "summary": "Biện pháp phòng tránh điện giật, aptomat chống giật (ELCB/RCBO) và sơ cứu.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b30",
+            "number": 30,
+            "title": "Bài 30: Thực hành: Khám phá thông số thiết bị đóng cắt trong gia đình",
+            "chapter": "Chương 7: Mạng điện hạ thế",
+            "summary": "Kiểm tra thông số MCB, ổ cắm, dây dẫn.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-12-b31",
+            "number": 31,
+            "title": "Bài 31: Thiết kế mạng điện trong nhà",
+            "chapter": "Chương 7: Mạng điện hạ thế",
+            "summary": "Tính chọn tiết diện dây dẫn và thiết bị bảo vệ cho gia đình.",
             "questions": []
           }
         ]
@@ -16056,6 +21969,418 @@ export const GRADES_DATA: GradeItem[] = [
             "title": "Unit 10: Lifelong Learning",
             "chapter": "Unit 10: Lifelong Learning",
             "summary": "Reported speech: orders, requests, offers, and advice.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "congnghe-lamthuy-12",
+        "name": "Công nghệ (Lâm nghiệp – Thủy sản)",
+        "icon": "🌲",
+        "lessons": [
+          {
+            "id": "congnghe-lamthuy-12-b1",
+            "number": 1,
+            "title": "Bài 1: Vai trò và triển vọng của lâm nghiệp",
+            "chapter": "Chương 1: Giới thiệu chung về lâm nghiệp",
+            "summary": "Vai trò kinh tế, sinh thái, phòng hộ và triển vọng ngành lâm nghiệp.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b2",
+            "number": 2,
+            "title": "Bài 2: Các hoạt động lâm nghiệp cơ bản và nguyên nhân suy thoái rừng",
+            "chapter": "Chương 1: Giới thiệu chung về lâm nghiệp",
+            "summary": "Lâm sinh, khai thác, chế biến và nguyên nhân mất rừng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b3",
+            "number": 3,
+            "title": "Bài 3: Vai trò, nhiệm vụ của trồng và chăm sóc rừng",
+            "chapter": "Chương 2: Trồng và chăm sóc rừng",
+            "summary": "Phủ xanh đất trống đồi trọc và nâng cao năng suất rừng.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b4",
+            "number": 4,
+            "title": "Bài 4: Quy luật sinh trưởng và phát triển của cây rừng",
+            "chapter": "Chương 2: Trồng và chăm sóc rừng",
+            "summary": "Các giai đoạn phát triển từ cây mầm đến thành thục.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b5",
+            "number": 5,
+            "title": "Bài 5: Kĩ thuật trồng và chăm sóc rừng",
+            "chapter": "Chương 2: Trồng và chăm sóc rừng",
+            "summary": "Làm đất, trồng cây, làm cỏ, bón phân và tỉa thưa.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b6",
+            "number": 6,
+            "title": "Bài 6: Ý nghĩa, nhiệm vụ, thực trạng bảo vệ và khai thác rừng",
+            "chapter": "Chương 3: Bảo vệ và khai thác tài nguyên rừng bền vững",
+            "summary": "Thực trạng rừng tự nhiên, rừng trồng và bảo tồn đa dạng sinh học.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b7",
+            "number": 7,
+            "title": "Bài 7: Biện pháp bảo vệ và khai thác tài nguyên rừng",
+            "chapter": "Chương 3: Bảo vệ và khai thác tài nguyên rừng bền vững",
+            "summary": "Phòng cháy chữa cháy rừng, khai thác chọn và chứng chỉ FSC.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b8",
+            "number": 8,
+            "title": "Bài 8: Vai trò và triển vọng của thủy sản",
+            "chapter": "Chương 4: Giới thiệu chung về thủy sản",
+            "summary": "Xuất khẩu thủy sản, an ninh lương thực và nuôi biển công nghệ cao.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b9",
+            "number": 9,
+            "title": "Bài 9: Các nhóm thủy sản và phương thức nuôi phổ biến",
+            "chapter": "Chương 4: Giới thiệu chung về thủy sản",
+            "summary": "Nuôi quảng canh, bán thâm canh, thâm canh và siêu thâm canh.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b10",
+            "number": 10,
+            "title": "Bài 10: Giới thiệu về môi trường nuôi thủy sản",
+            "chapter": "Chương 5: Môi trường nuôi thủy sản",
+            "summary": "Các chỉ số pH, nhiệt độ, độ mặn, oxy hòa tan (DO), NH3.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b11",
+            "number": 11,
+            "title": "Bài 11: Quản lí môi trường nuôi thủy sản",
+            "chapter": "Chương 5: Môi trường nuôi thủy sản",
+            "summary": "Đo đạc, theo dõi chất lượng nước ao nuôi.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b12",
+            "number": 12,
+            "title": "Bài 12: Biện pháp xử lí môi trường nuôi thủy sản",
+            "chapter": "Chương 5: Môi trường nuôi thủy sản",
+            "summary": "Sục khí, dùng chế phẩm sinh học (EM), xử lí bùn đáy.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b13",
+            "number": 13,
+            "title": "Bài 13: Vai trò của giống thủy sản",
+            "chapter": "Chương 6: Công nghệ giống thủy sản",
+            "summary": "Chất lượng con giống quyết định năng suất và tỉ lệ sống.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b14",
+            "number": 14,
+            "title": "Bài 14: Sinh sản của cá và tôm",
+            "chapter": "Chương 6: Công nghệ giống thủy sản",
+            "summary": "Sinh sản nhân tạo cá và quy trình ươm nuôi ấu trùng tôm.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b15",
+            "number": 15,
+            "title": "Bài 15: Ứng dụng công nghệ sinh học trong chọn và nhân giống thủy sản",
+            "chapter": "Chương 6: Công nghệ giống thủy sản",
+            "summary": "Chọn giống bằng chỉ thị phân tử và sản xuất giống đơn tính.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b16",
+            "number": 16,
+            "title": "Bài 16: Thức ăn thủy sản",
+            "chapter": "Chương 7: Công nghệ thức ăn thủy sản",
+            "summary": "Thức ăn tự nhiên và thức ăn công nghiệp dạng viên nổi/chìm.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b17",
+            "number": 17,
+            "title": "Bài 17: Phương pháp bảo quản và chế biến thức ăn thủy sản",
+            "chapter": "Chương 7: Công nghệ thức ăn thủy sản",
+            "summary": "Bảo quản thức ăn chống ẩm mốc và phối trộn hợp lí.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b18",
+            "number": 18,
+            "title": "Bài 18: Ứng dụng công nghệ sinh học trong chế biến thức ăn thủy sản",
+            "chapter": "Chương 7: Công nghệ thức ăn thủy sản",
+            "summary": "Bổ sung enzyme, probiotic nâng cao khả năng tiêu hóa.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b19",
+            "number": 19,
+            "title": "Bài 19: Công nghệ nuôi một số loài thủy sản phổ biến ở Việt Nam",
+            "chapter": "Chương 8: Công nghệ nuôi thủy sản",
+            "summary": "Quy trình nuôi tôm thẻ chân trắng, cá tra, ngao.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b20",
+            "number": 20,
+            "title": "Bài 20: Nuôi thủy sản theo tiêu chuẩn VietGAP",
+            "chapter": "Chương 8: Công nghệ nuôi thủy sản",
+            "summary": "Đảm bảo an toàn vệ sinh, không tồn dư kháng sinh.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b21",
+            "number": 21,
+            "title": "Bài 21: Một số ứng dụng công nghệ cao trong nuôi thủy sản",
+            "chapter": "Chương 8: Công nghệ nuôi thủy sản",
+            "summary": "Công nghệ Biofloc, tuần hoàn RAS và IoT giám sát ao nuôi.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b22",
+            "number": 22,
+            "title": "Bài 22: Bảo quản và chế biến sản phẩm thủy sản",
+            "chapter": "Chương 8: Công nghệ nuôi thủy sản",
+            "summary": "Cấp đông nhanh (IQF), chế biến phi lê và đồ hộp.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b23",
+            "number": 23,
+            "title": "Bài 23: Vai trò của phòng, trị bệnh thủy sản",
+            "chapter": "Chương 9: Phòng, trị bệnh thủy sản",
+            "summary": "Quản lí sức khỏe thủy sản và giảm thiệt hại dịch bệnh.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b24",
+            "number": 24,
+            "title": "Bài 24: Một số bệnh thủy sản phổ biến và biện pháp phòng, trị",
+            "chapter": "Chương 9: Phòng, trị bệnh thủy sản",
+            "summary": "Bệnh đốm trắng, hoại tử gan tụy ở tôm; xuất huyết ở cá.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b25",
+            "number": 25,
+            "title": "Bài 25: Ứng dụng công nghệ sinh học trong phòng, trị bệnh thủy sản",
+            "chapter": "Chương 9: Phòng, trị bệnh thủy sản",
+            "summary": "Kit chẩn đoán nhanh, vaccine cho cá và chế phẩm sinh học.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b26",
+            "number": 26,
+            "title": "Bài 26: Bảo vệ nguồn lợi thủy sản",
+            "chapter": "Chương 10: Bảo vệ và khai thác nguồn lợi thủy sản",
+            "summary": "Chống đánh bắt hủy diệt, bảo vệ khu bảo tồn biển và mùa sinh sản.",
+            "questions": []
+          },
+          {
+            "id": "congnghe-lamthuy-12-b27",
+            "number": 27,
+            "title": "Bài 27: Khai thác nguồn lợi thủy sản bền vững",
+            "chapter": "Chương 10: Bảo vệ và khai thác nguồn lợi thủy sản",
+            "summary": "Chống khai thác IUU, truy xuất nguồn gốc và khai thác xa bờ.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdqp-12",
+        "name": "Giáo dục quốc phòng và an ninh",
+        "icon": "🛡️",
+        "lessons": [
+          {
+            "id": "gdqp-12-b1",
+            "number": 1,
+            "title": "Bài 1: Bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa sau năm 1975",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Lịch sử cuộc chiến đấu bảo vệ biên giới Tây Nam, biên giới phía Bắc và biển đảo.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b2",
+            "number": 2,
+            "title": "Bài 2: Tổ chức Quân đội nhân dân và Công an nhân dân Việt Nam",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Hệ thống tổ chức, quân binh chủng và lực lượng Công an nhân dân.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b3",
+            "number": 3,
+            "title": "Bài 3: Công tác tuyển sinh, đào tạo trong các trường Quân đội và Công an",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Điều kiện, tiêu chuẩn dự tuyển vào các học viện, nhà trường quân đội, công an.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b4",
+            "number": 4,
+            "title": "Bài 4: Phòng chống chiến lược 'diễn biến hòa bình', bạo loạn lật đổ",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Nhận diện âm mưu thủ đoạn và trách nhiệm bảo vệ nền tảng tư tưởng.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b5",
+            "number": 5,
+            "title": "Bài 5: Truyền thống và nghệ thuật đánh giặc giữ nước của địa phương",
+            "chapter": "Phần kiến thức chung",
+            "summary": "Đặc trưng nghệ thuật quân sự nhân dân và truyền thống địa phương.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b6",
+            "number": 6,
+            "title": "Bài 6: Kĩ thuật bắn súng tiểu liên AK (Nâng cao)",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Luyện tập ngắm bắn mục tiêu cố định và xử lí tình huống bắn.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b7",
+            "number": 7,
+            "title": "Bài 7: Tìm và giữ phương hướng",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Sử dụng địa bàn, bản đồ, mặt trời, sao Bắc Đẩu xác định phương hướng.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b8",
+            "number": 8,
+            "title": "Bài 8: Vận dụng các tư thế, động tác cơ bản vận động trong chiến đấu",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Lựa chọn tư thế vận động phù hợp địa hình, địa vật.",
+            "questions": []
+          },
+          {
+            "id": "gdqp-12-b9",
+            "number": 9,
+            "title": "Bài 9: Chạy vũ trang",
+            "chapter": "Phần kĩ thuật quân sự",
+            "summary": "Kĩ thuật mang vác vũ khí và chạy bền rèn luyện thể lực quân sự.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "gdtc-12",
+        "name": "Giáo dục thể chất",
+        "icon": "🏃",
+        "lessons": [
+          {
+            "id": "gdtc-12-b1",
+            "number": 1,
+            "title": "Định hướng nghề thể thao và duy trì lối sống năng động",
+            "chapter": "Phần 1: Kiến thức chung",
+            "summary": "Các ngành nghề thể dục thể thao và duy trì tập luyện suốt đời.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b2",
+            "number": 2,
+            "title": "Bóng đá 12: Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Tổ chức đội hình 7 người, 11 người và luật thi đấu bóng đá.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b3",
+            "number": 3,
+            "title": "Bóng chuyền 12: Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Phối hợp tấn công nhanh, phòng thủ hàng sau và trọng tài.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b4",
+            "number": 4,
+            "title": "Bóng rổ 12: Hoàn thiện kĩ chiến thuật thi đấu",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Phản công nhanh, kèm người toàn sân và luật thi đấu.",
+            "questions": []
+          },
+          {
+            "id": "gdtc-12-b5",
+            "number": 5,
+            "title": "Cầu lông 12: Hoàn thiện kĩ chiến thuật đánh đơn, đánh đôi",
+            "chapter": "Phần 2: Thể thao tự chọn",
+            "summary": "Chiến thuật điều cầu, tấn công và luật thi đấu cầu lông.",
+            "questions": []
+          }
+        ]
+      },
+      {
+        "id": "hdtn-12",
+        "name": "Hoạt động trải nghiệm, hướng nghiệp",
+        "icon": "🌟",
+        "lessons": [
+          {
+            "id": "hdtn-12-b1",
+            "number": 1,
+            "title": "Chủ đề 1: Phát triển các mối quan hệ tốt đẹp với thầy cô và bạn bè",
+            "chapter": "Chủ đề 1: Phát triển quan hệ tốt đẹp",
+            "summary": "Gìn giữ kỉ niệm tuổi học trò và kĩ năng hợp tác trưởng thành.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b2",
+            "number": 2,
+            "title": "Chủ đề 2–3: Tôi trưởng thành và hoàn thiện bản thân",
+            "chapter": "Chủ đề 2–3: Tôi trưởng thành",
+            "summary": "Tư duy phản biện, trách nhiệm công dân và bản lĩnh vượt áp lực.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b3",
+            "number": 3,
+            "title": "Chủ đề 4: Trách nhiệm với gia đình và tự lập tài chính",
+            "chapter": "Chủ đề 4: Trách nhiệm với gia đình",
+            "summary": "Chuẩn bị tâm thế tự lập khi bước vào đại học hoặc đi làm.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b4",
+            "number": 4,
+            "title": "Chủ đề 5: Tổ chức hoạt động tình nguyện và công dân số",
+            "chapter": "Chủ đề 5: Tham gia phát triển cộng đồng",
+            "summary": "Ứng xử có trách nhiệm trong cộng đồng và xã hội số.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b5",
+            "number": 5,
+            "title": "Chủ đề 6: Hành động vì phát triển bền vững",
+            "chapter": "Chủ đề 6: Bảo vệ môi trường",
+            "summary": "Thực hiện sáng kiến bảo vệ tài nguyên và môi trường.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b6",
+            "number": 6,
+            "title": "Chủ đề 7: Tìm hiểu hệ thống đào tạo đại học, cao đẳng, nghề nghiệp",
+            "chapter": "Chủ đề 7: Tư vấn tuyển sinh và chọn nghề",
+            "summary": "Phân tích chỉ tiêu tuyển sinh, cơ hội việc làm và xu hướng ngành nghề.",
+            "questions": []
+          },
+          {
+            "id": "hdtn-12-b7",
+            "number": 7,
+            "title": "Chủ đề 8: Hoàn thiện hồ sơ định hướng nghề nghiệp tương lai",
+            "chapter": "Chủ đề 8: Hồ sơ và quyết định nghề nghiệp",
+            "summary": "Xây dựng CV, kế hoạch học tập đại học hoặc gia nhập thị trường lao động.",
             "questions": []
           }
         ]
